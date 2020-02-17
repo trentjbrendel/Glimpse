@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1252" ?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-    <Product Name="Glimpse 0.1 BETA" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.1.2">
-        <Package Id="*" Keywords="Installer" Description="Glimpse 0.1 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="100" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
+    <Product Name="Glimpse 0.1.2 BETA" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.1.2">
+        <Package Id="*" Keywords="Installer" Description="Glimpse 0.1.2 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="100" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
         <Condition Message="You must be an administrator to install Glimpse Image Editor.">
             Privileged
         </Condition>
@@ -12,16 +12,16 @@
           AllowDowngrades = "no"
           DowngradeErrorMessage = "Setup detected that a later version of Glimpse Image Editor is already installed." />
         <Media Id="1" Cabinet="Glimpse.cab" EmbedCab="yes" DiskPrompt="CD-ROM #1" />
-        <Property Id="DiskPrompt" Value="Glimpse 0.1 Installation [1]" />
+        <Property Id="DiskPrompt" Value="Glimpse 0.1.2 Installation [1]" />
         <Directory Id="TARGETDIR" Name="SourceDir">
             <Directory Id="ProgramFilesFolder" Name="PFiles">
                 <Directory Id="Glimpse" Name="Glimpse Image Editor">
-                    <Directory Id="INSTALLDIR" Name="Glimpse 0.1 BETA">
+                    <Directory Id="INSTALLDIR" Name="Glimpse 0.1.2 BETA">
                         <Directory Id="bin" Name="bin">
                             <Component Id="MainExecutable" Guid="YOUR-GUID-HERE">
                                 <File Id="GlimpseEXE" Name="Glimpse.exe" DiskId="1" Source="InputFiles32\bin\glimpse.exe" KeyPath="yes">
-                                    <Shortcut Id="startmenuGlimpse01" Directory="ProgramMenuDir" Name="Glimpse 0.1 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
-                                    <Shortcut Id="desktopGlimpse01" Directory="DesktopFolder" Name="Glimpse 0.1 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
+                                    <Shortcut Id="startmenuGlimpse01" Directory="ProgramMenuDir" Name="Glimpse 0.1.2 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
+                                    <Shortcut Id="desktopGlimpse01" Directory="DesktopFolder" Name="Glimpse 0.1.2 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
                                 </File>
                                 <File Id="fil71B798DBEB07E7F6C4FA95E0C226B628" DiskId="1" Source="InputFiles32\bin\2to3" />
                                 <File Id="fil30E4CEC67D78A4B395FF10B811FF36C4" DiskId="1" Source="InputFiles32\bin\2to3-2.7" />
