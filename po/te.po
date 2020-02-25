@@ -14919,6 +14919,7 @@ msgstr ""
 "Chavakiran (GNU I.M.P) <chavakiran@suravara.com>\n"
 "Murali Rayala (GNU I.M.P) <murali@suravara.com>\n"
 "Katta Vijay (GNU I.M.P) <katta.vijayk@gmail.com>"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14955,6 +14956,8 @@ msgstr ""
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

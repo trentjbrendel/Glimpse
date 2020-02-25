@@ -14680,6 +14680,7 @@ msgstr ""
 "Laurent Monin (GNU I.M.P) <gimp@norz.org>\n"
 "Yannick Tailliez (GNU I.M.P) <ytdispatch-libre@yahoo.com>"
 
+<<<<<<< HEAD
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
 msgid "New version available!"
@@ -14717,6 +14718,9 @@ msgid "Check for updates"
 msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
+=======
+#: ../app/dialogs/about-dialog.c:530
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 msgid "Glimpse is brought to you by"
 msgstr "Glimpse vous est présenté par"
 

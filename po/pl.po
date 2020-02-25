@@ -14552,6 +14552,7 @@ msgstr ""
 "Robert Gomulka (GNU I.M.P) <carramba@epf.pl>, 2008\n"
 "Piotr Drąg (GNU I.M.P) <piotrdrag@gmail.com>, 2011-2019\n"
 "Aviary.pl (GNU I.M.P) <community-poland@mozilla.org>, 2011-2019"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14588,6 +14589,8 @@ msgstr "Ostatnio używane: %s"
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

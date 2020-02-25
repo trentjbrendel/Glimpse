@@ -14996,6 +14996,7 @@ msgstr ""
 "Mantas Kriaučiūnas (GNU I.M.P) <mantas@akl.lt>\n"
 "Eglė Kriaučiūnienė (GNU I.M.P) <egle@akl.lt>\n"
 "Karina Gribanova (GNU I.M.P) <buratina@delfi.lt>"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -15018,6 +15019,8 @@ msgid ""
 "A new version of Glimpse (%s) was released on %s.\n"
 "It is recommended to update."
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:352
 #, fuzzy

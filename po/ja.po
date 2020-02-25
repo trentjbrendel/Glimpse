@@ -14960,6 +14960,7 @@ msgstr ""
 "Takashi Kido (GNU I.M.P)\n"
 "willelz (GNU I.M.P)"
 
+<<<<<<< HEAD
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
 msgid "New version available!"
@@ -14997,6 +14998,9 @@ msgid "Check for updates"
 msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
+=======
+#: ../app/dialogs/about-dialog.c:530
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 msgid "Glimpse is brought to you by"
 msgstr "GIMP の提供は"
 

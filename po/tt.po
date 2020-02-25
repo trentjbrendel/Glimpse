@@ -15359,6 +15359,7 @@ msgstr "Glimpse säxifäsen açu"
 #: ../app/dialogs/about-dialog.c:141
 msgid "translator-credits"
 msgstr "Albert Fazlí (GNU I.M.P) <tatarish.l10n@gmail.com>"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 msgid "New version available!"
@@ -15393,6 +15394,8 @@ msgstr ""
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

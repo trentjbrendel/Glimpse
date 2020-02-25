@@ -14661,6 +14661,7 @@ msgstr "Visiteu el web del GIMP"
 #: ../app/dialogs/about-dialog.c:141
 msgid "translator-credits"
 msgstr "Softcatalà - www.softcatala.cat (GNU I.M.P)"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14688,6 +14689,8 @@ msgstr ""
 #, fuzzy
 msgid "Go to download page"
 msgstr "%s per a aclarir"
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:366
 #, fuzzy, c-format

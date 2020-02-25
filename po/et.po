@@ -14956,6 +14956,7 @@ msgstr ""
 "Priit Laes (GNU I.M.P) <plaes plaes org>, 2007, 2008\n"
 "Alexia Death (GNU I.M.P) <alexiadeath gmail com> 2008, 2009\n"
 "Mattias Põldaru (GNU I.M.P) <mahfiaz gmail com> 2008, 2009."
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14992,6 +14993,8 @@ msgstr ""
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

@@ -15002,6 +15002,7 @@ msgstr "Xin hãy ghé thăm nơi Mạng GIMP"
 #: ../app/dialogs/about-dialog.c:141
 msgid "translator-credits"
 msgstr "Nhóm Việt hóa Gnome (GNU I.M.P) <gnomevi-list@lists.sourceforge.net>"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -15038,6 +15039,8 @@ msgstr ""
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

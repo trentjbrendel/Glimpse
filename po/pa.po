@@ -14942,6 +14942,7 @@ msgid "translator-credits"
 msgstr ""
 "ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ (GNU I.M.P)\n"
 "A S Alam (GNU I.M.P)"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14964,6 +14965,8 @@ msgid ""
 "A new version of Glimpse (%s) was released on %s.\n"
 "It is recommended to update."
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:352
 #, fuzzy

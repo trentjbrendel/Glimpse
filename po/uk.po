@@ -14466,6 +14466,7 @@ msgstr ""
 "Андрій Бандура (GNU I.M.P) <andriykopanytsia@gmail.com>\n"
 "Максим Дзюманенко (GNU I.M.P) <dziumanenko@gmail.com>\n"
 "Daniel Korostil (GNU I.M.P) <ted.korostiled@gmail.com>"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14502,6 +14503,8 @@ msgstr "Дата використання: %s"
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

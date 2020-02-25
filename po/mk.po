@@ -16171,6 +16171,7 @@ msgstr "Посетете ја страницата на GIMP"
 #: ../app/dialogs/about-dialog.c:141
 msgid "translator-credits"
 msgstr "Марко Дода (GNU I.M.P)"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -16203,6 +16204,8 @@ msgstr "%s за да симнете"
 #, c-format
 msgid "Last checked on %s"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"

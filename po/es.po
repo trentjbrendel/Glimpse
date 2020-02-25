@@ -14639,6 +14639,7 @@ msgstr ""
 "Francisco Javier F. Serrador (GNU I.M.P)\n"
 "Pablo G. del Campo (GNU I.M.P)\n"
 "Francisco Vila (GNU I.M.P)"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14675,6 +14676,8 @@ msgstr "Usado por última vez: %s"
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

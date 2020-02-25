@@ -14925,6 +14925,7 @@ msgstr ""
 "최지희 (GNU I.M.P) <like.a.dust@gmail.com>, 2007\n"
 "장동수 (GNU I.M.P) <iolo@hellocity.net>, 2003-2006\n"
 "남성현 (GNU I.M.P) <namsh@kldp.org>, 1998, 1999"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14952,6 +14953,8 @@ msgstr ""
 #, fuzzy
 msgid "Go to download page"
 msgstr "%s을(를) 닷징(Dodge)합니다."
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:366
 #, c-format

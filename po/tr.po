@@ -14511,6 +14511,7 @@ msgstr ""
 "Muhammet Kara (GNU I.M.P) <muhammetk@gmail.com>\n"
 "Sabri Ünal (GNU I.M.P) <libreajans@gmail.com>, 2019\n"
 "Emin Tufan Çetin (GNU I.M.P) <etcetin@gmail.com>, 2019."
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14547,6 +14548,8 @@ msgstr "Son kullanılan: %s"
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

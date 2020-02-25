@@ -15009,6 +15009,7 @@ msgid "translator-credits"
 msgstr ""
 "रविशंकर श्रीवास्तव (GNU I.M.P) (raviratlami@yahoo.com)\n"
 "राजेश रंजन (GNU I.M.P) (rajeshkajha@yahoo.com)"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 msgid "New version available!"
@@ -15030,6 +15031,8 @@ msgid ""
 "A new version of Glimpse (%s) was released on %s.\n"
 "It is recommended to update."
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:352
 msgid "Go to download page"

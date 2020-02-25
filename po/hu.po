@@ -14577,6 +14577,7 @@ msgstr ""
 "Süveg Gábor (GNU I.M.P)\n"
 "Tímár András (GNU I.M.P)\n"
 "Úr Balázs (GNU I.M.P)"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14591,6 +14592,8 @@ msgid ""
 "Even though you use the last version, it is recommended to reinstall.\n"
 "New revisions come with package fixes."
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #. Recommend an update.
 #: ../app/dialogs/about-dialog.c:339 ../app/widgets/gimpcriticaldialog.c:209

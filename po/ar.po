@@ -14503,6 +14503,7 @@ msgstr ""
 "جهاد عفيفي (GNU I.M.P) <djihed@gmail.com>\n"
 "أسامة خالد (GNU I.M.P) <osamak.wfm@gmail.com>\n"
 "خالد حسني (GNU I.M.P) <khaledhosny@eglug.org>"
+<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14539,6 +14540,8 @@ msgstr ""
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
+=======
+>>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
