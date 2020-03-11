@@ -412,7 +412,7 @@ parts:
       - mypaint-brushes
     plugin: autotools
     source: .
-    source-branch: 'dev-g210'
+    source-branch: 'beta-g210'
     configflags:
     #from glimpse flatpack
       - --disable-docs
