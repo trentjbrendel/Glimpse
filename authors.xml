@@ -8,16 +8,16 @@
 
 <glimpse-authors xmlns="http://purl.org/dc/elements/1.1/">
 
-  <creator role="author" last-active="0.1">Bobby Moss</creator>
+  <creator role="author" last-active="0.2">Bobby Moss</creator>
 
-  <maintainer role="author" last-active="0.1">Christopher Davis</maintainer>
-  <maintainer role="author" last-active="0.1">Luna</maintainer>
+  <maintainer role="author" last-active="0.2">Christopher Davis</maintainer>
+  <maintainer role="author" last-active="0.2">Luna</maintainer>
 
   <contributor role="author" last-active="0.1">chaomodus</contributor>
-  <contributor role="author" last-active="0.1">Cynthia Revström</contributor>
-  <contributor role="author" last-active="0.1">Heather Ellsworth</contributor>
+  <contributor role="author" last-active="0.2">Cynthia Revström</contributor>
+  <contributor role="author" last-active="0.2">Heather Ellsworth</contributor>
   <contributor role="author" last-active="0.1">igalic</contributor>
-  <contributor role="author" last-active="0.1">Ken VanDine</contributor>
+  <contributor role="author" last-active="0.2">Ken VanDine</contributor>
   <contributor role="author" last-active="0.1">Mathieu Bridon</contributor>
   <contributor role="author" last-active="0.1">Mike Burns</contributor>
   <contributor role="author" last-active="0.1">psymole</contributor>
@@ -26,9 +26,9 @@
   <contributor role="documenter" last-active="0.1">Dave Kretz</contributor>
   <contributor role="documenter" last-active="0.1">melody</contributor>
 
-  <contributor role="artist" last-active="0.1">Atra</contributor>
-  <contributor role="artist" last-active="0.1">James Daniel</contributor>
-  <contributor role="artist" last-active="0.1">Zach Krall</contributor>
+  <contributor role="artist" last-active="0.2">Atra</contributor>
+  <contributor role="artist" last-active="0.2">James Daniel</contributor>
+  <contributor role="artist" last-active="0.2">Zach Krall</contributor>
 
   <upstream role="author" last-active="2.2">Spencer Kimball</upstream>
   <upstream role="author" last-active="1.0">Peter Mattis</upstream>
