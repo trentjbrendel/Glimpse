@@ -14937,7 +14937,6 @@ msgstr ""
 "\n"
 "   Emin Šehić (GNU I.M.P) https://launchpad.net/~esehic3\n"
 "  Samir Ribić (GNU I.M.P) https://launchpad.net/~megaribi"
-<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14965,8 +14964,6 @@ msgstr ""
 #, fuzzy
 msgid "Go to download page"
 msgstr "%s smaknuti"
-=======
->>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:366
 #, c-format

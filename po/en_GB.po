@@ -14411,7 +14411,6 @@ msgstr ""
 "Piers Cornwell (GNU I.M.P)\n"
 "Gareth Owen (GNU I.M.P)\n"
 "Bruce Cowan (GNU I.M.P)"
-<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14448,8 +14447,6 @@ msgstr "Last used: %s"
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
-=======
->>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

@@ -15150,7 +15150,6 @@ msgstr "GIMP ကွန်ရက်စာမျက်နှာကို လည်
 #: ../app/dialogs/about-dialog.c:141
 msgid "translator-credits"
 msgstr "BIT (GNU I.M.P)"
-<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -15173,8 +15172,6 @@ msgid ""
 "A new version of Glimpse (%s) was released on %s.\n"
 "It is recommended to update."
 msgstr ""
-=======
->>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #: ../app/dialogs/about-dialog.c:352
 #, fuzzy

@@ -14634,13 +14634,10 @@ msgstr "ജിമ്പ് വെബ്സൈറ്റ് സന്ദര്‍�
 #: ../app/dialogs/about-dialog.c:141
 msgid "translator-credits"
 msgstr "Mohammed Sadik (GNU I.M.P) <sadiqpkp@gmail.com>"
-<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 msgid "New version available!"
 msgstr ""
-=======
->>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #. This is actually a new revision of current version.
 #: ../app/dialogs/about-dialog.c:332

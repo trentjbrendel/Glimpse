@@ -14427,7 +14427,6 @@ msgstr ""
 "Helgi Þormar Þorbjörnsson (GNU I.M.P) helgi@trance.is, 2004.\n"
 "Anna Jonna Ármansdóttir (GNU I.M.P) annajonna@gmail.com, 2008.\n"
 "Sveinn í Felli sv1@fellsnet.is (GNU I.M.P), 2009-2016."
-<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -14464,8 +14463,6 @@ msgstr "Síðast notað: %s"
 #: ../app/dialogs/about-dialog.c:371 ../app/dialogs/about-dialog.c:376
 msgid "Check for updates"
 msgstr ""
-=======
->>>>>>> a140201848... Added is translation credits
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"

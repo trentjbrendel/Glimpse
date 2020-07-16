@@ -16025,7 +16025,6 @@ msgstr "Visit the Glimpse website"
 #: ../app/dialogs/about-dialog.c:141
 msgid "translator-credits"
 msgstr "Adam Weinberger (GNU I.M.P) <adamw@gnome.org>"
-<<<<<<< HEAD
 
 #: ../app/dialogs/about-dialog.c:310
 #, fuzzy
@@ -16040,8 +16039,6 @@ msgid ""
 "Even though you use the last version, it is recommended to reinstall.\n"
 "New revisions come with package fixes."
 msgstr ""
-=======
->>>>>>> 8120ebe9b4... Updated all the existing translator credits to include a tag
 
 #. Recommend an update.
 #: ../app/dialogs/about-dialog.c:339 ../app/widgets/gimpcriticaldialog.c:209
