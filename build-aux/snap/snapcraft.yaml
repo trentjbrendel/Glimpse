@@ -420,8 +420,8 @@ parts:
       - --disable-gtk-doc
       - --disable-gtk-doc-html
       - --with-icc-directory=/run/host/usr/share/color/icc/
-      - "--without-webkit",
-      -  "--disable-check-update"
+      - --without-webkit
+      - --disable-check-update
     #End from glimpse flatpack
       - --prefix=/usr
       - --sysconfdir=/etc
@@ -559,3 +559,4 @@ parts:
       done
       find $SNAPCRAFT_PRIME/usr/share/doc/ -type f -not -name 'copyright' -delete
       find $SNAPCRAFT_PRIME/usr/share -type d -empty -not -path "$SNAPCRAFT_PRIME/usr/share/gimp/*" -delete
+      
