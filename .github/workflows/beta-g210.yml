@@ -101,7 +101,7 @@ jobs:
     
     - uses: actions/upload-artifact@v1
       with:
-        name: glimpse-dev-x86_64-linux-gnu
+        name: glimpse-beta-x86_64-linux-gnu
         path: ${{ github.workspace }}/glimpse-prefix
 
   build-windows-beta:
@@ -135,6 +135,6 @@ jobs:
     
     - uses: actions/upload-artifact@v1
       with:
-        name: glimpse-dev-x86_64-windows
+        name: glimpse-beta-x86_64-windows
         path: ${{ github.workspace }}/glimpse-win-prefix
     
