@@ -1,0 +1,140 @@
+name: Glimpse Beta Build CI
+
+# Triggers the workflow on push or pull request events, but only for the beta-g210 branch
+on:
+  push:
+    branches: [ beta-g210 ]
+  pull_request:
+    branches: [ beta-g210 ]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-20.04
+          
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: Glimpse
+      
+    - name: Set up Ubuntu 20.04 runner
+      run: |
+        sudo sed -i '/deb-src/s/^# //' /etc/apt/sources.list
+        sudo apt-get --quiet update --yes
+            
+    - name: Install build tools
+      run: sudo apt-get --quiet install --yes build-essential git python3 python3-pip python3-setuptools python3-wheel ninja-build libgirepository1.0-dev valac
+
+    - name: Install build dependencies
+      run: sudo apt-get --quiet build-dep gimp
+      
+    - name: Install meson
+      run: yes | sudo pip3 install meson
+      
+    - name: Set global environment variables
+      run: |
+        echo ::set-env name=SRC_PREFIX::${{ github.workspace }}
+        echo ::set-env name=INSTALL_PREFIX::${{ github.workspace }}/glimpse-prefix
+        echo ::set-env name=ARCH::"$(dpkg-architecture -qDEB_HOST_MULTIARCH 2> /dev/null)"
+        
+    - name: Set build environment variables
+      run: |
+        echo ::set-env name=PKG_CONFIG_PATH::$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/$ARCH/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
+        echo ::set-env name=LD_LIBRARY_PATH::$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/$ARCH:$LD_LIBRARY_PATH
+        echo ::set-env name=ACLOCAL_FLAGS::"-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
+        echo ::set-env name=XDG_DATA_DIRS::$INSTALL_PREFIX/share:/usr/local/share:/usr/share
+        echo ::set-env name=PATH::$HOME/.local/bin:$INSTALL_PREFIX/bin:$PATH
+    
+    - name: Clone BABL 0.1.78 from GNOME gitlab server
+      run: git clone --depth=1 --branch BABL_0_1_78 https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl
+      
+    - name: Clone MyPaint-Brushes 1.3.1 from Github
+      run: git clone --depth=1 --branch v1.3.1 https://github.com/mypaint/mypaint-brushes.git $SRC_PREFIX/mypaint-brushes
+      
+    - name: Clone LibMyPaint 1.5.1 from Github
+      run: git clone --depth=1 --branch v1.5.1 https://github.com/mypaint/libmypaint.git $SRC_PREFIX/libmypaint
+      
+    - name: Clone GEGL 0.4.22 from GNOME gitlab server
+      run: git clone --depth=1 --branch GEGL_0_4_22 https://gitlab.gnome.org/GNOME/gegl.git $SRC_PREFIX/gegl
+      
+    - name: Create install prefix
+      run: |
+        mkdir -p $INSTALL_PREFIX/share/aclocal
+      
+    - name: Build BABL
+      run: |
+        cd $SRC_PREFIX/babl
+        meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true
+        cd $SRC_PREFIX/babl/builddir
+        ninja && ninja install
+        
+    - name: Build mypaint-brushes
+      run: |
+        cd $SRC_PREFIX/mypaint-brushes
+        ./autogen.sh --prefix=$INSTALL_PREFIX
+        ./configure --prefix=$INSTALL_PREFIX
+        make && make install
+    
+    - name: Build libmypaint
+      run: |
+        cd $SRC_PREFIX/libmypaint
+        ./autogen.sh --prefix=$INSTALL_PREFIX
+        ./configure --prefix=$INSTALL_PREFIX
+        make && make install
+        
+    - name: Build GEGL
+      run: |
+        cd $SRC_PREFIX/gegl
+        meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true
+        cd $SRC_PREFIX/gegl/builddir
+        ninja && ninja install
+        
+    - name: Build beta version of Glimpse Image Editor
+      run: |
+        cd $SRC_PREFIX/Glimpse
+        ./autogen.sh --prefix=$INSTALL_PREFIX --without-webkit --disable-check-update
+        make && make install
+        
+    - name: Run unit tests against Glimpse Image Editor
+      run: |
+        cd $SRC_PREFIX/Glimpse
+        make check
+    
+    - uses: actions/upload-artifact@v1
+      with:
+        name: glimpse-dev-x86_64-linux-gnu
+        path: ${{ github.workspace }}/glimpse-prefix
+
+  build-windows:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: Glimpse
+        
+    - uses: msys2/setup-msys2@v1
+      with:
+        msystem: MINGW64
+        update: true
+        install: git mingw-w64-x86_64-toolchain base-devel mingw-w64-x86_64-asciidoc mingw-w64-x86_64-drmingw mingw-w64-x86_64-gexiv2 mingw-w64-x86_64-ghostscript mingw-w64-x86_64-glib-networking mingw-w64-x86_64-graphviz mingw-w64-x86_64-gtk2 mingw-w64-x86_64-python2-pygtk mingw-w64-x86_64-iso-codes mingw-w64-x86_64-json-c mingw-w64-x86_64-json-glib mingw-w64-x86_64-lcms2 mingw-w64-x86_64-lensfun mingw-w64-x86_64-libheif mingw-w64-x86_64-libraw mingw-w64-x86_64-libspiro mingw-w64-x86_64-libwebp mingw-w64-x86_64-libwmf mingw-w64-x86_64-openexr mingw-w64-x86_64-poppler mingw-w64-x86_64-SDL2 mingw-w64-x86_64-suitesparse mingw-w64-x86_64-vala mingw-w64-x86_64-xpm-nox mingw-w64-x86_64-gtk-doc mingw-w64-x86_64-meson mingw-w64-x86_64-gobject-introspection mingw-w64-x86_64-babl mingw-w64-x86_64-libmypaint mingw-w64-x86_64-mypaint-brushes mingw-w64-x86_64-gegl
+
+    - name: Build beta version of Glimpse Image Editor
+      run: |
+        export INSTALL_PREFIX="`pwd`/glimpse-win-prefix"
+        export PATH="$INSTALL_PREFIX/bin:$PATH"
+        export PKG_CONFIG_PATH="$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH"
+        export LD_LIBRARY_PATH="$INSTALL_PREFIX/lib:$LD_LIBRARY_PATH"
+        export XDG_DATA_DIRS="$XDG_DATA_DIRS:$INSTALL_PREFIX/share:/usr/local/share/:/usr/share/"
+        export ACLOCAL_FLAGS="-I/c/msys64/mingw64/share/aclocal"
+        echo "== Building Glimpse BETA... =="
+        cd Glimpse
+        ./autogen.sh --prefix=$INSTALL_PREFIX --without-webkit --without-xvfb-run --disable-python
+        make && make install
+    
+    - uses: actions/upload-artifact@v1
+      with:
+        name: glimpse-dev-x86_64-windows
+        path: ${{ github.workspace }}/glimpse-win-prefix
+    
