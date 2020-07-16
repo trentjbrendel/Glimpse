@@ -16,93 +16,33 @@ jobs:
       with:
         path: Glimpse
       
-    - name: Set up Ubuntu 20.04 runner
-      run: |
-        sudo sed -i '/deb-src/s/^# //' /etc/apt/sources.list
-        sudo apt-get --quiet update --yes
-            
-    - name: Install build tools
-      run: sudo apt-get --quiet install --yes build-essential git python3 python3-pip python3-setuptools python3-wheel ninja-build libgirepository1.0-dev valac
+    - name: Install Flatpak and flatpak-builder
+      run: sudo apt-get --quiet install --yes flatpak flatpak-builder
 
-    - name: Install build dependencies
-      run: sudo apt-get --quiet build-dep gimp
-      
-    - name: Install meson
-      run: yes | sudo pip3 install meson
-      
-    - name: Set global environment variables
+    - name: Add the Flathub repository
+      run: sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+    - name: Install GNOME 3.36 SDK
+      run: sudo flatpak install -y flathub org.gnome.Platform//3.36 org.gnome.Sdk//3.36
+
+    - name: Initialize git submodules
       run: |
-        echo ::set-env name=SRC_PREFIX::${{ github.workspace }}
-        echo ::set-env name=INSTALL_PREFIX::${{ github.workspace }}/glimpse-prefix
-        echo ::set-env name=ARCH::"$(dpkg-architecture -qDEB_HOST_MULTIARCH 2> /dev/null)"
-        
-    - name: Set build environment variables
+        cd ${{ github.workspace }}/Glimpse
+        git submodule update --init
+
+    - name: Build development snapshot and package as Flatpak
       run: |
-        echo ::set-env name=PKG_CONFIG_PATH::$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/$ARCH/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
-        echo ::set-env name=LD_LIBRARY_PATH::$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/$ARCH:$LD_LIBRARY_PATH
-        echo ::set-env name=ACLOCAL_FLAGS::"-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
-        echo ::set-env name=XDG_DATA_DIRS::$INSTALL_PREFIX/share:/usr/local/share:/usr/share
-        echo ::set-env name=PATH::$HOME/.local/bin:$INSTALL_PREFIX/bin:$PATH
-    
-    - name: Clone BABL 0.1.78 from GNOME gitlab server
-      run: git clone --depth=1 --branch BABL_0_1_78 https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl
-      
-    - name: Clone MyPaint-Brushes 1.3.1 from Github
-      run: git clone --depth=1 --branch v1.3.1 https://github.com/mypaint/mypaint-brushes.git $SRC_PREFIX/mypaint-brushes
-      
-    - name: Clone LibMyPaint 1.5.1 from Github
-      run: git clone --depth=1 --branch v1.5.1 https://github.com/mypaint/libmypaint.git $SRC_PREFIX/libmypaint
-      
-    - name: Clone GEGL 0.4.22 from GNOME gitlab server
-      run: git clone --depth=1 --branch GEGL_0_4_22 https://gitlab.gnome.org/GNOME/gegl.git $SRC_PREFIX/gegl
-      
-    - name: Create install prefix
+        cd ${{ github.workspace }}/Glimpse
+        flatpak-builder --repo=${{ github.workspace }}/repo --force-clean --ccache ${{ github.workspace }}/_build build-aux/flatpak/org.glimpse_editor.Glimpse.json
+
+    - name: Export Flatpak as single file bundle
       run: |
-        mkdir -p $INSTALL_PREFIX/share/aclocal
-      
-    - name: Build BABL
-      run: |
-        cd $SRC_PREFIX/babl
-        meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true
-        cd $SRC_PREFIX/babl/builddir
-        ninja && ninja install
-        
-    - name: Build mypaint-brushes
-      run: |
-        cd $SRC_PREFIX/mypaint-brushes
-        ./autogen.sh --prefix=$INSTALL_PREFIX
-        ./configure --prefix=$INSTALL_PREFIX
-        make && make install
-    
-    - name: Build libmypaint
-      run: |
-        cd $SRC_PREFIX/libmypaint
-        ./autogen.sh --prefix=$INSTALL_PREFIX
-        ./configure --prefix=$INSTALL_PREFIX
-        make && make install
-        
-    - name: Build GEGL
-      run: |
-        cd $SRC_PREFIX/gegl
-        meson builddir --prefix=$INSTALL_PREFIX --buildtype=release -Db_lto=true
-        cd $SRC_PREFIX/gegl/builddir
-        ninja && ninja install
-        
-    - name: Build beta version of Glimpse Image Editor
-      run: |
-        cd $SRC_PREFIX/Glimpse
-        ./autogen.sh --prefix=$INSTALL_PREFIX --without-webkit --disable-check-update
-        make && make install
-        
-    - name: Run unit tests against Glimpse Image Editor
-      run: |
-        cd $SRC_PREFIX/Glimpse
-        make check
+        flatpak build-bundle ${{ github.workspace }}/repo glimpse-beta.flatpak org.glimpse_editor.Glimpse
     
     - uses: actions/upload-artifact@v1
       with:
-        name: glimpse-beta-x86_64-linux-gnu
-        path: ${{ github.workspace }}/glimpse-prefix
+        name: glimpse-beta.flatpak-${{ github.sha }}
+        path: ${{ github.workspace }}/glimpse-beta.flatpak
 
   build-windows-beta:
     runs-on: windows-latest
@@ -135,6 +75,6 @@ jobs:
     
     - uses: actions/upload-artifact@v1
       with:
-        name: glimpse-beta-x86_64-windows
+        name: glimpse-beta-x86_64-windows-${{ github.sha }}
         path: ${{ github.workspace }}/glimpse-win-prefix
     
