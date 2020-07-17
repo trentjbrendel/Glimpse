@@ -101,8 +101,44 @@ jobs:
     
     - uses: actions/upload-artifact@v1
       with:
-        name: glimpse-dev-x86_64-linux-gnu
+        name: glimpse-dev-x86_64-linux-gnu-${{ github.sha }}
         path: ${{ github.workspace }}/glimpse-prefix
+
+  build-linux-flatpak:
+    runs-on: ubuntu-20.04
+          
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        path: Glimpse
+      
+    - name: Install Flatpak and flatpak-builder
+      run: sudo apt-get --quiet install --yes flatpak flatpak-builder
+
+    - name: Add the Flathub repository
+      run: sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+    - name: Install GNOME 3.36 SDK
+      run: sudo flatpak install -y flathub org.gnome.Platform//3.36 org.gnome.Sdk//3.36
+
+    - name: Initialize git submodules
+      run: |
+        cd ${{ github.workspace }}/Glimpse
+        git submodule update --init
+
+    - name: Build development snapshot and package as Flatpak
+      run: |
+        cd ${{ github.workspace }}/Glimpse
+        flatpak-builder --repo=${{ github.workspace }}/repo --force-clean --ccache ${{ github.workspace }}/_build build-aux/flatpak/org.glimpse_editor.Glimpse.json
+
+    - name: Export Flatpak as single file bundle
+      run: |
+        flatpak build-bundle ${{ github.workspace }}/repo glimpse-dev.flatpak org.glimpse_editor.Glimpse
+    
+    - uses: actions/upload-artifact@v1
+      with:
+        name: glimpse-dev.flatpak-${{ github.sha }}
+        path: ${{ github.workspace }}/glimpse-dev.flatpak
 
   build-windows:
     runs-on: windows-latest
@@ -135,6 +171,6 @@ jobs:
     
     - uses: actions/upload-artifact@v1
       with:
-        name: glimpse-dev-x86_64-windows
+        name: glimpse-dev-x86_64-windows-${{ github.sha }}
         path: ${{ github.workspace }}/glimpse-win-prefix
     
