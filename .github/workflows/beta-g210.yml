@@ -109,6 +109,6 @@ jobs:
     
     - uses: actions/upload-artifact@v1
       with:
-        name: glimpse-beta-x86-windows-${{ github.sha }}
+        name: glimpse-beta-i686-windows-${{ github.sha }}
         path: ${{ github.workspace }}/glimpse-win-prefix
     
