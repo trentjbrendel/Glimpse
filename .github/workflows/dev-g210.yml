@@ -8,7 +8,7 @@ on:
     branches: [ dev-g210 ]
 
 jobs:
-  build-linux:
+  build-linux-dev:
     runs-on: ubuntu-20.04
           
     steps:
@@ -104,7 +104,7 @@ jobs:
         name: glimpse-dev-x86_64-linux-gnu-${{ github.sha }}
         path: ${{ github.workspace }}/glimpse-prefix
 
-  build-linux-flatpak:
+  build-linux-flatpak-dev:
     runs-on: ubuntu-20.04
           
     steps:
@@ -140,7 +140,7 @@ jobs:
         name: glimpse-dev.flatpak-${{ github.sha }}
         path: ${{ github.workspace }}/glimpse-dev.flatpak
 
-  build-windows-x64:
+  build-windows-x64-dev:
     runs-on: windows-latest
     defaults:
       run:
@@ -174,7 +174,7 @@ jobs:
         name: glimpse-dev-x86_64-windows-${{ github.sha }}
         path: ${{ github.workspace }}/glimpse-win-prefix
 
-  build-windows-x86:
+  build-windows-x86-dev:
     runs-on: windows-latest
     defaults:
       run:
