@@ -20,7 +20,7 @@ SCAN_OPTIONS = --deprecated-guards="GIMP_DISABLE_DEPRECATED"
 MKDB_OPTIONS = --sgml-mode --output-format=xml --name-space=gimp
 
 # Extra options to supply to gtkdoc-fixref
-FIXXREF_OPTIONS = --extra-dir=../libglimpsebase/html --extra-dir=../libglimpsecolor/html --extra-dir=../libglimpseconfig/html --extradir=../libglimpsemath/html --extradir=../libglimpsemodule/html --extradir=../libglimpsewidgets/html --extradir=../libglimpse/html
+FIXXREF_OPTIONS = --extra-dir=../libglimpsebase/html --extra-dir=../libglimpsecolor/html --extra-dir=../libglimpseconfig/html --extra-dir=../libglimpsemath/html --extra-dir=../libglimpsemodule/html --extra-dir=../libglimpsewidgets/html --extra-dir=../libglimpse/html
 
 # Used for dependencies
 HFILE_GLOB = $(DOC_SOURCE_DIR)/*.h
