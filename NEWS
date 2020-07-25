@@ -30,6 +30,9 @@ Overview of Changes in Glimpse 0.2.0
 * Changed the default configuration so that the "Created by Glimpse" message is always present
 * Changed the update checker so it supports our version scheme, download links and update servers
 * Created new Github Actions that provide a Linux and Windows CI builds on our development branch
+* Fixed bug where intl.dll was missing from x86 Windows installer
+* Removed unused Python components and plugins/filters from x86 Windows installer
+* Windows port now follows upstream convention of using versioned executables and taskbar icon from theme
 
 
 Overview of Changes in Glimpse 0.1.2 Release 2

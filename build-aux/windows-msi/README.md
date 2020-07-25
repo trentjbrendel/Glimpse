@@ -2,9 +2,9 @@
 This bespoke Windows installer is built on [the WiX Toolset](https://wixtoolset.org/).
 
 ## Limitations
-Currently we only support 32-bit Windows builds of Glimpse Image Editor. We expect to support 64-bit Windows builds in a future release.
+There is currently no 64-bit installer, but we're working on it for 0.2.0!
 
-Also while we do bundle the dependencies for Python, Glimpse 0.1.0 was released without support for Python plugins. This was because of an upstream documentation bug that had no workaround.
+We do not support Python plug-ins or filters on Windows. Initially this was due to a bug with MSYS2 and upstream build docs, but now that Python 2 is end of life we think the performance and security benefits of *not* including it are worthwhile. We have removed all Python components from the installer.
 
 This manifest was made for [WiX Toolset 3.11.2](https://github.com/wixtoolset/wix3/releases/tag/wix3112rtm). We have tried to avoid relying on default values where possible, but your mileage may vary with newer versions.
 
@@ -16,16 +16,19 @@ These instructions will package the code as a 32-bit Windows MSI installer. To b
 1. Install the WiX toolset and ensure the `%WIX%` environment variable has been set.
 2. Create a folder in this directory called `InputFiles32`
 3. Copy the contents of your 32-bit build folder to `InputFiles32`
-4. Copy the `LICENSE` file to `InputFiles32\LICENSE.TXT\
-5. Copy the contents of `C:\msys64\mingw32` to `InputFiles32`
-6. Replace every `Guid="YOUR-GUID-HERE"` with your own GUID values
-7. Navigate to the directory this file is in using a command prompt window and run the following commands:
+4. Copy the `AUTHORS` file to `InputFiles32\AUTHORS.TXT`
+5. Copy the `COPYING` file to `InputFiles32\COPYING.TXT`
+6. Copy the `LICENSE` file to `InputFiles32\LICENSE.TXT`
+7. Copy `C:\Program Files (x86)\GIMP 2\32\bin\intl.dll` to `InputFiles32\bin\intl.dll` (see [#432](https://github.com/glimpse-editor/Glimpse/issues/432))
+8. Copy the contents of `C:\msys64\mingw32` to `InputFiles32`
+9. Replace every `Guid="YOUR-GUID-HERE"` with your own GUID values
+10. Navigate to the directory this file is in using a command prompt window and run the following commands:
 
 ```bat
-"%WIX%bin"\candle.exe Glimpse32.wxs
-"%WIX%bin"\light.exe Glimpse32.wixobj
+"%WIX%bin"\candle.exe glimpse-i686.wxs
+"%WIX%bin"\light.exe glimpse-i686.wixobj
 ```
-The component versions in `Glimpse32.wxs` may differ from your own, so you will need to update those appropriately. 
+The component versions in `glimpse-i686.wxs` may differ from your own, so you will need to update those appropriately. 
 
 You will be pleased to know that we do not include the whole of MinGW inside the MSI file! The WiX build tools just pick out the dependencies we have determined that Glimpse needs to function through a combination of experimentation and guesswork.
 
@@ -33,12 +36,12 @@ You will be pleased to know that we do not include the whole of MinGW inside the
 From a command prompt in the same directory as this file, you can test your MSI installer with logging enabled. The first line works for most cases, but you may want to use the second line if you need more verbose output:
 
 ```bat
-msiexec /i Glimpse32.msi /l* Glimpse32.log
-msiexec /i Glimpse32.msi /l*v Glimpse32.log
+msiexec /i glimpse-i686.msi /l* glimpse-i686.log
+msiexec /i glimpse-i686.msi /l*v glimpse-i686.log
 ```
 
 To uninstall Glimpse Image Editor without having to go through the "Add/Remove Programs" control panel area:
 
 ```bat
-msiexec /x Glimpse32.msi
+msiexec /x glimpse-i686.msi
 ```
