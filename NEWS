@@ -33,6 +33,10 @@ Overview of Changes in Glimpse 0.2.0
 * Fixed bug where intl.dll was missing from x86 Windows installer
 * Removed unused Python components and plugins/filters from x86 Windows installer
 * Windows port now follows upstream convention of using versioned executables and taskbar icon from theme
+* Also implemented fixes in the x86 Windows installer to improve the "System" UI theme and sundry other tweaks 
+that bring us in line with upstream
+* Created a new UI for the x86 Windows installer
+* Fixed the Glimpse Image Editor logo in the Windows Add/Remove Programs menu
 
 
 Overview of Changes in Glimpse 0.1.2 Release 2
