@@ -26,7 +26,7 @@ These instructions will package the code as a 32-bit Windows MSI installer. To b
 
 ```bat
 "%WIX%bin"\candle.exe glimpse-i686.wxs
-"%WIX%bin"\light.exe glimpse-i686.wixobj
+"%WIX%bin"\light.exe glimpse-i686.wixobj -ext WixUIExtension
 ```
 The component versions in `glimpse-i686.wxs` may differ from your own, so you will need to update those appropriately. 
 
