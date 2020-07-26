@@ -64,4 +64,4 @@ END
 
 #include "winuser.h"
 1	ICON	QUOTE(TOP_SRCDIR) "/build-aux/windows/plug-ins.ico"
-CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST QUOTE(TOP_SRCDIR) "/build-aux/windows/gimp.manifest"
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST QUOTE(TOP_SRCDIR) "/build-aux/windows/glimpse.manifest"

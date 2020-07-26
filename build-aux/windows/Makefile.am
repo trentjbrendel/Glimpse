@@ -10,7 +10,7 @@ EXTRA_DIST = \
 	gimprc-plug-ins.rule	\
 	gimp.rc			\
 	gimp-plug-ins.rc	\
-	gimp.manifest		\
+	glimpse.manifest		\
 	fileicon.ico		\
 	plug-ins.ico		\
 	glimpse.ico
