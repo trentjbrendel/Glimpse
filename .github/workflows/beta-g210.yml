@@ -70,7 +70,7 @@ jobs:
         export ACLOCAL_FLAGS="-I/c/msys64/mingw64/share/aclocal"
         echo "== Building Glimpse x64 BETA... =="
         cd Glimpse
-        ./autogen.sh --prefix=$INSTALL_PREFIX --without-webkit --without-xvfb-run --disable-python
+        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-webkit --without-xvfb-run --disable-python
         make && make install
     
     - uses: actions/upload-artifact@v1
@@ -104,7 +104,7 @@ jobs:
         export ACLOCAL_FLAGS="-I/c/msys64/mingw64/share/aclocal"
         echo "== Building Glimpse x86 BETA... =="
         cd Glimpse
-        ./autogen.sh --prefix=$INSTALL_PREFIX --without-webkit --without-xvfb-run --disable-python
+        ./autogen.sh --prefix=$INSTALL_PREFIX --disable-gtk-doc --disable-gtk-doc-html --without-webkit --without-xvfb-run --disable-python
         make && make install
     
     - uses: actions/upload-artifact@v1
