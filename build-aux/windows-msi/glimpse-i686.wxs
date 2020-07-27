@@ -12,7 +12,7 @@
 		<MajorUpgrade
           AllowDowngrades = "no"
           DowngradeErrorMessage = "Setup detected that a later version of Glimpse Image Editor is already installed." />
-		 <!-- UI elements related to installer -->
+		<!-- UI elements related to installer -->
 		<Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR" />
 		<UIRef Id="WixUI_InstallDir" />
 		<WixVariable Id="WixUILicenseRtf" Value="gpl-3.0.rtf" />
@@ -97,16 +97,18 @@
 							<Component Id="cmp935C9F0E1056548C2BEC9BA24DAC8BC2" Guid="*">
 								<File Id="filB9D905DE8258C00D3D19904E1B1AE3AF" DiskId="1" Source="InputFiles32\bin\gspawn-win32-helper.exe" />
 							</Component>
-
 							<Component Id="cmp0CFE349CC3E73149FA55C4363AB61AB1" Guid="*">
 								<File Id="filC7641C97A8EA0D9D7F47B17DC7694DF8" DiskId="1" Source="InputFiles32\bin\imagequant.dll" />
 							</Component>
+							<!-- intl.dll currently has to be manually copied from an existing GNU I.M.P 2.10.18 installation -->
 							<Component Id="cmp0CFE359CC3E73149FB55C4363AB61AB3" Guid="*">
 								<File Id="filC7641C27A8EA0D1D7F47B17DC7694DB8" DiskId="1" Source="InputFiles32\bin\intl.dll" />
 							</Component>
-
 							<Component Id="cmp431D8ED2961456F7C007BF46609BE8BE" Guid="*">
 								<File Id="filC4A6A0B5801D3D912ED7D7694DCFA119" DiskId="1" Source="InputFiles32\bin\libamd.dll" />
+							</Component>
+							<Component Id="cmpB670B48D3551534B07F28A7DBB1E62D1" Guid="*">
+								<File Id="fil29E015F5EA004AE5952BF21AE126DFC9" KeyPath="yes" Source="InputFiles32\bin\libaom.dll" />
 							</Component>
 							<Component Id="cmpF641A6CFCB61D69BDCD568BDFF8F14C1" Guid="*">
 								<File Id="fil0506577D223733CC8857F02D4F90413E" DiskId="1" Source="InputFiles32\bin\libasprintf-0.dll" />
@@ -266,9 +268,6 @@
 							</Component>
 							<Component Id="cmp0F121C57108637975909B9418E0273CA" Guid="*">
 								<File Id="fil5930218A92700727E5F5FDBC5BF5BC22" DiskId="1" Source="InputFiles32\bin\libglade-2.0-0.dll" />
-							</Component>
-							<Component Id="cmp22DCBA71D6352739CB1528CA8B7018A3" Guid="*">
-								<File Id="fil0A33A21A5859A9D00F181E178116162D" DiskId="1" Source="InputFiles32\bin\libglade-convert" />
 							</Component>
 							<Component Id="cmp53F4E2312362ECEC661F12A824FC353B" Guid="*">
 								<File Id="filACC78F4308A7DEAEF96D6E86157DB738" DiskId="1" Source="InputFiles32\bin\libglib-2.0-0.dll" />
@@ -663,6 +662,9 @@
 							<Component Id="cmpFC8BAA22A7CE5E0A8D0520070A59269B" Guid="*">
 								<File Id="fil43BAB5A66C81791FA9A29E73EFE2E4A4" DiskId="1" Source="InputFiles32\bin\libumfpack.dll" />
 							</Component>
+							<Component Id="cmp42C0FD0553096DED3A45DBBF1F20DC29" Guid="*">
+								<File Id="filF414A54E3FD3E49687F098007F1955C7" KeyPath="yes" Source="InputFiles32\bin\libunistring-2.dll" />
+							</Component>
 							<Component Id="cmp4C8C410B37A8C72AA2CF44348A8D8597" Guid="*">
 								<File Id="filD4111A4FE81C345590F3FED644C7AE65" DiskId="1" Source="InputFiles32\bin\libvulkan-1.dll" />
 							</Component>
@@ -717,7 +719,6 @@
 							<Component Id="cmpA5E34185C4DF85F36FA699182C5B20DD" Guid="*">
 								<File Id="fil8965FEA016B900A83B6E8110C0CDE2B1" DiskId="1" Source="InputFiles32\bin\nssutil3.dll" />
 							</Component>
-
 							<Component Id="cmp08E62378C4DCD3A4B91FCCC250A5F4B6" Guid="*">
 								<File Id="filD5660C2BA22032133AAB7AE8763692AD" DiskId="1" Source="InputFiles32\bin\SDL2.dll" />
 							</Component>
@@ -15707,168 +15708,6 @@
 							</Directory>
 							<Directory Id="dir8C4CD40022CE5912DFFACEAC057E0C64" Name="ghostscript">
 								<Directory Id="dirC99B137D672C8CEB56356827B820A828" Name="9.50">
-									<Directory Id="dirA983E3A29778F3E0AA9C1660A6617297" Name="doc">
-										<Component Id="cmp4E4E691168B9D6DC7DF6C21CB023CDED" Guid="*">
-											<File Id="fil22724E3C949E34390886371C41F78C57" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\API.htm" />
-										</Component>
-										<Component Id="cmpDD33981BE270A565A73A54DA1BE30424" Guid="*">
-											<File Id="fil214C99C14BE2860F10762708F981669D" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\C-style.htm" />
-										</Component>
-										<Component Id="cmpEA500BA5EA28EE208166B822A9CB285E" Guid="*">
-											<File Id="filB3166994EAF38D813EA52ED1C309B530" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Commprod.htm" />
-										</Component>
-										<Component Id="cmpCF6BBAD8464EDC3E2732E1165966116C" Guid="*">
-											<File Id="filD479E460CEA4511A6CE141D9CBA44B03" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\COPYING" />
-										</Component>
-										<Component Id="cmp48AC211E0CF6F781D2C09C605A19B256" Guid="*">
-											<File Id="fil4067D1C8F22D289E92A92F67B3B9DA35" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Deprecated.htm" />
-										</Component>
-										<Component Id="cmpCCEB6D540B14F9D0B4A092C83AC80622" Guid="*">
-											<File Id="fil7FA2E5E14DA737A646208B890898AA2B" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Develop.htm" />
-										</Component>
-										<Component Id="cmpE72CEF5127A897DB8A459A1D65882D93" Guid="*">
-											<File Id="fil11724C7564F448A0F60E4487F5D0354C" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Devices.htm" />
-										</Component>
-										<Component Id="cmp21F583A967FC1A825502F2621F21F4DE" Guid="*">
-											<File Id="fil4F96372C9088CAF38AEDAF70D1B7BF45" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\DLL.htm" />
-										</Component>
-										<Component Id="cmp4854372325F4A939BD361989E50E5225" Guid="*">
-											<File Id="fil8E23193E81A3EC8E33A7BCF2891B065E" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Drivers.htm" />
-										</Component>
-										<Component Id="cmp8DA6E39F1C6DB75311F3DCB346CDD3B3" Guid="*">
-											<File Id="fil7F9A8EC84F9D4B02C31212B535BC7F78" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Fonts.htm" />
-										</Component>
-										<Component Id="cmp5559BDEC431A6657D8521247934DE345" Guid="*">
-											<File Id="fil9366BC425D8D7178557BB0B1F1923343" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\gdevds32.c" />
-										</Component>
-										<Component Id="cmp317965D773F9E8F2BF7D56A1B69FA492" Guid="*">
-											<File Id="filC7E8661940538512D2F6023696D721C7" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\gs-style.css" />
-										</Component>
-										<Component Id="cmpAF1E8C7EE25D23C55DF6CCBB2B637EB3" Guid="*">
-											<File Id="fil2D678C1FE082AD847AFA7F4A80ED0964" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\gs-vms.hlp" />
-										</Component>
-										<Component Id="cmpEB2171065647252525FED798A10FE446" Guid="*">
-											<File Id="fil428C159E0B17ACCD6CF8562BA70596DC" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\GS9_Color_Management.pdf" />
-										</Component>
-										<Component Id="cmp14B5E696FEB8FE0005020A05F3668B6E" Guid="*">
-											<File Id="fil1BE286986C2F9256CA433926D3FFC3E3" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\GS9_Color_Management.tex" />
-										</Component>
-										<Component Id="cmp48BDA5AF2E7E5019EE2FBE5DCC7E9DB9" Guid="*">
-											<File Id="fil5E34F7DA4965B143EF33AC5A05B037A1" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\gsdoc.el" />
-										</Component>
-										<Component Id="cmpC00EFFE230ECC1F6F864265200E538D4" Guid="*">
-											<File Id="fil4BB706A2A811124B3934173B6EC79B7A" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\History9.htm" />
-										</Component>
-										<Component Id="cmp875D327C2C5747A4B16EA1A90D34C47E" Guid="*">
-											<File Id="fil21CEA7A203339989812616040BB663A3" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\index.html" />
-										</Component>
-										<Component Id="cmp21744AAA79F6F379B5123A2916351FAD" Guid="*">
-											<File Id="filE921456559B88279610C2E1D6A7F8683" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\index.js" />
-										</Component>
-										<Component Id="cmp11319C0A177EB5E20DE520EC9DCCF06A" Guid="*">
-											<File Id="filC415989C546CBB26A7E7BF223A9B2C04" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Install.htm" />
-										</Component>
-										<Component Id="cmp630414C108C0AD8E01F5B844BB44F562" Guid="*">
-											<File Id="filD2D5C92D65ABAB5AA4E93E902026BE91" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Internal.htm" />
-										</Component>
-										<Component Id="cmpDECD03AECFBE62B17A1830F49B46B368" Guid="*">
-											<File Id="fil341A1573097DD175966331D83D0D1C65" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Language.htm" />
-										</Component>
-										<Component Id="cmpAF23BB123188B8645EF6386DC0D9DCEC" Guid="*">
-											<File Id="filF858D875D6C91BC583EEBCEA430CD5FA" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Lib.htm" />
-										</Component>
-										<Component Id="cmp3494CD547F4138A7E89D334FF66FE0B6" Guid="*">
-											<File Id="filEEFD18956CF7789A26E3A68857F353B8" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Make.htm" />
-										</Component>
-										<Component Id="cmp505CC4B28D3745CD0FEA89B321A9A332" Guid="*">
-											<File Id="fil77A8E5E99C4CF80EB69F08C7E5EAAA86" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\News.htm" />
-										</Component>
-										<Component Id="cmp701B5D741EFCCB3EE308DE3E018AD939" Guid="*">
-											<File Id="fil15518C0E67C800E6684E1E525E3EE5AD" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Ps-style.htm" />
-										</Component>
-										<Component Id="cmpAB2A66721E269B72B7B3D9A12656A7E2" Guid="*">
-											<File Id="fil606042B5B907FBF3D8F44A5C2167D933" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Ps2epsi.htm" />
-										</Component>
-										<Component Id="cmp0DAB8B00A1EFA1C858B7AB9BDD3F768F" Guid="*">
-											<File Id="fil26E250D3E21397E844D30D528F979211" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\pscet_status.txt" />
-										</Component>
-										<Component Id="cmpAC2BE335E9109FF3E4CAAE8773873BD2" Guid="*">
-											<File Id="filDFA491AF278B1EC4031AB3AC470E9CE4" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Psfiles.htm" />
-										</Component>
-										<Component Id="cmp246D2B610ED73A012266D1A883768AC0" Guid="*">
-											<File Id="filA72E54C0C89E1098FD5A7C41CF232E39" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Readme.htm" />
-										</Component>
-										<Component Id="cmpDE59DEC1F0ED39BE617BEC8F4FA7FAC0" Guid="*">
-											<File Id="filFD20B3DF9327C743B2EBE35C2290E455" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Release.htm" />
-										</Component>
-										<Component Id="cmp8A7B60003BC06EDAEEABB64D6A7DB854" Guid="*">
-											<File Id="fil8706D7723E205121C28F2AC0F1F3A9D7" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\sample_downscale_device.htm" />
-										</Component>
-										<Component Id="cmp85178806CB33194DCC0C497B8097BEAD" Guid="*">
-											<File Id="filA691148700AF8DA20B85C3C20AE68956" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\SavedPages.htm" />
-										</Component>
-										<Component Id="cmp3044C2B8F38EE259FE82B6DF367A0085" Guid="*">
-											<File Id="filF603F0135FE3EE4973BA0DF6496FB5B7" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Source.htm" />
-										</Component>
-										<Component Id="cmp683BA767CC46D806B1D248D44843B4B1" Guid="*">
-											<File Id="filFBDC747692AF14FAC565058335494B0C" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\style.css" />
-										</Component>
-										<Component Id="cmpBCA09853B7E98EB2C3B5755B4F74A131" Guid="*">
-											<File Id="filB2FBD2F39B4E4F1F5FF397FE046E1C63" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\subclass.htm" />
-										</Component>
-										<Component Id="cmp7AD19522FB3EA7F19D3B41AC8DDBD954" Guid="*">
-											<File Id="filB25A3A120D0E75D184348215C3120B9E" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\thirdparty.htm" />
-										</Component>
-										<Component Id="cmp6B67CF16A6662B3CFED9415D4449F1D1" Guid="*">
-											<File Id="fil1AB3B507C99486FACEB337B698D7ECEA" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Unix-lpr.htm" />
-										</Component>
-										<Component Id="cmpBCF41EA4811CB128499D763F24C87D3E" Guid="*">
-											<File Id="filC95647CACC142D8B9148071D7D922FEE" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\Use.htm" />
-										</Component>
-										<Component Id="cmp0FA024203FDA430945DBB66C8F6F7602" Guid="*">
-											<File Id="filB3D127A15A7894A7AC06DA1EC8B38F1B" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\VectorDevices.htm" />
-										</Component>
-										<Component Id="cmpE603320E8FE0F1BD38AC36B7B1877049" Guid="*">
-											<File Id="fil3FAF2394DB165B09DDF6ECEFC9EE63EB" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\WhatIsGS.htm" />
-										</Component>
-										<Directory Id="dir2EB12A292694FB0B9EC817CEF11CE13B" Name="images">
-											<Component Id="cmpDA8F731168FAE2846805BB64494F8AFF" Guid="*">
-												<File Id="fil806FE585F051BFA16A4F7B0A79D1F204" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\images\.DS_Store" />
-											</Component>
-											<Component Id="cmpF1E04B6D5B63E98CD60D582427BA04E5" Guid="*">
-												<File Id="fil6CE8C97A15FDE840410ADA8D642173B6" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\images\Artifex_logo.png" />
-											</Component>
-											<Component Id="cmp42518ECBED33426DC7BA40CC84FC2AC8" Guid="*">
-												<File Id="fil7DB4083DAC0DE7FA0F35D77BE2DBC583" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\images\favicon.png" />
-											</Component>
-											<Component Id="cmpB621325503D59EB5E15E363A8AFAF0C3" Guid="*">
-												<File Id="fil196C1028F880DC215738D1A8CB6BB4D3" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\images\ghostscript_logo.png" />
-											</Component>
-											<Component Id="cmpFBB0B173D0251C348CEF6878FD3CCA36" Guid="*">
-												<File Id="fil8E934D69EB057736BD7DEAEA4009A30D" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\images\hamburger-light.png" />
-											</Component>
-											<Component Id="cmp5720730076C87385C6E5D378F8E71F9B" Guid="*">
-												<File Id="fil8CD61884B0749BF291F1FEA7820C27B7" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\images\x-light.png" />
-											</Component>
-										</Directory>
-										<Directory Id="dirB96113BDEE080488674621869DE7391B" Name="pclxps">
-											<Component Id="cmp9FCDE263580C72A45E34017DAEBEA83A" Guid="*">
-												<File Id="fil65112E9F900BE5596402E74DAF47F401" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\pclxps\ghostpdl.pdf" />
-											</Component>
-											<Component Id="cmpB73C055AA8C936F04C282E45E1D38C8A" Guid="*">
-												<File Id="fil5E0B16D56AEEF4D336F1383E6A3CE395" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\pclxps\ghostpdl.tex" />
-											</Component>
-											<Component Id="cmp2C15C860EF877A4BA457AA4D05F8B03B" Guid="*">
-												<File Id="fil750473F7F7CFEFB4A4D07445D91963D7" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\pclxps\ghostpdl.txt" />
-											</Component>
-											<Component Id="cmp6033F65118C60257FB21B4E7F26345FE" Guid="*">
-												<File Id="fil4F60240570CFAC976AE1B22C9D1AA17F" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\pclxps\Makefile" />
-											</Component>
-											<Component Id="cmpE5F720AA5F57FA53A4D688CD123FF801" Guid="*">
-												<File Id="fil683BCD71BE1CC866D84E76588A4B8E63" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\doc\pclxps\README" />
-											</Component>
-										</Directory>
-									</Directory>
 									<Directory Id="dir6230421C7FF3DD099D7759D30F9818BE" Name="lib">
 										<Component Id="cmp40CEB597792461144711ABF6F000491C" Guid="*">
 											<File Id="fil59094F4A8AF3F1EF9EEC9726BE7444AE" DiskId="1" Source="InputFiles32\share\ghostscript\9.50\lib\acctest.ps" />
@@ -18309,6 +18148,7 @@
 			<ComponentRef Id="cmp0CFE349CC3E73149FA55C4363AB61AB1" />
 			<ComponentRef Id="cmp0CFE359CC3E73149FB55C4363AB61AB3" />
 			<ComponentRef Id="cmp431D8ED2961456F7C007BF46609BE8BE" />
+			<ComponentRef Id="cmpB670B48D3551534B07F28A7DBB1E62D1" />
 			<ComponentRef Id="cmpF641A6CFCB61D69BDCD568BDFF8F14C1" />
 			<ComponentRef Id="cmpCB40D0785AD4B5DB31E6B9DC0661CC44" />
 			<ComponentRef Id="cmpBA92F780A78FB4747E9FD36FE16A39E9" />
@@ -18362,7 +18202,6 @@
 			<ComponentRef Id="cmp25F8FA79FE416DD2DD7ADB513BAD95D5" />
 			<ComponentRef Id="cmp0701BA967488E1D49D9200A9BE4273DE" />
 			<ComponentRef Id="cmp0F121C57108637975909B9418E0273CA" />
-			<ComponentRef Id="cmp22DCBA71D6352739CB1528CA8B7018A3" />
 			<ComponentRef Id="cmp53F4E2312362ECEC661F12A824FC353B" />
 			<ComponentRef Id="cmp7173EB61517BA2128135672886B73E3E" />
 			<ComponentRef Id="cmp963D8F7FED98480589A700C3994B774B" />
@@ -18494,6 +18333,7 @@
 			<ComponentRef Id="cmp19FC114AD22D4BF0C5C86135BF126B0A" />
 			<ComponentRef Id="cmpCFFE0BABDA5729E6AB35EE4E3BBF5889" />
 			<ComponentRef Id="cmpFC8BAA22A7CE5E0A8D0520070A59269B" />
+			<ComponentRef Id="cmp42C0FD0553096DED3A45DBBF1F20DC29" />
 			<ComponentRef Id="cmp4C8C410B37A8C72AA2CF44348A8D8597" />
 			<ComponentRef Id="cmp965AF18D3C56CF8E6AEFCB06D680F322" />
 			<ComponentRef Id="cmp015A26FF52976FAA52B0E313B4558831" />
@@ -23213,58 +23053,6 @@
 			<ComponentRef Id="cmpB44C14FF84AE930B81E784D9BC867998" />
 			<ComponentRef Id="cmpBFA6249E74226F6D7748B81E04E9DBF4" />
 			<ComponentRef Id="cmp19633EAA7E94410B1E2CC082730A3E6B" />
-			<ComponentRef Id="cmp4E4E691168B9D6DC7DF6C21CB023CDED" />
-			<ComponentRef Id="cmpDD33981BE270A565A73A54DA1BE30424" />
-			<ComponentRef Id="cmpEA500BA5EA28EE208166B822A9CB285E" />
-			<ComponentRef Id="cmpCF6BBAD8464EDC3E2732E1165966116C" />
-			<ComponentRef Id="cmp48AC211E0CF6F781D2C09C605A19B256" />
-			<ComponentRef Id="cmpCCEB6D540B14F9D0B4A092C83AC80622" />
-			<ComponentRef Id="cmpE72CEF5127A897DB8A459A1D65882D93" />
-			<ComponentRef Id="cmp21F583A967FC1A825502F2621F21F4DE" />
-			<ComponentRef Id="cmp4854372325F4A939BD361989E50E5225" />
-			<ComponentRef Id="cmp8DA6E39F1C6DB75311F3DCB346CDD3B3" />
-			<ComponentRef Id="cmp5559BDEC431A6657D8521247934DE345" />
-			<ComponentRef Id="cmp317965D773F9E8F2BF7D56A1B69FA492" />
-			<ComponentRef Id="cmpAF1E8C7EE25D23C55DF6CCBB2B637EB3" />
-			<ComponentRef Id="cmpEB2171065647252525FED798A10FE446" />
-			<ComponentRef Id="cmp14B5E696FEB8FE0005020A05F3668B6E" />
-			<ComponentRef Id="cmp48BDA5AF2E7E5019EE2FBE5DCC7E9DB9" />
-			<ComponentRef Id="cmpC00EFFE230ECC1F6F864265200E538D4" />
-			<ComponentRef Id="cmp875D327C2C5747A4B16EA1A90D34C47E" />
-			<ComponentRef Id="cmp21744AAA79F6F379B5123A2916351FAD" />
-			<ComponentRef Id="cmp11319C0A177EB5E20DE520EC9DCCF06A" />
-			<ComponentRef Id="cmp630414C108C0AD8E01F5B844BB44F562" />
-			<ComponentRef Id="cmpDECD03AECFBE62B17A1830F49B46B368" />
-			<ComponentRef Id="cmpAF23BB123188B8645EF6386DC0D9DCEC" />
-			<ComponentRef Id="cmp3494CD547F4138A7E89D334FF66FE0B6" />
-			<ComponentRef Id="cmp505CC4B28D3745CD0FEA89B321A9A332" />
-			<ComponentRef Id="cmp701B5D741EFCCB3EE308DE3E018AD939" />
-			<ComponentRef Id="cmpAB2A66721E269B72B7B3D9A12656A7E2" />
-			<ComponentRef Id="cmp0DAB8B00A1EFA1C858B7AB9BDD3F768F" />
-			<ComponentRef Id="cmpAC2BE335E9109FF3E4CAAE8773873BD2" />
-			<ComponentRef Id="cmp246D2B610ED73A012266D1A883768AC0" />
-			<ComponentRef Id="cmpDE59DEC1F0ED39BE617BEC8F4FA7FAC0" />
-			<ComponentRef Id="cmp8A7B60003BC06EDAEEABB64D6A7DB854" />
-			<ComponentRef Id="cmp85178806CB33194DCC0C497B8097BEAD" />
-			<ComponentRef Id="cmp3044C2B8F38EE259FE82B6DF367A0085" />
-			<ComponentRef Id="cmp683BA767CC46D806B1D248D44843B4B1" />
-			<ComponentRef Id="cmpBCA09853B7E98EB2C3B5755B4F74A131" />
-			<ComponentRef Id="cmp7AD19522FB3EA7F19D3B41AC8DDBD954" />
-			<ComponentRef Id="cmp6B67CF16A6662B3CFED9415D4449F1D1" />
-			<ComponentRef Id="cmpBCF41EA4811CB128499D763F24C87D3E" />
-			<ComponentRef Id="cmp0FA024203FDA430945DBB66C8F6F7602" />
-			<ComponentRef Id="cmpE603320E8FE0F1BD38AC36B7B1877049" />
-			<ComponentRef Id="cmpDA8F731168FAE2846805BB64494F8AFF" />
-			<ComponentRef Id="cmpF1E04B6D5B63E98CD60D582427BA04E5" />
-			<ComponentRef Id="cmp42518ECBED33426DC7BA40CC84FC2AC8" />
-			<ComponentRef Id="cmpB621325503D59EB5E15E363A8AFAF0C3" />
-			<ComponentRef Id="cmpFBB0B173D0251C348CEF6878FD3CCA36" />
-			<ComponentRef Id="cmp5720730076C87385C6E5D378F8E71F9B" />
-			<ComponentRef Id="cmp9FCDE263580C72A45E34017DAEBEA83A" />
-			<ComponentRef Id="cmpB73C055AA8C936F04C282E45E1D38C8A" />
-			<ComponentRef Id="cmp2C15C860EF877A4BA457AA4D05F8B03B" />
-			<ComponentRef Id="cmp6033F65118C60257FB21B4E7F26345FE" />
-			<ComponentRef Id="cmpE5F720AA5F57FA53A4D688CD123FF801" />
 			<ComponentRef Id="cmp40CEB597792461144711ABF6F000491C" />
 			<ComponentRef Id="cmp10CB7ADAFEF686F452CF623257ADB024" />
 			<ComponentRef Id="cmp41896DC1771EF46998B7FF780BD15F26" />
