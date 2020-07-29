@@ -31,7 +31,7 @@
 #include "imap_main.h"
 #include "imap_source.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static void   save_to_view (GtkTextBuffer *buffer,
                             const char    *format,

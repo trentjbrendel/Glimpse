@@ -24,12 +24,12 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsemodule/gimpmodule.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpmodule/gimpmodule.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
-#include "libglimpse/libglimpse-intl.h"
+#include "libgimp/libgimp-intl.h"
 
 
 #define COLORSEL_TYPE_WATER            (colorsel_water_get_type ())

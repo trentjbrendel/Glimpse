@@ -31,7 +31,7 @@ HELP
     );
 
     %invoke = (
-	headers => [ qw("libglimpsebase/gimpbase.h") ],
+	headers => [ qw("libgimpbase/gimpbase.h") ],
 	code    => <<'CODE'
 {
   version = g_strdup (GIMP_VERSION);

@@ -77,8 +77,8 @@ EXTRA_DIST = \
 	$(pdb_groups)
 
 enum_headers = \
-	../libglimpsebase/gimpbaseenums.h		\
-	../libglimpseconfig/gimpconfigenums.h	\
+	../libgimpbase/gimpbaseenums.h		\
+	../libgimpconfig/gimpconfigenums.h	\
 	../app/operations/operations-enums.h	\
 	../app/core/core-enums.h		\
 	../app/paint/paint-enums.h

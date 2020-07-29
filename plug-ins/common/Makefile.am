@@ -23,14 +23,14 @@ include $(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 include gimprc.common
 endif
 
-libglimpse = $(top_builddir)/libglimpse/libglimpse-$(GIMP_API_VERSION).la
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpsemath = $(top_builddir)/libglimpsemath/libglimpsemath-$(GIMP_API_VERSION).la $(libm)
-libglimpsemodule = $(top_builddir)/libglimpsemodule/libglimpsemodule-$(GIMP_API_VERSION).la
-libglimpseui = $(top_builddir)/libglimpse/libglimpseui-$(GIMP_API_VERSION).la
-libglimpsewidgets = $(top_builddir)/libglimpsewidgets/libglimpsewidgets-$(GIMP_API_VERSION).la
+libgimp = $(top_builddir)/libgimp/libgimp-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la $(libm)
+libgimpmodule = $(top_builddir)/libgimpmodule/libgimpmodule-$(GIMP_API_VERSION).la
+libgimpui = $(top_builddir)/libgimp/libgimpui-$(GIMP_API_VERSION).la
+libgimpwidgets = $(top_builddir)/libgimpwidgets/libgimpwidgets-$(GIMP_API_VERSION).la
 
 
 AM_LDFLAGS = $(mwindows)
@@ -257,14 +257,14 @@ align_layers_SOURCES = \
 	align-layers.c
 
 align_layers_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -274,11 +274,11 @@ animation_optimize_SOURCES = \
 	animation-optimize.c
 
 animation_optimize_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(GEGL_LIBS)		\
@@ -290,14 +290,14 @@ animation_play_SOURCES = \
 	animation-play.c
 
 animation_play_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -308,14 +308,14 @@ blinds_SOURCES = \
 	blinds.c
 
 blinds_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -326,11 +326,11 @@ blur_SOURCES = \
 	blur.c
 
 blur_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(RT_LIBS)		\
@@ -341,14 +341,14 @@ border_average_SOURCES = \
 	border-average.c
 
 border_average_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -359,14 +359,14 @@ busy_dialog_SOURCES = \
 	busy-dialog.c
 
 busy_dialog_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -377,14 +377,14 @@ cartoon_SOURCES = \
 	cartoon.c
 
 cartoon_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -394,14 +394,14 @@ checkerboard_SOURCES = \
 	checkerboard.c
 
 checkerboard_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -412,14 +412,14 @@ cml_explorer_SOURCES = \
 	cml-explorer.c
 
 cml_explorer_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -430,14 +430,14 @@ color_cube_analyze_SOURCES = \
 	color-cube-analyze.c
 
 color_cube_analyze_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -447,14 +447,14 @@ color_enhance_SOURCES = \
 	color-enhance.c
 
 color_enhance_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -464,14 +464,14 @@ colorify_SOURCES = \
 	colorify.c
 
 colorify_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -481,14 +481,14 @@ colormap_remap_SOURCES = \
 	colormap-remap.c
 
 colormap_remap_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -499,14 +499,14 @@ compose_SOURCES = \
 	compose.c
 
 compose_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -517,14 +517,14 @@ contrast_retinex_SOURCES = \
 	contrast-retinex.c
 
 contrast_retinex_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -535,11 +535,11 @@ crop_zealous_SOURCES = \
 	crop-zealous.c
 
 crop_zealous_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(GEGL_LIBS)		\
@@ -551,14 +551,14 @@ curve_bend_SOURCES = \
 	curve-bend.c
 
 curve_bend_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -569,14 +569,14 @@ decompose_SOURCES = \
 	decompose.c
 
 decompose_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -587,14 +587,14 @@ depth_merge_SOURCES = \
 	depth-merge.c
 
 depth_merge_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -605,14 +605,14 @@ despeckle_SOURCES = \
 	despeckle.c
 
 despeckle_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -623,14 +623,14 @@ destripe_SOURCES = \
 	destripe.c
 
 destripe_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -641,14 +641,14 @@ edge_dog_SOURCES = \
 	edge-dog.c
 
 edge_dog_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -658,14 +658,14 @@ emboss_SOURCES = \
 	emboss.c
 
 emboss_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -675,14 +675,14 @@ file_aa_SOURCES = \
 	file-aa.c
 
 file_aa_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(AA_LIBS)		\
@@ -694,14 +694,14 @@ file_cel_SOURCES = \
 	file-cel.c
 
 file_cel_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -714,11 +714,11 @@ file_compressor_SOURCES = \
 	file-compressor.c
 
 file_compressor_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(GIO_LIBS)		\
@@ -733,14 +733,14 @@ file_csource_SOURCES = \
 	file-csource.c
 
 file_csource_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -751,11 +751,11 @@ file_desktop_link_SOURCES = \
 	file-desktop-link.c
 
 file_desktop_link_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(RT_LIBS)		\
@@ -768,14 +768,14 @@ file_dicom_SOURCES = \
 	file-dicom.c
 
 file_dicom_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -786,14 +786,14 @@ file_gbr_SOURCES = \
 	file-gbr.c
 
 file_gbr_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -804,14 +804,14 @@ file_gegl_SOURCES = \
 	file-gegl.c
 
 file_gegl_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -822,11 +822,11 @@ file_gif_load_SOURCES = \
 	file-gif-load.c
 
 file_gif_load_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(GEGL_LIBS)		\
@@ -838,14 +838,14 @@ file_gif_save_SOURCES = \
 	file-gif-save.c
 
 file_gif_save_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -856,14 +856,14 @@ file_gih_SOURCES = \
 	file-gih.c
 
 file_gih_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -874,11 +874,11 @@ file_glob_SOURCES = \
 	file-glob.c
 
 file_glob_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(RT_LIBS)		\
@@ -889,14 +889,14 @@ file_header_SOURCES = \
 	file-header.c
 
 file_header_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -909,14 +909,14 @@ file_heif_SOURCES = \
 	file-heif.c
 
 file_heif_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(LIBHEIF_LIBS)		\
@@ -928,14 +928,14 @@ file_html_table_SOURCES = \
 	file-html-table.c
 
 file_html_table_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -948,14 +948,14 @@ file_jp2_load_SOURCES = \
 	file-jp2-load.c
 
 file_jp2_load_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(OPENJPEG_LIBS)		\
@@ -969,14 +969,14 @@ file_mng_SOURCES = \
 	file-mng.c
 
 file_mng_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(MNG_LIBS)		\
@@ -988,14 +988,14 @@ file_pat_SOURCES = \
 	file-pat.c
 
 file_pat_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1006,14 +1006,14 @@ file_pcx_SOURCES = \
 	file-pcx.c
 
 file_pcx_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1026,14 +1026,14 @@ file_pdf_load_SOURCES = \
 	file-pdf-load.c
 
 file_pdf_load_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(POPPLER_LIBS)		\
@@ -1047,14 +1047,14 @@ file_pdf_save_SOURCES = \
 	file-pdf-save.c
 
 file_pdf_save_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(CAIRO_PDF_LIBS)		\
@@ -1066,14 +1066,14 @@ file_pix_SOURCES = \
 	file-pix.c
 
 file_pix_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1086,14 +1086,14 @@ file_png_SOURCES = \
 	file-png.c
 
 file_png_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(PNG_LIBS)		\
@@ -1105,14 +1105,14 @@ file_pnm_SOURCES = \
 	file-pnm.c
 
 file_pnm_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1123,14 +1123,14 @@ file_ps_SOURCES = \
 	file-ps.c
 
 file_ps_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(GS_LIBS)		\
@@ -1142,14 +1142,14 @@ file_psp_SOURCES = \
 	file-psp.c
 
 file_psp_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(Z_LIBS)		\
@@ -1161,14 +1161,14 @@ file_raw_data_SOURCES = \
 	file-raw-data.c
 
 file_raw_data_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1179,14 +1179,14 @@ file_sunras_SOURCES = \
 	file-sunras.c
 
 file_sunras_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1199,14 +1199,14 @@ file_svg_SOURCES = \
 	file-svg.c
 
 file_svg_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(SVG_LIBS)		\
 	$(RT_LIBS)		\
@@ -1217,14 +1217,14 @@ file_tga_SOURCES = \
 	file-tga.c
 
 file_tga_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1237,14 +1237,14 @@ file_wmf_SOURCES = \
 	file-wmf.c
 
 file_wmf_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(WMF_LIBS)		\
@@ -1256,14 +1256,14 @@ file_xbm_SOURCES = \
 	file-xbm.c
 
 file_xbm_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1274,14 +1274,14 @@ file_xmc_SOURCES = \
 	file-xmc.c
 
 file_xmc_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(XMC_LIBS)		\
@@ -1293,14 +1293,14 @@ file_xpm_SOURCES = \
 	file-xpm.c
 
 file_xpm_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(XPM_LIBS)		\
@@ -1312,14 +1312,14 @@ file_xwd_SOURCES = \
 	file-xwd.c
 
 file_xwd_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1330,14 +1330,14 @@ film_SOURCES = \
 	film.c
 
 film_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1348,14 +1348,14 @@ filter_pack_SOURCES = \
 	filter-pack.c
 
 filter_pack_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1365,14 +1365,14 @@ fractal_trace_SOURCES = \
 	fractal-trace.c
 
 fractal_trace_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1382,11 +1382,11 @@ goat_exercise_SOURCES = \
 	goat-exercise.c
 
 goat_exercise_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(GEGL_LIBS)		\
@@ -1398,11 +1398,11 @@ gradient_map_SOURCES = \
 	gradient-map.c
 
 gradient_map_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(GEGL_LIBS)		\
@@ -1414,14 +1414,14 @@ grid_SOURCES = \
 	grid.c
 
 grid_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1432,11 +1432,11 @@ guillotine_SOURCES = \
 	guillotine.c
 
 guillotine_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(CAIRO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(RT_LIBS)		\
@@ -1447,14 +1447,14 @@ hot_SOURCES = \
 	hot.c
 
 hot_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1465,14 +1465,14 @@ jigsaw_SOURCES = \
 	jigsaw.c
 
 jigsaw_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1483,14 +1483,14 @@ mail_SOURCES = \
 	mail.c
 
 mail_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1500,14 +1500,14 @@ max_rgb_SOURCES = \
 	max-rgb.c
 
 max_rgb_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1517,14 +1517,14 @@ nl_filter_SOURCES = \
 	nl-filter.c
 
 nl_filter_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1535,14 +1535,14 @@ photocopy_SOURCES = \
 	photocopy.c
 
 photocopy_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1552,14 +1552,14 @@ plugin_browser_SOURCES = \
 	plugin-browser.c
 
 plugin_browser_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1569,14 +1569,14 @@ procedure_browser_SOURCES = \
 	procedure-browser.c
 
 procedure_browser_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1586,14 +1586,14 @@ qbist_SOURCES = \
 	qbist.c
 
 qbist_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1604,14 +1604,14 @@ sample_colorize_SOURCES = \
 	sample-colorize.c
 
 sample_colorize_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1622,14 +1622,14 @@ sharpen_SOURCES = \
 	sharpen.c
 
 sharpen_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1639,14 +1639,14 @@ smooth_palette_SOURCES = \
 	smooth-palette.c
 
 smooth_palette_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1657,14 +1657,14 @@ softglow_SOURCES = \
 	softglow.c
 
 softglow_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1674,14 +1674,14 @@ sparkle_SOURCES = \
 	sparkle.c
 
 sparkle_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1692,14 +1692,14 @@ sphere_designer_SOURCES = \
 	sphere-designer.c
 
 sphere_designer_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1710,14 +1710,14 @@ tile_SOURCES = \
 	tile.c
 
 tile_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1728,14 +1728,14 @@ tile_small_SOURCES = \
 	tile-small.c
 
 tile_small_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1746,14 +1746,14 @@ unit_editor_SOURCES = \
 	unit-editor.c
 
 unit_editor_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1763,14 +1763,14 @@ van_gogh_lic_SOURCES = \
 	van-gogh-lic.c
 
 van_gogh_lic_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1781,14 +1781,14 @@ warp_SOURCES = \
 	warp.c
 
 warp_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1799,14 +1799,14 @@ wavelet_decompose_SOURCES = \
 	wavelet-decompose.c
 
 wavelet_decompose_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -1821,14 +1821,14 @@ web_browser_SOURCES = \
 	web-browser.c
 
 web_browser_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(RT_LIBS)		\
 	$(INTLLIBS)		\
@@ -1840,14 +1840,14 @@ web_page_SOURCES = \
 	web-page.c
 
 web_page_LDADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpsemodule)	\
-	$(libglimpse)		\
-	$(libglimpsemath)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpmodule)	\
+	$(libgimp)		\
+	$(libgimpmath)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(WEBKIT_LIBS)		\
 	$(RT_LIBS)		\

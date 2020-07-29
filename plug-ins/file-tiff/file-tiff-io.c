@@ -26,8 +26,8 @@
 
 #include <tiffio.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "file-tiff-io.h"
 

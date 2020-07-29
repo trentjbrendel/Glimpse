@@ -23,7 +23,7 @@
 #include <gio/gio.h>
 #include <gegl.h>
 
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "gimp-gegl-types.h"
 

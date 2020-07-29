@@ -26,7 +26,7 @@
 
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include <libglimpsethumb/gimpthumb.h>
+#include <libgimpthumb/gimpthumb.h>
 
 #include "pygimp-util.h"
 

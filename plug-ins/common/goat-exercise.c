@@ -19,9 +19,9 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define PLUG_IN_PROC "plug-in-goat-exercise"

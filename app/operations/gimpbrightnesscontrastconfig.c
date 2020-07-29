@@ -23,8 +23,8 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gegl.h>
 
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "operations-types.h"
 

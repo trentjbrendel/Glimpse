@@ -25,7 +25,7 @@
 #ifndef __GFIG_STYLE_H__
 #define __GFIG_STYLE_H__
 
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimpui.h>
 
 struct _Style
 {

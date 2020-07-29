@@ -20,7 +20,7 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsethumb/gimpthumb.h"
+#include "libgimpthumb/gimpthumb.h"
 
 #include "menus-types.h"
 

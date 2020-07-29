@@ -26,7 +26,7 @@
 
 #include "imap_commands.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static CmdExecuteValue_t copy_command_execute(Command_t *parent);
 static void copy_command_undo(Command_t *parent);

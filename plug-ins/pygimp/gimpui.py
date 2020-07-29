@@ -14,7 +14,7 @@
 #   You should have received a copy of the GNU General Public License
 #   along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-'''This module implements the UI items found in the libglimpseui library.
+'''This module implements the UI items found in the libgimpui library.
 It requires pygtk to work.  These functions take use to callbacks -- one
 is a constraint function, and the other is the callback object.  The
 constraint function takes an image object as its first argument, and

@@ -28,10 +28,10 @@
 #include <gegl-paramspecs.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "propgui-types.h"
 

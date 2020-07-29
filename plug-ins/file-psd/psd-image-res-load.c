@@ -118,7 +118,7 @@
 #include <errno.h>
 
 #include <glib/gstdio.h>
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 #include <jpeglib.h>
 #include <jerror.h>
@@ -131,7 +131,7 @@
 #include "psd-util.h"
 #include "psd-image-res-load.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 #define EXIF_HEADER_SIZE 8
 

@@ -25,8 +25,8 @@
 
 #include <mypaint-brush.h>
 
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsecolor/gimpcolor.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpcolor/gimpcolor.h"
 
 #include "paint-types.h"
 

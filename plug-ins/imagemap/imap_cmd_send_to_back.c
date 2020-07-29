@@ -26,7 +26,7 @@
 
 #include "imap_commands.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static CmdExecuteValue_t send_to_back_command_execute(Command_t *parent);
 

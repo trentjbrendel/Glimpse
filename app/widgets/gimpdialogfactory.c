@@ -26,8 +26,8 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

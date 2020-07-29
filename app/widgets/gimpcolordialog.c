@@ -22,8 +22,8 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

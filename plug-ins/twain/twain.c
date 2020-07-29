@@ -69,8 +69,8 @@
 #include "tw_platform.h"
 #include "tw_local.h"
 
-#include "libglimpse/gimp.h"
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/gimp.h"
+#include "libgimp/stdplugins-intl.h"
 
 #include "tw_func.h"
 #include "tw_util.h"

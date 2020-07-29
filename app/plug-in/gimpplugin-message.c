@@ -24,9 +24,9 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsebase/gimpprotocol.h"
-#include "libglimpsebase/gimpwire.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpbase/gimpprotocol.h"
+#include "libgimpbase/gimpwire.h"
 
 #include "plug-in-types.h"
 

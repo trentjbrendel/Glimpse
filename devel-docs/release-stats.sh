@@ -67,7 +67,7 @@ echo "Statistics on C files:" `git diff --shortstat $PREV..$CUR  -- "*.[ch]" 2>/
 echo
 echo "Core developers:"
 
-git --no-pager shortlog -s -n $PREV..$CUR -- app/ "libglimpse*" pdb tools/pdbgen/
+git --no-pager shortlog -s -n $PREV..$CUR -- app/ "libgimp*" pdb tools/pdbgen/
 
 echo "Plugin and module developers:"
 

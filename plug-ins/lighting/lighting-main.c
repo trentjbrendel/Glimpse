@@ -23,7 +23,7 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 #include "lighting-apply.h"
 #include "lighting-image.h"
@@ -32,7 +32,7 @@
 #include "lighting-shade.h"
 #include "lighting-ui.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 LightingValues mapvals;

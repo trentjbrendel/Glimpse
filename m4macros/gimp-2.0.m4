@@ -77,7 +77,7 @@ dnl
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 GimpPlugInInfo PLUG_IN_INFO =
 {
@@ -139,7 +139,7 @@ int main ()
           LIBS="$LIBS $GIMP_LIBS"
           AC_TRY_LINK([
 #include <stdio.h>
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 GimpPlugInInfo PLUG_IN_INFO =
 {

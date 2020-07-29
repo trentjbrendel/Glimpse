@@ -55,13 +55,13 @@
 #include <glib/gstdio.h>
 #include <glib/gprintf.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include <X11/Xlib.h>
 #include <X11/Xcursor/Xcursor.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 /* For debug */
 /* #define XMC_DEBUG */

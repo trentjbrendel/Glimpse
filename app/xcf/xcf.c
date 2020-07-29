@@ -25,7 +25,7 @@
 #include <glib/gstdio.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "core/core-types.h"
 

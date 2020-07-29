@@ -15,7 +15,7 @@ What is this?
 PDBGEN is a tool to automate much of the drudge work of making PDB interfaces
 to GIMP internals. Right now, it generates PDB description records,
 argument marshallers (with sanity checking) for the app side, as well
-as libglimpse wrappers for C plugins. It's written so that extending it
+as libgimp wrappers for C plugins. It's written so that extending it
 to provide support for CORBA and other languages suited to static
 autogeneration.
 
@@ -23,13 +23,13 @@ Invoking PDBGEN from the command line:
 1. Change into the ./pdb directory.
 2. $ ./pdbgen.pl DIRNAME
 where DIRNAME is either "lib" or "app", depending on which set of files
-you want to generate. The files are written into $destdir/app or $destdir/libglimpse.
+you want to generate. The files are written into $destdir/app or $destdir/libgimp.
 $destdir is the environment variable destdir. If it's not set,
 then it's the ./pdb directory. Make sure the directories
-$destdir/app and $destdir/libglimpse already exist and you have write permissions.
+$destdir/app and $destdir/libgimp already exist and you have write permissions.
 Otherwise the code generator will fail and exit.
 It's up to you to diff the file you changed. When you're happy with
-the generated file, copy it into the actual ./app/ or ./libglimpse/ directory
+the generated file, copy it into the actual ./app/ or ./libgimp/ directory
 where it finally gets built.
 
 Anatomy of a PDB descriptor:

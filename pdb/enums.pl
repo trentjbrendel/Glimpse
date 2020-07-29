@@ -31,7 +31,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpAddMaskType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_ADD_MASK_WHITE GIMP_ADD_MASK_BLACK
 			  GIMP_ADD_MASK_ALPHA GIMP_ADD_MASK_ALPHA_TRANSFER
 			  GIMP_ADD_MASK_SELECTION GIMP_ADD_MASK_COPY
@@ -46,7 +46,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpBlendMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_BLEND_FG_BG_RGB GIMP_BLEND_FG_BG_HSV
 			  GIMP_BLEND_FG_TRANSPARENT GIMP_BLEND_CUSTOM) ],
 	  mapping => { GIMP_BLEND_FG_BG_RGB => '0',
@@ -56,7 +56,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpBrushGeneratedShape =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_BRUSH_GENERATED_CIRCLE
 			  GIMP_BRUSH_GENERATED_SQUARE
 			  GIMP_BRUSH_GENERATED_DIAMOND) ],
@@ -66,7 +66,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpBucketFillMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_BUCKET_FILL_FG GIMP_BUCKET_FILL_BG
 			  GIMP_BUCKET_FILL_PATTERN) ],
 	  mapping => { GIMP_BUCKET_FILL_FG => '0',
@@ -75,7 +75,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpCapStyle =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_CAP_BUTT GIMP_CAP_ROUND GIMP_CAP_SQUARE) ],
 	  mapping => { GIMP_CAP_BUTT => '0',
 		       GIMP_CAP_ROUND => '1',
@@ -83,7 +83,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpChannelOps =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_CHANNEL_OP_ADD GIMP_CHANNEL_OP_SUBTRACT
 			  GIMP_CHANNEL_OP_REPLACE GIMP_CHANNEL_OP_INTERSECT) ],
 	  mapping => { GIMP_CHANNEL_OP_ADD => '0',
@@ -93,7 +93,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpChannelType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_CHANNEL_RED GIMP_CHANNEL_GREEN
 			  GIMP_CHANNEL_BLUE GIMP_CHANNEL_GRAY
 			  GIMP_CHANNEL_INDEXED GIMP_CHANNEL_ALPHA) ],
@@ -106,14 +106,14 @@ package Gimp::CodeGen::enums;
 	},
     GimpCloneType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_CLONE_IMAGE GIMP_CLONE_PATTERN) ],
 	  mapping => { GIMP_CLONE_IMAGE => '0',
 		       GIMP_CLONE_PATTERN => '1' }
 	},
     GimpColorTag =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_COLOR_TAG_NONE GIMP_COLOR_TAG_BLUE
 			  GIMP_COLOR_TAG_GREEN GIMP_COLOR_TAG_YELLOW
 			  GIMP_COLOR_TAG_ORANGE GIMP_COLOR_TAG_BROWN
@@ -131,7 +131,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpComponentType =>
 	{ contig => 0,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_COMPONENT_TYPE_U8 GIMP_COMPONENT_TYPE_U16
 			  GIMP_COMPONENT_TYPE_U32 GIMP_COMPONENT_TYPE_HALF
 			  GIMP_COMPONENT_TYPE_FLOAT
@@ -145,7 +145,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpConvertPaletteType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_CONVERT_PALETTE_GENERATE
 			  GIMP_CONVERT_PALETTE_REUSE
 			  GIMP_CONVERT_PALETTE_WEB GIMP_CONVERT_PALETTE_MONO
@@ -158,14 +158,14 @@ package Gimp::CodeGen::enums;
 	},
     GimpConvolveType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_CONVOLVE_BLUR GIMP_CONVOLVE_SHARPEN) ],
 	  mapping => { GIMP_CONVOLVE_BLUR => '0',
 		       GIMP_CONVOLVE_SHARPEN => '1' }
 	},
     GimpDesaturateMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_DESATURATE_LIGHTNESS GIMP_DESATURATE_LUMA
 			  GIMP_DESATURATE_AVERAGE GIMP_DESATURATE_LUMINANCE
 			  GIMP_DESATURATE_VALUE) ],
@@ -177,7 +177,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpDodgeBurnType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_DODGE_BURN_TYPE_DODGE
 			  GIMP_DODGE_BURN_TYPE_BURN) ],
 	  mapping => { GIMP_DODGE_BURN_TYPE_DODGE => '0',
@@ -185,7 +185,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpFillType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_FILL_FOREGROUND GIMP_FILL_BACKGROUND
 			  GIMP_FILL_WHITE GIMP_FILL_TRANSPARENT
 			  GIMP_FILL_PATTERN) ],
@@ -197,7 +197,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpForegroundExtractMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_FOREGROUND_EXTRACT_SIOX
 			  GIMP_FOREGROUND_EXTRACT_MATTING) ],
 	  mapping => { GIMP_FOREGROUND_EXTRACT_SIOX => '0',
@@ -205,7 +205,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpGradientBlendColorSpace =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_GRADIENT_BLEND_RGB_PERCEPTUAL
 			  GIMP_GRADIENT_BLEND_RGB_LINEAR
 			  GIMP_GRADIENT_BLEND_CIE_LAB) ],
@@ -215,7 +215,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpGradientSegmentColor =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_GRADIENT_SEGMENT_RGB
 			  GIMP_GRADIENT_SEGMENT_HSV_CCW
 			  GIMP_GRADIENT_SEGMENT_HSV_CW) ],
@@ -225,7 +225,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpGradientSegmentType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_GRADIENT_SEGMENT_LINEAR
 			  GIMP_GRADIENT_SEGMENT_CURVED
 			  GIMP_GRADIENT_SEGMENT_SINE
@@ -241,7 +241,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpGradientType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_GRADIENT_LINEAR GIMP_GRADIENT_BILINEAR
 			  GIMP_GRADIENT_RADIAL GIMP_GRADIENT_SQUARE
 			  GIMP_GRADIENT_CONICAL_SYMMETRIC
@@ -265,7 +265,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpGridStyle =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_GRID_DOTS GIMP_GRID_INTERSECTIONS
 			  GIMP_GRID_ON_OFF_DASH GIMP_GRID_DOUBLE_DASH
 			  GIMP_GRID_SOLID) ],
@@ -277,7 +277,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpHueRange =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_HUE_RANGE_ALL GIMP_HUE_RANGE_RED
 			  GIMP_HUE_RANGE_YELLOW GIMP_HUE_RANGE_GREEN
 			  GIMP_HUE_RANGE_CYAN GIMP_HUE_RANGE_BLUE
@@ -292,7 +292,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpIconType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_ICON_TYPE_ICON_NAME
 			  GIMP_ICON_TYPE_INLINE_PIXBUF
 			  GIMP_ICON_TYPE_IMAGE_FILE) ],
@@ -302,7 +302,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpImageBaseType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_RGB GIMP_GRAY GIMP_INDEXED) ],
 	  mapping => { GIMP_RGB => '0',
 		       GIMP_GRAY => '1',
@@ -310,7 +310,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpImageType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_RGB_IMAGE GIMP_RGBA_IMAGE GIMP_GRAY_IMAGE
 			  GIMP_GRAYA_IMAGE GIMP_INDEXED_IMAGE
 			  GIMP_INDEXEDA_IMAGE) ],
@@ -323,7 +323,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpInkBlobType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_INK_BLOB_TYPE_CIRCLE
 			  GIMP_INK_BLOB_TYPE_SQUARE
 			  GIMP_INK_BLOB_TYPE_DIAMOND) ],
@@ -333,7 +333,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpInterpolationType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_INTERPOLATION_NONE GIMP_INTERPOLATION_LINEAR
 			  GIMP_INTERPOLATION_CUBIC GIMP_INTERPOLATION_NOHALO
 			  GIMP_INTERPOLATION_LOHALO) ],
@@ -345,7 +345,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpJoinStyle =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_JOIN_MITER GIMP_JOIN_ROUND GIMP_JOIN_BEVEL) ],
 	  mapping => { GIMP_JOIN_MITER => '0',
 		       GIMP_JOIN_ROUND => '1',
@@ -353,14 +353,14 @@ package Gimp::CodeGen::enums;
 	},
     GimpMaskApplyMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_MASK_APPLY GIMP_MASK_DISCARD) ],
 	  mapping => { GIMP_MASK_APPLY => '0',
 		       GIMP_MASK_DISCARD => '1' }
 	},
     GimpMergeType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_EXPAND_AS_NECESSARY GIMP_CLIP_TO_IMAGE
 			  GIMP_CLIP_TO_BOTTOM_LAYER GIMP_FLATTEN_IMAGE) ],
 	  mapping => { GIMP_EXPAND_AS_NECESSARY => '0',
@@ -370,7 +370,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpMessageHandlerType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_MESSAGE_BOX GIMP_CONSOLE GIMP_ERROR_CONSOLE) ],
 	  mapping => { GIMP_MESSAGE_BOX => '0',
 		       GIMP_CONSOLE => '1',
@@ -378,7 +378,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpOffsetType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_OFFSET_BACKGROUND GIMP_OFFSET_TRANSPARENT
 			  GIMP_OFFSET_WRAP_AROUND) ],
 	  mapping => { GIMP_OFFSET_BACKGROUND => '0',
@@ -387,7 +387,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpOrientationType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_ORIENTATION_HORIZONTAL
 			  GIMP_ORIENTATION_VERTICAL GIMP_ORIENTATION_UNKNOWN) ],
 	  mapping => { GIMP_ORIENTATION_HORIZONTAL => '0',
@@ -396,14 +396,14 @@ package Gimp::CodeGen::enums;
 	},
     GimpPaintApplicationMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_PAINT_CONSTANT GIMP_PAINT_INCREMENTAL) ],
 	  mapping => { GIMP_PAINT_CONSTANT => '0',
 		       GIMP_PAINT_INCREMENTAL => '1' }
 	},
     GimpPDBArgType =>
 	{ contig => 0,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_PDB_INT32 GIMP_PDB_INT16 GIMP_PDB_INT8
 			  GIMP_PDB_FLOAT GIMP_PDB_STRING GIMP_PDB_INT32ARRAY
 			  GIMP_PDB_INT16ARRAY GIMP_PDB_INT8ARRAY
@@ -443,7 +443,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpPDBErrorHandler =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_PDB_ERROR_HANDLER_INTERNAL
 			  GIMP_PDB_ERROR_HANDLER_PLUGIN) ],
 	  mapping => { GIMP_PDB_ERROR_HANDLER_INTERNAL => '0',
@@ -451,7 +451,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpPDBProcType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_INTERNAL GIMP_PLUGIN GIMP_EXTENSION
 			  GIMP_TEMPORARY) ],
 	  mapping => { GIMP_INTERNAL => '0',
@@ -461,7 +461,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpPDBStatusType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_PDB_EXECUTION_ERROR GIMP_PDB_CALLING_ERROR
 			  GIMP_PDB_PASS_THROUGH GIMP_PDB_SUCCESS
 			  GIMP_PDB_CANCEL) ],
@@ -473,7 +473,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpPrecision =>
 	{ contig => 0,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_PRECISION_U8_LINEAR GIMP_PRECISION_U8_GAMMA
 			  GIMP_PRECISION_U16_LINEAR GIMP_PRECISION_U16_GAMMA
 			  GIMP_PRECISION_U32_LINEAR GIMP_PRECISION_U32_GAMMA
@@ -498,7 +498,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpProgressCommand =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_PROGRESS_COMMAND_START
 			  GIMP_PROGRESS_COMMAND_END
 			  GIMP_PROGRESS_COMMAND_SET_TEXT
@@ -514,7 +514,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpRepeatMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_REPEAT_NONE GIMP_REPEAT_SAWTOOTH
 			  GIMP_REPEAT_TRIANGULAR GIMP_REPEAT_TRUNCATE) ],
 	  mapping => { GIMP_REPEAT_NONE => '0',
@@ -524,7 +524,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpRotationType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_ROTATE_90 GIMP_ROTATE_180 GIMP_ROTATE_270) ],
 	  mapping => { GIMP_ROTATE_90 => '0',
 		       GIMP_ROTATE_180 => '1',
@@ -532,7 +532,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpRunMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_RUN_INTERACTIVE GIMP_RUN_NONINTERACTIVE
 			  GIMP_RUN_WITH_LAST_VALS) ],
 	  mapping => { GIMP_RUN_INTERACTIVE => '0',
@@ -541,7 +541,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpSelectCriterion =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_SELECT_CRITERION_COMPOSITE
 			  GIMP_SELECT_CRITERION_R GIMP_SELECT_CRITERION_G
 			  GIMP_SELECT_CRITERION_B GIMP_SELECT_CRITERION_H
@@ -564,14 +564,14 @@ package Gimp::CodeGen::enums;
 	},
     GimpSizeType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_PIXELS GIMP_POINTS) ],
 	  mapping => { GIMP_PIXELS => '0',
 		       GIMP_POINTS => '1' }
 	},
     GimpStackTraceMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_STACK_TRACE_NEVER GIMP_STACK_TRACE_QUERY
 			  GIMP_STACK_TRACE_ALWAYS) ],
 	  mapping => { GIMP_STACK_TRACE_NEVER => '0',
@@ -580,14 +580,14 @@ package Gimp::CodeGen::enums;
 	},
     GimpStrokeMethod =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_STROKE_LINE GIMP_STROKE_PAINT_METHOD) ],
 	  mapping => { GIMP_STROKE_LINE => '0',
 		       GIMP_STROKE_PAINT_METHOD => '1' }
 	},
     GimpTextDirection =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_TEXT_DIRECTION_LTR GIMP_TEXT_DIRECTION_RTL
 			  GIMP_TEXT_DIRECTION_TTB_RTL
 			  GIMP_TEXT_DIRECTION_TTB_RTL_UPRIGHT
@@ -602,7 +602,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpTextHintStyle =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_TEXT_HINT_STYLE_NONE
 			  GIMP_TEXT_HINT_STYLE_SLIGHT
 			  GIMP_TEXT_HINT_STYLE_MEDIUM
@@ -614,7 +614,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpTextJustification =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_TEXT_JUSTIFY_LEFT GIMP_TEXT_JUSTIFY_RIGHT
 			  GIMP_TEXT_JUSTIFY_CENTER GIMP_TEXT_JUSTIFY_FILL) ],
 	  mapping => { GIMP_TEXT_JUSTIFY_LEFT => '0',
@@ -624,7 +624,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpTransferMode =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_TRANSFER_SHADOWS GIMP_TRANSFER_MIDTONES
 			  GIMP_TRANSFER_HIGHLIGHTS) ],
 	  mapping => { GIMP_TRANSFER_SHADOWS => '0',
@@ -633,14 +633,14 @@ package Gimp::CodeGen::enums;
 	},
     GimpTransformDirection =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_TRANSFORM_FORWARD GIMP_TRANSFORM_BACKWARD) ],
 	  mapping => { GIMP_TRANSFORM_FORWARD => '0',
 		       GIMP_TRANSFORM_BACKWARD => '1' }
 	},
     GimpTransformResize =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_TRANSFORM_RESIZE_ADJUST
 			  GIMP_TRANSFORM_RESIZE_CLIP
 			  GIMP_TRANSFORM_RESIZE_CROP
@@ -652,7 +652,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpUnit =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_UNIT_PIXEL GIMP_UNIT_INCH GIMP_UNIT_MM
 			  GIMP_UNIT_POINT GIMP_UNIT_PICA GIMP_UNIT_END) ],
 	  mapping => { GIMP_UNIT_PIXEL => '0',
@@ -664,7 +664,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpUserDirectory =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_USER_DIRECTORY_DESKTOP
 			  GIMP_USER_DIRECTORY_DOCUMENTS
 			  GIMP_USER_DIRECTORY_DOWNLOAD
@@ -684,13 +684,13 @@ package Gimp::CodeGen::enums;
 	},
     GimpVectorsStrokeType =>
 	{ contig => 1,
-	  header => 'libglimpsebase/gimpbaseenums.h',
+	  header => 'libgimpbase/gimpbaseenums.h',
 	  symbols => [ qw(GIMP_VECTORS_STROKE_TYPE_BEZIER) ],
 	  mapping => { GIMP_VECTORS_STROKE_TYPE_BEZIER => '0' }
 	},
     GimpColorManagementMode =>
 	{ contig => 1,
-	  header => 'libglimpseconfig/gimpconfigenums.h',
+	  header => 'libgimpconfig/gimpconfigenums.h',
 	  symbols => [ qw(GIMP_COLOR_MANAGEMENT_OFF
 			  GIMP_COLOR_MANAGEMENT_DISPLAY
 			  GIMP_COLOR_MANAGEMENT_SOFTPROOF) ],
@@ -700,7 +700,7 @@ package Gimp::CodeGen::enums;
 	},
     GimpColorRenderingIntent =>
 	{ contig => 1,
-	  header => 'libglimpseconfig/gimpconfigenums.h',
+	  header => 'libgimpconfig/gimpconfigenums.h',
 	  symbols => [ qw(GIMP_COLOR_RENDERING_INTENT_PERCEPTUAL
 			  GIMP_COLOR_RENDERING_INTENT_RELATIVE_COLORIMETRIC
 			  GIMP_COLOR_RENDERING_INTENT_SATURATION

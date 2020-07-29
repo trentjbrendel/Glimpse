@@ -25,8 +25,8 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-#include "libglimpse/gimp.h"
-#include "libglimpse/gimpui.h"
+#include "libgimp/gimp.h"
+#include "libgimp/gimpui.h"
 
 #include "imap_statusbar.h"
 #include "imap_stock.h"

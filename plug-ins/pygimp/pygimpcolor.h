@@ -23,7 +23,7 @@
 
 #include <pygobject.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 G_BEGIN_DECLS
 

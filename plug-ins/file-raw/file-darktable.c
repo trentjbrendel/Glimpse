@@ -23,9 +23,9 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 #include "file-raw-formats.h"
 #include "file-raw-utils.h"

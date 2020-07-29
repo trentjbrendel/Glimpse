@@ -25,8 +25,8 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include <png.h>
 
@@ -37,7 +37,7 @@
 #include "ico-save.h"
 #include "ico-dialog.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 static gint     ico_write_int8         (FILE   *fp,

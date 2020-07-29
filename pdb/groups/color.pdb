@@ -730,7 +730,7 @@ CODE
 }
 
 
-@headers = qw("libglimpsemath/gimpmath.h"
+@headers = qw("libgimpmath/gimpmath.h"
               "core/gimp.h"
               "core/gimpdrawable.h"
               "core/gimpdrawable-operation.h"

@@ -22,7 +22,7 @@
 #include <gio/gio.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "core-types.h"
 

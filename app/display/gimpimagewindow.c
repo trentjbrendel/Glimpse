@@ -33,9 +33,9 @@
 #include <gdk/gdkquartz.h>
 #endif /* !GDK_WINDOWING_QUARTZ */
 
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "display-types.h"
 

@@ -25,9 +25,9 @@
 
 #include <gio/gio.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsebase/gimpbase-private.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpbase/gimpbase-private.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "core/core-types.h"
 #include "core/gimpgrid.h"

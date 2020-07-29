@@ -21,21 +21,21 @@
  */
 
 /*  This code is written so that it can also be compiled standalone.
- *  It shouldn't depend on libglimpse.
+ *  It shouldn't depend on libgimp.
  */
 
 #include "config.h"
 
 #include <string.h>
 
-#include "libglimpse/gimp.h"
+#include "libgimp/gimp.h"
 
 #include "gimphelp.h"
 
 #ifdef DISABLE_NLS
 #define _(String)  (String)
 #else
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 #endif
 
 

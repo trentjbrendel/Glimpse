@@ -28,7 +28,7 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 #include "tw_platform.h"
 #include "tw_func.h"

@@ -5388,9 +5388,9 @@ newsprint_angle (gdouble angle)
 }
 CODE
 
-@headers = qw("libglimpsebase/gimpbase.h"
-              "libglimpseconfig/gimpconfig.h"
-              "libglimpsemath/gimpmath.h"
+@headers = qw("libgimpbase/gimpbase.h"
+              "libgimpconfig/gimpconfig.h"
+              "libgimpmath/gimpmath.h"
               "gegl/gimp-babl.h"
               "gegl/gimp-gegl-utils.h"
               "config/gimpcoreconfig.h"

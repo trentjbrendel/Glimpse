@@ -19,11 +19,11 @@
 #define __CORE_TYPES_H__
 
 
-#include "libglimpsebase/gimpbasetypes.h"
-#include "libglimpsemath/gimpmathtypes.h"
-#include "libglimpsecolor/gimpcolortypes.h"
-#include "libglimpsemodule/gimpmoduletypes.h"
-#include "libglimpsethumb/gimpthumb-types.h"
+#include "libgimpbase/gimpbasetypes.h"
+#include "libgimpmath/gimpmathtypes.h"
+#include "libgimpcolor/gimpcolortypes.h"
+#include "libgimpmodule/gimpmoduletypes.h"
+#include "libgimpthumb/gimpthumb-types.h"
 
 #include "config/config-types.h"
 

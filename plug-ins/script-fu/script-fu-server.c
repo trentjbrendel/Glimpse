@@ -47,7 +47,7 @@ typedef short sa_family_t;	/* Not defined by winsock */
  */
 #define AI_ADDRCONFIG 0x0400
 #endif
-#include <libglimpsebase/gimpwin32-io.h>
+#include <libgimpbase/gimpwin32-io.h>
 #else
 #include <sys/socket.h>
 #ifdef HAVE_SYS_SELECT_H
@@ -64,8 +64,8 @@ typedef short sa_family_t;	/* Not defined by winsock */
 
 #include <glib/gstdio.h>
 
-#include "libglimpse/gimp.h"
-#include "libglimpse/gimpui.h"
+#include "libgimp/gimp.h"
+#include "libgimp/gimpui.h"
 
 #include "script-fu-intl.h"
 

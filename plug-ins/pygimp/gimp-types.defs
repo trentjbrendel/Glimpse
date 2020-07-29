@@ -1,6 +1,6 @@
 ;; -*- scheme -*-
 
-;; from libglimpsebase, implemented manually in pygimp-parasite.c
+;; from libgimpbase, implemented manually in pygimp-parasite.c
 
 (define-boxed GimpParasite
   (in-module "Gimp")

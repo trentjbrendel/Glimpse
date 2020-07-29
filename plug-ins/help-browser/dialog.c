@@ -33,8 +33,8 @@
 
 #include <webkit/webkit.h>
 
-#include "libglimpse/gimp.h"
-#include "libglimpse/gimpui.h"
+#include "libgimp/gimp.h"
+#include "libgimp/gimpui.h"
 
 #include "plug-ins/help/gimphelp.h"
 
@@ -44,7 +44,7 @@
 #include "dialog.h"
 #include "uri.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define GIMP_HELP_BROWSER_DIALOG_DATA      "gimp-help-browser-dialog"

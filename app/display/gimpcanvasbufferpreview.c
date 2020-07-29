@@ -24,8 +24,8 @@
 #include <gtk/gtk.h>
 #include <cairo/cairo.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "display/display-types.h"
 

@@ -28,7 +28,7 @@
 #include <gtk/gtk.h>
 #endif
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "core/core-types.h"
 

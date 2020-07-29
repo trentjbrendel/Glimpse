@@ -22,7 +22,7 @@
 
 
 #include "gimpdrawtool.h"
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 #include <npd/npd_common.h>
 
 

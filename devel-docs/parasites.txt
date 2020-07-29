@@ -307,10 +307,10 @@ non-persistent data might be fine as well):
   You could also use one parasite per field you store, i.e. foo-size,
   foo-offset-x, foo-offset-y etc...
 
-- Use the libglimpseconfig serialize functions
+- Use the libgimpconfig serialize functions
 
   This is a special case of the previous one, using the convenience
-  functions provided by libglimpseconfig.  If you are not concerned about
+  functions provided by libgimpconfig.  If you are not concerned about
   the size of the string representation of your data, you can use
   gimp_config_serialize_to_string() and other functions to easily
   convert your data to/from a character string.

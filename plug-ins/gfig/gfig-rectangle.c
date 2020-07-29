@@ -24,14 +24,14 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gfig.h"
 #include "gfig-dobject.h"
 #include "gfig-rectangle.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static void        d_draw_rectangle   (GfigObject *obj,
                                        cairo_t    *cr);

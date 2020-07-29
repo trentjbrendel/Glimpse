@@ -26,7 +26,7 @@
 
 #include "imap_commands.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static void cut_command_destruct(Command_t *parent);
 static CmdExecuteValue_t cut_command_execute(Command_t *parent);

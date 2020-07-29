@@ -354,7 +354,7 @@ CODE
 
 
 @headers = qw("core/gimpimage-grid.h" "core/gimpgrid.h"
-              "libglimpsebase/gimpbaseenums.h");
+              "libgimpbase/gimpbaseenums.h");
 
 @procs = qw(image_grid_get_spacing image_grid_set_spacing
             image_grid_get_offset image_grid_set_offset

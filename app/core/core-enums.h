@@ -22,7 +22,7 @@
 #if 0
    This file is parsed by two scripts, enumgen.pl in pdb,
    and gimp-mkenums. All enums that are not marked with
-   /*< pdb-skip >*/ are exported to libglimpse and the PDB. Enums that are
+   /*< pdb-skip >*/ are exported to libgimp and the PDB. Enums that are
    not marked with /*< skip >*/ are registered with the GType system.
    If you want the enum to be skipped by both scripts, you have to use
    /*< pdb-skip, skip >*/.

@@ -2,9 +2,9 @@ Developers documentation using gtk-doc
 --------------------------------------
 
 The goal is to provide useful source documentation. Right now this is
-limited to libglimpse since that is the part that is used by third-party
+limited to libgimp since that is the part that is used by third-party
 coders (plug-in developers). Other parts of the code may follow later,
-but not before libglimpse is properly documented.
+but not before libgimp is properly documented.
 
 
 Principle

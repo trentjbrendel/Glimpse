@@ -32,13 +32,13 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsemodule/gimpmodule.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpmodule/gimpmodule.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
-#include "libglimpse/libglimpse-intl.h"
+#include "libgimp/libgimp-intl.h"
 
 
 typedef enum
@@ -231,7 +231,7 @@ cdisplay_colorblind_deficiency_type_register_type (GTypeModule *module)
                                      enum_values);
 
       gimp_type_set_translation_domain (cdisplay_colorblind_deficiency_type_type,
-                                        GETTEXT_PACKAGE "-libglimpse");
+                                        GETTEXT_PACKAGE "-libgimp");
       gimp_enum_set_value_descriptions (cdisplay_colorblind_deficiency_type_type,
                                         enum_descs);
     }

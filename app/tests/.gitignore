@@ -3,7 +3,7 @@
 /gimpdir-output
 Makefile
 Makefile.in
-libglimpseapptestutils.a
+libgimpapptestutils.a
 test-core*
 test-gimpidtable*
 test-gimptilebackendtilemanager*

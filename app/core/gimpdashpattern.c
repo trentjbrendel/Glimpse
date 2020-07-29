@@ -23,7 +23,7 @@
 
 #include <gio/gio.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "core-types.h"
 

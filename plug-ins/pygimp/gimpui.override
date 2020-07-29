@@ -8,9 +8,9 @@ headers
 extern Pycairo_CAPI_t *Pycairo_CAPI;
 
 #define GIMP_DISABLE_DEPRECATION_WARNINGS
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 #undef GIMP_DISABLE_DEPRECATED
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimpui.h>
 #define GIMP_DISABLE_DEPRECATED
 
 #define NO_IMPORT_PYGIMP

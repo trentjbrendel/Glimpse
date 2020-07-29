@@ -160,7 +160,7 @@ sub get_default_unit {
     );
 
     %invoke = (
-	headers => [ qw("libglimpsebase/gimpbase.h"
+	headers => [ qw("libgimpbase/gimpbase.h"
                         "core/gimp-utils.h") ],
 	code => <<'CODE'
 {
@@ -231,7 +231,7 @@ sub get_color_configuration {
     );
 
     %invoke = (
-	headers => [ qw("libglimpseconfig/gimpconfig.h") ],
+	headers => [ qw("libgimpconfig/gimpconfig.h") ],
 	code => <<'CODE'
 {
   config = gimp_config_serialize_to_string (GIMP_CONFIG (gimp->config->color_management), NULL);
@@ -252,7 +252,7 @@ sub get_module_load_inhibit {
     );
 
     %invoke = (
-	headers => [ qw("libglimpsemodule/gimpmodule.h") ],
+	headers => [ qw("libgimpmodule/gimpmodule.h") ],
 	code => <<'CODE'
 {
   load_inhibit = g_strdup (gimp_module_db_get_load_inhibit (gimp->module_db));

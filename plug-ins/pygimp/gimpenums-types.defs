@@ -235,7 +235,7 @@
 )
 
 
-;; From ../../libglimpse/gimpenums.h
+;; From ../../libgimp/gimpenums.h
 
 (define-function gimp_brush_application_mode_get_type
   (c-name "gimp_brush_application_mode_get_type")

@@ -22,7 +22,7 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gegl.h>
 
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "paint-types.h"
 

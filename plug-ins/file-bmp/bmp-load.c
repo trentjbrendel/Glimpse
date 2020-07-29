@@ -27,12 +27,12 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 #include "bmp.h"
 #include "bmp-load.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #if !defined(WIN32) || defined(__MINGW32__)

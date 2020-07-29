@@ -26,7 +26,7 @@
 
 #include "imap_commands.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static void unselect_all_command_destruct(Command_t *command);
 static CmdExecuteValue_t unselect_all_command_execute(Command_t *command);

@@ -1,11 +1,11 @@
 ## Process this file with automake to produce Makefile.in
 
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpsemath = $(top_builddir)/libglimpsemath/libglimpsemath-$(GIMP_API_VERSION).la
-libglimpsemodule = $(top_builddir)/libglimpsemodule/libglimpsemodule-$(GIMP_API_VERSION).la
-libglimpsethumb = $(top_builddir)/libglimpsethumb/libglimpsethumb-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
+libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la
+libgimpmodule = $(top_builddir)/libgimpmodule/libgimpmodule-$(GIMP_API_VERSION).la
+libgimpthumb = $(top_builddir)/libgimpthumb/libgimpthumb-$(GIMP_API_VERSION).la
 
 if OS_WIN32
 else
@@ -114,12 +114,12 @@ test_config_LDADD = \
 	libappconfig.a							\
 	../gimp-debug.o							\
 	../gimp-log.o							\
-	$(libglimpsemodule)						\
-	$(libglimpsecolor)							\
-	$(libglimpsethumb)							\
-	$(libglimpsemath)							\
-	$(libglimpseconfig)						\
-	$(libglimpsebase)							\
+	$(libgimpmodule)						\
+	$(libgimpcolor)							\
+	$(libgimpthumb)							\
+	$(libgimpmath)							\
+	$(libgimpconfig)						\
+	$(libgimpbase)							\
 	$(PANGOCAIRO_LIBS)						\
 	$(HARFBUZZ_LIBS)						\
 	$(GDK_PIXBUF_LIBS)						\
@@ -142,7 +142,7 @@ CLEANFILES += $(gen_sources)
 
 xgen-cec: $(srcdir)/config-enums.h $(GIMP_MKENUMS) Makefile.am
 	$(AM_V_GEN) $(GIMP_MKENUMS) \
-		--fhead "#include \"config.h\"\n#include <gio/gio.h>\n#include \"libglimpsebase/gimpbase.h\"\n#include \"config-enums.h\"\n#include\"gimp-intl.h\"" \
+		--fhead "#include \"config.h\"\n#include <gio/gio.h>\n#include \"libgimpbase/gimpbase.h\"\n#include \"config-enums.h\"\n#include\"gimp-intl.h\"" \
 		--fprod "\n/* enumerations from \"@basename@\" */" \
 		--vhead "GType\n@enum_name@_get_type (void)\n{\n  static const G@Type@Value values[] =\n  {" \
 		--vprod "    { @VALUENAME@, \"@VALUENAME@\", \"@valuenick@\" }," \

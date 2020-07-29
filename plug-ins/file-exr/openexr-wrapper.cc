@@ -21,20 +21,20 @@
 
 #include <lcms2.h>
 
-/*  These libglimpse includes are not needed here at all, but this is a
- *  convenient place to make sure the public libglimpse headers are
+/*  These libgimp includes are not needed here at all, but this is a
+ *  convenient place to make sure the public libgimp headers are
  *  C++-clean. The C++ compiler will choke on stuff like naming
  *  a struct member or parameter "private".
  */
-#include "libglimpse/gimp.h"
-#include "libglimpse/gimpui.h"
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsemodule/gimpmodule.h"
-#include "libglimpsethumb/gimpthumb.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimp/gimp.h"
+#include "libgimp/gimpui.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpmodule/gimpmodule.h"
+#include "libgimpthumb/gimpthumb.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #if defined(__MINGW32__)
 #ifndef FLT_EPSILON
@@ -297,7 +297,7 @@ struct _EXRLoader
     // nope, it's something else. Clean up and build a new profile
     g_object_unref (linear_srgb_profile);
 
-    // TODO: maybe factor this out into libglimpsecolor/gimpcolorprofile.h ?
+    // TODO: maybe factor this out into libgimpcolor/gimpcolorprofile.h ?
     double Parameters[2] = { 1.0, 0.0 };
     cmsToneCurve *Gamma[3];
     Gamma[0] = Gamma[1] = Gamma[2] = cmsBuildParametricToneCurve(0,

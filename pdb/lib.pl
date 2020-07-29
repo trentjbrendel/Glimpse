@@ -16,9 +16,9 @@
 
 package Gimp::CodeGen::lib;
 
-# Generates all the libglimpse C wrappers (used by plugins)
-$destdir  = "$main::destdir/libglimpse";
-$builddir = "$main::builddir/libglimpse";
+# Generates all the libgimp C wrappers (used by plugins)
+$destdir  = "$main::destdir/libgimp";
+$builddir = "$main::builddir/libgimp";
 
 *arg_types = \%Gimp::CodeGen::pdb::arg_types;
 *arg_parse = \&Gimp::CodeGen::pdb::arg_parse;
@@ -518,7 +518,7 @@ CODE
     }
 
     my $lgpl_top = <<'LGPL';
-/* libglimpse - The Glimpse Library
+/* LIBGIMP - The GIMP Library
  * Copyright (C) 1995-2003 Peter Mattis and Spencer Kimball
  *
 LGPL
@@ -670,7 +670,7 @@ LGPL
  	my $guard = "__GIMP_\U$group\E_PDB_H__";
 	print HFILE <<HEADER;
 #if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION)
-#error "Only <libglimpse/gimp.h> can be included directly."
+#error "Only <libgimp/gimp.h> can be included directly."
 #endif
 
 #ifndef $guard
@@ -726,7 +726,7 @@ SECTION_DOCS
 	my $guard = "__GIMP_PDB_HEADERS_H__";
 	print PFILE <<HEADER;
 #if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION)
-#error "Only <libglimpse/gimp.h> can be included directly."
+#error "Only <libgimp/gimp.h> can be included directly."
 #endif
 
 #ifndef $guard
@@ -743,7 +743,7 @@ HEADER
 	    push @groups, $hname;
 	}
 	foreach $group (sort @groups) {
-	    print PFILE "#include <libglimpse/$group>\n";
+	    print PFILE "#include <libgimp/$group>\n";
 	}
 	print PFILE <<HEADER;
 

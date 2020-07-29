@@ -21,8 +21,8 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpsemath/gimpmath.h>
-#include <libglimpse/gimp.h>
+#include <libgimpmath/gimpmath.h>
+#include <libgimp/gimp.h>
 
 #include "gimpressionist.h"
 #include "ppmtool.h"

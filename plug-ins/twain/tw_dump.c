@@ -65,7 +65,7 @@
 
 #include <glib/gstdio.h>
 
-#include "libglimpse/gimp.h"
+#include "libgimp/gimp.h"
 
 #include "tw_dump.h"
 #include "tw_func.h"

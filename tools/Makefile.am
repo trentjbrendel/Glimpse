@@ -2,7 +2,7 @@
 
 AUTOMAKE_OPTIONS = subdir-objects
 
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
 
 if PLATFORM_OSX
 xobjective_c = "-xobjective-c"
@@ -33,14 +33,14 @@ EXTRA_PROGRAMS = \
 gimptool_@GIMP_TOOL_VERSION@_SOURCES = gimptool.c
 
 gimptool_@GIMP_TOOL_VERSION@_LDADD = \
-	$(libglimpsebase)	\
+	$(libgimpbase)	\
 	$(GTK_LIBS)
 
 
 gimp_test_clipboard_@GIMP_TOOL_VERSION@_SOURCES = gimp-test-clipboard.c
 
 gimp_test_clipboard_@GIMP_TOOL_VERSION@_LDADD = \
-	$(libglimpsebase)	\
+	$(libgimpbase)	\
 	$(GTK_LIBS)
 
 

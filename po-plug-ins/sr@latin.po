@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp 2.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-15 00:26+0100\n"
+"POT-Creation-Date: 2020-07-29 06:10+0100\n"
 "PO-Revision-Date: 2020-02-08 15:09-0800\n"
 "Last-Translator: Miloš Popović <gpopac@gmail.com>\n"
 "Language-Team: Serbian <gnom@prevod.org>\n"
@@ -4899,8 +4899,8 @@ msgstr "Filmska traka"
 msgid "_Fit height to images"
 msgstr "Namesti _visinu u slikama"
 
-# #: libglimpse/gimpfileselection.c:355
-# #: libglimpse/gimpunitmenu.c:510
+# #: libgimp/gimpfileselection.c:355
+# #: libgimp/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #
@@ -5115,8 +5115,8 @@ msgstr "Varijacije vrednosti"
 msgid "Saturation Variations"
 msgstr "Varijacije zasićenja"
 
-# #: libglimpse/gimpfileselection.c:355
-# #: libglimpse/gimpunitmenu.c:510
+# #: libgimp/gimpfileselection.c:355
+# #: libgimp/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Izbor"
 #
@@ -11722,8 +11722,8 @@ msgstr "_Broj koraka za opozivanje (1 - 99):"
 msgid "Number of M_RU entries (1 - 16):"
 msgstr "Br_oj MRU unosa (1 - 16):"
 
-# #: libglimpse/gimpfileselection.c:355
-# #: libglimpse/gimpunitmenu.c:510
+# #: libgimp/gimpfileselection.c:355
+# #: libgimp/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #
@@ -14893,10 +14893,10 @@ msgstr "Prenosim podatke sa skenera/kamere"
 #~ msgid "Pixelizing"
 #~ msgstr "Pravim kvadratiće"
 
-# #: libglimpse/gimpexport.c:305
+# #: libgimp/gimpexport.c:305
 # msgid "Cancel"
 # msgstr "Odustani"
-# #: libglimpse/gimpfileselection.c:3libglimpse/gimpunitmenu.c:518
+# #: libgimp/gimpfileselection.c:3libgimp/gimpunitmenu.c:518
 # msgid "Close"
 # msgstr "Zatvori"
 #

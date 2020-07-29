@@ -22,7 +22,7 @@
 #define __CONFIG_TYPES_H__
 
 
-#include "libglimpseconfig/gimpconfigtypes.h"
+#include "libgimpconfig/gimpconfigtypes.h"
 
 #include "config/config-enums.h"
 

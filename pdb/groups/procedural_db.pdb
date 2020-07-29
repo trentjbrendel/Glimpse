@@ -495,7 +495,7 @@ CODE
 }
 
 
-@headers = qw("libglimpsebase/gimpbase.h"
+@headers = qw("libgimpbase/gimpbase.h"
               "core/gimp.h"
               "core/gimpparamspecs-desc.h"
               "plug-in/gimppluginmanager-data.h"

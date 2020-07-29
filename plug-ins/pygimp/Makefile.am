@@ -1,12 +1,13 @@
 ## Process this file with automake to produce Makefile.in
 
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpsemath = $(top_builddir)/libglimpsemath/libglimpsemath-$(GIMP_API_VERSION).la
-libglimpseui = $(top_builddir)/libglimpse/libglimpseui-$(GIMP_API_VERSION).la
-libglimpsewidgets = $(top_builddir)/libglimpsewidgets/libglimpsewidgets-$(GIMP_API_VERSION).la
-libglimpse = $(top_builddir)/libglimpse/libglimpse-$(GIMP_API_VERSION).la
+libgimpui = $(top_builddir)/libgimp/libgimpui-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpwidgets = $(top_builddir)/libgimpwidgets/libgimpwidgets-$(GIMP_API_VERSION).la
+libgimp = $(top_builddir)/libgimp/libgimp-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la
+libgimpthumb = $(top_builddir)/libgimpthumb/libgimpthumb-$(GIMP_API_VERSION).la
 
 SUBDIRS = plug-ins
 
@@ -54,10 +55,10 @@ gimp_la_LDFLAGS = -module -avoid-version $(no_undefined) $(shrext) \
 	-export-symbols-regex initgimp
 
 gimp_la_LIBADD = \
-	$(libglimpse)		\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
-	$(libglimpseui)		\
+	$(libgimp)		\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
+	$(libgimpui)		\
 	$(GLIB_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(PYLINK_LIBS)		\
@@ -70,9 +71,9 @@ _gimpenums_la_LDFLAGS = -module -avoid-version $(no_undefined) $(shrext) \
 	-export-symbols-regex init_gimpenums
 
 _gimpenums_la_LIBADD = \
-	$(libglimpse)		\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimp)		\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GLIB_LIBS)		\
 	$(PYLINK_LIBS)		\
 	$(RT_LIBS)
@@ -87,7 +88,7 @@ gimpcolor_la_LDFLAGS = -module -avoid-version $(no_undefined) $(shrext) \
 	-export-symbols-regex initgimpcolor
 
 gimpcolor_la_LIBADD = \
-	$(libglimpsecolor)		\
+	$(libgimpcolor)		\
 	$(GLIB_LIBS)		\
 	$(PYLINK_LIBS)
 
@@ -99,13 +100,13 @@ _gimpui_la_LDFLAGS = -module -avoid-version $(no_undefined) $(shrext) \
 	-export-symbols-regex init_gimpui
 
 _gimpui_la_LIBADD = \
-	$(libglimpseui)		\
-	$(libglimpsewidgets)	\
-	$(libglimpseconfig)	\
-	$(libglimpsemath)		\
-	$(libglimpse)		\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpui)		\
+	$(libgimpwidgets)	\
+	$(libgimpconfig)	\
+	$(libgimpmath)		\
+	$(libgimp)		\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(PYLINK_LIBS)		\
 	$(RT_LIBS)		\
@@ -119,7 +120,7 @@ gimpthumb_la_LDFLAGS = -module -avoid-version $(no_undefined) $(shrext) \
 	-export-symbols-regex initgimpthumb
 
 gimpthumb_la_LIBADD = \
-	$(libglimpsethumb)		\
+	$(libgimpthumb)		\
 	$(GDK_PIXBUF_LIBS)	\
 	$(PYLINK_LIBS)
 

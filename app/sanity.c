@@ -26,7 +26,7 @@
 #include <gexiv2/gexiv2.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "sanity.h"
 
@@ -155,10 +155,10 @@ sanity_check_gimp (void)
       GIMP_MICRO_VERSION != gimp_micro_version)
     {
       return g_strdup_printf
-        ("libglimpse version mismatch!\n\n"
-         "The Glimpse binary cannot run with an incompatible libglimpse version.\n"
+        ("Libgimp version mismatch!\n\n"
+         "The Glimpse binary cannot run with an incompatible libgimp version.\n"
          "It is based on GNU I.M.P %d.%d.%d, but the\n"
-         "libglimpse version is %d.%d.%d.\n\n"
+         "libgimp version is %d.%d.%d.\n\n"
          "Maybe you have conflicting versions in both /usr and /usr/local ?",
          GIMP_MAJOR_VERSION, GIMP_MINOR_VERSION, GIMP_MICRO_VERSION,
          gimp_major_version, gimp_minor_version, gimp_micro_version);

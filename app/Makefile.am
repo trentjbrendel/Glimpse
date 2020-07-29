@@ -6,13 +6,13 @@ xobjective_cxx = "-xobjective-c++"
 xnone = "-xnone"
 endif
 
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpsemath = $(top_builddir)/libglimpsemath/libglimpsemath-$(GIMP_API_VERSION).la
-libglimpsemodule = $(top_builddir)/libglimpsemodule/libglimpsemodule-$(GIMP_API_VERSION).la
-libglimpsewidgets = $(top_builddir)/libglimpsewidgets/libglimpsewidgets-$(GIMP_API_VERSION).la
-libglimpsethumb = $(top_builddir)/libglimpsethumb/libglimpsethumb-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
+libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la
+libgimpmodule = $(top_builddir)/libgimpmodule/libgimpmodule-$(GIMP_API_VERSION).la
+libgimpwidgets = $(top_builddir)/libgimpwidgets/libgimpwidgets-$(GIMP_API_VERSION).la
+libgimpthumb = $(top_builddir)/libgimpthumb/libgimpthumb-$(GIMP_API_VERSION).la
 
 # Sort this by architectural dependencies, lowest level at the top,
 # so that when e.g. changing a header-file the subdirs are built in
@@ -174,12 +174,12 @@ gimpconsoleldadd = \
 	operations/layer-modes-legacy/libapplayermodeslegacy.a	\
 	gegl/libappgegl.a					\
 	config/libappconfig.a					\
-	$(libglimpseconfig)					\
-	$(libglimpsemath)						\
-	$(libglimpsethumb)						\
-	$(libglimpsecolor)						\
-	$(libglimpsemodule)					\
-	$(libglimpsebase)						\
+	$(libgimpconfig)					\
+	$(libgimpmath)						\
+	$(libgimpthumb)						\
+	$(libgimpcolor)						\
+	$(libgimpmodule)					\
+	$(libgimpbase)						\
 	$(GDK_PIXBUF_LIBS)					\
 	$(FREETYPE_LIBS)					\
 	$(FONTCONFIG_LIBS)					\
@@ -220,7 +220,7 @@ glimpse_@GLIMPSE_APP_VERSION@_LDADD = \
 	display/libappdisplay.a		\
 	propgui/libapppropgui.a		\
 	widgets/libappwidgets.a		\
-	$(libglimpsewidgets)		\
+	$(libgimpwidgets)		\
 	$(GTK_LIBS)			\
 	$(GTK_MAC_INTEGRATION_LIBS)	\
 	$(gimpconsoleldadd)		\

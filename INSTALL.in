@@ -315,15 +315,15 @@ These are:
      can go for simple run-length encoding or even configure the plug-in
      to create uncompressed GIFs.
 
-  --enable-gtk-doc.  This option controls whether the libglimpse API
+  --enable-gtk-doc.  This option controls whether the libgimp API
      references will be created using gtk-doc. The HTML pages are
      included in a standard tarball, so you will only need this if you
      are building from SVN.
 
   --with-html-dir=PATH.  This option allows to specify where the
-     libglimpse API reference should be installed. You might want to modify
+     libgimp API reference should be installed. You might want to modify
      the path so it points to the place where glib and gtk+ installed
-     their API references so that the libglimpse reference can link to
+     their API references so that the libgimp reference can link to
      them.
 
   --disable-mp. This option allows you to disable support for multiple
@@ -362,13 +362,13 @@ These are:
 
 
 The `make' command builds several things:
- - A bunch of public libraries in the directories starting with 'libglimpse'.
+ - A bunch of public libraries in the directories starting with 'libgimp'.
  - The plug-in programs in the 'plug-ins' directory.
  - Some modules in the 'modules' subdirectory.
  - The main GIMP program 'gimp-@GIMP_APP_VERSION@' in `app'.
 
 The `make install' commands installs the GIMP header files associated
-with the libglimpse libraries, the plug-ins, some data files and the GIMP
+with the libgimp libraries, the plug-ins, some data files and the GIMP
 executable. After running `make install' and assuming the build process
 was successful you should be able to run `gimp'.
 

@@ -24,7 +24,7 @@
 
 
 #define GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION
-#include "libglimpsewidgets/gimpcontroller.h"
+#include "libgimpwidgets/gimpcontroller.h"
 
 
 #define GIMP_TYPE_CONTROLLER_MOUSE            (gimp_controller_mouse_get_type ())

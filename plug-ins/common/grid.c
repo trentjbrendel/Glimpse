@@ -26,7 +26,7 @@
  * Note: There is a convenience constructor called gimp_coordinetes_new ()
  *       which simplifies the task of setting up a standard X,Y sizeentry.
  *
- * For more info and bugs see libglimpse/gimpsizeentry.h and libglimpse/gimpwidgets.h
+ * For more info and bugs see libgimp/gimpsizeentry.h and libgimp/gimpwidgets.h
  *
  * May 2000 tim copperfield [timecop@japan.co.jp]
  * http://www.ne.jp/asahi/linux/timecop
@@ -40,10 +40,10 @@
 
 #include <string.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define PLUG_IN_PROC        "plug-in-grid"

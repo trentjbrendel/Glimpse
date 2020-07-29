@@ -91,12 +91,13 @@ GTKDOC_LIBS = \
         $(top_builddir)/app/config/libappconfig.a			     \
         $(top_builddir)/app/gegl/libappgegl.a				     \
         $(top_builddir)/app/operations/libappoperations.a		     \
-        $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la \
-        $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la \
-        $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la \
-        $(top_builddir)/libglimpsemath/libglimpsemath-$(GIMP_API_VERSION).la \
-        $(top_builddir)/libglimpsemodule/libglimpsemodule-$(GIMP_API_VERSION).la \
-        $(top_builddir)/libglimpsethumb/libglimpsethumb-$(GIMP_API_VERSION).la  \
+        $(top_builddir)/libgimpwidgets/libgimpwidgets-$(GIMP_API_VERSION).la \
+        $(top_builddir)/libgimpmodule/libgimpmodule-$(GIMP_API_VERSION).la   \
+        $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la     \
+        $(top_builddir)/libgimpthumb/libgimpthumb-$(GIMP_API_VERSION).la     \
+        $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la       \
+        $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la   \
+        $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la       \
         $(GTK_LIBS)                                                          \
         $(LIBART_LIBS)                                                       \
         $(PANGOFT2_LIBS)                                                     \

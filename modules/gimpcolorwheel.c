@@ -35,10 +35,10 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 
-#include <libglimpseconfig/gimpconfig.h>
-#include <libglimpsecolor/gimpcolor.h>
-#include <libglimpsemath/gimpmath.h>
-#include <libglimpsewidgets/gimpwidgets.h>
+#include <libgimpconfig/gimpconfig.h>
+#include <libgimpcolor/gimpcolor.h>
+#include <libgimpmath/gimpmath.h>
+#include <libgimpwidgets/gimpwidgets.h>
 
 #include "gimpcolorwheel.h"
 

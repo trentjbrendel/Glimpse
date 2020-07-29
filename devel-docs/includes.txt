@@ -36,8 +36,8 @@ The include order of all .c files of a module is as follows:
 
 #include <glib-object.h>
 
-#include "libglimpsefoo/gimpfoo.h" /* as needed, e.g. "libglimpsebase/gimpbase.h"  */
-#include "libglimpsebar/gimpbar.h"
+#include "libgimpfoo/gimpfoo.h" /* as needed, e.g. "libgimpbase/gimpbase.h"  */
+#include "libgimpbar/gimpbar.h"
 
 #include "core-types.h"         /* and _no_ other foo-types.h file           */
 

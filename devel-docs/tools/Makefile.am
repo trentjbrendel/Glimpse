@@ -6,13 +6,13 @@ else
 libm = -lm
 endif
 
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpsemodule = $(top_builddir)/libglimpsemodule/libglimpsemodule-$(GIMP_API_VERSION).la
-libglimpsewidgets = $(top_builddir)/libglimpsewidgets/libglimpsewidgets-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la  $(libm)
+libgimpmodule = $(top_builddir)/libgimpmodule/libgimpmodule-$(GIMP_API_VERSION).la
+libgimpwidgets = $(top_builddir)/libgimpwidgets/libgimpwidgets-$(GIMP_API_VERSION).la
 
-libglimpsemath = $(top_builddir)/libglimpsemath/libglimpsemath-$(GIMP_API_VERSION).la  $(libm)
 
 AM_CPPFLAGS = \
 	$(GTK_CFLAGS)			\
@@ -37,12 +37,12 @@ doc_shooter_SOURCES = \
 	widgets.h
 
 doc_shooter_LDADD = \
-	$(libglimpsewidgets)	\
-	$(libglimpseconfig)	\
-	$(libglimpsemodule)	\
-	$(libglimpsemath)		\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
+	$(libgimpwidgets)	\
+	$(libgimpconfig)	\
+	$(libgimpmodule)	\
+	$(libgimpmath)		\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
 	$(GTK_LIBS)		\
 	$(X_LIBS) -lX11 -lXext
 

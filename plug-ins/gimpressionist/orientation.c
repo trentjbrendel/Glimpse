@@ -19,14 +19,14 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gimpressionist.h"
 #include "orientation.h"
 #include "orientmap.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static GtkWidget *orient_radio[NUMORIENTRADIO];
 static GtkObject *orient_num_adjust = NULL;

@@ -566,7 +566,7 @@ CODE
     );
 }
 
-@headers = qw("libglimpsemath/gimpmath.h"
+@headers = qw("libgimpmath/gimpmath.h"
               "core/gimppickable.h"
               "gimppdb-utils.h"
               "gimp-intl.h");

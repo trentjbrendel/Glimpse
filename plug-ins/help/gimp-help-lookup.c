@@ -23,7 +23,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libglimpse/gimp.h"
+#include "libgimp/gimp.h"
 
 #include "gimphelp.h"
 

@@ -60,7 +60,7 @@ GIMP_PLUGIN_DEBUG=blur
     When the blur plug-in is called to perform an action, it is suspended
     and the following is printed to the console:
 
-    (blur:9000): libglimpse-DEBUG: Waiting for debugger...
+    (blur:9000): LibGimp-DEBUG: Waiting for debugger...
 
     9000 is the pid of the new plug-in process. You can start your debugger,
     attach to it, set breakpoints/watches/etc. and continue from there.
@@ -78,7 +78,7 @@ GIMP_PLUGIN_DEBUG=blur,pid
 
     Prints:
 
-    (blur:9000): libglimpse-DEBUG: Here I am!
+    (blur:9000): LibGimp-DEBUG: Here I am!
 
     This simply prints the pid but doesn't halt the plug-in. It is simply
     convenience, since if your plug-in has a GUI, the GUI can start up

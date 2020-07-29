@@ -1041,8 +1041,8 @@ paint_tools_stroke (Gimp              *gimp,
 CODE
 
 
-@headers = qw("libglimpsemath/gimpmath.h"
-              "libglimpseconfig/gimpconfig.h"
+@headers = qw("libgimpmath/gimpmath.h"
+              "libgimpconfig/gimpconfig.h"
               "core/gimpdynamics.h"
               "core/gimppaintinfo.h"
               "paint/gimppaintcore.h"

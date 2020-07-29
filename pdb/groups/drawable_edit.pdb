@@ -422,7 +422,7 @@ CODE
 }
 
 
-@headers = qw("libglimpseconfig/gimpconfig.h"
+@headers = qw("libgimpconfig/gimpconfig.h"
               "paint/gimppaintoptions.h"
               "core/gimp.h"
               "core/gimpdrawable-edit.h"

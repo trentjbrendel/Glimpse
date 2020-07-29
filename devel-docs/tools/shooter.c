@@ -13,11 +13,11 @@
 
 #include <X11/extensions/shape.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsemodule/gimpmodule.h"
-#include "libglimpsewidgets/gimpwidgets.h"
-#include "libglimpsewidgets/gimpwidgets-private.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpmodule/gimpmodule.h"
+#include "libgimpwidgets/gimpwidgets.h"
+#include "libgimpwidgets/gimpwidgets-private.h"
 
 #include "shadow.h"
 #include "units.h"

@@ -20,7 +20,7 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "display-types.h"
 #include "tools/tools-types.h"

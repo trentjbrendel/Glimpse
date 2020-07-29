@@ -41,16 +41,16 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsemodule/gimpmodule.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpmodule/gimpmodule.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #define GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION
-#include "libglimpsewidgets/gimpcontroller.h"
+#include "libgimpwidgets/gimpcontroller.h"
 
 #include "gimpinputdevicestore.h"
 
-#include "libglimpse/libglimpse-intl.h"
+#include "libgimp/libgimp-intl.h"
 
 enum
 {

@@ -20,7 +20,7 @@
  * Boston, MA 02110-1301, USA.
  */
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 #include "misc.h"
 
 static inline float

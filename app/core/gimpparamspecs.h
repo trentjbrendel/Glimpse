@@ -20,7 +20,7 @@
 
 
 /*
- * Keep in sync with libglimpseconfig/gimpconfig-params.h
+ * Keep in sync with libgimpconfig/gimpconfig-params.h
  */
 #define GIMP_PARAM_NO_VALIDATE (1 << (6 + G_PARAM_USER_SHIFT))
 

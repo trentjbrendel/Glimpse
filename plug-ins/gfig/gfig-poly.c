@@ -24,8 +24,8 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gfig.h"
 #include "gfig-dobject.h"
@@ -33,7 +33,7 @@
 #include "gfig-dialog.h"
 #include "gfig-poly.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static gint poly_num_sides = 3; /* Default to three sided object */
 
