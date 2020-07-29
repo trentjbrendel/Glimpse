@@ -100,7 +100,7 @@
 							<Component Id="cmp0CFE349CC3E73149FA55C4363AB61AB1" Guid="*">
 								<File Id="filC7641C97A8EA0D9D7F47B17DC7694DF8" DiskId="1" Source="InputFiles32\bin\imagequant.dll" />
 							</Component>
-							<!-- intl.dll currently has to be manually copied from an existing GNU I.M.P 2.10.18 installation -->
+							<!-- intl.dll has to be manually copied from source directory -->
 							<Component Id="cmp0CFE359CC3E73149FB55C4363AB61AB3" Guid="*">
 								<File Id="filC7641C27A8EA0D1D7F47B17DC7694DB8" DiskId="1" Source="InputFiles32\bin\intl.dll" />
 							</Component>
