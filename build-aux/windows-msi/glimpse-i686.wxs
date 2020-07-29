@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
 	<Product Name="Glimpse 0.2.1 DEV" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.2.1">
-		<Package Id="*" Keywords="Installer" Description="Glimpse 0.2.1 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="100" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
+		<Package Id="*" Keywords="Installer" Description="Glimpse 0.2.1 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="500" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
 		<!-- Installation Requirements -->
 		<Condition Message="You must be an administrator to install Glimpse Image Editor.">
             Privileged
