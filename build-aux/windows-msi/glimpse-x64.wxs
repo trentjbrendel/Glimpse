@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
 	<Product Name="Glimpse 0.2.1 (64-bit) DEV" Manufacturer="Glimpse Project" Id="*" UpgradeCode="c8f0c40d-2360-46ee-8774-adbe6effc4d2" Language="1033" Codepage="1252" Version="0.2.1">
-		<Package Id="*" Keywords="Installer" Description="Glimpse 0.2.1 (64-bit) Installer" Comments="Glimpse Image Editor (64-bit) is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="200" Languages="1033" Compressed="yes" SummaryCodepage="1252" Platform="x64" />
+		<Package Id="*" Keywords="Installer" Description="Glimpse 0.2.1 (64-bit) Installer" Comments="Glimpse Image Editor (64-bit) is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="500" Languages="1033" Compressed="yes" SummaryCodepage="1252" Platform="x64" />
 		<!-- Installation Requirements -->
 		<Condition Message="You must be an administrator to install Glimpse Image Editor (64-bit).">
             Privileged
@@ -25,6 +25,1065 @@
 			<Directory Id="ProgramFiles64Folder" Name="PFiles">
 				<Directory Id="Glimpse" Name="Glimpse Image Editor">
 					<Directory Id="INSTALLDIR" Name="Glimpse 0.2.1 (64-bit) DEV">
+						<!-- Files/Folders copied from MinGW32 for 32-bit plugin support -->
+						<Directory Id="dirE933089F8D482209DC26A7F312340906" Name="32">
+							<Directory Id="dir9773C2E7BD26DF973F07BC192FC918E9" Name="bin">
+								<Component Id="cmpDD1A844E3087C429EF4D91886780F18D" Guid="*" Win64="yes">
+									<File Id="fil49C4834FFED6EDE41B7E77345E454F1B" DiskId="1" Source="InputFiles64\32\bin\bzip2.exe" />
+								</Component>
+								<Component Id="cmp99A80319E9F5215002DB1B1359075190" Guid="*" Win64="yes">
+									<File Id="fil6AA5EE2C1CDE915163B348B4C5583FD7" DiskId="1" Source="InputFiles64\32\bin\edit.dll" />
+								</Component>
+								<Component Id="cmp69C475D105A28C62D751DBA8C46C8EF3" Guid="*" Win64="yes">
+									<File Id="fil4CAE3A662C1A6E4A1E1145BA20D4FD12" DiskId="1" Source="InputFiles64\32\bin\exchndl.dll" />
+								</Component>
+								<Component Id="cmp1AA662A6CD910014E7E2FC16CBF9CA19" Guid="*" Win64="yes">
+									<File Id="filDDE8467FB7AF1FF02727C98EFFA7EEFB" DiskId="1" Source="InputFiles64\32\bin\freebl3.dll" />
+								</Component>
+								<Component Id="cmp4ED52AF7299920AAA2989A3018FD9B91" Guid="*" Win64="yes">
+									<File Id="fil5FB2294C8A618E7D9608C6F70A6B6101" DiskId="1" Source="InputFiles64\32\bin\gdk-pixbuf-query-loaders.exe" />
+								</Component>
+								<Component Id="cmpF7DD75973863E4B2285360FD026F9DC1" Guid="*" Win64="yes">
+									<File Id="filDC828F0A35C5CC10D11ACE09AEE4CBE4" DiskId="1" Source="InputFiles64\32\bin\gspawn-win32-helper-console.exe" />
+								</Component>
+								<Component Id="cmp935C9F0E1056548C2BEC9BA24DAC8BC2" Guid="*" Win64="yes">
+									<File Id="filB9D905DE8258C00D3D19904E1B1AE3AF" DiskId="1" Source="InputFiles64\32\bin\gspawn-win32-helper.exe" />
+								</Component>
+								<Component Id="cmp0CFE349CC3E73149FA55C4363AB61AB1" Guid="*" Win64="yes">
+									<File Id="filC7641C97A8EA0D9D7F47B17DC7694DF8" DiskId="1" Source="InputFiles64\32\bin\imagequant.dll" />
+								</Component>
+								<!-- intl.dll has to be manually copied from source directory -->
+								<Component Id="cmp0CFE359CC3E73149FB55C4363AB61AB3" Guid="*" Win64="yes">
+									<File Id="filC7641C27A8EA0D1D7F47B17DC7694DB8" DiskId="1" Source="InputFiles64\32\bin\intl.dll" />
+								</Component>
+								<Component Id="cmp431D8ED2961456F7C007BF46609BE8BE" Guid="*" Win64="yes">
+									<File Id="filC4A6A0B5801D3D912ED7D7694DCFA119" DiskId="1" Source="InputFiles64\32\bin\libamd.dll" />
+								</Component>
+								<Component Id="cmpB670B48D3551534B07F28A7DBB1E62D1" Guid="*" Win64="yes">
+									<File Id="fil29E015F5EA004AE5952BF21AE126DFC9" DiskId="1" Source="InputFiles64\32\bin\libaom.dll" />
+								</Component>
+								<Component Id="cmpF641A6CFCB61D69BDCD568BDFF8F14C1" Guid="*" Win64="yes">
+									<File Id="fil0506577D223733CC8857F02D4F90413E" DiskId="1" Source="InputFiles64\32\bin\libasprintf-0.dll" />
+								</Component>
+								<Component Id="cmpCB40D0785AD4B5DB31E6B9DC0661CC44" Guid="*" Win64="yes">
+									<File Id="filB3C1A9A1804F09DBDC2653C60A086757" DiskId="1" Source="InputFiles64\32\bin\libatk-1.0-0.dll" />
+								</Component>
+								<Component Id="cmpBA92F780A78FB4747E9FD36FE16A39E9" Guid="*" Win64="yes">
+									<File Id="filE2DC579C0D4B82A90A225F2B3F212AF3" DiskId="1" Source="InputFiles64\32\bin\libatomic-1.dll" />
+								</Component>
+								<Component Id="cmp3F0DCFFA45F47431BCA43CFC0B756787" Guid="*" Win64="yes">
+									<File Id="fil9A6064ED2EEFACB37CC5B07577F7266F" DiskId="1" Source="InputFiles64\32\bin\libbabl-0.1-0.dll" />
+								</Component>
+								<Component Id="cmpF8533914F05500B7CC54F3A60D4F756F" Guid="*" Win64="yes">
+									<File Id="fil668A792C67F032E459DD505DF2DB7CB5" DiskId="1" Source="InputFiles64\32\bin\libbrotlicommon.dll" />
+								</Component>
+								<Component Id="cmpEB4102F8B92BD319F83234C4107F3F21" Guid="*" Win64="yes">
+									<File Id="filC18A5567BD75904FEC1E91D20865C00D" DiskId="1" Source="InputFiles64\32\bin\libbrotlidec.dll" />
+								</Component>
+								<Component Id="cmpEC9798B7FBAAA81AECF54565E1355444" Guid="*" Win64="yes">
+									<File Id="fil9A0B88027E5059D99E4AFEF04355C3C4" DiskId="1" Source="InputFiles64\32\bin\libbrotlienc.dll" />
+								</Component>
+								<Component Id="cmp48616296E11506908FB4D1A2CB3F51D1" Guid="*" Win64="yes">
+									<File Id="fil0BCB1B40E38991CAFB2A182C49E62D70" DiskId="1" Source="InputFiles64\32\bin\libbtf.dll" />
+								</Component>
+								<Component Id="cmp65F8EA90D465339D0EFED74E7B124703" Guid="*" Win64="yes">
+									<File Id="fil948EA0AB99ED092D6C924DE498F4BB4A" DiskId="1" Source="InputFiles64\32\bin\libbz2-1.dll" />
+								</Component>
+								<Component Id="cmp1D71FC1ED6AF3ED4CBF2D80D4A5871E5" Guid="*" Win64="yes">
+									<File Id="filCFF69F6158B12510740CC934EB234E97" DiskId="1" Source="InputFiles64\32\bin\libcairo-2.dll" />
+								</Component>
+								<Component Id="cmpDEE500CBFD74DE2ED4D4B0F2DC879B88" Guid="*" Win64="yes">
+									<File Id="filE6E0830571B1A406973D4E4085D9B1D4" DiskId="1" Source="InputFiles64\32\bin\libcairo-gobject-2.dll" />
+								</Component>
+								<Component Id="cmp6B203A24A21AEBFCB9B04DDC78DA2280" Guid="*" Win64="yes">
+									<File Id="fil9BEAD2DA6D772E17E96B72D5B3398DB9" DiskId="1" Source="InputFiles64\32\bin\libcairo-script-interpreter-2.dll" />
+								</Component>
+								<Component Id="cmpB625BF34BD94900770FBE69F56CCBCF3" Guid="*" Win64="yes">
+									<File Id="fil0C767E99E1D500CC15AB85579EEA3722" DiskId="1" Source="InputFiles64\32\bin\libcamd.dll" />
+								</Component>
+								<Component Id="cmpE1F3705209F5A5ED91FE53C2E8D730A2" Guid="*" Win64="yes">
+									<File Id="fil9A0F73489BD3B2BA3F055909D0839119" DiskId="1" Source="InputFiles64\32\bin\libcares-4.dll" />
+								</Component>
+								<Component Id="cmp2D2387BB66E6FC95293779A598D3D8BA" Guid="*" Win64="yes">
+									<File Id="fil45A3B8475C7A6A3A6BED91CF6F682081" DiskId="1" Source="InputFiles64\32\bin\libccolamd.dll" />
+								</Component>
+								<Component Id="cmp51981B2339D90CC7BC52B4BD8D17A6A5" Guid="*" Win64="yes">
+									<File Id="filA11A9B6BBF0773EE08D037C86FC7A140" DiskId="1" Source="InputFiles64\32\bin\libcdt-5.dll" />
+								</Component>
+								<Component Id="cmpCDD916719605654CF0DD78972722D4EB" Guid="*" Win64="yes">
+									<File Id="filADADB1A59DFF647328F56D06E9B2C553" DiskId="1" Source="InputFiles64\32\bin\libcgraph-6.dll" />
+								</Component>
+								<Component Id="cmp8FA64174A0D6D53AA7A0AA1B61574B7E" Guid="*" Win64="yes">
+									<File Id="filA5D13B1F16991A7E4072F2D61FDE35BA" DiskId="1" Source="InputFiles64\32\bin\libcharset-1.dll" />
+								</Component>
+								<Component Id="cmp460770549CCD9E3655DD8C5426947E9D" Guid="*" Win64="yes">
+									<File Id="fil72C914B20E12A4B2F043AC14DF47D7EC" DiskId="1" Source="InputFiles64\32\bin\libcholmod.dll" />
+								</Component>
+								<Component Id="cmp040A9840D2FA771A6AAE9E1A72121D74" Guid="*" Win64="yes">
+									<File Id="fil692970D5E6D3166B99352D8424109A0E" DiskId="1" Source="InputFiles64\32\bin\libcolamd.dll" />
+								</Component>
+								<Component Id="cmpFBD918258E7A537784860EAC6275C128" Guid="*" Win64="yes">
+									<File Id="filEE465CEEA49D273C9B6D73B48B777A78" DiskId="1" Source="InputFiles64\32\bin\libcroco-0.6-3.dll" />
+								</Component>
+								<Component Id="cmp5F6A2A981446621CC4CDB6A3B6EAE0A0" Guid="*" Win64="yes">
+									<File Id="fil3ABBF1189A53F3C25C7195024AFB8255" DiskId="1" Source="InputFiles64\32\bin\libcrypto-1_1.dll" />
+								</Component>
+								<Component Id="cmpEE8BE2DD8B1EFDB02DFA591AF7368AB6" Guid="*" Win64="yes">
+									<File Id="filF618F65DF257E9328B0D3D0009B3BBFB" DiskId="1" Source="InputFiles64\32\bin\libcurl-4.dll" />
+								</Component>
+								<Component Id="cmpA5D1FF50F4FFD1BFFA0BAA49F9EC9358" Guid="*" Win64="yes">
+									<File Id="filED56B0493D7D76E66B29AFB66C43840C" DiskId="1" Source="InputFiles64\32\bin\libcxsparse.dll" />
+								</Component>
+								<Component Id="cmpA017EDDE9B3F0B176C9B57EE17CDD1B1" Guid="*" Win64="yes">
+									<File Id="fil79117DCE5EC32C3F0C7E34D9BE5E5539" DiskId="1" Source="InputFiles64\32\bin\libdatrie-1.dll" />
+								</Component>
+								<Component Id="cmp6E9FBA4AFB434116052D5EAE0F9F0690" Guid="*" Win64="yes">
+									<File Id="fil9543A5505B88667012CB89A03BD73F53" DiskId="1" Source="InputFiles64\32\bin\libdbus-1-3.dll" />
+								</Component>
+								<Component Id="cmp55739EE424A5B8C725530AE6BDE40EE6" Guid="*" Win64="yes">
+									<File Id="fil674CA39097BBA3771A9EA28F50409282" DiskId="1" Source="InputFiles64\32\bin\libde265-0.dll" />
+								</Component>
+								<Component Id="cmp832E1DC194B062510D37CE61DB321803" Guid="*" Win64="yes">
+									<File Id="fil972A52894FEDA8B8CA2D850A9974145C" DiskId="1" Source="InputFiles64\32\bin\libexiv2.dll" />
+								</Component>
+								<Component Id="cmp85BF7245D94BF4061B5994738BEE5FBA" Guid="*" Win64="yes">
+									<File Id="filB0672F6A3C0E3FF397315C6A3E287559" DiskId="1" Source="InputFiles64\32\bin\libexpat-1.dll" />
+								</Component>
+								<Component Id="cmp73367EC4091606BC7E72724357466EED" Guid="*" Win64="yes">
+									<File Id="fil882D07426DEDDB9B1F270BD56DE9E616" DiskId="1" Source="InputFiles64\32\bin\libexslt-0.dll" />
+								</Component>
+								<Component Id="cmp9E40CB82D1FD54242E4879A32385E714" Guid="*" Win64="yes">
+									<File Id="fil56FEC85E2A6353195C2F3CC63106405A" DiskId="1" Source="InputFiles64\32\bin\libffi-7.dll" />
+								</Component>
+								<Component Id="cmp70E9F17EAEE16C9115B08F09541738B4" Guid="*" Win64="yes">
+									<File Id="fil5C104DF2EBCCDCD2881E83027383553C" DiskId="1" Source="InputFiles64\32\bin\libfontconfig-1.dll" />
+								</Component>
+								<Component Id="cmpEF95C9967C986FA31D0F0539B5CC4E8F" Guid="*" Win64="yes">
+									<File Id="filCF211C280852E9E5FB00D86120844DD0" DiskId="1" Source="InputFiles64\32\bin\libfreeglut.dll" />
+								</Component>
+								<Component Id="cmp1D6AA8FD98F1BFACC4B63C89C3B693E2" Guid="*" Win64="yes">
+									<File Id="fil21DEA877B0C01A9BC039BA00472CF7D7" DiskId="1" Source="InputFiles64\32\bin\libfreetype-6.dll" />
+								</Component>
+								<Component Id="cmp6A9EC094949BF2C6E2E19F22AE53879E" Guid="*" Win64="yes">
+									<File Id="filC0F64D6E05539B32548C4112C6C10B76" DiskId="1" Source="InputFiles64\32\bin\libfribidi-0.dll" />
+								</Component>
+								<Component Id="cmp361A6FB54227D5E1E025E427BBBE2CB1" Guid="*" Win64="yes">
+									<File Id="fil167959F5653F5FDD9EF61C1EDE698F37" DiskId="1" Source="InputFiles64\32\bin\libgailutil-18.dll" />
+								</Component>
+								<Component Id="cmp8A675257FED7EEFC87C6F022523855D5" Guid="*" Win64="yes">
+									<File Id="fil26E9D980B9A8303DC35FFE6A0B190D31" DiskId="1" Source="InputFiles64\32\bin\libgcc_s_dw2-1.dll" />
+								</Component>
+								<Component Id="cmp5D2918ABEC86E204CD50501B84CA8DAA" Guid="*" Win64="yes">
+									<File Id="fil1D399D35AFFE1F64444A1A0A50FC810E" DiskId="1" Source="InputFiles64\32\bin\libgcrypt-20.dll" />
+								</Component>
+								<Component Id="cmp9444D40CD2C842430A9DADD1E0A29D7A" Guid="*" Win64="yes">
+									<File Id="filF567105147076042B90C70F36369800C" DiskId="1" Source="InputFiles64\32\bin\libgd.dll" />
+								</Component>
+								<Component Id="cmp65362B2284E7905FFB9B2334AB93451D" Guid="*" Win64="yes">
+									<File Id="filCE301481F2882E1D24A955137827806F" DiskId="1" Source="InputFiles64\32\bin\libgdk-win32-2.0-0.dll" />
+								</Component>
+								<Component Id="cmpC5E7A6487CC8CBBD5DB6CEDCA86C5902" Guid="*" Win64="yes">
+									<File Id="filD5905FBD423CD29E38067A8AA17BB21E" DiskId="1" Source="InputFiles64\32\bin\libgdkglext-win32-1.0-0.dll" />
+								</Component>
+								<Component Id="cmpF19F06D43399A93BF563480687887AD4" Guid="*" Win64="yes">
+									<File Id="fil6E3011318C8D3AE113A1EE3DEECDDC4A" DiskId="1" Source="InputFiles64\32\bin\libgdk_pixbuf-2.0-0.dll" />
+								</Component>
+								<Component Id="cmp927C7830CEAE4E6B6BB27D9B450665A7" Guid="*" Win64="yes">
+									<File Id="fil9DFDA5E75C00F848F119893F2FA6C28F" DiskId="1" Source="InputFiles64\32\bin\libgegl-0.4-0.dll" />
+								</Component>
+								<Component Id="cmpAA167DC8693C68D855C22CFF2C654682" Guid="*" Win64="yes">
+									<File Id="filDF4688CD042F1BF169179E8EDA208C91" DiskId="1" Source="InputFiles64\32\bin\libgegl-npd-0.4.dll" />
+								</Component>
+								<Component Id="cmpC231F0727A2B5390EDF5BD6C1C4BFFC1" Guid="*" Win64="yes">
+									<File Id="fil239774EDE73572BA2F0C0863BB09C114" DiskId="1" Source="InputFiles64\32\bin\libgegl-sc-0.4.dll" />
+								</Component>
+								<Component Id="cmpF2AF3DD46A3C0C52AF5EBAD0C47A1DF3" Guid="*" Win64="yes">
+									<File Id="fil68CF4276AB950B8AD51DEDD7E2DD0A1E" DiskId="1" Source="InputFiles64\32\bin\libgettextlib-0-19-8-1.dll" />
+								</Component>
+								<Component Id="cmpB8D78E647D886DD9AFCBB556FCD4C211" Guid="*" Win64="yes">
+									<File Id="filEF90B4BF5D2E2895A62DD4435D463C15" DiskId="1" Source="InputFiles64\32\bin\libgettextpo-0.dll" />
+								</Component>
+								<Component Id="cmp9BEC78C138E9B19BA84EF2248962F3FC" Guid="*" Win64="yes">
+									<File Id="filB8B83A9DE6CAD39CB12DCFB3CB0079AE" DiskId="1" Source="InputFiles64\32\bin\libgettextsrc-0-19-8-1.dll" />
+								</Component>
+								<Component Id="cmp836F161B641487F57F04625FCD552A81" Guid="*" Win64="yes">
+									<File Id="filA3F48EF200B2F1C8CA4058547F897A3A" DiskId="1" Source="InputFiles64\32\bin\libgexiv2-2.dll" />
+								</Component>
+								<Component Id="cmp9AB4ADB4BBC20556456F0BE8B9A8BBF5" Guid="*" Win64="yes">
+									<File Id="fil712CCA3BF70E8DA89247E0C4C601647A" DiskId="1" Source="InputFiles64\32\bin\libgif-7.dll" />
+								</Component>
+								<Component Id="cmp25F8FA79FE416DD2DD7ADB513BAD95D5" Guid="*" Win64="yes">
+									<File Id="fil397639C62945E7F4BB324F7EED2D3207" DiskId="1" Source="InputFiles64\32\bin\libgio-2.0-0.dll" />
+								</Component>
+								<Component Id="cmp0701BA967488E1D49D9200A9BE4273DE" Guid="*" Win64="yes">
+									<File Id="filDF004B8632AA8D3232319599A322E444" DiskId="1" Source="InputFiles64\32\bin\libgirepository-1.0-1.dll" />
+								</Component>
+								<Component Id="cmp0F121C57108637975909B9418E0273CA" Guid="*" Win64="yes">
+									<File Id="fil5930218A92700727E5F5FDBC5BF5BC22" DiskId="1" Source="InputFiles64\32\bin\libglade-2.0-0.dll" />
+								</Component>
+								<Component Id="cmp53F4E2312362ECEC661F12A824FC353B" Guid="*" Win64="yes">
+									<File Id="filACC78F4308A7DEAEF96D6E86157DB738" DiskId="1" Source="InputFiles64\32\bin\libglib-2.0-0.dll" />
+								</Component>
+								<Component Id="cmp7173EB61517BA2128135672886B73E3E" Guid="*" Win64="yes">
+									<File Id="filE409FA2620703AC31F01A0C5D10EF323" DiskId="1" Source="InputFiles64\32\bin\libgmodule-2.0-0.dll" />
+								</Component>
+								<Component Id="cmp963D8F7FED98480589A700C3994B774B" Guid="*" Win64="yes">
+									<File Id="fil10265880A47CE8B115AFCFE429848F7A" DiskId="1" Source="InputFiles64\32\bin\libgmp-10.dll" />
+								</Component>
+								<Component Id="cmpFC92F0FCA098FD1D3532A1FD1E7F4E37" Guid="*" Win64="yes">
+									<File Id="filD7EFC6620836A2446B6A586E36DC6D62" DiskId="1" Source="InputFiles64\32\bin\libgmpxx-4.dll" />
+								</Component>
+								<Component Id="cmp3659F9B264238D7D7BF830C61B2FEB82" Guid="*" Win64="yes">
+									<File Id="fil9A69C5D8F854C425FF06C1C10184776F" DiskId="1" Source="InputFiles64\32\bin\libgnarl-10.dll" />
+								</Component>
+								<Component Id="cmpE850B77E9CDC7BE5E8BB0294CA6963D1" Guid="*" Win64="yes">
+									<File Id="filC044FE72E5B95F3B92550D89296653BE" DiskId="1" Source="InputFiles64\32\bin\libgnutls-30.dll" />
+								</Component>
+								<Component Id="cmpE8E910DDFA89DC0B7476526892EB05D8" Guid="*" Win64="yes">
+									<File Id="filC6376E55F485E0016140606EE44659B5" DiskId="1" Source="InputFiles64\32\bin\libgnutlsxx-28.dll" />
+								</Component>
+								<Component Id="cmp03A4F992D7BE9D31B513DBD1F57F3453" Guid="*" Win64="yes">
+									<File Id="fil8302813F041C6727DC9FD140719F5EE5" DiskId="1" Source="InputFiles64\32\bin\libgobject-2.0-0.dll" />
+								</Component>
+								<Component Id="cmp066749917D93F045382D9D26F3C29F4D" Guid="*" Win64="yes">
+									<File Id="fil0F7C3A89246BC39777987FD396957ACE" DiskId="1" Source="InputFiles64\32\bin\libgomp-1.dll" />
+								</Component>
+								<Component Id="cmp7FA6662802A4D05C19E2C45F2E9A568F" Guid="*" Win64="yes">
+									<File Id="fil8CFF7C4F8DC96EFB8867E830A85B66A6" DiskId="1" Source="InputFiles64\32\bin\libgpg-error-0.dll" />
+								</Component>
+								<Component Id="cmp7840BC97774654BD8425561A901D5651" Guid="*" Win64="yes">
+									<File Id="filCC3003E29A91B5C1CC11DDACEA3B14A8" DiskId="1" Source="InputFiles64\32\bin\libgraphite2.dll" />
+								</Component>
+								<Component Id="cmpD2E58C1BEF5C653EE66105B036AB09C7" Guid="*" Win64="yes">
+									<File Id="filAA4D7DA56FA79A8F678CB91393CA0A29" DiskId="1" Source="InputFiles64\32\bin\libgs-9.dll" />
+								</Component>
+								<Component Id="cmp1897B1C197E71E5DB91A101C92589A45" Guid="*" Win64="yes">
+									<File Id="filAB3E00A5F36DEED7759F084396D4D78F" DiskId="1" Source="InputFiles64\32\bin\libgthread-2.0-0.dll" />
+								</Component>
+								<Component Id="cmpF0E9DC612D9177C21C4DC55B2E949FA5" Guid="*" Win64="yes">
+									<File Id="filBDA4DDC0C292ACF4879A02DBB5F91D1D" DiskId="1" Source="InputFiles64\32\bin\libgtk-win32-2.0-0.dll" />
+								</Component>
+								<Component Id="cmp2221F0E9BDBC81133B3E3F942F4FDE87" Guid="*" Win64="yes">
+									<File Id="fil29E83DDB1EEEB25A808B1EAD8DA03DDE" DiskId="1" Source="InputFiles64\32\bin\libgtkglext-win32-1.0-0.dll" />
+								</Component>
+								<Component Id="cmp9D4C90C71DE9E27FEDB2070CEA2171E9" Guid="*" Win64="yes">
+									<File Id="filA14A337FEA56127CD171DD66282253D7" DiskId="1" Source="InputFiles64\32\bin\libgts-0-7-5.dll" />
+								</Component>
+								<Component Id="cmp590F20C59DCE09FCDD14E8B36F2766F7" Guid="*" Win64="yes">
+									<File Id="fil06C3128B415A7286A44A806A2B96ECBE" DiskId="1" Source="InputFiles64\32\bin\libgvc-6.dll" />
+								</Component>
+								<Component Id="cmp0473685E6BB99642F66C1BE966581364" Guid="*" Win64="yes">
+									<File Id="filF0D43A1505486AD4A6FBBD61C4CD9627" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_core-6.dll" />
+								</Component>
+								<Component Id="cmp4DA2B1D9B8A8A3C4E37DF00926458502" Guid="*" Win64="yes">
+									<File Id="filF1CD683A87DDFAF65D1423FEF685F438" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_devil-6.dll" />
+								</Component>
+								<Component Id="cmpC225869797F2E501A523B48960B8ED56" Guid="*" Win64="yes">
+									<File Id="filAE0D94CBD7ECDCE102D2E4E1E0412BC7" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_dot_layout-6.dll" />
+								</Component>
+								<Component Id="cmpEC56EE42F79C3C9F7DD44BF83A0B46DE" Guid="*" Win64="yes">
+									<File Id="fil52C198EF6E787DFB609EE63844BB6E22" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_gd-6.dll" />
+								</Component>
+								<Component Id="cmpACCAD23ADE11B2E9BA536DDCE76187F6" Guid="*" Win64="yes">
+									<File Id="fil1901AA01302040ADC8A39B18F154E41B" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_gdk-6.dll" />
+								</Component>
+								<Component Id="cmp8207C9F742DA48972C132E5C0D0A9534" Guid="*" Win64="yes">
+									<File Id="fil2351C2720A2F7D165374A1482AEF3B25" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_gtk-6.dll" />
+								</Component>
+								<Component Id="cmpA45BBB67051E82B58E2473A0D038947A" Guid="*" Win64="yes">
+									<File Id="fil59B4060E803DCDB9EF95A286F74769C6" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_neato_layout-6.dll" />
+								</Component>
+								<Component Id="cmpFBC380BCDF6E8F84E6604C3EA49305F8" Guid="*" Win64="yes">
+									<File Id="fil7DD407E9A57BC28B42BB49637DBE27ED" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_pango-6.dll" />
+								</Component>
+								<Component Id="cmpB34D64770E616575E983E0AAF6FD2436" Guid="*" Win64="yes">
+									<File Id="fil5A5F82152212C68C7D6E7F8CACB650A5" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_poppler-6.dll" />
+								</Component>
+								<Component Id="cmp0B11344DD4EB078D1F58A43F58DDD2C7" Guid="*" Win64="yes">
+									<File Id="fil369AE860F61EB41A469094F9240A262C" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_rsvg-6.dll" />
+								</Component>
+								<Component Id="cmp9E4EFDD8821DAD8A3C7ACB9B9E30EB1A" Guid="*" Win64="yes">
+									<File Id="fil90FD6D4C79F420F6F02B0616F6DE2EDD" DiskId="1" Source="InputFiles64\32\bin\libgvplugin_webp-6.dll" />
+								</Component>
+								<Component Id="cmp934DAB2FE96E5F920805732014AE97B1" Guid="*" Win64="yes">
+									<File Id="fil59204BF0E073972BFF8CF9BA31A6E8C4" DiskId="1" Source="InputFiles64\32\bin\libgvpr-2.dll" />
+								</Component>
+								<Component Id="cmpD19B9F23A63C485F896252FD8D7894E4" Guid="*" Win64="yes">
+									<File Id="fil82A9B8DC54C36BA128B578EFDAF57628" DiskId="1" Source="InputFiles64\32\bin\libHalf-2_5.dll" />
+								</Component>
+								<Component Id="cmpC59BB66AA130CA7A345B89983EFDD028" Guid="*" Win64="yes">
+									<File Id="filA6793D839941840C381EEB5ABD45C72E" DiskId="1" Source="InputFiles64\32\bin\libharfbuzz-0.dll" />
+								</Component>
+								<Component Id="cmpBA4735CD954451B7DA2BEFF1172AFA34" Guid="*" Win64="yes">
+									<File Id="fil2B8D6C1D97EF091BF3B22D2B74F27BDC" DiskId="1" Source="InputFiles64\32\bin\libharfbuzz-gobject-0.dll" />
+								</Component>
+								<Component Id="cmp0AA6BD766F90489F23098EBBBBAECA38" Guid="*" Win64="yes">
+									<File Id="fil866F4A386E4506E4C2CC70D04B72A18C" DiskId="1" Source="InputFiles64\32\bin\libharfbuzz-icu-0.dll" />
+								</Component>
+								<Component Id="cmpF259EE798E7E97A7C9C27F287A89CA72" Guid="*" Win64="yes">
+									<File Id="fil8A1D0279F04F819C6052F9CE0FD89A0B" DiskId="1" Source="InputFiles64\32\bin\libharfbuzz-subset-0.dll" />
+								</Component>
+								<Component Id="cmpD288523BA852E623917CA88B64624A18" Guid="*" Win64="yes">
+									<File Id="fil5F5EE34A2DA014678FDF3750FD00865E" DiskId="1" Source="InputFiles64\32\bin\libhdr10plus.dll" />
+								</Component>
+								<Component Id="cmp6B9FCB30D6A9FEB4902DD91BA0064732" Guid="*" Win64="yes">
+									<File Id="filB44BEDEEF82A25C614982E29748EB054" DiskId="1" Source="InputFiles64\32\bin\libheif-1.dll" />
+								</Component>
+								<Component Id="cmpA5C9DCB9BB21297732EF27D036DFF0F3" Guid="*" Win64="yes">
+									<File Id="fil21FEF7F2E4131D72B0E77F42F79CF75A" DiskId="1" Source="InputFiles64\32\bin\libhistory8.dll" />
+								</Component>
+								<Component Id="cmp697B0CD7A28535928839FFA773EAFF16" Guid="*" Win64="yes">
+									<File Id="fil74EBAA133A0B295ABEBA8C7203C28CB1" DiskId="1" Source="InputFiles64\32\bin\libhogweed-6.dll" />
+								</Component>
+								<Component Id="cmp62F90C7A0F0CA662037EC2F195A22EDD" Guid="*" Win64="yes">
+									<File Id="fil36A56DDE926B570B7CDDC2D23BF27597" DiskId="1" Source="InputFiles64\32\bin\libiconv-2.dll" />
+								</Component>
+								<Component Id="cmpB5E3D2B4DFCEECFF86A93544F8507E8E" Guid="*" Win64="yes">
+									<File Id="fil6C4FFE0F5A88E0E882697728D7141273" DiskId="1" Source="InputFiles64\32\bin\libicudt67.dll" />
+								</Component>
+								<Component Id="cmp63405087CAD73C7706DB707C83C043BE" Guid="*" Win64="yes">
+									<File Id="fil2DB25DDE9E09696B1B3E47B89E5BF5AF" DiskId="1" Source="InputFiles64\32\bin\libicuin67.dll" />
+								</Component>
+								<Component Id="cmp741DFB8BF3C8064BF85133724B812F49" Guid="*" Win64="yes">
+									<File Id="fil0459B83CCA1540D29CA5B42C33297049" DiskId="1" Source="InputFiles64\32\bin\libicuio67.dll" />
+								</Component>
+								<Component Id="cmp13C5818296EA7DDB2FCC886CE1631F28" Guid="*" Win64="yes">
+									<File Id="filA035BA7B12E1BFB4B20DD161B37D8642" DiskId="1" Source="InputFiles64\32\bin\libicutest67.dll" />
+								</Component>
+								<Component Id="cmpC7CD5455952CEEA2A74B7CDD8C05A0D0" Guid="*" Win64="yes">
+									<File Id="fil2D4F18760F09EBDBB79D8FE78B47A1E2" DiskId="1" Source="InputFiles64\32\bin\libicutu67.dll" />
+								</Component>
+								<Component Id="cmpED967CB17A26186CB1B5AE043DB4BADC" Guid="*" Win64="yes">
+									<File Id="fil157635FD51A6AA7FA797D0577AB7BED5" DiskId="1" Source="InputFiles64\32\bin\libidn-12.dll" />
+								</Component>
+								<Component Id="cmp076D05AAFA8F5A6F2B8D0A8ACA661582" Guid="*" Win64="yes">
+									<File Id="fil05A465343470B0C4F4DFE6FFA5B7F4EE" DiskId="1" Source="InputFiles64\32\bin\libidn2-0.dll" />
+								</Component>
+								<Component Id="cmp7B8C0CEE33296980FDA5472B053B7668" Guid="*" Win64="yes">
+									<File Id="fil1933A44ABE5A07EE4F6CA02BB2AC15C6" DiskId="1" Source="InputFiles64\32\bin\libIex-2_5.dll" />
+								</Component>
+								<Component Id="cmpDEF161F51DD096BFB520E91B4F200A16" Guid="*" Win64="yes">
+									<File Id="fil65739CB249078EE2A6B70905142F9F71" DiskId="1" Source="InputFiles64\32\bin\libIexMath-2_5.dll" />
+								</Component>
+								<Component Id="cmp4DDFB5044BC6D509B9BF39BB78E3DCFA" Guid="*" Win64="yes">
+									<File Id="fil0C57A820EE7FCABABE2D07AD54B3EE60" DiskId="1" Source="InputFiles64\32\bin\libIL.dll" />
+								</Component>
+								<Component Id="cmpA16BCE061CF72CB5951D0C6AFF772C60" Guid="*" Win64="yes">
+									<File Id="fil71BD7E747F4E7F3AE9FFF0406EAE4144" DiskId="1" Source="InputFiles64\32\bin\libIlmImf-2_5.dll" />
+								</Component>
+								<Component Id="cmp109C7D9DDEBA1170B1ED194CBD69AEC9" Guid="*" Win64="yes">
+									<File Id="fil9B62EE10E61290940632CDB59C54C598" DiskId="1" Source="InputFiles64\32\bin\libIlmImfUtil-2_5.dll" />
+								</Component>
+								<Component Id="cmp1AA20B31688DA153B1907485A43B8D78" Guid="*" Win64="yes">
+									<File Id="filF356318B3DEB3D1FF7DBAC6F48A5224B" DiskId="1" Source="InputFiles64\32\bin\libIlmThread-2_5.dll" />
+								</Component>
+								<Component Id="cmpED79496484176AB740DEC4BDA0FE3F71" Guid="*" Win64="yes">
+									<File Id="fil7979F13A5E0CE9DDCFFC24A716EEF47E" DiskId="1" Source="InputFiles64\32\bin\libILU.dll" />
+								</Component>
+								<Component Id="cmp4C16CB593D7327B02F0D83076EE9BBF8" Guid="*" Win64="yes">
+									<File Id="fil315A277375938A560326E57D3CD7F194" DiskId="1" Source="InputFiles64\32\bin\libILUT.dll" />
+								</Component>
+								<Component Id="cmp070FE9AAF905A00F2457456C26BDE8C0" Guid="*" Win64="yes">
+									<File Id="fil1D7175C882BC7B055C11E23E05BFCAAA" DiskId="1" Source="InputFiles64\32\bin\libImath-2_5.dll" />
+								</Component>
+								<Component Id="cmp315A4D6458BD9852755B6A9C744A864B" Guid="*" Win64="yes">
+									<File Id="filE745D88F7E174358580A877297882A1E" DiskId="1" Source="InputFiles64\32\bin\libintl-8.dll" />
+								</Component>
+								<Component Id="cmp5131493249AA2660C3153B720B2E4195" Guid="*" Win64="yes">
+									<File Id="fil37BFAB02E133172A6C20E51E3F4712EB" DiskId="1" Source="InputFiles64\32\bin\libjansson-4.dll" />
+								</Component>
+								<Component Id="cmp0209E7F192DF64BEBEFD393CE6A28D0C" Guid="*" Win64="yes">
+									<File Id="fil35AA48FA241217DEC42118542B01359E" DiskId="1" Source="InputFiles64\32\bin\libjasper-4.dll" />
+								</Component>
+								<Component Id="cmpD26B79D6CA732F61534E6FCB53B8C085" Guid="*" Win64="yes">
+									<File Id="fil3908C82A0FE5AA4120F4C81D2FB378C1" DiskId="1" Source="InputFiles64\32\bin\libjbig2dec-0.dll" />
+								</Component>
+								<Component Id="cmp90E0ED211B7E59B1CA21C5386CA201C7" Guid="*" Win64="yes">
+									<File Id="fil8F8EF984FA448031528F6EC9B6AF80F4" DiskId="1" Source="InputFiles64\32\bin\libjemalloc.dll" />
+								</Component>
+								<Component Id="cmp8391DA70C75591AED27A2A11E3807FD4" Guid="*" Win64="yes">
+									<File Id="fil48666712D8CCD3C500794F5FCB817286" DiskId="1" Source="InputFiles64\32\bin\libjpeg-8.dll" />
+								</Component>
+								<Component Id="cmpB1DAA8DB19B32E786738E3E310ADEB8C" Guid="*" Win64="yes">
+									<File Id="fil95422ED1544A0A20A5B398A992D73121" DiskId="1" Source="InputFiles64\32\bin\libjson-c-5.dll" />
+								</Component>
+								<Component Id="cmpE87AEAA7F4911641926634642CB4C71E" Guid="*" Win64="yes">
+									<File Id="filD1FAF56B881E03A74E8EB3F1EB0565C9" DiskId="1" Source="InputFiles64\32\bin\libjson-glib-1.0-0.dll" />
+								</Component>
+								<Component Id="cmp96FCF3B0E8B673988033B142C665A567" Guid="*" Win64="yes">
+									<File Id="filDA59ADD4AF9F0FED02190FAE12B8D0FC" DiskId="1" Source="InputFiles64\32\bin\libklu.dll" />
+								</Component>
+								<Component Id="cmpA83C592C1CA6CC8F8DCC705A246D82AF" Guid="*" Win64="yes">
+									<File Id="fil039EA37F04B0BD9E860F56C77AD7D311" DiskId="1" Source="InputFiles64\32\bin\liblab_gamut-1.dll" />
+								</Component>
+								<Component Id="cmp10CF7AE27B98B627DB415BB6CE7EF58A" Guid="*" Win64="yes">
+									<File Id="filF34E470BFB8A802E8D8F3F742FC18EA6" DiskId="1" Source="InputFiles64\32\bin\liblcms2-2.dll" />
+								</Component>
+								<Component Id="cmp630ACA2A6C75A56D723BE50DAA2403B4" Guid="*" Win64="yes">
+									<File Id="fil10C12CE97FF7387EF0B5BCBA0425FD6E" DiskId="1" Source="InputFiles64\32\bin\libldl.dll" />
+								</Component>
+								<Component Id="cmp147C8569A1ED2FF481773361C721F211" Guid="*" Win64="yes">
+									<File Id="filE10CDC9525343D7669C61CFD02947C7E" DiskId="1" Source="InputFiles64\32\bin\liblensfun.dll" />
+								</Component>
+								<Component Id="cmp60EB433EA4F346420326D4B1FBF5E2A5" Guid="*" Win64="yes">
+									<File Id="filA1467CFDA01B9D9ABFFE2686796539F4" DiskId="1" Source="InputFiles64\32\bin\libltdl-7.dll" />
+								</Component>
+								<Component Id="cmpC1328CED1CEED43647991A6C33056990" Guid="*" Win64="yes">
+									<File Id="fil56773308D283D68A41E3DEE3D924DC51" DiskId="1" Source="InputFiles64\32\bin\liblzma-5.dll" />
+								</Component>
+								<Component Id="cmp78FB942AED934F5BA863A49BDA90AFBA" Guid="*" Win64="yes">
+									<File Id="filA774E46D720436100E1516A0A2A72E6B" DiskId="1" Source="InputFiles64\32\bin\liblzo2-2.dll" />
+								</Component>
+								<Component Id="cmpEC77AF395547771E2BA7884EE697FD2C" Guid="*" Win64="yes">
+									<File Id="fil3C0A292A6E9F44E60EF57E53E6CF26E3" DiskId="1" Source="InputFiles64\32\bin\libmetalink-3.dll" />
+								</Component>
+								<Component Id="cmp0B03AF4368AADF905D93BAD78B78C9A7" Guid="*" Win64="yes">
+									<File Id="fil20A0553BCEBE7599D516A60CF835D2C0" DiskId="1" Source="InputFiles64\32\bin\libmetis.dll" />
+								</Component>
+								<Component Id="cmp052AFE97A5D2168E2E47AACF6608C357" Guid="*" Win64="yes">
+									<File Id="fil8C6DFDF943957EB7172964383369ACCF" DiskId="1" Source="InputFiles64\32\bin\libmng-2.dll" />
+								</Component>
+								<Component Id="cmp6E919FDA0B8322DA6A934F50B6B494F7" Guid="*" Win64="yes">
+									<File Id="fil59F1278FE85982CAEDF79C06AFA1D881" DiskId="1" Source="InputFiles64\32\bin\libmpdec-2.dll" />
+								</Component>
+								<Component Id="cmpFFFD4EBD4D121E898CB75DD5FF2BF11C" Guid="*" Win64="yes">
+									<File Id="fil3F9846050E5A268579689B82671CEF05" DiskId="1" Source="InputFiles64\32\bin\libmypaint-1-5-1.dll" />
+								</Component>
+								<Component Id="cmp8AB50E6E4582B652F9DE945EC58AD06A" Guid="*" Win64="yes">
+									<File Id="fil65A9416BD1F2D5603D037DD3C2BBAE85" DiskId="1" Source="InputFiles64\32\bin\libnettle-8.dll" />
+								</Component>
+								<Component Id="cmpA87BD1E22B1F261AB7B0CA24FBD0DF5B" Guid="*" Win64="yes">
+									<File Id="filECBBC884990E28EF213D3ACF0DFD70C4" DiskId="1" Source="InputFiles64\32\bin\libnghttp2-14.dll" />
+								</Component>
+								<Component Id="cmp0782ED74077A0B44BB3FBC1849893921" Guid="*" Win64="yes">
+									<File Id="fil214900E3927E2C93039D350C1E372CE2" DiskId="1" Source="InputFiles64\32\bin\libnspr4.dll" />
+								</Component>
+								<Component Id="cmp6398D3748F6ED388F17ED6B41FAD6235" Guid="*" Win64="yes">
+									<File Id="fil1D2805B856D33552743A4E2E05A0B6D1" DiskId="1" Source="InputFiles64\32\bin\libobjc-4.dll" />
+								</Component>
+								<Component Id="cmpF30727BE07DB99172622FDD0B12DBF9D" Guid="*" Win64="yes">
+									<File Id="filDFF9820A151DB998E182C08A48AAFDFB" DiskId="1" Source="InputFiles64\32\bin\libopenblas.dll" />
+								</Component>
+								<Component Id="cmp5D29F4739F5A0B3DE45B5A020E9E9538" Guid="*" Win64="yes">
+									<File Id="fil6F0F7909A1EA68BB1DF3A65273B5B0AA" DiskId="1" Source="InputFiles64\32\bin\libopenjp2-7.dll" />
+								</Component>
+								<Component Id="cmpC3191B08FBA624BD7DBE9DEC71789342" Guid="*" Win64="yes">
+									<File Id="filF9E8B4CDAD2B1BFB07A4BDC00AF8DAF0" DiskId="1" Source="InputFiles64\32\bin\libopenjp3d-7.dll" />
+								</Component>
+								<Component Id="cmpAA41BCED21F105809CAD42DBAEA374D3" Guid="*" Win64="yes">
+									<File Id="fil3A02B82FBE58D78FE790A507EF353624" DiskId="1" Source="InputFiles64\32\bin\libopenjpip-7.dll" />
+								</Component>
+								<Component Id="cmp57BA06D39E4834D5D0EFB7B2E6B6CBE1" Guid="*" Win64="yes">
+									<File Id="fil54FDD146F942577CF73802FE73743378" DiskId="1" Source="InputFiles64\32\bin\libopenjpwl-7.dll" />
+								</Component>
+								<Component Id="cmp58EFEC48A229718CC862A500F143F481" Guid="*" Win64="yes">
+									<File Id="fil7B3EF22ECE2E657794BF4EA55734A0BC" DiskId="1" Source="InputFiles64\32\bin\libopenmj2-7.dll" />
+								</Component>
+								<Component Id="cmpEE7A3956C823380EC1D847E7126C6CF1" Guid="*" Win64="yes">
+									<File Id="fil7EA3652C8AE9BFFA23BB915E0B9ED7E9" DiskId="1" Source="InputFiles64\32\bin\libp11-kit-0.dll" />
+								</Component>
+								<Component Id="cmp9DA29E4FAF40576A4C1E3F8B1FFA8C73" Guid="*" Win64="yes">
+									<File Id="fil775A07C70619E771896AD73B778CA909" DiskId="1" Source="InputFiles64\32\bin\libpango-1.0-0.dll" />
+								</Component>
+								<Component Id="cmp5E482B029385C35348FF271302C6F31E" Guid="*" Win64="yes">
+									<File Id="fil572D941CE94AFCEBB6DDF7DE781A0BC4" DiskId="1" Source="InputFiles64\32\bin\libpangocairo-1.0-0.dll" />
+								</Component>
+								<Component Id="cmp48380483B2DD06AE7A3540BB92251AAD" Guid="*" Win64="yes">
+									<File Id="filD074ED4DE346A4D2BC2805D2C16602DD" DiskId="1" Source="InputFiles64\32\bin\libpangoft2-1.0-0.dll" />
+								</Component>
+								<Component Id="cmpE9816F15F645F9EC185ED5A2E5BD72F8" Guid="*" Win64="yes">
+									<File Id="fil1FF2C340E82CC08D5D2F816239A9F7A4" DiskId="1" Source="InputFiles64\32\bin\libpangowin32-1.0-0.dll" />
+								</Component>
+								<Component Id="cmp278EC3DFD9D9AC8E97A1E2D25D8BECB3" Guid="*" Win64="yes">
+									<File Id="fil4B26256512394FC453F338799D5C66D9" DiskId="1" Source="InputFiles64\32\bin\libpaper-1.dll" />
+								</Component>
+								<Component Id="cmpE6694AF91519EA1131F80C48D459E555" Guid="*" Win64="yes">
+									<File Id="fil8F0948D0954BB0204BC5833EED322E7E" DiskId="1" Source="InputFiles64\32\bin\libpathplan-4.dll" />
+								</Component>
+								<Component Id="cmp3CBF0865A0306F460B6A5482CDF40427" Guid="*" Win64="yes">
+									<File Id="fil349B8CC848F6970C216C662B1D9802DB" DiskId="1" Source="InputFiles64\32\bin\libpcre-1.dll" />
+								</Component>
+								<Component Id="cmp2733B7B9C86FF990CC836EB8174205C9" Guid="*" Win64="yes">
+									<File Id="filB09470E5FB496D483AAB9AB1EA652812" DiskId="1" Source="InputFiles64\32\bin\libpcre16-0.dll" />
+								</Component>
+								<Component Id="cmp3F7ABADFEE083708BA0351DCDDB17AAA" Guid="*" Win64="yes">
+									<File Id="fil6DF91AE6EA32B06B7B3DE62852729D5B" DiskId="1" Source="InputFiles64\32\bin\libpcre32-0.dll" />
+								</Component>
+								<Component Id="cmp8A990BBB66E58B69E37079160A11D3AD" Guid="*" Win64="yes">
+									<File Id="fil8E3B2A2CB6EA9C7516B7622B3E3141B3" DiskId="1" Source="InputFiles64\32\bin\libpcrecpp-0.dll" />
+								</Component>
+								<Component Id="cmp646A97E38FEE2C85A5204634D6B32DE8" Guid="*" Win64="yes">
+									<File Id="fil3F1E16285FC63159072B8BEAD1F43E5A" DiskId="1" Source="InputFiles64\32\bin\libpcreposix-0.dll" />
+								</Component>
+								<Component Id="cmp672E4129697FDBF2CD6AF0D821FC98B4" Guid="*" Win64="yes">
+									<File Id="fil08C56AA629CB81FAF0107EA652D66386" DiskId="1" Source="InputFiles64\32\bin\libpixman-1-0.dll" />
+								</Component>
+								<Component Id="cmpF0BE6F06027DC5E01CDEFD2D8EDD66A9" Guid="*" Win64="yes">
+									<File Id="fil84A423A2A6E8B499E28603BF00843F1B" DiskId="1" Source="InputFiles64\32\bin\libplc4.dll" />
+								</Component>
+								<Component Id="cmp687532E5B740CDFCC27619CFA70D6FCD" Guid="*" Win64="yes">
+									<File Id="fil1CFD8C23431975E4827C6AB8325D569C" DiskId="1" Source="InputFiles64\32\bin\libplds4.dll" />
+								</Component>
+								<Component Id="cmp1AF8165B867292D502AB1C967A3FB8CD" Guid="*" Win64="yes">
+									<File Id="filCA4C0918DB729D01C26053A7CEFFDDE6" DiskId="1" Source="InputFiles64\32\bin\libpng16-16.dll" />
+								</Component>
+								<Component Id="cmpB3672FC2A1801D34857E716466A477AD" Guid="*" Win64="yes">
+									<File Id="fil77ABDBAFD913BE58B6EFB97A1A0FC3E2" DiskId="1" Source="InputFiles64\32\bin\libpoppler-99.dll" />
+								</Component>
+								<Component Id="cmp380517A9AA644F6E2B5080E1936D22E3" Guid="*" Win64="yes">
+									<File Id="fil6B86A1AF936ADF9AD89C7A6F75E4E9D6" DiskId="1" Source="InputFiles64\32\bin\libpoppler-cpp-0.dll" />
+								</Component>
+								<Component Id="cmp70B9CDFFDBFC88A690AD3C4EBB7277FA" Guid="*" Win64="yes">
+									<File Id="fil821E4B5D225FB1BFD792BB7CFA061C01" DiskId="1" Source="InputFiles64\32\bin\libpoppler-glib-8.dll" />
+								</Component>
+								<Component Id="cmpB45ED8F3DB75B3EC3877C0D243477AFF" Guid="*" Win64="yes">
+									<File Id="fil62D27B27475B7AB73910FBB8EDAA402D" DiskId="1" Source="InputFiles64\32\bin\libpoppler-qt5-1.dll" />
+								</Component>
+								<Component Id="cmp0686300915A86C67F2CE54FCCCF28BDA" Guid="*" Win64="yes">
+									<File Id="fil1C939AD853BF406D16E6427C6378499C" DiskId="1" Source="InputFiles64\32\bin\libproxy-1.dll" />
+								</Component>
+								<Component Id="cmp2D1D118E6408B3B878D6534E4363DD88" Guid="*" Win64="yes">
+									<File Id="fil4DF2807EC413F17271456B36D470B779" DiskId="1" Source="InputFiles64\32\bin\libpsl-5.dll" />
+								</Component>
+								<Component Id="cmpE9DA7591B8B4C13A60F15C5BC7C25EB1" Guid="*" Win64="yes">
+									<File Id="fil9474DDC119134A009E03884E9DD0EE19" DiskId="1" Source="InputFiles64\32\bin\libquadmath-0.dll" />
+								</Component>
+								<Component Id="cmp25801C746366080480F1C4826FA96033" Guid="*" Win64="yes">
+									<File Id="fil939965BBBB4094CD5FFB63A85FE3C50F" DiskId="1" Source="InputFiles64\32\bin\libraw-19.dll" />
+								</Component>
+								<Component Id="cmp38A415493AC71A66CE34A034E14FA147" Guid="*" Win64="yes">
+									<File Id="fil3B7CF79769E02697C4D38F712E62867E" DiskId="1" Source="InputFiles64\32\bin\libraw_r-19.dll" />
+								</Component>
+								<Component Id="cmp14523673D59711629CE18F38BDE140EB" Guid="*" Win64="yes">
+									<File Id="filE62BCAFD040FF712008C5BFA8CA28253" DiskId="1" Source="InputFiles64\32\bin\librbio.dll" />
+								</Component>
+								<Component Id="cmp0E4BFB4D0BDC0B0FCFF3BA19DCE231B7" Guid="*" Win64="yes">
+									<File Id="filBFD584FCA3B1123BF9C593044885E0F0" DiskId="1" Source="InputFiles64\32\bin\libreadline8.dll" />
+								</Component>
+								<Component Id="cmpBF5FF85F353772CC664BD8322D8C4C64" Guid="*" Win64="yes">
+									<File Id="fil17B762569DCD11DB9AFA080E051D87CE" DiskId="1" Source="InputFiles64\32\bin\librsvg-2-2.dll" />
+								</Component>
+								<Component Id="cmp9881FA44EC61DA5449FA3F57C80FFC47" Guid="*" Win64="yes">
+									<File Id="fil88F46A779CE32575903AF5A502BDCD07" DiskId="1" Source="InputFiles64\32\bin\libspiro-1.dll" />
+								</Component>
+								<Component Id="cmp5ACAD4AF1C56F3E348ED51AAC1ED7702" Guid="*" Win64="yes">
+									<File Id="fil5727DCEF132E249EB5C214412E5663E5" DiskId="1" Source="InputFiles64\32\bin\libspqr.dll" />
+								</Component>
+								<Component Id="cmpF958E6DA94CE8DDD29C280AD0AFBEBED" Guid="*" Win64="yes">
+									<File Id="fil41864C07D5B1B0900E48ACB125F42806" DiskId="1" Source="InputFiles64\32\bin\libsquish.dll" />
+								</Component>
+								<Component Id="cmpE867955408F53CF4663378222CA97655" Guid="*" Win64="yes">
+									<File Id="fil25463BD49CBD8A8D70EC9EC102FD8C0F" DiskId="1" Source="InputFiles64\32\bin\libssh2-1.dll" />
+								</Component>
+								<Component Id="cmp7980F6B96DAA265E7665E41713A2D8A8" Guid="*" Win64="yes">
+									<File Id="fil87640F866226220696A55FD46713E8F8" DiskId="1" Source="InputFiles64\32\bin\libssl-1_1.dll" />
+								</Component>
+								<Component Id="cmp3AA393705AC6DBF5E2FD8097C74DD34F" Guid="*" Win64="yes">
+									<File Id="fil7021D155091581CDA0494ABF6020FF2A" DiskId="1" Source="InputFiles64\32\bin\libssp-0.dll" />
+								</Component>
+								<Component Id="cmp6FDDDD43C5552DBDD9CF0479B6CF2BF3" Guid="*" Win64="yes">
+									<File Id="filF479D7C62DA38FCC1EFF8230C6C1C97C" DiskId="1" Source="InputFiles64\32\bin\libstdc++-6.dll" />
+								</Component>
+								<Component Id="cmpE49D1EB77D18C8270D68D9EBAA7481D7" Guid="*" Win64="yes">
+									<File Id="filCDA48427DEB9970FC32FC7228189E1D2" DiskId="1" Source="InputFiles64\32\bin\libsuitesparseconfig.dll" />
+								</Component>
+								<Component Id="cmp8ACF6AB860F0A6F0D6B2D4565EDD9639" Guid="*" Win64="yes">
+									<File Id="filB5441BBD4A888D590B79C702B8D6E8F8" DiskId="1" Source="InputFiles64\32\bin\libsystre-0.dll" />
+								</Component>
+								<Component Id="cmp24405847F76E07DBD748CBFC19AEEE52" Guid="*" Win64="yes">
+									<File Id="fil95724D42A672CC08F5248D39D834DB0D" DiskId="1" Source="InputFiles64\32\bin\libtasn1-6.dll" />
+								</Component>
+								<Component Id="cmp5702AA5971491F32F5E1B0EB97DD5AF6" Guid="*" Win64="yes">
+									<File Id="fil67820ED98B6428E345EF46B8239C537E" DiskId="1" Source="InputFiles64\32\bin\libtermcap-0.dll" />
+								</Component>
+								<Component Id="cmp2585CE57A5F88CB298AB504A55859F31" Guid="*" Win64="yes">
+									<File Id="fil8BFEE65E94DB018F89C74D6A0EE5FB7E" DiskId="1" Source="InputFiles64\32\bin\libthai-0.dll" />
+								</Component>
+								<Component Id="cmp4DD159935E74DBEF8C847CECC0EDAB98" Guid="*" Win64="yes">
+									<File Id="fil728B7C1EBC731EAAC0E5AE7DB7B2635B" DiskId="1" Source="InputFiles64\32\bin\libtiff-5.dll" />
+								</Component>
+								<Component Id="cmpCD6527F88C8C7C3453B9AAB78DCE039B" Guid="*" Win64="yes">
+									<File Id="filFBB606D9933FADDEADCC1817CB6424DA" DiskId="1" Source="InputFiles64\32\bin\libtiffxx-5.dll" />
+								</Component>
+								<Component Id="cmp19FC114AD22D4BF0C5C86135BF126B0A" Guid="*" Win64="yes">
+									<File Id="filD497F602E2A833196A063279410BC804" DiskId="1" Source="InputFiles64\32\bin\libtre-5.dll" />
+								</Component>
+								<Component Id="cmpCFFE0BABDA5729E6AB35EE4E3BBF5889" Guid="*" Win64="yes">
+									<File Id="fil32E2710ACA637938F1341A97BEF56439" DiskId="1" Source="InputFiles64\32\bin\libturbojpeg.dll" />
+								</Component>
+								<Component Id="cmpFC8BAA22A7CE5E0A8D0520070A59269B" Guid="*" Win64="yes">
+									<File Id="fil43BAB5A66C81791FA9A29E73EFE2E4A4" DiskId="1" Source="InputFiles64\32\bin\libumfpack.dll" />
+								</Component>
+								<Component Id="cmp42C0FD0553096DED3A45DBBF1F20DC29" Guid="*" Win64="yes">
+									<File Id="filF414A54E3FD3E49687F098007F1955C7" DiskId="1" Source="InputFiles64\32\bin\libunistring-2.dll" />
+								</Component>
+								<Component Id="cmp4C8C410B37A8C72AA2CF44348A8D8597" Guid="*" Win64="yes">
+									<File Id="filD4111A4FE81C345590F3FED644C7AE65" DiskId="1" Source="InputFiles64\32\bin\libvulkan-1.dll" />
+								</Component>
+								<Component Id="cmp965AF18D3C56CF8E6AEFCB06D680F322" Guid="*" Win64="yes">
+									<File Id="fil6341AEF57CCD13C4351544149DB762DB" DiskId="1" Source="InputFiles64\32\bin\libwebp-7.dll" />
+								</Component>
+								<Component Id="cmp015A26FF52976FAA52B0E313B4558831" Guid="*" Win64="yes">
+									<File Id="fil979D69CADFA8DEA9C87138355299FCAC" DiskId="1" Source="InputFiles64\32\bin\libwebpdecoder-3.dll" />
+								</Component>
+								<Component Id="cmp323181E5E116E40E6BC0933B77EA3FDE" Guid="*" Win64="yes">
+									<File Id="filB7888C0D035ECC2E0E7262085553386A" DiskId="1" Source="InputFiles64\32\bin\libwebpdemux-2.dll" />
+								</Component>
+								<Component Id="cmp4730041842D795BEDB73219E31CBF41B" Guid="*" Win64="yes">
+									<File Id="filA5EC34011E16E2E30B9E051FD522B653" DiskId="1" Source="InputFiles64\32\bin\libwebpmux-3.dll" />
+								</Component>
+								<Component Id="cmp8488B2B95C80A3D1D2D2A75E86ADC3CE" Guid="*" Win64="yes">
+									<File Id="fil6CD2B5D4FE62BBFBBAE0A27FA94D8D00" DiskId="1" Source="InputFiles64\32\bin\libwinpthread-1.dll" />
+								</Component>
+								<Component Id="cmpB39F1B3F5F1306AA368838ED07C3F29D" Guid="*" Win64="yes">
+									<File Id="filD619E28E8EF4FF094361623D6A77E89B" DiskId="1" Source="InputFiles64\32\bin\libwmf-0-2-7.dll" />
+								</Component>
+								<Component Id="cmp52BDB329A205F3D11ABE7F3AE1B777DF" Guid="*" Win64="yes">
+									<File Id="fil5308EB16B844D7AADC332E246B4B7FC6" DiskId="1" Source="InputFiles64\32\bin\libwmflite-0-2-7.dll" />
+								</Component>
+								<Component Id="cmp9B4CE3B525F5606E8929CC0CFAD2883C" Guid="*" Win64="yes">
+									<File Id="filC46559B03640DE06798E152361985287" DiskId="1" Source="InputFiles64\32\bin\libx265.dll" />
+								</Component>
+								<Component Id="cmp312CCF2D37B3AECA673D4650BABE12D2" Guid="*" Win64="yes">
+									<File Id="filF69DF86086A05660833E09A54065FA5E" DiskId="1" Source="InputFiles64\32\bin\libxdot-4.dll" />
+								</Component>
+								<Component Id="cmp0B02FF331E4E42BC268CA574534706F7" Guid="*" Win64="yes">
+									<File Id="fil50BBE183819A14EC91B8A566A2FBF271" DiskId="1" Source="InputFiles64\32\bin\libxml2-2.dll" />
+								</Component>
+								<Component Id="cmp1D8893D94BBB647E1C4997BC495BC0D3" Guid="*" Win64="yes">
+									<File Id="fil2D67DAD5D96E302964AF182C26468E0B" DiskId="1" Source="InputFiles64\32\bin\libXpm-noX4.dll" />
+								</Component>
+								<Component Id="cmp09D7FBD8521E5FEE9D8DF0F472BC6FAD" Guid="*" Win64="yes">
+									<File Id="filD01D51F72A22E9ADFE1F3FF9DF8060DB" DiskId="1" Source="InputFiles64\32\bin\libxslt-1.dll" />
+								</Component>
+								<Component Id="cmpD74F11D3B2393312199A4AAC33B16F3D" Guid="*" Win64="yes">
+									<File Id="fil676C618A9609B7B325E75AF2DAB7DC17" DiskId="1" Source="InputFiles64\32\bin\libxxhash.dll" />
+								</Component>
+								<Component Id="cmpCF99136F5354329FEB7270EF058EEB33" Guid="*" Win64="yes">
+									<File Id="filFDD21CE9D508445074C0CF5DB47C40B0" DiskId="1" Source="InputFiles64\32\bin\libzstd.dll" />
+								</Component>
+								<Component Id="cmpDA99F118C843828F6F2441C31711AC6A" Guid="*" Win64="yes">
+									<File Id="fil7822E23276769434F1FB971C105FFE5B" DiskId="1" Source="InputFiles64\32\bin\nss3.dll" />
+								</Component>
+								<Component Id="cmpE2BD5D650CC03C47C00704A09B2504B6" Guid="*" Win64="yes">
+									<File Id="fil3A57E30E04EE504E47878FB6238FE9B0" DiskId="1" Source="InputFiles64\32\bin\nssckbi.dll" />
+								</Component>
+								<Component Id="cmpA5E34185C4DF85F36FA699182C5B20DD" Guid="*" Win64="yes">
+									<File Id="fil8965FEA016B900A83B6E8110C0CDE2B1" DiskId="1" Source="InputFiles64\32\bin\nssutil3.dll" />
+								</Component>
+								<Component Id="cmp08E62378C4DCD3A4B91FCCC250A5F4B6" Guid="*" Win64="yes">
+									<File Id="filD5660C2BA22032133AAB7AE8763692AD" DiskId="1" Source="InputFiles64\32\bin\SDL2.dll" />
+								</Component>
+								<Component Id="cmpC9C14ADE287294E37F9C70CF7E6E2052" Guid="*" Win64="yes">
+									<File Id="filDC32AF75CE78C1CA2E702556844232BE" DiskId="1" Source="InputFiles64\32\bin\smime3.dll" />
+								</Component>
+								<Component Id="cmp47A193E44B9DA784B4C538603FD97F7B" Guid="*" Win64="yes">
+									<File Id="filD6FBDBB6C03EC83D27195C6A02C0CA51" DiskId="1" Source="InputFiles64\32\bin\softokn3.dll" />
+								</Component>
+								<Component Id="cmp4C330BDB7B6DB030B8E48C401D358B9D" Guid="*" Win64="yes">
+									<File Id="filB0FA5FD0517D27443561867687D1A82F" DiskId="1" Source="InputFiles64\32\bin\ssl3.dll" />
+								</Component>
+								<Component Id="cmp3AC7E3DB85C3565B7187105625BFA7F3" Guid="*" Win64="yes">
+									<File Id="fil5A531D900DB8904022D94A98154E51F6" DiskId="1" Source="InputFiles64\32\bin\tcl86.dll" />
+								</Component>
+
+								<Component Id="cmp553FE6A49F6872A1DEC624586782869C" Guid="*" Win64="yes">
+									<File Id="filA184E292044D532877328A45F8868F42" DiskId="1" Source="InputFiles64\32\bin\zlib1.dll" />
+								</Component>
+							</Directory>
+							<Directory Id="dirB81C7E081AE8D158AF00E5A6222779D8" Name="etc">
+								<Directory Id="dir49B32624F95509BAD0F0BD001535B576" Name="fonts">
+									<Component Id="cmp1F2096F140570475E5F3F2D35C006B36" Guid="*" Win64="yes">
+										<File Id="fil2A498D3D4722579322BD6325C46832D1" DiskId="1" Source="InputFiles64\32\etc\fonts\fonts.conf" />
+									</Component>
+									<Directory Id="dir830EF71A16BEC7971BEFE6B66103218F" Name="conf.d">
+										<Component Id="cmp6D830A4B746C56E146FC3FF4BFE39F13" Guid="*" Win64="yes">
+											<File Id="filCB5A0EE78F62B56B0AA495D88AB281DE" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\10-hinting-slight.conf" />
+										</Component>
+										<Component Id="cmp9E16F6137BE355F38144E8B3C4B737A8" Guid="*" Win64="yes">
+											<File Id="fil30D113129E988185A706BD5E27ADC7CA" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\10-scale-bitmap-fonts.conf" />
+										</Component>
+										<Component Id="cmp24EA451402BC9200B0AF48A61A323D01" Guid="*" Win64="yes">
+											<File Id="fil3CCD4F509F0E3D0CADFC624B945D933A" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\20-unhint-small-vera.conf" />
+										</Component>
+										<Component Id="cmp7E87C9369BA5C91321664D4BEE84D4F9" Guid="*" Win64="yes">
+											<File Id="fil2E204D89A571002767ABCFDB8D14A32D" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\30-metric-aliases.conf" />
+										</Component>
+										<Component Id="cmpC2A41D5180C91379212720C77D19AAF0" Guid="*" Win64="yes">
+											<File Id="fil1BFF21A6279EF617C40FD186C5575085" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\40-nonlatin.conf" />
+										</Component>
+										<Component Id="cmp4AAECEAAD432704CAE5F0158AB3F22DE" Guid="*" Win64="yes">
+											<File Id="fil70D8546A833E230A5C09AA5CCD16309D" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\45-generic.conf" />
+										</Component>
+										<Component Id="cmpF34D6A001D58A33F9D1B06B9192D3B8F" Guid="*" Win64="yes">
+											<File Id="fil35FC6F74A6E11D70FF03F124EC04AB34" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\45-latin.conf" />
+										</Component>
+										<Component Id="cmp5F4AB23AE59DEF82AF72E66A7A4F9BAB" Guid="*" Win64="yes">
+											<File Id="filD19D20FD29FB2E92BD1E376CB9D86ABE" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\49-sansserif.conf" />
+										</Component>
+										<Component Id="cmp35A7AAAA7ED8CDB279C8B56A2F60A302" Guid="*" Win64="yes">
+											<File Id="fil6EB11AA34705CBE501041A04BD4666BE" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\50-user.conf" />
+										</Component>
+										<Component Id="cmp528DB70354A0E8BC4CCB5FDEB8D40177" Guid="*" Win64="yes">
+											<File Id="fil456E2C9D944445A1A5F227CB914C8A7D" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\51-local.conf" />
+										</Component>
+										<Component Id="cmp48BA444F8BB4DF8AFE8E5D02A8301DF4" Guid="*" Win64="yes">
+											<File Id="fil89D3A82BBB1BF8203F217088FBC530A1" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\60-generic.conf" />
+										</Component>
+										<Component Id="cmpB82F70702943AA7F01499DF28481057A" Guid="*" Win64="yes">
+											<File Id="filFCAF61496649844741D9DF515D54F549" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\60-latin.conf" />
+										</Component>
+										<Component Id="cmp479553E96C5BD6B20DAAEA4528320EAC" Guid="*" Win64="yes">
+											<File Id="fil50D5A706FAECAFAD705332BD772BD268" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\65-fonts-persian.conf" />
+										</Component>
+										<Component Id="cmpB4AE3BF3C13DDAB29B6394AF2D6DF558" Guid="*" Win64="yes">
+											<File Id="filB60340CD01B348526E1103007A82A373" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\65-nonlatin.conf" />
+										</Component>
+										<Component Id="cmpFAD687704F7482E29351BC770A3F8A22" Guid="*" Win64="yes">
+											<File Id="filBD9848CC3A4E777E42D61E1AF5D5F953" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\69-unifont.conf" />
+										</Component>
+										<Component Id="cmpCAFE0B20D753D61989743BC4E0177C41" Guid="*" Win64="yes">
+											<File Id="filA9C2BC354FF87C27685B245FD1BFCAE4" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\80-delicious.conf" />
+										</Component>
+										<Component Id="cmp9F94F69DCD41B5D1F6A7ABEE17BCE3ED" Guid="*" Win64="yes">
+											<File Id="fil553D7F0603997B634B7889FF4CB1FD84" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\90-synthetic.conf" />
+										</Component>
+										<Component Id="cmp7D5C70AB80B1EE02DADB26C05495D552" Guid="*" Win64="yes">
+											<File Id="filDA886FA0448DEDE93A95B3ABCE87E51E" DiskId="1" Source="InputFiles64\32\etc\fonts\conf.d\README" />
+										</Component>
+									</Directory>
+								</Directory>
+							</Directory>
+							<Directory Id="dirA798DB8B89C4C3FD006F52F883E858EB" Name="lib">
+								<Directory Id="dirD0D172FC0665DAF3D09E94D219ABD0A4" Name="babl-0.1">
+									<Component Id="cmp978B36C882A64113AF8997446D6BC9EC" Guid="*" Win64="yes">
+										<File Id="fil2BDCA4F31F557A684D58B11C58031241" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\avx2-int8.dll" />
+									</Component>
+									<Component Id="cmp832C5F3A82EEFA401944B8133CDF6BD5" Guid="*" Win64="yes">
+										<File Id="fil877ADAA2F3519333553895281E5E64D3" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\cairo.dll" />
+									</Component>
+									<Component Id="cmp5855115BB9CF3805968E2ACC2CAB28C2" Guid="*" Win64="yes">
+										<File Id="filFCC1F8BAB034A82E117C5EE7FAF4F805" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\CIE.dll" />
+									</Component>
+									<Component Id="cmp6F00B5E832DE1D07446F594DF4103598" Guid="*" Win64="yes">
+										<File Id="fil5D96717D2044E0B01946EEF2FFEA4485" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\double.dll" />
+									</Component>
+									<Component Id="cmp899F6543FD42CE3D6E1F0283FE8BB3CB" Guid="*" Win64="yes">
+										<File Id="fil86DF5B87EC1E41EBDCB31CFD989249EB" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\fast-float.dll" />
+									</Component>
+									<Component Id="cmpFF6C75055ECBA472C08DE325BBB2341D" Guid="*" Win64="yes">
+										<File Id="filD821A8DC4B90CCA0267BD22F9C9E55F6" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\float.dll" />
+									</Component>
+									<Component Id="cmpD06D089F2844A6335C319C001CFD90A3" Guid="*" Win64="yes">
+										<File Id="filD1AF1358CB0F61BDEF8B335C4D769241" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\gegl-fixups.dll" />
+									</Component>
+									<Component Id="cmp1F17F281DF6E51A85EBE3E8709B33B55" Guid="*" Win64="yes">
+										<File Id="filD9E462A0795BAB627AF45A6AFC477AD0" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\gggl-lies.dll" />
+									</Component>
+									<Component Id="cmp9B88554AF6E8F583139F406DA3080FA4" Guid="*" Win64="yes">
+										<File Id="filCA0A26DC8BEABF61518E5348E7CF609E" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\gggl-table-lies.dll" />
+									</Component>
+									<Component Id="cmp8F31F88145B0D74D53E5773D74C5D573" Guid="*" Win64="yes">
+										<File Id="fil2664E5BD5F18A432EF2F32AA70BABF23" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\gggl-table.dll" />
+									</Component>
+									<Component Id="cmpB32E5716061F325789C076B42D055D99" Guid="*" Win64="yes">
+										<File Id="filBAAC2D355EAD1A6245508A28B38D9F8B" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\gggl.dll" />
+									</Component>
+									<Component Id="cmpF74C4369E96ABE07460B55F8C6AA172B" Guid="*" Win64="yes">
+										<File Id="filEE940B56B392B9EB610F3F0DEDA0AC0B" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\gimp-8bit.dll" />
+									</Component>
+									<Component Id="cmpAE968A8C8402C3A4635F9F5219592214" Guid="*" Win64="yes">
+										<File Id="fil49512A7CCB438A107D80FD3449E4F071" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\grey.dll" />
+									</Component>
+									<Component Id="cmp1AA4E84B62C10B7EB89447CA04B16DC3" Guid="*" Win64="yes">
+										<File Id="fil06124840F9D68A7CFD46C3B7DD0437B1" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\half.dll" />
+									</Component>
+									<Component Id="cmp6A6848B39239CD45D20F9CE97646E45E" Guid="*" Win64="yes">
+										<File Id="fil9E552DDAB637EDB045EEFDCD32EDA966" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\HCY.dll" />
+									</Component>
+									<Component Id="cmpBDFDC5FA9C151B8F130559794D491238" Guid="*" Win64="yes">
+										<File Id="filA688A22DDF8D91223CDD1429DE89F4BF" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\HSL.dll" />
+									</Component>
+									<Component Id="cmp4A160D3AA34F51AD37B233781FCEFEBD" Guid="*" Win64="yes">
+										<File Id="fil2BEA12A80E1B44377CB31D3E86F8F499" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\HSV.dll" />
+									</Component>
+									<Component Id="cmp3D791B2BE3746A8890B21C0B801D9B5B" Guid="*" Win64="yes">
+										<File Id="fil5F8EAB0CAA81C09940F86011ECF85438" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\naive-CMYK.dll" />
+									</Component>
+									<Component Id="cmpF6FAE059FA75BC5CA80993764CD282C5" Guid="*" Win64="yes">
+										<File Id="fil7E406768AABE715B4EF68FD4FD9A9BFE" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\simple.dll" />
+									</Component>
+									<Component Id="cmp550B7566B541F26479E9DF215DF0BD68" Guid="*" Win64="yes">
+										<File Id="fil17578DD183CCBAC83D183B4648A7A557" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\sse-half.dll" />
+									</Component>
+									<Component Id="cmp5F44D3632F6AED1598BD1D1459A1CE91" Guid="*" Win64="yes">
+										<File Id="filF9C10016F69ED1BAB69717C727520167" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\sse2-float.dll" />
+									</Component>
+									<Component Id="cmp87DF2D8307B5880823CEDFAC5848B4B9" Guid="*" Win64="yes">
+										<File Id="fil251CB9B20A2CCA8D387BAFCF47F7A1D4" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\sse2-int16.dll" />
+									</Component>
+									<Component Id="cmpA164CD705621198F57C6817E53EB26DA" Guid="*" Win64="yes">
+										<File Id="fil4CD777F0C218EA64CCF754449A16C734" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\sse2-int8.dll" />
+									</Component>
+									<Component Id="cmpE9863826ABE5330A219A9032BB2861EB" Guid="*" Win64="yes">
+										<File Id="fil6C802BE0A6FC537898810139873CB6FD" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\sse4-int8.dll" />
+									</Component>
+									<Component Id="cmp1FD8AA46C1446409BD32A76E88667F2F" Guid="*" Win64="yes">
+										<File Id="filC3A9BD565516AE327097AC10FBC0B528" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\two-table.dll" />
+									</Component>
+									<Component Id="cmp613CC3CD4B2B3B4AA7EC5B1066BD696C" Guid="*" Win64="yes">
+										<File Id="filC748DAEDD1041B678161435D8DAFDADE" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\u16.dll" />
+									</Component>
+									<Component Id="cmpFEA766320C89C62FEDAFD14B6B125190" Guid="*" Win64="yes">
+										<File Id="fil093D0D8A337C438CA6D9D3F8F35201AE" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\u32.dll" />
+									</Component>
+									<Component Id="cmp159C2F4C8DDABA0931F950CD3DDB41A5" Guid="*" Win64="yes">
+										<File Id="fil72D5686F19DABD9CFBB5302ABEC88AFB" DiskId="1" Source="InputFiles64\32\lib\babl-0.1\ycbcr.dll" />
+									</Component>
+								</Directory>
+								<Directory Id="dir74FA12147A19E45AAB63DA81CBA4EFA0" Name="gdk-pixbuf-2.0">
+									<Directory Id="dirA7F007A853C5E561FC923E63E79CC830" Name="2.10.0">
+										<Component Id="cmpE34D228BBE395DD9EBD4EBA93368B26D" Guid="*" Win64="yes">
+											<File Id="fil3160E5822D863E9B9665DA8C5C6F7DC6" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders.cache" />
+										</Component>
+										<Directory Id="dir443761DD84D1CBDF17972F83F4493830" Name="loaders">
+											<Component Id="cmp3C50CD4F0C8174EE192E8E98A8BB4620" Guid="*" Win64="yes">
+												<File Id="filFBF9BD28C31810DC18998DAAE97E9CEF" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\io-wmf.dll" />
+											</Component>
+											<Component Id="cmp60CB22EB3F6A3327B8CE2FD6491339BE" Guid="*" Win64="yes">
+												<File Id="filF1A184351E2992237705465F075386D8" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-ani.dll" />
+											</Component>
+											<Component Id="cmp10A67EFF9268C17E000AEB0CAF8E207E" Guid="*" Win64="yes">
+												<File Id="fil38CCE97C7656CCDCA6966F0739305FCC" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-bmp.dll" />
+											</Component>
+											<Component Id="cmp8EDF1768591D4FE99B3B81756DE619AE" Guid="*" Win64="yes">
+												<File Id="fil212C52AE5529884A2A909CEE52661D52" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-gif.dll" />
+											</Component>
+											<Component Id="cmp9D9571866181A89E0F619B7767F6E218" Guid="*" Win64="yes">
+												<File Id="fil778187B3AEDC385FF7F4CB6C6B64336F" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-icns.dll" />
+											</Component>
+											<Component Id="cmpFF0383953A5318D6000FFB564C68A613" Guid="*" Win64="yes">
+												<File Id="fil6AF8C65F56E9DB77352F5452AD75E988" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-ico.dll" />
+											</Component>
+											<Component Id="cmp50B956D07BE1F36509FC3B86E4D3D4F8" Guid="*" Win64="yes">
+												<File Id="fil02FEBE110DEC41D0C8D273DDAD4F90E8" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-jasper.dll" />
+											</Component>
+											<Component Id="cmp9EFF5FF117626ED04EBBB7F9A14117CA" Guid="*" Win64="yes">
+												<File Id="filD5593D5E1E2663129F987B644BCD7379" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-jpeg.dll" />
+											</Component>
+											<Component Id="cmpFEBD32F9545A1FB0988A926CB5314D7E" Guid="*" Win64="yes">
+												<File Id="fil473648B11E99643FC91A748711612AE6" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-png.dll" />
+											</Component>
+											<Component Id="cmp077F38C7491091358BA8D928FAC6A3DD" Guid="*" Win64="yes">
+												<File Id="filC017ED31E89AD99FD157346B3EB7192F" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-pnm.dll" />
+											</Component>
+											<Component Id="cmp120CDA22DB63E43949E3CC7C3E81570C" Guid="*" Win64="yes">
+												<File Id="fil3E1E928E4F4D3254D23425F1EB18159E" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-qtif.dll" />
+											</Component>
+											<Component Id="cmp0CD77FBC624A5B6C600D616693CDD707" Guid="*" Win64="yes">
+												<File Id="fil9B1C8E52D9FE23063A5DD5BCFAB2331A" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-svg.dll" />
+											</Component>
+											<Component Id="cmp039B73B789FAED92511FE3E30CC4BD78" Guid="*" Win64="yes">
+												<File Id="filB9579BBAF81FD81B22E2CF6734DF90AC" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-tga.dll" />
+											</Component>
+											<Component Id="cmp336A247FC5A1D85AD558EDD8DF32DE99" Guid="*" Win64="yes">
+												<File Id="filEDD1BE9C65A0661C53D0332F377B9EC6" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-tiff.dll" />
+											</Component>
+											<Component Id="cmp4FB018C80F72D6C924CA837BC2761393" Guid="*" Win64="yes">
+												<File Id="fil06921A43123E4732CF5690E7B8064F5E" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-xbm.dll" />
+											</Component>
+											<Component Id="cmpEEC795857C00A6EF3B659C945409FF75" Guid="*" Win64="yes">
+												<File Id="filAC8CC2F82745784F3F7D034207BD40E8" DiskId="1" Source="InputFiles64\32\lib\gdk-pixbuf-2.0\2.10.0\loaders\libpixbufloader-xpm.dll" />
+											</Component>
+										</Directory>
+									</Directory>
+								</Directory>
+								<Directory Id="dir390197A5435E10D36E9C101C2AF157A3" Name="gegl-0.4">
+									<Component Id="cmpA757638867BB9C83D4265660165E6471" Guid="*" Win64="yes">
+										<File Id="filF9430761F6DE349DA54A081B58B4FD28" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\exr-load.dll" />
+									</Component>
+									<Component Id="cmpC6F5D111AED55DC504FBFD756D2EA5AD" Guid="*" Win64="yes">
+										<File Id="fil4EA9B140A058246269B477BF3C42C3EF" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\exr-save.dll" />
+									</Component>
+									<Component Id="cmpB24C868219D2B6270850BCF65E8AD4CB" Guid="*" Win64="yes">
+										<File Id="fil0FB208C863653C57CA809C25BD6273C3" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\ff-load.dll" />
+									</Component>
+									<Component Id="cmp2F812307D89C7B06DDE3272E6E2F331D" Guid="*" Win64="yes">
+										<File Id="filB07D04DDF1A64CA3565501090F9DEAEE" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\ff-save.dll" />
+									</Component>
+									<Component Id="cmpBFF582A9FAD807E0C913AA02D0697914" Guid="*" Win64="yes">
+										<File Id="fil44DB7BC664E50E5CD0A9B01B01D6B516" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\gegl-common-cxx.dll" />
+									</Component>
+									<Component Id="cmpA28017AFF49215D915282C7A244EDF47" Guid="*" Win64="yes">
+										<File Id="fil9054E3C5FF5E1F08254C91A226F1C22D" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\gegl-common-gpl3.dll" />
+									</Component>
+									<Component Id="cmpC2EF63A2187573C5D1C93A50CEEC85ED" Guid="*" Win64="yes">
+										<File Id="filF1DBF685D2F13CB5F743B83B1F409A16" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\gegl-common.dll" />
+									</Component>
+									<Component Id="cmpA3068256584C4A70DE11025054B9549B" Guid="*" Win64="yes">
+										<File Id="filD175AA59758AB3DF9932CD92EC774D61" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\gegl-core.dll" />
+									</Component>
+									<Component Id="cmpF400FF00053BE4F0CFE708CF5CB0556D" Guid="*" Win64="yes">
+										<File Id="filD66B63ACA9C6FDC6A9D9BEE625C34B84" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\gegl-generated.dll" />
+									</Component>
+									<Component Id="cmp68E301E65A2FC1EBBF3ABE152FB33353" Guid="*" Win64="yes">
+										<File Id="fil18DA7152876686188FCB01BB72F6F692" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\gif-load.dll" />
+									</Component>
+									<Component Id="cmpC16B9EE45B62128D688FC82917C658FE" Guid="*" Win64="yes">
+										<File Id="filCD20BDEF2EEAA478DD328A8630A20BE5" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\grey2.json" />
+									</Component>
+									<Component Id="cmp735D934CE999AB9F618BC44608315C45" Guid="*" Win64="yes">
+										<File Id="filF5A7D51C4220B67DFDCA454D054932CA" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\jp2-load.dll" />
+									</Component>
+									<Component Id="cmp994983AF98648A3F08ECA1F56CD98F0B" Guid="*" Win64="yes">
+										<File Id="fil02680485F686D570FD4E85175AB41DC3" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\jpg-load.dll" />
+									</Component>
+									<Component Id="cmp6161FB150C0FE15AA3CEE90FBB8E9A0A" Guid="*" Win64="yes">
+										<File Id="fil6D2A7B10101FA3D01A8B65E95F084FF9" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\jpg-save.dll" />
+									</Component>
+									<Component Id="cmpDAB4E0DC2F9961019D4EF771D6E55BAE" Guid="*" Win64="yes">
+										<File Id="filFA73656F8C383A005FA72B20E89FBE9E" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\lcms-from-profile.dll" />
+									</Component>
+									<Component Id="cmpB9535FFF1BCE91629D62C4FBF9CDBAF2" Guid="*" Win64="yes">
+										<File Id="fil3043ACA7918940538D5AD35DD7C7AA62" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\matting-levin.dll" />
+									</Component>
+									<Component Id="cmp7D8F47ABDBBEF586BEBEE878F8B207CB" Guid="*" Win64="yes">
+										<File Id="filDC5F147A9DD45AE29DC7B6B4ED3DFD0A" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\npd.dll" />
+									</Component>
+									<Component Id="cmp69197F71660FBC11DD444972C10E4401" Guid="*" Win64="yes">
+										<File Id="fil38622902D9593095F61EA2DD7E215358" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\npy-save.dll" />
+									</Component>
+									<Component Id="cmp9F8A324A30CC185BD9095F7FBECC4BD1" Guid="*" Win64="yes">
+										<File Id="fil9E4ACF124E2E449789F8076F7B81AAC3" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\path.dll" />
+									</Component>
+									<Component Id="cmpA2CF43206CF8AE7617CBD4F1CF07AE0B" Guid="*" Win64="yes">
+										<File Id="fil4D4BA8E26C80D95CDF8153FF9069F648" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\pdf-load.dll" />
+									</Component>
+									<Component Id="cmp7FF893BF79BF2637101BD09722C11AF6" Guid="*" Win64="yes">
+										<File Id="fil6B56DF34A8DA29AF7E501D3163EA3BF1" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\pixbuf-load.dll" />
+									</Component>
+									<Component Id="cmpA67F81C62DC7A7F75B3459B37B41F494" Guid="*" Win64="yes">
+										<File Id="fil1548707DC2078D4F02D7A1FAD48BEAF2" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\pixbuf-save.dll" />
+									</Component>
+									<Component Id="cmpFFD6BE0505F656877958F7CBCE5B7109" Guid="*" Win64="yes">
+										<File Id="fil2E566482174C60094199E0AC1BD922E7" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\png-load.dll" />
+									</Component>
+									<Component Id="cmp3A7D835BDA19C348203D7A9FC08DE05D" Guid="*" Win64="yes">
+										<File Id="filA9CA1DF686905F88237B61ECF5C33BEE" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\png-save.dll" />
+									</Component>
+									<Component Id="cmp437438941540132E4CACBD56B8217468" Guid="*" Win64="yes">
+										<File Id="filF3C9EEED5370D0051D2AFB3CC39284C0" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\ppm-load.dll" />
+									</Component>
+									<Component Id="cmp2187AFFF8C9346393312547391149FCA" Guid="*" Win64="yes">
+										<File Id="fil280685D00F976D6D48D1C6F3C11D29AB" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\ppm-save.dll" />
+									</Component>
+									<Component Id="cmpD21DEA5E754B03AAADE1D03FA0F31D02" Guid="*" Win64="yes">
+										<File Id="fil67D0299E790868C85C964F7D1D3A48C6" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\raw-load.dll" />
+									</Component>
+									<Component Id="cmpD11D5AD8695073B37E1E27DCFDA637C0" Guid="*" Win64="yes">
+										<File Id="fil712BD4D6F3B8A848837DA1B54C03C4B8" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\rgbe-load.dll" />
+									</Component>
+									<Component Id="cmpC5EBAAEB2BB20D79363A691ECFF4C4EC" Guid="*" Win64="yes">
+										<File Id="filC7C7819706AB2A9D97046CC78D004C94" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\rgbe-save.dll" />
+									</Component>
+									<Component Id="cmpC536DB96805AE98947462493E246603C" Guid="*" Win64="yes">
+										<File Id="fil451946044FB224DB50477B9E4196144F" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\sdl2-display.dll" />
+									</Component>
+									<Component Id="cmpE455F4BF255B72C51E024BF3418DFCBF" Guid="*" Win64="yes">
+										<File Id="fil2B08B5594052A4BB2CE0AD3B9D9F284B" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\seamless-clone-compose.dll" />
+									</Component>
+									<Component Id="cmp5CEA5F2F2B6415870D576EBA458DF82A" Guid="*" Win64="yes">
+										<File Id="fil8D74B65047FF78BB5C8A630AFDBD9946" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\seamless-clone.dll" />
+									</Component>
+									<Component Id="cmpBD4CD7CB69800EC703CA52CFF17434BD" Guid="*" Win64="yes">
+										<File Id="fil4C5994C9444C9830C207DFBCA6D7849B" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\svg-load.dll" />
+									</Component>
+									<Component Id="cmpEF6A7C61430AAD06DB32E9F8C9C4D45C" Guid="*" Win64="yes">
+										<File Id="fil9D4CD2C9E60B4AC35C6C1FA8C02288B8" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\text.dll" />
+									</Component>
+									<Component Id="cmp3CDFFBA2252CFB2FE350FB9D2E4DA9F5" Guid="*" Win64="yes">
+										<File Id="filBABB6149921C5648D1AF3534F0AD235A" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\tiff-load.dll" />
+									</Component>
+									<Component Id="cmpECB97434BE47A23358D88F4F46E22E69" Guid="*" Win64="yes">
+										<File Id="filE84DE5D2883E733D5DBC5884674153B8" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\tiff-save.dll" />
+									</Component>
+									<Component Id="cmp1BA46B1B6361CCBB1B931EDA8007DF5C" Guid="*" Win64="yes">
+										<File Id="filF312CF99AD1961A86B4EC880B54D8923" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\transformops.dll" />
+									</Component>
+									<Component Id="cmp6851FF08B37EC0AF947498EC3C50FBB5" Guid="*" Win64="yes">
+										<File Id="fil6F46A808B1715869799CF4ECC4F104A8" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\vector-fill.dll" />
+									</Component>
+									<Component Id="cmp0743578D8C4D1F071ADA4456D0A852E3" Guid="*" Win64="yes">
+										<File Id="filAEEE468E8294740A26128B7604DFA6A4" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\vector-stroke.dll" />
+									</Component>
+									<Component Id="cmp9CA8676D5E84294479441C9360C44C7C" Guid="*" Win64="yes">
+										<File Id="fil2210B428F0319C1D4AE00AE5105BD8E7" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\webp-load.dll" />
+									</Component>
+									<Component Id="cmpB1D344A90A022ADB07E0CF5E4DE378CF" Guid="*" Win64="yes">
+										<File Id="fil8FA6267F1A585C73F1245D37FECBBEB9" DiskId="1" Source="InputFiles64\32\lib\gegl-0.4\webp-save.dll" />
+									</Component>
+								</Directory>
+								<Directory Id="dir7F19C02D6F681CA1A446F2BFC11EC3C6" Name="gtk-2.0">
+									<Directory Id="dirB474E11767112CAC14E114D5EF1E0C65" Name="2.10.0">
+										<Component Id="cmp6F2569C72B3B431518D72B8B38F0354D" Guid="*" Win64="yes">
+											<File Id="fil110FBA51CB9D6BDCADC36D05143AA224" DiskId="1" Source="InputFiles64\32\lib\gtk-2.0\2.10.0\immodules.cache" />
+										</Component>
+										<Directory Id="dir454C528EF9A0A7307439A28847BD37AC" Name="engines">
+											<Component Id="cmp2436194786216F539FC636CDB7293FB2" Guid="*" Win64="yes">
+												<File Id="fil8FF8081FB0AB80BBF0F3D49D763D8BC6" DiskId="1" Source="InputFiles64\32\lib\gtk-2.0\2.10.0\engines\libpixmap.dll" />
+											</Component>
+											<Component Id="cmp027E477B3D1D3F26C9379F18AE7DED71" Guid="*" Win64="yes">
+												<File Id="filD3F694D9F1217E2FD8B646A46EDEFBA2" DiskId="1" Source="InputFiles64\32\lib\gtk-2.0\2.10.0\engines\libwimp.dll" />
+											</Component>
+										</Directory>
+									</Directory>
+									<Directory Id="dir297EF5496AEDA1E0A449E2A29F83D3B0" Name="include">
+										<Component Id="cmp98CF80235F1513DDA77B22CA27840141" Guid="*" Win64="yes">
+											<File Id="filEB76CE930B8695F0C0D09FAD9D3C5341" DiskId="1" Source="InputFiles64\32\lib\gtk-2.0\include\gdkconfig.h" />
+										</Component>
+									</Directory>
+									<Directory Id="dirE5E1CAD6DA7F58A0CA904762EE615FBD" Name="modules">
+										<Component Id="cmpB0C78E2723A31FF78E88462C9682F1D9" Guid="*" Win64="yes">
+											<File Id="filA772096995328CECBCCF2012D5FFA1CC" DiskId="1" Source="InputFiles64\32\lib\gtk-2.0\modules\libgail.dll" />
+										</Component>
+									</Directory>
+								</Directory>
+							</Directory>
+							<Directory Id="dir82C1B161F7FB73F45D3BCAD32DEDEE66" Name="share">
+								<Directory Id="dir747777BDABE051DFC68D2D6959F8D694" Name="themes">
+									<Directory Id="dir7056ACA37D35C6480095377056522394" Name="Default">
+										<Directory Id="dir5FFD72706EB1EB6A844E32BF71B65473" Name="gtk-2.0-key">
+											<Component Id="cmp15E7EC7987A4891ECA36EB24CD697342" Guid="*" Win64="yes">
+												<File Id="fil8D74C4770F9D84964D00A9A606911EE0" DiskId="1" Source="InputFiles64\32\share\themes\Default\gtk-2.0-key\gtkrc" />
+											</Component>
+										</Directory>
+									</Directory>
+									<Directory Id="dir6C2A85F15748C6B0682C1C55D8323103" Name="Emacs">
+										<Directory Id="dir4A0E47C3402CD8AF13934B99E408A755" Name="gtk-2.0-key">
+											<Component Id="cmpB44C14FF84AE930B81E784D9BC867998" Guid="*" Win64="yes">
+												<File Id="fil0FD71979EEB0829DD8E291B6DB628A15" DiskId="1" Source="InputFiles64\32\share\themes\Emacs\gtk-2.0-key\gtkrc" />
+											</Component>
+										</Directory>
+									</Directory>
+									<Directory Id="dir8EE7E7FBF61E17E0B29D9D379B63EF10" Name="MS-Windows">
+										<Directory Id="dir80F84D01E856DDC28DC229F22D6F439F" Name="gtk-2.0">
+											<Component Id="cmpBFA6249E74226F6D7748B81E04E9DBF4" Guid="*" Win64="yes">
+												<File Id="fil8D7D656F98FADF4B74281FE464AB36F2" DiskId="1" Source="InputFiles64\32\share\themes\MS-Windows\gtk-2.0\gtkrc" />
+											</Component>
+										</Directory>
+									</Directory>
+									<Directory Id="dir176A30BA3635F3EFFD6734259620B5F4" Name="Raleigh">
+										<Directory Id="dirC4B0E1A64B6A0E88B45933E6E741E685" Name="gtk-2.0">
+											<Component Id="cmp19633EAA7E94410B1E2CC082730A3E6B" Guid="*" Win64="yes">
+												<File Id="fil93D9BC9CA2EC45A90A65A33125D1FB4C" DiskId="1" Source="InputFiles64\32\share\themes\Raleigh\gtk-2.0\gtkrc" />
+											</Component>
+										</Directory>
+									</Directory>
+								</Directory>
+							</Directory>
+						</Directory>
+						<!-- Remaining files are specific to the Windows 64-bit version of Glimpse Image Editor -->
+>>>>>>> 0eb164188e... 64-bit installer refactored and supports G'MIC
 						<Directory Id="dir9EA5799B7EA75DBDA78413DFEFFA69D8" Name="bin">
 							<Component Id="cmpC01310CFF97159917417DFAD777B700E" Guid="*" Win64="yes">
 								<File Id="filDFA418301819EB45E54F0F5411672643" DiskId="1" Source="InputFiles64\bin\gimp-debug-resume.exe" />
@@ -49,31 +1108,31 @@
 								<File Id="fil5827AF93F894B07691BD9D9BDE07BDA5" DiskId="1" Source="InputFiles64\bin\glimpse-console-0.2.exe" />
 							</Component>
 							<Component Id="cmp8A22EE95C2F9676DA217DB59B8AD9C02" Guid="*" Win64="yes">
-								<File Id="filC7925E7E5346072F0EF9D66C3C334925" DiskId="1" Source="InputFiles64\bin\libglimpse-2.0-0.dll" />
+								<File Id="filC7925E7E5346072F0EF9D66C3C334925" DiskId="1" Source="InputFiles64\bin\libgimp-2.0-0.dll" />
 							</Component>
 							<Component Id="cmpDF8582E8C5CDDF83AC3E5EF5560E26DB" Guid="*" Win64="yes">
-								<File Id="filB6A6E7F8AECA501A7C4E626D28DAC663" DiskId="1" Source="InputFiles64\bin\libglimpsebase-2.0-0.dll" />
+								<File Id="filB6A6E7F8AECA501A7C4E626D28DAC663" DiskId="1" Source="InputFiles64\bin\libgimpbase-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp60F249E05092B1ACC40252F004546F2A" Guid="*" Win64="yes">
-								<File Id="filBC048E163EF0D0DE0B80A25DEC89D361" DiskId="1" Source="InputFiles64\bin\libglimpsecolor-2.0-0.dll" />
+								<File Id="filBC048E163EF0D0DE0B80A25DEC89D361" DiskId="1" Source="InputFiles64\bin\libgimpcolor-2.0-0.dll" />
 							</Component>
 							<Component Id="cmpAC1C5D78251BDB9150FD98BA922503CA" Guid="*" Win64="yes">
-								<File Id="filFE2EE62EF74485BA828D05AA1DE28ABD" DiskId="1" Source="InputFiles64\bin\libglimpseconfig-2.0-0.dll" />
+								<File Id="filFE2EE62EF74485BA828D05AA1DE28ABD" DiskId="1" Source="InputFiles64\bin\libgimpconfig-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp6AA06B5C5DB2DA77EB2B293DA5954576" Guid="*" Win64="yes">
-								<File Id="filD885F336920A3C210EADE25E0F00CDEA" DiskId="1" Source="InputFiles64\bin\libglimpsemath-2.0-0.dll" />
+								<File Id="filD885F336920A3C210EADE25E0F00CDEA" DiskId="1" Source="InputFiles64\bin\libgimpmath-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp2E1B75F817ABF34B9DADC38D8F1FEEA4" Guid="*" Win64="yes">
-								<File Id="fil1BAE77EB5EC2DB8DDC31DBCC61436E52" DiskId="1" Source="InputFiles64\bin\libglimpsemodule-2.0-0.dll" />
+								<File Id="fil1BAE77EB5EC2DB8DDC31DBCC61436E52" DiskId="1" Source="InputFiles64\bin\libgimpmodule-2.0-0.dll" />
 							</Component>
 							<Component Id="cmpE8B3A54BF9F36AFC23037818D4D94E7A" Guid="*" Win64="yes">
-								<File Id="fil6E9623B315DFDF49DCDBB0D4A50BBB67" DiskId="1" Source="InputFiles64\bin\libglimpsethumb-2.0-0.dll" />
+								<File Id="fil6E9623B315DFDF49DCDBB0D4A50BBB67" DiskId="1" Source="InputFiles64\bin\libgimpthumb-2.0-0.dll" />
 							</Component>
 							<Component Id="cmpF5BD2F53AF1E8A92955BBC0D2AF667F3" Guid="*" Win64="yes">
-								<File Id="filA04502608931153EB3A7BCBEF790B9B1" DiskId="1" Source="InputFiles64\bin\libglimpseui-2.0-0.dll" />
+								<File Id="filA04502608931153EB3A7BCBEF790B9B1" DiskId="1" Source="InputFiles64\bin\libgimpui-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp79C3D0EBDF0454296E9DFC578F2A7A0A" Guid="*" Win64="yes">
-								<File Id="filCF8C526120F827D64FBCBE8924B46B57" DiskId="1" Source="InputFiles64\bin\libglimpsewidgets-2.0-0.dll" />
+								<File Id="filCF8C526120F827D64FBCBE8924B46B57" DiskId="1" Source="InputFiles64\bin\libgimpwidgets-2.0-0.dll" />
 							</Component>
 							<!-- Copied from MinGW64 -->
 							<Component Id="cmp639F346BB3AA95476516BE71C39F66AE" Guid="*" Win64="yes">
@@ -1583,10 +2642,71 @@
 												<File Id="fil36A0AD4720711988096E252939D4EBFE" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gimpressionist\gimpressionist.exe" />
 											</Component>
 										</Directory>
-										<Directory Id="dirE15947C40B48DDAD569153C2D380471D" Name="goat-exercise">
-											<Component Id="cmp451380FD21543270A9A9376743486DD7" Guid="*" Win64="yes">
-												<File Id="fil2E9428760BF72A9DCC12A01B13951DA3" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\goat-exercise\goat-exercise.exe" />
+										<!-- Added third-party plugin G'MIC to Windows 64-bit Installer -->
+
+										<Directory Id="dir35885D242E8D6191B1051B62170DA091" Name="gmic_gimp_qt">
+											<Component Id="cmp109CE95CD6A20C37FE062B65D5087D09" Guid="*" Win64="yes">
+												<File Id="filD9DBEFE1542B0CE299E0707EA1B44DE3" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\COPYING" />
 											</Component>
+											<Component Id="cmpCC3B34F279D99CBEF3381CAE63A2F17E" Guid="*" Win64="yes">
+												<File Id="filB7A5CB0CFDB89E981EB3A4D7DA6D8C1F" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\gmic_cluts.gmz" />
+											</Component>
+											<Component Id="cmp623A99E346AAAA74CD80805625150D15" Guid="*" Win64="yes">
+												<File Id="fil461A1A06EC99EC2879F98E76E6DD96DB" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\gmic_gimp_qt.exe" />
+											</Component>
+											<Component Id="cmp41A5499360CB6784F9C0C5EAAB22ABD7" Guid="*" Win64="yes">
+												<File Id="fil8EFB404A440A6E466E72660607312398" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\LIBEAY32.dll" />
+											</Component>
+											<Component Id="cmpF6D2DDDFB2A0A01D103F25C94C127F61" Guid="*" Win64="yes">
+												<File Id="filAD63106B2C8CF27A2B60F1B1B08EC8B5" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\libfftw3-3.dll" />
+											</Component>
+											<Component Id="cmpE7354614CFE1AB3A60395943CDB02D13" Guid="*" Win64="yes">
+												<File Id="filDCCC6461CE17DC10AB3D73FEF49083BF" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\libicudt61.dll" />
+											</Component>
+											<Component Id="cmp797F353441A5291F7FBB467D88D13A72" Guid="*" Win64="yes">
+												<File Id="fil5A8B90C4085F15C05A6097FB17C34BE0" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\libicuin61.dll" />
+											</Component>
+											<Component Id="cmpEC464294BF5960CC23C6CB40670EA75D" Guid="*" Win64="yes">
+												<File Id="filF861B7C0BAC1F2410F840D8EF1C65905" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\libicuuc61.dll" />
+											</Component>
+											<Component Id="cmp505E592B59634CED2C57B048E7501F9B" Guid="*" Win64="yes">
+												<File Id="fil3B71E5F8B8FB6CF5636A58D07D215DA3" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\libpcre2-16-0.dll" />
+											</Component>
+											<Component Id="cmp87BE5BA62A3C01775218E1AF9BC89163" Guid="*" Win64="yes">
+												<File Id="fil910BE1418A489E7BA087DA1321FE8F47" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\Qt5Core.dll" />
+											</Component>
+											<Component Id="cmp2DA7849A180F82F62A89845939F2D52C" Guid="*" Win64="yes">
+												<File Id="fil12015A6C561BE056B49636F0AED7ACD3" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\Qt5Gui.dll" />
+											</Component>
+											<Component Id="cmp9EB7E7F51C5E662FC526F7CCD30F863B" Guid="*" Win64="yes">
+												<File Id="fil194798A818253E85D332BA19A1272E5F" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\Qt5Network.dll" />
+											</Component>
+											<Component Id="cmp53FEBB91BC87B307C28FDBCE54B348D5" Guid="*" Win64="yes">
+												<File Id="filFC42F20080A73F47D7210305735C20BB" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\Qt5Widgets.dll" />
+											</Component>
+											<Component Id="cmp232380AC0F281EA4C4264C5C9CBBDE36" Guid="*" Win64="yes">
+												<File Id="filEDE676A3D3A21BFA2F3D15F114FB0A5B" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\README" />
+											</Component>
+											<Component Id="cmpA293270922C406D049559266F6AA8331" Guid="*" Win64="yes">
+												<File Id="fil2F505F0E7AD05A9D49E7B7DEE5D6D5A1" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\SSLEAY32.dll" />
+											</Component>
+											<Directory Id="dirA0DDACFB7B46DFC28A6FC81A7D541833" Name="platforms">
+												<Component Id="cmpB3BC1A711B0DF6337EC3FCFFBAB67FB8" Guid="*" Win64="yes">
+													<File Id="filD3CCD0F01D496DD06CB7B4861D4A052B" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\platforms\qdirect2d.dll" />
+												</Component>
+												<Component Id="cmp132A41DFF48FB72A6A9C34C36270175F" Guid="*" Win64="yes">
+													<File Id="filAB9C8F28ED8EE0C43A7981C31149EC89" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\platforms\qminimal.dll" />
+												</Component>
+												<Component Id="cmpB6BC5661A93067D9D8EA6D2D60494797" Guid="*" Win64="yes">
+													<File Id="filAB6C91C461A8365CDF4092974211ADA0" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\platforms\qoffscreen.dll" />
+												</Component>
+												<Component Id="cmpDFCFE6CE1C1ECBD18289D64027E8D8CA" Guid="*" Win64="yes">
+													<File Id="filBC0DDA338389005ADE0A8258F8412478" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\platforms\qwebgl.dll" />
+												</Component>
+												<Component Id="cmpEA06C182DBF57B53AC8D1D8080463EA0" Guid="*" Win64="yes">
+													<File Id="fil665FF9EC4ED6C79656DF6521D33CC430" DiskId="1" Source="InputFiles64\lib\glimpse\2.0\plug-ins\gmic_gimp_qt\platforms\qwindows.dll" />
+												</Component>
+											</Directory>
 										</Directory>
 										<Directory Id="dir4D15667FBB0CE5A75B5C769049DC07C3" Name="gradient-flare">
 											<Component Id="cmpEC644C158E90BE0C2BC577C6D9C64918" Guid="*" Win64="yes">
@@ -14147,7 +15267,7 @@
 								<Directory Id="dirEB7BFF070E24361159109A1CEE255FAF" Name="ar">
 									<Directory Id="dir020BCD017219554AC37C09F8F8FC5013" Name="LC_MESSAGES">
 										<Component Id="cmpBE2A162094F196E06DFE28E4253EAF28" Guid="*" Win64="yes">
-											<File Id="filD36CF80D8BE7F32D9DE7F37F4342DCDB" DiskId="1" Source="InputFiles64\share\locale\ar\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filD36CF80D8BE7F32D9DE7F37F4342DCDB" DiskId="1" Source="InputFiles64\share\locale\ar\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp7DC0BBFF7AF20053CC3729793051C1A9" Guid="*" Win64="yes">
 											<File Id="fil22347E46A2CFF4286228A48FCB8FD7CF" DiskId="1" Source="InputFiles64\share\locale\ar\LC_MESSAGES\gimp20-python.mo" />
@@ -14176,7 +15296,7 @@
 								<Directory Id="dirE0F6E8E7C9F58B9841C190E5A763CA13" Name="az">
 									<Directory Id="dir51517F406E41C8357A6500B89DAF69C2" Name="LC_MESSAGES">
 										<Component Id="cmpD928E12DD4F3FF1DB4C4ED1CBB1931D0" Guid="*" Win64="yes">
-											<File Id="filBC801805FFBC8CC2E6DE5BABDD30807A" DiskId="1" Source="InputFiles64\share\locale\az\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filBC801805FFBC8CC2E6DE5BABDD30807A" DiskId="1" Source="InputFiles64\share\locale\az\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp322EA8C6758AC29FC45B239FC08030A9" Guid="*" Win64="yes">
 											<File Id="fil0CED77C2B7564D027E1E6787413D5A8B" DiskId="1" Source="InputFiles64\share\locale\az\LC_MESSAGES\gimp20-python.mo" />
@@ -14192,7 +15312,7 @@
 								<Directory Id="dir67DFE57D20173617BB9980C260526B26" Name="be">
 									<Directory Id="dir562E85FC0E5AA508715BC0B4D1D5FD6B" Name="LC_MESSAGES">
 										<Component Id="cmpCE2D5A511961BAF0E0042D55A371E9A9" Guid="*" Win64="yes">
-											<File Id="fil45DC5911EB963B33CFAB5F46BA2DCE86" DiskId="1" Source="InputFiles64\share\locale\be\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil45DC5911EB963B33CFAB5F46BA2DCE86" DiskId="1" Source="InputFiles64\share\locale\be\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp7EE7CAE214337CA6C6D979C5E3CC5919" Guid="*" Win64="yes">
 											<File Id="fil963C4751D205D9AC3B5323D99836004A" DiskId="1" Source="InputFiles64\share\locale\be\LC_MESSAGES\gimp20-python.mo" />
@@ -14214,7 +15334,7 @@
 								<Directory Id="dir1ADF7BECEC65E642ACB0BB65555E4080" Name="bg">
 									<Directory Id="dir1A2DE8ACF5134901D3D5097550DE0E4C" Name="LC_MESSAGES">
 										<Component Id="cmp40192029220C7E2E32313F3F7BDEBC0B" Guid="*" Win64="yes">
-											<File Id="fil1745301EC62113CC431E83C6F35D093C" DiskId="1" Source="InputFiles64\share\locale\bg\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil1745301EC62113CC431E83C6F35D093C" DiskId="1" Source="InputFiles64\share\locale\bg\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpA8F8CE8ED2C7CDCECBA96ADB81F613D1" Guid="*" Win64="yes">
 											<File Id="filE6B0A5A6BC39A4D3E82F520C65756EC5" DiskId="1" Source="InputFiles64\share\locale\bg\LC_MESSAGES\gimp20-python.mo" />
@@ -14236,7 +15356,7 @@
 								<Directory Id="dirFCA857FD917A3446B9E136682F5E16E6" Name="br">
 									<Directory Id="dir9F739855FA4A71D3288C21D71F4E6FBF" Name="LC_MESSAGES">
 										<Component Id="cmp60F764C190E6FCFC1468B21D4B5452C3" Guid="*" Win64="yes">
-											<File Id="fil69D51FCF6E9CC0DDAC5A40F9F81DEA06" DiskId="1" Source="InputFiles64\share\locale\br\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil69D51FCF6E9CC0DDAC5A40F9F81DEA06" DiskId="1" Source="InputFiles64\share\locale\br\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpAB222D3D8BD3318D92F163A39B50AF85" Guid="*" Win64="yes">
 											<File Id="filAF7A04EB3A6E36B38EFAE1CB2B4371ED" DiskId="1" Source="InputFiles64\share\locale\br\LC_MESSAGES\gimp20-python.mo" />
@@ -14258,7 +15378,7 @@
 								<Directory Id="dir616B28C8F54B3AEB8A79A5EC0CEEEFBE" Name="bs">
 									<Directory Id="dir01BA9E231B62BC1C7B3880C206181B63" Name="LC_MESSAGES">
 										<Component Id="cmp870D08AC404BB203703435D5CE19A4F3" Guid="*" Win64="yes">
-											<File Id="filFF2E4BFDD5AA0ED3E6CB4CBA9E36C90B" DiskId="1" Source="InputFiles64\share\locale\bs\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filFF2E4BFDD5AA0ED3E6CB4CBA9E36C90B" DiskId="1" Source="InputFiles64\share\locale\bs\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4ED98707AF52E5B43D938BF457F84BE5" Guid="*" Win64="yes">
 											<File Id="filE2CE302A7C2794C72044B628C5FD6F27" DiskId="1" Source="InputFiles64\share\locale\bs\LC_MESSAGES\gimp20-python.mo" />
@@ -14280,7 +15400,7 @@
 								<Directory Id="dir5B3CF0E190F2D2D19FA8C11AB99DD41E" Name="ca">
 									<Directory Id="dir00AA5B1291046BB6B440FBDE4153CC5D" Name="LC_MESSAGES">
 										<Component Id="cmp883598EDE9D1C9A8787B451DAB13DB95" Guid="*" Win64="yes">
-											<File Id="fil77CE97060DA2AB0462EAC8627AA9B5F0" DiskId="1" Source="InputFiles64\share\locale\ca\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil77CE97060DA2AB0462EAC8627AA9B5F0" DiskId="1" Source="InputFiles64\share\locale\ca\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp2523AA8618FAFC244DC2169793376EC2" Guid="*" Win64="yes">
 											<File Id="filF01C9C98EF3447C1E5E0326D6B5FF824" DiskId="1" Source="InputFiles64\share\locale\ca\LC_MESSAGES\gimp20-python.mo" />
@@ -14302,7 +15422,7 @@
 								<Directory Id="dirD2D50F3FCD4B1390FBDEA00C91948FFA" Name="ca@valencia">
 									<Directory Id="dirBB3A9B997D8735CE2CA62DB46ADA093F" Name="LC_MESSAGES">
 										<Component Id="cmp51C0D3955F0ACCD2EEE67D2F117A1734" Guid="*" Win64="yes">
-											<File Id="fil46CF3878FD50A48A9B320D2501B7EFC5" DiskId="1" Source="InputFiles64\share\locale\ca@valencia\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil46CF3878FD50A48A9B320D2501B7EFC5" DiskId="1" Source="InputFiles64\share\locale\ca@valencia\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpFCDE868E8E8C4F92D80C8F2351E7F516" Guid="*" Win64="yes">
 											<File Id="fil030DE95F204CC76A6026029E81124B86" DiskId="1" Source="InputFiles64\share\locale\ca@valencia\LC_MESSAGES\gimp20-python.mo" />
@@ -14324,7 +15444,7 @@
 								<Directory Id="dirED275AF0C4FA6E38E19C0089BBD74954" Name="cs">
 									<Directory Id="dirB65076E207F86169AB2BE7BE8D025717" Name="LC_MESSAGES">
 										<Component Id="cmp13BBBD25142B8E4BE4B0D9A7756666E7" Guid="*" Win64="yes">
-											<File Id="filC79547C979BACAA8BDDF5A9B7FB7E672" DiskId="1" Source="InputFiles64\share\locale\cs\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filC79547C979BACAA8BDDF5A9B7FB7E672" DiskId="1" Source="InputFiles64\share\locale\cs\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpC4D665CCF5DA70AF58378FA7D2D13452" Guid="*" Win64="yes">
 											<File Id="filCCD9292B8BA73B6549AEC92F47BA26C0" DiskId="1" Source="InputFiles64\share\locale\cs\LC_MESSAGES\gimp20-python.mo" />
@@ -14353,7 +15473,7 @@
 								<Directory Id="dirD50C76C571B90A5903AA83C83D4FC22D" Name="da">
 									<Directory Id="dir6346E7A8B11DDA4DA2AF6BB0CE92A7AE" Name="LC_MESSAGES">
 										<Component Id="cmp59ECBA041E346F7C087FA4F7CFEE9792" Guid="*" Win64="yes">
-											<File Id="fil165AF9B6D3A57A301EEFDC32DE15607C" DiskId="1" Source="InputFiles64\share\locale\da\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil165AF9B6D3A57A301EEFDC32DE15607C" DiskId="1" Source="InputFiles64\share\locale\da\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpC6B8FD954EECF90D69331DA9F9B85900" Guid="*" Win64="yes">
 											<File Id="filF245010100EC98B5EE241CE2A1553B15" DiskId="1" Source="InputFiles64\share\locale\da\LC_MESSAGES\gimp20-python.mo" />
@@ -14375,7 +15495,7 @@
 								<Directory Id="dir3ED28386EA32FFC454C006D19B2848A7" Name="de">
 									<Directory Id="dirD4377B20EF60A76D64D858B25F5B75E0" Name="LC_MESSAGES">
 										<Component Id="cmpD639C530EF9DC3CDDFC0F18EA9B92A7F" Guid="*" Win64="yes">
-											<File Id="filBA2E103F8AD2056C1386E159838C7A8B" DiskId="1" Source="InputFiles64\share\locale\de\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filBA2E103F8AD2056C1386E159838C7A8B" DiskId="1" Source="InputFiles64\share\locale\de\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpD78E049E93ABBBD6ABF5C0A6C64CF8E8" Guid="*" Win64="yes">
 											<File Id="filB012FF99979CC720A286E04719CC2D28" DiskId="1" Source="InputFiles64\share\locale\de\LC_MESSAGES\gimp20-python.mo" />
@@ -14397,7 +15517,7 @@
 								<Directory Id="dir8046E44B0094F15604EA202447128A83" Name="dz">
 									<Directory Id="dir132FCDC3B2E22DEC3E60F5585F113C7E" Name="LC_MESSAGES">
 										<Component Id="cmpAC89E367027AB3201F74FB89CB109A92" Guid="*" Win64="yes">
-											<File Id="fil2135046363416C58190AD0E35BE59481" DiskId="1" Source="InputFiles64\share\locale\dz\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil2135046363416C58190AD0E35BE59481" DiskId="1" Source="InputFiles64\share\locale\dz\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp0DC1F7317D76691504EE6894ABDAC044" Guid="*" Win64="yes">
 											<File Id="fil593A84E6124BC17ECC1EACAE7A2B1B12" DiskId="1" Source="InputFiles64\share\locale\dz\LC_MESSAGES\gimp20-python.mo" />
@@ -14419,7 +15539,7 @@
 								<Directory Id="dirAB2ACBEAFBAD0B53359D991EAEF8EAD5" Name="el">
 									<Directory Id="dir862F2214675F4724EAA39FEBBE128F24" Name="LC_MESSAGES">
 										<Component Id="cmp6E1D5B5BA25CBD8DDA663C102024D398" Guid="*" Win64="yes">
-											<File Id="fil8643673B01ED4729F50A2A0119A3B298" DiskId="1" Source="InputFiles64\share\locale\el\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil8643673B01ED4729F50A2A0119A3B298" DiskId="1" Source="InputFiles64\share\locale\el\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpEA35E2ABB6BEE674C7501E9510EEDD39" Guid="*" Win64="yes">
 											<File Id="filEFA707FB33AB6285A4EA099D103DF50D" DiskId="1" Source="InputFiles64\share\locale\el\LC_MESSAGES\gimp20-python.mo" />
@@ -14441,7 +15561,7 @@
 								<Directory Id="dirAA7A0083964E3BC6CEEADDDB26A951BF" Name="en_CA">
 									<Directory Id="dir60FEAA9F3081F7F16BC9044624338113" Name="LC_MESSAGES">
 										<Component Id="cmp13C884F0F92C4A58FB4A3E0DC88A1601" Guid="*" Win64="yes">
-											<File Id="fil90806664833F7D4F49B32E3BFC4424A6" DiskId="1" Source="InputFiles64\share\locale\en_CA\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil90806664833F7D4F49B32E3BFC4424A6" DiskId="1" Source="InputFiles64\share\locale\en_CA\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4F700F11CA104BB9E41870384FA603C3" Guid="*" Win64="yes">
 											<File Id="fil83F59622FF90A903B491241BC7EFBB95" DiskId="1" Source="InputFiles64\share\locale\en_CA\LC_MESSAGES\gimp20-python.mo" />
@@ -14463,7 +15583,7 @@
 								<Directory Id="dirA18A94403A61C242A9CC66730C397B54" Name="en_GB">
 									<Directory Id="dir75A1C562C6269923C1483AB30F24B68D" Name="LC_MESSAGES">
 										<Component Id="cmp19E46ABCEFC28DFB0C2656B0EA228CBE" Guid="*" Win64="yes">
-											<File Id="fil397BC304BA5A3A568FD0FDB8E5C4168C" DiskId="1" Source="InputFiles64\share\locale\en_GB\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil397BC304BA5A3A568FD0FDB8E5C4168C" DiskId="1" Source="InputFiles64\share\locale\en_GB\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpBB41A975B8B0C42BFB7314A5E5D1EA19" Guid="*" Win64="yes">
 											<File Id="fil78E280ACD2AE53A26D86A00EFAA07555" DiskId="1" Source="InputFiles64\share\locale\en_GB\LC_MESSAGES\gimp20-python.mo" />
@@ -14485,7 +15605,7 @@
 								<Directory Id="dirDDD34AF5C22BD7350F3AB8280F559384" Name="eo">
 									<Directory Id="dir1B12EB1146C44D6728D6E141EA9808D6" Name="LC_MESSAGES">
 										<Component Id="cmpE5188099C354AC63145838F32DD0B4CF" Guid="*" Win64="yes">
-											<File Id="filEE75314C8F1479752B4CBE4B25D764EC" DiskId="1" Source="InputFiles64\share\locale\eo\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filEE75314C8F1479752B4CBE4B25D764EC" DiskId="1" Source="InputFiles64\share\locale\eo\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp30031FD57C72DEA5473E3EF7ECF9A292" Guid="*" Win64="yes">
 											<File Id="fil457BC07FC80E5304A7DE54885FA88EAB" DiskId="1" Source="InputFiles64\share\locale\eo\LC_MESSAGES\gimp20-python.mo" />
@@ -14507,7 +15627,7 @@
 								<Directory Id="dir691D2A9A0C299B685E2D93D72443F951" Name="es">
 									<Directory Id="dirF30337E6FF1EB547BBF0EF3C41D36D46" Name="LC_MESSAGES">
 										<Component Id="cmp04A803B9E2872C66D0FABECF0EBBF3D3" Guid="*" Win64="yes">
-											<File Id="fil2C20EDC534788E347F0BAD9F1FC70E46" DiskId="1" Source="InputFiles64\share\locale\es\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil2C20EDC534788E347F0BAD9F1FC70E46" DiskId="1" Source="InputFiles64\share\locale\es\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp0BC04376A37AD0FEB79BD1D94C71CDBC" Guid="*" Win64="yes">
 											<File Id="fil83B83B39155EFD64B50023A51AE9DF01" DiskId="1" Source="InputFiles64\share\locale\es\LC_MESSAGES\gimp20-python.mo" />
@@ -14529,7 +15649,7 @@
 								<Directory Id="dir934993550DAEBBD84B14F47ADE5D7945" Name="et">
 									<Directory Id="dir04E15B02FBC94048F63CBA4457CDCDF6" Name="LC_MESSAGES">
 										<Component Id="cmp8500BC9AAA87742684427C6F4E907E29" Guid="*" Win64="yes">
-											<File Id="fil16678FB2574E80ADA16120344FAC6549" DiskId="1" Source="InputFiles64\share\locale\et\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil16678FB2574E80ADA16120344FAC6549" DiskId="1" Source="InputFiles64\share\locale\et\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp7381DB9E2C7ABD153DA86E87A197727D" Guid="*" Win64="yes">
 											<File Id="fil6A5035B1A5460CDB80837992CD25C7BA" DiskId="1" Source="InputFiles64\share\locale\et\LC_MESSAGES\gimp20-python.mo" />
@@ -14551,7 +15671,7 @@
 								<Directory Id="dir2F4514EA3D020CBD064CFD9237C6EC4E" Name="eu">
 									<Directory Id="dirDDEADF98F1EC2F597A31B2BAE435681D" Name="LC_MESSAGES">
 										<Component Id="cmp116FB8BD22416462750E1A746F0F2008" Guid="*" Win64="yes">
-											<File Id="fil1E8F5C9CB5FC098CDFFE0FF078525820" DiskId="1" Source="InputFiles64\share\locale\eu\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil1E8F5C9CB5FC098CDFFE0FF078525820" DiskId="1" Source="InputFiles64\share\locale\eu\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp9667D36B6FBB12AA32E8950F888BA773" Guid="*" Win64="yes">
 											<File Id="filD45392FFAB6679CDAB6C5A9F8C4E5149" DiskId="1" Source="InputFiles64\share\locale\eu\LC_MESSAGES\gimp20-python.mo" />
@@ -14573,7 +15693,7 @@
 								<Directory Id="dirE76D9D8A725B2BEF333A55CB10B6E72D" Name="fa">
 									<Directory Id="dir15F22D74E6057BC8BF14F46B2EF5EF03" Name="LC_MESSAGES">
 										<Component Id="cmp99A64945A8A82DF7AE0413F4CA96EE03" Guid="*" Win64="yes">
-											<File Id="fil4A16BAEF5094B6CBE5BBECFCE1931AD9" DiskId="1" Source="InputFiles64\share\locale\fa\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil4A16BAEF5094B6CBE5BBECFCE1931AD9" DiskId="1" Source="InputFiles64\share\locale\fa\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp87B0221FE7DFEAFF558F397D0E280A0E" Guid="*" Win64="yes">
 											<File Id="fil4889EC9EEE43C6A7B80C26B96CEF34C9" DiskId="1" Source="InputFiles64\share\locale\fa\LC_MESSAGES\gimp20-python.mo" />
@@ -14595,7 +15715,7 @@
 								<Directory Id="dir869D9E499D477FCFAB99C5C7FC1CA35B" Name="fi">
 									<Directory Id="dir520F441972E0CDECB179295515730E1D" Name="LC_MESSAGES">
 										<Component Id="cmpAEBBDE84FC53509AF0A7078BAE4B53EE" Guid="*" Win64="yes">
-											<File Id="fil4CFDDD6C34B3A64BBE7A772E9D9C57B2" DiskId="1" Source="InputFiles64\share\locale\fi\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil4CFDDD6C34B3A64BBE7A772E9D9C57B2" DiskId="1" Source="InputFiles64\share\locale\fi\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpCABFD415C6C6089327A96F5EDE6602F3" Guid="*" Win64="yes">
 											<File Id="fil5A876D1B388A572343A04B8E8572345C" DiskId="1" Source="InputFiles64\share\locale\fi\LC_MESSAGES\gimp20-python.mo" />
@@ -14617,7 +15737,7 @@
 								<Directory Id="dirEFABAD2222159C0E419F74CF333354A7" Name="fr">
 									<Directory Id="dir6D7116BBB4E2D4C22FB6507CF3D8534A" Name="LC_MESSAGES">
 										<Component Id="cmp357CF4A3AD7EA47CAEA46518BFD50335" Guid="*" Win64="yes">
-											<File Id="fil495CB357A3CF0BCA19226C9AE40F525B" DiskId="1" Source="InputFiles64\share\locale\fr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil495CB357A3CF0BCA19226C9AE40F525B" DiskId="1" Source="InputFiles64\share\locale\fr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp5A1F021AA90DB4184A569903F9B736C7" Guid="*" Win64="yes">
 											<File Id="fil99416FCB134238FA21C63E709A47EE3A" DiskId="1" Source="InputFiles64\share\locale\fr\LC_MESSAGES\gimp20-python.mo" />
@@ -14639,7 +15759,7 @@
 								<Directory Id="dir0A502E91223FECD5DC2CAD51A859D640" Name="ga">
 									<Directory Id="dir46A244D2E130AFA063D9FEF4F11C0C51" Name="LC_MESSAGES">
 										<Component Id="cmp49BEAA0A1320BD300B83ADE4D6E19687" Guid="*" Win64="yes">
-											<File Id="fil244364AEBEC4F55AFA66A51C201FBBD4" DiskId="1" Source="InputFiles64\share\locale\ga\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil244364AEBEC4F55AFA66A51C201FBBD4" DiskId="1" Source="InputFiles64\share\locale\ga\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp26AFBE74324296D5D2083106C5BC23FC" Guid="*" Win64="yes">
 											<File Id="fil21C6A260A1A82C059D18662DC55AD0E9" DiskId="1" Source="InputFiles64\share\locale\ga\LC_MESSAGES\gimp20-python.mo" />
@@ -14665,7 +15785,7 @@
 								<Directory Id="dir644F8EB965BD695CE086FBAACB8AFD13" Name="gl">
 									<Directory Id="dirA1B3910E0D52B8F5C90B86D57A32B1D4" Name="LC_MESSAGES">
 										<Component Id="cmpC30597876BA120D2A8F9F6B5E3167C74" Guid="*" Win64="yes">
-											<File Id="filD75772A58722B87A9E2CC98A56B92114" DiskId="1" Source="InputFiles64\share\locale\gl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filD75772A58722B87A9E2CC98A56B92114" DiskId="1" Source="InputFiles64\share\locale\gl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpE9AE61F1B016873965F57E0DE7EDCFD7" Guid="*" Win64="yes">
 											<File Id="filD38CF858D08727398F93937CA16688F7" DiskId="1" Source="InputFiles64\share\locale\gl\LC_MESSAGES\gimp20-python.mo" />
@@ -14687,7 +15807,7 @@
 								<Directory Id="dir82ABA27BC9643682A735EBC694AC9BB8" Name="gu">
 									<Directory Id="dirA2B540A341AA83C47CB1750C9A972708" Name="LC_MESSAGES">
 										<Component Id="cmpE9D1EE51F087197CFC68E6857C6D5F8A" Guid="*" Win64="yes">
-											<File Id="fil935B62F2AEE8E4558CDFD2932505770B" DiskId="1" Source="InputFiles64\share\locale\gu\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil935B62F2AEE8E4558CDFD2932505770B" DiskId="1" Source="InputFiles64\share\locale\gu\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp9F60846387BA9FF0267AE75947D43579" Guid="*" Win64="yes">
 											<File Id="filFD6EFCF7C0EFFA32BE7E8EFA1A3E5693" DiskId="1" Source="InputFiles64\share\locale\gu\LC_MESSAGES\gimp20-python.mo" />
@@ -14709,7 +15829,7 @@
 								<Directory Id="dir34360DD48505580A8383E6242FB88372" Name="he">
 									<Directory Id="dir5F15B8BAFB3012FAC36B09FC7B608172" Name="LC_MESSAGES">
 										<Component Id="cmp4104407CE1B46690806A228CE1F84D58" Guid="*" Win64="yes">
-											<File Id="filB1FA86EFE775AE7D3B1B3C587740622A" DiskId="1" Source="InputFiles64\share\locale\he\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filB1FA86EFE775AE7D3B1B3C587740622A" DiskId="1" Source="InputFiles64\share\locale\he\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpAA07C5BF571CAF27C7EC77BE216184DC" Guid="*" Win64="yes">
 											<File Id="fil85FD895FB21C963A594492EC3E2FA3AB" DiskId="1" Source="InputFiles64\share\locale\he\LC_MESSAGES\gimp20-script-fu.mo" />
@@ -14735,7 +15855,7 @@
 								<Directory Id="dir5A3AC1118E2EAC6D26E959D96D24D9F1" Name="hr">
 									<Directory Id="dir406531B3A551929A17BBACFA2E395510" Name="LC_MESSAGES">
 										<Component Id="cmp1DEB5E051FC554C791A1311487E949E6" Guid="*" Win64="yes">
-											<File Id="fil7B68E47A9EC1982ED2D01F315C9E9854" DiskId="1" Source="InputFiles64\share\locale\hr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil7B68E47A9EC1982ED2D01F315C9E9854" DiskId="1" Source="InputFiles64\share\locale\hr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4211BEB57BD7D8AC2F44914EAB834D55" Guid="*" Win64="yes">
 											<File Id="fil8205F6EE48742E57B54A8CC1EE8D5A24" DiskId="1" Source="InputFiles64\share\locale\hr\LC_MESSAGES\gimp20-python.mo" />
@@ -14757,7 +15877,7 @@
 								<Directory Id="dirA009633B9619D86B42CAE2EB541FFDA0" Name="hu">
 									<Directory Id="dirBB9BC43D7D61EB73FE281C61E979438D" Name="LC_MESSAGES">
 										<Component Id="cmp1377D87E83020E73C709290CB16D6A31" Guid="*" Win64="yes">
-											<File Id="fil813B0B1B6F420A9A412994D83808BECD" DiskId="1" Source="InputFiles64\share\locale\hu\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil813B0B1B6F420A9A412994D83808BECD" DiskId="1" Source="InputFiles64\share\locale\hu\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpA8C6A7CFD2A918FEDC7EFEAB6820C7A9" Guid="*" Win64="yes">
 											<File Id="filE3473CD05114BAB0715705A7119A3657" DiskId="1" Source="InputFiles64\share\locale\hu\LC_MESSAGES\gimp20-python.mo" />
@@ -14779,7 +15899,7 @@
 								<Directory Id="dir00821F9E3BD3F88BEC018D7F81D36510" Name="id">
 									<Directory Id="dir697A1FC1B63D683B05D19006FCA58A04" Name="LC_MESSAGES">
 										<Component Id="cmpFC084502F6D994600FBB597C7CEA71A3" Guid="*" Win64="yes">
-											<File Id="filDDDCF18576242A7BC86ADD7CAD295E17" DiskId="1" Source="InputFiles64\share\locale\id\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filDDDCF18576242A7BC86ADD7CAD295E17" DiskId="1" Source="InputFiles64\share\locale\id\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp2B23DDC8AA7710D387DCF78C8F61BEAA" Guid="*" Win64="yes">
 											<File Id="fil6E40DC568CA30F7E5679B8277A4CE9B1" DiskId="1" Source="InputFiles64\share\locale\id\LC_MESSAGES\gimp20-python.mo" />
@@ -14801,7 +15921,7 @@
 								<Directory Id="dirC7778F94B0503E79F37F38730D3E4BAE" Name="is">
 									<Directory Id="dirAA9F1A78C3476A92DC4B88C83B2FDCA8" Name="LC_MESSAGES">
 										<Component Id="cmpF863B33DC0CE269B644207972E0584EE" Guid="*" Win64="yes">
-											<File Id="fil7F0379D922F03324C4CF2712AB1116FF" DiskId="1" Source="InputFiles64\share\locale\is\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil7F0379D922F03324C4CF2712AB1116FF" DiskId="1" Source="InputFiles64\share\locale\is\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp6F410DA267B96E10C0E893C44A6B955C" Guid="*" Win64="yes">
 											<File Id="fil6269EAA4EC970B46B7C55604C3664381" DiskId="1" Source="InputFiles64\share\locale\is\LC_MESSAGES\gimp20-python.mo" />
@@ -14823,7 +15943,7 @@
 								<Directory Id="dir3086D4575CD1D5F22B20D6C58D815827" Name="it">
 									<Directory Id="dirA9B0E7C881139186A4816AB4F1F5B514" Name="LC_MESSAGES">
 										<Component Id="cmp7BD9673F6CB91E394CED00B565F6C36A" Guid="*" Win64="yes">
-											<File Id="fil7F1243139A13729D93589F02F7708E2F" DiskId="1" Source="InputFiles64\share\locale\it\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil7F1243139A13729D93589F02F7708E2F" DiskId="1" Source="InputFiles64\share\locale\it\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpA1D7DB5AF86BD125BB764BB1DD953621" Guid="*" Win64="yes">
 											<File Id="fil24AAEDC73DC449C987CA22B933D95293" DiskId="1" Source="InputFiles64\share\locale\it\LC_MESSAGES\gimp20-python.mo" />
@@ -14845,7 +15965,7 @@
 								<Directory Id="dirB6961924AF079619E8CF9C1687E5E7A1" Name="ja">
 									<Directory Id="dir0A920C47B7BC7FF144807A0400626D4D" Name="LC_MESSAGES">
 										<Component Id="cmp6F796D78EB5F07B4D6426FEADF80B4ED" Guid="*" Win64="yes">
-											<File Id="filBEE87CA1EC684B5DF7983C0F0DD26179" DiskId="1" Source="InputFiles64\share\locale\ja\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filBEE87CA1EC684B5DF7983C0F0DD26179" DiskId="1" Source="InputFiles64\share\locale\ja\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp2C788B241AE2C0F89CEB5BB639029713" Guid="*" Win64="yes">
 											<File Id="filC48A7CDFBE98B933505616AF4ED3FB6B" DiskId="1" Source="InputFiles64\share\locale\ja\LC_MESSAGES\gimp20-python.mo" />
@@ -14874,7 +15994,7 @@
 								<Directory Id="dir9E396F7CE8B5CCE552AA3BD7D8FF1018" Name="kk">
 									<Directory Id="dir0C2C64F108AD0688014196D1FBC4E726" Name="LC_MESSAGES">
 										<Component Id="cmpD7CA05CABDD86B835FD33963B78767AB" Guid="*" Win64="yes">
-											<File Id="filB3E9C950D1DB75DCB78BECE34048F359" DiskId="1" Source="InputFiles64\share\locale\kk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filB3E9C950D1DB75DCB78BECE34048F359" DiskId="1" Source="InputFiles64\share\locale\kk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpAD8990696CB5590D8FF96760100CE5EC" Guid="*" Win64="yes">
 											<File Id="filE01275141B969DAF10F0C158F90A13E8" DiskId="1" Source="InputFiles64\share\locale\kk\LC_MESSAGES\gimp20.mo" />
@@ -14884,7 +16004,7 @@
 								<Directory Id="dir0DC7DE4E25090D7DB3D8F89293A7712B" Name="km">
 									<Directory Id="dirF155A985DBB5DB33C1F0421998AA517F" Name="LC_MESSAGES">
 										<Component Id="cmpE2E49BB77B2EF4AD939D6F7EFDF984B9" Guid="*" Win64="yes">
-											<File Id="fil69C14CE4ED471CFC13DCB9EA2567BD4A" DiskId="1" Source="InputFiles64\share\locale\km\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil69C14CE4ED471CFC13DCB9EA2567BD4A" DiskId="1" Source="InputFiles64\share\locale\km\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp71C44EB4806F70F274620E1C5AABEE18" Guid="*" Win64="yes">
 											<File Id="fil51607BDAC990AF592C7FBBBBE5B8C9B4" DiskId="1" Source="InputFiles64\share\locale\km\LC_MESSAGES\gimp20-python.mo" />
@@ -14916,7 +16036,7 @@
 								<Directory Id="dir37196E604C1BD6C87B0E7E50D05BF052" Name="ko">
 									<Directory Id="dir3C17ADEE9A1198FFE064D69C0BFD5B36" Name="LC_MESSAGES">
 										<Component Id="cmp3E10B2D14195AC3F4D917BE961181109" Guid="*" Win64="yes">
-											<File Id="fil926C5A3403733B3D336895C1041D4763" DiskId="1" Source="InputFiles64\share\locale\ko\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil926C5A3403733B3D336895C1041D4763" DiskId="1" Source="InputFiles64\share\locale\ko\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp42619689E415F31143400B7C5A3FB44B" Guid="*" Win64="yes">
 											<File Id="filD48BBE0155411AFFB3CF87A1C6EB568C" DiskId="1" Source="InputFiles64\share\locale\ko\LC_MESSAGES\gimp20-python.mo" />
@@ -14945,7 +16065,7 @@
 								<Directory Id="dirC46B1FE0B0A7CAE6E2C60E9E84905F66" Name="lt">
 									<Directory Id="dirD8D9D6B29C14600D88C670D637A6E67C" Name="LC_MESSAGES">
 										<Component Id="cmp511445778453D9C6DBA5E1DE37F09921" Guid="*" Win64="yes">
-											<File Id="fil42FEA3F6125091EA862A652546062517" DiskId="1" Source="InputFiles64\share\locale\lt\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil42FEA3F6125091EA862A652546062517" DiskId="1" Source="InputFiles64\share\locale\lt\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp35D05E8AC6FC1D5FC0B58E930520BDFC" Guid="*" Win64="yes">
 											<File Id="filEAD67E1B5EDB176C8D1ECFD9E7D7DAC2" DiskId="1" Source="InputFiles64\share\locale\lt\LC_MESSAGES\gimp20-python.mo" />
@@ -14967,7 +16087,7 @@
 								<Directory Id="dirEF6AB01BA114FAD35D893AF56C8A1138" Name="lv">
 									<Directory Id="dirDD6EB92B11315BEEE5458A57828467A6" Name="LC_MESSAGES">
 										<Component Id="cmpF4DCF6453F761A9FA2D5E2454BE8F352" Guid="*" Win64="yes">
-											<File Id="fil417BB877F88DBCC2EE49B08FEB6C54D0" DiskId="1" Source="InputFiles64\share\locale\lv\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil417BB877F88DBCC2EE49B08FEB6C54D0" DiskId="1" Source="InputFiles64\share\locale\lv\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp038252D41F1ECAA04F0F9E55457F5896" Guid="*" Win64="yes">
 											<File Id="filA9AFD061693B4E3D7E43EEC6150E6BB2" DiskId="1" Source="InputFiles64\share\locale\lv\LC_MESSAGES\gimp20-python.mo" />
@@ -14989,7 +16109,7 @@
 								<Directory Id="dir8CC454479372199814939521CB55791F" Name="mk">
 									<Directory Id="dir9C26306A86E9EAEA20D480897BD7CC61" Name="LC_MESSAGES">
 										<Component Id="cmpAD062B0ECBE251BA856D8A58207934C7" Guid="*" Win64="yes">
-											<File Id="filD87DDE3F826BD2A74DDE527B6468C167" DiskId="1" Source="InputFiles64\share\locale\mk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filD87DDE3F826BD2A74DDE527B6468C167" DiskId="1" Source="InputFiles64\share\locale\mk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpA49006EE26278935CD14EC10E8B2CD74" Guid="*" Win64="yes">
 											<File Id="filBE2155F9CF86BDFD5848127C98C700A0" DiskId="1" Source="InputFiles64\share\locale\mk\LC_MESSAGES\gimp20-python.mo" />
@@ -15018,7 +16138,7 @@
 								<Directory Id="dirBADBB76D6397787A8F6841A990B8D6A8" Name="mr">
 									<Directory Id="dirAA1DDE2C4A4AF1C17C7BB95AB066660F" Name="LC_MESSAGES">
 										<Component Id="cmpE36697F47F3D67A4F871169782FF2C89" Guid="*" Win64="yes">
-											<File Id="fil956C4E9E1C8AD91EC5A8CE7C0C970D7D" DiskId="1" Source="InputFiles64\share\locale\mr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil956C4E9E1C8AD91EC5A8CE7C0C970D7D" DiskId="1" Source="InputFiles64\share\locale\mr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp364EDE884DA099FB71BD50024F538090" Guid="*" Win64="yes">
 											<File Id="fil3A1A0529E0AE0D147BAEFA5B91FE6B0E" DiskId="1" Source="InputFiles64\share\locale\mr\LC_MESSAGES\gimp20-python.mo" />
@@ -15040,7 +16160,7 @@
 								<Directory Id="dirBEDBEDC50EF5D77133E24DBA6A9A2F59" Name="ms">
 									<Directory Id="dir3065A59CCF6B9928C5BD9F105148F5BF" Name="LC_MESSAGES">
 										<Component Id="cmpE14A421F915342722ABC09BADABBDC0D" Guid="*" Win64="yes">
-											<File Id="fil2C79139A856EFB793200E714051933FF" DiskId="1" Source="InputFiles64\share\locale\ms\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil2C79139A856EFB793200E714051933FF" DiskId="1" Source="InputFiles64\share\locale\ms\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpDC26C6191C13D7D43503385B12F612E9" Guid="*" Win64="yes">
 											<File Id="fil5052D9346916D69B9D178481A234CDE8" DiskId="1" Source="InputFiles64\share\locale\ms\LC_MESSAGES\gimp20-python.mo" />
@@ -15062,7 +16182,7 @@
 								<Directory Id="dir66A3D42F63E8E8EF4F2EC6943F57CB16" Name="my">
 									<Directory Id="dirB48EB9893A5525DFD1DD25090C2449E0" Name="LC_MESSAGES">
 										<Component Id="cmp183C7DB1C0E89D1A472EE9CF3FD817F5" Guid="*" Win64="yes">
-											<File Id="filFDD60A416842985207254FB531E52F7A" DiskId="1" Source="InputFiles64\share\locale\my\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filFDD60A416842985207254FB531E52F7A" DiskId="1" Source="InputFiles64\share\locale\my\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp1123FCA3984B3E10E5294B4393AC6588" Guid="*" Win64="yes">
 											<File Id="filAD3A33F6F68CA858A53A2A831FCB687F" DiskId="1" Source="InputFiles64\share\locale\my\LC_MESSAGES\gimp20-python.mo" />
@@ -15084,7 +16204,7 @@
 								<Directory Id="dirA1FE54C0BE791612A2A75223AAE265B3" Name="nb">
 									<Directory Id="dir29EB8318FAD54CA6B65E7D1D4A2B9A10" Name="LC_MESSAGES">
 										<Component Id="cmpC7B5E0438F9CE772D239A8ADFE53967D" Guid="*" Win64="yes">
-											<File Id="filB3425A72DC9807F85D53D2DC3C375327" DiskId="1" Source="InputFiles64\share\locale\nb\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filB3425A72DC9807F85D53D2DC3C375327" DiskId="1" Source="InputFiles64\share\locale\nb\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpA1B77B89D76F9BF11D96F261AD5D0EC2" Guid="*" Win64="yes">
 											<File Id="filEEE546B787EACE4670BBEDB265473A0B" DiskId="1" Source="InputFiles64\share\locale\nb\LC_MESSAGES\gimp20-python.mo" />
@@ -15113,7 +16233,7 @@
 								<Directory Id="dir72716728C0EA037CF49A3796E8642EF9" Name="ne">
 									<Directory Id="dirEE460F732BCB384F1395BCFF60D45491" Name="LC_MESSAGES">
 										<Component Id="cmp0079F3F684D0730250D45320743F0BDC" Guid="*" Win64="yes">
-											<File Id="fil799A9FFA6842E1EE84C754F92FC23801" DiskId="1" Source="InputFiles64\share\locale\ne\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil799A9FFA6842E1EE84C754F92FC23801" DiskId="1" Source="InputFiles64\share\locale\ne\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp0E9DDFCE761D6FBB00A505CDB57A1C50" Guid="*" Win64="yes">
 											<File Id="filA0CE07727CEFEC90F3349ED5B6A9AF3C" DiskId="1" Source="InputFiles64\share\locale\ne\LC_MESSAGES\gimp20-python.mo" />
@@ -15135,7 +16255,7 @@
 								<Directory Id="dir92289D28D2856F8F5AC24298859E5C38" Name="nl">
 									<Directory Id="dir280E65F7DF361CAAC985836E71D7EFA7" Name="LC_MESSAGES">
 										<Component Id="cmpFD6E86522AB094EEEE4EE06139819C3A" Guid="*" Win64="yes">
-											<File Id="filF3B6F14869924CEC36781C6D37D000B4" DiskId="1" Source="InputFiles64\share\locale\nl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filF3B6F14869924CEC36781C6D37D000B4" DiskId="1" Source="InputFiles64\share\locale\nl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp55BD861C05EB595CF619FF9C6A92BCCC" Guid="*" Win64="yes">
 											<File Id="filD0D155B836EF2CA82B9BE125EA7B7ECE" DiskId="1" Source="InputFiles64\share\locale\nl\LC_MESSAGES\gimp20-python.mo" />
@@ -15157,7 +16277,7 @@
 								<Directory Id="dir480F5B82FB26705BF048060D412CE98B" Name="nn">
 									<Directory Id="dir43DB66D0DF22C338787D65D71113907E" Name="LC_MESSAGES">
 										<Component Id="cmpD2CCA871A5B8676397790576C8C62543" Guid="*" Win64="yes">
-											<File Id="fil42A1FDC7442116C0FCB4EB02151F1215" DiskId="1" Source="InputFiles64\share\locale\nn\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil42A1FDC7442116C0FCB4EB02151F1215" DiskId="1" Source="InputFiles64\share\locale\nn\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpD87142A0B2AD4B93790109E73CEB9E0F" Guid="*" Win64="yes">
 											<File Id="filC4BBB39552ED9A427D1F4DF7B050D8D0" DiskId="1" Source="InputFiles64\share\locale\nn\LC_MESSAGES\gimp20-python.mo" />
@@ -15179,7 +16299,7 @@
 								<Directory Id="dir3F6370AD43FE6A8BD197120C91AFBBBB" Name="oc">
 									<Directory Id="dir0A4B6E200FF07F068909053A5B96F9C9" Name="LC_MESSAGES">
 										<Component Id="cmp393BD0A2C0EC1116A3E0EE80BBEF60B7" Guid="*" Win64="yes">
-											<File Id="fil3133B8EA963D9CD0D26ED0B3FA2208B0" DiskId="1" Source="InputFiles64\share\locale\oc\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil3133B8EA963D9CD0D26ED0B3FA2208B0" DiskId="1" Source="InputFiles64\share\locale\oc\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp91268D7CC620AE9B70BD51662E47134D" Guid="*" Win64="yes">
 											<File Id="filEB75E50B340D8A731CB57540942E534B" DiskId="1" Source="InputFiles64\share\locale\oc\LC_MESSAGES\gimp20-python.mo" />
@@ -15201,7 +16321,7 @@
 								<Directory Id="dir2F417A336629C269639DA63DE2A97274" Name="pa">
 									<Directory Id="dirA58320EB7AC2A36B40B48C245839A340" Name="LC_MESSAGES">
 										<Component Id="cmp63F338B67FC957DE1372477FD1B1996C" Guid="*" Win64="yes">
-											<File Id="filE04D44408E9740117F29AA6BD7544E46" DiskId="1" Source="InputFiles64\share\locale\pa\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filE04D44408E9740117F29AA6BD7544E46" DiskId="1" Source="InputFiles64\share\locale\pa\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpCCE5FDFA61EF69B28CB00694312E0A9B" Guid="*" Win64="yes">
 											<File Id="fil87C4598F88EE8772C5F941DAFB60BEDD" DiskId="1" Source="InputFiles64\share\locale\pa\LC_MESSAGES\gimp20-python.mo" />
@@ -15223,7 +16343,7 @@
 								<Directory Id="dirB4843A95E519937566B99ED8F6BFB2D3" Name="pl">
 									<Directory Id="dir224419F1183CF261B2A6FC6859CB095E" Name="LC_MESSAGES">
 										<Component Id="cmp95D2D1C290090CC458B59563F3759522" Guid="*" Win64="yes">
-											<File Id="filAFBB07A8999B3DD399808653E60D7718" DiskId="1" Source="InputFiles64\share\locale\pl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filAFBB07A8999B3DD399808653E60D7718" DiskId="1" Source="InputFiles64\share\locale\pl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp1CB9ACA1CA2AA35DF94C6A2DA9EC7585" Guid="*" Win64="yes">
 											<File Id="filB67D49F4BACA339AD573833C63F399B2" DiskId="1" Source="InputFiles64\share\locale\pl\LC_MESSAGES\gimp20-python.mo" />
@@ -15245,7 +16365,7 @@
 								<Directory Id="dir3C0F2000B9A91AD2AEAEFAC0A632C501" Name="pt">
 									<Directory Id="dir73019EB0F69950E29093426297B87E98" Name="LC_MESSAGES">
 										<Component Id="cmp27F287838704B9FDEF66E0BC84FCA7A8" Guid="*" Win64="yes">
-											<File Id="fil44939AADC7AE2F34C3E1CA7BD6F03FA4" DiskId="1" Source="InputFiles64\share\locale\pt\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil44939AADC7AE2F34C3E1CA7BD6F03FA4" DiskId="1" Source="InputFiles64\share\locale\pt\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpDF91EC9B40A41609F37E60A904F8FDA9" Guid="*" Win64="yes">
 											<File Id="fil65B6FE6347E3E5B40D52B07A6E34A5EE" DiskId="1" Source="InputFiles64\share\locale\pt\LC_MESSAGES\gimp20-python.mo" />
@@ -15267,7 +16387,7 @@
 								<Directory Id="dirFC18CBC2553163BD09625073827C3FE0" Name="pt_BR">
 									<Directory Id="dirC03ED7F6E3BE9B3580FC6B7C9E41885D" Name="LC_MESSAGES">
 										<Component Id="cmp38690E860D3B2683EF231FB00C4FB059" Guid="*" Win64="yes">
-											<File Id="fil65E46381FF5348399CFCD4E2DB6AD06E" DiskId="1" Source="InputFiles64\share\locale\pt_BR\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil65E46381FF5348399CFCD4E2DB6AD06E" DiskId="1" Source="InputFiles64\share\locale\pt_BR\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp6D23C0ADF8345A0EFD70624CD503E64C" Guid="*" Win64="yes">
 											<File Id="fil3E9D72D35BCA24EBDB698787ADF64DF4" DiskId="1" Source="InputFiles64\share\locale\pt_BR\LC_MESSAGES\gimp20-python.mo" />
@@ -15289,7 +16409,7 @@
 								<Directory Id="dir6AB22A54285FE931B5EF580185450CC6" Name="ro">
 									<Directory Id="dir25F23B1D7C310DA67971590200609E01" Name="LC_MESSAGES">
 										<Component Id="cmp7337CCEDBA3ED75B4FFA65BCDE1221EE" Guid="*" Win64="yes">
-											<File Id="fil6BE741EB201559B1515DA306361F4F5D" DiskId="1" Source="InputFiles64\share\locale\ro\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil6BE741EB201559B1515DA306361F4F5D" DiskId="1" Source="InputFiles64\share\locale\ro\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4C170B34D3C31813577D824BC3CEF016" Guid="*" Win64="yes">
 											<File Id="fil472AF8FDA7C445FE547C57CC2F203F35" DiskId="1" Source="InputFiles64\share\locale\ro\LC_MESSAGES\gimp20-python.mo" />
@@ -15311,7 +16431,7 @@
 								<Directory Id="dirB2C380111CF04284B0E9F49A7E26F01D" Name="ru">
 									<Directory Id="dir847786254B388B233C306487B4E0EF67" Name="LC_MESSAGES">
 										<Component Id="cmp4809B1209873BBF4CF9F4A5143EB44D5" Guid="*" Win64="yes">
-											<File Id="fil151D4139416828B8446788F1F2F1237F" DiskId="1" Source="InputFiles64\share\locale\ru\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil151D4139416828B8446788F1F2F1237F" DiskId="1" Source="InputFiles64\share\locale\ru\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpB250A5849DA6A96029E190D24143E8D2" Guid="*" Win64="yes">
 											<File Id="fil022B5915088E776C7B90841B5AB54F39" DiskId="1" Source="InputFiles64\share\locale\ru\LC_MESSAGES\gimp20-python.mo" />
@@ -15333,7 +16453,7 @@
 								<Directory Id="dir5B1416611192B7D71A32B094C6EEC31E" Name="rw">
 									<Directory Id="dir0ECFBA924537EC3A87CCF95B3BF28A34" Name="LC_MESSAGES">
 										<Component Id="cmp0F5AB9C4C4E5D7ABD528EC8F8F331B60" Guid="*" Win64="yes">
-											<File Id="fil68BD67A7B476619C03B3E6A406E6EE35" DiskId="1" Source="InputFiles64\share\locale\rw\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil68BD67A7B476619C03B3E6A406E6EE35" DiskId="1" Source="InputFiles64\share\locale\rw\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp24C672E2AAD7DB90B7AFF206E184138E" Guid="*" Win64="yes">
 											<File Id="fil39143E411181B52EE8A050F5AB73507C" DiskId="1" Source="InputFiles64\share\locale\rw\LC_MESSAGES\gimp20-python.mo" />
@@ -15362,7 +16482,7 @@
 								<Directory Id="dir2C6B2E2CD25FBD255E3DEBD3F7C17DFE" Name="sk">
 									<Directory Id="dirFF1E527D04178E86631F1FF1A15FB900" Name="LC_MESSAGES">
 										<Component Id="cmpD9ABE5B65B1C25D5E3D19A7DFFE99600" Guid="*" Win64="yes">
-											<File Id="fil28619EFBA1567BEDC3C395394761C835" DiskId="1" Source="InputFiles64\share\locale\sk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil28619EFBA1567BEDC3C395394761C835" DiskId="1" Source="InputFiles64\share\locale\sk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp6E7BFC2D0E1B51E64D805C5458E361AA" Guid="*" Win64="yes">
 											<File Id="fil7B138629251BAFDD02CA56940FB748E5" DiskId="1" Source="InputFiles64\share\locale\sk\LC_MESSAGES\gimp20-python.mo" />
@@ -15384,7 +16504,7 @@
 								<Directory Id="dir9C3C984B5FFB3A41A6D5496B2FEA6FA9" Name="sl">
 									<Directory Id="dirD43DF4E0C12D088A4E1626EFC099B564" Name="LC_MESSAGES">
 										<Component Id="cmp4CEC12598A8038911B235190264D56EB" Guid="*" Win64="yes">
-											<File Id="fil79578A316572B25CA98EE82C3EA8BBE7" DiskId="1" Source="InputFiles64\share\locale\sl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil79578A316572B25CA98EE82C3EA8BBE7" DiskId="1" Source="InputFiles64\share\locale\sl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpE068E3F8166B58458B146A60B576680E" Guid="*" Win64="yes">
 											<File Id="filFF55C13B4FDD749AE9253EEFF4B53C6F" DiskId="1" Source="InputFiles64\share\locale\sl\LC_MESSAGES\gimp20-python.mo" />
@@ -15406,7 +16526,7 @@
 								<Directory Id="dirC67E64C09273AFF42BE9C271C709A3FF" Name="sr">
 									<Directory Id="dir13D881A96E587A36BB7CD69EC0287310" Name="LC_MESSAGES">
 										<Component Id="cmpD94ECFA1C7E15ACA58B367E9A5B6B90E" Guid="*" Win64="yes">
-											<File Id="fil0B7F090FB1C4DE561DD52BF8FF87EB09" DiskId="1" Source="InputFiles64\share\locale\sr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil0B7F090FB1C4DE561DD52BF8FF87EB09" DiskId="1" Source="InputFiles64\share\locale\sr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp1787898B51FA3D0D35AD26C978DC87C1" Guid="*" Win64="yes">
 											<File Id="filF34B57C6A8AD77F2E3ABE93E839D0670" DiskId="1" Source="InputFiles64\share\locale\sr\LC_MESSAGES\gimp20-python.mo" />
@@ -15428,7 +16548,7 @@
 								<Directory Id="dirDB8FEA0A667B5DFEF67AC9A415E5BB71" Name="sr@latin">
 									<Directory Id="dir67C98F502CB59018700E7030C17FA0FB" Name="LC_MESSAGES">
 										<Component Id="cmpEECBEDADB5E75007C2B9132547946BB0" Guid="*" Win64="yes">
-											<File Id="fil49A6DCE5E13C1DB9CEA7F79EE5407B84" DiskId="1" Source="InputFiles64\share\locale\sr@latin\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil49A6DCE5E13C1DB9CEA7F79EE5407B84" DiskId="1" Source="InputFiles64\share\locale\sr@latin\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp8EC70CCEC9906B4534C3F4A36048CCA8" Guid="*" Win64="yes">
 											<File Id="filC6F63DBA835A81EA46B2E6FF57E2FC9C" DiskId="1" Source="InputFiles64\share\locale\sr@latin\LC_MESSAGES\gimp20-python.mo" />
@@ -15450,7 +16570,7 @@
 								<Directory Id="dir61BF9642BF59876E5AF9B031C278CDE8" Name="sv">
 									<Directory Id="dirDBDB7B306575E30FEDA8F3822953E653" Name="LC_MESSAGES">
 										<Component Id="cmpB6665405100CF8837DB9FA52EAA553AF" Guid="*" Win64="yes">
-											<File Id="fil55D62C6A3F99EE024E1430AA1C30A47B" DiskId="1" Source="InputFiles64\share\locale\sv\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil55D62C6A3F99EE024E1430AA1C30A47B" DiskId="1" Source="InputFiles64\share\locale\sv\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp3A712B63D14DD1BC589FA1F97615033C" Guid="*" Win64="yes">
 											<File Id="fil24FE2516FB4D13697378B57F33B1800C" DiskId="1" Source="InputFiles64\share\locale\sv\LC_MESSAGES\gimp20-python.mo" />
@@ -15472,7 +16592,7 @@
 								<Directory Id="dir7FB0CBC05A3617CDB6E854DBA6B7637B" Name="ta">
 									<Directory Id="dir1CABDF202008CC49EBFBED42887F980E" Name="LC_MESSAGES">
 										<Component Id="cmpB20F358F2E147AC2608141294BDE8AF9" Guid="*" Win64="yes">
-											<File Id="filB5A6ED9CA86779DBF410FEA3989652F4" DiskId="1" Source="InputFiles64\share\locale\ta\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filB5A6ED9CA86779DBF410FEA3989652F4" DiskId="1" Source="InputFiles64\share\locale\ta\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp07CEC30BD654AF6A05BA9685E2549A7C" Guid="*" Win64="yes">
 											<File Id="fil118DD507C5D0C46FDE74AFFB66BF5119" DiskId="1" Source="InputFiles64\share\locale\ta\LC_MESSAGES\gimp20-python.mo" />
@@ -15491,7 +16611,7 @@
 								<Directory Id="dirBDF4B49C10048D47583BC388292AD5D6" Name="te">
 									<Directory Id="dirCDACED1020112E62DB90A719FCC149A4" Name="LC_MESSAGES">
 										<Component Id="cmp82B28BF9310B426318C6F51599334178" Guid="*" Win64="yes">
-											<File Id="filC59776DB74E2EEBDCFC1B2CAC913265A" DiskId="1" Source="InputFiles64\share\locale\te\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filC59776DB74E2EEBDCFC1B2CAC913265A" DiskId="1" Source="InputFiles64\share\locale\te\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp64EA0E8E6F01D8E3F03961E7FFF7BBB1" Guid="*" Win64="yes">
 											<File Id="fil52DAD931AB25B68FCEDAE73A3BD9D0D2" DiskId="1" Source="InputFiles64\share\locale\te\LC_MESSAGES\gimp20-python.mo" />
@@ -15514,7 +16634,7 @@
 								<Directory Id="dirE50C4B580EC10DE7B479D6C8ECA6A947" Name="tr">
 									<Directory Id="dir785A69E8C1C8F258CCCA99257DB940BD" Name="LC_MESSAGES">
 										<Component Id="cmp931B9CB9A0F6911EF804D1E24828B3CB" Guid="*" Win64="yes">
-											<File Id="filEBFEEE4BE866CCAAFC05440C16A1C733" DiskId="1" Source="InputFiles64\share\locale\tr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filEBFEEE4BE866CCAAFC05440C16A1C733" DiskId="1" Source="InputFiles64\share\locale\tr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp6546360A878C49DEA550A803E4799AD3" Guid="*" Win64="yes">
 											<File Id="filA60DC2D66555BF1AF4EDE744841057E1" DiskId="1" Source="InputFiles64\share\locale\tr\LC_MESSAGES\gimp20-python.mo" />
@@ -15543,7 +16663,7 @@
 								<Directory Id="dir791F6DF11E3614D523974236B4FD1A29" Name="uk">
 									<Directory Id="dirB72EB9C86284C99DB52C4B64DFD21948" Name="LC_MESSAGES">
 										<Component Id="cmp5B0B2F450DE7C766F6FC6A70812E821E" Guid="*" Win64="yes">
-											<File Id="fil721ADAC35EBA0A30391625BE597D3AD5" DiskId="1" Source="InputFiles64\share\locale\uk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil721ADAC35EBA0A30391625BE597D3AD5" DiskId="1" Source="InputFiles64\share\locale\uk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpCB1DA0977B4DD63FFBA97BD1634032BB" Guid="*" Win64="yes">
 											<File Id="fil1E9E700F4214DFA5070AA5E742196144" DiskId="1" Source="InputFiles64\share\locale\uk\LC_MESSAGES\gimp20-python.mo" />
@@ -15565,7 +16685,7 @@
 								<Directory Id="dirC9BA0D4687F88E1085DD274989F39D1E" Name="vi">
 									<Directory Id="dirAFD5FB8429B964603176A3E86ABD7D85" Name="LC_MESSAGES">
 										<Component Id="cmp3919EA4985B4381448F5DC0E33F37834" Guid="*" Win64="yes">
-											<File Id="filF87C242FAA7941ED43935131373BC311" DiskId="1" Source="InputFiles64\share\locale\vi\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filF87C242FAA7941ED43935131373BC311" DiskId="1" Source="InputFiles64\share\locale\vi\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpB43852FA5E4B35A9FFAD1E26A3E285E9" Guid="*" Win64="yes">
 											<File Id="fil5E8EF7AEDC0FDEA7149A67C6E9A09531" DiskId="1" Source="InputFiles64\share\locale\vi\LC_MESSAGES\gimp20-python.mo" />
@@ -15587,7 +16707,7 @@
 								<Directory Id="dir93BAB190EBC42E3DF634E604FBEA037D" Name="xh">
 									<Directory Id="dir027714C5CAB2264DC48AD98228CAAC39" Name="LC_MESSAGES">
 										<Component Id="cmp3F1F5343144EC10E7876E3B6320AE10E" Guid="*" Win64="yes">
-											<File Id="filB780CFD4B63F320CD14D983E19AFA90D" DiskId="1" Source="InputFiles64\share\locale\xh\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filB780CFD4B63F320CD14D983E19AFA90D" DiskId="1" Source="InputFiles64\share\locale\xh\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp93E0B6DE62C6530041234C57BA6957CD" Guid="*" Win64="yes">
 											<File Id="fil708D3444C9F6A404E55DA2A48A75C1F5" DiskId="1" Source="InputFiles64\share\locale\xh\LC_MESSAGES\gimp20-python.mo" />
@@ -15606,7 +16726,7 @@
 								<Directory Id="dirCC002D81806CFDDDFD0558D615DAB18B" Name="yi">
 									<Directory Id="dirBA006C81C0F53589EDCC2A903CDA7EB7" Name="LC_MESSAGES">
 										<Component Id="cmpCAC269ACD2272EA3F0869964B8F61D2A" Guid="*" Win64="yes">
-											<File Id="fil7837318A9962C539E5851DDBB1812193" DiskId="1" Source="InputFiles64\share\locale\yi\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil7837318A9962C539E5851DDBB1812193" DiskId="1" Source="InputFiles64\share\locale\yi\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4EF2F8E644B3AA8D61B779DED4627C55" Guid="*" Win64="yes">
 											<File Id="fil0B3FB57723ACF3884FB2C3A59F8224BE" DiskId="1" Source="InputFiles64\share\locale\yi\LC_MESSAGES\gimp20-script-fu.mo" />
@@ -15622,7 +16742,7 @@
 								<Directory Id="dir07BE7416DC0A2D94F7047CFEFCECB5E3" Name="zh_CN">
 									<Directory Id="dirEF9B1B20FF4156B08CBC082881EB4DC0" Name="LC_MESSAGES">
 										<Component Id="cmp07A7B77825FA634D3898485997ECFCDE" Guid="*" Win64="yes">
-											<File Id="fil234BD1D4B1D1C023708B28BABAA70B2F" DiskId="1" Source="InputFiles64\share\locale\zh_CN\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil234BD1D4B1D1C023708B28BABAA70B2F" DiskId="1" Source="InputFiles64\share\locale\zh_CN\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp8AF021CF72A490163E358B273B0FD2E5" Guid="*" Win64="yes">
 											<File Id="fil92E5F5913D2036D1AF225DD27D0370EF" DiskId="1" Source="InputFiles64\share\locale\zh_CN\LC_MESSAGES\gimp20-python.mo" />
@@ -15644,7 +16764,7 @@
 								<Directory Id="dir9574D924F45A1358B174C14E60F9C5FD" Name="zh_HK">
 									<Directory Id="dir8F7676CCCA8F7A7C7D2C03B1965A001F" Name="LC_MESSAGES">
 										<Component Id="cmpB71D9E4973B114A42E998C08C88A5940" Guid="*" Win64="yes">
-											<File Id="filCC4B5F092B7602B3EEC8961621EFA00F" DiskId="1" Source="InputFiles64\share\locale\zh_HK\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filCC4B5F092B7602B3EEC8961621EFA00F" DiskId="1" Source="InputFiles64\share\locale\zh_HK\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp27D0ADAE2935FBFFA7932BBD74C0B44D" Guid="*" Win64="yes">
 											<File Id="filFCA54BEB2ADC4F0A9CCDDFD298C449E7" DiskId="1" Source="InputFiles64\share\locale\zh_HK\LC_MESSAGES\gimp20-python.mo" />
@@ -15666,7 +16786,7 @@
 								<Directory Id="dir19D7714FAFF865B95AE63FF78E1DB92F" Name="zh_TW">
 									<Directory Id="dir03BA8BC028D58A68594D730206FFD0C6" Name="LC_MESSAGES">
 										<Component Id="cmpD0B5FD98A36A52D19271E647846EC4A3" Guid="*" Win64="yes">
-											<File Id="fil9AA49D383A206CBF628BBB1E7ECD5053" DiskId="1" Source="InputFiles64\share\locale\zh_TW\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil9AA49D383A206CBF628BBB1E7ECD5053" DiskId="1" Source="InputFiles64\share\locale\zh_TW\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp756CCF983C861ED1A6D76C736BAC01B9" Guid="*" Win64="yes">
 											<File Id="filA5EB03F409B21CDFC49CB63E06AF211C" DiskId="1" Source="InputFiles64\share\locale\zh_TW\LC_MESSAGES\gimp20-python.mo" />
@@ -18348,6 +19468,340 @@
 			<Directory Id="DesktopFolder" Name="Desktop" />
 		</Directory>
 		<Feature Id="Complete" Level="1">
+			<ComponentRef Id="cmpDD1A844E3087C429EF4D91886780F18D" />
+			<ComponentRef Id="cmp99A80319E9F5215002DB1B1359075190" />
+			<ComponentRef Id="cmp69C475D105A28C62D751DBA8C46C8EF3" />
+			<ComponentRef Id="cmp1AA662A6CD910014E7E2FC16CBF9CA19" />
+			<ComponentRef Id="cmp4ED52AF7299920AAA2989A3018FD9B91" />
+			<ComponentRef Id="cmpF7DD75973863E4B2285360FD026F9DC1" />
+			<ComponentRef Id="cmp935C9F0E1056548C2BEC9BA24DAC8BC2" />
+			<ComponentRef Id="cmp0CFE349CC3E73149FA55C4363AB61AB1" />
+			<ComponentRef Id="cmp0CFE359CC3E73149FB55C4363AB61AB3" />
+			<ComponentRef Id="cmp431D8ED2961456F7C007BF46609BE8BE" />
+			<ComponentRef Id="cmpB670B48D3551534B07F28A7DBB1E62D1" />
+			<ComponentRef Id="cmpF641A6CFCB61D69BDCD568BDFF8F14C1" />
+			<ComponentRef Id="cmpCB40D0785AD4B5DB31E6B9DC0661CC44" />
+			<ComponentRef Id="cmpBA92F780A78FB4747E9FD36FE16A39E9" />
+			<ComponentRef Id="cmp3F0DCFFA45F47431BCA43CFC0B756787" />
+			<ComponentRef Id="cmpF8533914F05500B7CC54F3A60D4F756F" />
+			<ComponentRef Id="cmpEB4102F8B92BD319F83234C4107F3F21" />
+			<ComponentRef Id="cmpEC9798B7FBAAA81AECF54565E1355444" />
+			<ComponentRef Id="cmp48616296E11506908FB4D1A2CB3F51D1" />
+			<ComponentRef Id="cmp65F8EA90D465339D0EFED74E7B124703" />
+			<ComponentRef Id="cmp1D71FC1ED6AF3ED4CBF2D80D4A5871E5" />
+			<ComponentRef Id="cmpDEE500CBFD74DE2ED4D4B0F2DC879B88" />
+			<ComponentRef Id="cmp6B203A24A21AEBFCB9B04DDC78DA2280" />
+			<ComponentRef Id="cmpB625BF34BD94900770FBE69F56CCBCF3" />
+			<ComponentRef Id="cmpE1F3705209F5A5ED91FE53C2E8D730A2" />
+			<ComponentRef Id="cmp2D2387BB66E6FC95293779A598D3D8BA" />
+			<ComponentRef Id="cmp51981B2339D90CC7BC52B4BD8D17A6A5" />
+			<ComponentRef Id="cmpCDD916719605654CF0DD78972722D4EB" />
+			<ComponentRef Id="cmp8FA64174A0D6D53AA7A0AA1B61574B7E" />
+			<ComponentRef Id="cmp460770549CCD9E3655DD8C5426947E9D" />
+			<ComponentRef Id="cmp040A9840D2FA771A6AAE9E1A72121D74" />
+			<ComponentRef Id="cmpFBD918258E7A537784860EAC6275C128" />
+			<ComponentRef Id="cmp5F6A2A981446621CC4CDB6A3B6EAE0A0" />
+			<ComponentRef Id="cmpEE8BE2DD8B1EFDB02DFA591AF7368AB6" />
+			<ComponentRef Id="cmpA5D1FF50F4FFD1BFFA0BAA49F9EC9358" />
+			<ComponentRef Id="cmpA017EDDE9B3F0B176C9B57EE17CDD1B1" />
+			<ComponentRef Id="cmp6E9FBA4AFB434116052D5EAE0F9F0690" />
+			<ComponentRef Id="cmp55739EE424A5B8C725530AE6BDE40EE6" />
+			<ComponentRef Id="cmp832E1DC194B062510D37CE61DB321803" />
+			<ComponentRef Id="cmp85BF7245D94BF4061B5994738BEE5FBA" />
+			<ComponentRef Id="cmp73367EC4091606BC7E72724357466EED" />
+			<ComponentRef Id="cmp9E40CB82D1FD54242E4879A32385E714" />
+			<ComponentRef Id="cmp70E9F17EAEE16C9115B08F09541738B4" />
+			<ComponentRef Id="cmpEF95C9967C986FA31D0F0539B5CC4E8F" />
+			<ComponentRef Id="cmp1D6AA8FD98F1BFACC4B63C89C3B693E2" />
+			<ComponentRef Id="cmp6A9EC094949BF2C6E2E19F22AE53879E" />
+			<ComponentRef Id="cmp361A6FB54227D5E1E025E427BBBE2CB1" />
+			<ComponentRef Id="cmp8A675257FED7EEFC87C6F022523855D5" />
+			<ComponentRef Id="cmp5D2918ABEC86E204CD50501B84CA8DAA" />
+			<ComponentRef Id="cmp9444D40CD2C842430A9DADD1E0A29D7A" />
+			<ComponentRef Id="cmp65362B2284E7905FFB9B2334AB93451D" />
+			<ComponentRef Id="cmpC5E7A6487CC8CBBD5DB6CEDCA86C5902" />
+			<ComponentRef Id="cmpF19F06D43399A93BF563480687887AD4" />
+			<ComponentRef Id="cmp927C7830CEAE4E6B6BB27D9B450665A7" />
+			<ComponentRef Id="cmpAA167DC8693C68D855C22CFF2C654682" />
+			<ComponentRef Id="cmpC231F0727A2B5390EDF5BD6C1C4BFFC1" />
+			<ComponentRef Id="cmpF2AF3DD46A3C0C52AF5EBAD0C47A1DF3" />
+			<ComponentRef Id="cmpB8D78E647D886DD9AFCBB556FCD4C211" />
+			<ComponentRef Id="cmp9BEC78C138E9B19BA84EF2248962F3FC" />
+			<ComponentRef Id="cmp836F161B641487F57F04625FCD552A81" />
+			<ComponentRef Id="cmp9AB4ADB4BBC20556456F0BE8B9A8BBF5" />
+			<ComponentRef Id="cmp25F8FA79FE416DD2DD7ADB513BAD95D5" />
+			<ComponentRef Id="cmp0701BA967488E1D49D9200A9BE4273DE" />
+			<ComponentRef Id="cmp0F121C57108637975909B9418E0273CA" />
+			<ComponentRef Id="cmp53F4E2312362ECEC661F12A824FC353B" />
+			<ComponentRef Id="cmp7173EB61517BA2128135672886B73E3E" />
+			<ComponentRef Id="cmp963D8F7FED98480589A700C3994B774B" />
+			<ComponentRef Id="cmpFC92F0FCA098FD1D3532A1FD1E7F4E37" />
+			<ComponentRef Id="cmp3659F9B264238D7D7BF830C61B2FEB82" />
+			<ComponentRef Id="cmpE850B77E9CDC7BE5E8BB0294CA6963D1" />
+			<ComponentRef Id="cmpE8E910DDFA89DC0B7476526892EB05D8" />
+			<ComponentRef Id="cmp03A4F992D7BE9D31B513DBD1F57F3453" />
+			<ComponentRef Id="cmp066749917D93F045382D9D26F3C29F4D" />
+			<ComponentRef Id="cmp7FA6662802A4D05C19E2C45F2E9A568F" />
+			<ComponentRef Id="cmp7840BC97774654BD8425561A901D5651" />
+			<ComponentRef Id="cmpD2E58C1BEF5C653EE66105B036AB09C7" />
+			<ComponentRef Id="cmp1897B1C197E71E5DB91A101C92589A45" />
+			<ComponentRef Id="cmpF0E9DC612D9177C21C4DC55B2E949FA5" />
+			<ComponentRef Id="cmp2221F0E9BDBC81133B3E3F942F4FDE87" />
+			<ComponentRef Id="cmp9D4C90C71DE9E27FEDB2070CEA2171E9" />
+			<ComponentRef Id="cmp590F20C59DCE09FCDD14E8B36F2766F7" />
+			<ComponentRef Id="cmp0473685E6BB99642F66C1BE966581364" />
+			<ComponentRef Id="cmp4DA2B1D9B8A8A3C4E37DF00926458502" />
+			<ComponentRef Id="cmpC225869797F2E501A523B48960B8ED56" />
+			<ComponentRef Id="cmpEC56EE42F79C3C9F7DD44BF83A0B46DE" />
+			<ComponentRef Id="cmpACCAD23ADE11B2E9BA536DDCE76187F6" />
+			<ComponentRef Id="cmp8207C9F742DA48972C132E5C0D0A9534" />
+			<ComponentRef Id="cmpA45BBB67051E82B58E2473A0D038947A" />
+			<ComponentRef Id="cmpFBC380BCDF6E8F84E6604C3EA49305F8" />
+			<ComponentRef Id="cmpB34D64770E616575E983E0AAF6FD2436" />
+			<ComponentRef Id="cmp0B11344DD4EB078D1F58A43F58DDD2C7" />
+			<ComponentRef Id="cmp9E4EFDD8821DAD8A3C7ACB9B9E30EB1A" />
+			<ComponentRef Id="cmp934DAB2FE96E5F920805732014AE97B1" />
+			<ComponentRef Id="cmpD19B9F23A63C485F896252FD8D7894E4" />
+			<ComponentRef Id="cmpC59BB66AA130CA7A345B89983EFDD028" />
+			<ComponentRef Id="cmpBA4735CD954451B7DA2BEFF1172AFA34" />
+			<ComponentRef Id="cmp0AA6BD766F90489F23098EBBBBAECA38" />
+			<ComponentRef Id="cmpF259EE798E7E97A7C9C27F287A89CA72" />
+			<ComponentRef Id="cmpD288523BA852E623917CA88B64624A18" />
+			<ComponentRef Id="cmp6B9FCB30D6A9FEB4902DD91BA0064732" />
+			<ComponentRef Id="cmpA5C9DCB9BB21297732EF27D036DFF0F3" />
+			<ComponentRef Id="cmp697B0CD7A28535928839FFA773EAFF16" />
+			<ComponentRef Id="cmp62F90C7A0F0CA662037EC2F195A22EDD" />
+			<ComponentRef Id="cmpB5E3D2B4DFCEECFF86A93544F8507E8E" />
+			<ComponentRef Id="cmp63405087CAD73C7706DB707C83C043BE" />
+			<ComponentRef Id="cmp741DFB8BF3C8064BF85133724B812F49" />
+			<ComponentRef Id="cmp13C5818296EA7DDB2FCC886CE1631F28" />
+			<ComponentRef Id="cmpC7CD5455952CEEA2A74B7CDD8C05A0D0" />
+			<ComponentRef Id="cmpED967CB17A26186CB1B5AE043DB4BADC" />
+			<ComponentRef Id="cmp076D05AAFA8F5A6F2B8D0A8ACA661582" />
+			<ComponentRef Id="cmp7B8C0CEE33296980FDA5472B053B7668" />
+			<ComponentRef Id="cmpDEF161F51DD096BFB520E91B4F200A16" />
+			<ComponentRef Id="cmp4DDFB5044BC6D509B9BF39BB78E3DCFA" />
+			<ComponentRef Id="cmpA16BCE061CF72CB5951D0C6AFF772C60" />
+			<ComponentRef Id="cmp109C7D9DDEBA1170B1ED194CBD69AEC9" />
+			<ComponentRef Id="cmp1AA20B31688DA153B1907485A43B8D78" />
+			<ComponentRef Id="cmpED79496484176AB740DEC4BDA0FE3F71" />
+			<ComponentRef Id="cmp4C16CB593D7327B02F0D83076EE9BBF8" />
+			<ComponentRef Id="cmp070FE9AAF905A00F2457456C26BDE8C0" />
+			<ComponentRef Id="cmp315A4D6458BD9852755B6A9C744A864B" />
+			<ComponentRef Id="cmp5131493249AA2660C3153B720B2E4195" />
+			<ComponentRef Id="cmp0209E7F192DF64BEBEFD393CE6A28D0C" />
+			<ComponentRef Id="cmpD26B79D6CA732F61534E6FCB53B8C085" />
+			<ComponentRef Id="cmp90E0ED211B7E59B1CA21C5386CA201C7" />
+			<ComponentRef Id="cmp8391DA70C75591AED27A2A11E3807FD4" />
+			<ComponentRef Id="cmpB1DAA8DB19B32E786738E3E310ADEB8C" />
+			<ComponentRef Id="cmpE87AEAA7F4911641926634642CB4C71E" />
+			<ComponentRef Id="cmp96FCF3B0E8B673988033B142C665A567" />
+			<ComponentRef Id="cmpA83C592C1CA6CC8F8DCC705A246D82AF" />
+			<ComponentRef Id="cmp10CF7AE27B98B627DB415BB6CE7EF58A" />
+			<ComponentRef Id="cmp630ACA2A6C75A56D723BE50DAA2403B4" />
+			<ComponentRef Id="cmp147C8569A1ED2FF481773361C721F211" />
+			<ComponentRef Id="cmp60EB433EA4F346420326D4B1FBF5E2A5" />
+			<ComponentRef Id="cmpC1328CED1CEED43647991A6C33056990" />
+			<ComponentRef Id="cmp78FB942AED934F5BA863A49BDA90AFBA" />
+			<ComponentRef Id="cmpEC77AF395547771E2BA7884EE697FD2C" />
+			<ComponentRef Id="cmp0B03AF4368AADF905D93BAD78B78C9A7" />
+			<ComponentRef Id="cmp052AFE97A5D2168E2E47AACF6608C357" />
+			<ComponentRef Id="cmp6E919FDA0B8322DA6A934F50B6B494F7" />
+			<ComponentRef Id="cmpFFFD4EBD4D121E898CB75DD5FF2BF11C" />
+			<ComponentRef Id="cmp8AB50E6E4582B652F9DE945EC58AD06A" />
+			<ComponentRef Id="cmpA87BD1E22B1F261AB7B0CA24FBD0DF5B" />
+			<ComponentRef Id="cmp0782ED74077A0B44BB3FBC1849893921" />
+			<ComponentRef Id="cmp6398D3748F6ED388F17ED6B41FAD6235" />
+			<ComponentRef Id="cmpF30727BE07DB99172622FDD0B12DBF9D" />
+			<ComponentRef Id="cmp5D29F4739F5A0B3DE45B5A020E9E9538" />
+			<ComponentRef Id="cmpC3191B08FBA624BD7DBE9DEC71789342" />
+			<ComponentRef Id="cmpAA41BCED21F105809CAD42DBAEA374D3" />
+			<ComponentRef Id="cmp57BA06D39E4834D5D0EFB7B2E6B6CBE1" />
+			<ComponentRef Id="cmp58EFEC48A229718CC862A500F143F481" />
+			<ComponentRef Id="cmpEE7A3956C823380EC1D847E7126C6CF1" />
+			<ComponentRef Id="cmp9DA29E4FAF40576A4C1E3F8B1FFA8C73" />
+			<ComponentRef Id="cmp5E482B029385C35348FF271302C6F31E" />
+			<ComponentRef Id="cmp48380483B2DD06AE7A3540BB92251AAD" />
+			<ComponentRef Id="cmpE9816F15F645F9EC185ED5A2E5BD72F8" />
+			<ComponentRef Id="cmp278EC3DFD9D9AC8E97A1E2D25D8BECB3" />
+			<ComponentRef Id="cmpE6694AF91519EA1131F80C48D459E555" />
+			<ComponentRef Id="cmp3CBF0865A0306F460B6A5482CDF40427" />
+			<ComponentRef Id="cmp2733B7B9C86FF990CC836EB8174205C9" />
+			<ComponentRef Id="cmp3F7ABADFEE083708BA0351DCDDB17AAA" />
+			<ComponentRef Id="cmp8A990BBB66E58B69E37079160A11D3AD" />
+			<ComponentRef Id="cmp646A97E38FEE2C85A5204634D6B32DE8" />
+			<ComponentRef Id="cmp672E4129697FDBF2CD6AF0D821FC98B4" />
+			<ComponentRef Id="cmpF0BE6F06027DC5E01CDEFD2D8EDD66A9" />
+			<ComponentRef Id="cmp687532E5B740CDFCC27619CFA70D6FCD" />
+			<ComponentRef Id="cmp1AF8165B867292D502AB1C967A3FB8CD" />
+			<ComponentRef Id="cmpB3672FC2A1801D34857E716466A477AD" />
+			<ComponentRef Id="cmp380517A9AA644F6E2B5080E1936D22E3" />
+			<ComponentRef Id="cmp70B9CDFFDBFC88A690AD3C4EBB7277FA" />
+			<ComponentRef Id="cmpB45ED8F3DB75B3EC3877C0D243477AFF" />
+			<ComponentRef Id="cmp0686300915A86C67F2CE54FCCCF28BDA" />
+			<ComponentRef Id="cmp2D1D118E6408B3B878D6534E4363DD88" />
+			<ComponentRef Id="cmpE9DA7591B8B4C13A60F15C5BC7C25EB1" />
+			<ComponentRef Id="cmp25801C746366080480F1C4826FA96033" />
+			<ComponentRef Id="cmp38A415493AC71A66CE34A034E14FA147" />
+			<ComponentRef Id="cmp14523673D59711629CE18F38BDE140EB" />
+			<ComponentRef Id="cmp0E4BFB4D0BDC0B0FCFF3BA19DCE231B7" />
+			<ComponentRef Id="cmpBF5FF85F353772CC664BD8322D8C4C64" />
+			<ComponentRef Id="cmp9881FA44EC61DA5449FA3F57C80FFC47" />
+			<ComponentRef Id="cmp5ACAD4AF1C56F3E348ED51AAC1ED7702" />
+			<ComponentRef Id="cmpF958E6DA94CE8DDD29C280AD0AFBEBED" />
+			<ComponentRef Id="cmpE867955408F53CF4663378222CA97655" />
+			<ComponentRef Id="cmp7980F6B96DAA265E7665E41713A2D8A8" />
+			<ComponentRef Id="cmp3AA393705AC6DBF5E2FD8097C74DD34F" />
+			<ComponentRef Id="cmp6FDDDD43C5552DBDD9CF0479B6CF2BF3" />
+			<ComponentRef Id="cmpE49D1EB77D18C8270D68D9EBAA7481D7" />
+			<ComponentRef Id="cmp8ACF6AB860F0A6F0D6B2D4565EDD9639" />
+			<ComponentRef Id="cmp24405847F76E07DBD748CBFC19AEEE52" />
+			<ComponentRef Id="cmp5702AA5971491F32F5E1B0EB97DD5AF6" />
+			<ComponentRef Id="cmp2585CE57A5F88CB298AB504A55859F31" />
+			<ComponentRef Id="cmp4DD159935E74DBEF8C847CECC0EDAB98" />
+			<ComponentRef Id="cmpCD6527F88C8C7C3453B9AAB78DCE039B" />
+			<ComponentRef Id="cmp19FC114AD22D4BF0C5C86135BF126B0A" />
+			<ComponentRef Id="cmpCFFE0BABDA5729E6AB35EE4E3BBF5889" />
+			<ComponentRef Id="cmpFC8BAA22A7CE5E0A8D0520070A59269B" />
+			<ComponentRef Id="cmp42C0FD0553096DED3A45DBBF1F20DC29" />
+			<ComponentRef Id="cmp4C8C410B37A8C72AA2CF44348A8D8597" />
+			<ComponentRef Id="cmp965AF18D3C56CF8E6AEFCB06D680F322" />
+			<ComponentRef Id="cmp015A26FF52976FAA52B0E313B4558831" />
+			<ComponentRef Id="cmp323181E5E116E40E6BC0933B77EA3FDE" />
+			<ComponentRef Id="cmp4730041842D795BEDB73219E31CBF41B" />
+			<ComponentRef Id="cmp8488B2B95C80A3D1D2D2A75E86ADC3CE" />
+			<ComponentRef Id="cmpB39F1B3F5F1306AA368838ED07C3F29D" />
+			<ComponentRef Id="cmp52BDB329A205F3D11ABE7F3AE1B777DF" />
+			<ComponentRef Id="cmp9B4CE3B525F5606E8929CC0CFAD2883C" />
+			<ComponentRef Id="cmp312CCF2D37B3AECA673D4650BABE12D2" />
+			<ComponentRef Id="cmp0B02FF331E4E42BC268CA574534706F7" />
+			<ComponentRef Id="cmp1D8893D94BBB647E1C4997BC495BC0D3" />
+			<ComponentRef Id="cmp09D7FBD8521E5FEE9D8DF0F472BC6FAD" />
+			<ComponentRef Id="cmpD74F11D3B2393312199A4AAC33B16F3D" />
+			<ComponentRef Id="cmpCF99136F5354329FEB7270EF058EEB33" />
+			<ComponentRef Id="cmpDA99F118C843828F6F2441C31711AC6A" />
+			<ComponentRef Id="cmpE2BD5D650CC03C47C00704A09B2504B6" />
+			<ComponentRef Id="cmpA5E34185C4DF85F36FA699182C5B20DD" />
+			<ComponentRef Id="cmp08E62378C4DCD3A4B91FCCC250A5F4B6" />
+			<ComponentRef Id="cmpC9C14ADE287294E37F9C70CF7E6E2052" />
+			<ComponentRef Id="cmp47A193E44B9DA784B4C538603FD97F7B" />
+			<ComponentRef Id="cmp4C330BDB7B6DB030B8E48C401D358B9D" />
+			<ComponentRef Id="cmp3AC7E3DB85C3565B7187105625BFA7F3" />
+			<ComponentRef Id="cmp553FE6A49F6872A1DEC624586782869C" />
+			<ComponentRef Id="cmp1F2096F140570475E5F3F2D35C006B36" />
+			<ComponentRef Id="cmp6D830A4B746C56E146FC3FF4BFE39F13" />
+			<ComponentRef Id="cmp9E16F6137BE355F38144E8B3C4B737A8" />
+			<ComponentRef Id="cmp24EA451402BC9200B0AF48A61A323D01" />
+			<ComponentRef Id="cmp7E87C9369BA5C91321664D4BEE84D4F9" />
+			<ComponentRef Id="cmpC2A41D5180C91379212720C77D19AAF0" />
+			<ComponentRef Id="cmp4AAECEAAD432704CAE5F0158AB3F22DE" />
+			<ComponentRef Id="cmpF34D6A001D58A33F9D1B06B9192D3B8F" />
+			<ComponentRef Id="cmp5F4AB23AE59DEF82AF72E66A7A4F9BAB" />
+			<ComponentRef Id="cmp35A7AAAA7ED8CDB279C8B56A2F60A302" />
+			<ComponentRef Id="cmp528DB70354A0E8BC4CCB5FDEB8D40177" />
+			<ComponentRef Id="cmp48BA444F8BB4DF8AFE8E5D02A8301DF4" />
+			<ComponentRef Id="cmpB82F70702943AA7F01499DF28481057A" />
+			<ComponentRef Id="cmp479553E96C5BD6B20DAAEA4528320EAC" />
+			<ComponentRef Id="cmpB4AE3BF3C13DDAB29B6394AF2D6DF558" />
+			<ComponentRef Id="cmpFAD687704F7482E29351BC770A3F8A22" />
+			<ComponentRef Id="cmpCAFE0B20D753D61989743BC4E0177C41" />
+			<ComponentRef Id="cmp9F94F69DCD41B5D1F6A7ABEE17BCE3ED" />
+			<ComponentRef Id="cmp7D5C70AB80B1EE02DADB26C05495D552" />
+			<ComponentRef Id="cmp978B36C882A64113AF8997446D6BC9EC" />
+			<ComponentRef Id="cmp832C5F3A82EEFA401944B8133CDF6BD5" />
+			<ComponentRef Id="cmp5855115BB9CF3805968E2ACC2CAB28C2" />
+			<ComponentRef Id="cmp6F00B5E832DE1D07446F594DF4103598" />
+			<ComponentRef Id="cmp899F6543FD42CE3D6E1F0283FE8BB3CB" />
+			<ComponentRef Id="cmpFF6C75055ECBA472C08DE325BBB2341D" />
+			<ComponentRef Id="cmpD06D089F2844A6335C319C001CFD90A3" />
+			<ComponentRef Id="cmp1F17F281DF6E51A85EBE3E8709B33B55" />
+			<ComponentRef Id="cmp9B88554AF6E8F583139F406DA3080FA4" />
+			<ComponentRef Id="cmp8F31F88145B0D74D53E5773D74C5D573" />
+			<ComponentRef Id="cmpB32E5716061F325789C076B42D055D99" />
+			<ComponentRef Id="cmpF74C4369E96ABE07460B55F8C6AA172B" />
+			<ComponentRef Id="cmpAE968A8C8402C3A4635F9F5219592214" />
+			<ComponentRef Id="cmp1AA4E84B62C10B7EB89447CA04B16DC3" />
+			<ComponentRef Id="cmp6A6848B39239CD45D20F9CE97646E45E" />
+			<ComponentRef Id="cmpBDFDC5FA9C151B8F130559794D491238" />
+			<ComponentRef Id="cmp4A160D3AA34F51AD37B233781FCEFEBD" />
+			<ComponentRef Id="cmp3D791B2BE3746A8890B21C0B801D9B5B" />
+			<ComponentRef Id="cmpF6FAE059FA75BC5CA80993764CD282C5" />
+			<ComponentRef Id="cmp550B7566B541F26479E9DF215DF0BD68" />
+			<ComponentRef Id="cmp5F44D3632F6AED1598BD1D1459A1CE91" />
+			<ComponentRef Id="cmp87DF2D8307B5880823CEDFAC5848B4B9" />
+			<ComponentRef Id="cmpA164CD705621198F57C6817E53EB26DA" />
+			<ComponentRef Id="cmpE9863826ABE5330A219A9032BB2861EB" />
+			<ComponentRef Id="cmp1FD8AA46C1446409BD32A76E88667F2F" />
+			<ComponentRef Id="cmp613CC3CD4B2B3B4AA7EC5B1066BD696C" />
+			<ComponentRef Id="cmpFEA766320C89C62FEDAFD14B6B125190" />
+			<ComponentRef Id="cmp159C2F4C8DDABA0931F950CD3DDB41A5" />
+			<ComponentRef Id="cmpE34D228BBE395DD9EBD4EBA93368B26D" />
+			<ComponentRef Id="cmp3C50CD4F0C8174EE192E8E98A8BB4620" />
+			<ComponentRef Id="cmp60CB22EB3F6A3327B8CE2FD6491339BE" />
+			<ComponentRef Id="cmp10A67EFF9268C17E000AEB0CAF8E207E" />
+			<ComponentRef Id="cmp8EDF1768591D4FE99B3B81756DE619AE" />
+			<ComponentRef Id="cmp9D9571866181A89E0F619B7767F6E218" />
+			<ComponentRef Id="cmpFF0383953A5318D6000FFB564C68A613" />
+			<ComponentRef Id="cmp50B956D07BE1F36509FC3B86E4D3D4F8" />
+			<ComponentRef Id="cmp9EFF5FF117626ED04EBBB7F9A14117CA" />
+			<ComponentRef Id="cmpFEBD32F9545A1FB0988A926CB5314D7E" />
+			<ComponentRef Id="cmp077F38C7491091358BA8D928FAC6A3DD" />
+			<ComponentRef Id="cmp120CDA22DB63E43949E3CC7C3E81570C" />
+			<ComponentRef Id="cmp0CD77FBC624A5B6C600D616693CDD707" />
+			<ComponentRef Id="cmp039B73B789FAED92511FE3E30CC4BD78" />
+			<ComponentRef Id="cmp336A247FC5A1D85AD558EDD8DF32DE99" />
+			<ComponentRef Id="cmp4FB018C80F72D6C924CA837BC2761393" />
+			<ComponentRef Id="cmpEEC795857C00A6EF3B659C945409FF75" />
+			<ComponentRef Id="cmpA757638867BB9C83D4265660165E6471" />
+			<ComponentRef Id="cmpC6F5D111AED55DC504FBFD756D2EA5AD" />
+			<ComponentRef Id="cmpB24C868219D2B6270850BCF65E8AD4CB" />
+			<ComponentRef Id="cmp2F812307D89C7B06DDE3272E6E2F331D" />
+			<ComponentRef Id="cmpBFF582A9FAD807E0C913AA02D0697914" />
+			<ComponentRef Id="cmpA28017AFF49215D915282C7A244EDF47" />
+			<ComponentRef Id="cmpC2EF63A2187573C5D1C93A50CEEC85ED" />
+			<ComponentRef Id="cmpA3068256584C4A70DE11025054B9549B" />
+			<ComponentRef Id="cmpF400FF00053BE4F0CFE708CF5CB0556D" />
+			<ComponentRef Id="cmp68E301E65A2FC1EBBF3ABE152FB33353" />
+			<ComponentRef Id="cmpC16B9EE45B62128D688FC82917C658FE" />
+			<ComponentRef Id="cmp735D934CE999AB9F618BC44608315C45" />
+			<ComponentRef Id="cmp994983AF98648A3F08ECA1F56CD98F0B" />
+			<ComponentRef Id="cmp6161FB150C0FE15AA3CEE90FBB8E9A0A" />
+			<ComponentRef Id="cmpDAB4E0DC2F9961019D4EF771D6E55BAE" />
+			<ComponentRef Id="cmpB9535FFF1BCE91629D62C4FBF9CDBAF2" />
+			<ComponentRef Id="cmp7D8F47ABDBBEF586BEBEE878F8B207CB" />
+			<ComponentRef Id="cmp69197F71660FBC11DD444972C10E4401" />
+			<ComponentRef Id="cmp9F8A324A30CC185BD9095F7FBECC4BD1" />
+			<ComponentRef Id="cmpA2CF43206CF8AE7617CBD4F1CF07AE0B" />
+			<ComponentRef Id="cmp7FF893BF79BF2637101BD09722C11AF6" />
+			<ComponentRef Id="cmpA67F81C62DC7A7F75B3459B37B41F494" />
+			<ComponentRef Id="cmpFFD6BE0505F656877958F7CBCE5B7109" />
+			<ComponentRef Id="cmp3A7D835BDA19C348203D7A9FC08DE05D" />
+			<ComponentRef Id="cmp437438941540132E4CACBD56B8217468" />
+			<ComponentRef Id="cmp2187AFFF8C9346393312547391149FCA" />
+			<ComponentRef Id="cmpD21DEA5E754B03AAADE1D03FA0F31D02" />
+			<ComponentRef Id="cmpD11D5AD8695073B37E1E27DCFDA637C0" />
+			<ComponentRef Id="cmpC5EBAAEB2BB20D79363A691ECFF4C4EC" />
+			<ComponentRef Id="cmpC536DB96805AE98947462493E246603C" />
+			<ComponentRef Id="cmpE455F4BF255B72C51E024BF3418DFCBF" />
+			<ComponentRef Id="cmp5CEA5F2F2B6415870D576EBA458DF82A" />
+			<ComponentRef Id="cmpBD4CD7CB69800EC703CA52CFF17434BD" />
+			<ComponentRef Id="cmpEF6A7C61430AAD06DB32E9F8C9C4D45C" />
+			<ComponentRef Id="cmp3CDFFBA2252CFB2FE350FB9D2E4DA9F5" />
+			<ComponentRef Id="cmpECB97434BE47A23358D88F4F46E22E69" />
+			<ComponentRef Id="cmp1BA46B1B6361CCBB1B931EDA8007DF5C" />
+			<ComponentRef Id="cmp6851FF08B37EC0AF947498EC3C50FBB5" />
+			<ComponentRef Id="cmp0743578D8C4D1F071ADA4456D0A852E3" />
+			<ComponentRef Id="cmp9CA8676D5E84294479441C9360C44C7C" />
+			<ComponentRef Id="cmpB1D344A90A022ADB07E0CF5E4DE378CF" />
+			<ComponentRef Id="cmp6F2569C72B3B431518D72B8B38F0354D" />
+			<ComponentRef Id="cmp2436194786216F539FC636CDB7293FB2" />
+			<ComponentRef Id="cmp027E477B3D1D3F26C9379F18AE7DED71" />
+			<ComponentRef Id="cmp98CF80235F1513DDA77B22CA27840141" />
+			<ComponentRef Id="cmpB0C78E2723A31FF78E88462C9682F1D9" />
+			<ComponentRef Id="cmp15E7EC7987A4891ECA36EB24CD697342" />
+			<ComponentRef Id="cmpB44C14FF84AE930B81E784D9BC867998" />
+			<ComponentRef Id="cmpBFA6249E74226F6D7748B81E04E9DBF4" />
+			<ComponentRef Id="cmp19633EAA7E94410B1E2CC082730A3E6B" />
 			<ComponentRef Id="cmpC01310CFF97159917417DFAD777B700E" />
 			<ComponentRef Id="cmp7DF79961ABB5AB86DFEEB9A03D5F3450" />
 			<ComponentRef Id="cmpA966B4B6BC7756C878DD1D882593E4E2" />
@@ -18797,7 +20251,26 @@
 			<ComponentRef Id="cmpFD1A36558DD8BD418EA7B17C2ACF5B55" />
 			<ComponentRef Id="cmpF2153793FE8975928AB7F414C0A91E37" />
 			<ComponentRef Id="cmpB961F6E7846BA1F93AB7149911E27B25" />
-			<ComponentRef Id="cmp451380FD21543270A9A9376743486DD7" />
+			<ComponentRef Id="cmp109CE95CD6A20C37FE062B65D5087D09" />
+			<ComponentRef Id="cmpCC3B34F279D99CBEF3381CAE63A2F17E" />
+			<ComponentRef Id="cmp623A99E346AAAA74CD80805625150D15" />
+			<ComponentRef Id="cmp41A5499360CB6784F9C0C5EAAB22ABD7" />
+			<ComponentRef Id="cmpF6D2DDDFB2A0A01D103F25C94C127F61" />
+			<ComponentRef Id="cmpE7354614CFE1AB3A60395943CDB02D13" />
+			<ComponentRef Id="cmp797F353441A5291F7FBB467D88D13A72" />
+			<ComponentRef Id="cmpEC464294BF5960CC23C6CB40670EA75D" />
+			<ComponentRef Id="cmp505E592B59634CED2C57B048E7501F9B" />
+			<ComponentRef Id="cmp87BE5BA62A3C01775218E1AF9BC89163" />
+			<ComponentRef Id="cmp2DA7849A180F82F62A89845939F2D52C" />
+			<ComponentRef Id="cmp9EB7E7F51C5E662FC526F7CCD30F863B" />
+			<ComponentRef Id="cmp53FEBB91BC87B307C28FDBCE54B348D5" />
+			<ComponentRef Id="cmp232380AC0F281EA4C4264C5C9CBBDE36" />
+			<ComponentRef Id="cmpA293270922C406D049559266F6AA8331" />
+			<ComponentRef Id="cmpB3BC1A711B0DF6337EC3FCFFBAB67FB8" />
+			<ComponentRef Id="cmp132A41DFF48FB72A6A9C34C36270175F" />
+			<ComponentRef Id="cmpB6BC5661A93067D9D8EA6D2D60494797" />
+			<ComponentRef Id="cmpDFCFE6CE1C1ECBD18289D64027E8D8CA" />
+			<ComponentRef Id="cmpEA06C182DBF57B53AC8D1D8080463EA0" />
 			<ComponentRef Id="cmpEC644C158E90BE0C2BC577C6D9C64918" />
 			<ComponentRef Id="cmp28C378F6A8C76B514F9F757DCAA37797" />
 			<ComponentRef Id="cmp9841C1164FA121791B06C689970D507F" />
