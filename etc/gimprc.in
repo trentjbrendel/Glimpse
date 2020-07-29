@@ -361,7 +361,7 @@
 # Which plug-in to use for importing raw digital camera files.  This is a
 # single filename.
 #
-# (import-raw-plug-in "")
+(import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
 
 # Export file type used by default.  Possible values are png, jpg, ora, psd,
 # pdf, tif, bmp and webp.
@@ -677,7 +677,7 @@
 # Show advanced color options in filter tools.  Possible values are yes and
 # no.
 #
-# (filter-tool-show-color-options no)
+(filter-tool-show-color-options yes)
 
 # When enabled, Glimpse will not save an image if it has not been changed since
 # it was opened.  Possible values are yes and no.
@@ -1098,7 +1098,7 @@
 # Sets the default border radius for the 'Border Selection' dialog.  This is
 # a float value.
 #
-# (selection-border-radius 5)
+(selection-border-radius 2)
 
 # Sets the default border style for the 'Border Selection' dialog.  Possible
 # values are hard, smooth and feathered.
@@ -1121,20 +1121,20 @@
 # The default stroke options for the stroke dialogs.  This is a parameter
 # list.
 #
-# (stroke-options
-#     (style solid)
-#     (antialias yes)
-#     (feather no)
-#     (feather-radius 10)
-#     (method line)
-#     (width 6)
-#     (unit pixels)
-#     (cap-style butt)
-#     (join-style miter)
-#     (miter-limit 10)
-#     (dash-offset 0)
-#     (dash-info 0)
-#     (emulate-brush-dynamics no))
+(stroke-options
+    (style solid)
+    (antialias yes)
+    (feather no)
+    (feather-radius 10)
+    (method line)
+    (width 10)
+    (unit pixels)
+    (cap-style round)
+    (join-style round)
+    (miter-limit 10)
+    (dash-offset 0)
+    (dash-info 12 1 1 1 1 1 1 1 1 1 1 1 1)
+    (emulate-brush-dynamics no))
 
 # Where to search for fractals used by the Fractal Explorer plug-in.  This is
 # a colon-separated list of folders to search.
