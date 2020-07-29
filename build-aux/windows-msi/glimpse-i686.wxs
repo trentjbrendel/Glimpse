@@ -49,31 +49,31 @@
 								<File Id="filD9DECC96AF7D6C0FDC9C4D9D18C72AB0" DiskId="1" Source="InputFiles32\bin\glimpse-console-0.2.exe" />
 							</Component>
 							<Component Id="cmp7BBD759EEFBD76D3E253752F22DEE09A" Guid="*">
-								<File Id="filA34D853220C5A1E9E4E0709A0B027BE7" DiskId="1" Source="InputFiles32\bin\libglimpse-2.0-0.dll" />
+								<File Id="filA34D853220C5A1E9E4E0709A0B027BE7" DiskId="1" Source="InputFiles32\bin\libgimp-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp47B6D7226976EB6AF2ABE4B2A415E4EA" Guid="*">
-								<File Id="filEF7E822B14F74BD48026C809828B8281" DiskId="1" Source="InputFiles32\bin\libglimpsebase-2.0-0.dll" />
+								<File Id="filEF7E822B14F74BD48026C809828B8281" DiskId="1" Source="InputFiles32\bin\libgimpbase-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp17FA86A95BC8770839B516896F9A2670" Guid="*">
-								<File Id="fil093F22BDE85D5604A184928615513043" DiskId="1" Source="InputFiles32\bin\libglimpsecolor-2.0-0.dll" />
+								<File Id="fil093F22BDE85D5604A184928615513043" DiskId="1" Source="InputFiles32\bin\libgimpcolor-2.0-0.dll" />
 							</Component>
 							<Component Id="cmpF72611710BBD925AC79BEC08A4D42CAD" Guid="*">
-								<File Id="filBA7E2D8F5DCB48511C5154E9261C2795" DiskId="1" Source="InputFiles32\bin\libglimpseconfig-2.0-0.dll" />
+								<File Id="filBA7E2D8F5DCB48511C5154E9261C2795" DiskId="1" Source="InputFiles32\bin\libgimpconfig-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp5E020D4B69AFEF945D8AF0584E18EA07" Guid="*">
-								<File Id="filFD1D4498A9849891805721D271A98C56" DiskId="1" Source="InputFiles32\bin\libglimpsemath-2.0-0.dll" />
+								<File Id="filFD1D4498A9849891805721D271A98C56" DiskId="1" Source="InputFiles32\bin\libgimpmath-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp887F499846F6D36051035DB5BAB7F919" Guid="*">
-								<File Id="fil2AEEBF599BDA24387A8733BD52B35570" DiskId="1" Source="InputFiles32\bin\libglimpsemodule-2.0-0.dll" />
+								<File Id="fil2AEEBF599BDA24387A8733BD52B35570" DiskId="1" Source="InputFiles32\bin\libgimpmodule-2.0-0.dll" />
 							</Component>
 							<Component Id="cmpAD6F42387AEE6C5EC5D34F7C686F7335" Guid="*">
-								<File Id="fil8C3DD1D6E59122D9D6280A7F4BCDF4B5" DiskId="1" Source="InputFiles32\bin\libglimpsethumb-2.0-0.dll" />
+								<File Id="fil8C3DD1D6E59122D9D6280A7F4BCDF4B5" DiskId="1" Source="InputFiles32\bin\libgimpthumb-2.0-0.dll" />
 							</Component>
 							<Component Id="cmp646DC26B34A992779B9C4332536D8285" Guid="*">
-								<File Id="filACA0C4D5E9E3404F51CC7BC18A33BCFA" DiskId="1" Source="InputFiles32\bin\libglimpseui-2.0-0.dll" />
+								<File Id="filACA0C4D5E9E3404F51CC7BC18A33BCFA" DiskId="1" Source="InputFiles32\bin\libgimpui-2.0-0.dll" />
 							</Component>
 							<Component Id="cmpF275230A8AF03AC409C7178C63759BBA" Guid="*">
-								<File Id="fil8A717A81ABBD5C5BF66B5E37B44525D2" DiskId="1" Source="InputFiles32\bin\libglimpsewidgets-2.0-0.dll" />
+								<File Id="fil8A717A81ABBD5C5BF66B5E37B44525D2" DiskId="1" Source="InputFiles32\bin\libgimpwidgets-2.0-0.dll" />
 							</Component>
 							<!-- Copied from MinGW32 -->
 							<Component Id="cmpDD1A844E3087C429EF4D91886780F18D" Guid="*">
@@ -1570,11 +1570,6 @@
 										<Directory Id="dirA660AE68C8D7AECD41F61D21F21C9F73" Name="gimpressionist">
 											<Component Id="cmpDE77222B59DC00C648218B566D6461C7" Guid="*">
 												<File Id="filC1F948D64C75A8B38A0F29FFEB7486BB" DiskId="1" Source="InputFiles32\lib\glimpse\2.0\plug-ins\gimpressionist\gimpressionist.exe" />
-											</Component>
-										</Directory>
-										<Directory Id="dirCCEEBCA206915327999281C7082B2446" Name="goat-exercise">
-											<Component Id="cmp629367B336C955A83C1BCD42FC9BB53D" Guid="*">
-												<File Id="fil6FD9794829A9BFF64D7BAEEA8D45140A" DiskId="1" Source="InputFiles32\lib\glimpse\2.0\plug-ins\goat-exercise\goat-exercise.exe" />
 											</Component>
 										</Directory>
 										<Directory Id="dir00BB8DC13D6F443C255A6243E2AFD8C0" Name="gradient-flare">
@@ -14136,7 +14131,7 @@
 								<Directory Id="dirFE3BBAC2BF58F5413EC1366E5D114D10" Name="ar">
 									<Directory Id="dir3C2BC056FB961192863BBCCD6B052F7F" Name="LC_MESSAGES">
 										<Component Id="cmpC741C726E3306420CAEA8CCFA0C3BF9B" Guid="*">
-											<File Id="fil8EAA26ACC738A5641DB8D4D5CCC0A51C" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil8EAA26ACC738A5641DB8D4D5CCC0A51C" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpDF2DDE31327F705336D44FED352ABC7F" Guid="*">
 											<File Id="fil65DF43DBABA66D90FF1D8F5B356AC428" DiskId="1" Source="InputFiles32\share\locale\ar\LC_MESSAGES\gimp20-python.mo" />
@@ -14165,7 +14160,7 @@
 								<Directory Id="dir24BCE0BE13EEE66515E607D44B6CF9EF" Name="az">
 									<Directory Id="dir366C974D645A67FED721696A3347AAB9" Name="LC_MESSAGES">
 										<Component Id="cmp5EB60996562F004BB01F6C2480CF18B0" Guid="*">
-											<File Id="filA79FA363A163B5C17364981D0CE51B5C" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filA79FA363A163B5C17364981D0CE51B5C" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpE53DC0D71BEDC760B0535D5CFC0E7B41" Guid="*">
 											<File Id="fil894CF0A719037FF444E9D900020C06EB" DiskId="1" Source="InputFiles32\share\locale\az\LC_MESSAGES\gimp20-python.mo" />
@@ -14181,7 +14176,7 @@
 								<Directory Id="dir8B4BF6A7A48DAADBCE7E0A73045922B2" Name="be">
 									<Directory Id="dirDEC34B32839E5E1C327B9C378D3D6BDB" Name="LC_MESSAGES">
 										<Component Id="cmp04F2D96E9A9A850FE1338CF148E857D9" Guid="*">
-											<File Id="filC3D0CFDE221BDB0A0C5BAF11942A1DE9" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filC3D0CFDE221BDB0A0C5BAF11942A1DE9" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpCEF800D3AFC6F247C69ADCC5EB54FD65" Guid="*">
 											<File Id="fil01D7B40F0AD51C5016403001CB29BBBD" DiskId="1" Source="InputFiles32\share\locale\be\LC_MESSAGES\gimp20-python.mo" />
@@ -14203,7 +14198,7 @@
 								<Directory Id="dir73C6B6415790FFCFBC3497467FED1C18" Name="bg">
 									<Directory Id="dir81E98E3059A665C7B090F1C4FEC05031" Name="LC_MESSAGES">
 										<Component Id="cmpBF76B9E466CDEFC7B4FB99305C486F6B" Guid="*">
-											<File Id="filFB5D2AA9146157110422362AA6603974" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filFB5D2AA9146157110422362AA6603974" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpBF385671ADC6E7FD9BBC33DF635155C0" Guid="*">
 											<File Id="fil6A17CE0DCDB50DA4F108E6929C7EC839" DiskId="1" Source="InputFiles32\share\locale\bg\LC_MESSAGES\gimp20-python.mo" />
@@ -14225,7 +14220,7 @@
 								<Directory Id="dir31237FB0531074BC8AB3FDCE685D6129" Name="br">
 									<Directory Id="dirC4F31D8261DA22E029E722D64D6CB69F" Name="LC_MESSAGES">
 										<Component Id="cmpA50EE29C848EEBB82BE49CF9786E3593" Guid="*">
-											<File Id="fil58410C57D99CD68281EEA0F57C6D2411" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil58410C57D99CD68281EEA0F57C6D2411" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp7B7088FBE28F2514E03C3A353D2645C5" Guid="*">
 											<File Id="fil6F5981B5FE5D21130D76E8295A7C08D6" DiskId="1" Source="InputFiles32\share\locale\br\LC_MESSAGES\gimp20-python.mo" />
@@ -14247,7 +14242,7 @@
 								<Directory Id="dir40309399DD916A90C7EEF2212B7E8937" Name="bs">
 									<Directory Id="dir5885EE346E1739D34CE3D016657EFE6A" Name="LC_MESSAGES">
 										<Component Id="cmpC33147BC31BD7D39B403D3FFA7B06732" Guid="*">
-											<File Id="fil49D0BD4F9C9B3C9A2CA5CD1B2C89613B" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil49D0BD4F9C9B3C9A2CA5CD1B2C89613B" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpEB5BBA6DC0839A71EA5C006DEDD77334" Guid="*">
 											<File Id="fil4DAE87607F58365DD30233083A1E8D32" DiskId="1" Source="InputFiles32\share\locale\bs\LC_MESSAGES\gimp20-python.mo" />
@@ -14269,7 +14264,7 @@
 								<Directory Id="dir440F005B17369E7C16DDB6C1459E6FD9" Name="ca">
 									<Directory Id="dir49374C7A082B0BD5A488E7A1BC01E128" Name="LC_MESSAGES">
 										<Component Id="cmp64B5630C929F9265B6767CC3E35580CA" Guid="*">
-											<File Id="filC57518FDBD4637C3346C6CEDE455D79A" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filC57518FDBD4637C3346C6CEDE455D79A" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp3ACDA42CC8CB8DA7D276387CEEE5A015" Guid="*">
 											<File Id="fil8785BA9AF140440E3E8D71185A404A6B" DiskId="1" Source="InputFiles32\share\locale\ca\LC_MESSAGES\gimp20-python.mo" />
@@ -14291,7 +14286,7 @@
 								<Directory Id="dirE6C45D5992170953D94D361A946C2860" Name="ca@valencia">
 									<Directory Id="dir7AA1524952A78C1965CB96B6AC5FADCA" Name="LC_MESSAGES">
 										<Component Id="cmp148181684AAB22B8CBF0200E527A6085" Guid="*">
-											<File Id="fil9001FA1B36689B84C6F03899FDADAAA8" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil9001FA1B36689B84C6F03899FDADAAA8" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpEE2ECC6897B16006F2E0AB9A0937C5CF" Guid="*">
 											<File Id="fil9DE53BCAF9EB327177A793DC347D3AC9" DiskId="1" Source="InputFiles32\share\locale\ca@valencia\LC_MESSAGES\gimp20-python.mo" />
@@ -14313,7 +14308,7 @@
 								<Directory Id="dir85BD91397A982B770B42AF2810819164" Name="cs">
 									<Directory Id="dir7DF40C997326B5E57A2AF3BDD5796E5F" Name="LC_MESSAGES">
 										<Component Id="cmp9715718FEF35D87759EBB24DA1901CE8" Guid="*">
-											<File Id="fil5633DCA9083892B704E734B0E03BBCA5" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil5633DCA9083892B704E734B0E03BBCA5" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpF078DA0B98AC6DAFE57D30528328160F" Guid="*">
 											<File Id="fil3018B1F8EB0ACAB5E0302A2B6B7EC0CD" DiskId="1" Source="InputFiles32\share\locale\cs\LC_MESSAGES\gimp20-python.mo" />
@@ -14342,7 +14337,7 @@
 								<Directory Id="dir4761F3FB46D127490A4DE81E9006B3FF" Name="da">
 									<Directory Id="dir602B5FBFEF0BE26742C40F89B1D98E99" Name="LC_MESSAGES">
 										<Component Id="cmp65A55DDC9DD5A4FBF61925FE1437C52A" Guid="*">
-											<File Id="fil11B81C63357BBE5D0C1C9AB82DA24E29" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil11B81C63357BBE5D0C1C9AB82DA24E29" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp5BC80F0365E4D941AC16CF202645ABFD" Guid="*">
 											<File Id="fil02E9A57AE1A73DE30F565D12E8C52983" DiskId="1" Source="InputFiles32\share\locale\da\LC_MESSAGES\gimp20-python.mo" />
@@ -14364,7 +14359,7 @@
 								<Directory Id="dirADAD2839D352F07CBE42A0C25FB44FB5" Name="de">
 									<Directory Id="dirA2621430C19DB92CB5A7109702D95CB6" Name="LC_MESSAGES">
 										<Component Id="cmp6DAEBA36C6AA7F15B4B111E9D52D02A0" Guid="*">
-											<File Id="fil3800F7A1A4B61C80CDEB73D74F084F57" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil3800F7A1A4B61C80CDEB73D74F084F57" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpC65910A12457789CBDF05053A487F7D7" Guid="*">
 											<File Id="fil1F9F59709EB666A8675E82730DE62BA1" DiskId="1" Source="InputFiles32\share\locale\de\LC_MESSAGES\gimp20-python.mo" />
@@ -14386,7 +14381,7 @@
 								<Directory Id="dirDDB7DCBCE4C8C7E038C265FA29FD9A08" Name="dz">
 									<Directory Id="dir3CD08D9D1F35247E8C4A1E2D4E698D56" Name="LC_MESSAGES">
 										<Component Id="cmpFB72F05B0C3806F3FFD492A0AF135BB2" Guid="*">
-											<File Id="filF7D8D1491DA1EF51194A703EC39BD83B" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filF7D8D1491DA1EF51194A703EC39BD83B" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp37BBE62E090DC66406C24B0D27AC67A8" Guid="*">
 											<File Id="filA6003426B037939D0D6DB305AEDF1412" DiskId="1" Source="InputFiles32\share\locale\dz\LC_MESSAGES\gimp20-python.mo" />
@@ -14408,7 +14403,7 @@
 								<Directory Id="dirA35CE8BE7E91AC335D5639838E9CDAA5" Name="el">
 									<Directory Id="dirE3F24E94512B5F0BEE4F59E394796EE5" Name="LC_MESSAGES">
 										<Component Id="cmpFCEB4B83BAF95BBCDDAFCEDDCE58DD5D" Guid="*">
-											<File Id="filAC70FA7F0DED45279715FDA14961E455" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filAC70FA7F0DED45279715FDA14961E455" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpDAE46A313D72A78438B92B62F7E4564A" Guid="*">
 											<File Id="fil12E28856DA8603A01348DDCCB62F08EA" DiskId="1" Source="InputFiles32\share\locale\el\LC_MESSAGES\gimp20-python.mo" />
@@ -14430,7 +14425,7 @@
 								<Directory Id="dirE16EF7DB66182D172B94719A5129271A" Name="en_CA">
 									<Directory Id="dirCA0713267E37E1B3A918942BD81B667E" Name="LC_MESSAGES">
 										<Component Id="cmp26DE3C5F2009B31855CCF6E3FDE007C0" Guid="*">
-											<File Id="fil72AB23047A1A50E7F0F6C8A2AF5D696C" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil72AB23047A1A50E7F0F6C8A2AF5D696C" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpD0CCCC303657973D577D7BF31595D40E" Guid="*">
 											<File Id="fil6913689CF53125D729E408F475A717FD" DiskId="1" Source="InputFiles32\share\locale\en_CA\LC_MESSAGES\gimp20-python.mo" />
@@ -14452,7 +14447,7 @@
 								<Directory Id="dir6C8663BA1F4727F9CB0F326B752030FF" Name="en_GB">
 									<Directory Id="dirF444B7D87EEB57E9D998D8D9FF20D85E" Name="LC_MESSAGES">
 										<Component Id="cmp9C8DA911CC64CAFFA0C770D2C785C32E" Guid="*">
-											<File Id="fil99B6493C0C83E1D228339667364D956A" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil99B6493C0C83E1D228339667364D956A" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp3763E57FBF1BDB70F2A9CD5CD46B1637" Guid="*">
 											<File Id="filD2CFB3ADBE4AC74A76111BD37CFE14A8" DiskId="1" Source="InputFiles32\share\locale\en_GB\LC_MESSAGES\gimp20-python.mo" />
@@ -14474,7 +14469,7 @@
 								<Directory Id="dirABD9A982A4798B6BB5499B7DDC621FB6" Name="eo">
 									<Directory Id="dirDEB19BCF2758552C570530F5DB7EC583" Name="LC_MESSAGES">
 										<Component Id="cmpF39735BB5B6208F6A33BBEED9B841C4F" Guid="*">
-											<File Id="fil2041750A10C351319C4277C0BA062DAD" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil2041750A10C351319C4277C0BA062DAD" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp84F19BAD2896756A26E15F65D0777D48" Guid="*">
 											<File Id="fil78F0450AD02EEFCFAF81C930280CC04F" DiskId="1" Source="InputFiles32\share\locale\eo\LC_MESSAGES\gimp20-python.mo" />
@@ -14496,7 +14491,7 @@
 								<Directory Id="dirA402EA7DAD084FD5AB780DBC233670F0" Name="es">
 									<Directory Id="dir8595C0440EC2737B1EE67B0CBDB03AC3" Name="LC_MESSAGES">
 										<Component Id="cmpB0563E0495D5B16BFE7E2D2B34FEF5CA" Guid="*">
-											<File Id="fil431535F590D78A8BF00BC40917A2D5FE" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil431535F590D78A8BF00BC40917A2D5FE" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4C3272C261DB0B7661407AD5B2B98FF7" Guid="*">
 											<File Id="fil34CD3F01275452918DEB909BBF7449C6" DiskId="1" Source="InputFiles32\share\locale\es\LC_MESSAGES\gimp20-python.mo" />
@@ -14518,7 +14513,7 @@
 								<Directory Id="dir36BB509DF08A3972EB256CF9774C43CE" Name="et">
 									<Directory Id="dirA8D0D8B0661A63F99A0C8CB754D76C22" Name="LC_MESSAGES">
 										<Component Id="cmp468588AC9E2C94CAD59085E3804023B7" Guid="*">
-											<File Id="filBCFFA720A23930DFB7BE0955C3B200CD" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filBCFFA720A23930DFB7BE0955C3B200CD" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp65BE6801286A19DEFF3319DDCEBBA88B" Guid="*">
 											<File Id="fil6F551CF0771DB6713C444DA09739BF97" DiskId="1" Source="InputFiles32\share\locale\et\LC_MESSAGES\gimp20-python.mo" />
@@ -14540,7 +14535,7 @@
 								<Directory Id="dirC32B2696DAD9A6133CD597ABCAF05AD5" Name="eu">
 									<Directory Id="dir0387C692E57FFE0E7C93D30B074EF486" Name="LC_MESSAGES">
 										<Component Id="cmp376877F5F0842FFB9A0CECC62DD9D5EC" Guid="*">
-											<File Id="fil77445201FA4A8B64AF7070A03F8AE6E3" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil77445201FA4A8B64AF7070A03F8AE6E3" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp2A05EF01D94BB4EAE94B984F4AF5803E" Guid="*">
 											<File Id="fil296134C0A53AABB4BDD707F629929C12" DiskId="1" Source="InputFiles32\share\locale\eu\LC_MESSAGES\gimp20-python.mo" />
@@ -14562,7 +14557,7 @@
 								<Directory Id="dir6A43AFC9690E0D944144355B60A309B7" Name="fa">
 									<Directory Id="dirC34E9435067E38DB93D76AE1307ABE33" Name="LC_MESSAGES">
 										<Component Id="cmp52E4155BDD0706404543654489E36C45" Guid="*">
-											<File Id="filFFF6B01743F8E9AADA7A2E8BF9B1CC0A" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filFFF6B01743F8E9AADA7A2E8BF9B1CC0A" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp872DEFA5182A794736C49961AF43151B" Guid="*">
 											<File Id="fil4E409E32FB21A6995CC2CC9B65DACB0E" DiskId="1" Source="InputFiles32\share\locale\fa\LC_MESSAGES\gimp20-python.mo" />
@@ -14584,7 +14579,7 @@
 								<Directory Id="dir3E4A0D5C99AD6C6F5A3A91A01B9C9D19" Name="fi">
 									<Directory Id="dirBD7A2A5DBF5160F8E3A1EEDE2BB125A1" Name="LC_MESSAGES">
 										<Component Id="cmp24C0E26DEFEAF16450EBD9768A973228" Guid="*">
-											<File Id="filDE79785B3C5BEDAC65ECAAA68045CF23" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filDE79785B3C5BEDAC65ECAAA68045CF23" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp99800135FAEB698F6C6693739145D361" Guid="*">
 											<File Id="fil6901FBD88B23B3444A652222D63C3D3D" DiskId="1" Source="InputFiles32\share\locale\fi\LC_MESSAGES\gimp20-python.mo" />
@@ -14606,7 +14601,7 @@
 								<Directory Id="dir933AA0A261EC8F8CA28662DFF43F9745" Name="fr">
 									<Directory Id="dirBE68EC8B5329B0BE719D6C0D9DA31F83" Name="LC_MESSAGES">
 										<Component Id="cmp584C8B537D34CEE0A1C1D0381565605E" Guid="*">
-											<File Id="filC355F476EE7E3CDDDA66ADD50CEE3DEC" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filC355F476EE7E3CDDDA66ADD50CEE3DEC" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpEAC0C7B6F1040E7205842186F87AA36A" Guid="*">
 											<File Id="fil51401E899F57BAE2AEDF50D41D6EDDA2" DiskId="1" Source="InputFiles32\share\locale\fr\LC_MESSAGES\gimp20-python.mo" />
@@ -14628,7 +14623,7 @@
 								<Directory Id="dir8DFBE44EC2130A31754F80EF66475354" Name="ga">
 									<Directory Id="dir13E5E5C6449C12F9269186CEE09FFB27" Name="LC_MESSAGES">
 										<Component Id="cmp97AE4CEF8269CFEA8A9B7BA5D764FB6B" Guid="*">
-											<File Id="fil05ED2B72047DF87ECA213B6CFD331E6F" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil05ED2B72047DF87ECA213B6CFD331E6F" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp7FB949DB594F2A376033349A34C00A16" Guid="*">
 											<File Id="fil0DAFA090E4E950F116918BEF03E48366" DiskId="1" Source="InputFiles32\share\locale\ga\LC_MESSAGES\gimp20-python.mo" />
@@ -14654,7 +14649,7 @@
 								<Directory Id="dirF8856611F301DA5F70C01D88DBF9940A" Name="gl">
 									<Directory Id="dir0A09E5017DD2702DCAAD2ECE7C321002" Name="LC_MESSAGES">
 										<Component Id="cmpD0B18A17BA3F43706DFF056E121D1397" Guid="*">
-											<File Id="fil153750312F4B6BF0FBA1E68B8F58EDCE" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil153750312F4B6BF0FBA1E68B8F58EDCE" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp8B909D5E38003A005E3957123CC54175" Guid="*">
 											<File Id="fil3011920594610B3A5EE1F926277B5B3A" DiskId="1" Source="InputFiles32\share\locale\gl\LC_MESSAGES\gimp20-python.mo" />
@@ -14676,7 +14671,7 @@
 								<Directory Id="dir2ED14FBE896139F2E5FBC1E0BCB73FDC" Name="gu">
 									<Directory Id="dir638370474924053DD15E8FBADD38018F" Name="LC_MESSAGES">
 										<Component Id="cmpD8D0926591232B9C8A363B29E81E16B9" Guid="*">
-											<File Id="filF8673E34B0137C88724D04289D21C04C" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filF8673E34B0137C88724D04289D21C04C" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp96D7983B871C6C99EBB2F583970BA8BC" Guid="*">
 											<File Id="fil83886661B9334EAB46CD2E6D29EC72A8" DiskId="1" Source="InputFiles32\share\locale\gu\LC_MESSAGES\gimp20-python.mo" />
@@ -14698,7 +14693,7 @@
 								<Directory Id="dirD62D4AF8A315CB36A7F18F0F13454EE7" Name="he">
 									<Directory Id="dir302F8A2B9D96A3E7D1673CAF911B6F60" Name="LC_MESSAGES">
 										<Component Id="cmpC6003EFB4635EAC3B4CB4E8B985C6F0F" Guid="*">
-											<File Id="fil71A3D79539CB234C69B43FDE1B3CDC0C" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil71A3D79539CB234C69B43FDE1B3CDC0C" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpA1C9E3E894F9492EF5F72D6245FBD541" Guid="*">
 											<File Id="fil4E431D3CB6DBC8AB5DB75B5B64B14701" DiskId="1" Source="InputFiles32\share\locale\he\LC_MESSAGES\gimp20-script-fu.mo" />
@@ -14724,7 +14719,7 @@
 								<Directory Id="dirA7809A2FA6C545E411F133198BC1FEA3" Name="hr">
 									<Directory Id="dirD32BF78326755242024C0993E94F4114" Name="LC_MESSAGES">
 										<Component Id="cmp3E6321B2DB040820A34E5D1A1F95BF27" Guid="*">
-											<File Id="fil7208F95B4A21F7B7B4914AA30002907A" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil7208F95B4A21F7B7B4914AA30002907A" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4AD7960166E60A1CD640B92611B5A73E" Guid="*">
 											<File Id="fil798C3CE75DC792B5EA2E24D0BB276784" DiskId="1" Source="InputFiles32\share\locale\hr\LC_MESSAGES\gimp20-python.mo" />
@@ -14746,7 +14741,7 @@
 								<Directory Id="dir8DF4741B4223A2DEB6737565733F2FA0" Name="hu">
 									<Directory Id="dir948A3A6E76168C0BBA81493379ABA03B" Name="LC_MESSAGES">
 										<Component Id="cmp007EE3EF3AF7CB6A87A830A445B63B41" Guid="*">
-											<File Id="fil4B69D730DADDABD2F65960B6A40B6613" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil4B69D730DADDABD2F65960B6A40B6613" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpB5BB11D287F0BE0B8A15404E31F603F1" Guid="*">
 											<File Id="filC303F6F2C99E3062B5CD60BEA64A9C6F" DiskId="1" Source="InputFiles32\share\locale\hu\LC_MESSAGES\gimp20-python.mo" />
@@ -14768,7 +14763,7 @@
 								<Directory Id="dir8B414D081223793C8EDA62DFDB7D2153" Name="id">
 									<Directory Id="dir673A1950420DE03D19AC13EBD246FB25" Name="LC_MESSAGES">
 										<Component Id="cmp9F215405F1D450E80F9FEB9E93DCA6A4" Guid="*">
-											<File Id="fil516A581E185795DC6BDC3AFCFA134081" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil516A581E185795DC6BDC3AFCFA134081" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp2559615B51C98FCD559E9F583DF7F01A" Guid="*">
 											<File Id="fil64AB55156F3B787AA11412C07F9128A5" DiskId="1" Source="InputFiles32\share\locale\id\LC_MESSAGES\gimp20-python.mo" />
@@ -14790,7 +14785,7 @@
 								<Directory Id="dirAD8CF870E3EDBA376400D1465C7E152C" Name="is">
 									<Directory Id="dirEE23648657DAC027254C9FAAD54BEFE1" Name="LC_MESSAGES">
 										<Component Id="cmpB1E72CADE18F519BE61313236D51C4B2" Guid="*">
-											<File Id="fil1DDADAA7E5F51FE57AE2B345DB271CC6" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil1DDADAA7E5F51FE57AE2B345DB271CC6" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp513F70D1C7C57917630169FC7EDC832B" Guid="*">
 											<File Id="filA8E07252D600D5F1EA4EE10F665195E3" DiskId="1" Source="InputFiles32\share\locale\is\LC_MESSAGES\gimp20-python.mo" />
@@ -14812,7 +14807,7 @@
 								<Directory Id="dir427DEBC087CA23AC77208F2091B07B88" Name="it">
 									<Directory Id="dir7C1816977EDC208E519EF7E98DD393B8" Name="LC_MESSAGES">
 										<Component Id="cmp2AEA14D77DA376B2C9DDDCB9C228BB7B" Guid="*">
-											<File Id="filE3145270488EDA4660552AAFD4E7D029" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filE3145270488EDA4660552AAFD4E7D029" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp9155DA1C0969E1F18F65881E3A7FAFAC" Guid="*">
 											<File Id="filE4F2B38FBABB8C599EA9FAC014A0CA5C" DiskId="1" Source="InputFiles32\share\locale\it\LC_MESSAGES\gimp20-python.mo" />
@@ -14834,7 +14829,7 @@
 								<Directory Id="dir99E0280CA1D10787EFC1B7E9380A54AA" Name="ja">
 									<Directory Id="dir07C7549EC59A4C3D13233299EA21EB78" Name="LC_MESSAGES">
 										<Component Id="cmpB9DBFC1F8A834BDEF93B26747497A5B2" Guid="*">
-											<File Id="filB90ADAEA7D5360614FDB46F5317075D1" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filB90ADAEA7D5360614FDB46F5317075D1" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp15B55225C72549EE77C95E6E00DC8D84" Guid="*">
 											<File Id="filCBF4FB16BF12F6BE6FA41A49183AA448" DiskId="1" Source="InputFiles32\share\locale\ja\LC_MESSAGES\gimp20-python.mo" />
@@ -14863,7 +14858,7 @@
 								<Directory Id="dirA3CBAB589CC44FFCAB92A355E70E23F2" Name="kk">
 									<Directory Id="dir0F156D3028B3F2A3170A0A4B7748393C" Name="LC_MESSAGES">
 										<Component Id="cmpB18DCD22EFCE2CE1720C03658CA5F38E" Guid="*">
-											<File Id="fil1A2117B101035E429DBCDC02B1459860" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil1A2117B101035E429DBCDC02B1459860" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp72FF4DBCD792C62B541C1A9005DA8C56" Guid="*">
 											<File Id="filC6F6F9C5CE897358105B97A18EE24F1C" DiskId="1" Source="InputFiles32\share\locale\kk\LC_MESSAGES\gimp20.mo" />
@@ -14873,7 +14868,7 @@
 								<Directory Id="dir70AD234CF06EFB379D21BFF15100C9E2" Name="km">
 									<Directory Id="dirEEDE2EFF572B876C4B30B1E53F98F4F2" Name="LC_MESSAGES">
 										<Component Id="cmpCB325BA68F1A553CA97EB84BE4F9D98C" Guid="*">
-											<File Id="fil81C4C4FBFDE6C53295D32ABE410561B7" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil81C4C4FBFDE6C53295D32ABE410561B7" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp276BE9796AE323D891C0F1F4FE79CD1E" Guid="*">
 											<File Id="fil0A5FF07EB8F3946D940C08FC6A19CB2D" DiskId="1" Source="InputFiles32\share\locale\km\LC_MESSAGES\gimp20-python.mo" />
@@ -14905,7 +14900,7 @@
 								<Directory Id="dirB950E37454542694D001269E33EF0F4D" Name="ko">
 									<Directory Id="dir08F640B09FBD9896438DDCB47CA70844" Name="LC_MESSAGES">
 										<Component Id="cmp6627342F1A101783B5A2A1F90E43A06B" Guid="*">
-											<File Id="filE29704E1063F71F49F331790645D84E7" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filE29704E1063F71F49F331790645D84E7" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp5BB9F86E8BAAE0A08EF7E1E7121CC129" Guid="*">
 											<File Id="filF977EB37C63131FC9D6A305DB5630EEC" DiskId="1" Source="InputFiles32\share\locale\ko\LC_MESSAGES\gimp20-python.mo" />
@@ -14934,7 +14929,7 @@
 								<Directory Id="dir0454BB915CF23DD9B2C25F588B06FEE9" Name="lt">
 									<Directory Id="dir04DEB2CA7BCE5D006CBDC3CE19E1604F" Name="LC_MESSAGES">
 										<Component Id="cmp96D50F9EA56B09AAD508448BBBD79830" Guid="*">
-											<File Id="fil91FCE24BC87B34E5BE52C3693D80D068" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil91FCE24BC87B34E5BE52C3693D80D068" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp29B2E1A43A82FDB8CA0FE8D3B28A53CB" Guid="*">
 											<File Id="fil37951B065E45E879EF06719E54B6C0DB" DiskId="1" Source="InputFiles32\share\locale\lt\LC_MESSAGES\gimp20-python.mo" />
@@ -14956,7 +14951,7 @@
 								<Directory Id="dirF951D0A2571F1CA66EC2CBCBB9F4F217" Name="lv">
 									<Directory Id="dir57D011FFBF9D568B40343056AE657B3D" Name="LC_MESSAGES">
 										<Component Id="cmp901AF0C4F7032814A30D70E953EF399C" Guid="*">
-											<File Id="filDEDDDEEDA5838D39A5DDD3AE31C376CD" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filDEDDDEEDA5838D39A5DDD3AE31C376CD" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp67C6BFB1E2390E45ACED6875E2405500" Guid="*">
 											<File Id="filE9B725333AC11589792B0D8011D52CD0" DiskId="1" Source="InputFiles32\share\locale\lv\LC_MESSAGES\gimp20-python.mo" />
@@ -14978,7 +14973,7 @@
 								<Directory Id="dirDA06662DAA55D05F8E91C613F0B1329C" Name="mk">
 									<Directory Id="dirF3D7707C6ABBC22AC7F9563B0052E635" Name="LC_MESSAGES">
 										<Component Id="cmp52FD92EB1140AAA2CC8EA16057FF45B4" Guid="*">
-											<File Id="fil5F8BFC58F564A462BB8A36ECAA593F42" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil5F8BFC58F564A462BB8A36ECAA593F42" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpE1F92DAC10FA4FA5E45CE5160327FF2C" Guid="*">
 											<File Id="fil0C4967DD0F225C28CEB482C1C4E1409F" DiskId="1" Source="InputFiles32\share\locale\mk\LC_MESSAGES\gimp20-python.mo" />
@@ -15007,7 +15002,7 @@
 								<Directory Id="dirEDD2B97E8F55F5C0951139FBDC7A4161" Name="mr">
 									<Directory Id="dirFB038F54C87CBE119F3AE91E19596542" Name="LC_MESSAGES">
 										<Component Id="cmp9BEAA9542D94CCF0E3166A699880452E" Guid="*">
-											<File Id="fil6B0F1CDE8A746E079C30EDCF4216DCCB" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil6B0F1CDE8A746E079C30EDCF4216DCCB" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpE417563B5ABE43BBC7ABA28603CBE0F0" Guid="*">
 											<File Id="filC709C6FE91CF03340A369295BA5B5C71" DiskId="1" Source="InputFiles32\share\locale\mr\LC_MESSAGES\gimp20-python.mo" />
@@ -15029,7 +15024,7 @@
 								<Directory Id="dir50EFA6D1640AEC94928CD6261240627B" Name="ms">
 									<Directory Id="dirF27E49A31C578C50DDF7ED7AF20E3C75" Name="LC_MESSAGES">
 										<Component Id="cmp7947EFEE3D893F4AE2D63059D1BF1639" Guid="*">
-											<File Id="filF4BA4B1CDEAED2E4A7D83C07DE1EEEA3" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filF4BA4B1CDEAED2E4A7D83C07DE1EEEA3" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp352AC31B42A6966B65F395AE4146737A" Guid="*">
 											<File Id="filC601AB8E8A5AC37D7AA5035F02F276EC" DiskId="1" Source="InputFiles32\share\locale\ms\LC_MESSAGES\gimp20-python.mo" />
@@ -15051,7 +15046,7 @@
 								<Directory Id="dir412488876731DF9D1F0638E0D615C7E3" Name="my">
 									<Directory Id="dir924244C25089F7342302A3015153D805" Name="LC_MESSAGES">
 										<Component Id="cmp78CA81113464B6EDF6BAC3AF1BAD50C6" Guid="*">
-											<File Id="filE89FA01B04C05E0F98330627FF96CAE9" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filE89FA01B04C05E0F98330627FF96CAE9" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp632C34C695F0EBA5833249BE2AB55B24" Guid="*">
 											<File Id="filE8B6073D0A54E03AB2510EE07D9D0975" DiskId="1" Source="InputFiles32\share\locale\my\LC_MESSAGES\gimp20-python.mo" />
@@ -15073,7 +15068,7 @@
 								<Directory Id="dir83CB40AA88CE3FBE3B1CC2040BA0C1D0" Name="nb">
 									<Directory Id="dir9910F9170B6C51EDFDB2F5BFF23CC4B3" Name="LC_MESSAGES">
 										<Component Id="cmpF5CB6738A5B424B5E95772B449C8082A" Guid="*">
-											<File Id="fil605A1B0D673336C5BBC2608866154D5A" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil605A1B0D673336C5BBC2608866154D5A" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpD91476315A03EA6EC73CF9EBE9EEC57F" Guid="*">
 											<File Id="filD94D23A531C303C45022F63696D697B5" DiskId="1" Source="InputFiles32\share\locale\nb\LC_MESSAGES\gimp20-python.mo" />
@@ -15102,7 +15097,7 @@
 								<Directory Id="dirD21CE35802E6963092B598CD0B6E932B" Name="ne">
 									<Directory Id="dirE5547AE24BCCE8AE450419AE99101376" Name="LC_MESSAGES">
 										<Component Id="cmpF577CAC8E115CC0CB3D8CE5FAD6BB852" Guid="*">
-											<File Id="fil68F091CB741A1390D745714FF52C3F88" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil68F091CB741A1390D745714FF52C3F88" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp3CC4DDC3F525E85F5EFA46CD69A906CA" Guid="*">
 											<File Id="fil34B8B58A5E0C760CF265B8B39FC4EF81" DiskId="1" Source="InputFiles32\share\locale\ne\LC_MESSAGES\gimp20-python.mo" />
@@ -15124,7 +15119,7 @@
 								<Directory Id="dirC6C3851F963DA7F58F951E3582332A82" Name="nl">
 									<Directory Id="dir9FDDE8B24A63340D30AA7F15902B73B9" Name="LC_MESSAGES">
 										<Component Id="cmp581EEF01E0209A5D5F5D007394FB6B15" Guid="*">
-											<File Id="fil8161EFCBE2B702521A0476894D6AA3BD" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil8161EFCBE2B702521A0476894D6AA3BD" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp01D4FF56A5DB22CD2863497A1900FB18" Guid="*">
 											<File Id="fil7E3175F5DA07564C7917E3B9A9988D3D" DiskId="1" Source="InputFiles32\share\locale\nl\LC_MESSAGES\gimp20-python.mo" />
@@ -15146,7 +15141,7 @@
 								<Directory Id="dir12E47E85BAAE65F8154679B3A5C20A02" Name="nn">
 									<Directory Id="dir5BFBAF588C0BF44A195FCB72B32E6A24" Name="LC_MESSAGES">
 										<Component Id="cmp7EC82AD79E064B818E14454247164F55" Guid="*">
-											<File Id="filE0593475122E85B6718C12CE1C16672C" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filE0593475122E85B6718C12CE1C16672C" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp19205228214A390A248DC300433E98F0" Guid="*">
 											<File Id="filCD5093EBAB29421A7F1D2263FF577C9B" DiskId="1" Source="InputFiles32\share\locale\nn\LC_MESSAGES\gimp20-python.mo" />
@@ -15168,7 +15163,7 @@
 								<Directory Id="dir034ABF962673E9DF630F6F43C148F584" Name="oc">
 									<Directory Id="dir02A41D6627429A3A73D323A4FFD2D403" Name="LC_MESSAGES">
 										<Component Id="cmp6E85D05F6FBD86C3919CEE13970F9421" Guid="*">
-											<File Id="fil4988A1C4F8B0E4647D86E076C022F054" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil4988A1C4F8B0E4647D86E076C022F054" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp456D8BD5CD4C6EF1C0FA071BE1E1EEB0" Guid="*">
 											<File Id="fil4D2AA9E43ACCEA5471557E413AB72A5A" DiskId="1" Source="InputFiles32\share\locale\oc\LC_MESSAGES\gimp20-python.mo" />
@@ -15190,7 +15185,7 @@
 								<Directory Id="dirC7A97C874C5B6A2FAB0974E8779095AF" Name="pa">
 									<Directory Id="dir1A5EAC7B07ED7324A4F7040741010D49" Name="LC_MESSAGES">
 										<Component Id="cmp35DB4179459B8620EF41A587AF9AB4F3" Guid="*">
-											<File Id="filE5566E5B6D2D65131A01B5388C9625F2" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filE5566E5B6D2D65131A01B5388C9625F2" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpFEA0F05F9B38C4C4F984EE0A29CAA20C" Guid="*">
 											<File Id="fil72111DD8C18A9067E4A92CE40E1493F2" DiskId="1" Source="InputFiles32\share\locale\pa\LC_MESSAGES\gimp20-python.mo" />
@@ -15212,7 +15207,7 @@
 								<Directory Id="dir088A9B4B8124F159A9FB8DC65A1B79D6" Name="pl">
 									<Directory Id="dir828101C3011CAB8BBF60FC6F559512D8" Name="LC_MESSAGES">
 										<Component Id="cmp7277981994FFBC3BA8A86798EF315743" Guid="*">
-											<File Id="fil90A1D701B09E0578C34A5DF79CD2A4BB" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil90A1D701B09E0578C34A5DF79CD2A4BB" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpCDD6BCF3D3BD25335339ECA720BC0364" Guid="*">
 											<File Id="filBB8AFA8537CB50EFE8741961FD8EA564" DiskId="1" Source="InputFiles32\share\locale\pl\LC_MESSAGES\gimp20-python.mo" />
@@ -15234,7 +15229,7 @@
 								<Directory Id="dirE7060752C2A1F4E6114DF02B94970413" Name="pt">
 									<Directory Id="dir88F42FB17587B4BB444C6B218E68CA40" Name="LC_MESSAGES">
 										<Component Id="cmp8202027FE4CF062DF0DAB11DCF95FC35" Guid="*">
-											<File Id="filBD477C38A8CB2D84BB972AD5976BF1A6" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filBD477C38A8CB2D84BB972AD5976BF1A6" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpB4B10BFC965C5501730491503C4FA7F1" Guid="*">
 											<File Id="fil8CF78D267DDEC8228BD2D56BDCF77A45" DiskId="1" Source="InputFiles32\share\locale\pt\LC_MESSAGES\gimp20-python.mo" />
@@ -15256,7 +15251,7 @@
 								<Directory Id="dir5512AA8DC4CA11C5002F03B2ED5764FD" Name="pt_BR">
 									<Directory Id="dir2488893F105F0AF4A16F43F973E17041" Name="LC_MESSAGES">
 										<Component Id="cmpEEF79175DAE1AB96C947CFBB3D4F8438" Guid="*">
-											<File Id="filE963BB6F2469725CF0002D8C840D5418" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filE963BB6F2469725CF0002D8C840D5418" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp4D4B33056500D8E0F330FECD76C0BD7F" Guid="*">
 											<File Id="fil0372EF2E43BF7E7FDB233719A353A4F5" DiskId="1" Source="InputFiles32\share\locale\pt_BR\LC_MESSAGES\gimp20-python.mo" />
@@ -15278,7 +15273,7 @@
 								<Directory Id="dirA447BBDEB0A5D481FD7F21376658F41F" Name="ro">
 									<Directory Id="dir6B7E058703521EA332AFB4603FA34A14" Name="LC_MESSAGES">
 										<Component Id="cmp73C174D795100B4D989A27DE125551CC" Guid="*">
-											<File Id="fil25397F52A5A03CC68C618B0623BC29AE" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil25397F52A5A03CC68C618B0623BC29AE" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp9E258EEC90199DC0E3EEAAAD4D9904D6" Guid="*">
 											<File Id="fil64D34B79F8EE6744EC3C7A5CCA61228F" DiskId="1" Source="InputFiles32\share\locale\ro\LC_MESSAGES\gimp20-python.mo" />
@@ -15300,7 +15295,7 @@
 								<Directory Id="dirFAFBCFB77E56ABCAAD3FE896AE469633" Name="ru">
 									<Directory Id="dir9D2C2382BE1E550FE73DF23561DDAA7D" Name="LC_MESSAGES">
 										<Component Id="cmp8683C53F3EFEC0B1DC70882E65A93325" Guid="*">
-											<File Id="filDE4C31F0ECAD642A5335C0AA5C57FE52" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filDE4C31F0ECAD642A5335C0AA5C57FE52" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpE41C0032CEA94AF5B9B271DC0FE17155" Guid="*">
 											<File Id="fil73A02ACD7A5CD03E20147FE45FFB76AB" DiskId="1" Source="InputFiles32\share\locale\ru\LC_MESSAGES\gimp20-python.mo" />
@@ -15322,7 +15317,7 @@
 								<Directory Id="dir4D0A341225891EE61F4EB73EE2D56095" Name="rw">
 									<Directory Id="dirB2662E0A6CAF5FAD75F96AAAC57D8B3C" Name="LC_MESSAGES">
 										<Component Id="cmpC7ED973F948D7E6825D47AAFE082789F" Guid="*">
-											<File Id="fil6ADD667DF885215470F1F360F874098F" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil6ADD667DF885215470F1F360F874098F" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp7F8A981D042F77A9821B6244BA6834C3" Guid="*">
 											<File Id="fil16DE88E4BB652F3C2FE4A7FF44A42A52" DiskId="1" Source="InputFiles32\share\locale\rw\LC_MESSAGES\gimp20-python.mo" />
@@ -15351,7 +15346,7 @@
 								<Directory Id="dirBAD514CCFFDFDA5F9FAB2E83C6A5E39F" Name="sk">
 									<Directory Id="dir5F5DCFA3E95E7201AF46DAB8D15A1162" Name="LC_MESSAGES">
 										<Component Id="cmpB56F518E51C0F8FB9109DF9F4C9B3793" Guid="*">
-											<File Id="fil3B0E9AAF536495D20FDF2A597CAFAB51" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil3B0E9AAF536495D20FDF2A597CAFAB51" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpEF5C42E977BE59DB326A294B64590318" Guid="*">
 											<File Id="fil702ABB1273F3D179847B8F3663F2F562" DiskId="1" Source="InputFiles32\share\locale\sk\LC_MESSAGES\gimp20-python.mo" />
@@ -15373,7 +15368,7 @@
 								<Directory Id="dirEF8AB9BEA2F1D5AA0694DC4E27618075" Name="sl">
 									<Directory Id="dirB76E2C33332F3A2F224C58DD67F138F1" Name="LC_MESSAGES">
 										<Component Id="cmp016F08D60EF6C75D7BA00FE8E7593A09" Guid="*">
-											<File Id="fil0D2DFEB305B7671AA46EF2A9E6BA9717" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil0D2DFEB305B7671AA46EF2A9E6BA9717" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpB79D7E1F8C866AF627696C3F45B54DB4" Guid="*">
 											<File Id="fil25F366C985FC03B024AC03F37CE3F132" DiskId="1" Source="InputFiles32\share\locale\sl\LC_MESSAGES\gimp20-python.mo" />
@@ -15395,7 +15390,7 @@
 								<Directory Id="dir0CB4DCEE36930AF11EFC7E5342121F97" Name="sr">
 									<Directory Id="dir2E1A80BE7B1767CFF3568239E596B426" Name="LC_MESSAGES">
 										<Component Id="cmpEF56FF124BD922D17754CC9B735E7FD5" Guid="*">
-											<File Id="fil5764CB065ED277649E9E4BA9B2857D8C" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil5764CB065ED277649E9E4BA9B2857D8C" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp8CD31D02ADB25282A1FB539477B3360A" Guid="*">
 											<File Id="fil8C8B1E49C658B7BEA8C66A802AF0B446" DiskId="1" Source="InputFiles32\share\locale\sr\LC_MESSAGES\gimp20-python.mo" />
@@ -15417,7 +15412,7 @@
 								<Directory Id="dir9CBB509C67F5F5ADF60D76F6EDA859F1" Name="sr@latin">
 									<Directory Id="dirDAB64FCF3AD389BB107A081339B3C81B" Name="LC_MESSAGES">
 										<Component Id="cmpA467833B7F3F279AD6025F886B711DB7" Guid="*">
-											<File Id="fil3664ADC813B69B9EBCCF81ED4C4782F7" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil3664ADC813B69B9EBCCF81ED4C4782F7" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp0F60F69DA283FD6F1AD5F529DE4456BE" Guid="*">
 											<File Id="fil52B97FF5A4B518EDAFA740264E3D751E" DiskId="1" Source="InputFiles32\share\locale\sr@latin\LC_MESSAGES\gimp20-python.mo" />
@@ -15439,7 +15434,7 @@
 								<Directory Id="dir78717A56C0C491BE504E55B7EE92D251" Name="sv">
 									<Directory Id="dirEE833A65FAAB8E734534025F53E5BC4C" Name="LC_MESSAGES">
 										<Component Id="cmpF4920463ED76B3DA3E3AFF7745048629" Guid="*">
-											<File Id="fil86770AEB4D9773B09B7203A366287DB4" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil86770AEB4D9773B09B7203A366287DB4" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpB58A03DE3FF7741AA5F91BD645027008" Guid="*">
 											<File Id="fil26D7DE26D7F228A5F21202EE1CDE7FB2" DiskId="1" Source="InputFiles32\share\locale\sv\LC_MESSAGES\gimp20-python.mo" />
@@ -15461,7 +15456,7 @@
 								<Directory Id="dirFC5631C405E0441321F6681AAC815167" Name="ta">
 									<Directory Id="dir3D3B84B94FE21DE538937D4A9D62B0E7" Name="LC_MESSAGES">
 										<Component Id="cmp94ABB1289461C4A32D9284CFF7C998A0" Guid="*">
-											<File Id="fil931F1F1CD1A8778510F66D2630473987" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil931F1F1CD1A8778510F66D2630473987" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp32AE726CC09E5D7562A8DD32F22C4CC5" Guid="*">
 											<File Id="fil558D8904956436F901BEA51B0235AB3A" DiskId="1" Source="InputFiles32\share\locale\ta\LC_MESSAGES\gimp20-python.mo" />
@@ -15480,7 +15475,7 @@
 								<Directory Id="dirA50588C6182EE93AB9D78D174218DE67" Name="te">
 									<Directory Id="dirE74B8EB3275D294EE000F8BFD7C66CC6" Name="LC_MESSAGES">
 										<Component Id="cmp75AA16874506D15C3B68AD796CB1CEAB" Guid="*">
-											<File Id="fil7923074360C30188BFBA43A3A1627807" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil7923074360C30188BFBA43A3A1627807" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp386D59177D9C076C317BEB129DAE8E7C" Guid="*">
 											<File Id="fil8AF1C8E89DF158617C856E5E3221CB21" DiskId="1" Source="InputFiles32\share\locale\te\LC_MESSAGES\gimp20-python.mo" />
@@ -15503,7 +15498,7 @@
 								<Directory Id="dir0F1FDCF0413EA0AA4501239605FCC426" Name="tr">
 									<Directory Id="dir58B07212A9C7B84649D616B9A52F4AC2" Name="LC_MESSAGES">
 										<Component Id="cmpE2055721C75EF0AAC829188319B9DD12" Guid="*">
-											<File Id="fil064F97CE0B36DB16B744FF2ABA319B6D" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil064F97CE0B36DB16B744FF2ABA319B6D" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpA27A8ABC8A016A2A4C2E399D2CEDAEBA" Guid="*">
 											<File Id="fil33A17C9238A9E73907C3516DC8233257" DiskId="1" Source="InputFiles32\share\locale\tr\LC_MESSAGES\gimp20-python.mo" />
@@ -15532,7 +15527,7 @@
 								<Directory Id="dir4506EE9A9CF3A76C07383FB9E36C58BE" Name="uk">
 									<Directory Id="dir2DC5A8B8A3D8E74765E7079D1D9BD329" Name="LC_MESSAGES">
 										<Component Id="cmp8C474CDEC9C3299B5B7569074AEB815E" Guid="*">
-											<File Id="fil53FA05D2AD6210028A34D1EE6A7B2E55" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil53FA05D2AD6210028A34D1EE6A7B2E55" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp797AD00FE415A5EA61E04A4F1A1EB4C1" Guid="*">
 											<File Id="fil60BE192C9EA9029039BA69D92BD7BF7C" DiskId="1" Source="InputFiles32\share\locale\uk\LC_MESSAGES\gimp20-python.mo" />
@@ -15554,7 +15549,7 @@
 								<Directory Id="dirCF9EA9ADB00708A81DA8683894C557E0" Name="vi">
 									<Directory Id="dir08C378B8A4320C59B595DA3A9877B113" Name="LC_MESSAGES">
 										<Component Id="cmp7956E36A2E69651D614907EC5BF478E3" Guid="*">
-											<File Id="fil96C5F5C24EBC07B91C16AF001BA384FA" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil96C5F5C24EBC07B91C16AF001BA384FA" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpD0B8064BCAF2B8CEAC6F107FAF90E0A5" Guid="*">
 											<File Id="filDF1307E362497FB29F0924CA04FA08E7" DiskId="1" Source="InputFiles32\share\locale\vi\LC_MESSAGES\gimp20-python.mo" />
@@ -15576,7 +15571,7 @@
 								<Directory Id="dir633BE1CAE610C10A65C756E726761CA2" Name="xh">
 									<Directory Id="dirDD661ED520BAF0386D70A9F31C6BCE4B" Name="LC_MESSAGES">
 										<Component Id="cmp900366E8774C140D4D035B4BAAA51D81" Guid="*">
-											<File Id="fil13C1C97CCCBA184FD0CB2CADA0B4DACC" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil13C1C97CCCBA184FD0CB2CADA0B4DACC" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp278D53251F3C786C6EA6FC2D559F33B4" Guid="*">
 											<File Id="filD67DBFAAF634B2BC7F3B84EF5AA55319" DiskId="1" Source="InputFiles32\share\locale\xh\LC_MESSAGES\gimp20-python.mo" />
@@ -15595,7 +15590,7 @@
 								<Directory Id="dir0CD3780E1D3072F2823EB17BAD14F41F" Name="yi">
 									<Directory Id="dir061C75D51AF4AC55B3CF576AE90EEA5E" Name="LC_MESSAGES">
 										<Component Id="cmp36B0A30C8793E4A4585CBAC3CE1B6DC9" Guid="*">
-											<File Id="filC6500D177BEE090E49845C4992956965" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="filC6500D177BEE090E49845C4992956965" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp006D31218040B03D39A578E97EF699D7" Guid="*">
 											<File Id="filD4E6DBF8FACBE5E4CBA376D283808997" DiskId="1" Source="InputFiles32\share\locale\yi\LC_MESSAGES\gimp20-script-fu.mo" />
@@ -15611,7 +15606,7 @@
 								<Directory Id="dir8D0E7F03629C34266FE946290D779FEC" Name="zh_CN">
 									<Directory Id="dir0AAD79DD7B37D5A49A51D33C47AFA178" Name="LC_MESSAGES">
 										<Component Id="cmpCF2E71073F3DCE195F11B57161D96815" Guid="*">
-											<File Id="fil9CA75D83449520D72AD57C0A10E3C910" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil9CA75D83449520D72AD57C0A10E3C910" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmp6EA83E3C4FF6B8F1275961633A627127" Guid="*">
 											<File Id="filA8B4A5FF0E1ABB7D1881C05DE12E8DD7" DiskId="1" Source="InputFiles32\share\locale\zh_CN\LC_MESSAGES\gimp20-python.mo" />
@@ -15633,7 +15628,7 @@
 								<Directory Id="dir1FCD295B4AEDFD22CDE2E9FB9C1D3A02" Name="zh_HK">
 									<Directory Id="dir393BAA713D92B65B8CE21837AA272A0A" Name="LC_MESSAGES">
 										<Component Id="cmpB3D1618FBDC48D4301BA64DAD49CC3C6" Guid="*">
-											<File Id="fil1342079BE5FAF349B45E3647A468928D" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil1342079BE5FAF349B45E3647A468928D" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpC2A6824BF889162E6CEFCE66EBA7DB18" Guid="*">
 											<File Id="fil9C5875310817A2A3BFFC9EA1102CDB89" DiskId="1" Source="InputFiles32\share\locale\zh_HK\LC_MESSAGES\gimp20-python.mo" />
@@ -15655,7 +15650,7 @@
 								<Directory Id="dir39041F45F4A4C8E0F90D40FF098C7A0F" Name="zh_TW">
 									<Directory Id="dirB2A1052D18383D9BEA00B82B481D284D" Name="LC_MESSAGES">
 										<Component Id="cmpBD0B4D20514840D6B8CD1C578A8EC37C" Guid="*">
-											<File Id="fil61F2E06BD20222C3FF31D223F816A69D" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-libglimpse.mo" />
+											<File Id="fil61F2E06BD20222C3FF31D223F816A69D" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-libgimp.mo" />
 										</Component>
 										<Component Id="cmpE4DED3278AEEB16D9A1CD4EA3D49B1E3" Guid="*">
 											<File Id="filE70601A9E90B3E77054F301E07BE7A91" DiskId="1" Source="InputFiles32\share\locale\zh_TW\LC_MESSAGES\gimp20-python.mo" />
@@ -18567,7 +18562,6 @@
 			<ComponentRef Id="cmpB35A1938974074ED84FC6E8A0E971594" />
 			<ComponentRef Id="cmpBF1A99792EDFA6F53096BD3BCEBFEF74" />
 			<ComponentRef Id="cmpDE77222B59DC00C648218B566D6461C7" />
-			<ComponentRef Id="cmp629367B336C955A83C1BCD42FC9BB53D" />
 			<ComponentRef Id="cmpC40C434538A53D1767410DAEE0BA61B8" />
 			<ComponentRef Id="cmp40289CEC8938B841C089C96694EF466E" />
 			<ComponentRef Id="cmp0E142439828AD10336A971F1B2D3EE1F" />
