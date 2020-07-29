@@ -108,7 +108,7 @@
 								<File Id="filC4A6A0B5801D3D912ED7D7694DCFA119" DiskId="1" Source="InputFiles32\bin\libamd.dll" />
 							</Component>
 							<Component Id="cmpB670B48D3551534B07F28A7DBB1E62D1" Guid="*">
-								<File Id="fil29E015F5EA004AE5952BF21AE126DFC9" KeyPath="yes" Source="InputFiles32\bin\libaom.dll" />
+								<File Id="fil29E015F5EA004AE5952BF21AE126DFC9" DiskId="1" Source="InputFiles32\bin\libaom.dll" />
 							</Component>
 							<Component Id="cmpF641A6CFCB61D69BDCD568BDFF8F14C1" Guid="*">
 								<File Id="fil0506577D223733CC8857F02D4F90413E" DiskId="1" Source="InputFiles32\bin\libasprintf-0.dll" />
@@ -663,7 +663,7 @@
 								<File Id="fil43BAB5A66C81791FA9A29E73EFE2E4A4" DiskId="1" Source="InputFiles32\bin\libumfpack.dll" />
 							</Component>
 							<Component Id="cmp42C0FD0553096DED3A45DBBF1F20DC29" Guid="*">
-								<File Id="filF414A54E3FD3E49687F098007F1955C7" KeyPath="yes" Source="InputFiles32\bin\libunistring-2.dll" />
+								<File Id="filF414A54E3FD3E49687F098007F1955C7" DiskId="1" Source="InputFiles32\bin\libunistring-2.dll" />
 							</Component>
 							<Component Id="cmp4C8C410B37A8C72AA2CF44348A8D8597" Guid="*">
 								<File Id="filD4111A4FE81C345590F3FED644C7AE65" DiskId="1" Source="InputFiles32\bin\libvulkan-1.dll" />
