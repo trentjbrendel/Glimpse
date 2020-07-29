@@ -22,9 +22,9 @@
 
 #include <gio/gio.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsemodule/gimpmodule.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpmodule/gimpmodule.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "core-types.h"
 

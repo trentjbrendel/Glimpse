@@ -1,5 +1,5 @@
 #include <gtk/gtk.h>
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 gimp_action_editor_get_type
 gimp_action_factory_get_type

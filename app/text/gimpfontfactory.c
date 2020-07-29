@@ -28,8 +28,8 @@
 #include <pango/pangofc-fontmap.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "text-types.h"
 

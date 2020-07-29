@@ -1,11 +1,11 @@
 ## Process this file with automake to produce Makefile.in
 
-libglimpsehelp = libglimpsehelp.a
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpsemath = $(top_builddir)/libglimpsemath/libglimpsemath-$(GIMP_API_VERSION).la
-libglimpse = $(top_builddir)/libglimpse/libglimpse-$(GIMP_API_VERSION).la
+libgimphelp = libgimphelp.a
+libgimp = $(top_builddir)/libgimp/libgimp-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpmath = $(top_builddir)/libgimpmath/libgimpmath-$(GIMP_API_VERSION).la
 
 if OS_WIN32
 mwindows = -mwindows
@@ -27,9 +27,9 @@ AM_CPPFLAGS = \
 
 AM_LDFLAGS = $(mwindows)
 
-noinst_LIBRARIES = libglimpsehelp.a
+noinst_LIBRARIES = libgimphelp.a
 
-libglimpsehelp_a_SOURCES = \
+libgimphelp_a_SOURCES = \
 	gimphelptypes.h		\
 	gimphelp.c		\
 	gimphelp.h		\
@@ -50,12 +50,12 @@ libexec_PROGRAMS = help
 help_SOURCES = help.c
 
 LDADD = \
-	$(libglimpsehelp)		\
-	$(libglimpse)		\
-	$(libglimpseconfig)	\
-	$(libglimpsecolor)		\
-	$(libglimpsebase)		\
-	$(libglimpsemath)		\
+	$(libgimphelp)		\
+	$(libgimp)		\
+	$(libgimpconfig)	\
+	$(libgimpcolor)		\
+	$(libgimpbase)		\
+	$(libgimpmath)		\
 	$(CAIRO_LIBS)		\
 	$(GIO_LIBS)		\
 	$(GDK_PIXBUF_LIBS)	\
@@ -69,6 +69,6 @@ noinst_PROGRAMS = gimp-help-lookup
 gimp_help_lookup_SOURCES = gimp-help-lookup.c
 
 gimp_help_lookup_LDADD = \
-	$(libglimpsehelp)	\
-	$(libglimpsebase)	\
+	$(libgimphelp)	\
+	$(libgimpbase)	\
 	$(GIO_LIBS)

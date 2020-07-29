@@ -30,7 +30,7 @@
 
 #include "images/gfig-stock-pixbufs.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 static GtkIconFactory *gfig_icon_factory = NULL;

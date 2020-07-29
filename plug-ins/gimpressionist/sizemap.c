@@ -19,8 +19,8 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gimpressionist.h"
 #include "ppmtool.h"
@@ -29,7 +29,7 @@
 
 #include "preview.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define RESPONSE_APPLY 1

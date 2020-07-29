@@ -25,8 +25,8 @@
 #include <gegl-paramspecs.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "core-types.h"
 

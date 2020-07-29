@@ -21,7 +21,7 @@
 #include <gegl.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "core-types.h"
 

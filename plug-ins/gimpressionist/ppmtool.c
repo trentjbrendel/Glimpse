@@ -23,13 +23,13 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpsemath/gimpmath.h>
+#include <libgimp/gimp.h>
+#include <libgimpmath/gimpmath.h>
 
 #include "ppmtool.h"
 #include "gimpressionist.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static int
 readline (FILE *f, char *buffer, int len)

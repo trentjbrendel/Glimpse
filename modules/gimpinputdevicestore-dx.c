@@ -39,7 +39,7 @@
 
 #include <gdk/gdkwin32.h>
 
-#include "libglimpsemodule/gimpmodule.h"
+#include "libgimpmodule/gimpmodule.h"
 
 #include "gimpinputdevicestore.h"
 

@@ -22,8 +22,8 @@
 #include <gio/gio.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpmath/gimpmath.h"
 
 extern "C"
 {

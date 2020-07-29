@@ -21,7 +21,7 @@
 
 #include "widgets-types.h"
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "paint/gimpink-blob.h"
 

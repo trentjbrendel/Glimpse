@@ -23,7 +23,7 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "tools-types.h"
 

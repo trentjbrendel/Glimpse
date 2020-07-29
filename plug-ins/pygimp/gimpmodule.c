@@ -36,7 +36,7 @@
 
 #include "pygimp-intl.h"
 
-#include "libglimpse/gimpui.h"
+#include "libgimp/gimpui.h"
 
 #include <gtk/gtk.h>
 

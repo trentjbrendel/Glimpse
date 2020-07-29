@@ -33,8 +33,8 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gfig.h"
 #include "gfig-style.h"
@@ -52,7 +52,7 @@
 #include "gfig-star.h"
 #include "gfig-stock.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define GFIG_HEADER      "GFIG Version 0.2\n"

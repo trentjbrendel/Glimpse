@@ -21,7 +21,7 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "display-types.h"
 #include "tools/tools-types.h"

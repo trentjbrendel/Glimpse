@@ -24,8 +24,8 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

@@ -46,27 +46,27 @@ import os, re, pygraphviz
 
 
 # First make a sanity check
-if not os.path.exists("app") or not os.path.exists("libglimpse"):
+if not os.path.exists("app") or not os.path.exists("libgimp"):
     print("Must be run in source root!")
     exit(-1);
 
 
-# This file lives in libglimpse and is used by many low-level
+# This file lives in libgimp and is used by many low-level
 # libs. Exclude it in the calculations so the graph become nicer
 ignored_interface_files = [
-    "libglimpse/libglimpse-intl.h",
+    "libgimp/libgimp-intl.h",
     ]
 
 # List of library modules
 libmodules = [
-    "libglimpse",
-    "libglimpsebase",
-    "libglimpsecolor",
-    "libglimpseconfig",
-    "libglimpsemath",
-    "libglimpsemodule",
-    "libglimpsethumb",
-    "libglimpsewidgets",
+    "libgimp",
+    "libgimpbase",
+    "libgimpcolor",
+    "libgimpconfig",
+    "libgimpmath",
+    "libgimpmodule",
+    "libgimpthumb",
+    "libgimpwidgets",
     ]
 
 # List of app modules

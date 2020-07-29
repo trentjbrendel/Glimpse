@@ -43,11 +43,11 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
-#include <libglimpsebase/gimpparasiteio.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
+#include <libgimpbase/gimpparasiteio.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 /* Note that the upcoming PSP version 6 writes PSP file format version

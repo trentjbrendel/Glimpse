@@ -34,7 +34,7 @@
 #include "imap_stock.h"
 #include "imap_table.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static gboolean circle_is_valid(Object_t *obj);
 static Object_t *circle_clone(Object_t *obj);

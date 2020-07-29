@@ -302,7 +302,7 @@ At the end of the PDB file, you should find the following segments:
 
 [source,perl]
 ----
-@headers = qw("libglimpsebase/gimpbase.h"
+@headers = qw("libgimpbase/gimpbase.h"
               "core/gimpcontext.h"
               "text/gimptext.h"
               "text/gimptextlayer.h"
@@ -406,12 +406,12 @@ As you can see, inside the +*type*+ field of the first two parameters,
 we added a limitation on the range of the parameter. The lower
 limitation is a simple number, and the upper limitation is a constant
 macro (+GIMP_MAX_IMAGE_SIZE+) defined in
-https://gitlab.gnome.org/GNOME/gimp/tree/master/libgimpebase/gimplimitslibglimpsbase/gimplimits.h].
+https://gitlab.gnome.org/GNOME/gimp/tree/master/libgimpbase/gimplimits.h[libgimpbase/gimplimits.h].
 In order to make sure this constand will indeed be defined when parsing
 this function, the file
-https://gitlab.gnome.org/GNOME/gimp/tree/master/libglimpsebase/gimpbase/libgimpsebase/gimpbase.h]
+https://gitlab.gnome.org/GNOME/gimp/tree/master/libgimpbase/gimpbase.h[libgimpbase/gimpbase.h]
 (which includes
-https://gitlab.gnome.org/GNOME/gimp/tree/master/libglimpsebase/gimplimits/libgimpbase/gimplimits.h])
+https://gitlab.gnome.org/GNOME/gimp/tree/master/libgimpbase/gimplimits.h[libgimpbase/gimplimits.h])
 was added to the +@headers+ section of the pdb file.
 
 Now, if you take a look at the code part of this function you won't see

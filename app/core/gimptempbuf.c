@@ -27,7 +27,7 @@
 
 #include "core-types.h"
 
-#include "libglimpsecolor/gimpcolor.h"
+#include "libgimpcolor/gimpcolor.h"
 
 #include "gimptempbuf.h"
 

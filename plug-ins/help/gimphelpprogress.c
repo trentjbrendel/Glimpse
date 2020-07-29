@@ -21,7 +21,7 @@
  */
 
 /*  This code is written so that it can also be compiled standalone.
- *  It shouldn't depend on libglimpse.
+ *  It shouldn't depend on libgimp.
  */
 
 #include "config.h"

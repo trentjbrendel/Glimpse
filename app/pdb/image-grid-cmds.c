@@ -25,10 +25,10 @@
 
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsebase/gimpbaseenums.h"
-#include "libglimpsecolor/gimpcolor.h"
+#include "libgimpbase/gimpbaseenums.h"
+#include "libgimpcolor/gimpcolor.h"
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "pdb-types.h"
 

@@ -41,14 +41,14 @@
 #define _WIN32_WINNT 0x0601
 #include <windows.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "screenshot.h"
 #include "screenshot-win32.h"
 #include "screenshot-win32-resource.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 #include "screenshot-win32-magnification-api.h"
 #include "screenshot-win32-dwm-api.h"
 

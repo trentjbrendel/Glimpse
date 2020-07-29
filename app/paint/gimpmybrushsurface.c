@@ -22,11 +22,11 @@
 
 #include "paint-types.h"
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
 #include <cairo.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
-#include "libglimpsecolor/gimpcolor.h"
+#include "libgimpcolor/gimpcolor.h"
 
 #include "gimpmybrushoptions.h"
 #include "gimpmybrushsurface.h"

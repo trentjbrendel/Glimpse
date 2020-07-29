@@ -19,8 +19,8 @@
 
 #include <string.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #ifdef GDK_WINDOWING_QUARTZ
 #import <Cocoa/Cocoa.h>

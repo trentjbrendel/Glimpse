@@ -20,12 +20,12 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsemodule/gimpmodule.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpmodule/gimpmodule.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
-#include "libglimpse/libglimpse-intl.h"
+#include "libgimp/libgimp-intl.h"
 
 
 /* definitions and variables */

@@ -25,7 +25,7 @@
 #include <cairo.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "../operations-types.h"
 

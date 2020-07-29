@@ -19,10 +19,10 @@
 
 #include <string.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
-#include <libglimpsemath/gimpmath.h>
+#include <libgimpmath/gimpmath.h>
 
 #include <gtk/gtklist.h>
 #include <gtk/gtkpreview.h>
@@ -32,7 +32,7 @@
 #include "brush.h"
 #include "presets.h"
 
-#include <libglimpse/stdplugins-intl.h>
+#include <libgimp/stdplugins-intl.h>
 
 
 static void  update_brush_preview (const char *fn);

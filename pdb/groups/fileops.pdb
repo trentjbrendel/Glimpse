@@ -721,8 +721,8 @@ CODE
 }
 
 
-@headers = qw("libglimpsebase/gimpbase.h"
-              "libglimpseconfig/gimpconfig.h"
+@headers = qw("libgimpbase/gimpbase.h"
+              "libgimpconfig/gimpconfig.h"
               "core/gimp.h"
               "core/gimp-utils.h"
               "plug-in/gimppluginmanager-file.h"

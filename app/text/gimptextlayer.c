@@ -27,9 +27,9 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <pango/pangocairo.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "text-types.h"
 

@@ -24,7 +24,7 @@
 
 #include "vectors-types.h"
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "core/gimpimage.h"
 #include "core/gimptempbuf.h"

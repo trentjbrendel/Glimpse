@@ -6,8 +6,8 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpsemath/gimpmath.h>
+#include <libgimp/gimp.h>
+#include <libgimpmath/gimpmath.h>
 
 #include "lighting-main.h"
 #include "lighting-ui.h"

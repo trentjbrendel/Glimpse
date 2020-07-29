@@ -46,7 +46,7 @@
  *  than frumpy old RGB.  [Adam]
  *
  * 2000/01/30 - Use palette_selector instead of option_menu for custom
- *  palette. Use libglimpse callback functions.  [Sven]
+ *  palette. Use libgimp callback functions.  [Sven]
  *
  * 99/09/01 - Created a low-bleed FS-dither option.  [Adam]
  *
@@ -138,8 +138,8 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gegl.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "core-types.h"
 

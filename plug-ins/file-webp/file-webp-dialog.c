@@ -21,15 +21,15 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include <webp/encode.h>
 
 #include "file-webp.h"
 #include "file-webp-dialog.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 static void           save_dialog_toggle_scale   (GtkWidget     *widget,

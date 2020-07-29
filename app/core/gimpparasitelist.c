@@ -21,8 +21,8 @@
 #include <gio/gio.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "core-types.h"
 

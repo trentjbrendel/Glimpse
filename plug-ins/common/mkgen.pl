@@ -75,14 +75,14 @@ include \$(top_srcdir)/build-aux/windows/gimprc-plug-ins.rule
 include $rcfile
 endif
 
-libglimpse = \$(top_builddir)/libglimpse/libglimpse-\$(GIMP_API_VERSION).la
-libglimpsebase = \$(top_builddir)/libglimpsebase/libglimpsebase-\$(GIMP_API_VERSION).la
-libglimpsecolor = \$(top_builddir)/libglimpsecolor/libglimpsecolor-\$(GIMP_API_VERSION).la
-libglimpseconfig = \$(top_builddir)/libglimpsecolor/libglimpsecolor-\$(GIMP_API_VERSION).la
-libglimpsemath = \$(top_builddir)/libglimpsemath/libglimpsemath-\$(GIMP_API_VERSION).la \$(libm)
-libglimpsemodule = \$(top_builddir)/libglimpsemodule/libglimpsemodule-\$(GIMP_API_VERSION).la
-libglimpseui = \$(top_builddir)/libglimpseui/libglimpseui-\$(GIMP_API_VERSION).la
-libglimpsewidgets = \$(top_builddir)/libglimpsewidgets/libglimpsewidgets-\$(GIMP_API_VERSION).la
+libgimp = \$(top_builddir)/libgimp/libgimp-\$(GIMP_API_VERSION).la
+libgimpbase = \$(top_builddir)/libgimpbase/libgimpbase-\$(GIMP_API_VERSION).la
+libgimpcolor = \$(top_builddir)/libgimpcolor/libgimpcolor-\$(GIMP_API_VERSION).la
+libgimpconfig = \$(top_builddir)/libgimpconfig/libgimpconfig-\$(GIMP_API_VERSION).la
+libgimpmath = \$(top_builddir)/libgimpmath/libgimpmath-\$(GIMP_API_VERSION).la \$(libm)
+libgimpmodule = \$(top_builddir)/libgimpmodule/libgimpmodule-\$(GIMP_API_VERSION).la
+libgimpui = \$(top_builddir)/libgimp/libgimpui-\$(GIMP_API_VERSION).la
+libgimpwidgets = \$(top_builddir)/libgimpwidgets/libgimpwidgets-\$(GIMP_API_VERSION).la
 
 
 AM_LDFLAGS = \$(mwindows)
@@ -129,20 +129,20 @@ foreach (sort keys %plugins) {
     my $makename = $_;
     $makename =~ s/-/_/g;
 
-    my $libglimpse = "";
+    my $libgimp = "";
 
     if (exists $plugins{$_}->{ui}) {
-        $libglimpse .= "libglimpseui)";
-        $libglimpse .= "\t\t\\\n\tlibglimpsewidgets)";
-	$libglimpse .= "\t\\\n\tlibglimpsemodule)";
-	$libglimpse .= "\t\\\n\t";
+        $libgimp .= "\$(libgimpui)";
+        $libgimp .= "\t\t\\\n\t\$(libgimpwidgets)";
+	$libgimp .= "\t\\\n\t\$(libgimpmodule)";
+	$libgimp .= "\t\\\n\t";
     }
 
-    $libglimpse .= "libglimpse)";
-    $libglimpse .= "\t\t\\\n\tlibglimpsemath)";
-    $libglimpse .= "\t\t\\\n\tlibglimpseconfig)";
-    $libglimpse .= "\t\\\n\tlibglimpsecolor)";
-    $libglimpse .= "\t\t\\\n\tlibglimpsebase)";
+    $libgimp .= "\$(libgimp)";
+    $libgimp .= "\t\t\\\n\t\$(libgimpmath)";
+    $libgimp .= "\t\t\\\n\t\$(libgimpconfig)";
+    $libgimp .= "\t\\\n\t\$(libgimpcolor)";
+    $libgimp .= "\t\t\\\n\t\$(libgimpbase)";
 
     my $glib;
     if (exists $plugins{$_}->{ui}) {
@@ -210,7 +210,7 @@ ${makename}_SOURCES = \\
 	$_.c
 
 ${makename}_LDADD = \\
-	$libglimpse		\\
+	$libgimp		\\
 	$glib$optlib
 	$deplib		\\
 	$rclib

@@ -14,7 +14,7 @@ git shortlog -s ${tag1}..${tag2} \
     devel-docs \
     docs \
     etc \
-    libglimpse* \
+    libgimp* \
     menus \
     modules \
     plug-ins \

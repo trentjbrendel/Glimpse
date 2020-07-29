@@ -306,7 +306,7 @@ CODE
 }
 
 @headers = qw(<cairo.h>
-              "libglimpsecolor/gimpcolor.h"
+              "libgimpcolor/gimpcolor.h"
               "core/gimpimage-color-profile.h"
               "gimp-intl.h");
 

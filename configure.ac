@@ -160,9 +160,9 @@ AC_SUBST(GLIMPSE_APP_VERSION)
 AC_SUBST(GLIMPSE_APP_NAME)
 
 # Version strings used in some source, though it seems unnecessary to
-# declare them in the public API (libglimpsebase/gimpversion.h).
+# declare them in the public API (libgimpbase/gimpversion.h).
 AC_DEFINE(GIMP_PKGCONFIG_VERSION, "gimp_pkgconfig_version",
-          [libglimpse pkg-config version])
+          [libgimp pkg-config version])
 AC_DEFINE(GIMP_TOOL_VERSION, "gimp_tool_version",
           [GIMP tools version])
 
@@ -2797,7 +2797,7 @@ GIMP_MODULES=modules
 AC_SUBST(GIMP_PLUGINS)
 AC_SUBST(GIMP_MODULES)
 
-AC_CONFIG_COMMANDS([libglimpsebase/gimpversion.h], [
+AC_CONFIG_COMMANDS([libgimpbase/gimpversion.h], [
   outfile=gimpversion.h-tmp
   cat > $outfile <<\_______EOF
 /* gimpversion.h
@@ -2806,7 +2806,7 @@ AC_CONFIG_COMMANDS([libglimpsebase/gimpversion.h], [
  */
 
 #if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION)
-#error "Only <libglimpsebase/gimpbase.h> can be included directly."
+#error "Only <libgimpbase/gimpbase.h> can be included directly."
 #endif
 
 #ifndef __GIMP_VERSION_H__
@@ -2912,11 +2912,11 @@ G_END_DECLS
 #endif /* __GIMP_VERSION_H__ */
 _______EOF
 
-  if cmp -s $outfile libglimpsebase/gimpversion.h; then
-    AC_MSG_NOTICE([libglimpsebase/gimpversion.h is unchanged])
+  if cmp -s $outfile libgimpbase/gimpversion.h; then
+    AC_MSG_NOTICE([libgimpbase/gimpversion.h is unchanged])
     rm -f $outfile
   else
-    mv $outfile libglimpsebase/gimpversion.h
+    mv $outfile libgimpbase/gimpversion.h
   fi
 ],[
   gimp_major_ver=gimp_major_version
@@ -2934,14 +2934,14 @@ AC_CONFIG_FILES([
 INSTALL
 tools/Makefile
 pdb/Makefile
-libglimpse/Makefile
-libglimpsebase/Makefile
-libglimpseconfig/Makefile
-libglimpsecolor/Makefile
-libglimpsemath/Makefile
-libglimpsemodule/Makefile
-libglimpsethumb/Makefile
-libglimpsewidgets/Makefile
+libgimp/Makefile
+libgimpbase/Makefile
+libgimpconfig/Makefile
+libgimpcolor/Makefile
+libgimpmath/Makefile
+libgimpmodule/Makefile
+libgimpthumb/Makefile
+libgimpwidgets/Makefile
 app/Makefile
 app/actions/Makefile
 app/config/Makefile
@@ -3036,22 +3036,22 @@ modules/Makefile
 devel-docs/Makefile
 devel-docs/app/Makefile
 devel-docs/app/version
-devel-docs/libglimpse/Makefile
-devel-docs/libglimpse/version
-devel-docs/libglimpsebase/Makefile
-devel-docs/libglimpsebase/version
-devel-docs/libglimpseconfig/Makefile
-devel-docs/libglimpseconfig/version
-devel-docs/libglimpsecolor/Makefile
-devel-docs/libglimpsecolor/version
-devel-docs/libglimpsemath/Makefile
-devel-docs/libglimpsemath/version
-devel-docs/libglimpsemodule/Makefile
-devel-docs/libglimpsemodule/version
-devel-docs/libglimpsethumb/Makefile
-devel-docs/libglimpsethumb/version
-devel-docs/libglimpsewidgets/Makefile
-devel-docs/libglimpsewidgets/version
+devel-docs/libgimp/Makefile
+devel-docs/libgimp/version
+devel-docs/libgimpbase/Makefile
+devel-docs/libgimpbase/version
+devel-docs/libgimpconfig/Makefile
+devel-docs/libgimpconfig/version
+devel-docs/libgimpcolor/Makefile
+devel-docs/libgimpcolor/version
+devel-docs/libgimpmath/Makefile
+devel-docs/libgimpmath/version
+devel-docs/libgimpmodule/Makefile
+devel-docs/libgimpmodule/version
+devel-docs/libgimpthumb/Makefile
+devel-docs/libgimpthumb/version
+devel-docs/libgimpwidgets/Makefile
+devel-docs/libgimpwidgets/version
 devel-docs/performance-logs/Makefile
 devel-docs/tools/Makefile
 docs/Makefile
@@ -3114,7 +3114,7 @@ etc/Makefile
 etc/gimprc
 m4macros/Makefile
 po/Makefile.in
-po-libglimpse/Makefile.in
+po-libgimp/Makefile.in
 po-plug-ins/Makefile.in
 po-python/Makefile.in
 po-script-fu/Makefile.in
@@ -3158,7 +3158,7 @@ m4_define([generate_po_makefile], [
   ]])
 ])
 
-generate_po_makefile([po-libglimpse])
+generate_po_makefile([po-libgimp])
 generate_po_makefile([po-python])
 generate_po_makefile([po-plug-ins])
 generate_po_makefile([po-script-fu])

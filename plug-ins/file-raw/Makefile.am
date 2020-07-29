@@ -1,8 +1,9 @@
 ## Process this file with automake to produce Makefile.in
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpse = $(top_builddir)/libglimpse/libglimpse-$(GIMP_API_VERSION).la
+
+libgimp = $(top_builddir)/libgimp/libgimp-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
 
 filerawdatadir = $(gimpdatadir)/file-raw
 
@@ -50,10 +51,10 @@ file_raw_placeholder_SOURCES = \
 	file-raw-placeholder.c
 
 file_darktable_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsebase)		\
-	$(libglimpsecolor)		\
-	$(libglimpseconfig)	\
+	$(libgimp)		\
+	$(libgimpbase)		\
+	$(libgimpcolor)		\
+	$(libgimpconfig)	\
 	$(CAIRO_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -61,10 +62,10 @@ file_darktable_LDADD = \
 	$(file_darktable_RC)
 
 file_rawtherapee_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsebase)		\
-	$(libglimpsecolor)		\
-	$(libglimpseconfig)	\
+	$(libgimp)		\
+	$(libgimpbase)		\
+	$(libgimpcolor)		\
+	$(libgimpconfig)	\
 	$(CAIRO_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\
@@ -72,10 +73,10 @@ file_rawtherapee_LDADD = \
 	$(file_rawtherapee_RC)
 
 file_raw_placeholder_LDADD = \
-	$(libglimpse)		\
-	$(libglimpsebase)		\
-	$(libglimpsecolor)		\
-	$(libglimpseconfig)	\
+	$(libgimp)		\
+	$(libgimpbase)		\
+	$(libgimpcolor)		\
+	$(libgimpconfig)	\
 	$(CAIRO_LIBS)		\
 	$(GEGL_LIBS)		\
 	$(RT_LIBS)		\

@@ -26,8 +26,8 @@
 #include <glib.h>
 #include <glib/gstdio.h> /* g_unlink() */
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "screenshot.h"
 #include "screenshot-kwin.h"

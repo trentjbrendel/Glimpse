@@ -27,7 +27,7 @@
 #include "imap_commands.h"
 #include "imap_polygon.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static CmdExecuteValue_t delete_point_command_execute(Command_t *parent);
 static void delete_point_command_undo(Command_t *parent);

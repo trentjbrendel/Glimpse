@@ -364,7 +364,7 @@ CODE
 }
 
 
-@headers = qw("libglimpsebase/gimpbase.h");
+@headers = qw("libgimpbase/gimpbase.h");
 
 @procs = qw(channel_new
             channel_new_from_component

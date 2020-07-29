@@ -25,8 +25,8 @@
 
 #include <glib/gstdio.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include <png.h>
 
@@ -35,7 +35,7 @@
 #include "ico.h"
 #include "ico-load.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define A_VAL(p) ((guchar *)(p))[3]

@@ -86,10 +86,10 @@
 
 #include <libmng.h>
 
-#include "libglimpse/gimp.h"
-#include "libglimpse/gimpui.h"
+#include "libgimp/gimp.h"
+#include "libgimp/gimpui.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define SAVE_PROC      "file-mng-save"

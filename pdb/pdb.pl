@@ -107,7 +107,7 @@ package Gimp::CodeGen::pdb;
 		     init_value     => '{ 0.0, 0.0, 0.0, 1.0 }',
 		     get_value_func => 'gimp_value_get_rgb ($value, &$var)',
 		     set_value_func => 'gimp_value_set_rgb ($value, &$var)',
-		     headers        => [ qw(<cairo.h> "libglimpsecolor/gimpcolor.h") ] },
+		     headers        => [ qw(<cairo.h> "libgimpcolor/gimpcolor.h") ] },
 
     display     => { name           => 'DISPLAY',
 		     type           => 'GimpObject *',
@@ -195,7 +195,7 @@ package Gimp::CodeGen::pdb;
 		     init_value     => 'NULL',
 		     get_value_func => '$var = g_value_get_boxed ($value)',
 		     set_value_func => 'g_value_take_boxed ($value, $var)',
-		     headers => [ qw("libglimpsebase/gimpbase.h") ] },
+		     headers => [ qw("libgimpbase/gimpbase.h") ] },
 
     # Special cases
     enum        => { name           => 'INT32',

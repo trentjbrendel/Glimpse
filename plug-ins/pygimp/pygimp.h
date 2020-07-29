@@ -21,7 +21,7 @@
 
 #include <Python.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 #define _INSIDE_PYGIMP_
 #include "pygimp-api.h"

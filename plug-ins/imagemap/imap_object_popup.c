@@ -29,7 +29,7 @@
 #include "imap_menu.h"
 #include "imap_object_popup.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 void
 object_handle_popup(ObjectPopup_t *popup, Object_t *obj, GdkEventButton *event)

@@ -42,10 +42,10 @@
 #include <glib/gstdio.h>
 
 #ifdef G_OS_WIN32
-#include <libglimpsebase/gimpwin32-io.h>
+#include <libgimpbase/gimpwin32-io.h>
 #endif
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "core-types.h"
 

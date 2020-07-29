@@ -20,9 +20,9 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "tools-types.h"
 

@@ -21,14 +21,14 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gimpressionist.h"
 #include "ppmtool.h"
 #include "paper.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 static GtkWidget *paper_preview       = NULL;

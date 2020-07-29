@@ -19,7 +19,7 @@
 #define __WIDGETS_TYPES_H__
 
 
-#include "libglimpsewidgets/gimpwidgetstypes.h"
+#include "libgimpwidgets/gimpwidgetstypes.h"
 
 #include "core/core-types.h"
 

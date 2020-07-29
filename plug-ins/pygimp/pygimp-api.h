@@ -21,7 +21,7 @@
 
 #include <Python.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 typedef struct {
     PyObject_HEAD

@@ -22,7 +22,7 @@
 #include <gtk/gtk.h>
 #include <gegl.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "menus-types.h"
 

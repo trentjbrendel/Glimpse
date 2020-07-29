@@ -24,12 +24,12 @@
 
 #include <gtk/gtk.h>
 
-#include "libglimpse/gimp.h"
+#include "libgimp/gimp.h"
 
 #include "imap_commands.h"
 #include "imap_main.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static void move_command_destruct(Command_t *parent);
 static CmdExecuteValue_t move_command_execute(Command_t *parent);

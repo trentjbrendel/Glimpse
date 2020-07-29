@@ -28,8 +28,8 @@
 #include <pycairo.h>
 Pycairo_CAPI_t *Pycairo_CAPI;
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "pygimpcolor-api.h"
 #include "pygimp-api.h"

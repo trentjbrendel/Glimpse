@@ -23,7 +23,7 @@
 #include <glib-object.h>
 #include <cairo.h>
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "vectors-types.h"
 

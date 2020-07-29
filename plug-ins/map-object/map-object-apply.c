@@ -8,15 +8,15 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "map-object-main.h"
 #include "map-object-image.h"
 #include "map-object-shade.h"
 #include "map-object-apply.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 /*************/

@@ -28,7 +28,7 @@
 
 #include <gtk/gtk.h>
 
-#include "libglimpse/gimp.h"
+#include "libgimp/gimp.h"
 
 #include "tinyscheme/scheme-private.h"
 #if USE_DL
@@ -85,7 +85,7 @@ typedef struct
 
 static const NamedConstant script_constants[] =
 {
-  /* Useful values from libglimpsebase/gimplimits.h */
+  /* Useful values from libgimpbase/gimplimits.h */
   { "MIN-IMAGE-SIZE", GIMP_MIN_IMAGE_SIZE },
   { "MAX-IMAGE-SIZE", GIMP_MAX_IMAGE_SIZE },
   { "MIN-RESOLUTION", GIMP_MIN_RESOLUTION },

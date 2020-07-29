@@ -37,11 +37,11 @@
 #include <ApplicationServices/ApplicationServices.h>
 #endif
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 
@@ -1030,7 +1030,7 @@ gimp_window_transient_realized (GtkWidget *window,
     gdk_window_set_transient_for (gtk_widget_get_window (window), parent);
 }
 
-/* similar to what we have in libglimpse/gimpui.c */
+/* similar to what we have in libgimp/gimpui.c */
 static GdkWindow *
 gimp_get_foreign_window (guint32 window)
 {
@@ -1056,7 +1056,7 @@ gimp_window_set_transient_for (GtkWindow *window,
    * processes. In some newer GTK+ version it will be fixed to be a
    * no-op. If it eventually is fixed to actually work, change this to
    * a run-time check of GTK+ version. Remember to change also the
-   * function with the same name in libglimpse/gimpui.c
+   * function with the same name in libgimp/gimpui.c
    */
 #ifndef GDK_WINDOWING_WIN32
   GdkWindow *parent;

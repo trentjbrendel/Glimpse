@@ -28,7 +28,7 @@
 
 #include "pygimp-api.h"
 #include "pygimp-util.h"
-#include "libglimpse/gimpui.h"
+#include "libgimp/gimpui.h"
 
 static void
 add_misc_enums(PyObject *m)

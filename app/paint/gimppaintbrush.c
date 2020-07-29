@@ -21,9 +21,9 @@
 #include <gegl.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "paint-types.h"
 

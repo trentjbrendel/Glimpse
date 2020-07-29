@@ -22,8 +22,8 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "imap_table.h"
 

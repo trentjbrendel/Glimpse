@@ -52,7 +52,7 @@
 
 #include <babl/babl.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "pdb/pdb-types.h"
 
@@ -453,7 +453,7 @@ main (int    argc,
   }
 
   /* On Windows, set DLL search path to $INSTALLDIR/bin so that .exe
-     plug-ins in the plug-ins directory can find libglimpse and file
+     plug-ins in the plug-ins directory can find libgimp and file
      library DLLs without needing to set external PATH. */
   {
     const gchar *install_dir;
@@ -919,9 +919,9 @@ gimp_init_i18n (void)
 
   setlocale (LC_ALL, "");
 
-  bindtextdomain (GETTEXT_PACKAGE"-libglimpse", gimp_locale_directory ());
+  bindtextdomain (GETTEXT_PACKAGE"-libgimp", gimp_locale_directory ());
 #ifdef HAVE_BIND_TEXTDOMAIN_CODESET
-  bind_textdomain_codeset (GETTEXT_PACKAGE"-libglimpse", "UTF-8");
+  bind_textdomain_codeset (GETTEXT_PACKAGE"-libgimp", "UTF-8");
 #endif
 
   bindtextdomain (GETTEXT_PACKAGE, gimp_locale_directory ());

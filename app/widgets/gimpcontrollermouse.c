@@ -25,7 +25,7 @@
 #undef GDK_MULTIHEAD_SAFE /* for gdk_keymap_get_default() */
 #include <gtk/gtk.h>
 
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

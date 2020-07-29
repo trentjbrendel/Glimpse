@@ -26,8 +26,8 @@
 
 #include <stdlib.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gfig.h"
 #include "gfig-dobject.h"
@@ -35,7 +35,7 @@
 #include "gfig-spiral.h"
 #include "gfig-dialog.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static void        d_draw_spiral   (GfigObject *obj,
                                     cairo_t    *cr);

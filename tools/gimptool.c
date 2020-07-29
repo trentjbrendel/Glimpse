@@ -33,10 +33,10 @@
 
 #include <gio/gio.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #ifdef G_OS_WIN32
-#include "libglimpsebase/gimpwin32-io.h"
+#include "libgimpbase/gimpwin32-io.h"
 #endif
 
 
@@ -352,7 +352,7 @@ user directory.\n\
 \n\
 For plug-ins which do not use GTK+, the --build and --install options can be\n\
 appended with -noui for appropriate settings. For plug-ins that use GTK+ but\n\
-not libglimpseui, append -nogimpui.\n");
+not libgimpui, append -nogimpui.\n");
   exit (exit_status);
 }
 

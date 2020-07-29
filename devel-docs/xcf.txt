@@ -715,7 +715,7 @@ The image structure always starts at offset 0 in the XCF file.
                              1: Grayscale
                              2: Indexed color
                            (see enum GimpImageBaseType
-                           in libglimpsebase/gimpbaseenums.h)
+                           in libgimpbase/gimpbaseenums.h)
   uint32      precision    Image precision; this field is only present for
                            XCF 4 or over (since GIMP 2.10.0). Its value for
                            XCF 7 or over is one of:
@@ -1116,7 +1116,7 @@ master image structure.
                       3: Grayscale with alpha
                       4: Indexed without alpha
                       5: Indexed with alpha
-                    (see enum GimpImageType in libglimpsebase/gimpbaseenums.h)
+                    (see enum GimpImageType in libgimpbase/gimpbaseenums.h)
   string     name   Name of the layer
   property-list     Layer properties
   pointer    hptr   Pointer to the hierarchy structure with the pixels

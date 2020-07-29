@@ -21,7 +21,7 @@
 
       <Para>This document outlines the interfaces to Gimp-Python,
       which is a set of Python modules that act as a wrapper to
-      <filename>libglimpse</filename> allowing the writing of
+      <filename>libgimp</filename> allowing the writing of
       plug-ins for GIMP.  In this way, Gimp-Python is similar to
       Script-Fu, except that you can use the full set of Python
       extension modules from the plug-in.</Para>
@@ -55,7 +55,7 @@
 
       <Para>Also, Gimp-Python is not limited to just calling
       procedures from the PDB.  It also implements the rest of
-      <filename>libglimpse</filename>, including tiles and pixel regions,
+      <filename>libgimp</filename>, including tiles and pixel regions,
       and access to other lower level functions.</Para>
       
     </Sect2>
@@ -94,7 +94,7 @@ make install
     <Para>The main purpose of <filename>plugin.py</filename> was to
     implement an object oriented structure for plug-ins.  As well as
     this, it handles tracebacks, which are otherwise ignored by
-    <filename>libglimpse</filename>, and gives a method to call
+    <filename>libgimp</filename>, and gives a method to call
     other Gimp-Python plug-ins without going through the procedural
     database.</Para>
 
@@ -2012,7 +2012,7 @@ pdb.query(name, [blurb, [help, [author, [copyright, [date, [type]]]]]])
       <Title>The gimpenums Module</Title>
 
       <Para>This module contains all the constants found in the header
-      <filename>libglimpse/gimpenums.h</filename>, as well as some extra
+      <filename>libgimp/gimpenums.h</filename>, as well as some extra
       constants that are available in Script-Fu.</Para>
 
     </Sect2>

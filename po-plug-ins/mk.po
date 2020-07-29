@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp-plug-ins.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-15 00:26+0100\n"
+"POT-Creation-Date: 2020-07-29 06:10+0100\n"
 "PO-Revision-Date: 2020-02-08 14:36-0800\n"
 "Last-Translator: Marko Doda <marko@lugola.net>\n"
 "Language-Team: American English <kde-i18n-doc@lists.kde.org>\n"
@@ -4889,8 +4889,8 @@ msgstr "Филмска лента"
 msgid "_Fit height to images"
 msgstr "_Намести ја висината во сликите"
 
-# #: libglimpse/gimpfileselection.c:355
-# #: libglimpse/gimpunitmenu.c:510
+# #: libgimp/gimpfileselection.c:355
+# #: libgimp/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #
@@ -5105,8 +5105,8 @@ msgstr "Варијации на вредноста"
 msgid "Saturation Variations"
 msgstr "Варијации на заситеноста"
 
-# #: libglimpse/gimpfileselection.c:355
-# #: libglimpse/gimpunitmenu.c:510
+# #: libgimp/gimpfileselection.c:355
+# #: libgimp/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #: ../plug-ins/common/filter-pack.c:888
@@ -11719,8 +11719,8 @@ msgstr "Број на чекори за пони_штување (1 - 99):"
 msgid "Number of M_RU entries (1 - 16):"
 msgstr "Број на M_RU внесови (1 - 16):"
 
-# #: libglimpse/gimpfileselection.c:355
-# #: libglimpse/gimpunitmenu.c:510
+# #: libgimp/gimpfileselection.c:355
+# #: libgimp/gimpunitmenu.c:510
 # msgid "Select"
 # msgstr "Odabir"
 #
@@ -14873,10 +14873,10 @@ msgstr "Префрлам податоци од Скенер/Камера"
 #~ msgid "Pixelizing"
 #~ msgstr "Пикселизирам"
 
-# #: libglimpse/gimpexport.c:305
+# #: libgimp/gimpexport.c:305
 # msgid "Cancel"
 # msgstr "Odustani"
-# #: libglimpse/gimpfileselection.c:3libglimpse/gimpunitmenu.c:518
+# #: libgimp/gimpfileselection.c:3libgimp/gimpunitmenu.c:518
 # msgid "Close"
 # msgstr "Zatvori"
 #

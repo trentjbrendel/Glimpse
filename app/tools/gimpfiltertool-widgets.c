@@ -24,7 +24,7 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "tools-types.h"
 

@@ -22,9 +22,9 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsethumb/gimpthumb.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpthumb/gimpthumb.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

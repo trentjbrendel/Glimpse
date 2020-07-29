@@ -1,10 +1,10 @@
 ## Process this file with automake to produce Makefile.in
 
-libglimpsebase = $(top_builddir)/libglimpsebase/libglimpsebase-$(GIMP_API_VERSION).la
-libglimpsecolor = $(top_builddir)/libglimpsecolor/libglimpsecolor-$(GIMP_API_VERSION).la
-libglimpseconfig = $(top_builddir)/libglimpseconfig/libglimpseconfig-$(GIMP_API_VERSION).la
-libglimpsemodule = $(top_builddir)/libglimpsemodule/libglimpsemodule-$(GIMP_API_VERSION).la
-libglimpsewidgets = $(top_builddir)/libglimpsewidgets/libglimpsewidgets-$(GIMP_API_VERSION).la
+libgimpbase = $(top_builddir)/libgimpbase/libgimpbase-$(GIMP_API_VERSION).la
+libgimpcolor = $(top_builddir)/libgimpcolor/libgimpcolor-$(GIMP_API_VERSION).la
+libgimpconfig = $(top_builddir)/libgimpconfig/libgimpconfig-$(GIMP_API_VERSION).la
+libgimpmodule = $(top_builddir)/libgimpmodule/libgimpmodule-$(GIMP_API_VERSION).la
+libgimpwidgets = $(top_builddir)/libgimpwidgets/libgimpwidgets-$(GIMP_API_VERSION).la
 
 if PLATFORM_WIN32
 no_undefined = -no-undefined
@@ -44,15 +44,15 @@ lib_LTLIBRARIES = \
 	$(controller_dx_dinput_module)
 
 
-modules_libadd = $(libglimpsemodule) $(libglimpsewidgets) $(GTK_LIBS)
+modules_libadd = $(libgimpmodule) $(libgimpwidgets) $(GTK_LIBS)
 
-color_selector_libadd = $(libglimpseconfig) $(libglimpsecolor) $(modules_libadd) $(BABL_LIBS)
-display_filter_libadd = $(libglimpsebase) $(libglimpseconf) $(libglimpsecolor) $(modules_libadd) $(GEGL_LIBS)
+color_selector_libadd = $(libgimpconfig) $(libgimpcolor) $(modules_libadd) $(BABL_LIBS)
+display_filter_libadd = $(libgimpbase) $(libgimpconfig) $(libgimpcolor) $(modules_libadd) $(GEGL_LIBS)
 controller_libadd = $(modules_libadd)
 
 libcolor_selector_cmyk_la_SOURCES = color-selector-cmyk.c
 libcolor_selector_cmyk_la_LDFLAGS = -avoid-version -module $(no_undefined)
-libcolor_selector_cmyk_la_LIBADD = $(libglimpseconfig) $(color_selector_libadd)
+libcolor_selector_cmyk_la_LIBADD = $(libgimpconfig) $(color_selector_libadd)
 
 libcolor_selector_water_la_SOURCES = color-selector-water.c
 libcolor_selector_water_la_LDFLAGS = -avoid-version -module $(no_undefined)

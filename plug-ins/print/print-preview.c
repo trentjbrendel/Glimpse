@@ -17,8 +17,8 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "print-preview.h"
 
@@ -775,7 +775,7 @@ print_preview_get_page_margins (PrintPreview *preview,
 }
 
 
-/*  This thumbnail code should eventually end up in libglimpseui.  */
+/*  This thumbnail code should eventually end up in libgimpui.  */
 
 static cairo_surface_t *
 print_preview_get_thumbnail (gint32 drawable_id,

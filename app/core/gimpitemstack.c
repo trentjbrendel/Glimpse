@@ -26,7 +26,7 @@
 #include <gdk-pixbuf/gdk-pixbuf.h>
 #include <gegl.h>
 
-#include "libglimpsecolor/gimpcolor.h"
+#include "libgimpcolor/gimpcolor.h"
 
 #include "core-types.h"
 

@@ -29,7 +29,7 @@
 #include <gtk/gtk.h>
 #endif
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "about.h"
 #include "git-version.h"

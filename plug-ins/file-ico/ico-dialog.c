@@ -21,8 +21,8 @@
 
 #include <config.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 /* #define ICO_DBG */
 
@@ -30,7 +30,7 @@
 #include "ico-dialog.h"
 #include "ico-save.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 static void   ico_dialog_bpp_changed     (GtkWidget   *combo,
                                           GObject     *hbox);

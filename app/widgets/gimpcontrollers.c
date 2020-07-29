@@ -20,12 +20,12 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #define GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION
-#include "libglimpsewidgets/gimpcontroller.h"
+#include "libgimpwidgets/gimpcontroller.h"
 
 #include "widgets-types.h"
 

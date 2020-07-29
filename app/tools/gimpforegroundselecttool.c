@@ -26,10 +26,10 @@
 #include <gtk/gtk.h>
 #include <gdk/gdkkeysyms.h>
 
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "tools-types.h"
 

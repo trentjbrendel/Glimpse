@@ -23,9 +23,9 @@
 
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpmath/gimpmath.h"
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 
 #include "pdb-types.h"
 

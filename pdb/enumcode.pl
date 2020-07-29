@@ -32,11 +32,11 @@ require 'util.pl';
 *write_file = \&Gimp::CodeGen::util::write_file;
 *FILE_EXT   = \$Gimp::CodeGen::util::FILE_EXT;
 
-my $enumfile = "$builddir/libglimpse/gimpenums.h$FILE_EXT";
+my $enumfile = "$builddir/libgimp/gimpenums.h$FILE_EXT";
 open ENUMFILE, "> $enumfile" or die "Can't open $enumfile: $!\n";
 
 print ENUMFILE <<'LGPL';
-/* libglimpse - The Glimpse Library
+/* LIBGIMP - The GIMP Library
  * Copyright (C) 1995-2003 Peter Mattis and Spencer Kimball
  *
  * This library is free software: you can redistribute it and/or
@@ -68,7 +68,7 @@ G_BEGIN_DECLS
 HEADER
 
 foreach (sort keys %enums) {
-    if (! ($enums{$_}->{header} =~ /libglimpse/) &&
+    if (! ($enums{$_}->{header} =~ /libgimp/) &&
 	! $enums{$_}->{external}) {
         my $gtype = $func = $_;
 
@@ -108,9 +108,9 @@ G_END_DECLS
 HEADER
 
 close ENUMFILE;
-&write_file($enumfile, "$destdir/libglimpse");
+&write_file($enumfile, "$destdir/libgimp");
 
-$enumfile = "$builddir/libglimpse/gimpenums.c.tail$FILE_EXT";
+$enumfile = "$builddir/libgimp/gimpenums.c.tail$FILE_EXT";
 open ENUMFILE, "> $enumfile" or die "Can't open $enumfile: $!\n";
 
 print ENUMFILE <<CODE;
@@ -218,7 +218,7 @@ gimp_enums_init (void)
  * gimp_enums_get_type_names:
  * \@n_type_names: return location for the number of names
  *
- * This function gives access to the list of enums registered by libglimpse.
+ * This function gives access to the list of enums registered by libgimp.
  * The returned array is static and must not be modified.
  *
  * Return value: an array with type names
@@ -237,4 +237,4 @@ gimp_enums_get_type_names (gint *n_type_names)
 CODE
 
 close ENUMFILE;
-&write_file($enumfile, "$destdir/libglimpse");
+&write_file($enumfile, "$destdir/libgimp");

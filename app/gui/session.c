@@ -23,8 +23,8 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpseconfig/gimpconfig.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpconfig/gimpconfig.h"
 
 #include "gui-types.h"
 

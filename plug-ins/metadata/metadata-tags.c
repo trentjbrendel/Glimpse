@@ -21,8 +21,8 @@
 #include <glib.h>
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
-#include "libglimpse/stdplugins-intl.h"
+#include <libgimp/gimp.h>
+#include "libgimp/stdplugins-intl.h"
 
 #include "metadata-tags.h"
 

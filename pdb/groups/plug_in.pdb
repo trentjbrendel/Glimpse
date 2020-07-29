@@ -419,7 +419,7 @@ CODE
 
 @headers = qw(<string.h>
               <stdlib.h>
-              "libglimpsebase/gimpbase.h"
+              "libgimpbase/gimpbase.h"
               "core/gimp.h"
               "plug-in/gimpplugin.h"
               "plug-in/gimpplugindef.h"

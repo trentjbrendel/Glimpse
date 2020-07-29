@@ -42,8 +42,8 @@
 #include <unistd.h>
 #endif
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "gui-types.h"
 

@@ -25,10 +25,10 @@
 #include <gegl.h>
 #include <gtk/gtk.h>
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpseconfig/gimpconfig.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpconfig/gimpconfig.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

@@ -27,8 +27,8 @@
 
 #include <glib/gstdio.h>
 
-#include "libglimpse/gimp.h"
-#include "libglimpse/gimpui.h"
+#include "libgimp/gimp.h"
+#include "libgimp/gimpui.h"
 
 #include "imap_command.h"
 #include "imap_file.h"
@@ -39,7 +39,7 @@
 #include "imap_preferences.h"
 #include "imap_table.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 typedef struct {
    DefaultDialog_t      *dialog;

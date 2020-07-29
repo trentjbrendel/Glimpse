@@ -21,9 +21,9 @@
 #include "config.h"
 #include <string.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 /* Some useful macros */

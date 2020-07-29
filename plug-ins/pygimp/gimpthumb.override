@@ -7,7 +7,7 @@ headers
 
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include <libglimpsethumb/gimpthumb.h>
+#include <libgimpthumb/gimpthumb.h>
 
 /* TODO: Add a header for these */
 void gimpthumb_register_classes(PyObject *d);

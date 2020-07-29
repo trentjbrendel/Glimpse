@@ -1358,8 +1358,8 @@ CODE
 }
 
 @headers = qw(<cairo.h>
-              "libglimpsebase/gimpbase.h"
-              "libglimpsecolor/gimpcolor.h"
+              "libgimpbase/gimpbase.h"
+              "libgimpcolor/gimpcolor.h"
               "core/gimp.h"
               "core/gimpimage-color-profile.h"
               "core/gimpimage-undo.h"

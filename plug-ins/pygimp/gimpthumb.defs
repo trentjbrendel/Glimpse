@@ -50,7 +50,7 @@
 )
 
 
-;; From ../../libglimpsethumb/gimpthumb-enums.h
+;; From ../../libgimpthumb/gimpthumb-enums.h
 
 (define-function gimp_thumb_file_type_get_type
   (c-name "gimp_thumb_file_type_get_type")
@@ -69,11 +69,11 @@
 
 
 
-;; From ../../libglimpsethumb/gimpthumb-types.h
+;; From ../../libgimpthumb/gimpthumb-types.h
 
 
 
-;; From ../../libglimpsethumb/gimpthumb-utils.h
+;; From ../../libgimpthumb/gimpthumb-utils.h
 
 (define-function init
   (c-name "gimp_thumb_init")
@@ -176,11 +176,11 @@
 
 
 
-;; From ../../libglimpsethumb/gimpthumb.h
+;; From ../../libgimpthumb/gimpthumb.h
 
 
 
-;; From ../../libglimpsethumb/gimpthumbnail.h
+;; From ../../libgimpthumb/gimpthumbnail.h
 
 (define-function gimp_thumbnail_get_type
   (c-name "gimp_thumbnail_get_type")

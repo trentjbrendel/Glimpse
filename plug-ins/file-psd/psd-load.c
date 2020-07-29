@@ -25,7 +25,7 @@
 
 #include <glib/gstdio.h>
 #include <zlib.h>
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 #include "psd.h"
 #include "psd-util.h"
@@ -33,7 +33,7 @@
 #include "psd-layer-res-load.h"
 #include "psd-load.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define COMP_MODE_SIZE sizeof(guint16)

@@ -23,8 +23,8 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "screenshot.h"
 #include "screenshot-freedesktop.h"
@@ -35,7 +35,7 @@
 #include "screenshot-x11.h"
 #include "screenshot-win32.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 /* Defines */

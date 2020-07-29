@@ -50,13 +50,13 @@
 #include <tiffio.h>
 #include <gexiv2/gexiv2.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "file-tiff-io.h"
 #include "file-tiff-save.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define PLUG_IN_ROLE "gimp-file-tiff-save"

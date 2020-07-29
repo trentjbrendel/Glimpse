@@ -34,15 +34,15 @@ import sys, commands
 from os import path
 
 def_files = (
-   "libglimpsebase/gimpbase.def",
-   "libglimpsecolor/gimpcolor.def",
-   "libglimpseconfig/gimpconfig.def",
-   "libglimpse/gimp.def",
-   "libglimpse/gimpui.def",
-   "libglimpsemath/gimpmath.def",
-   "libglimpsemodule/gimpmodule.def",
-   "libglimpsethumb/gimpthumb.def",
-   "libglimpsewidgets/gimpwidgets.def"
+   "libgimpbase/gimpbase.def",
+   "libgimpcolor/gimpcolor.def",
+   "libgimpconfig/gimpconfig.def",
+   "libgimp/gimp.def",
+   "libgimp/gimpui.def",
+   "libgimpmath/gimpmath.def",
+   "libgimpmodule/gimpmodule.def",
+   "libgimpthumb/gimpthumb.def",
+   "libgimpwidgets/gimpwidgets.def"
 )
 
 have_errors = 0

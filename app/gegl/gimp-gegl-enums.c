@@ -3,7 +3,7 @@
 
 #include "config.h"
 #include <gio/gio.h>
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 #include "core/core-enums.h"
 #include "gimp-gegl-enums.h"
 #include "gimp-intl.h"

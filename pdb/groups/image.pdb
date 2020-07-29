@@ -3117,8 +3117,8 @@ $extra{app}->{code} = <<'CODE';
 #endif
 CODE
 
-@headers = qw("libglimpsemath/gimpmath.h"
-              "libglimpsebase/gimpbase.h"
+@headers = qw("libgimpmath/gimpmath.h"
+              "libgimpbase/gimpbase.h"
               "gegl/gimp-babl.h"
               "core/gimp.h"
               "core/gimpcontainer.h"

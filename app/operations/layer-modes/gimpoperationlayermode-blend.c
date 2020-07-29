@@ -26,9 +26,9 @@
 #include <cairo.h>
 #include <gdk-pixbuf/gdk-pixbuf.h>
 
-#include "libglimpsecolor/gimpcolor.h"
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsemath/gimpmath.h"
+#include "libgimpcolor/gimpcolor.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpmath/gimpmath.h"
 
 #include "../operations-types.h"
 

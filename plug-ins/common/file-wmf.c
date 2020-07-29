@@ -25,11 +25,11 @@
 #include <libwmf/api.h>
 #include <libwmf/gd.h>
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
-#include <libglimpsemath/gimpmath.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
+#include <libgimpmath/gimpmath.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define LOAD_PROC               "file-wmf-load"

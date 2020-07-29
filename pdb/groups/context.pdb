@@ -3377,7 +3377,7 @@ CODE
               "core/gimplist.h"
               "core/gimpstrokeoptions.h"
               "paint/gimppaintoptions.h"
-              "libglimpseconfig/gimpconfig.h"
+              "libgimpconfig/gimpconfig.h"
               "plug-in/gimpplugin.h"
               "plug-in/gimpplugin-context.h"
               "plug-in/gimppluginmanager.h"

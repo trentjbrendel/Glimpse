@@ -22,7 +22,7 @@
 
 #include <gtk/gtk.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 
 #include "gimpressionist.h"
 #include "brush.h"
@@ -34,7 +34,7 @@
 #include "size.h"
 #include "infile.h"
 
-#include <libglimpse/stdplugins-intl.h>
+#include <libgimp/stdplugins-intl.h>
 
 static gimpressionist_vals_t runningvals;
 

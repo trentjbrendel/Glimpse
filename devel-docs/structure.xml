@@ -82,7 +82,7 @@
           </entry>
 	</row>
  	<row>
-	  <entry><filename>libglimpse</filename></entry>
+	  <entry><filename>libgimp</filename></entry>
 	  <entry>
             The main <application>GIMP</application> library. It provides the
             API to write plug-ins in the C programming
@@ -91,35 +91,35 @@
           </entry>
 	</row>
  	<row>
-	  <entry><filename>libglimpsebase</filename></entry>
+	  <entry><filename>libgimpbase</filename></entry>
 	  <entry>
             Basic functions that are shared by the
             <application>GIMP</application> application and its plug-ins.
           </entry>
 	</row>
  	<row>
-	  <entry><filename>libglimpsecolor</filename></entry>
+	  <entry><filename>libgimpcolor</filename></entry>
 	  <entry>
             Color-related functionality that is shared by the
             <application>GIMP</application> application and its plug-ins.
           </entry>
 	</row>
  	<row>
-	  <entry><filename>libglimpsemath</filename></entry>
+	  <entry><filename>libgimpmath</filename></entry>
 	  <entry>
             A basic set of mathematic operations useful for the the
             <application>GIMP</application> application and its plug-ins.
           </entry>
 	</row>
  	<row>
-	  <entry><filename>libglimpsemodule</filename></entry>
+	  <entry><filename>libgimpmodule</filename></entry>
 	  <entry>
             A small library that abstracts dynamic loading of modules. This is
             used to implement loadable color selectors and display filters.
           </entry>
 	</row>
  	<row>
-	  <entry><filename>libglimpsewidgets</filename></entry>
+	  <entry><filename>libgimpwidgets</filename></entry>
 	  <entry>
             User interface elements (widgets) and utility functions that are
             shared by the <application>GIMP</application> application and its
@@ -157,9 +157,9 @@
           </entry>
 	</row>
  	<row>
-	  <entry><filename>po-libglimpse</filename></entry>
+	  <entry><filename>po-libgimp</filename></entry>
 	  <entry>
-            Translations of strings used in libglimpse.
+            Translations of strings used in libgimp.
           </entry>
 	</row>
  	<row>

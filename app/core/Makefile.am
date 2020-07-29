@@ -528,7 +528,7 @@ gimpmarshal.c: gimpmarshal.h
 
 xgen-cec: $(srcdir)/core-enums.h $(GIMP_MKENUMS) Makefile.am
 	$(AM_V_GEN) $(GIMP_MKENUMS) \
-		--fhead "#include \"config.h\"\n#include <gio/gio.h>\n#include \"libglimpsebase/gimpbase.h\"\n#include \"core-enums.h\"\n#include \"gimp-intl.h\"" \
+		--fhead "#include \"config.h\"\n#include <gio/gio.h>\n#include \"libgimpbase/gimpbase.h\"\n#include \"core-enums.h\"\n#include \"gimp-intl.h\"" \
 		--fprod "\n/* enumerations from \"@basename@\" */" \
 		--vhead "GType\n@enum_name@_get_type (void)\n{\n  static const G@Type@Value values[] =\n  {" \
 		--vprod "    { @VALUENAME@, \"@VALUENAME@\", \"@valuenick@\" }," \

@@ -52,9 +52,9 @@
 #endif /* HAVE_UNISTD_H && HAVE_FCNTL_H */
 #endif /* ! G_OS_WIN32 */
 
-#include "libglimpsebase/gimpbase.h"
-#include "libglimpsemath/gimpmath.h"
-#include "libglimpsewidgets/gimpwidgets.h"
+#include "libgimpbase/gimpbase.h"
+#include "libgimpmath/gimpmath.h"
+#include "libgimpwidgets/gimpwidgets.h"
 
 #include "widgets-types.h"
 

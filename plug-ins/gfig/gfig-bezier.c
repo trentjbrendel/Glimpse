@@ -24,8 +24,8 @@
 
 #include "config.h"
 
-#include <libglimpse/gimp.h>
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimp.h>
+#include <libgimp/gimpui.h>
 
 #include "gfig.h"
 #include "gfig-line.h"
@@ -33,7 +33,7 @@
 #include "gfig-dialog.h"
 #include "gfig-bezier.h"
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 #define FP_PNT_MAX  10
 

@@ -268,7 +268,7 @@ pygimp_param_to_tuple(int nparams, const GimpParam *params)
 	    value = pygimp_rgb_new(&params[i].data.d_color);
 	    break;
 	/*
-	GIMP_PDB_REGION is deprecated in libglimpsebase/gimpbaseenums.h
+	GIMP_PDB_REGION is deprecated in libgimpbase/gimpbaseenums.h
 	and conflicts with GIMP_PDB_ITEM
 	case GIMP_PDB_REGION:
 	    value = Py_BuildValue("(iiii)",

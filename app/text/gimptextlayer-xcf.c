@@ -24,7 +24,7 @@
 #include <gegl.h>
 #include <cairo.h>
 
-#include "libglimpsebase/gimpbase.h"
+#include "libgimpbase/gimpbase.h"
 #include "text-types.h"
 
 #include "core/gimp.h"

@@ -34,11 +34,11 @@
 
 #include <string.h>
 
-#include <libglimpse/gimp.h>
+#include <libgimp/gimp.h>
 #undef GDK_DISABLE_DEPRECATED
-#include <libglimpse/gimpui.h>
+#include <libgimp/gimpui.h>
 
-#include "libglimpse/stdplugins-intl.h"
+#include "libgimp/stdplugins-intl.h"
 
 
 #define PLUG_IN_PROC   "plug-in-animationplay"
