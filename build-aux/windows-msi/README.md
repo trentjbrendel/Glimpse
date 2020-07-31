@@ -22,8 +22,9 @@ These instructions will package the code as a 32-bit Windows MSI installer. To b
 5. Copy the `COPYING` file to `InputFiles32\COPYING.TXT`
 6. Copy the `LICENSE` file to `InputFiles32\LICENSE.TXT`
 7. Copy the `intl.dll` file in this directory to `InputFiles32\bin\`
-8. Copy the contents of `C:\msys64\mingw32` to `InputFiles32`
-9. Navigate to the directory this file is in using a command prompt window and run the following commands:
+8. Copy `build-aux\windows\fileicon.ico` to `InputFiles32\bin`
+9. Copy the contents of `C:\msys64\mingw32` to `InputFiles32`
+10. Navigate to the directory this file is in using a command prompt window and run the following commands:
 
 ```bat
 "%WIX%bin"\candle.exe glimpse-i686.wxs -arch x86
@@ -47,8 +48,9 @@ If you want 32-bit plugin support, you also need a working 32-bit build environm
 7. Copy the contents of `C:\msys64\mingw64` to `InputFiles64`
 8. Create a new folder at `InputFiles64\32` and copy the contents of `C:\msys64\mingw32` into it
 9. Copy the `intl.dll` file in this directory to `InputFiles64\32\bin\`
-10. Download the ZIP version of G'MIC from https://gmic.eu/download.shtml, extract it, then copy the `gmic_gimp_qt` folder to `InputFiles64\lib\glimpse\2.0\plug-ins\`
-11. Navigate to the directory this file is in using a command prompt window and run the following commands:
+10. Copy `build-aux\windows\fileicon.ico` to `InputFiles64\bin`
+11. Download the ZIP version of G'MIC from https://gmic.eu/download.shtml, extract it, then copy the `gmic_gimp_qt` folder to `InputFiles64\lib\glimpse\2.0\plug-ins\`
+12. Navigate to the directory this file is in using a command prompt window and run the following commands:
 
 ```bat
 "%WIX%bin"\candle.exe glimpse-x64.wxs -arch x64
