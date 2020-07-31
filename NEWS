@@ -47,6 +47,8 @@ that bring us in line with upstream
 * Increased minimum Windows installer version to 5.0 or later (Windows 7 onwards)
 * 64-bit Windows installer now prebundles G'MIC by default
 * Adapted some default configuration settings to match PhotoGIMP
+* Fixed missing Open With... option on Windows, and set Glimpse as default program for XCF files
+
 
 Overview of Changes in Glimpse 0.1.2 Release 2
 ==============================================
