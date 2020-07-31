@@ -17,6 +17,7 @@
 		<UIRef Id="WixUI_InstallDir" />
 		<WixVariable Id="WixUILicenseRtf" Value="gpl-3.0.rtf" />
 		<Icon Id="Glimpse.exe" SourceFile="InputFiles64\bin\glimpse-0.2.exe" />
+		<Icon Id="GlimpseFileIcon" SourceFile="InputFiles64\bin\fileicon.ico" />
 		<Property Id="ARPPRODUCTICON" Value="Glimpse.exe" />
 		<!-- Files to be installed -->
 		<Media Id="1" Cabinet="Glimpse.cab" EmbedCab="yes" DiskPrompt="CD-ROM #1" />
