@@ -17,6 +17,7 @@
 		<UIRef Id="WixUI_InstallDir" />
 		<WixVariable Id="WixUILicenseRtf" Value="gpl-3.0.rtf" />
 		<Icon Id="Glimpse.exe" SourceFile="InputFiles32\bin\glimpse-0.2.exe" />
+		<Icon Id="GlimpseFileIcon" SourceFile="InputFiles32\bin\fileicon.ico" />
 		<Property Id="ARPPRODUCTICON" Value="Glimpse.exe" />
 		<!-- Files to be installed -->
 		<Media Id="1" Cabinet="Glimpse.cab" EmbedCab="yes" DiskPrompt="CD-ROM #1" />
@@ -41,9 +42,304 @@
 							<!-- This component is the main executable, with shortcuts defined for desktop and start menu -->
 							<Component Id="cmp5942190B3659A153307B5C85041AC9C4" Guid="*">
 								<File Id="filBCA7B5276BD10B39E6895C60C58E6C4E" DiskId="1" Source="InputFiles32\bin\glimpse-0.2.exe" KeyPath="yes">
+									<!-- Start Menu and Desktop shortcuts -->
 									<Shortcut Id="startmenuGlimpse02" Directory="ProgramMenuDir" Name="Glimpse 0.2.0 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
 									<Shortcut Id="desktopGlimpse02" Directory="DesktopFolder" Name="Glimpse 0.2.0 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
 								</File>
+								<!-- Set registry keys for Right-click > Open With... and Windows 7 jump menus -->
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\DefaultIcon" Value="[INSTALLDIR]\bin\Glimpse.exe,1" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\shell\open" Name="FriendlyAppName" Value="Glimpse" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\shell\open\command" Value="&quot;[INSTALLDIR]\bin\Glimpse.exe&quot; &quot;%1&quot;" Type="string" />
+								<!-- Supported types based on build-aux\windows\installer\associations.list & peeking at reg for upstream -->
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".xcf" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".bmp" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".cel" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".dds" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".g3" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".dcm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".dicom" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".exr" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".gif" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".heif" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".heic" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".jp2" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".j2k" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".j2c" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".jpc" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pcx" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pcc" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pdf" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".png" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pnm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".ppm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pgm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pbm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pfm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".ps" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".eps" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".psp" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".tub" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".psimage" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pspimage" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".im1" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".im8" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".im24" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".im32" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".rs" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".ras" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".svg" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".tga" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".vda" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".icb" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".vst" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".tif" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".tiff" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".webp" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".wmf" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".apm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".xpm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".xwd" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".fit" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".fits" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".fli" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".flc" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".jpg" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".jpeg" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".jpe" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".psd" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".sgi" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".rgb" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".rgba" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".bw" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".ico" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".icon" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".pix" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".matte" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".mask" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".alpha" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".als" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".xbm" Value="" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\SupportedTypes" Name=".ora" Value="" Type="string" />
+								<!-- Registry keys provided for Windows 7 "Set Program Access and Defaults" -->
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Glimpse 0.2.0\Capabilities" Name="ApplicationName" Value="Glimpse" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Glimpse 0.2.0\Capabilities" Name="ApplicationIcon" Value="[INSTALLDIR]\bin\Glimpse.exe,0" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Glimpse 0.2.0\Capabilities" Name="ApplicationDescription" Value="Glimpse Image Editor is a free image photo retouching and raster graphics editing program." Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Glimpse 0.2.0\Capabilities\DefaultIcon"  Value="[INSTALLDIR]\bin\Glimpse.exe,1" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Glimpse 0.2.0\Capabilities\shell\open\command" Value="&quot;[INSTALLDIR]\bin\Glimpse.exe&quot; &quot;%1&quot;" Type="string" />
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Glimpse 0.2.0\Capabilities\RegisteredApplications" Name="Glimpse" Value="SOFTWARE\Glimpse\Capabilities" Type="string" />
+								<!-- Set Glimpse Image Editor as the default program for XCF save files -->
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Glimpse 0.2.0\Capabilities\FileAssociations" Name=".xcf" Value="Glimpse.Document" Type="string" />
+								<!-- Link Glimpse.exe to associated documents -->
+								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Glimpse.Document" Name="FriendlyTypeName" Value="Glimpse 0.2.0" Type="string" />
+								<ProgId Id="Glimpse.Document" Description="Glimpse Document" Icon="GlimpseFileIcon" Advertise="yes">
+									<Extension Id="xcf">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="bmp">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="dds">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="g3">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="cel">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="dcm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="dicom">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="exr">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="gif">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="heif">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="heic">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="jp2">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="j2k">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="j2c">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="jpc">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pcx">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pcc">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pdf">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="png">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pnm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="ppm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pgm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pbm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pfm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="ps">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="eps">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="psp">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="tub">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="psimage">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pspimage">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="im1">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="im8">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="im24">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="im32">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="rs">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="ras">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="svg">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="tga">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="vda">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="icb">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="vst">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="tif">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="tiff">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="webp">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="wmf">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="apm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="xpm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="xwd">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="fit">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="fits">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="fli">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="flc">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="jpg">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="jpeg">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="jpe">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="psd">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="sgi">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="rgb">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="rgba">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="bw">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="icon">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="ico">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="pix">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="matte">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="mask">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="alpha">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="als">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="xbm">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+									<Extension Id="ora">
+										<Verb Id="open"  Argument="&quot;%1&quot;" />
+									</Extension>
+								</ProgId>
 							</Component>
 							<Component Id="cmp1B68D842BC45D29EC824D0F65D529367" Guid="*">
 								<File Id="filD9DECC96AF7D6C0FDC9C4D9D18C72AB0" DiskId="1" Source="InputFiles32\bin\glimpse-console-0.2.exe" />
