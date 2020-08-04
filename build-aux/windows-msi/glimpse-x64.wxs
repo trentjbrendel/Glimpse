@@ -19574,171 +19574,50 @@
 									</Component>
 								</Directory>
 								<Directory Id="dir5F54683B9C011ABB34CA304105944BFF" Name="fontconfig">
-									<Directory Id="dirFE1C0FCBE1EF35DAAA8A3D5C021B72F1" Name="conf.avail">
-										<Component Id="cmp301C7D7585EA67B7C70EBEF70181B462" Guid="*" Win64="yes">
-											<File Id="fil9E2DB875A8B25AD69D3EDA2450CB6865" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\05-reset-dirs-sample.conf" />
-										</Component>
-										<Component Id="cmp98AD84C4B54CDC6DDC183F93086CBD0B" Guid="*" Win64="yes">
-											<File Id="filA26EA31D8C375B24389F82AA7D73A35F" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\09-autohint-if-no-hinting.conf" />
-										</Component>
-										<Component Id="cmp44A5B8F793ADD12BFD9B96674660F1FF" Guid="*" Win64="yes">
-											<File Id="filBB6BBE1198A592874CC30304DD2C342B" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-autohint.conf" />
-										</Component>
-										<Component Id="cmpD3AF235C4D4903502255907D194B8573" Guid="*" Win64="yes">
-											<File Id="filF46EB011303228033095ED29223B875E" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-hinting-full.conf" />
-										</Component>
-										<Component Id="cmpF1A69BBE30E2374BBECA9C74F4C3279C" Guid="*" Win64="yes">
-											<File Id="filC66A82BCAC0B215964E08D90901C2E02" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-hinting-medium.conf" />
-										</Component>
-										<Component Id="cmpE6BE84EBA0796CCDA7E64E22FCCBB310" Guid="*" Win64="yes">
-											<File Id="filAC9C73FC55AAB0151174DDF5EF59FEAE" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-hinting-none.conf" />
-										</Component>
-										<Component Id="cmp8675FFA816EE41AF3F65948796BFEFE4" Guid="*" Win64="yes">
-											<File Id="fil9455BC3C7DE58E9B31B81684898E80CF" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-hinting-slight.conf" />
-										</Component>
-										<Component Id="cmp4FB1AD2CBB86DB4621F77DA9C8631390" Guid="*" Win64="yes">
-											<File Id="fil60503ED204E724194CE23B455C0F2B7B" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-no-sub-pixel.conf" />
-										</Component>
-										<Component Id="cmp4776F4942E221F5C12C5192A286A8814" Guid="*" Win64="yes">
-											<File Id="filE72BBD71836C03A855B1BB2F17180465" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-scale-bitmap-fonts.conf" />
-										</Component>
-										<Component Id="cmp0FA9D63D699F27AD16EDFCCC49FC6642" Guid="*" Win64="yes">
-											<File Id="fil97EB3AAB1A15128930C30F54E3838FEA" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-sub-pixel-bgr.conf" />
-										</Component>
-										<Component Id="cmp553679161E774D2B52A9741B5D31C7D5" Guid="*" Win64="yes">
-											<File Id="filCE75A6020CD6250E0FF4ECE9563AB3BF" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-sub-pixel-rgb.conf" />
-										</Component>
-										<Component Id="cmp274831842C6D72B745FECF88897D1EA0" Guid="*" Win64="yes">
-											<File Id="fil99C796750066431668377DB5C9378376" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-sub-pixel-vbgr.conf" />
-										</Component>
-										<Component Id="cmpBB6FB7FF0766214F7E8260A01B2C94A3" Guid="*" Win64="yes">
-											<File Id="filF88141E3933D182C4B78D5EF5EDDD92F" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-sub-pixel-vrgb.conf" />
-										</Component>
-										<Component Id="cmp56EC20BAC99DF60A68BF2CE62813D200" Guid="*" Win64="yes">
-											<File Id="filB0FFE4FF1613E1D570C2D8DEEFF28B00" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\10-unhinted.conf" />
-										</Component>
-										<Component Id="cmp2B7D145665C8E47639C3E56CDE4345FF" Guid="*" Win64="yes">
-											<File Id="filE30631CFC873EAE269FC68A8472F5C04" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\11-lcdfilter-default.conf" />
-										</Component>
-										<Component Id="cmp442A31D17C3FA59C110C1908AD79D2DD" Guid="*" Win64="yes">
-											<File Id="fil18270F3DA7B26734E705BD27B8416E9D" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\11-lcdfilter-legacy.conf" />
-										</Component>
-										<Component Id="cmp53FC9C24D776EC9BF8C451CE24B14D74" Guid="*" Win64="yes">
-											<File Id="fil918722449E86B1DCB5A4A8859DBC41FD" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\11-lcdfilter-light.conf" />
-										</Component>
-										<Component Id="cmp0668731620AFE95BD37DE7E2D57801B9" Guid="*" Win64="yes">
-											<File Id="filA384629C5823B8F9108E666927F89E9B" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\20-unhint-small-vera.conf" />
-										</Component>
-										<Component Id="cmpE972263D813512F6160ABFD3BF8512B0" Guid="*" Win64="yes">
-											<File Id="fil52CA2707F696F93670509D4707386FC0" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\25-unhint-nonlatin.conf" />
-										</Component>
-										<Component Id="cmp0FE3CF96960A57A0FF0DE3EA3FE7953C" Guid="*" Win64="yes">
-											<File Id="fil6A02B8165E485C43C13FC5D13D1CAECE" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\30-metric-aliases.conf" />
-										</Component>
-										<Component Id="cmpA9F79058DCC1D95CA06DB57E6F657D8F" Guid="*" Win64="yes">
-											<File Id="fil77C63D36C6083720071B72E271B3DB78" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\35-lang-normalize.conf" />
-										</Component>
-										<Component Id="cmp4729BDB87EB109BD53A750082E61C5DE" Guid="*" Win64="yes">
-											<File Id="fil184AD46FD13343B1E4904CA920DB09C4" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\40-nonlatin.conf" />
-										</Component>
-										<Component Id="cmp67C86405582BDBBD44353BBE49EECBA8" Guid="*" Win64="yes">
-											<File Id="fil78600573971DCB7FAB455AE4C847F01E" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\45-generic.conf" />
-										</Component>
-										<Component Id="cmp433FA4890080BC597BE3D03D75F6F9C2" Guid="*" Win64="yes">
-											<File Id="filB0C5FA0A6B905669A8B89870D324AB5E" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\45-latin.conf" />
-										</Component>
-										<Component Id="cmpA3364922091E4023727228EF309F4808" Guid="*" Win64="yes">
-											<File Id="filEC82247E2A8D08C96F78264496ADF8AC" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\49-sansserif.conf" />
-										</Component>
-										<Component Id="cmpB410BD9A20A117674FF81AEBAF7D31DE" Guid="*" Win64="yes">
-											<File Id="filC2ECA4DC2F4AE07ACD5101198C6596DA" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\50-user.conf" />
-										</Component>
-										<Component Id="cmp74CAFDBFEB3D77C0A9325D3D1F675347" Guid="*" Win64="yes">
-											<File Id="fil2B24B8E96EB6768F3DF23477F5B16D62" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\51-local.conf" />
-										</Component>
-										<Component Id="cmp5C95D004CCAD400A8BACDC1F5065CAA5" Guid="*" Win64="yes">
-											<File Id="filFB38E0E59BE8841CBAB6921FF77C291B" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\60-generic.conf" />
-										</Component>
-										<Component Id="cmp83A348DFAFC7DAC00A2689AD800B37A8" Guid="*" Win64="yes">
-											<File Id="filB48798B53735408D15BAADA96C6E4692" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\60-latin.conf" />
-										</Component>
-										<Component Id="cmpD346E64F6C364699F068ECAA8DAC6B25" Guid="*" Win64="yes">
-											<File Id="fil96F3B636CF1F841972C90B543889FB35" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\65-fonts-persian.conf" />
-										</Component>
-										<Component Id="cmpB869AA8DA28DA2E215C065466043A3FA" Guid="*" Win64="yes">
-											<File Id="fil138426EE2D8E8A5E488F19A69E08D801" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\65-khmer.conf" />
-										</Component>
-										<Component Id="cmpE96C5B2817F0CA9258221C5D7702C2E3" Guid="*" Win64="yes">
-											<File Id="filC8DA2A852E516F30B52ADF18A264F438" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\65-nonlatin.conf" />
-										</Component>
-										<Component Id="cmpCF593ACDE97E743E38597F014C846B56" Guid="*" Win64="yes">
-											<File Id="filDFE1837F06528DB9DA9584D3D159F801" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\69-unifont.conf" />
-										</Component>
-										<Component Id="cmpD40D73F49E5D7CDD1FC163C9E686AE1E" Guid="*" Win64="yes">
-											<File Id="filB6708FEDD4791EE605008F7D2712FB47" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\70-no-bitmaps.conf" />
-										</Component>
-										<Component Id="cmpD86554B6550DBE2077A344275D43CF36" Guid="*" Win64="yes">
-											<File Id="fil37442A60D5511A6DD52A71230D75FAF1" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\70-yes-bitmaps.conf" />
-										</Component>
-										<Component Id="cmp276CFD872E5B220841CA7A22B54BFD7F" Guid="*" Win64="yes">
-											<File Id="filF52F9DF18B4688148C069AA59718840E" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\80-delicious.conf" />
-										</Component>
-										<Component Id="cmp12005E35B24F1AFC46457A4664A7408F" Guid="*" Win64="yes">
-											<File Id="fil047F7E7EAD6D8DA182A99D577DDB3274" DiskId="1" Source="InputFiles64\share\fontconfig\conf.avail\90-synthetic.conf" />
-										</Component>
-									</Directory>
+									<Component Id="cmp98AD84C4B54CDC6DDC183F93086CBD0B" Guid="*" Win64="yes">
+										<File Id="filA26EA31D8C375B24389F82AA7D73A35F" DiskId="1" Source="InputFiles64\share\xml\fontconfig\fonts.dtd" />
+									</Component>
 								</Directory>
 								<Directory Id="dirB254305CA6EE21DC91A847AC3591184A" Name="iso-codes">
-									<Directory Id="dir5C425EAE00B95D10BE1DA932FD467826" Name="json">
-										<Component Id="cmp4B5ADCE8777CE02EFDB884B4C6122A61" Guid="*" Win64="yes">
-											<File Id="filAFE20DDDBB405CAB223FE2A6086F6C63" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_15924.json" />
-										</Component>
-										<Component Id="cmp5F1A1FE5CE02EC4BCB94AB297A8214FA" Guid="*" Win64="yes">
-											<File Id="fil2BAB1CD3C9479E4A1ED9D0DAB64983C1" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_3166-1.json" />
-										</Component>
-										<Component Id="cmp73B32C10E10B7B5C6C0F1DE412AEBCA7" Guid="*" Win64="yes">
-											<File Id="fil91A906ADF9DC5C2F75167715DCEEA918" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_3166-2.json" />
-										</Component>
-										<Component Id="cmpDC8F9E23D223CB21A19394702D7874AB" Guid="*" Win64="yes">
-											<File Id="fil4FBD647C25168FD79FA5AB6D435E0B20" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_3166-3.json" />
-										</Component>
-										<Component Id="cmpC4E84DE6232ED525A02B75F33D728E21" Guid="*" Win64="yes">
-											<File Id="fil3D1824AEE07DFBFB2FCF0C7BB952A813" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_4217.json" />
-										</Component>
-										<Component Id="cmp426180D35B8BFA0D7C58298DEA8BEE4E" Guid="*" Win64="yes">
-											<File Id="filB70A25EC7A6E39C32D9CA1A75E29AE22" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_639-2.json" />
-										</Component>
-										<Component Id="cmp04D770C2E7BD15A526770878A6C8D6F3" Guid="*" Win64="yes">
-											<File Id="fil68385E468A50AB221DD31355A6253D6E" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_639-3.json" />
-										</Component>
-										<Component Id="cmpAA609742EC0B0ABFF3D7EE8F2C521FA5" Guid="*" Win64="yes">
-											<File Id="filFF06D354F6239C28356B6CE65F9BE6BC" DiskId="1" Source="InputFiles64\share\iso-codes\json\iso_639-5.json" />
-										</Component>
-										<Component Id="cmp3F5AE511712F9A14E8548C91C86BDD79" Guid="*" Win64="yes">
-											<File Id="filC6E59BC66CB338EB8CA5E8AB2C86D658" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-15924.json" />
-										</Component>
-										<Component Id="cmp04B8365B23E1B9FE5079A43FC274B372" Guid="*" Win64="yes">
-											<File Id="fil987AC053FDD0F4830AA84059BE185FCA" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-3166-1.json" />
-										</Component>
-										<Component Id="cmp8E0DD09732A48F3A85A75121415A0A2C" Guid="*" Win64="yes">
-											<File Id="fil39E937BB741B34BC6EF1E833DDD23BAB" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-3166-2.json" />
-										</Component>
-										<Component Id="cmpE555C37021C71ACE20076E36C8F00AC1" Guid="*" Win64="yes">
-											<File Id="fil7EA1901F5B1D9641C758EE5B2203BDE9" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-3166-3.json" />
-										</Component>
-										<Component Id="cmp605E698C438F0575C6763F053DFDBA92" Guid="*" Win64="yes">
-											<File Id="fil3E8F9BE806C8DBAAB075E2D51C0D92CD" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-4217.json" />
-										</Component>
-										<Component Id="cmp6A6876505F2A20227EE1C5A3AFCCBBED" Guid="*" Win64="yes">
-											<File Id="fil90E3BD07A609E514EDDB78293215826A" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-639-2.json" />
-										</Component>
-										<Component Id="cmpF472862992511DBC1F3AE3BF85241907" Guid="*" Win64="yes">
-											<File Id="fil320DE3647DC80A5F09691C31E3CFCEA9" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-639-3.json" />
-										</Component>
-										<Component Id="cmp6CA48F962DF8A29FEFC1693FA38FA14D" Guid="*" Win64="yes">
-											<File Id="fil1C3137BA9D26CBD8BD0FC8C332FDB8B0" DiskId="1" Source="InputFiles64\share\iso-codes\json\schema-639-5.json" />
-										</Component>
-									</Directory>
+									<Component Id="cmp4B5ADCE8777CE02EFDB884B4C6122A61" Guid="*" Win64="yes">
+										<File Id="filAFE20DDDBB405CAB223FE2A6086F6C63" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_15924.xml" />
+									</Component>
+									<Component Id="cmp5F1A1FE5CE02EC4BCB94AB297A8214FA" Guid="*" Win64="yes">
+										<File Id="fil2BAB1CD3C9479E4A1ED9D0DAB64983C1" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_3166-1.xml" />
+									</Component>
+									<Component Id="cmp73B32C10E10B7B5C6C0F1DE412AEBCA7" Guid="*" Win64="yes">
+										<File Id="fil91A906ADF9DC5C2F75167715DCEEA918" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_3166-2.xml" />
+									</Component>
+									<Component Id="cmpDC8F9E23D223CB21A19394702D7874AB" Guid="*" Win64="yes">
+										<File Id="fil4FBD647C25168FD79FA5AB6D435E0B20" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_3166-3.xml" />
+									</Component>
+									<Component Id="cmpC4E84DE6232ED525A02B75F33D728E21" Guid="*" Win64="yes">
+										<File Id="fil3D1824AEE07DFBFB2FCF0C7BB952A813" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_4217.xml" />
+									</Component>
+									<Component Id="cmp426180D35B8BFA0D7C58298DEA8BEE4E" Guid="*" Win64="yes">
+										<File Id="filB70A25EC7A6E39C32D9CA1A75E29AE22" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_639-2.xml" />
+									</Component>
+									<Component Id="cmp04D770C2E7BD15A526770878A6C8D6F3" Guid="*" Win64="yes">
+										<File Id="fil68385E468A50AB221DD31355A6253D6E" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_639-3.xml" />
+									</Component>
+									<Component Id="cmpAA609742EC0B0ABFF3D7EE8F2C521FA5" Guid="*" Win64="yes">
+										<File Id="filFF06D354F6239C28356B6CE65F9BE6BC" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_639_5.xml" />
+									</Component>
+									<Component Id="cmp04B8365B23E1B9FE5079A43FC274B372" Guid="*" Win64="yes">
+										<File Id="fil987AC053FDD0F4830AA84059BE185FCA" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_639-5.xml" />
+									</Component>
+									<Component Id="cmp8E0DD09732A48F3A85A75121415A0A2C" Guid="*" Win64="yes">
+										<File Id="fil39E937BB741B34BC6EF1E833DDD23BAB" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_639_3.xml" />
+									</Component>
+									<Component Id="cmpE555C37021C71ACE20076E36C8F00AC1" Guid="*" Win64="yes">
+										<File Id="fil7EA1901F5B1D9641C758EE5B2203BDE9" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_3166_2.xml" />
+									</Component>
+									<Component Id="cmp605E698C438F0575C6763F053DFDBA92" Guid="*" Win64="yes">
+										<File Id="fil3E8F9BE806C8DBAAB075E2D51C0D92CD" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_639.xml" />
+									</Component>
+									<Component Id="cmp6A6876505F2A20227EE1C5A3AFCCBBED" Guid="*" Win64="yes">
+										<File Id="fil90E3BD07A609E514EDDB78293215826A" DiskId="1" Source="InputFiles64\share\xml\iso-codes\iso_3166.xml" />
+									</Component>
 								</Directory>
 								<Directory Id="dirFF76C44AA580E9024767A49CC5071027" Name="libglade">
 									<Component Id="cmp30B5C1C40F7D0CB5184B9D7980ABB4FC" Guid="*" Win64="yes">
@@ -25845,43 +25724,7 @@
 			<ComponentRef Id="cmp9E56A6E653264A0B41FD2C28BDD2A25E" />
 			<ComponentRef Id="cmp9D91F1EA67420C562CFED15EBE164A2C" />
 			<ComponentRef Id="cmp485DD00FBFBF7164056ABCEA5F449B38" />
-			<ComponentRef Id="cmp301C7D7585EA67B7C70EBEF70181B462" />
 			<ComponentRef Id="cmp98AD84C4B54CDC6DDC183F93086CBD0B" />
-			<ComponentRef Id="cmp44A5B8F793ADD12BFD9B96674660F1FF" />
-			<ComponentRef Id="cmpD3AF235C4D4903502255907D194B8573" />
-			<ComponentRef Id="cmpF1A69BBE30E2374BBECA9C74F4C3279C" />
-			<ComponentRef Id="cmpE6BE84EBA0796CCDA7E64E22FCCBB310" />
-			<ComponentRef Id="cmp8675FFA816EE41AF3F65948796BFEFE4" />
-			<ComponentRef Id="cmp4FB1AD2CBB86DB4621F77DA9C8631390" />
-			<ComponentRef Id="cmp4776F4942E221F5C12C5192A286A8814" />
-			<ComponentRef Id="cmp0FA9D63D699F27AD16EDFCCC49FC6642" />
-			<ComponentRef Id="cmp553679161E774D2B52A9741B5D31C7D5" />
-			<ComponentRef Id="cmp274831842C6D72B745FECF88897D1EA0" />
-			<ComponentRef Id="cmpBB6FB7FF0766214F7E8260A01B2C94A3" />
-			<ComponentRef Id="cmp56EC20BAC99DF60A68BF2CE62813D200" />
-			<ComponentRef Id="cmp2B7D145665C8E47639C3E56CDE4345FF" />
-			<ComponentRef Id="cmp442A31D17C3FA59C110C1908AD79D2DD" />
-			<ComponentRef Id="cmp53FC9C24D776EC9BF8C451CE24B14D74" />
-			<ComponentRef Id="cmp0668731620AFE95BD37DE7E2D57801B9" />
-			<ComponentRef Id="cmpE972263D813512F6160ABFD3BF8512B0" />
-			<ComponentRef Id="cmp0FE3CF96960A57A0FF0DE3EA3FE7953C" />
-			<ComponentRef Id="cmpA9F79058DCC1D95CA06DB57E6F657D8F" />
-			<ComponentRef Id="cmp4729BDB87EB109BD53A750082E61C5DE" />
-			<ComponentRef Id="cmp67C86405582BDBBD44353BBE49EECBA8" />
-			<ComponentRef Id="cmp433FA4890080BC597BE3D03D75F6F9C2" />
-			<ComponentRef Id="cmpA3364922091E4023727228EF309F4808" />
-			<ComponentRef Id="cmpB410BD9A20A117674FF81AEBAF7D31DE" />
-			<ComponentRef Id="cmp74CAFDBFEB3D77C0A9325D3D1F675347" />
-			<ComponentRef Id="cmp5C95D004CCAD400A8BACDC1F5065CAA5" />
-			<ComponentRef Id="cmp83A348DFAFC7DAC00A2689AD800B37A8" />
-			<ComponentRef Id="cmpD346E64F6C364699F068ECAA8DAC6B25" />
-			<ComponentRef Id="cmpB869AA8DA28DA2E215C065466043A3FA" />
-			<ComponentRef Id="cmpE96C5B2817F0CA9258221C5D7702C2E3" />
-			<ComponentRef Id="cmpCF593ACDE97E743E38597F014C846B56" />
-			<ComponentRef Id="cmpD40D73F49E5D7CDD1FC163C9E686AE1E" />
-			<ComponentRef Id="cmpD86554B6550DBE2077A344275D43CF36" />
-			<ComponentRef Id="cmp276CFD872E5B220841CA7A22B54BFD7F" />
-			<ComponentRef Id="cmp12005E35B24F1AFC46457A4664A7408F" />
 			<ComponentRef Id="cmp4B5ADCE8777CE02EFDB884B4C6122A61" />
 			<ComponentRef Id="cmp5F1A1FE5CE02EC4BCB94AB297A8214FA" />
 			<ComponentRef Id="cmp73B32C10E10B7B5C6C0F1DE412AEBCA7" />
@@ -25890,14 +25733,11 @@
 			<ComponentRef Id="cmp426180D35B8BFA0D7C58298DEA8BEE4E" />
 			<ComponentRef Id="cmp04D770C2E7BD15A526770878A6C8D6F3" />
 			<ComponentRef Id="cmpAA609742EC0B0ABFF3D7EE8F2C521FA5" />
-			<ComponentRef Id="cmp3F5AE511712F9A14E8548C91C86BDD79" />
 			<ComponentRef Id="cmp04B8365B23E1B9FE5079A43FC274B372" />
 			<ComponentRef Id="cmp8E0DD09732A48F3A85A75121415A0A2C" />
 			<ComponentRef Id="cmpE555C37021C71ACE20076E36C8F00AC1" />
 			<ComponentRef Id="cmp605E698C438F0575C6763F053DFDBA92" />
 			<ComponentRef Id="cmp6A6876505F2A20227EE1C5A3AFCCBBED" />
-			<ComponentRef Id="cmpF472862992511DBC1F3AE3BF85241907" />
-			<ComponentRef Id="cmp6CA48F962DF8A29FEFC1693FA38FA14D" />
 			<ComponentRef Id="cmp30B5C1C40F7D0CB5184B9D7980ABB4FC" />
 			<ComponentRef Id="cmpCFB7A7DAC8C557B2E51D52561D24D618" />
 		</Feature>
