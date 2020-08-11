@@ -48,12 +48,14 @@ that bring us in line with upstream
 * 64-bit Windows installer now prebundles G'MIC by default
 * Adapted some default configuration settings to match PhotoGIMP
 * Fixed missing Open With... option on Windows, and set Glimpse as default program for XCF files
+* Added Glimpse Image Editor 0.1.2 Gold Edition WiX Manifest file and instructions
 
 
 Overview of Changes in Glimpse 0.1.2 Release 2
 ==============================================
 * Resolved upstream bug that caused the application to crash on GNOME 3.36
 * Uplifted GNOME platform version used by Flatpak to 3.36
+
 
 Overview of Changes in Glimpse 0.1.2
 ====================================
