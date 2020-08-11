@@ -1,6 +1,6 @@
 ## Detailed build instructions
 
-Glimpse 0.1.9 depends on the following subcomponents:
+Glimpse 0.2.0 depends on the following subcomponents:
 
 - GNU Image Manipulation Program 2.10.18
 - BABL 0.1.78
@@ -95,33 +95,37 @@ Install MSYS2, as this will provide MinGW and a mechanism for fetching all the r
 Use this command from inside an MSYS2 console window. Change "x86_64" to "i686" for 32-bit builds:
 
 ```
-    $ pacman -S git base-devel \
-    mingw-w64-x86_64-toolchain \
-    mingw-w64-x86_64-asciidoc \
-    mingw-w64-x86_64-drmingw \
-    mingw-w64-x86_64-gexiv2 \
-    mingw-w64-x86_64-ghostscript \
-    mingw-w64-x86_64-glib-networking \
-    mingw-w64-x86_64-graphviz \
-    mingw-w64-x86_64-gtk2 \
-    mingw-w64-x86_64-python2-pygtk \
-    mingw-w64-x86_64-iso-codes \
-    mingw-w64-x86_64-json-c \
-    mingw-w64-x86_64-json-glib \
-    mingw-w64-x86_64-lcms2 \
-    mingw-w64-x86_64-lensfun \
-    mingw-w64-x86_64-libheif \
-    mingw-w64-x86_64-libraw \
-    mingw-w64-x86_64-libspiro \
-    mingw-w64-x86_64-libwebp \
-    mingw-w64-x86_64-libwmf \
-    mingw-w64-x86_64-openexr \
-    mingw-w64-x86_64-poppler \
-    mingw-w64-x86_64-SDL2 \
-    mingw-w64-x86_64-suitesparse \
-    mingw-w64-x86_64-vala \
-    mingw-w64-x86_64-xpm-nox \
-    mingw-w64-x86_64-gtk-doc
+    pacman -S --needed \
+    base-devel \
+    git \
+    mingw-w64-i686-toolchain \
+    mingw-w64-i686-asciidoc \
+    mingw-w64-i686-drmingw \
+    mingw-w64-i686-gexiv2 \
+    mingw-w64-i686-ghostscript \
+    mingw-w64-i686-glib-networking \
+    mingw-w64-i686-graphviz \
+    mingw-w64-i686-gtk2 \
+    mingw-w64-i686-gtk-doc \
+    mingw-w64-i686-gobject-introspection \
+    mingw-w64-i686-iso-codes \
+    mingw-w64-i686-json-c \
+    mingw-w64-i686-json-glib \
+    mingw-w64-i686-lcms2 \
+    mingw-w64-i686-lensfun \
+    mingw-w64-i686-libheif \
+    mingw-w64-i686-libraw \
+    mingw-w64-i686-libspiro \
+    mingw-w64-i686-libwebp \
+    mingw-w64-i686-libwmf \
+    mingw-w64-i686-meson \
+    mingw-w64-i686-openexr \
+    mingw-w64-i686-poppler \
+    mingw-w64-i686-python2-pygtk \
+    mingw-w64-i686-SDL2 \
+    mingw-w64-i686-suitesparse \
+    mingw-w64-i686-vala \
+    mingw-w64-i686-xpm-nox
 ```
 
 Add the necessary environment variables to `C:\msys64\home\$USERNAME\.bash_profile` file (omit `ACLOCAL_FLAGS` on 32-bit Windows):
@@ -135,8 +139,19 @@ Add the necessary environment variables to `C:\msys64\home\$USERNAME\.bash_profi
     export ACLOCAL_FLAGS="-I/c/msys64/mingw64/share/aclocal"
 ```
 
+Instead of manually building BABL, GEGL, Mypaint-Brushes and LibMyPaint, you can just install them through MSYS2:
+
+```
+    pacman -S mingw-w64-i686-babl \
+    mingw-w64-i686-mypaint-brushes \
+    mingw-w64-i686-libmypaint \
+    mingw-w64-i686-gegl
+```
+
 Open a fresh MinGW64 or MinGW32 window to run the build commands in "detailed build instructions". Add `--prefix=$PREFIX` to use the predefined output directory.
 
 For the Glimpse build step, you must add the `--disable-python flag` to the `./autogen.sh` step. That is a known issue we are working hard to fix.
 
-You can now run the application by simply typing "_glimpse_" into your MinGW window. Your settings will be stored in `%appdata%\Glimpse`.
+You can now run the application by simply typing `glimpse` into your MinGW window. Your settings will be stored in `%appdata%\Glimpse`.
+
+**IMPORTANT**: Due to bug [#449](https://github.com/glimpse-editor/Glimpse/issues/449), the text tool and font detection were both broken in the Windows build. That build system bug impacts any versions of Glimpse Image Editor you try to cross-compile for Windows with MSYS2. In August 2020, there was no known workaround other than using a totally different build system.
