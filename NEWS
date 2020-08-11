@@ -1,9 +1,9 @@
                    ------------------------------
                               Glimpse
-                               Beta
+                              Release
                    ------------------------------
 
-This is our beta testing branch. It is updated shortly before a maintream release for testing purposes.
+This is our 0.2.x release branch. This is the branch our releases are built from.
 
 
 Overview of Changes in Glimpse 0.2.0
@@ -43,6 +43,8 @@ that bring us in line with upstream
 * 64-bit Windows installer now prebundles G'MIC by default
 * Adapted some default configuration settings to match PhotoGIMP
 * Fixed missing Open With... option on Windows, and set Glimpse as default program for XCF files
+* Added Glimpse Image Editor 0.1.2 Gold Edition WiX Manifest file and instructions
+
 
 Overview of Changes in Glimpse 0.1.2 Release 2
 ==============================================
