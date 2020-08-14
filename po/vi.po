@@ -1,4 +1,4 @@
-# Vietnamese translation for the GIMP.
+# Vietnamese translation for Glimpse.
 # Copyright © 2006 Gnome i18n Project for Vietnamese.
 # T.M.Thanh <tmthanh@yahoo.com>, 2002-2003.
 # Clytie Siddall <clytie@riverland.net.au>, 2005-2006.
@@ -27,7 +27,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Thoát khỏi GIMP"
+msgstr "Thoát khỏi Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -105,7 +105,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Bộ hiệu chỉnh văn bản GIMP"
+msgstr "Bộ hiệu chỉnh văn bản Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -236,11 +236,11 @@ msgstr "Dùng một tập tin « sessionrc » (tài nguyên phiên chạy) thay 
 
 #: ../app/main.c:224
 msgid "Use an alternate user gimprc file"
-msgstr "Dùng một tập tin « gimprc » (tài nguyên GIMP) thay thế."
+msgstr "Dùng một tập tin « gimprc » (tài nguyên Glimpse) thay thế."
 
 #: ../app/main.c:229
 msgid "Use an alternate system gimprc file"
-msgstr "Dùng một tập tin « gimprc » (tài nguyên GIMP) hệ thống thay thế."
+msgstr "Dùng một tập tin « gimprc » (tài nguyên Glimpse) hệ thống thay thế."
 
 #: ../app/main.c:234
 msgid "Batch command to run (can be used multiple times)"
@@ -282,7 +282,7 @@ msgstr "Đặt mọi cảnh báo là nghiêm trọng"
 
 #: ../app/main.c:271
 msgid "Output a gimprc file with default settings"
-msgstr "Xuất một tập tin « gimprc » (tài nguyên GIMP) có thiết lập mặc định"
+msgstr "Xuất một tập tin « gimprc » (tài nguyên Glimpse) có thiết lập mặc định"
 
 #: ../app/main.c:287
 msgid "Output a sorted list of deprecated procedures in the PDB"
@@ -316,7 +316,7 @@ msgstr "Một cửa sổ Glimpse khác đang chạy"
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "Đầu ra GIMP. Nhấn phím bất kỳ để đóng cửa sổ này."
+msgstr "Đầu ra Glimpse. Nhấn phím bất kỳ để đóng cửa sổ này."
 
 #: ../app/main.c:707
 #, c-format
@@ -326,7 +326,7 @@ msgstr "(Gõ phím bất kỳ để đóng cửa sổ này)\n"
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Đầu ra GIMP. Bạn có thể thu nhỏ nó, nhưng đừng đóng hẳn."
+msgstr "Đầu ra Glimpse. Bạn có thể thu nhỏ nó, nhưng đừng đóng hẳn."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -352,7 +352,7 @@ msgid ""
 "G_FILENAME_ENCODING."
 msgstr ""
 "Không thể chuyển đổi sang bộ ký tự UTF-8 tên thư mục chứa cấu hình người "
-"dùng GIMP: %s\n"
+"dùng Glimpse: %s\n"
 "\n"
 "Rất có thể vì hệ thống tập tin bạn cất giữ tập tin bằng một bộ ký tự khác "
 "với UTF-8, và bạn chưa báo GLib như thế. Hãy đặt biến môi trường « "
@@ -3137,12 +3137,12 @@ msgstr "_Mẹo vặt hôm nay"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Hiển thị mẹo GIMP"
+msgstr "Hiển thị mẹo Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Giới thiệu GIMP"
+msgstr "Giới thiệu Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -4265,7 +4265,7 @@ msgstr "T_hoát"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Thoát GIMP"
+msgstr "Thoát Glimpse"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -5777,7 +5777,7 @@ msgstr "Trợ _giúp"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Mở hướng dẫn sử dụng GIMP"
+msgstr "Mở hướng dẫn sử dụng Glimpse"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -10588,7 +10588,7 @@ msgstr "Thuận tay phải"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Bộ duyệt trợ giúp GIMP"
+msgstr "Bộ duyệt trợ giúp Glimpse"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -11324,7 +11324,7 @@ msgstr ""
 "Đặt địa điểm của tập tin trao đổi. Glimpse sử dụng một lược đồ cấp phát bộ "
 "nhớ dựa vào ô. Nó sử dụng tập tin trao đổi để trao đổi một cách nhanh và dễ "
 "dàng các ô vào đĩa và ngược lại. Bạn hãy ghi nhớ rằng tập tin trao đổi có "
-"thể trở thành rất lớn nếu GIMP được dùng với ảnh lớn. Hơn nữa, tiến trình có "
+"thể trở thành rất lớn nếu Glimpse được dùng với ảnh lớn. Hơn nữa, tiến trình có "
 "thể chạy rất chấm nếu tập tin trao đổi được tạo trong một thư mục được gắn "
 "kết qua NFS. Vì những lý do này, đề nghị bạn để tập tin trao đổi vào thư mục "
 "</tmp>."
@@ -11347,7 +11347,7 @@ msgstr "Lưu các phím tắt đã thay đổi khi Glimpse thoát."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Phục hồi các phím tắt đã lưu vào mỗi lúc khởi chạy GIMP."
+msgstr "Phục hồi các phím tắt đã lưu vào mỗi lúc khởi chạy Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11357,7 +11357,7 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Đặt thư mục cất giữ tạm thời. Một số tập tin sẽ xuất hiện trong đó trong khi "
-"chạy GIMP. Phần lớn tập tin sẽ biến mất khi Glimpse thoát, nhưng một số điều "
+"chạy Glimpse. Phần lớn tập tin sẽ biến mất khi Glimpse thoát, nhưng một số điều "
 "có thể còn lại, vậy đề nghị người khác không sử dụng thư mục này."
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -11899,7 +11899,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Giới thiệu GIMP"
+msgstr "Giới thiệu Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12754,7 +12754,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Có vẻ là bạn đã sử dụng GIMP %s lần trước. Như thế thì Glimpse sẽ chuyển "
+"Có vẻ là bạn đã sử dụng Glimpse %s lần trước. Như thế thì Glimpse sẽ chuyển "
 "thiết lập người dùng của bạn sang « %s »."
 
 #: ../app/core/gimp-user-install.c:220
@@ -14991,11 +14991,11 @@ msgstr "phần trăm"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Giới thiệu GIMP"
+msgstr "Giới thiệu Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Xin hãy ghé thăm nơi Mạng GIMP"
+msgstr "Xin hãy ghé thăm nơi Mạng Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15041,7 +15041,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
-msgstr "GIMP được tạo bởi"
+msgstr "Glimpse được tạo bởi"
 
 #: ../app/dialogs/about-dialog.c:752
 #, fuzzy, c-format
@@ -15325,12 +15325,12 @@ msgstr "Bạn có chắc muốn xóa bỏ '%s' khỏi danh sách và ra đĩa kh
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Thông điệp GIMP"
+msgstr "Thông điệp Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "Thông điệp GIMP"
+msgstr "Thông điệp Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -15842,7 +15842,7 @@ msgstr "_Cập nhật chổi"
 #: ../app/dialogs/module-dialog.c:153
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr "Bạn cần phải khởi chạy lại GIMP để kích hoạt thay đổi."
+msgstr "Bạn cần phải khởi chạy lại Glimpse để kích hoạt thay đổi."
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15967,7 +15967,7 @@ msgstr "Bạn thật sự muốn đặt lại mọi tùy thích thành giá tr�
 #, fuzzy
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
-msgstr "Bạn cần phải khởi chạy lại GIMP để hoạt hóa các thay đổi sau:"
+msgstr "Bạn cần phải khởi chạy lại Glimpse để hoạt hóa các thay đổi sau:"
 
 #: ../app/dialogs/preferences-dialog.c:647
 #, fuzzy
@@ -15976,7 +15976,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Các phím tắt của bạn sẽ bị đặt lại thành giá trị mặc định lần kế tiếp bạn "
-"khởi chạy GIMP."
+"khởi chạy Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15993,7 +15993,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Thiết lập cửa sổ của bạn sẽ bị đặt lại thành giá trị mặc định lần kế tiếp "
-"bạn khởi chạy GIMP."
+"bạn khởi chạy Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -16002,7 +16002,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Thiết lập thiết bị gõ của bạn sẽ bị đặt lại thành giá trị mặc định lần kế "
-"tiếp bạn khởi chạy GIMP."
+"tiếp bạn khởi chạy Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -16011,7 +16011,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Các tùy chọn công cụ của bạn sẽ bị đặt lại thành giá trị mặc định lần kế "
-"tiếp bạn khởi chạy GIMP."
+"tiếp bạn khởi chạy Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17701,7 +17701,7 @@ msgstr "điểm ảnh/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Thoát GIMP"
+msgstr "Thoát Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17892,7 +17892,7 @@ msgstr "Tập tin mẹo Glimpse trống rỗng!"
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Thiếu tập tin mẹo GIMP!"
+msgstr "Thiếu tập tin mẹo Glimpse!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17902,7 +17902,7 @@ msgstr "Nên có một tập tin tên « %s ». Vui lòng kiểm tra bản cài 
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "Không thể phân tích tập tin mẹo GIMP!"
+msgstr "Không thể phân tích tập tin mẹo Glimpse!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
@@ -17933,7 +17933,7 @@ msgstr "tips-locale:vi"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Người dùng Cài đặt GIMP"
+msgstr "Người dùng Cài đặt Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -19649,7 +19649,7 @@ msgstr "Cong"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "không phải là một tập tin đường cong GIMP"
+msgstr "không phải là một tập tin đường cong Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19728,7 +19728,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "không phải là tập tin mức GIMP"
+msgstr "không phải là tập tin mức Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19747,7 +19747,7 @@ msgstr "Chỉnh độ sáng và độ tương phản"
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
-msgstr "Tính tập hệ số vùng đệm của công cụ khung GIMP"
+msgstr "Tính tập hệ số vùng đệm của công cụ khung Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19921,7 +19921,7 @@ msgstr "Tài liệu"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Khởi chạy GIMP"
+msgstr "Khởi chạy Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -21325,7 +21325,7 @@ msgstr ""
 "(%s)\n"
 "\n"
 "Bổ sung đang kết thúc có thể đã tạo lỗi trong tính trạng nội bộ của Glimpse. "
-"Như thế thì đề nghị bạn lưu các ảnh và khởi chạy lại GIMP."
+"Như thế thì đề nghị bạn lưu các ảnh và khởi chạy lại Glimpse."
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -24472,7 +24472,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Bộ hiệu chỉnh văn bản GIMP"
+msgstr "Bộ hiệu chỉnh văn bản Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -24981,7 +24981,7 @@ msgstr ""
 #: ../app/tools/gimpwarpoptions.c:137
 #, fuzzy
 msgid "Use an accurate but slower preview"
-msgstr "Dùng một tập tin « gimprc » (tài nguyên GIMP) thay thế."
+msgstr "Dùng một tập tin « gimprc » (tài nguyên Glimpse) thay thế."
 
 #: ../app/tools/gimpwarpoptions.c:143
 #, fuzzy
@@ -26274,7 +26274,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Thoát GIMP"
+msgstr "Thoát Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -27034,7 +27034,7 @@ msgstr "Thiếu trình duyệt trợ giúp"
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "Không có bộ duyệt trợ giúp GIMP"
+msgstr "Không có bộ duyệt trợ giúp Glimpse"
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
@@ -27050,7 +27050,7 @@ msgstr "Bộ duyệt trợ giúp không khởi chạy được."
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Không thể khởi chạy phần bổ sung Duyệt trợ giúp GIMP."
+msgstr "Không thể khởi chạy phần bổ sung Duyệt trợ giúp Glimpse."
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
@@ -27065,12 +27065,12 @@ msgstr "Dùng trình duyệt _Web"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "Không tìm thấy hướng dẫn sử dụng GIMP"
+msgstr "Không tìm thấy hướng dẫn sử dụng Glimpse"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "Máy tính này chưa cài đặt hướng dẫn sử dụng GIMP."
+msgstr "Máy tính này chưa cài đặt hướng dẫn sử dụng Glimpse."
 
 #: ../app/widgets/gimphelp.c:820
 #, fuzzy
@@ -28077,7 +28077,7 @@ msgstr ""
 msgid ""
 "This XCF file is corrupt!  I have loaded as much of it as I can, but it is "
 "incomplete."
-msgstr "Tệp XCF bị hỏng! Gimp đã cố tải, nhưng không thành công."
+msgstr "Tệp XCF bị hỏng! Glimpse đã cố tải, nhưng không thành công."
 
 #: ../app/xcf/xcf-load.c:704
 msgid ""
@@ -28122,7 +28122,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Thông điệp GIMP"
+msgstr "Thông điệp Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -28167,7 +28167,7 @@ msgstr "mờ"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28189,7 +28189,7 @@ msgstr "mờ"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Tác quyền © năm 1995-%s của\n"
-#~ "Spencer Kimball, Peter Mattis và Nhóm Phát Triển GIMP."
+#~ "Spencer Kimball, Peter Mattis và Nhóm Phát Triển Glimpse."
 
 #~ msgid ""
 #~ "Unable to open a test swap file.\n"
@@ -28441,13 +28441,13 @@ msgstr "mờ"
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
 #~ "Lỗi phân tích nghiêm trọng trong tập tin chổi « %s »: không phải là tập "
-#~ "tin chổi GIMP."
+#~ "tin chổi Glimpse."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
 #~ msgstr ""
-#~ "Lỗi phân tích nghiêm trọng trong tập tin chổi '%s': phiên bản chổi GIMP "
+#~ "Lỗi phân tích nghiêm trọng trong tập tin chổi '%s': phiên bản chổi Glimpse "
 #~ "không rõ %d."
 
 #~ msgid ""
@@ -28483,7 +28483,7 @@ msgstr "mờ"
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
 #~ "Lỗi phân tích nghiêm trọng trong tập tin độ dốc « %s »: không phải là tập "
-#~ "tin độ dốc GIMP."
+#~ "tin độ dốc Glimpse."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr ""
@@ -28952,7 +28952,7 @@ msgstr "mờ"
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
 #~ "Thường chỉ quan trọng cho bộ trình bày 8-bit (chỉ 256 màu), giá trị này "
-#~ "đặt số màu hệ thống tối thiểu được cấp cho trình GIMP."
+#~ "đặt số màu hệ thống tối thiểu được cấp cho trình Glimpse."
 
 #, fuzzy
 #~ msgid "Brush Scale"
@@ -29058,13 +29058,13 @@ msgstr "mờ"
 #~ msgstr "Chỉ kiểm tra nếu Glimpse có chạy, rồi thoát."
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
-#~ msgstr "In mã nhận diện cửa sổ X của cửa sổ hộp công cụ GIMP, rồi thoát"
+#~ msgstr "In mã nhận diện cửa sổ X của cửa sổ hộp công cụ Glimpse, rồi thoát"
 
 #~ msgid "Start Glimpse without showing the startup window"
-#~ msgstr "Khởi chạy GIMP, không có hiển thị cửa sổ khởi chạy."
+#~ msgstr "Khởi chạy Glimpse, không có hiển thị cửa sổ khởi chạy."
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "Không thể kết nối tới GIMP."
+#~ msgstr "Không thể kết nối tới Glimpse."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "• Hãy bảo đảm là Hộp công cụ hiển thị. •"
@@ -29374,7 +29374,7 @@ msgstr "mờ"
 #~ msgstr "Hộp công cụ và các neo khác là tạm thời với cửa sổ ảnh hoạt động"
 
 #~ msgid "Show tip next time Glimpse starts"
-#~ msgstr "Hiển thị mẹo lần kế tiếp khởi chạy GIMP"
+#~ msgstr "Hiển thị mẹo lần kế tiếp khởi chạy Glimpse"
 
 #~ msgid "Do_n't Save"
 #~ msgstr "Khô_ng lưu"
@@ -29632,7 +29632,7 @@ msgstr "mờ"
 #~ msgstr "(%0.3f, %0.3f, %0.3f)"
 
 #~ msgid "Could not find Glimpse help browser."
-#~ msgstr "Không thể tìm bộ duyệt trợ giúp GIMP."
+#~ msgstr "Không thể tìm bộ duyệt trợ giúp Glimpse."
 
 #~ msgid "Use _web browser instead"
 #~ msgstr "Dùng bộ duyệt _Mạng thay thế"

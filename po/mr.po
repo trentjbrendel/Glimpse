@@ -1,4 +1,4 @@
-# Marathi translation of GIMP.
+# Marathi translation of Glimpse.
 # Copyright (C) 2018 - Listed translators
 # This file is distributed under the same license as the Glimpse package.
 # Snehalata B Shirude <snehalata.shirude@gmail.com>, 2018.

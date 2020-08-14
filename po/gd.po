@@ -1,4 +1,4 @@
-# Scottish Gaelic translation for gimp.
+# Scottish Gaelic translation for Glimpse.
 # Copyright (C) 2013 Glimpse's COPYRIGHT HOLDER
 # This file is distributed under the same license as the Glimpse package.
 # akerbeltz <fios@akerbeltz.org>, 2013.
@@ -26,7 +26,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Fàg GIMP"
+msgstr "Fàg Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -104,7 +104,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Deasaiche teacsa GIMP"
+msgstr "Deasaiche teacsa Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -314,7 +314,7 @@ msgstr "Tha ionstans eile de Glimpse a' ruith mu thràth."
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
 msgstr ""
-"Às-chur GIMP. Cuir a-steach caractar sam bith gus an uinneag seo a dhùnadh."
+"Às-chur Glimpse. Cuir a-steach caractar sam bith gus an uinneag seo a dhùnadh."
 
 #: ../app/main.c:707
 #, c-format
@@ -325,7 +325,7 @@ msgstr "(Cuir a-steach caractar sam bith gus an uinneag seo a dhùnadh)\n"
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
-"Às-chur GIMP. 'S urrainn dhut an uinneag seo a lùghdachadh ach na dùin e."
+"Às-chur Glimpse. 'S urrainn dhut an uinneag seo a lùghdachadh ach na dùin e."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -349,7 +349,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Chan urrainn dhuinn am pasgan sa bheil rèiteachadh a' chleachdaiche GIMP "
+"Chan urrainn dhuinn am pasgan sa bheil rèiteachadh a' chleachdaiche Glimpse "
 "iompachadh 'na UTF-8: %s\n"
 "\n"
 "Tha teans gu bheil an siostam fhaidhlichean agad a' stòradh faidhlichean ann "
@@ -3141,12 +3141,12 @@ msgstr "_Gliocas an latha"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Seall grunn ghliocasan cuideachail mu dhèidhinn GIMP"
+msgstr "Seall grunn ghliocasan cuideachail mu dhèidhinn Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Mu dhèidhinn GIMP"
+msgstr "Mu dhèidhinn Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -5792,7 +5792,7 @@ msgstr "Cob_hair"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Fosgail an treòir airson luchd-cleachdaidh GIMP"
+msgstr "Fosgail an treòir airson luchd-cleachdaidh Glimpse"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -8365,7 +8365,7 @@ msgstr "_Sàbhail roghainnean an inneil nuair a dh'fhàgar am prògram"
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Sàbhail roghainnean an inneil nuair a dhùineas GIMP."
+msgstr "Sàbhail roghainnean an inneil nuair a dhùineas Glimpse."
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8449,7 +8449,7 @@ msgstr "_Sàbhail roghainnean an inneil nuair a dh'fhàgar am prògram"
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Sàbhail roghainnean an inneil nuair a dhùineas GIMP."
+msgstr "Sàbhail roghainnean an inneil nuair a dhùineas Glimpse."
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -10614,7 +10614,7 @@ msgstr "Deas-làmhach"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Brabhsair cobhair GIMP"
+msgstr "Brabhsair cobhair Glimpse"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -11186,7 +11186,7 @@ msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Cuimhnich an t-inneal, am pàtran, an dath agus na bruisean làithreach "
-"thairis air seiseanan GIMP."
+"thairis air seiseanan Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:377
 msgid ""
@@ -11205,11 +11205,11 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"Sàbhail ionadan is meudan nam prìomh-chòmhraidhean nuair a dhùineas GIMP."
+"Sàbhail ionadan is meudan nam prìomh-chòmhraidhean nuair a dhùineas Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "Sàbhail roghainnean an inneil nuair a dhùineas GIMP."
+msgstr "Sàbhail roghainnean an inneil nuair a dhùineas Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:395
 #, fuzzy
@@ -11400,7 +11400,7 @@ msgstr ""
 "riarachadh cuimhne a-rèir leacagan. Thèid am faidhle suaipidh a chleachdadh "
 "airson 's gun gabh leacagan a ghluasad dhan diosga o uaithe gu luath 's gun "
 "duilgheadas. Thoir an air gum fàs am faidhle suaipidh mòr gu luath ma "
-"dh'obraicheas tu air dealbhan mòra ann an GIMP. Cuideachd, faodaidh gun dig "
+"dh'obraicheas tu air dealbhan mòra ann an Glimpse. Cuideachd, faodaidh gun dig "
 "dàil mhòr mhòr air cùisean ma chaidh am faidhle suaipidh a chruthachadh air "
 "pasgan a chaidh a mhunntachadh slighe NFS. Leis a sin, dh'fhaoidte gum b' "
 "fheairrde dhut am faidhle suaipidh a chur ann an \"/tmp\"."
@@ -11422,13 +11422,13 @@ msgstr ""
 msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr ""
 "Sàbhail ath-ghoiridean a' mheur-chlàir a chaidh atharrachadh nuair a "
-"dhùineas GIMP."
+"dhùineas Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr ""
 "Aisig ath-ghoiridean a' mheur-chlàir a chaidh a shàbhaladh gach turas a "
-"thòisicheas GIMP."
+"thòisicheas Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11438,7 +11438,7 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Suidhichidh seo pasgan an stòrais shealaich. Nochdaidh faidhlichean an-seo "
-"fhad 's a bhios tu a' ruith GIMP. Falbhaidh cuid mhòr dhe na faidhlichean "
+"fhad 's a bhios tu a' ruith Glimpse. Falbhaidh cuid mhòr dhe na faidhlichean "
 "seo nuair a dhùineas Glimpse ach tha teans gum fan cuid dhiubh ann agus leis "
 "a sin, chan fheairrde dhut am pasgan seo a cho-roinneadh le cleachdaichean "
 "eile."
@@ -11667,7 +11667,7 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Ma thèid àireamh nam piogsailean thairis air a' chrìoch seo, tòisichidh GIMP "
+"Ma thèid àireamh nam piogsailean thairis air a' chrìoch seo, tòisichidh Glimpse "
 "air leacagan a shuaipeadh dhan diosga. Bidh seo mòran nas slaodaiche ach "
 "leis a sin, is urrainn dhut obrachadh air dealbhan a bhiodh tuilleadh 's mòr "
 "mu choinneamh na cuimhne agad. Ma tha mòran RAM agad, faodaidh gum b' "
@@ -11994,7 +11994,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Mu dhèidhinn GIMP"
+msgstr "Mu dhèidhinn Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12843,7 +12843,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Tha coltas gun do chleachd thu GIMP %s roimhe. Imrichidh Glimpse na "
+"Tha coltas gun do chleachd thu Glimpse %s roimhe. Imrichidh Glimpse na "
 "roghainnean agad gu \"%s\" a-nis."
 
 #: ../app/core/gimp-user-install.c:220
@@ -15123,11 +15123,11 @@ msgstr "ceudad"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Mu dhèidhinn GIMP"
+msgstr "Mu dhèidhinn Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Tadhail air làrach-lìn GIMP"
+msgstr "Tadhail air làrach-lìn Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15172,7 +15172,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
-msgstr "'S e na daoine a leanas a tha a' toirt dhuibh GIMP"
+msgstr "'S e na daoine a leanas a tha a' toirt dhuibh Glimpse"
 
 #: ../app/dialogs/about-dialog.c:752
 #, fuzzy, c-format
@@ -15457,12 +15457,12 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Teachdaireachd GIMP"
+msgstr "Teachdaireachd Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "Teachdaireachd GIMP"
+msgstr "Teachdaireachd Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -16112,7 +16112,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Thèid ath-ghoiridean a' mheur-chlàir agad ath-shuidheachadh gu na luachan "
-"bunaiteach an ath-thuras a thòisicheas tu GIMP."
+"bunaiteach an ath-thuras a thòisicheas tu Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -16131,7 +16131,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Thèid suidheachadh nan uinneagan agad ath-shuidheachadh gu na luachan "
-"bunaiteach an ath-thuras a thòisicheas tu GIMP."
+"bunaiteach an ath-thuras a thòisicheas tu Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -16140,7 +16140,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Thèid roghainnean nan uidheaman ion-chuir agad ath-shuidheachadh gu na "
-"luachan bunaiteach an ath-thuras a thòisicheas tu GIMP."
+"luachan bunaiteach an ath-thuras a thòisicheas tu Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -16149,7 +16149,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Thèid roghainnean nan innealan agad ath-shuidheachadh gu na luachan "
-"bunaiteach an ath-thuras a thòisicheas tu GIMP."
+"bunaiteach an ath-thuras a thòisicheas tu Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17527,7 +17527,7 @@ msgstr "Uidheaman ion-chuir leudaichte"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "Sàbhail roghainnean an inneil nuair a dhùineas GIMP."
+msgstr "Sàbhail roghainnean an inneil nuair a dhùineas Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -18085,7 +18085,7 @@ msgstr "tips-locale:gd"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Stàladh cleachdaiche GIMP"
+msgstr "Stàladh cleachdaiche Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -18095,7 +18095,7 @@ msgstr "Dh'fhàillig an stàladh cleachdaiche!"
 #, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"Dh'fhàillig stàladh cleachdaiche GIMP; thoir sùil air an loga airson mion-"
+"Dh'fhàillig stàladh cleachdaiche Glimpse; thoir sùil air an loga airson mion-"
 "fhiosrachadh."
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -19933,7 +19933,7 @@ msgstr "Cuir air gleus an t-soilleireachd is an t-iomsgaradh"
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr ""
 "Coimpiutaich seata de bhufairean cho-èifeachdan airson inneal na cèidse aig "
-"GIMP"
+"Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19942,7 +19942,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Iompaich seata de bhufairean co-èifeachd 'na bhufair co-chomharran airson "
-"inneal cèidse GIMP"
+"inneal cèidse Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -20117,7 +20117,7 @@ msgstr "Sgrìobhainnean"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Tòiseachadh GIMP"
+msgstr "Tòiseachadh Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -24718,7 +24718,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Deasaiche teacsa GIMP"
+msgstr "Deasaiche teacsa Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -28378,7 +28378,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Teachdaireachd GIMP"
+msgstr "Teachdaireachd Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -28424,7 +28424,7 @@ msgstr "neo-phongail"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28443,7 +28443,7 @@ msgstr "neo-phongail"
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "Tha GIMP 'na ghiorrachadh air GNU Image Manipulation Program. 'S e "
+#~ "Tha Glimpse 'na ghiorrachadh air GNU Image Manipulation Program. 'S e "
 #~ "prògram saor an-asgaidh a tha ann airson rudan mar deasachadh, "
 #~ "cruthachadh is ùghdarrasadh dhealbhan."
 
@@ -28486,7 +28486,7 @@ msgstr "neo-phongail"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Còir-lethbhreac © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis agus sgioba leasachadh GIMP"
+#~ "Spencer Kimball, Peter Mattis agus sgioba leasachadh Glimpse"
 
 #~ msgid "New Channel Options"
 #~ msgstr "Roghainnean na seanail ùr"

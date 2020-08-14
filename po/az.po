@@ -18587,7 +18587,7 @@ msgstr ""
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP İstifadəçi Qurulumu"
+msgstr "Glimpse İstifadəçi Qurulumu"
 
 #: ../app/dialogs/user-install-dialog.c:94
 #, fuzzy
@@ -29077,7 +29077,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -29091,9 +29091,9 @@ msgstr ""
 #~ "Copyright © 1995-%s\n"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
-#~ "GIMP -- GNU Rəsm Düzəltme Programı\n"
+#~ "Glimpse -- GNU Rəsm Düzəltme Programı\n"
 #~ "Təlif hakkı © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis və GIMP İnkişafçıları Dəstəsi."
+#~ "Spencer Kimball, Peter Mattis və Glimpse İnkişafçıları Dəstəsi."
 
 #, fuzzy
 #~ msgid "Configuration"
@@ -30971,7 +30971,7 @@ msgstr ""
 #~ msgstr "Daxili Glimpse prosedurası"
 
 #~ msgid "Glimpse Plug-In"
-#~ msgstr "GIMP Əlavəsi"
+#~ msgstr "Glimpse Əlavəsi"
 
 #~ msgid "Glimpse Extension"
 #~ msgstr "Glimpse Uzantısı"
@@ -31516,11 +31516,11 @@ msgstr ""
 #~ "Welcome to\n"
 #~ "The Glimpse User Installation"
 #~ msgstr ""
-#~ "GIMP İstifadəçi Qurulumuna\n"
+#~ "Glimpse İstifadəçi Qurulumuna\n"
 #~ "Xoş Gəldiniz"
 
 #~ msgid "Click \"Continue\" to enter the Glimpse user installation."
-#~ msgstr "GIMP İstifadəçi Qurulumunu başlatmaq üçün \"Davam Et\"'ə basın."
+#~ msgstr "Glimpse İstifadəçi Qurulumunu başlatmaq üçün \"Davam Et\"'ə basın."
 
 #~ msgid ""
 #~ "This program is free software; you can redistribute it and/or modify\n"

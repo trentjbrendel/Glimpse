@@ -1,4 +1,4 @@
-# Lithuanian translation of GIMP.
+# Lithuanian translation of Glimpse.
 # Copyright (C) 2001-2008 Free Software Foundation, Inc.
 # Mantas Kriaučiūnas <mantas@akl.lt>, 2001-2004.
 # Eglė Kriaučiūnienė <egle@akl.lt>, 2001-2004.
@@ -29,7 +29,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Baigti darbą su GIMP"
+msgstr "Baigti darbą su Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -167,7 +167,7 @@ msgstr ""
 "licencijoje.\n"
 "\n"
 "Jūs turėjote gauti GNU Bendrosios viešosios licencijos kopiją kartu su "
-"programa GIMP. Jei negavote, žr. https://www.gnu.org/licenses/."
+"programa Glimpse. Jei negavote, žr. https://www.gnu.org/licenses/."
 
 #: ../app/gimp-update.c:251
 #, c-format
@@ -3132,12 +3132,12 @@ msgstr "_Dienos patarimas"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Rodyti naudingų patarimų, kaip naudotis GIMP"
+msgstr "Rodyti naudingų patarimų, kaip naudotis Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Apie GIMP"
+msgstr "Apie Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -8315,7 +8315,7 @@ msgstr "_Išeinant įrašyti įrankių parinktis"
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Baigiant darbą su GIMP, įrašyti įrankių parinktis."
+msgstr "Baigiant darbą su Glimpse, įrašyti įrankių parinktis."
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8397,7 +8397,7 @@ msgstr "_Išeinant įrašyti įrankių parinktis"
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Baigiant darbą su GIMP, įrašyti įrankių parinktis."
+msgstr "Baigiant darbą su Glimpse, įrašyti įrankių parinktis."
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -10573,7 +10573,7 @@ msgstr "Dešiniarankiams"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "GIMP žinyno naršyklė"
+msgstr "Glimpse žinyno naršyklė"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -11006,7 +11006,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"GIMP įspės naudotoją, jei jis bandys sukurti paveikslėlį, kuris užims "
+"Glimpse įspės naudotoją, jei jis bandys sukurti paveikslėlį, kuris užims "
 "daugiau atminties nei nurodyta čia."
 
 #: ../app/config/gimprc-blurbs.h:291
@@ -11142,11 +11142,11 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"Baigiant darbą su GIMP, įrašyti pagrindinių dialogų dydžius ir padėtis."
+"Baigiant darbą su Glimpse, įrašyti pagrindinių dialogų dydžius ir padėtis."
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "Baigiant darbą su GIMP, įrašyti įrankių parinktis."
+msgstr "Baigiant darbą su Glimpse, įrašyti įrankių parinktis."
 
 #: ../app/config/gimprc-blurbs.h:395
 #, fuzzy
@@ -11900,7 +11900,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Apie GIMP"
+msgstr "Apie Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12750,7 +12750,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Panašu, kad anksčiau naudojote GIMP %s. Glimpse dabar migruos naudotojo "
+"Panašu, kad anksčiau naudojote Glimpse %s. Glimpse dabar migruos naudotojo "
 "parametrus į „%s“."
 
 #: ../app/core/gimp-user-install.c:220
@@ -14979,7 +14979,7 @@ msgstr "procentai"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Apie GIMP"
+msgstr "Apie Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15967,7 +15967,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Jūsų klavišų kombinacijos bus atstatytos į numatytąsias reikšmes, kai kitą "
-"kartą paleisite GIMP."
+"kartą paleisite Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15983,7 +15983,7 @@ msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Kitą kartą paleidus GIMP, langų nustatymai bus atstatyti į numatytąsias "
+"Kitą kartą paleidus Glimpse, langų nustatymai bus atstatyti į numatytąsias "
 "reikšmes."
 
 #: ../app/dialogs/preferences-dialog.c:756
@@ -15992,7 +15992,7 @@ msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"Kitą kartą paleidus GIMP, įvesties įrenginių parametrai bus atstatyti į "
+"Kitą kartą paleidus Glimpse, įvesties įrenginių parametrai bus atstatyti į "
 "numatytąsias reikšmes."
 
 #: ../app/dialogs/preferences-dialog.c:798
@@ -16001,7 +16001,7 @@ msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Kitą kartą paleidus GIMP, jūsų įrankių parinktys bus atstatytos į "
+"Kitą kartą paleidus Glimpse, jūsų įrankių parinktys bus atstatytos į "
 "numatytąsias reikšmes."
 
 #: ../app/dialogs/preferences-dialog.c:850
@@ -17096,7 +17096,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Atrodo, kad pas neturite įdiegę GIMP žinyno naršyklės įskiepio. Vietoje to "
+"Atrodo, kad pas neturite įdiegę Glimpse žinyno naršyklės įskiepio. Vietoje to "
 "žinyno puslapius galite skaityti naudodami žiniatinklio naršyklę."
 
 #. Action Search
@@ -17385,7 +17385,7 @@ msgstr "Išplėstiniai įvesties įrenginiai"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "Baigiant darbą su GIMP, įrašyti įrankių parinktis."
+msgstr "Baigiant darbą su Glimpse, įrašyti įrankių parinktis."
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -17705,7 +17705,7 @@ msgstr "Užverti visus paveikslėlius"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "Jeigu dabar baigsite darbą su GIMP, šie pakeitimai bus prarasti."
+msgstr "Jeigu dabar baigsite darbą su Glimpse, šie pakeitimai bus prarasti."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -17894,7 +17894,7 @@ msgstr "Panašu, kad nėra Glimpse patarimų failo!"
 #, c-format
 msgid "There should be a file called '%s'. Please check your installation."
 msgstr ""
-"Turėtų būti failas pavadinimu „%s“. Patikrinkite ar teisingai įdiegėte GIMP."
+"Turėtų būti failas pavadinimu „%s“. Patikrinkite ar teisingai įdiegėte Glimpse."
 
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
@@ -27036,14 +27036,14 @@ msgstr "Nėra žinyno naršyklės"
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "GIMP žinyno naršyklė neprieinama."
+msgstr "Glimpse žinyno naršyklė neprieinama."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Atrodo, kad pas neturite įdiegę GIMP žinyno naršyklės įskiepio. Vietoje to "
+"Atrodo, kad pas neturite įdiegę Glimpse žinyno naršyklės įskiepio. Vietoje to "
 "žinyno puslapius galite skaityti naudodami žiniatinklio naršyklę."
 
 #: ../app/widgets/gimphelp.c:419
@@ -27052,13 +27052,13 @@ msgstr "Nepavyksta paleisti žinyno naršyklės"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Nepavyko paleisti GIMP žinyno naršyklės įskiepio."
+msgstr "Nepavyko paleisti Glimpse žinyno naršyklės įskiepio."
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"Atrodo, kad pas neturite įdiegę GIMP žinyno naršyklės įskiepio. Vietoje to "
+"Atrodo, kad pas neturite įdiegę Glimpse žinyno naršyklės įskiepio. Vietoje to "
 "žinyno puslapius galite skaityti naudodami žiniatinklio naršyklę."
 
 #: ../app/widgets/gimphelp.c:448
@@ -27823,7 +27823,7 @@ msgstr "%s parinkčių šablonas"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "GIMP įdiegta nepilnai:"
+msgstr "Glimpse įdiegta nepilnai:"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -28181,7 +28181,7 @@ msgstr "neryškus"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

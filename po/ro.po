@@ -25,7 +25,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Închidere GIMP"
+msgstr "Închidere Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -103,7 +103,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Editor de text GIMP"
+msgstr "Editor de text Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -223,7 +223,7 @@ msgstr "Nu arăta ecranul de pornire"
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Nu folosi memorie partajată între GIMP și plugin-uri"
+msgstr "Nu folosi memorie partajată între Glimpse și plugin-uri"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -3068,12 +3068,12 @@ msgstr "Sfa_tul zilei"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Arată câteva sfaturi utile pentru utilizarea GIMP"
+msgstr "Arată câteva sfaturi utile pentru utilizarea Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Despre GIMP"
+msgstr "Despre Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -4235,7 +4235,7 @@ msgstr "Înc_hide aplicația"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Închide GIMP"
+msgstr "Închide Glimpse"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -5750,7 +5750,7 @@ msgstr "_Ajutor"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Deschide manualul de utilizare GIMP"
+msgstr "Deschide manualul de utilizare Glimpse"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -8447,7 +8447,7 @@ msgstr "_Salvează opțiunile de instrument la presetare"
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Salvează opțiunile de instrumente la ieșirea GIMP."
+msgstr "Salvează opțiunile de instrumente la ieșirea Glimpse."
 
 #: ../app/actions/tool-presets-actions.c:81
 msgctxt "tool-presets-action"
@@ -10619,7 +10619,7 @@ msgstr "Pentru dreptaci"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Navigatorul de ajutor GIMP"
+msgstr "Navigatorul de ajutor Glimpse"
 
 # listă drop down
 #: ../app/config/config-enums.c:187
@@ -11182,7 +11182,7 @@ msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Ține minte instrumentul, modelul, culoarea și penelul actuale între "
-"sesiunile GIMP."
+"sesiunile Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:377
 msgid ""
@@ -11201,11 +11201,11 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"Salvează poziția și dimensiunea dialogurilor principale la ieșirea GIMP."
+"Salvează poziția și dimensiunea dialogurilor principale la ieșirea Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "Salvează opțiunile de instrumente la ieșirea GIMP."
+msgstr "Salvează opțiunile de instrumente la ieșirea Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:395
 #, fuzzy
@@ -11339,7 +11339,7 @@ msgstr "Arată un indiciu când indicatorul mausului survolează un element."
 #: ../app/config/gimprc-blurbs.h:455
 #, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "Folosiți GIMP în modul fereastră unică."
+msgstr "Folosiți Glimpse în modul fereastră unică."
 
 #: ../app/config/gimprc-blurbs.h:458
 msgid "Hide docks and other windows, leaving only image windows."
@@ -11350,7 +11350,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:461
 #, fuzzy
 msgid "Show the image tabs bar in single window mode."
-msgstr "Folosiți GIMP în modul fereastră unică."
+msgstr "Folosiți Glimpse în modul fereastră unică."
 
 #: ../app/config/gimprc-blurbs.h:464
 #, fuzzy
@@ -11416,11 +11416,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:501
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "Salvează scurtăturile de tastatură modificate la ieșirea GIMP."
+msgstr "Salvează scurtăturile de tastatură modificate la ieșirea Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Restaurează scurtăturile de tastatură la fiecare pornire GIMP."
+msgstr "Restaurează scurtăturile de tastatură la fiecare pornire Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11430,7 +11430,7 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Stabilește dosarul pentru stocare temporară. Fișierele vor apărea aici în "
-"cursul rulării GIMP. Majoritatea fișierelor vor dispărea la închiderea GIMP, "
+"cursul rulării Glimpse. Majoritatea fișierelor vor dispărea la închiderea Glimpse, "
 "dar unele fișiere probabil că vor rămâne, de aceea cel mai bine ar fi ca "
 "acest dosar să fie unul care nu este partajat cu alți utilizatori."
 
@@ -12873,7 +12873,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Se pare că înainte ați folosit GIMP %s.  Glimpse va migra acum preferințele "
+"Se pare că înainte ați folosit Glimpse %s.  Glimpse va migra acum preferințele "
 "de utilizator către „%s”."
 
 #: ../app/core/gimp-user-install.c:220
@@ -13621,7 +13621,7 @@ msgstr "Umple cu culoare plină"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Nu este un fișier de degrade GIMP."
+msgstr "Nu este un fișier de degrade Glimpse."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -15146,11 +15146,11 @@ msgstr "procente"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Despre GIMP"
+msgstr "Despre Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Vizitați saitul web GIMP"
+msgstr "Vizitați saitul web Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15480,11 +15480,11 @@ msgstr "Sigur vreți ca „%s” să fie eliminat din listă și șters de pe di
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Mesaj GIMP"
+msgstr "Mesaj Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 msgid "Glimpse Debug"
-msgstr "Depanare GIMP"
+msgstr "Depanare Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -16128,7 +16128,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Scurtăturile de tastatură vor fi resetate la valorile implicite la "
-"următoarea pornire GIMP."
+"următoarea pornire Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -16145,7 +16145,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Configurarea ferestrei va fi resetată la valorile implicite la următoarea "
-"pornire GIMP."
+"pornire Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -16154,7 +16154,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Setările dispozitivului de intrare vor fi resetate la valorile implicite la "
-"următoarea pornire GIMP."
+"următoarea pornire Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -16163,7 +16163,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Opțiunile instrumentelor vor fi resetate la valorile implicite la următoarea "
-"pornire GIMP."
+"pornire Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17575,7 +17575,7 @@ msgstr "Dispozitive de intrare extinse"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "Salvează opțiunile de instrumente la ieșirea GIMP."
+msgstr "Salvează opțiunile de instrumente la ieșirea Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -17889,7 +17889,7 @@ msgstr "pixeli/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Închide GIMP"
+msgstr "Închide Glimpse"
 
 # titlu pe bară
 #: ../app/dialogs/quit-dialog.c:164
@@ -18094,7 +18094,7 @@ msgstr "Fișierul cu sfaturi Glimpse nu a putut fi interpretat!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Sfatul zilei de la GIMP"
+msgstr "Sfatul zilei de la Glimpse"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -19857,7 +19857,7 @@ msgstr "Curbă"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "nu este un fișier de curbe GIMP"
+msgstr "nu este un fișier de curbe Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19933,7 +19933,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "nu este un fișier de niveluri GIMP"
+msgstr "nu este un fișier de niveluri Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19965,7 +19965,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Calculează un set al tamponului de coeficient pentru tamponul de coordonată "
-"pentru instrumentul de cușcă GIMP"
+"pentru instrumentul de cușcă Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -20133,7 +20133,7 @@ msgstr "Documente"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Pornire GIMP"
+msgstr "Pornire Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -21706,12 +21706,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Ignorare „%s”: versiune greșită de protocol GIMP"
+msgstr "Ignorare „%s”: versiune greșită de protocol Glimpse"
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "Ignorare „%s”: versiune greșită de protocol GIMP"
+msgstr "Ignorare „%s”: versiune greșită de protocol Glimpse"
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -24766,7 +24766,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Editor de text GIMP"
+msgstr "Editor de text Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -26545,7 +26545,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Închide GIMP"
+msgstr "Închide Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -27326,7 +27326,7 @@ msgstr "Navigatorul pentru ajutor nu pornețte"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Nu s-a putut porni plugin-ul de navigare pentru ajutor GIMP."
+msgstr "Nu s-a putut porni plugin-ul de navigare pentru ajutor Glimpse."
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
@@ -27342,7 +27342,7 @@ msgstr "Folosește navigatorul _web"
 # titlu pe bară
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "Lipsește manualul de utilizare GIMP"
+msgstr "Lipsește manualul de utilizare Glimpse"
 
 #: ../app/widgets/gimphelp.c:809
 msgid "The Glimpse user manual is not installed in your language."
@@ -27706,7 +27706,7 @@ msgstr "Alegeți un preset din listă"
 #: ../app/widgets/gimpsettingsbox.c:324
 #, fuzzy
 msgid "Save the current settings as named preset"
-msgstr "Salvează opțiunile de instrumente la ieșirea GIMP."
+msgstr "Salvează opțiunile de instrumente la ieșirea Glimpse."
 
 # titlu pe bară
 #: ../app/widgets/gimpsettingsbox.c:342
@@ -28415,7 +28415,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Depanare GIMP"
+msgstr "Depanare Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -28459,7 +28459,7 @@ msgstr "difuz"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28475,7 +28475,7 @@ msgstr "difuz"
 
 # conform discuției de aici http://groups.google.com/group/diacritice/browse_thread/thread/84f8ecfd7b693426
 #~ msgid "GNU Image Manipulation Program"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #~ msgid ""
 #~ "Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
@@ -28487,10 +28487,10 @@ msgstr "difuz"
 #~ "compoziție de imagini și creație de imagini."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Desenare în GIMP"
+#~ msgstr "Desenare în Glimpse"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Editare foto în GIMP"
+#~ msgstr "Editare foto în Glimpse"
 
 #~ msgid "On-canvas gradient editing"
 #~ msgstr "Editare de degrade direct pe canava"
@@ -28506,7 +28506,7 @@ msgstr "difuz"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Drepturi de autor © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis și echipa de dezvoltare GIMP"
+#~ "Spencer Kimball, Peter Mattis și echipa de dezvoltare Glimpse"
 
 #~ msgctxt "dashboard-action"
 #~ msgid "Reset"

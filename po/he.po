@@ -27,7 +27,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "האם לצאת מ Gimp?"
+msgstr "האם לצאת מ Glimpse?"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 #, fuzzy
@@ -106,7 +106,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "עורך הטקסט של GIMP"
+msgstr "עורך הטקסט של Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 #, fuzzy
@@ -3161,7 +3161,7 @@ msgstr "הצג עצות שימושיות אודות השימוש בGIMP"
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "אודות GIMP"
+msgstr "אודות Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -5834,7 +5834,7 @@ msgstr "_עזרה"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "פתח את מדריך המשתמש של GIMP"
+msgstr "פתח את מדריך המשתמש של Glimpse"
 
 #: ../app/actions/help-actions.c:49
 #, fuzzy
@@ -10226,7 +10226,7 @@ msgstr "/צפיה/הצגת שורת מצ_ב"
 #, fuzzy
 msgctxt "view-action"
 msgid "Show this window's statusbar"
-msgstr "הצגת טיפים באתחול הבא של GIMP"
+msgstr "הצגת טיפים באתחול הבא של Glimpse"
 
 #: ../app/actions/view-actions.c:326
 #, fuzzy
@@ -10886,7 +10886,7 @@ msgstr ""
 #, fuzzy
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "במצב מאופשר, GIMP ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
+msgstr "במצב מאופשר, Glimpse ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
 
 #: ../app/actions/windows-actions.c:152
 msgctxt "windows-tabs-position-action"
@@ -11659,7 +11659,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:455
 #, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "במצב מאופשר, GIMP ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
+msgstr "במצב מאופשר, Glimpse ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
 
 #: ../app/config/gimprc-blurbs.h:458
 msgid "Hide docks and other windows, leaving only image windows."
@@ -11668,7 +11668,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:461
 #, fuzzy
 msgid "Show the image tabs bar in single window mode."
-msgstr "במצב מאופשר, GIMP ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
+msgstr "במצב מאופשר, Glimpse ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
 
 #: ../app/config/gimprc-blurbs.h:464
 #, fuzzy
@@ -11988,7 +11988,7 @@ msgstr ""
 msgid ""
 "When enabled, Glimpse will not save an image if it has not been changed "
 "since it was opened."
-msgstr "במצב מאופשר, GIMP ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
+msgstr "במצב מאופשר, Glimpse ישתמש בחלון מידע שונה עבור כל תצוגת תמונה."
 
 #: ../app/config/gimprc-blurbs.h:705
 msgid ""
@@ -12282,7 +12282,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "אודות GIMP"
+msgstr "אודות Glimpse"
 
 #: ../app/core/core-enums.c:542
 #, fuzzy
@@ -15601,7 +15601,7 @@ msgstr "אחוזים"
 #: ../app/dialogs/about-dialog.c:126
 #, fuzzy
 msgid "About Glimpse"
-msgstr "אודות GIMP"
+msgstr "אודות Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15945,7 +15945,7 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "האם לצאת מ Gimp?"
+msgstr "האם לצאת מ Glimpse?"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -18590,7 +18590,7 @@ msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "עצת היום של GIMP"
+msgstr "עצת היום של Glimpse"
 
 #: ../app/dialogs/tips-dialog.c:145
 #, fuzzy
@@ -18619,7 +18619,7 @@ msgstr ""
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "התקנת משתמש של GIMP"
+msgstr "התקנת משתמש של Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:94
 #, fuzzy
@@ -20657,7 +20657,7 @@ msgstr "מסמכים"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "אתחול GIMP"
+msgstr "אתחול Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -24551,7 +24551,7 @@ msgstr "הסבה"
 #: ../app/tools/gimpnpointdeformationoptions.c:99
 #, fuzzy
 msgid "Use weights"
-msgstr "עורך הטקסט של GIMP"
+msgstr "עורך הטקסט של Glimpse"
 
 #: ../app/tools/gimpnpointdeformationoptions.c:105
 msgid "Control points influence"
@@ -25291,7 +25291,7 @@ msgstr ""
 #: ../app/tools/gimptextoptions.c:209
 #, fuzzy
 msgid "Use editor"
-msgstr "עורך הטקסט של GIMP"
+msgstr "עורך הטקסט של Glimpse"
 
 #: ../app/tools/gimptextoptions.c:210
 msgid "Use an external editor window for text entry"
@@ -25372,7 +25372,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "עורך הטקסט של GIMP"
+msgstr "עורך הטקסט של Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 #, fuzzy
@@ -28787,7 +28787,7 @@ msgstr "הגדרות כלים"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "ההתקנה של GIMP שברשותך אינה שלמה."
+msgstr "ההתקנה של Glimpse שברשותך אינה שלמה."
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -29107,7 +29107,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "האם לצאת מ Gimp?"
+msgstr "האם לצאת מ Glimpse?"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -29151,7 +29151,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -29169,7 +29169,7 @@ msgstr ""
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "זכויות יוצרים © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis וצוות הפיתוח של GIMP"
+#~ "Spencer Kimball, Peter Mattis וצוות הפיתוח של Glimpse"
 
 #~ msgid ""
 #~ "Unable to open a test swap file.\n"
@@ -29979,7 +29979,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Enable displaying a handy Glimpse tip on startup."
-#~ msgstr "איפשור הצגת עצת GIMP שימושית בהפעלת התוכנה."
+#~ msgstr "איפשור הצגת עצת Glimpse שימושית בהפעלת התוכנה."
 
 #, fuzzy
 #~ msgid "Remove floating selection"
@@ -30072,7 +30072,7 @@ msgstr ""
 #~ msgstr "דפדפן עזרה"
 
 #~ msgid "Show tip next time Glimpse starts"
-#~ msgstr "הצגת טיפים באתחול הבא של GIMP"
+#~ msgstr "הצגת טיפים באתחול הבא של Glimpse"
 
 #, fuzzy
 #~ msgid "Do_n't Save"
@@ -30234,7 +30234,7 @@ msgstr ""
 #~ msgstr "הדפסה לרוחב"
 
 #~ msgid "The GIMP"
-#~ msgstr "ה GIMP"
+#~ msgstr "Glimpse"
 
 #~ msgid ""
 #~ "\n"
@@ -30531,14 +30531,14 @@ msgstr ""
 #~ msgid ""
 #~ "Welcome to\n"
 #~ "The GIMP %d.%d User Installation"
-#~ msgstr "התקנת משתמש של GIMP"
+#~ msgstr "התקנת משתמש של Glimpse"
 
 #, fuzzy
 #~ msgid "Do a _fresh user installation"
-#~ msgstr "התקנת משתמש של GIMP"
+#~ msgstr "התקנת משתמש של Glimpse"
 
 #~ msgid "Personal Glimpse Folder"
-#~ msgstr "ספריית GIMP אישית"
+#~ msgstr "ספריית Glimpse אישית"
 
 #, fuzzy
 #~ msgid "Select swap dir"
@@ -30835,7 +30835,7 @@ msgstr ""
 #~ msgstr ""
 #~ "ישנם קבצים שלא נשמרו.\n"
 #~ "\n"
-#~ "האם לצאת מ Gimp בכל זאת?"
+#~ "האם לצאת מ Glimpse בכל זאת?"
 
 #~ msgid "Select Temp Dir"
 #~ msgstr "בחירת ספריה זמנית"
@@ -31682,7 +31682,7 @@ msgstr ""
 #~ msgstr "/צפיה/מיקוד/1:8"
 
 #~ msgid "The GIMP (unstable)"
-#~ msgstr "ה GIMP (לא יציב)"
+#~ msgstr "Glimpse (לא יציב)"
 
 #~ msgid "Visit http://www.gimp.org/ for more information"
 #~ msgstr "למידע נוסף מומלץ לבקר בhttp://www.gimp.org/"

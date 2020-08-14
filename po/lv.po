@@ -28,7 +28,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Iziet no GIMP"
+msgstr "Iziet no Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -165,7 +165,7 @@ msgstr ""
 "KONKRĒTIEM NOLŪKIEM garantijām. Sīkāku informāciju meklējiet GNU Vispārējā "
 "publiskajā licencē.\n"
 "\n"
-"Jums vajadzēja saņemt GNU Vispārējās publiskās licences kopiju kopā GIMP; ja "
+"Jums vajadzēja saņemt GNU Vispārējās publiskās licences kopiju kopā Glimpse; ja "
 "jūs to nesaņēmāt, skatiet https://www.gnu.org/licenses/"
 
 #: ../app/gimp-update.c:251
@@ -2975,12 +2975,12 @@ msgstr "_Dienas padoms"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Rādīt noderīgus padomus darbam ar GIMP"
+msgstr "Rādīt noderīgus padomus darbam ar Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Par GIMP"
+msgstr "Par Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -4067,7 +4067,7 @@ msgstr "_Iziet"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Iziet no GIMP"
+msgstr "Iziet no Glimpse"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -10644,11 +10644,11 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"Saglabāt galveno dialoglodziņu novietojumus un izmērus, izejot no GIMP."
+"Saglabāt galveno dialoglodziņu novietojumus un izmērus, izejot no Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "Saglabāt rīku opcijas, izejot no GIMP."
+msgstr "Saglabāt rīku opcijas, izejot no Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:395
 msgid ""
@@ -10837,7 +10837,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:501
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "Saglabāt īsinājumtaustiņus, izejot no GIMP."
+msgstr "Saglabāt īsinājumtaustiņus, izejot no Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
@@ -10851,7 +10851,7 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Norāda pagaidu katalogu. Šeit tiks izvietotas datnes, ar kurām Glimpse "
-"pašlaik strādā. Vairums datņu, aizverot GIMP, tiks dzēstas, tomēr dažas var "
+"pašlaik strādā. Vairums datņu, aizverot Glimpse, tiks dzēstas, tomēr dažas var "
 "palikt, tāpēc šai mapei nevajadzētu būt koplietošanā ar citiem lietotājiem."
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -12265,7 +12265,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Izskatās, ka esat lietojuši GIMP %s jau agrāk. Glimpse migrēs jūsu "
+"Izskatās, ka esat lietojuši Glimpse %s jau agrāk. Glimpse migrēs jūsu "
 "iestatījumus uz “%s”."
 
 #: ../app/core/gimp-user-install.c:220
@@ -14408,7 +14408,7 @@ msgstr "procenti"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Par GIMP"
+msgstr "Par Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15216,7 +15216,7 @@ msgstr "_Atsvaidzināt"
 #: ../app/dialogs/module-dialog.c:153
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr "Jums ir jāpārstartē GIMP, lai izmaiņas stātos spēkā."
+msgstr "Jums ir jāpārstartē Glimpse, lai izmaiņas stātos spēkā."
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15341,7 +15341,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
-msgstr "Jums ir jāpārstartē GIMP, lai sekojošās izmaiņas stātos spēkā:"
+msgstr "Jums ir jāpārstartē Glimpse, lai sekojošās izmaiņas stātos spēkā:"
 
 #: ../app/dialogs/preferences-dialog.c:647
 #, fuzzy
@@ -15368,7 +15368,7 @@ msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Logu parametri tiks atstatīti uz sākotnējām vērtībām, kad startēsiet GIMP "
+"Logu parametri tiks atstatīti uz sākotnējām vērtībām, kad startēsiet Glimpse "
 "nākošo reizi."
 
 #: ../app/dialogs/preferences-dialog.c:756
@@ -15386,7 +15386,7 @@ msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Rīku parametri tiks atstatīti uz sākotnējām vērtībām, kad startēsiet GIMP "
+"Rīku parametri tiks atstatīti uz sākotnējām vērtībām, kad startēsiet Glimpse "
 "nākošo reizi."
 
 #: ../app/dialogs/preferences-dialog.c:850
@@ -16983,7 +16983,7 @@ msgstr "pikseļi/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Iziet no GIMP"
+msgstr "Iziet no Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -20407,7 +20407,7 @@ msgstr ""
 "(%s)\n"
 "\n"
 "Iespējams, ka tas ietekmējis Glimpse iekšējo stāvokli. Drošības pēc jūs "
-"varētu saglabāt attēlus un pārstartēt GIMP."
+"varētu saglabāt attēlus un pārstartēt Glimpse."
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -25017,7 +25017,7 @@ msgstr ""
 msgid ""
 "To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
-"Lai palīdzētu mums uzlabot GIMP, jūs varat ziņot par kļūdām, izmantojot šos "
+"Lai palīdzētu mums uzlabot Glimpse, jūs varat ziņot par kļūdām, izmantojot šos "
 "soļus:"
 
 #: ../app/widgets/gimpcriticaldialog.c:240
@@ -25056,7 +25056,7 @@ msgid ""
 "save your work and restart Glimpse."
 msgstr ""
 "Iespējams, šī kļūda ir atstājusi Glimpse programmu nekonsekventā stāvoklī. "
-"Vēlams saglabāt savu darbu un pārstartēt GIMP."
+"Vēlams saglabāt savu darbu un pārstartēt Glimpse."
 
 #: ../app/widgets/gimpcriticaldialog.c:253
 msgid ""
@@ -25151,7 +25151,7 @@ msgstr "Glimpse saskārās ar vairākām kritiskām kļūdām!"
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Pā_rstartēt GIMP"
+msgstr "Pā_rstartēt Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -26979,7 +26979,7 @@ msgstr "aptuvens"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27034,10 +27034,10 @@ msgstr "aptuvens"
 #~ "operētājsistēmām."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Gleznošana ar GIMP"
+#~ msgstr "Gleznošana ar Glimpse"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Fotogrāfiju rediģēšana ar GIMP"
+#~ msgstr "Fotogrāfiju rediģēšana ar Glimpse"
 
 #~ msgid ""
 #~ "Glimpse 2.10.10 is quite a big update with many new features and bug "

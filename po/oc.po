@@ -1,5 +1,5 @@
 # translation of gimp20.po to Occitan (lengadocian)
-# Occitan (post 1500) translation for gimp
+# Occitan (post 1500) translation for Glimpse
 # Copyright (c) 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Glimpse package.
 # Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2007, 2008.
@@ -109,7 +109,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Editor de tèxte GIMP"
+msgstr "Editor de tèxte Glimpse "
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -314,7 +314,7 @@ msgstr "Una autre instància de Glimpse es ja aviada."
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
 msgstr ""
-"Sortida GIMP. Picatz quin caractèr que siá per tampar aquesta fenèstra."
+"Sortida Glimpse. Picatz quin caractèr que siá per tampar aquesta fenèstra."
 
 #: ../app/main.c:707
 #, c-format
@@ -324,7 +324,7 @@ msgstr "(picatz quin caractèr que siá per tampar aquesta fenèstra)\n"
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Sortida GIMP. Podètz reduire aquesta fenèstra mas la tampetz pas."
+msgstr "Sortida Glimpse. Podètz reduire aquesta fenèstra mas la tampetz pas."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -4247,7 +4247,7 @@ msgstr "_Quitar"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Quita l'editor d'imatge GIMP"
+msgstr "Quita l'editor d'imatge Glimpse "
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -10505,7 +10505,7 @@ msgstr "Dreitièr"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Navigador d'ajuda GIMP"
+msgstr "Navigador d'ajuda Glimpse "
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -11092,7 +11092,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"Enregistrar las posicions e talhas de las fenèstras principalas quand GIMP "
+"Enregistrar las posicions e talhas de las fenèstras principalas quand Glimpse "
 "es quitat."
 
 #: ../app/config/gimprc-blurbs.h:389
@@ -11310,7 +11310,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:501
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "Enregistrar los acorchis de clavièr modificats quand se quita GIMP."
+msgstr "Enregistrar los acorchis de clavièr modificats quand se quita Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
@@ -11325,7 +11325,7 @@ msgid ""
 msgstr ""
 "Indica l'emplaçament del repertòri d'emmagazinatge temporari. De fichièrs i "
 "apareisseràn al moment del foncionament de Glimpse ; la màger part "
-"desspareisserà quand  quitaretz GIMP, mas es probable que certans fichièrs "
+"desspareisserà quand  quitaretz Glimpse , mas es probable que certans fichièrs "
 "subsistiscan. Atal es preferible qu'aqueste repertòri siá pas partejat amb "
 "d'autres utilizaires."
 
@@ -12725,7 +12725,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Sembla qu'avètz utilizat GIMP-%s deperabans. Glimpse va ara migrar vòstres "
+"Sembla qu'avètz utilizat Glimpse -%s deperabans. Glimpse va ara migrar vòstres "
 "paramètres utilizaire cap a « %s »."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12815,7 +12815,7 @@ msgstr "Sens nom"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 "Error fatala a l'analisi del fichièr de bròssa : prigondor %d pas presa en "
 "carga\n"
@@ -12893,7 +12893,7 @@ msgstr "Quichapapièrs"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Es pas un fichièr de bròssas GIMP"
+msgstr "Es pas un fichièr de bròssas Glimpse"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13472,7 +13472,7 @@ msgstr "Emplenar amb una color unida"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "aquò es pas un fichièr de corbas GIMP"
+msgstr "aquò es pas un fichièr de corbas Glimpse"
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -13499,7 +13499,7 @@ msgstr "Los segments dintran pas dins l'interval 0-1."
 #: ../app/core/gimpgradient-load.c:261
 #, fuzzy, c-format
 msgid "In line %d of gradient file: "
-msgstr "aquò es pas un fichièr de corbas GIMP"
+msgstr "aquò es pas un fichièr de corbas Glimpse "
 
 #: ../app/core/gimpgradient-load.c:337
 #, fuzzy, c-format
@@ -15914,7 +15914,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Vòstres acorchis de clavièr seràn reïnicializats a las valors per defaut lo "
-"còp que ven qu'aviaretz GIMP."
+"còp que ven qu'aviaretz Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15933,7 +15933,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Vòstres paramètres de las fenèstras seràn reïnicializats, a las valors per "
-"defaut, lo còp que ven qu'aviaretz GIMP."
+"defaut, lo còp que ven qu'aviaretz Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15942,7 +15942,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Vòstres periferics d'entrada seràn reïnicializats a las valors per defaut lo "
-"còp que ven qu'aviaretz GIMP."
+"còp que ven qu'aviaretz Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15951,7 +15951,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Vòstras opcions de las aisinas seràn reïnicializats a las valors per defaut "
-"lo còp que ven qu'aviaretz GIMP."
+"lo còp que ven qu'aviaretz Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17619,7 +17619,7 @@ msgstr "pixèls/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Quita l'editor d'imatge GIMP"
+msgstr "Quita l'editor d'imatge Glimpse "
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17825,7 +17825,7 @@ msgstr "Lo fichièr de las astúcias Glimpse pòt pas èsser legit corrèctament
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Conselh del jorn GIMP"
+msgstr "Conselh del jorn Glimpse "
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -19572,7 +19572,7 @@ msgstr "Corbas"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "es pas un fichièr de corbas GIMP"
+msgstr "es pas un fichièr de corbas Glimpse "
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19650,7 +19650,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "es pas un fichièr de nivèls GIMP"
+msgstr "es pas un fichièr de nivèls Glimpse "
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -24361,7 +24361,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Editor de tèxte GIMP"
+msgstr "Editor de tèxte Glimpse "
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -26137,7 +26137,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Quita l'editor d'imatge GIMP"
+msgstr "Quita l'editor d'imatge Glimpse "
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -28033,7 +28033,7 @@ msgstr "fosc"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28048,7 +28048,7 @@ msgstr "fosc"
 #~ msgstr "Desbugatge"
 
 #~ msgid "GNU Image Manipulation Program"
-#~ msgstr "Editor d'imatge GIMP"
+#~ msgstr "Editor d'imatge Glimpse "
 
 #~ msgid ""
 #~ "Copyright © 1995-%s\n"
@@ -28351,7 +28351,7 @@ msgstr "fosc"
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
 #~ "Error fatale a l'analyse del fichièr de bròssa « %s » : es pas un fichièr "
-#~ "de bròssa GIMP."
+#~ "de bròssa Glimpse."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
@@ -28403,7 +28403,7 @@ msgstr "fosc"
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
 #~ "Error fatale a l'analyse del fichièr de degradat « %s » : es pas un "
-#~ "fichièr de degradat GIMP."
+#~ "fichièr de degradat Glimpse."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr ""

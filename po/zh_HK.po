@@ -1,4 +1,4 @@
-# Chinese (Hong Kong) translation of gimp.
+# Chinese (Hong Kong) translation of Glimpse.
 # Copyright (C) 2001, 2003, 2004 Free Software Foundation, Inc.
 # 陳英傑 <r5224205@ms.cc.ntu.edu.tw>, 2001.
 # 林佳宏 <object@mis.mgt.ncu.edu.tw>, 2001.
@@ -24,7 +24,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "結束 GIMP"
+msgstr "結束 Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -102,7 +102,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP 文字編輯器"
+msgstr "Glimpse 文字編輯器"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -193,7 +193,7 @@ msgstr "顯示更多結果"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "啟動新的 GIMP 實體"
+msgstr "啟動新的 Glimpse 實體"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -218,7 +218,7 @@ msgstr "不要顯示啟動畫面"
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "GIMP 和增效模組之間不使用共享記憶體"
+msgstr "Glimpse 和增效模組之間不使用共享記憶體"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -291,18 +291,18 @@ msgid ""
 "Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP 無法初始化圖形介面。\n"
+"Glimpse 無法初始化圖形介面。\n"
 "請確定你的圖形顯示環境設定無誤。"
 
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "另一個 GIMP 實體已經在執行。"
+msgstr "另一個 Glimpse 實體已經在執行。"
 
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP 輸出。請輸入任何字符以關閉這個視窗。"
+msgstr "Glimpse 輸出。請輸入任何字符以關閉這個視窗。"
 
 #: ../app/main.c:707
 #, c-format
@@ -312,7 +312,7 @@ msgstr "(輸入任何字符以關閉這個視窗)\n"
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "GIMP 輸出。你可以將這個視窗最小化，但不關閉它。"
+msgstr "Glimpse 輸出。你可以將這個視窗最小化，但不關閉它。"
 
 #: ../app/sanity.c:562
 #, c-format
@@ -335,7 +335,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"含有 GIMP 個人組態檔的目錄的名稱無法轉換至 UTF-8：%s\n"
+"含有 Glimpse 個人組態檔的目錄的名稱無法轉換至 UTF-8：%s\n"
 "\n"
 "最可能的原因是，檔案系統使用了 UTF-8 以外的編碼作為檔案名稱，而且你沒有正確設"
 "定來通知 Glib。請設定環境變數 G_FILENAME_ENCODING。"
@@ -3119,12 +3119,12 @@ msgstr "每日提示(_T)"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "顯示一些使用 GIMP 的有用提示"
+msgstr "顯示一些使用 Glimpse 的有用提示"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "關於 GIMP"
+msgstr "關於 Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -5756,7 +5756,7 @@ msgstr "說明(_H)"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "開啟 GIMP 使用者手冊"
+msgstr "開啟 Glimpse 使用者手冊"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -8311,7 +8311,7 @@ msgstr "結束程式時儲存工具選項(_S)"
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "當 GIMP 結束時儲存工具選項。"
+msgstr "當 Glimpse 結束時儲存工具選項。"
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8400,7 +8400,7 @@ msgstr "結束程式時儲存工具選項(_S)"
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "當 GIMP 結束時儲存工具選項。"
+msgstr "當 Glimpse 結束時儲存工具選項。"
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -10433,7 +10433,7 @@ msgstr "單一視窗模式"
 #, fuzzy
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "使用 GIMP 在一個單一視窗模式。"
+msgstr "使用 Glimpse 在一個單一視窗模式。"
 
 #: ../app/actions/windows-actions.c:152
 msgctxt "windows-tabs-position-action"
@@ -10591,7 +10591,7 @@ msgstr ""
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "GIMP 說明文件瀏覽器"
+msgstr "Glimpse 說明文件瀏覽器"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10800,7 +10800,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:62
 msgid "Sets the type of mouse pointers to use."
-msgstr "指定 GIMP 以哪種方式顯示鼠標。"
+msgstr "指定 Glimpse 以哪種方式顯示鼠標。"
 
 #: ../app/config/gimprc-blurbs.h:65
 msgid "Sets the handedness for cursor positioning."
@@ -10968,7 +10968,7 @@ msgid ""
 "When enabled, this will ensure that the full image is visible after a file "
 "is opened, otherwise it will be displayed with a scale of 1:1."
 msgstr ""
-"如啟用本選項，GIMP 會確保開啟圖片後，畫面中會完全顯示整幅圖片，否則它會以原來"
+"如啟用本選項，Glimpse 會確保開啟圖片後，畫面中會完全顯示整幅圖片，否則它會以原來"
 "尺寸顯示。"
 
 #: ../app/config/gimprc-blurbs.h:255
@@ -10978,7 +10978,7 @@ msgstr "設定縮放及變換圖片時選用的插值法品質。"
 
 #: ../app/config/gimprc-blurbs.h:262
 msgid "Specifies the language to use for the user interface."
-msgstr "為 GIMP 程式使用者界面指定要使用的語言。"
+msgstr "為 Glimpse 程式使用者界面指定要使用的語言。"
 
 #: ../app/config/gimprc-blurbs.h:265
 msgid ""
@@ -11008,7 +11008,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"如果用戶嘗試產生一個使用多於指定記憶體數量的圖片時，GIMP 會發出警告訊息提示用"
+"如果用戶嘗試產生一個使用多於指定記憶體數量的圖片時，Glimpse 會發出警告訊息提示用"
 "戶。"
 
 #: ../app/config/gimprc-blurbs.h:291
@@ -11052,7 +11052,7 @@ msgstr "設定圖片視窗右下角的導覽圖尺寸。"
 #, fuzzy
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
-msgstr "設定 GIMP 應嘗試同時使用幾個處理器。"
+msgstr "設定 Glimpse 應嘗試同時使用幾個處理器。"
 
 #: ../app/config/gimprc-blurbs.h:339
 msgid ""
@@ -11060,7 +11060,7 @@ msgid ""
 "in the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"指定 GIMP 應否產生圖層及色版的預覽圖。在圖層及色版對話盒中顯示預覽圖是一件好"
+"指定 Glimpse 應否產生圖層及色版的預覽圖。在圖層及色版對話盒中顯示預覽圖是一件好"
 "事，但如果開啟較大的圖片，會拖慢整體的運行速度。"
 
 #: ../app/config/gimprc-blurbs.h:344
@@ -11069,7 +11069,7 @@ msgid ""
 "Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr ""
-"指定 GIMP 應否產生圖層及色版的預覽圖。在圖層及色版對話盒中顯示預覽圖是一件好"
+"指定 Glimpse 應否產生圖層及色版的預覽圖。在圖層及色版對話盒中顯示預覽圖是一件好"
 "事，但如果開啟較大的圖片，會拖慢整體的運行速度。"
 
 #: ../app/config/gimprc-blurbs.h:348
@@ -11099,7 +11099,7 @@ msgstr "如啟用本選項，當拉近或者拉遠圖片時，圖片視窗會自
 
 #: ../app/config/gimprc-blurbs.h:365
 msgid "Let Glimpse try to restore your last saved session on each startup."
-msgstr "讓 GIMP 在每次啟動時回復上次執行的情況。"
+msgstr "讓 Glimpse 在每次啟動時回復上次執行的情況。"
 
 #: ../app/config/gimprc-blurbs.h:368
 msgid ""
@@ -11111,7 +11111,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:373
 msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
-msgstr "在 GIMP 結束前，記錄目前使用的工具、圖樣、色彩及筆刷。"
+msgstr "在 Glimpse 結束前，記錄目前使用的工具、圖樣、色彩及筆刷。"
 
 #: ../app/config/gimprc-blurbs.h:377
 msgid ""
@@ -11127,11 +11127,11 @@ msgstr "在最近使用文件清單中永久保存所有開啟或儲存過的檔
 
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
-msgstr "當 GIMP 結束時儲存主要對話盒的位置及尺寸。"
+msgstr "當 Glimpse 結束時儲存主要對話盒的位置及尺寸。"
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "當 GIMP 結束時儲存工具選項。"
+msgstr "當 Glimpse 結束時儲存工具選項。"
 
 #: ../app/config/gimprc-blurbs.h:395
 msgid ""
@@ -11246,7 +11246,7 @@ msgstr "當鼠標停在項目上時顯示工具提示。"
 #: ../app/config/gimprc-blurbs.h:455
 #, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "使用 GIMP 在一個單一視窗模式。"
+msgstr "使用 Glimpse 在一個單一視窗模式。"
 
 #: ../app/config/gimprc-blurbs.h:458
 msgid "Hide docks and other windows, leaving only image windows."
@@ -11255,7 +11255,7 @@ msgstr "隱藏停駐式及其他視窗，只留下圖片視窗。"
 #: ../app/config/gimprc-blurbs.h:461
 #, fuzzy
 msgid "Show the image tabs bar in single window mode."
-msgstr "使用 GIMP 在一個單一視窗模式。"
+msgstr "使用 Glimpse 在一個單一視窗模式。"
 
 #: ../app/config/gimprc-blurbs.h:464
 #, fuzzy
@@ -11295,8 +11295,8 @@ msgid ""
 "swap file is created on a folder that is mounted over NFS.  For these "
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"指定交換檔的位置。GIMP 會使用平面區塊的方式分配記憶體。交換檔的用途是將這些區"
-"塊快速地寫入磁碟或者讀入記憶體。但是要注意，如果 GIMP 開啟了較大的圖片，這些"
+"指定交換檔的位置。Glimpse 會使用平面區塊的方式分配記憶體。交換檔的用途是將這些區"
+"塊快速地寫入磁碟或者讀入記憶體。但是要注意，如果 Glimpse 開啟了較大的圖片，這些"
 "交換檔可以變得很大。另外，如果交換檔目錄是在 NFS 伺服器中，速度可以變得很慢。"
 "基於以上的原因，最好將交換檔案目錄設定為“/tmp”。"
 
@@ -11314,11 +11314,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:501
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "當 GIMP 結束時儲存己修改的捷徑鍵。"
+msgstr "當 Glimpse 結束時儲存己修改的捷徑鍵。"
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "當 GIMP 啟動時載入己修改的捷徑鍵。"
+msgstr "當 Glimpse 啟動時載入己修改的捷徑鍵。"
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11327,8 +11327,8 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"指定存放暫存檔的目錄。當執行 GIMP 的時候，該目錄會出現一些檔案，其中大部份都"
-"會在 GIMP 結束後消失，但有可能有一些檔案會留下，因此該目錄最好是不可以分享給"
+"指定存放暫存檔的目錄。當執行 Glimpse 的時候，該目錄會出現一些檔案，其中大部份都"
+"會在 Glimpse 結束後消失，但有可能有一些檔案會留下，因此該目錄最好是不可以分享給"
 "其它使用者。"
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -11553,7 +11553,7 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"當像素資料的總數超過這個限制時，GIMP 會開始將資料暫存於磁碟中。這樣會讓它變得"
+"當像素資料的總數超過這個限制時，Glimpse 會開始將資料暫存於磁碟中。這樣會讓它變得"
 "比較慢，但也讓我們可以處理無法完全載入記憶體中的大型圖片。如果你有很多記憶體"
 "(RAM)，你可能會把這個選項設為比較高的數值。"
 
@@ -11585,7 +11585,7 @@ msgstr "以棋盤格代表透明度時，指定棋盤格的尺寸。"
 msgid ""
 "When enabled, Glimpse will not save an image if it has not been changed "
 "since it was opened."
-msgstr "如啟用本選項，GIMP 不會儲存沒有修改的圖片。"
+msgstr "如啟用本選項，Glimpse 不會儲存沒有修改的圖片。"
 
 #: ../app/config/gimprc-blurbs.h:705
 msgid ""
@@ -11871,7 +11871,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "關於 GIMP"
+msgstr "關於 Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12726,7 +12726,7 @@ msgstr "寫入“%s”時發生錯誤：%s"
 msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
-msgstr "你似乎以前曾使用過 GIMP %s。GIMP 現在將把你的使用者設定值轉移為“%s”。"
+msgstr "你似乎以前曾使用過 Glimpse %s。Glimpse 現在將把你的使用者設定值轉移為“%s”。"
 
 #: ../app/core/gimp-user-install.c:220
 #, c-format
@@ -12734,7 +12734,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"這似乎是你第一次使用 GIMP。GIMP 現在將建立一個名為“%s”的資料夾並複製一些檔案"
+"這似乎是你第一次使用 Glimpse。Glimpse 現在將建立一個名為“%s”的資料夾並複製一些檔案"
 "進去。"
 
 #: ../app/core/gimp-user-install.c:419
@@ -12816,7 +12816,7 @@ msgid ""
 "GIMP brushes must be GRAY or RGBA."
 msgstr ""
 "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：不支援筆刷色彩深度 %d\n"
-"GIMP 筆刷必須使用 GRAY 或 RGBA 色系。"
+"Glimpse 筆刷必須使用 GRAY 或 RGBA 色系。"
 
 #: ../app/core/gimpbrush-load.c:519
 #, fuzzy, c-format
@@ -14431,10 +14431,10 @@ msgstr "分析圖樣檔案‘%s’時出現嚴重錯誤：無法理解圖樣格�
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"Glimpse Patterns must be GRAY or RGB."
 msgstr ""
 "分析圖樣檔案‘%s’時出現嚴重錯誤：不支援色彩深度 %d。\n"
-"GIMP 的圖樣必須使用灰階或 RGB 色系。"
+"Glimpse 的圖樣必須使用灰階或 RGB 色系。"
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -14954,11 +14954,11 @@ msgstr "百分比"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "關於 GIMP"
+msgstr "關於 Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "訪問 GIMP 網站"
+msgstr "訪問 Glimpse 網站"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15008,7 +15008,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
-msgstr "GIMP 版本由以下人仕編寫："
+msgstr "Glimpse 版本由以下人仕編寫："
 
 #: ../app/dialogs/about-dialog.c:752
 #, fuzzy, c-format
@@ -15292,12 +15292,12 @@ msgstr "是否確定要同時在清單及磁碟裏刪除“%s”？"
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP 訊息"
+msgstr "Glimpse 訊息"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "GIMP 訊息"
+msgstr "Glimpse 訊息"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -15799,7 +15799,7 @@ msgstr "重新整理筆刷(_R)"
 #: ../app/dialogs/module-dialog.c:153
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr "你必須重新啟動 GIMP 來讓更改生效。"
+msgstr "你必須重新啟動 Glimpse 來讓更改生效。"
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15924,14 +15924,14 @@ msgstr "你是否確定要將所有偏好設定還原為預設值？"
 #, fuzzy
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
-msgstr "你必須重新啟動 GIMP 令以下的設定生效："
+msgstr "你必須重新啟動 Glimpse 令以下的設定生效："
 
 #: ../app/dialogs/preferences-dialog.c:647
 #, fuzzy
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
-msgstr "下次啟動 GIMP 時會將所有捷徑鍵還原為預設值。"
+msgstr "下次啟動 Glimpse 時會將所有捷徑鍵還原為預設值。"
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15946,21 +15946,21 @@ msgstr "你是否確定要移除所有選單的鍵盤捷徑鍵？"
 msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
-msgstr "下次啟動 GIMP 時會將所有視窗組態還原為預設值。"
+msgstr "下次啟動 Glimpse 時會將所有視窗組態還原為預設值。"
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
 msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
-msgstr "下次啟動 GIMP 時會將所有輸入裝置的設定還原為預設值。"
+msgstr "下次啟動 Glimpse 時會將所有輸入裝置的設定還原為預設值。"
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
 msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
-msgstr "下次啟動 GIMP 時會將你的工具選項還原為預設值。"
+msgstr "下次啟動 Glimpse 時會將你的工具選項還原為預設值。"
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17051,7 +17051,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"安裝 GIMP 時似乎沒有同時安裝有關說明文件瀏覽器的增效模組。你可以使用網頁瀏覽"
+"安裝 Glimpse 時似乎沒有同時安裝有關說明文件瀏覽器的增效模組。你可以使用網頁瀏覽"
 "器閱讀說明文件。"
 
 #. Action Search
@@ -17341,7 +17341,7 @@ msgstr "額外輸入裝置"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "當 GIMP 結束時儲存工具選項。"
+msgstr "當 Glimpse 結束時儲存工具選項。"
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -17662,7 +17662,7 @@ msgstr "關閉所有圖片"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "如果現在結束 GIMP，未儲存的部份將會失去。"
+msgstr "如果現在結束 Glimpse，未儲存的部份將會失去。"
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -17839,12 +17839,12 @@ msgstr "模擬筆刷動態(_E)"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr " GIMP 提示檔是空的！"
+msgstr " Glimpse 提示檔是空的！"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "GIMP 提示檔似乎不存在！"
+msgstr "Glimpse 提示檔似乎不存在！"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17854,11 +17854,11 @@ msgstr "系統中應該有一個名稱為‘%s’的檔案存在。請檢查安�
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "無法正確分析 GIMP 提示檔內容！"
+msgstr "無法正確分析 Glimpse 提示檔內容！"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "GIMP 小提示"
+msgstr "Glimpse 小提示"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -17885,7 +17885,7 @@ msgstr "tips-locale:zh_TW"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP 使用者安裝程序"
+msgstr "Glimpse 使用者安裝程序"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -17894,7 +17894,7 @@ msgstr "使用者安裝失敗！"
 #: ../app/dialogs/user-install-dialog.c:96
 #, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
-msgstr "GIMP 使用者安裝失敗；請看紀錄檔以取得詳細資訊。"
+msgstr "Glimpse 使用者安裝失敗；請看紀錄檔以取得詳細資訊。"
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -19615,7 +19615,7 @@ msgstr "曲線"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "不是 GIMP 曲線檔案"
+msgstr "不是 Glimpse 曲線檔案"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19694,7 +19694,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "並非 GIMP 色階檔案"
+msgstr "並非 Glimpse 色階檔案"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19886,7 +19886,7 @@ msgstr "文件"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "啟動 GIMP"
+msgstr "啟動 Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -21297,8 +21297,8 @@ msgstr ""
 "增效模組異常終止：“%s”\n"
 "(%s)\n"
 "\n"
-"已終止的增效模組可能會擾亂 GIMP 的內部狀態。為安全起見，你或許應該儲存圖片並"
-"重新啟動 GIMP。"
+"已終止的增效模組可能會擾亂 Glimpse 的內部狀態。為安全起見，你或許應該儲存圖片並"
+"重新啟動 Glimpse。"
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -21415,12 +21415,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "略過 ‘%s’：GIMP 通訊協定版本錯誤。"
+msgstr "略過 ‘%s’：Glimpse 通訊協定版本錯誤。"
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "略過 ‘%s’：GIMP 通訊協定版本錯誤。"
+msgstr "略過 ‘%s’：Glimpse 通訊協定版本錯誤。"
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -24451,7 +24451,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP 文字編輯器"
+msgstr "Glimpse 文字編輯器"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -27018,14 +27018,14 @@ msgstr "說明文件瀏覽器遺失"
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "GIMP 說明文件瀏覽器無法使用。"
+msgstr "Glimpse 說明文件瀏覽器無法使用。"
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"安裝 GIMP 時似乎沒有同時安裝有關說明文件瀏覽器的增效模組。你可以使用網頁瀏覽"
+"安裝 Glimpse 時似乎沒有同時安裝有關說明文件瀏覽器的增效模組。你可以使用網頁瀏覽"
 "器閱讀說明文件。"
 
 #: ../app/widgets/gimphelp.c:419
@@ -27034,13 +27034,13 @@ msgstr "說明文件瀏覽器無法啟動"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "無法啟動 GIMP 說明文件瀏覽器增效模組。"
+msgstr "無法啟動 Glimpse 說明文件瀏覽器增效模組。"
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"安裝 GIMP 時似乎沒有同時安裝有關說明文件瀏覽器的增效模組。你可以使用網頁瀏覽"
+"安裝 Glimpse 時似乎沒有同時安裝有關說明文件瀏覽器的增效模組。你可以使用網頁瀏覽"
 "器閱讀說明文件。"
 
 #: ../app/widgets/gimphelp.c:448
@@ -27049,12 +27049,12 @@ msgstr "使用網頁瀏覽器(_W)"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "GIMP 使用者手冊不見了"
+msgstr "Glimpse 使用者手冊不見了"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "GIMP 使用者手冊並未安裝在你的電腦上。"
+msgstr "Glimpse 使用者手冊並未安裝在你的電腦上。"
 
 #: ../app/widgets/gimphelp.c:820
 #, fuzzy
@@ -27808,7 +27808,7 @@ msgstr "工具預設"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "GIMP 安裝未完整︰"
+msgstr "Glimpse 安裝未完整︰"
 
 #: ../app/widgets/gimpuimanager.c:849
 #, fuzzy
@@ -28115,7 +28115,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP 訊息"
+msgstr "Glimpse 訊息"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -28157,7 +28157,7 @@ msgstr "模糊"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28179,7 +28179,7 @@ msgstr "模糊"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "版權所有 © 1995-%s\n"
-#~ "Spencer Kimball、Peter Mattis 及 GIMP 開發隊伍"
+#~ "Spencer Kimball、Peter Mattis 及 Glimpse 開發隊伍"
 
 #~ msgid ""
 #~ "Unable to open a test swap file.\n"
@@ -28297,15 +28297,15 @@ msgstr "模糊"
 #~ "your work using different filenames, restart Glimpse and check the "
 #~ "location of the swap directory in your Preferences."
 #~ msgstr ""
-#~ "無法開啟交換檔。GIMP 已耗盡記憶體，而且無法使用交換檔，這樣可能引致某部份"
-#~ "圖片內容損壞。請你嘗試使用另一個檔案名稱儲存圖片，然後重新啟動 GIMP，在偏"
+#~ "無法開啟交換檔。Glimpse 已耗盡記憶體，而且無法使用交換檔，這樣可能引致某部份"
+#~ "圖片內容損壞。請你嘗試使用另一個檔案名稱儲存圖片，然後重新啟動 Glimpse，在偏"
 #~ "好設定中檢查有關交換檔資料夾的位置。"
 
 #~ msgid "Ask for confirmation before closing an image without saving."
 #~ msgstr "如果在未儲存圖片的情況下關閉視窗，必須先得到使用者同意。"
 
 #~ msgid "Sets the pixel format to use for mouse pointers."
-#~ msgstr "指定 GIMP 顯示鼠標時使用的圖形。"
+#~ msgstr "指定 Glimpse 顯示鼠標時使用的圖形。"
 
 #, fuzzy
 #~ msgid ""
@@ -28427,17 +28427,17 @@ msgstr "模糊"
 #~ msgstr "亮度"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
-#~ msgstr "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：它不是 GIMP 筆刷檔案"
+#~ msgstr "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：它不是 Glimpse 筆刷檔案"
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
-#~ msgstr "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：第 %d 行的 GIMP 筆刷版本不明"
+#~ msgstr "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：第 %d 行的 Glimpse 筆刷版本不明"
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
-#~ msgstr "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：第 %d 行的 GIMP 筆刷形狀不明"
+#~ msgstr "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：第 %d 行的 Glimpse 筆刷形狀不明"
 
 #~ msgid "Line %d: %s"
 #~ msgstr "%d 行：%s"
@@ -28463,7 +28463,7 @@ msgstr "模糊"
 
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
-#~ msgstr "分析漸變色檔案 ‘%s’ 時出現嚴重錯誤：它不是 GIMP 漸變色檔案。"
+#~ msgstr "分析漸變色檔案 ‘%s’ 時出現嚴重錯誤：它不是 Glimpse 漸變色檔案。"
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr "分析漸變色檔案 ‘%s’ 時出現嚴重錯誤：檔案內容第 %d 行已損壞。"
@@ -28855,7 +28855,7 @@ msgstr "模糊"
 #~ msgid ""
 #~ "When enabled Glimpse is in a single-window mode. Far from completely "
 #~ "implemented!"
-#~ msgstr "當啟用本選項，GIMP 是在單一視窗模式。"
+#~ msgstr "當啟用本選項，Glimpse 是在單一視窗模式。"
 
 #~ msgctxt "undo-type"
 #~ msgid "Brightness_Contrast"
@@ -28969,19 +28969,19 @@ msgstr "模糊"
 #~ msgstr "儲存工具選項預先設定時發生錯誤：%s"
 
 #~ msgid "Use a running Glimpse only, never start a new one"
-#~ msgstr "只使用目前正在執行的 GIMP，不再啟動新的"
+#~ msgstr "只使用目前正在執行的 Glimpse，不再啟動新的"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "只檢查 GIMP 是否在執行，然後離開"
+#~ msgstr "只檢查 Glimpse 是否在執行，然後離開"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
-#~ msgstr "顯示 GIMP 工具箱視窗的 X window ID，然後離開"
+#~ msgstr "顯示 Glimpse 工具箱視窗的 X window ID，然後離開"
 
 #~ msgid "Start Glimpse without showing the startup window"
-#~ msgstr "不顯示啟動視窗而啟動 GIMP"
+#~ msgstr "不顯示啟動視窗而啟動 Glimpse"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "無法連線至 GIMP。"
+#~ msgstr "無法連線至 Glimpse。"
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "確定工具箱為可見！"

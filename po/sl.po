@@ -1,4 +1,4 @@
-# Slovenian translation of GIMP.
+# Slovenian translation of Glimpse.
 # Copyright (C) 2004-2012 THE Glimpse's COPYRIGHT HOLDER
 # This file is distributed under the same license as the Glimpse package.
 #
@@ -27,7 +27,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Zapri GIMP"
+msgstr "Zapri Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -96,16 +96,16 @@ msgstr ""
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
 msgid "Extra files for Glimpse"
-msgstr "Dodatne datoteke za GIMP"
+msgstr "Dodatne datoteke za Glimpse"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Vzorci, prelivi in druge dodatne datoteke za GIMP"
+msgstr "Vzorci, prelivi in druge dodatne datoteke za Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Urejevalnik besedila GIMP"
+msgstr "Urejevalnik besedila Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -164,7 +164,7 @@ msgstr ""
 "ali USTREZNOSTI ZA DOLOČEN NAMEN.  Če vas zanima več podrobnosti, si oglejte "
 "Splošno javno licenco GNU.\n"
 "\n"
-"Kopijo Splošne javne licence Glimpse ste prejeli s programom GIMP; če je "
+"Kopijo Splošne javne licence Glimpse ste prejeli s programom Glimpse; če je "
 "niste prejeli, si oglejte https://www.gnu.org/licenses/"
 
 #: ../app/gimp-update.c:251
@@ -199,7 +199,7 @@ msgstr "Bolj opisno"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Zaženi še en program GIMP"
+msgstr "Zaženi še en program Glimpse"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -224,7 +224,7 @@ msgstr "Ne pokaži zagonskega okna"
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Ne uporabljaj deljenega pomnilnika med GIMP-om in vstavki"
+msgstr "Ne uporabljaj deljenega pomnilnika med Glimpse-om in vstavki"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -308,7 +308,7 @@ msgstr "Glimpse je že zagnan."
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "Izhod GIMP. Pritisnite kateri koli znak, da se okno zapre."
+msgstr "Izhod Glimpse. Pritisnite kateri koli znak, da se okno zapre."
 
 #: ../app/main.c:707
 #, c-format
@@ -318,7 +318,7 @@ msgstr "(Pritisnite katero koli tipko, da zaprete to okno)\n"
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Izhod programa GIMP. To okno lahko pomanjšate, vendar ga ne zapirajte."
+msgstr "Izhod programa Glimpse. To okno lahko pomanjšate, vendar ga ne zapirajte."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -342,7 +342,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Imena mape, ki vsebuje uporabniške prilagoditve GIMPa, ni mogoče pretvoriti "
+"Imena mape, ki vsebuje uporabniške prilagoditve Glimpse-a, ni mogoče pretvoriti "
 "v UTF-8: %s\n"
 "\n"
 "Vaš datotečni sistem najverjetneje shranjuje datoteke v drugi kodni tabeli "
@@ -2977,12 +2977,12 @@ msgstr "_Nasvet dneva"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Pokaže priročne namige pri delu s programom GIMP"
+msgstr "Pokaže priročne namige pri delu s programom Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "O programu GIMP"
+msgstr "O programu Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -4071,7 +4071,7 @@ msgstr "_Izhod"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Zapri program za obdelavo slik GIMP"
+msgstr "Zapri program za obdelavo slik Glimpse"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -5489,7 +5489,7 @@ msgstr "Po_moč"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Odpri priročnik za uporabo GIMPa"
+msgstr "Odpri priročnik za uporabo Glimpse-a"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -10090,7 +10090,7 @@ msgstr "Desno-ročno"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Brskalnik pomoči GIMP"
+msgstr "Brskalnik pomoči Glimpse"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10865,8 +10865,8 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"Nastavi mapo za začasno hrambo. Med poganjanjem GIMP-a se bodo v njej "
-"pojavile datoteke. Večina datotek bo ob zaprtju GIMP-a izginilo, nekatere pa "
+"Nastavi mapo za začasno hrambo. Med poganjanjem Glimpse-a se bodo v njej "
+"pojavile datoteke. Večina datotek bo ob zaprtju Glimpse-a izginilo, nekatere pa "
 "bodo tudi ostale, zato je najbolje, da ta mapa ni v souporabi z drugimi "
 "uporabniki."
 
@@ -12270,7 +12270,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Kot kaže, ste uporabljali GIMP %s. Glimpse bo zdaj prenesel vaše uporabniške "
+"Kot kaže, ste uporabljali Glimpse %s. Glimpse bo zdaj prenesel vaše uporabniške "
 "nastavitve v '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12433,7 +12433,7 @@ msgstr "Slika na odložišču"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Ni datoteka čopičev GIMP."
+msgstr "Ni datoteka čopičev Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13002,7 +13002,7 @@ msgstr "Zapolni z enakomerno barvo"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Ni datoteka prelivov GIMP."
+msgstr "Ni datoteka prelivov Glimpse."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14437,11 +14437,11 @@ msgstr "odstotkov"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "O programu GIMP"
+msgstr "O programu Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Obiščite spletno stran GIMP"
+msgstr "Obiščite spletno stran Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14487,7 +14487,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
-msgstr "GIMPa vam zagotavlja"
+msgstr "Glimpse-a vam zagotavlja"
 
 #: ../app/dialogs/about-dialog.c:752
 #, c-format
@@ -14745,11 +14745,11 @@ msgstr "Ste prepričani, da želite izbrisati '%s' s seznama in z diska?"
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Sporočilo GIMP"
+msgstr "Sporočilo Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 msgid "Glimpse Debug"
-msgstr "Razhroščevanje GIMP"
+msgstr "Razhroščevanje Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -14855,7 +14855,7 @@ msgid ""
 "save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "S tem pogovornim oknom shranjujete v različne vrste datotek. Uporabite "
-"Datoteka→Shrani za izvoz v zapisu XCF GIMP."
+"Datoteka→Shrani za izvoz v zapisu XCF Glimpse."
 
 #: ../app/dialogs/file-save-dialog.c:622
 msgid "Take me to the Save dialog"
@@ -14871,7 +14871,7 @@ msgid ""
 "You can use this dialog to save to the Glimpse XCF format. Use File→Export "
 "to export to other file formats."
 msgstr ""
-"S tem pogovornim oknom shranjujete v zapisu XCF GIMP. Uporabite "
+"S tem pogovornim oknom shranjujete v zapisu XCF Glimpse. Uporabite "
 "Datoteka→Izvozi za izvoz v druge vrste datotek."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -15245,7 +15245,7 @@ msgstr "Osve_ži"
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
 msgstr ""
-"Morali boste ponovno zagnati GIMP, da bodo naslednje spremembe učinkovale."
+"Morali boste ponovno zagnati Glimpse, da bodo naslednje spremembe učinkovale."
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15370,7 +15370,7 @@ msgstr "Resnično želite ponastaviti vse možnosti na privzete vrednosti?"
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
-"Morali boste ponovno zagnati GIMP, da bodo naslednje spremembe učinkovale:"
+"Morali boste ponovno zagnati Glimpse, da bodo naslednje spremembe učinkovale:"
 
 #: ../app/dialogs/preferences-dialog.c:647
 #, fuzzy
@@ -15379,7 +15379,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Tipke za bližnjice bodo ponastavljene na privzete vrednosti ob naslednjem "
-"zagonu GIMP-a."
+"zagonu Glimpse-a."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15396,7 +15396,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Nastavitve oken bodo ponastavljene na privzete vrednosti ob naslednjem "
-"zagonu GIMP-a."
+"zagonu Glimpse-a."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15405,7 +15405,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Nastavitve vhodne naprave bodo ponastavljene na privzete vrednosti ob "
-"naslednjem zagonu GIMP-a."
+"naslednjem zagonu Glimpse-a."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15414,7 +15414,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Nastavitve orodij bodo ponastavljene na privzete vrednosti ob naslednjem "
-"zagonu GIMP-a."
+"zagonu Glimpse-a."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -15864,7 +15864,7 @@ msgid ""
 "to use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
-"Te funkcije so nedokončane, hroščate in lahko sesuvajo GIMP. Ne uporabljajte "
+"Te funkcije so nedokončane, hroščate in lahko sesuvajo Glimpse. Ne uporabljajte "
 "jih, razen če dejansko veste, kaj počnete ali nameravate prispevati popravke."
 
 #: ../app/dialogs/preferences-dialog.c:1644
@@ -17011,7 +17011,7 @@ msgstr "slik. točk/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Zapri program za obdelavo slik GIMP"
+msgstr "Zapri program za obdelavo slik Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17020,7 +17020,7 @@ msgstr "Zapri vse slike"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "Če boste zdaj zaprli GIMP, bodo te spremembe izgubljene."
+msgstr "Če boste zdaj zaprli Glimpse, bodo te spremembe izgubljene."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -17196,7 +17196,7 @@ msgstr "Datoteka z nasveti za Glimpse je prazna!"
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Zdi se, da manjka datoteka z nasveti za GIMP!"
+msgstr "Zdi se, da manjka datoteka z nasveti za Glimpse!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17237,7 +17237,7 @@ msgstr "tips-locale:sl"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Uporabniška namestitev GIMP-a"
+msgstr "Uporabniška namestitev Glimpse-a"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -18125,7 +18125,7 @@ msgstr "Čopič MyPaint"
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
 msgid "GIMP brush (animated)"
-msgstr "Čopič GIMP (animiran)"
+msgstr "Čopič Glimpse (animiran)"
 
 #: ../app/file-data/file-data.c:365
 #, fuzzy
@@ -18838,7 +18838,7 @@ msgstr "Krivulja"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "ni datoteka krivulj GIMP"
+msgstr "ni datoteka krivulj Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -18913,7 +18913,7 @@ msgstr "Spni končne izhodne vrednosti."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "ni datoteka ravni GIMP"
+msgstr "ni datoteka ravni Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -18931,7 +18931,7 @@ msgstr "Prilagodi svetlost in kontrast"
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
-msgstr "Izračunaj nabor koeficientnega medpomnilnika za orodje kletke v Gimpu"
+msgstr "Izračunaj nabor koeficientnega medpomnilnika za orodje kletke v Glimpse-u"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -18940,7 +18940,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Pretvori nabor koeficientnega medpomnilnika v koordinatni medpomnilnik za "
-"orodje kletke v Gimpu"
+"orodje kletke v Glimpse-u"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -19097,7 +19097,7 @@ msgstr "Dokumenti"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Zagon GIMP-a"
+msgstr "Zagon Glimpse-a"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -20438,7 +20438,7 @@ msgstr ""
 "Vtičnik se je sesul: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Vtičnik je ob sesutju morda pokvaril notranje stanje GIMP-a. Morda je "
+"Vtičnik je ob sesutju morda pokvaril notranje stanje Glimpse-a. Morda je "
 "smiselno, da iz varnostnih razlogov shranite svoje slike in ponovno poženete "
 "GIMP-a."
 
@@ -20552,7 +20552,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Preskakovanje '%s': napačna različica protokola GIMP."
+msgstr "Preskakovanje '%s': napačna različica protokola Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -22677,7 +22677,7 @@ msgstr "_Premakni"
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
-msgstr "Orodje Čopič MyPaint: uporabi čopiče MyPaint v programu GIMP"
+msgstr "Orodje Čopič MyPaint: uporabi čopiče MyPaint v programu Glimpse"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -23447,7 +23447,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Urejevalnik besedila GIMP"
+msgstr "Urejevalnik besedila Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -25048,7 +25048,7 @@ msgstr ""
 msgid ""
 "To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
-"Da bi nam pomagali izboljšati GIMP, lahko poročate o hrošču s temi "
+"Da bi nam pomagali izboljšati Glimpse, lahko poročate o hrošču s temi "
 "preprostimi koraki:"
 
 #: ../app/widgets/gimpcriticaldialog.c:240
@@ -25087,7 +25087,7 @@ msgid ""
 "save your work and restart Glimpse."
 msgstr ""
 "Ta napaka je lahko pustila Glimpse v nedoslednem stanju. Priporočljivo je, "
-"da shranite delo in znova zaženete GIMP."
+"da shranite delo in znova zaženete Glimpse."
 
 #: ../app/widgets/gimpcriticaldialog.c:253
 msgid ""
@@ -25183,7 +25183,7 @@ msgstr "Glimpse je naletel na več kritičnih napak!"
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "_Ponovno zaženi GIMP"
+msgstr "_Ponovno zaženi Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -25931,7 +25931,7 @@ msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Očitno v vaši namestivi manjka vtičnik brskalnika pomoči GIMP. Namesto tega "
+"Očitno v vaši namestivi manjka vtičnik brskalnika pomoči Glimpse. Namesto tega "
 "lahko strani pomoči prebirate s pomočjo svojega spletnega brskalnika."
 
 #: ../app/widgets/gimphelp.c:419
@@ -26676,7 +26676,7 @@ msgstr "Prednastavitev orodja %s"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Vaša namestitev GIMP-a je nepopolna:"
+msgstr "Vaša namestitev Glimpse-a je nepopolna:"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -26982,7 +26982,7 @@ msgstr "Napaka pri zapisovanju XCF: nepodprt BPC pri pisanju slikovnih pik: %d"
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Razhroščevanje GIMP"
+msgstr "Razhroščevanje Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -27028,7 +27028,7 @@ msgstr "nejasno"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27040,14 +27040,14 @@ msgstr "nejasno"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "Razhroščevanje sesutja GIMP"
+#~ msgstr "Razhroščevanje sesutja Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Debug"
 #~ msgstr "Razhrošči"
 
 #~ msgid "GNU Image Manipulation Program"
-#~ msgstr "GIMP – program GNU za obdelavo slik"
+#~ msgstr "Glimpse – program GNU za obdelavo slik"
 
 #~ msgid ""
 #~ "Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
@@ -27082,10 +27082,10 @@ msgstr "nejasno"
 #~ "sisteme Microsoft Windows in OS X."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Slikanje v GIMP-u"
+#~ msgstr "Slikanje v Glimpse-u"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Urejanje fotografij v GIMP-u"
+#~ msgstr "Urejanje fotografij v Glimpse-u"
 
 #~ msgid ""
 #~ "Glimpse 2.10.10 is quite a big update with many new features and bug "
@@ -27181,7 +27181,7 @@ msgstr "nejasno"
 
 #~ msgid ""
 #~ "New language (having Glimpse translated in 81 languages now): Marathi"
-#~ msgstr "Nov jezik (ob prevodu GIMP-a v 81 jezikov): maratski"
+#~ msgstr "Nov jezik (ob prevodu Glimpse-a v 81 jezikov): maratski"
 
 #~ msgid ""
 #~ "Glimpse 2.10.4 includes a lot of bug fixes as well as various "
@@ -27291,7 +27291,7 @@ msgstr "nejasno"
 #~ "Osnovna podpora HiDPI: samodejna ali uporabniško določena velikost ikon"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Nove teme za GIMP: svetla, siva, temna in sistemska"
+#~ msgstr "Nove teme za Glimpse: svetla, siva, temna in sistemska"
 
 #~ msgid "And much, much more…"
 #~ msgstr "In še veliko, veliko več …"
@@ -27357,7 +27357,7 @@ msgstr "nejasno"
 
 #~ msgid "New dashboard dockable to monitor Glimpse resource usage"
 #~ msgstr ""
-#~ "Novo pomično okno nadzorne plošče za spremljanje rabe virov programa GIMP"
+#~ "Novo pomično okno nadzorne plošče za spremljanje rabe virov programa Glimpse"
 
 #~ msgid ""
 #~ "New debug dialog to produce back traces and other debug data, encouraging "
@@ -27434,19 +27434,19 @@ msgstr "nejasno"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Copyright © 1995 – %s\n"
-#~ "Spencer Kimball, Peter Mattis in ekipa razvijalcev GIMP-a"
+#~ "Spencer Kimball, Peter Mattis in ekipa razvijalcev Glimpse-a"
 
 #~ msgid "_Offset"
 #~ msgstr "Od_makni"
 
 #~ msgid "Show Glimpse _logo (drag-and-drop target)"
-#~ msgstr "Prikaži _logotip GIMP (tarča povleci-in-spusti)"
+#~ msgstr "Prikaži _logotip Glimpse (tarča povleci-in-spusti)"
 
 #~ msgid "Glimpse brush"
-#~ msgstr "Čopič GIMP"
+#~ msgstr "Čopič Glimpse"
 
 #~ msgid "Glimpse pattern"
-#~ msgstr "Vzorec GIMP"
+#~ msgstr "Vzorec Glimpse"
 
 #~ msgctxt "dialogs-action"
 #~ msgid "Palette Editor"

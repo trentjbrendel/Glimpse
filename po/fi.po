@@ -1,4 +1,4 @@
-# Finnish messages for gimp
+# Finnish messages for Glimpse
 # Copyright (C) 1999-2002, 2008 Free Software Foundation, Inc.
 #
 # Ville Hautamäki <villeh@cs.joensuu.fi>.
@@ -36,7 +36,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Lopetetaanko GIMP?"
+msgstr "Lopetetaanko Glimpse?"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -209,7 +209,7 @@ msgstr "Selittävämmin"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Käynnistä uusi Gimp-istunto"
+msgstr "Käynnistä uusi Glimpse-istunto"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -313,7 +313,7 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Toinen Gimp-istunto on jo käynnissä."
+msgstr "Toinen Glimpse-istunto on jo käynnissä."
 
 #: ../app/main.c:706
 #, fuzzy
@@ -4228,7 +4228,7 @@ msgstr "_Lopeta"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Lopeta GIMP"
+msgstr "Lopeta Glimpse"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -10975,7 +10975,7 @@ msgstr ""
 msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
-"Muista käytetty työkalu, kuvio, väri ja sivellin GIMP-istuntojen välillä."
+"Muista käytetty työkalu, kuvio, väri ja sivellin Glimpse-istuntojen välillä."
 
 #: ../app/config/gimprc-blurbs.h:377
 msgid ""
@@ -12598,7 +12598,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Näyttää, että olet käyttänyt aikaisemmin GIMP %s versiota. Glimpse muuttaa "
+"Näyttää, että olet käyttänyt aikaisemmin Glimpse %s versiota. Glimpse muuttaa "
 "nyt käyttäjän asetuksesi versioon '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -15809,7 +15809,7 @@ msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Ikkunoiden paikat palautuvat perusasetuksiin seuraavan kerran kun Gimp "
+"Ikkunoiden paikat palautuvat perusasetuksiin seuraavan kerran kun Glimpse "
 "käynnistyy."
 
 #: ../app/dialogs/preferences-dialog.c:756
@@ -17508,7 +17508,7 @@ msgstr "pikseliä/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Lopeta GIMP"
+msgstr "Lopeta Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17713,7 +17713,7 @@ msgstr "<b>GIMPin vinkkitiedostoa ei voitu tulkita!</b>"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Päivän GIMP-vihje"
+msgstr "Päivän Glimpse-vihje"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -21236,12 +21236,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Ohitetaan \"%s\": väärä GIMP-protokollan versio."
+msgstr "Ohitetaan \"%s\": väärä Glimpse-protokollan versio."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "Ohitetaan \"%s\": väärä GIMP-protokollan versio."
+msgstr "Ohitetaan \"%s\": väärä Glimpse-protokollan versio."
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -26040,7 +26040,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Lopeta GIMP"
+msgstr "Lopeta Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -27913,7 +27913,7 @@ msgstr "sumea"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

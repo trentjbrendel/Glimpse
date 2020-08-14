@@ -1,4 +1,4 @@
-# Brazilian Poruguese translation of the GIMP.
+# Brazilian Poruguese translation of Glimpse.
 # Copyright (C) 1995-2018 Spencer Kimball, Peter Mattis and the Glimpse Dev Team
 # This file is distributed under the same license as the Glimpse package.
 # Cyro Mendes de Moraes Neto <neto@conectiva.com.br>, 1999.
@@ -8269,7 +8269,7 @@ msgstr "_Salvar opções de ferramentas ao sair"
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Salvar as opções das ferramentas quando o GIMP é encerrado."
+msgstr "Salvar as opções das ferramentas quando o Glimpse é encerrado."
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8355,7 +8355,7 @@ msgstr "_Salvar opções de ferramentas ao sair"
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Salvar as opções das ferramentas quando o GIMP é encerrado."
+msgstr "Salvar as opções das ferramentas quando o Glimpse é encerrado."
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -12903,7 +12903,7 @@ msgstr "Área de transferência"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Não é um arquivo de curvas do GIMP"
+msgstr "Não é um arquivo de curvas do Glimpse"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13483,7 +13483,7 @@ msgstr "Preencher com cor sólida"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Não é um arquivo de curvas do GIMP"
+msgstr "Não é um arquivo de curvas do Glimpse"
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -17349,7 +17349,7 @@ msgstr "Dispositivos de entrada estendidos"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "Salvar as opções das ferramentas quando o GIMP é encerrado."
+msgstr "Salvar as opções das ferramentas quando o Glimpse é encerrado."
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -19513,7 +19513,7 @@ msgstr "Curva"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "Não é um arquivo de curvas do GIMP"
+msgstr "Não é um arquivo de curvas do Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19592,7 +19592,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "Não é um arquivo de níveis do GIMP"
+msgstr "Não é um arquivo de níveis do Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19610,7 +19610,7 @@ msgstr "Ajustar brilho e contraste"
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
-msgstr "Calcula um buffer de coeficientes para a ferramenta de gaiola do GIMP"
+msgstr "Calcula um buffer de coeficientes para a ferramenta de gaiola do Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19619,7 +19619,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Converte um buffer de coeficientes para um buffer de coordenadas para a "
-"ferramenta de Gaiola do GIMP"
+"ferramenta de Gaiola do Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -21279,12 +21279,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Ignorando '%s': versão incorreta do protocolo do GIMP."
+msgstr "Ignorando '%s': versão incorreta do protocolo do Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "Ignorando '%s': versão incorreta do protocolo do GIMP."
+msgstr "Ignorando '%s': versão incorreta do protocolo do Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -28011,7 +28011,7 @@ msgstr "indefinido"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28023,7 +28023,7 @@ msgstr "indefinido"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "Depuração de travamento do GIMP"
+#~ msgstr "Depuração de travamento do Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Debug"
@@ -28037,7 +28037,7 @@ msgstr "indefinido"
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "GIMP é um acrônimo para GNU Image Manipulation Program. Ele é um programa "
+#~ "Glimpse é um acrônimo para GNU Image Manipulation Program. Ele é um programa "
 #~ "distribuído livremente para tarefas como retoque de fotos, composição e "
 #~ "criação de imagens."
 
@@ -28059,10 +28059,10 @@ msgstr "indefinido"
 #~ "image manipulation procedures to be easily scripted. Glimpse is available "
 #~ "for Linux, Microsoft Windows and OS X."
 #~ msgstr ""
-#~ "O GIMP é expansível e extensível. Ele foi projetado para ser ampliado com "
+#~ "O Glimpse é expansível e extensível. Ele foi projetado para ser ampliado com "
 #~ "plug-ins e extensões e fazer qualquer coisa. A interface avançada de "
 #~ "scripts permite desde tarefas simples até os mais complexos processos de "
-#~ "manipulação de imagens em scripts. O GIMP é compatível com Linux, "
+#~ "manipulação de imagens em scripts. O Glimpse é compatível com Linux, "
 #~ "Microsoft Windows e OS X."
 
 #~ msgid "Painting in Glimpse"
@@ -28098,7 +28098,7 @@ msgstr "indefinido"
 #~ "ou pelo usuário"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Novos temas para o GIMP: Claro, Cinza, Escuro e padrão do sistema"
+#~ msgstr "Novos temas para o Glimpse: Claro, Cinza, Escuro e padrão do sistema"
 
 #~ msgid "And much, much more…"
 #~ msgstr "E muito, muito mais…"
@@ -28153,7 +28153,7 @@ msgstr "indefinido"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Direitos autorais © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis e a equipe de desenvolvedores do GIMP"
+#~ "Spencer Kimball, Peter Mattis e a equipe de desenvolvedores do Glimpse"
 
 #~ msgctxt "dialogs-action"
 #~ msgid "Palette Editor"

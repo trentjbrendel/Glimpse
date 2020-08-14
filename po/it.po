@@ -1,10 +1,10 @@
-# This is the Italian catalog for The GIMP.
+# This is the Italian catalog for Glimpse.
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Daniele Medri <madrid@linux.it>, 2000-2002
 # Marco Ciampa <ciampix@posteo.net>, 2003-2019
 # Alessandro Falappa <alessandro@falappa.net>, 2007-2008
 #
-# Convenzioni adottate per GIMP (per lo più derivate dal mondo della grafica e della fotografia italiano):
+# Convenzioni adottate per Glimpse (per lo più derivate dal mondo della grafica e della fotografia italiano):
 #
 # brush = pennello
 # brush pipe = pennello animato
@@ -12570,7 +12570,7 @@ msgstr "Immagine appunti"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Non è un file pennello di GIMP."
+msgstr "Non è un file pennello di Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13136,7 +13136,7 @@ msgstr "Riempi con tinta unita"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Non è un file gradiente di GIMP."
+msgstr "Non è un file gradiente di Glimpse."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14114,7 +14114,7 @@ msgstr "Il file sembra troncato."
 #: ../app/core/gimppattern-load.c:134
 #, c-format
 msgid "Invalid UTF-8 string in pattern file '%s'."
-msgstr "Stringa UTF-8 non valida nel file motivo di GIMP \"%s\"."
+msgstr "Stringa UTF-8 non valida nel file motivo di Glimpse \"%s\"."
 
 #: ../app/core/gimppattern-load.c:177
 msgid "Fatal parse error in pattern file: "
@@ -18280,7 +18280,7 @@ msgstr "Mypennello"
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
 msgid "GIMP brush (animated)"
-msgstr "Pennello GIMP (animato)"
+msgstr "Pennello Glimpse (animato)"
 
 #: ../app/file-data/file-data.c:365
 #, fuzzy
@@ -18993,7 +18993,7 @@ msgstr "Curve"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "non è un file curve di GIMP"
+msgstr "non è un file curve di Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19068,7 +19068,7 @@ msgstr "Limita i valori finali d'uscita."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "non è un file livelli di GIMP"
+msgstr "non è un file livelli di Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -20607,7 +20607,7 @@ msgstr ""
 "Plug-In bloccato: \"%s\"\n"
 "(%s)\n"
 "\n"
-"La morte del plugin potrebbe aver condizionato lo stato interno di GIMP. "
+"La morte del plugin potrebbe aver condizionato lo stato interno di Glimpse. "
 "Dovreste salvare le immagini e riavviare il programma per maggior sicurezza."
 
 #: ../app/plug-in/gimpplugin-message.c:487
@@ -27234,7 +27234,7 @@ msgstr "frastagliata"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27246,7 +27246,7 @@ msgstr "frastagliata"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "Correzione dei crash di GIMP"
+#~ msgstr "Correzione dei crash di Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Debug"
@@ -27260,7 +27260,7 @@ msgstr "frastagliata"
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "GIMP è un acronimo di GNU Image Manipulation Program. È un programma "
+#~ "Glimpse è un acronimo di GNU Image Manipulation Program. È un programma "
 #~ "distribuito liberamente per svolgere compiti come il fotoritocco, la "
 #~ "composizione e la creazione di immagini."
 
@@ -27281,11 +27281,11 @@ msgstr "frastagliata"
 #~ "image manipulation procedures to be easily scripted. Glimpse is available "
 #~ "for Linux, Microsoft Windows and OS X."
 #~ msgstr ""
-#~ "GIMP è espandibile ed estensibile. È stato progettato per essere ampliato "
+#~ "Glimpse è espandibile ed estensibile. È stato progettato per essere ampliato "
 #~ "con plug-in ed estensioni per fare praticamente qualsiasi cosa. "
 #~ "L'interfaccia avanzata di scripting semplifica la conversione in "
 #~ "procedura dal compito più semplice fino all'elaborazione di immagini più "
-#~ "complessa. GIMP è disponibile per Linux, Microsoft Windows ed OS X."
+#~ "complessa. Glimpse è disponibile per Linux, Microsoft Windows ed OS X."
 
 #~ msgid "Painting in Glimpse"
 #~ msgstr "Disegno in Glimpse"
@@ -27639,7 +27639,7 @@ msgstr "frastagliata"
 #~ "dall'utente"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Nuovi temi per GIMP: Light, Gray, Dark, e System"
+#~ msgstr "Nuovi temi per Glimpse: Light, Gray, Dark, e System"
 
 #~ msgid "And much, much more…"
 #~ msgstr "E molto, molto altro ancora..."
@@ -27702,7 +27702,7 @@ msgstr "frastagliata"
 #~ "many bug fixes, most notable improvements are:"
 #~ msgstr ""
 #~ "Glimpse 2.10.0-RC1 è la prima versione candidata al rilascio stabile di "
-#~ "GIMP 2.10.0, con l'obiettivo dell'assenza di difetti e stabilità. Oltre "
+#~ "Glimpse 2.10.0, con l'obiettivo dell'assenza di difetti e stabilità. Oltre "
 #~ "alle molte correzioni difetti, i miglioramenti più evidenti sono:"
 
 #~ msgid "New dashboard dockable to monitor Glimpse resource usage"
@@ -27791,7 +27791,7 @@ msgstr "frastagliata"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Copyright © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis e il team di sviluppo di GIMP"
+#~ "Spencer Kimball, Peter Mattis e il team di sviluppo di Glimpse"
 
 #~ msgid "_Offset"
 #~ msgstr "Sc_ostamento"

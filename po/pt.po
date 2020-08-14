@@ -1,6 +1,6 @@
 # translation of gimp.gimp-2-6.po to
 # Glimpse's Portuguese translation.
-# Copyright © 2001, 2002, 2003, 2004, 2008, gimp
+# Copyright © 2001, 2002, 2003, 2004, 2008, Glimpse
 # Distributed under the same licence as the Glimpse package.
 # Pedro Barreira <almufado@gmail.com>, 2010.
 # Pedro Albuquerque <palbuquerque73@gmail.com>, 2015.
@@ -11191,7 +11191,7 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Define a pasta de armazenamento temporário. Surgirão aqui ficheiros durante "
-"a execução do GIMP. A maioria dos ficheiros desaparecerá quando o Glimpse "
+"a execução do Glimpse. A maioria dos ficheiros desaparecerá quando o Glimpse "
 "terminar, mas alguns poderão permanecer, pelo que poderá ser melhor que esta "
 "pasta não seja partilhada por outros utilizadores."
 
@@ -12799,7 +12799,7 @@ msgstr "Área de transferência"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Não é um ficheiro de pincel do GIMP."
+msgstr "Não é um ficheiro de pincel do Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13372,7 +13372,7 @@ msgstr "Encher com cor sólida"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Não é um ficheiro de gradientes do GIMP."
+msgstr "Não é um ficheiro de gradientes do Glimpse."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -19346,7 +19346,7 @@ msgstr "Curva"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "não é um ficheiro de curvas do GIMP"
+msgstr "não é um ficheiro de curvas do Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19423,7 +19423,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "não é um ficheiro de níveis do GIMP"
+msgstr "não é um ficheiro de níveis do Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19453,7 +19453,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Converter um conjunto de buffer de coeficiente para um buffer coordenado "
-"para a ferramenta Gaiola do GIMP"
+"para a ferramenta Gaiola do Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -27735,7 +27735,7 @@ msgstr "difuso"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27757,7 +27757,7 @@ msgstr "difuso"
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "GIMP é um acrónimo pra GNU Image Manipulation Program. É um programa "
+#~ "Glimpse é um acrónimo pra GNU Image Manipulation Program. É um programa "
 #~ "distribuído gratuitamente para tarefas como retoques, composição e "
 #~ "criação de imagens."
 
@@ -27778,7 +27778,7 @@ msgstr "difuso"
 #~ "image manipulation procedures to be easily scripted. Glimpse is available "
 #~ "for Linux, Microsoft Windows and OS X."
 #~ msgstr ""
-#~ "O GIMP é expansível e estensível. Foi desenhado para ser aumentado com "
+#~ "O Glimpse é expansível e estensível. Foi desenhado para ser aumentado com "
 #~ "extensões com as quais fazer praticamente tudo. O ambiente de scripting "
 #~ "avançado permite escrever scripts para tudo, desde a tarefa mais simples "
 #~ "até aos mais complexos procedimentos de manipulação de imagens. O Glimpse "
@@ -27793,7 +27793,7 @@ msgstr "difuso"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Direitos de autor © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis e a equipa de desenvolvimento do GIMP"
+#~ "Spencer Kimball, Peter Mattis e a equipa de desenvolvimento do Glimpse"
 
 #~ msgctxt "channels-action"
 #~ msgid "_Visible"

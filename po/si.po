@@ -21,7 +21,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "GIMP වෙතින් ඉවත් වීම"
+msgstr "Glimpse වෙතින් ඉවත් වීම"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -99,12 +99,12 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP පෙළ සැකසුම"
+msgstr "Glimpse පෙළ සැකසුම"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 #, fuzzy
 msgid "Image Editor"
-msgstr "GIMP පෙළ සැකසුම"
+msgstr "Glimpse පෙළ සැකසුම"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:3
 #, fuzzy
@@ -180,7 +180,7 @@ msgstr ""
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "GIMP පෙළ සැකසුම"
+msgstr "Glimpse පෙළ සැකසුම"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -11311,7 +11311,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "GIMP පිළිබඳ"
+msgstr "Glimpse පිළිබඳ"
 
 #: ../app/core/core-enums.c:542
 #, fuzzy
@@ -14313,7 +14313,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "GIMP පිළිබඳ"
+msgstr "Glimpse පිළිබඳ"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -14637,7 +14637,7 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "GIMP වෙතින් ඉවත් වීම"
+msgstr "Glimpse වෙතින් ඉවත් වීම"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -16864,7 +16864,7 @@ msgstr ""
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "GIMP පිළිබඳ"
+msgstr "Glimpse පිළිබඳ"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17058,7 +17058,7 @@ msgstr ""
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "දවසේ GIMP ඉඟිය"
+msgstr "දවසේ Glimpse ඉඟිය"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -17085,7 +17085,7 @@ msgstr "tips-locale:C"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP පරිශීලක ස්ථාපනය"
+msgstr "Glimpse පරිශීලක ස්ථාපනය"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -18939,7 +18939,7 @@ msgstr "ලේඛනය"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "GIMP ඇරඹුම"
+msgstr "Glimpse ඇරඹුම"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -23256,7 +23256,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP පෙළ සැකසුම"
+msgstr "Glimpse පෙළ සැකසුම"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -24972,7 +24972,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "GIMP පිළිබඳ"
+msgstr "Glimpse පිළිබඳ"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -26727,7 +26727,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP වෙතින් ඉවත් වීම"
+msgstr "Glimpse වෙතින් ඉවත් වීම"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -26740,7 +26740,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #~ msgid "GNU Image Manipulation Program"
 #~ msgstr "GNU Image Manipulation Program"

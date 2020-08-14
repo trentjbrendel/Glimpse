@@ -22,7 +22,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "GIMP ಇಂದ ನಿರ್ಗಮಿಸು"
+msgstr "Glimpse ಇಂದ ನಿರ್ಗಮಿಸು"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -100,7 +100,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP ಪಠ್ಯ ಸಂಪಾದಕ"
+msgstr "Glimpse ಪಠ್ಯ ಸಂಪಾದಕ"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -194,7 +194,7 @@ msgstr "ಇನ್ನಷ್ಟು ವರ್ಬೋಸ್ ಆಗಿರು"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "ಒಂದು ಹೊಸ GIMP ಸನ್ನಿವೇಶವನ್ನು ಆರಂಭಿಸು"
+msgstr "ಒಂದು ಹೊಸ Glimpse ಸನ್ನಿವೇಶವನ್ನು ಆರಂಭಿಸು"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -220,7 +220,7 @@ msgstr "ಒಂದು ಆರಂಭದ ವಿಂಡೋವನ್ನು ತೋರಿ
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "GIMP ಹಾಗು ಪ್ಲಗ್‌ಇನ್‌ಗಳ ನಡುವೆ ಹಂಚಲ್ಪಟ್ಟ ಮೆಮೊರಿಯನ್ನು ಬಳಸಬೇಡ"
+msgstr "Glimpse ಹಾಗು ಪ್ಲಗ್‌ಇನ್‌ಗಳ ನಡುವೆ ಹಂಚಲ್ಪಟ್ಟ ಮೆಮೊರಿಯನ್ನು ಬಳಸಬೇಡ"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -3233,13 +3233,13 @@ msgstr "ದಿನದ ಸಲಹೆ(_T)"
 #, fuzzy
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "GIMP ಅನ್ನು ಬಳಸಲು ನೆರವಾಗುವ ಕೆಲವು ಉಪಯುಕ್ತ ಸಲಹೆಗಳನ್ನು ತೋರಿಸು"
+msgstr "Glimpse ಅನ್ನು ಬಳಸಲು ನೆರವಾಗುವ ಕೆಲವು ಉಪಯುಕ್ತ ಸಲಹೆಗಳನ್ನು ತೋರಿಸು"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 #, fuzzy
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "GIMP ಬಗ್ಗೆ"
+msgstr "Glimpse ಬಗ್ಗೆ"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -5987,7 +5987,7 @@ msgstr "ಸಹಾಯ(_H)"
 #, fuzzy
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "GIMP ಬಳಕೆದಾರ ಕೈಪಿಡಿಯನ್ನು ತೆರೆಯಿರಿ"
+msgstr "Glimpse ಬಳಕೆದಾರ ಕೈಪಿಡಿಯನ್ನು ತೆರೆಯಿರಿ"
 
 #: ../app/actions/help-actions.c:49
 #, fuzzy
@@ -11110,7 +11110,7 @@ msgstr ""
 #, fuzzy
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "GIMP ಸಹಾಯದ ವೀಕ್ಷಕ"
+msgstr "Glimpse ಸಹಾಯದ ವೀಕ್ಷಕ"
 
 #: ../app/config/config-enums.c:187
 #, fuzzy
@@ -12324,7 +12324,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "GIMP ಬಗ್ಗೆ"
+msgstr "Glimpse ಬಗ್ಗೆ"
 
 #: ../app/core/core-enums.c:542
 #, fuzzy
@@ -13336,7 +13336,7 @@ msgstr "ಹೆಸರಿಡದ"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"Glimpse brushes must be GRAY or RGBA."
 msgstr ""
 
 #: ../app/core/gimpbrush-load.c:519
@@ -15544,7 +15544,7 @@ msgstr "ಪ್ರತಿಶತ:"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "GIMP ಬಗ್ಗೆ"
+msgstr "Glimpse ಬಗ್ಗೆ"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15871,7 +15871,7 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "GIMP ಇಂದ ನಿರ್ಗಮಿಸು"
+msgstr "Glimpse ಇಂದ ನಿರ್ಗಮಿಸು"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -17571,7 +17571,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯಲ್ಲಿ GIMP ನೆರವು ವೀಕ್ಷಕವು ಕಾಣಿಸುತ್ತಿಲ್ಲ. ನೀವು ಬದಲಿಗೆ ನೆರವಿನ "
+"ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯಲ್ಲಿ Glimpse ನೆರವು ವೀಕ್ಷಕವು ಕಾಣಿಸುತ್ತಿಲ್ಲ. ನೀವು ಬದಲಿಗೆ ನೆರವಿನ "
 "ಪುಟಗಳನ್ನು ಓದಲು ಜಾಲ ವೀಕ್ಷಕವನ್ನು ಬಳಸಬಹುದಾಗಿದೆ."
 
 #. Action Search
@@ -18391,7 +18391,7 @@ msgstr "tips-locale:C"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP ಬಳಕೆದಾರ ಕೈಪಿಡಿಯು ಕಾಣುತ್ತಿಲ್ಲ"
+msgstr "Glimpse ಬಳಕೆದಾರ ಕೈಪಿಡಿಯು ಕಾಣುತ್ತಿಲ್ಲ"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -20347,7 +20347,7 @@ msgstr "ದಸ್ತಾವೇಜುಗಳು"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "GIMP ಆರಂಭ"
+msgstr "Glimpse ಆರಂಭ"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -22610,7 +22610,7 @@ msgstr ""
 #: ../app/tools/gimptransformtool.c:697 ../app/tools/gimpwarptool.c:794
 #, fuzzy
 msgid "The active layer is not visible."
-msgstr "GIMP ನೆರವು ವೀಕ್ಷಕ ಲಭ್ಯವಿಲ್ಲ."
+msgstr "Glimpse ನೆರವು ವೀಕ್ಷಕ ಲಭ್ಯವಿಲ್ಲ."
 
 #: ../app/tools/gimpbucketfilltool.c:578
 #, fuzzy
@@ -24809,7 +24809,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP ಪಠ್ಯ ಸಂಪಾದಕ"
+msgstr "Glimpse ಪಠ್ಯ ಸಂಪಾದಕ"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -27349,14 +27349,14 @@ msgstr "ನೆರವು ವೀಕ್ಷಕವು ಕಾಣಿಸುತ್ತಿ�
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "GIMP ನೆರವು ವೀಕ್ಷಕ ಲಭ್ಯವಿಲ್ಲ."
+msgstr "Glimpse ನೆರವು ವೀಕ್ಷಕ ಲಭ್ಯವಿಲ್ಲ."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯಲ್ಲಿ GIMP ನೆರವು ವೀಕ್ಷಕವು ಕಾಣಿಸುತ್ತಿಲ್ಲ. ನೀವು ಬದಲಿಗೆ ನೆರವಿನ "
+"ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯಲ್ಲಿ Glimpse ನೆರವು ವೀಕ್ಷಕವು ಕಾಣಿಸುತ್ತಿಲ್ಲ. ನೀವು ಬದಲಿಗೆ ನೆರವಿನ "
 "ಪುಟಗಳನ್ನು ಓದಲು ಜಾಲ ವೀಕ್ಷಕವನ್ನು ಬಳಸಬಹುದಾಗಿದೆ."
 
 #: ../app/widgets/gimphelp.c:419
@@ -27365,13 +27365,13 @@ msgstr "ನೆರವು ವೀಕ್ಷಕವು ಆರಂಭಗೊಂಡಿಲ�
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "GIMP ನೆರವಿನ ವೀಕ್ಷಕ ಪ್ಲಗ್‌-ಇನ್ ಅನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ."
+msgstr "Glimpse ನೆರವಿನ ವೀಕ್ಷಕ ಪ್ಲಗ್‌-ಇನ್ ಅನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ."
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯಲ್ಲಿ GIMP ನೆರವು ವೀಕ್ಷಕವು ಕಾಣಿಸುತ್ತಿಲ್ಲ. ನೀವು ಬದಲಿಗೆ ನೆರವಿನ "
+"ನಿಮ್ಮ ಅನುಸ್ಥಾಪನೆಯಲ್ಲಿ Glimpse ನೆರವು ವೀಕ್ಷಕವು ಕಾಣಿಸುತ್ತಿಲ್ಲ. ನೀವು ಬದಲಿಗೆ ನೆರವಿನ "
 "ಪುಟಗಳನ್ನು ಓದಲು ಜಾಲ ವೀಕ್ಷಕವನ್ನು ಬಳಸಬಹುದಾಗಿದೆ."
 
 #: ../app/widgets/gimphelp.c:448
@@ -27380,12 +27380,12 @@ msgstr "ಜಾಲ ವೀಕ್ಷಕವನ್ನು ಬಳಸು(_W)"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "GIMP ಬಳಕೆದಾರ ಕೈಪಿಡಿಯು ಕಾಣುತ್ತಿಲ್ಲ"
+msgstr "Glimpse ಬಳಕೆದಾರ ಕೈಪಿಡಿಯು ಕಾಣುತ್ತಿಲ್ಲ"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "GIMP ನ ಬಳಕೆದಾರ ಕೈಪಿಡಿಯನ್ನು ಇನ್ನೂ ಸಹ ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
+msgstr "Glimpse ನ ಬಳಕೆದಾರ ಕೈಪಿಡಿಯನ್ನು ಇನ್ನೂ ಸಹ ನಿಮ್ಮ ಗಣಕದಲ್ಲಿ ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
 
 #: ../app/widgets/gimphelp.c:820
 #, fuzzy
@@ -28130,7 +28130,7 @@ msgstr ""
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "ನಿಮ್ಮ GIMP ಅನುಸ್ಥಾಪನೆಯು ಅಪೂರ್ಣವಾಗಿದೆ:"
+msgstr "ನಿಮ್ಮ Glimpse ಅನುಸ್ಥಾಪನೆಯು ಅಪೂರ್ಣವಾಗಿದೆ:"
 
 #: ../app/widgets/gimpuimanager.c:849
 #, fuzzy
@@ -28450,7 +28450,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP ಇಂದ ನಿರ್ಗಮಿಸು"
+msgstr "Glimpse ಇಂದ ನಿರ್ಗಮಿಸು"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -28477,7 +28477,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28500,7 +28500,7 @@ msgstr ""
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "ಹಕ್ಕು © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis ಹಾಗು GIMP ವಿಕಸನಾ ತಂಡ"
+#~ "Spencer Kimball, Peter Mattis ಹಾಗು Glimpse ವಿಕಸನಾ ತಂಡ"
 
 #~ msgid ""
 #~ "Unable to open a test swap file.\n"
@@ -28862,19 +28862,19 @@ msgstr ""
 #~ msgstr "ಉಳಿಸಲಾದ ಆಯ್ಕೆಗಳನ್ನು ಅಳಿಸು..."
 
 #~ msgid "Use a running Glimpse only, never start a new one"
-#~ msgstr "ಚಾಲನೆಯಲ್ಲಿರುವ GIMP ಅನ್ನು ಬಳಸು, ಹೊಸತನ್ನು ಆರಂಭಿಸಬೇಡ"
+#~ msgstr "ಚಾಲನೆಯಲ್ಲಿರುವ Glimpse ಅನ್ನು ಬಳಸು, ಹೊಸತನ್ನು ಆರಂಭಿಸಬೇಡ"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "GIMP ಚಾಲನೆಯಲ್ಲಿದೆಯೆ ಎಂದು ಪರೀಕ್ಷಿಸಿ, ನಂತರ ನಿರ್ಗಮಿಸು"
+#~ msgstr "Glimpse ಚಾಲನೆಯಲ್ಲಿದೆಯೆ ಎಂದು ಪರೀಕ್ಷಿಸಿ, ನಂತರ ನಿರ್ಗಮಿಸು"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
-#~ msgstr "GIMP ಉಪಕರಣಪೆಟ್ಟಿಗೆಯ ವಿಂಡೊದ X ವಿಂಡೋ IDಯನ್ನು ಮುದ್ರಿಸು, ನಂತರ ನಿರ್ಗಮಿಸು"
+#~ msgstr "Glimpse ಉಪಕರಣಪೆಟ್ಟಿಗೆಯ ವಿಂಡೊದ X ವಿಂಡೋ IDಯನ್ನು ಮುದ್ರಿಸು, ನಂತರ ನಿರ್ಗಮಿಸು"
 
 #~ msgid "Start Glimpse without showing the startup window"
-#~ msgstr "ಆರಂಭದ ವಿಂಡೊವನ್ನು ತೋರಿಸದೆ GIMP ಅನ್ನು ಆರಂಭಿಸು"
+#~ msgstr "ಆರಂಭದ ವಿಂಡೊವನ್ನು ತೋರಿಸದೆ Glimpse ಅನ್ನು ಆರಂಭಿಸು"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "GIMP ನೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+#~ msgstr "Glimpse ನೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "ಉಪಕರಣಪೆಟ್ಟಿಗೆಯು ಕಾಣಿಸುತ್ತಿದೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ!"

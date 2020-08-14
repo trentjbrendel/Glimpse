@@ -1,4 +1,4 @@
-# Bosnian translation for gimp
+# Bosnian translation for Glimpse
 # Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
 # This file is distributed under the same license as the Glimpse package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
@@ -10957,7 +10957,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"GIMP će upozoriti korisnika ako pokuša da napravi sliku koja bi uzela više "
+"Glimpse će upozoriti korisnika ako pokuša da napravi sliku koja bi uzela više "
 "memorije od velišine koja je određena ovdje."
 
 #: ../app/config/gimprc-blurbs.h:291
@@ -11071,7 +11071,7 @@ msgid ""
 "open before.  When disabled, windows will appear on the currently used "
 "monitor."
 msgstr ""
-"Kada je omogućeno, GIMP će pokušati povratiti na zaslon prozore koji su bili "
+"Kada je omogućeno, Glimpse će pokušati povratiti na zaslon prozore koji su bili "
 "otvoreni prije. Kada je onemogućeno, prozori će se pojaviti na trenutno "
 "korištenom zaslonu."
 
@@ -11538,7 +11538,7 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"Kada količina podataka poksela pređe ograničenje, GIMP će premještati "
+"Kada količina podataka poksela pređe ograničenje, Glimpse će premještati "
 "dijelove na disk. Ovo je dosta sporije, ali omogućava rad sa slikama koje "
 "inače ne bi stale u memoriju. Ako imate dosta RAM-a, možete podesiti veću "
 "vrijednost."
@@ -12698,7 +12698,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Izgleda da ste koristili GIMP %s prije. GIMP će prebaciti vaše korisničke "
+"Izgleda da ste koristili Glimpse %s prije. Glimpse će prebaciti vaše korisničke "
 "postavke na '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12707,7 +12707,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Koristite Glimpse prvi put. GIMP će sada kreirati direktorij '%s' i kopirati "
+"Koristite Glimpse prvi put. Glimpse će sada kreirati direktorij '%s' i kopirati "
 "neke datoteke u njega."
 
 #: ../app/core/gimp-user-install.c:419
@@ -12790,7 +12790,7 @@ msgid ""
 msgstr ""
 "Fatalna greška u datoteci četkice: \n"
 "Nepodržana dubina četkice %d\n"
-"GIMP četkice moraju biti GRAY ili RGBA."
+"Glimpse četkice moraju biti GRAY ili RGBA."
 
 #: ../app/core/gimpbrush-load.c:519
 #, c-format
@@ -28012,7 +28012,7 @@ msgstr "nejasno"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28302,7 +28302,7 @@ msgstr "nejasno"
 #~ msgstr ""
 #~ "Fatalna greška u datoteci četkice: \n"
 #~ "Nepodržana dubina četkice %d\n"
-#~ "GIMP četkice moraju biti GRAY ili RGBA.\n"
+#~ "Glimpse četkice moraju biti GRAY ili RGBA.\n"
 #~ "Ovo bi mogla biti zastarjela Glimpse datoteka četkice, probajte je "
 #~ "učitati kao sliku i ponovo snimiti."
 

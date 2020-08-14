@@ -1,4 +1,4 @@
-# Kirghiz translation for gimp.
+# Kirghiz translation for Glimpse.
 # Copyright (C) 2012 Glimpse's authors
 # This file is distributed under the same license as the Glimpse package.
 # Chynggyz Jumaliev <translatorky@lavabit.com>, 2012.
@@ -102,7 +102,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP текст редактору"
+msgstr "Glimpse текст редактору"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -2999,7 +2999,7 @@ msgstr ""
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "GIMP жөнүндө"
+msgstr "Glimpse жөнүндө"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -11402,7 +11402,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "GIMP жөнүндө"
+msgstr "Glimpse жөнүндө"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -14377,11 +14377,11 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "GIMP жөнүндө"
+msgstr "Glimpse жөнүндө"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "GIMP веб-сайтына барыңыз"
+msgstr "Glimpse веб-сайтына барыңыз"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14687,12 +14687,12 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP билдирмеси"
+msgstr "Glimpse билдирмеси"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "GIMP билдирмеси"
+msgstr "Glimpse билдирмеси"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -16938,7 +16938,7 @@ msgstr ""
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "GIMP жөнүндө"
+msgstr "Glimpse жөнүндө"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -23383,7 +23383,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP текст редактору"
+msgstr "Glimpse текст редактору"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -25100,7 +25100,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "GIMP жөнүндө"
+msgstr "Glimpse жөнүндө"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -26764,7 +26764,7 @@ msgstr "Аныкталган жок"
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
 #, fuzzy
 msgid "Glimpse XCF image"
-msgstr "GIMP билдирмеси"
+msgstr "Glimpse билдирмеси"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
 msgid "Memory Stream"
@@ -26868,7 +26868,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP билдирмеси"
+msgstr "Glimpse билдирмеси"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -26885,7 +26885,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -26899,7 +26899,7 @@ msgstr ""
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Автордук укуктар © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis жана GIMP иштетүүчү командасы"
+#~ "Spencer Kimball, Peter Mattis жана Glimpse иштетүүчү командасы"
 
 #~ msgctxt "config-action"
 #~ msgid "Use _GEGL"

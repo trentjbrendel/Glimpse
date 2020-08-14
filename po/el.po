@@ -99,16 +99,16 @@ msgstr ""
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
 msgid "Extra files for Glimpse"
-msgstr "Πρόσθετα αρχεία για το GIMP"
+msgstr "Πρόσθετα αρχεία για το Glimpse"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Μοτίβα, διαβαθμίσεις και άλλα πρόσθετα αρχεία για το GIMP"
+msgstr "Μοτίβα, διαβαθμίσεις και άλλα πρόσθετα αρχεία για το Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Επεξεργαστής κειμένου GIMP"
+msgstr "Επεξεργαστής κειμένου Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -202,7 +202,7 @@ msgstr "Περισσότερο αναλυτικός"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Έναρξη νέου στιγμιότυπου GIMP"
+msgstr "Έναρξη νέου στιγμιότυπου Glimpse"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -227,7 +227,7 @@ msgstr "Να μην εμφανίζεται η οθόνη εκκίνησης"
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Να μη χρησιμοποιείται κοινόχρηστη μνήμη μεταξύ GIMP και προσθέτων"
+msgstr "Να μη χρησιμοποιείται κοινόχρηστη μνήμη μεταξύ Glimpse και προσθέτων"
 
 #
 #: ../app/main.c:214
@@ -301,19 +301,19 @@ msgid ""
 "Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"Το GIMP δεν μπορεί να εκκινήσει το γραφικό περιβάλλον χρήστη.\n"
+"Το Glimpse δεν μπορεί να εκκινήσει το γραφικό περιβάλλον χρήστη.\n"
 "Βεβαιωθείτε ότι διαθέτετε εγκατάσταση κατάλληλη για την οθόνη σας."
 
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Κάποιο άλλο στιγμιότυπο του GIMP εκτελείται ήδη."
+msgstr "Κάποιο άλλο στιγμιότυπο του Glimpse εκτελείται ήδη."
 
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
 msgstr ""
-"Έξοδος GIMP. Πληκτρολογήστε οποιοδήποτε χαρακτήρα για να κλείσετε το "
+"Έξοδος Glimpse. Πληκτρολογήστε οποιοδήποτε χαρακτήρα για να κλείσετε το "
 "παράθυρο."
 
 #: ../app/main.c:707
@@ -325,7 +325,7 @@ msgstr "(Πληκτρολογήστε οποιοδήποτε χαρακτήρα 
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
-"Έξοδος GIMP. Μπορείτε να ελαχιστοποιήσετε αυτό το παράθυρο, αλλά μην το "
+"Έξοδος Glimpse. Μπορείτε να ελαχιστοποιήσετε αυτό το παράθυρο, αλλά μην το "
 "κλείσετε."
 
 #: ../app/sanity.c:562
@@ -350,7 +350,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Το όνομα του καταλόγου που περιέχει τις ρυθμίσεις χρήστη του GIMP δεν μπορεί "
+"Το όνομα του καταλόγου που περιέχει τις ρυθμίσεις χρήστη του Glimpse δεν μπορεί "
 "να μετατραπεί σε UTF-8: %s\n"
 "\n"
 "Το σύστημα αρχείων σας πιθανόν να αποθηκεύει αρχεία σε κωδικοποίηση "
@@ -3003,12 +3003,12 @@ msgstr "_Συμβουλή της ημέρας"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Εμφάνιση χρήσιμων συμβουλών χρήσης του GIMP"
+msgstr "Εμφάνιση χρήσιμων συμβουλών χρήσης του Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Περί GIMP"
+msgstr "Περί Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -5537,7 +5537,7 @@ msgstr "_Βοήθεια"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Άνοιγμα του εγχειριδίου χρήστη του GIMP"
+msgstr "Άνοιγμα του εγχειριδίου χρήστη του Glimpse"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -10045,7 +10045,7 @@ msgstr "Λειτουργία μοναδικού παραθύρου"
 #: ../app/actions/windows-actions.c:143
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "Όταν ενεργοποιηθεί, το GIMP είναι σε κατάσταση μοναδικού παραθύρου."
+msgstr "Όταν ενεργοποιηθεί, το Glimpse είναι σε κατάσταση μοναδικού παραθύρου."
 
 #: ../app/actions/windows-actions.c:152
 msgctxt "windows-tabs-position-action"
@@ -10195,7 +10195,7 @@ msgstr "Δεξιόχειρας"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Περιηγητής βοήθειας GIMP"
+msgstr "Περιηγητής βοήθειας Glimpse"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10645,7 +10645,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"Το GIMP θα προειδοποιήσει το χρήστη όποτε προσπαθεί να δημιουργήσει εικόνα "
+"Το Glimpse θα προειδοποιήσει το χρήστη όποτε προσπαθεί να δημιουργήσει εικόνα "
 "που απαιτεί περισσότερη από την καθορισμένη εδώ μνήμη."
 
 #: ../app/config/gimprc-blurbs.h:291
@@ -10694,7 +10694,7 @@ msgstr ""
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
 msgstr ""
-"Ορίζει τον αριθμό νημάτων του GIMP που πρέπει να χρησιμοποιηθούν για "
+"Ορίζει τον αριθμό νημάτων του Glimpse που πρέπει να χρησιμοποιηθούν για "
 "λειτουργίες που το υποστηρίζουν."
 
 #: ../app/config/gimprc-blurbs.h:339
@@ -10703,7 +10703,7 @@ msgid ""
 "in the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"Ορίζει εάν το GIMP θα πρέπει να δημιουργεί προεπισκοπήσεις στρώσεων και "
+"Ορίζει εάν το Glimpse θα πρέπει να δημιουργεί προεπισκοπήσεις στρώσεων και "
 "καναλιών. Οι προεπισκοπήσεις στις στρώσεις και τα κανάλια είναι χρήσιμες, "
 "αλλά μπορούν να επιβραδύνουν όταν δουλεύετε μεγάλες εικόνες."
 
@@ -10712,7 +10712,7 @@ msgid ""
 "Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr ""
-"Καθορίζει εάν το GIMP πρέπει να δημιουργεί προεπισκοπήσεις των ομάδων "
+"Καθορίζει εάν το Glimpse πρέπει να δημιουργεί προεπισκοπήσεις των ομάδων "
 "στρώσεων. Οι προεπισκοπήσεις ομάδας στρώσεων είναι πιο δαπανηρή από τις "
 "κανονικές προεπισκοπήσεις στρώσεων."
 
@@ -10751,7 +10751,7 @@ msgstr ""
 msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
 "Προσπάθεια επαναφοράς της τελευταίας αποθηκευμένης συνεδρίας σε κάθε "
-"εκκίνηση του GIMP."
+"εκκίνηση του Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:368
 msgid ""
@@ -10759,7 +10759,7 @@ msgid ""
 "open before.  When disabled, windows will appear on the currently used "
 "monitor."
 msgstr ""
-"Όταν ενεργοποιηθεί, το GIMP θα προσπαθήσει να επαναφέρει τα παράθυρα στην "
+"Όταν ενεργοποιηθεί, το Glimpse θα προσπαθήσει να επαναφέρει τα παράθυρα στην "
 "οθόνη που ήταν ανοικτά πριν. Όταν απενεργοποιηθεί, τα παράθυρα θα "
 "εμφανιστούν στην τρέχουσα χρησιμοποιούμενη οθόνη."
 
@@ -10768,7 +10768,7 @@ msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
 "Διατήρηση του τρέχοντος εργαλείου, μοτίβου, χρώματος και πινέλου κατά τις "
-"συνεδρίες GIMP."
+"συνεδρίες Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:377
 msgid ""
@@ -10795,7 +10795,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "Αποθήκευση των επιλογών εργαλείων κατά την έξοδο από το GIMP."
+msgstr "Αποθήκευση των επιλογών εργαλείων κατά την έξοδο από το Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:395
 msgid ""
@@ -10924,7 +10924,7 @@ msgstr "Εμφάνιση συμβουλής όταν ο δείκτης παρα�
 #: ../app/config/gimprc-blurbs.h:455
 #, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "Χρήση του GIMP σε κατάσταση μοναδικού παραθύρου."
+msgstr "Χρήση του Glimpse σε κατάσταση μοναδικού παραθύρου."
 
 #: ../app/config/gimprc-blurbs.h:458
 msgid "Hide docks and other windows, leaving only image windows."
@@ -10973,11 +10973,11 @@ msgid ""
 "swap file is created on a folder that is mounted over NFS.  For these "
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Ορίζει τη Θέση του αρχείου εναλλαγής. Το GIMP χρησιμοποιεί ένα σχήμα "
+"Ορίζει τη Θέση του αρχείου εναλλαγής. Το Glimpse χρησιμοποιεί ένα σχήμα "
 "κατανομής μνήμης βασισμένο σε παράθεση. Το αρχείο εναλλαγής χρησιμοποιείται "
 "για να εναλλάξει γρήγορα και εύκολα παραθέσεις από και προς το δίσκο. "
 "Σημειώστε ότι το αρχείο εναλλαγής μπορεί εύκολα να αυξηθεί υπερβολικά, όταν "
-"το GIMP χρησιμοποιείται με μεγάλες εικόνες. Επίσης, αν το αρχείο εναλλαγής "
+"το Glimpse χρησιμοποιείται με μεγάλες εικόνες. Επίσης, αν το αρχείο εναλλαγής "
 "βρίσκεται σε φάκελο δικτύου NFS, μπορεί να προκύψουν σημαντικές "
 "καθυστερήσεις. Για αυτούς τους λόγους, μπορεί να είναι επιθυμητή η "
 "τοποθέτηση του αρχείου εναλλαγής στο \"/tmp\"."
@@ -10998,12 +10998,12 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:501
 msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr ""
-"Αποθήκευση τροποποιημένων συντομεύσεων πληκτρολογίου κατά την έξοδο του GIMP."
+"Αποθήκευση τροποποιημένων συντομεύσεων πληκτρολογίου κατά την έξοδο του Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
 msgstr ""
-"Επαναφορά αποθηκευμένων συντομεύσεων πληκτρολογίου σε κάθε εκκίνηση του GIMP."
+"Επαναφορά αποθηκευμένων συντομεύσεων πληκτρολογίου σε κάθε εκκίνηση του Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11013,7 +11013,7 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Ορίζει το φάκελο προσωρινής αποθήκευσης. Διάφορα αρχεία εμφανίζονται εδώ "
-"όταν είναι ανοιχτό το GIMP. Τα περισσότερα αρχεία εξαφανίζονται κατά την "
+"όταν είναι ανοιχτό το Glimpse. Τα περισσότερα αρχεία εξαφανίζονται κατά την "
 "έξοδο, αλλά μερικά πιθανόν να παραμείνουν κι έτσι ο φάκελος καλύτερα να μη "
 "μοιράζεται με άλλους χρήστες."
 
@@ -11308,7 +11308,7 @@ msgid ""
 "you may want to set this to a higher value."
 msgstr ""
 "Όταν η ποσότητα των δεδομένων εικονοστοιχείου υπερβαίνει αυτό το όριο, το "
-"GIMP αρχίζει να χρησιμοποιεί εικονική μνήμη στο δίσκο. Έτσι προκύπτουν "
+"Glimpse αρχίζει να χρησιμοποιεί εικονική μνήμη στο δίσκο. Έτσι προκύπτουν "
 "καθυστερήσεις, αλλά μπορείτε να επεξεργάζεστε εικόνες που δε θα χωρούσαν στη "
 "μνήμη διαφορετικά. Αν έχετε πολλή RAM, μπορείτε να επιλέξετε υψηλότερη τιμή."
 
@@ -11346,7 +11346,7 @@ msgid ""
 "When enabled, Glimpse will not save an image if it has not been changed "
 "since it was opened."
 msgstr ""
-"Όταν ενεργοποιηθεί, Το GIMP δεν αποθηκεύει την εικόνα εάν αυτή δεν έχει "
+"Όταν ενεργοποιηθεί, Το Glimpse δεν αποθηκεύει την εικόνα εάν αυτή δεν έχει "
 "τροποποιηθεί μετά το άνοιγμά της."
 
 #: ../app/config/gimprc-blurbs.h:705
@@ -12457,7 +12457,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Φαίνεται ότι είχατε χρησιμοποιήσει το GIMP %s στο παρελθόν. Τώρα, το GIMP θα "
+"Φαίνεται ότι είχατε χρησιμοποιήσει το Glimpse %s στο παρελθόν. Τώρα, το Glimpse θα "
 "μεταφέρει τις ρυθμίσεις χρήστη στο '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12466,7 +12466,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Φαίνεται ότι χρησιμοποιείτε το GIMP για πρώτη φορά. Τώρα, το GIMP θα "
+"Φαίνεται ότι χρησιμοποιείτε το Glimpse για πρώτη φορά. Τώρα, το Glimpse θα "
 "δημιουργήσει έναν φάκελο με όνομα '%s' και θα αντιγράψει ορισμένα αρχεία σε "
 "αυτόν."
 
@@ -12554,7 +12554,7 @@ msgid ""
 msgstr ""
 "Καίριο σφάλμα ανάλυσης στο αρχείο πινέλων:\n"
 "Μη υποστηριζόμενο βάθος πινέλου %d\n"
-"Τα πινέλα του GIMP πρέπει να είναι ΓΚΡΙΖΑ ή RGBA."
+"Τα πινέλα του Glimpse πρέπει να είναι ΓΚΡΙΖΑ ή RGBA."
 
 #: ../app/core/gimpbrush-load.c:519
 #, c-format
@@ -12619,17 +12619,17 @@ msgstr "Εικόνα προχείρου"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Δεν είναι αρχείο καμπύλων GIMP."
+msgstr "Δεν είναι αρχείο καμπύλων Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
 msgid "Unknown GIMP brush version."
-msgstr "Άγνωστη έκδοση πινέλου GIMP."
+msgstr "Άγνωστη έκδοση πινέλου Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
 msgid "Unknown GIMP brush shape."
-msgstr "Άγνωστο σχήμα πινέλου GIMP."
+msgstr "Άγνωστο σχήμα πινέλου Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -13194,7 +13194,7 @@ msgstr "Γέμισμα με συμπαγές χρώμα"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Δεν είναι αρχείο διαβάθμισης GIMP."
+msgstr "Δεν είναι αρχείο διαβάθμισης Glimpse."
 
 #
 #: ../app/core/gimpgradient-load.c:96
@@ -13403,7 +13403,7 @@ msgstr "Αλλαγή μονάδας εικόνας"
 msgid ""
 "'gimp-comment' parasite validation failed: comment contains invalid UTF-8"
 msgstr ""
-"Αποτυχία επικύρωσης παρασίτου 'σχολίου Gimp': το σχόλιο περιέχει άκυρο UTF-8"
+"Αποτυχία επικύρωσης παρασίτου 'σχολίου Glimpse': το σχόλιο περιέχει άκυρο UTF-8"
 
 #: ../app/core/gimpimage.c:3894
 msgctxt "undo-type"
@@ -14164,7 +14164,7 @@ msgid ""
 "GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "Μη υποστηριζόμενο βάθος μοτίβου %d.\n"
-"Τα μοτίβα του GIMP πρέπει να είναι ΓΚΡΙΖΑ ή RGB."
+"Τα μοτίβα του Glimpse πρέπει να είναι ΓΚΡΙΖΑ ή RGB."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -14660,11 +14660,11 @@ msgstr "ποσοστό"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Περί GIMP"
+msgstr "Περί Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Επισκεφτείτε την ιστοσελίδα του GIMP"
+msgstr "Επισκεφτείτε την ιστοσελίδα του Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14713,7 +14713,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
-msgstr "Το GIMP είναι μια προσφορά των"
+msgstr "Το Glimpse είναι μια προσφορά των"
 
 #: ../app/dialogs/about-dialog.c:752
 #, c-format
@@ -14973,11 +14973,11 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Μήνυμα GIMP"
+msgstr "Μήνυμα Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 msgid "Glimpse Debug"
-msgstr "Αποσφαλμάτωση GIMP"
+msgstr "Αποσφαλμάτωση Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -15105,7 +15105,7 @@ msgid ""
 "to export to other file formats."
 msgstr ""
 "Χρησιμοποιήστε αυτόν το διάλογο για να αποθηκεύσετε την εικόνα ως αρχείο XCF "
-"του GIMP. Για να εξάγετε σε άλλους τύπους αρχείων πηγαίνετε αρχείο→εξαγωγή."
+"του Glimpse. Για να εξάγετε σε άλλους τύπους αρχείων πηγαίνετε αρχείο→εξαγωγή."
 
 #: ../app/dialogs/file-save-dialog.c:629
 msgid "Take me to the Export dialog"
@@ -15483,7 +15483,7 @@ msgstr "_Ανανέωση"
 #: ../app/dialogs/module-dialog.c:153
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr "Πρέπει να επανεκκινήσετε το GIMP για να ενεργοποιηθούν οι αλλαγές."
+msgstr "Πρέπει να επανεκκινήσετε το Glimpse για να ενεργοποιηθούν οι αλλαγές."
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15619,7 +15619,7 @@ msgstr ""
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
 msgstr ""
-"Θα πρέπει να επανεκκινήσετε το GIMP για να εφαρμοστούν οι παρακάτω αλλαγές:"
+"Θα πρέπει να επανεκκινήσετε το Glimpse για να εφαρμοστούν οι παρακάτω αλλαγές:"
 
 #: ../app/dialogs/preferences-dialog.c:647
 #, fuzzy
@@ -15628,7 +15628,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Οι συντομεύσεις πληκτρολογίου θα επανέλθουν στις προεπιλεγμένες τους τιμές "
-"με την επανεκκίνηση του GIMP."
+"με την επανεκκίνηση του Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15647,7 +15647,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Οι προτιμήσεις των παραθύρων θα επανέλθουν στις προεπιλεγμένες τους τιμές με "
-"την επανεκκίνηση του GIMP."
+"την επανεκκίνηση του Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15656,7 +15656,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Οι ρυθμίσεις των συσκευών εισόδου θα επανέλθουν στις προεπιλεγμένες με την "
-"επανεκκίνηση του GIMP."
+"επανεκκίνηση του Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15665,7 +15665,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Οι επιλογές των εργαλείων θα επανέλθουν στις προεπιλεγμένες με την "
-"επανεκκίνηση του GIMP."
+"επανεκκίνηση του Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -15854,7 +15854,7 @@ msgid ""
 "bugs."
 msgstr ""
 "Ελπίζουμε ότι δεν θα χρειαστείτε ποτέ αυτές τις ρυθμίσεις, αλλά όπως όλα τα "
-"λογισμικά, το GIMP έχει σφάλματα και μπορεί να συμβούν καταρρεύσεις. Εάν "
+"λογισμικά, το Glimpse έχει σφάλματα και μπορεί να συμβούν καταρρεύσεις. Εάν "
 "συμβεί αυτό, μπορείτε να μας βοηθήσετε αναφέροντας τα σφάλματα."
 
 #: ../app/dialogs/preferences-dialog.c:1279
@@ -16121,7 +16121,7 @@ msgid ""
 "contribute patches."
 msgstr ""
 "Αυτά τα χαρακτηριστικά δεν έχουν ολοκληρωθεί, είναι ελαττωματικά και μπορεί "
-"να καταρρεύσουν το GIMP. Είναι απερισκεψία η χρήση τους, εκτός και ξέρετε "
+"να καταρρεύσουν το Glimpse. Είναι απερισκεψία η χρήση τους, εκτός και ξέρετε "
 "πραγματικά τι κάνετε ή σκοπεύετε να συνεισφέρετε διορθώσεις."
 
 #: ../app/dialogs/preferences-dialog.c:1644
@@ -16695,7 +16695,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Ο περιηγητής βοήθειας του GIMP δεν φαίνεται να είναι εγκατεστημένος. "
+"Ο περιηγητής βοήθειας του Glimpse δεν φαίνεται να είναι εγκατεστημένος. "
 "Χρησιμοποιήστε αντ' αυτού τον περιηγητή ιστού."
 
 #. Action Search
@@ -17312,7 +17312,7 @@ msgstr "Κλείσιμο όλων των εικόνων"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "Αν τερματίσετε το GIMP τώρα, οι αλλαγές αυτές θα χαθούν."
+msgstr "Αν τερματίσετε το Glimpse τώρα, οι αλλαγές αυτές θα χαθούν."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -17483,12 +17483,12 @@ msgstr "_Προσομοίωση δυναμικών πινέλου"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "Το αρχείο συμβουλών του GIMP είναι κενό!"
+msgstr "Το αρχείο συμβουλών του Glimpse είναι κενό!"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Μάλλον λείπει το αρχείο συμβουλών του GIMP!"
+msgstr "Μάλλον λείπει το αρχείο συμβουλών του Glimpse!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17500,7 +17500,7 @@ msgstr ""
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "Δεν είναι δυνατή η ανάλυση του αρχείου συμβουλών του GIMP!"
+msgstr "Δεν είναι δυνατή η ανάλυση του αρχείου συμβουλών του Glimpse!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
@@ -17531,7 +17531,7 @@ msgstr "tips-locale:el"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Εγκατάσταση χρήστη GIMP"
+msgstr "Εγκατάσταση χρήστη Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -17541,7 +17541,7 @@ msgstr "Αποτυχία εγκατάστασης χρήστη!"
 #, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"Αποτυχία εγκατάστασης χρήστη του GIMP· δείτε το αρχείο καταγραφής για "
+"Αποτυχία εγκατάστασης χρήστη του Glimpse δείτε το αρχείο καταγραφής για "
 "λεπτομέρειες."
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -18433,7 +18433,7 @@ msgstr "ΤοΠινέλοΜου"
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
 msgid "GIMP brush (animated)"
-msgstr "Πινέλο GIMP (κινούμενο)."
+msgstr "Πινέλο Glimpse (κινούμενο)."
 
 #: ../app/file-data/file-data.c:365
 #, fuzzy
@@ -19148,7 +19148,7 @@ msgstr "Καμπύλη"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "δεν είναι αρχείο καμπύλων GIMP"
+msgstr "δεν είναι αρχείο καμπύλων Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19224,7 +19224,7 @@ msgstr "Στένωση τελικών τιμών εξόδου."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "δεν είναι αρχείο επιπέδων GIMP"
+msgstr "δεν είναι αρχείο επιπέδων Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19243,7 +19243,7 @@ msgstr "Ρύθμιση της φωτεινότητας (brightness) και τη�
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr ""
-"Υπολογισμός ενός συνόλου μνημών συντελεστών για το εργαλείο κλωβού του GIMP"
+"Υπολογισμός ενός συνόλου μνημών συντελεστών για το εργαλείο κλωβού του Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19252,7 +19252,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Μετατροπή ενός συνόλου μνημών συντελεστών σε μνήμες συντεταγμένων για το "
-"εργαλείο κλωβού του GIMP"
+"εργαλείο κλωβού του Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -19378,7 +19378,7 @@ msgstr "Α_νάκτηση"
 
 #: ../app/gui/gui.c:344
 msgid "Eeek! It looks like Glimpse recovered from a crash!"
-msgstr "Όπα! Φαίνεται ότι το GIMP ανέκαμψε από κατάρρευση!"
+msgstr "Όπα! Φαίνεται ότι το Glimpse ανέκαμψε από κατάρρευση!"
 
 #. TRANSLATORS: even if English singular form does
 #. * not use %d, you can use %d for translation in
@@ -19409,7 +19409,7 @@ msgstr "Έγγραφα"
 #
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Εκκίνηση του GIMP"
+msgstr "Εκκίνηση του Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -20783,9 +20783,9 @@ msgstr ""
 "Κατάρρευση προσθέτου: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Το θνήσκον πρόσθετο ίσως να μπερδεύτηκε με την εσωτερική κατάσταση του GIMP. "
+"Το θνήσκον πρόσθετο ίσως να μπερδεύτηκε με την εσωτερική κατάσταση του Glimpse. "
 "Για να είστε σίγουροι, καλό θα ήταν να αποθηκεύσετε τις εικόνες σας και να "
-"επανεκκινήσετε το GIMP."
+"επανεκκινήσετε το Glimpse."
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -20898,7 +20898,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Παράβλεψη '%s': λάθος έκδοση πρωτοκόλλου GIMP."
+msgstr "Παράβλεψη '%s': λάθος έκδοση πρωτοκόλλου Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -23052,7 +23052,7 @@ msgstr "_Μετακίνηση"
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr ""
 "Εργαλείο πινέλου MyPaint (ΒαφήΜου): Χρήση των πινέλων MyPaint (ΒαφήΜου) στο "
-"GIMP"
+"Glimpse"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -23837,7 +23837,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Επεξεργαστής κειμένου GIMP"
+msgstr "Επεξεργαστής κειμένου Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -25458,7 +25458,7 @@ msgstr ""
 msgid ""
 "To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
-"Για να μας βοηθήσετε να βελτιώσουμε το GIMP, μπορείτε να αναφέρετε το σφάλμα "
+"Για να μας βοηθήσετε να βελτιώσουμε το Glimpse, μπορείτε να αναφέρετε το σφάλμα "
 "με αυτά τα απλά βήματα:"
 
 #: ../app/widgets/gimpcriticaldialog.c:240
@@ -25496,8 +25496,8 @@ msgid ""
 "This error may have left Glimpse in an inconsistent state. It is advised to "
 "save your work and restart Glimpse."
 msgstr ""
-"Αυτό το σφάλμα μπορεί να έχει αφήσει το GIMP σε ασταθή κατάσταση. Σας "
-"συμβουλεύουμε να αποθηκεύσετε την εργασία σας και να επανεκκινήσετε το GIMP."
+"Αυτό το σφάλμα μπορεί να έχει αφήσει το Glimpse σε ασταθή κατάσταση. Σας "
+"συμβουλεύουμε να αποθηκεύσετε την εργασία σας και να επανεκκινήσετε το Glimpse."
 
 #: ../app/widgets/gimpcriticaldialog.c:253
 msgid ""
@@ -25575,13 +25575,13 @@ msgstr "Αδυναμία ανοίγματος '%s': %s"
 #: ../app/widgets/gimpcriticaldialog.c:550
 #, fuzzy, c-format
 msgid "Glimpse crashed with a fatal error: %s"
-msgstr "Το GIMP κατέρρευσε με μοιραίο σφάλμα: %s"
+msgstr "Το Glimpse κατέρρευσε με μοιραίο σφάλμα: %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:557
 #, fuzzy, c-format
 msgid "Glimpse encountered an error: %s"
-msgstr "Το GIMP αντιμετώπισε σφάλμα: %s"
+msgstr "Το Glimpse αντιμετώπισε σφάλμα: %s"
 
 #. Let's not display all errors. They will be in the bug report
 #. * part anyway.
@@ -25589,12 +25589,12 @@ msgstr "Το GIMP αντιμετώπισε σφάλμα: %s"
 #: ../app/widgets/gimpcriticaldialog.c:565
 #, fuzzy, c-format
 msgid "Glimpse encountered several critical errors!"
-msgstr "Το GIMP εμφάνισε πολλά κρίσιμα σφάλματα!"
+msgstr "Το Glimpse εμφάνισε πολλά κρίσιμα σφάλματα!"
 
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Ε_πανεκκίνηση του GIMP"
+msgstr "Ε_πανεκκίνηση του Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -26341,14 +26341,14 @@ msgstr "Δεν βρέθηκε o περιηγητής βοήθειας"
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "Ο περιηγητής βοήθειας του GIMP δεν είναι διαθέσιμος."
+msgstr "Ο περιηγητής βοήθειας του Glimpse δεν είναι διαθέσιμος."
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Το πρόσθετο περιηγητή βοήθειας του GIMP φαίνεται να λείπει από την "
+"Το πρόσθετο περιηγητή βοήθειας του Glimpse φαίνεται να λείπει από την "
 "εγκατάσταση σας. Εναλλακτικά, μπορείτε να χρησιμοποιήσετε τον περιηγητή "
 "ιστού για ανάγνωση των σελίδων βοήθειας."
 
@@ -26358,7 +26358,7 @@ msgstr "Ο περιηγητής βοήθειας δεν ξεκινά"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Δεν ήταν δυνατή η εκκίνηση του πρόσθετου περιηγητή βοήθειας του GIMP."
+msgstr "Δεν ήταν δυνατή η εκκίνηση του πρόσθετου περιηγητή βοήθειας του Glimpse."
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -26372,11 +26372,11 @@ msgstr "Χρήση _περιηγητή ιστού"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "Το εγχειρίδιο χρήσης του GIMP λείπει"
+msgstr "Το εγχειρίδιο χρήσης του Glimpse λείπει"
 
 #: ../app/widgets/gimphelp.c:809
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "Το εγχειρίδιο χρήσης του GIMP δεν είναι εγκατεστημένο στη γλώσσα σας."
+msgstr "Το εγχειρίδιο χρήσης του Glimpse δεν είναι εγκατεστημένο στη γλώσσα σας."
 
 #: ../app/widgets/gimphelp.c:820
 msgid "Read Selected _Language"
@@ -26715,7 +26715,7 @@ msgstr ""
 #: ../app/widgets/gimpsavedialog.c:407
 #, fuzzy
 msgid "Metadata won't be visible in GNU I.M.P older than version 2.10."
-msgstr "Μεταδεδομένα δεν θα είναι ορατά σε GIMP παλιότερο από την έκδοση 2.10."
+msgstr "Μεταδεδομένα δεν θα είναι ορατά σε Glimpse παλιότερο από την έκδοση 2.10."
 
 #: ../app/widgets/gimpselectiondata.c:250
 #, c-format
@@ -27118,7 +27118,7 @@ msgstr "Προεπιλογή %s"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Η εγκατάσταση του GIMP είναι ελλιπής:"
+msgstr "Η εγκατάσταση του Glimpse είναι ελλιπής:"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -27433,7 +27433,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Αποσφαλμάτωση GIMP"
+msgstr "Αποσφαλμάτωση Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -27480,7 +27480,7 @@ msgstr "θολή"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27492,7 +27492,7 @@ msgstr "θολή"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "Αποσφαλμάτωση κατάρρευσης GIMP"
+#~ msgstr "Αποσφαλμάτωση κατάρρευσης Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Debug"
@@ -27506,7 +27506,7 @@ msgstr "θολή"
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "Το GIMP είναι ένα ακρωνύμιο για το πρόγραμμα επεξεργασίας εικόνας GNU. "
+#~ "Το Glimpse είναι ένα ακρωνύμιο για το πρόγραμμα επεξεργασίας εικόνας GNU. "
 #~ "Διανέμεται ελεύθερα για τέτοιες εργασίες όπως επεξεργασία φωτογραφίας, "
 #~ "σύνθεση εικόνας και δημιουργία εικόνας."
 
@@ -27527,18 +27527,18 @@ msgstr "θολή"
 #~ "image manipulation procedures to be easily scripted. Glimpse is available "
 #~ "for Linux, Microsoft Windows and OS X."
 #~ msgstr ""
-#~ "Το GIMP είναι αναπτυσσόμενο και επεκτάσιμο. Είναι σχεδιασμένο να "
+#~ "Το Glimpse είναι αναπτυσσόμενο και επεκτάσιμο. Είναι σχεδιασμένο να "
 #~ "επαυξάνεται με πρόσθετα και επεκτάσεις για να κάνει σχεδόν οτιδήποτε. Η "
 #~ "προχωρημένη διεπαφή σεναρίου επιτρέπει ο,τιδήποτε από την πιο απλή "
 #~ "εργασία μέχρι τις πιο σύνθετες διαδικασίες επεξεργασίας εικόνας να "
-#~ "γίνονται εύκολα σενάρια. Το GIMP είναι διαθέσιμο για Linux, Microsoft "
+#~ "γίνονται εύκολα σενάρια. Το Glimpse είναι διαθέσιμο για Linux, Microsoft "
 #~ "Windows και OS X."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Βάφοντας στο GIMP"
+#~ msgstr "Βάφοντας στο Glimpse"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Επεξεργασία φωτογραφίας στο GIMP"
+#~ msgstr "Επεξεργασία φωτογραφίας στο Glimpse"
 
 #~ msgid ""
 #~ "Glimpse 2.10.10 is quite a big update with many new features and bug "
@@ -27738,7 +27738,7 @@ msgstr "θολή"
 
 #~ msgid ""
 #~ "New language (having Glimpse translated in 81 languages now): Marathi"
-#~ msgstr "Νέα γλώσσα (με μεταφρασμένες 81 γλώσσες τώρα στο GIMP): Μαράθι"
+#~ msgstr "Νέα γλώσσα (με μεταφρασμένες 81 γλώσσες τώρα στο Glimpse): Μαράθι"
 
 #~ msgid ""
 #~ "Glimpse 2.10.4 includes a lot of bug fixes as well as various "
@@ -27858,7 +27858,7 @@ msgstr "θολή"
 #~ "εικόνας"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Νέα θέματα για το GIMP: Ανοιχτό, γκρίζο, σκούρο και συστήματος"
+#~ msgstr "Νέα θέματα για το Glimpse: Ανοιχτό, γκρίζο, σκούρο και συστήματος"
 
 #~ msgid "And much, much more…"
 #~ msgstr "Και πολλά περισσότερα..."
@@ -27927,7 +27927,7 @@ msgstr "θολή"
 
 #~ msgid "New dashboard dockable to monitor Glimpse resource usage"
 #~ msgstr ""
-#~ "Νέος προσαρτήσιμος πίνακας εργαλείων για παρακολούθηση χρήσης πόρων GIMP"
+#~ "Νέος προσαρτήσιμος πίνακας εργαλείων για παρακολούθηση χρήσης πόρων Glimpse"
 
 #~ msgid ""
 #~ "New debug dialog to produce back traces and other debug data, encouraging "
@@ -28015,13 +28015,13 @@ msgstr "θολή"
 #~ msgstr "Αν_τιστάθμιση"
 
 #~ msgid "Show Glimpse _logo (drag-and-drop target)"
-#~ msgstr "Εμφάνιση _λογότυπου GIMP (μεταφορά και απόθεση στον στόχο)"
+#~ msgstr "Εμφάνιση _λογότυπου Glimpse (μεταφορά και απόθεση στον στόχο)"
 
 #~ msgid "Glimpse brush"
-#~ msgstr "Πινέλο GIMP"
+#~ msgstr "Πινέλο Glimpse"
 
 #~ msgid "Glimpse pattern"
-#~ msgstr "Μοτίβο GIMP"
+#~ msgstr "Μοτίβο Glimpse"
 
 #~ msgid ""
 #~ "For more information, see https://www.gimp.org/news/2018/04/27/"
@@ -28089,8 +28089,8 @@ msgstr "θολή"
 #~ msgstr ""
 #~ "Καίριο σφάλμα ανάλυσης στο αρχείο πινέλων:\n"
 #~ "Μη υποστηριζόμενο βάθος πινέλου %d\n"
-#~ "Τα πινέλα του GIMP πρέπει να είναι ΓΚΡΙΖΑ ή RGBA.\n"
-#~ "Αυτό μπορεί να είναι ένα καταργημένο αρχείο πινέλου GIMP, δοκιμάστε να το "
+#~ "Τα πινέλα του Glimpse πρέπει να είναι ΓΚΡΙΖΑ ή RGBA.\n"
+#~ "Αυτό μπορεί να είναι ένα καταργημένο αρχείο πινέλου Glimpse, δοκιμάστε να το "
 #~ "φορτώσετε ως εικόνα και αποθηκεύστε το ξανά."
 
 # sysdeps/names/swap.c:45
@@ -29139,14 +29139,14 @@ msgstr "θολή"
 #~ "line %d."
 #~ msgstr ""
 #~ "Καίριο σφάλμα ανάλυσης στο αρχείο πινέλων '%s': Άγνωστη έκδοση πινέλου "
-#~ "GIMP στη γραμμή %d."
+#~ "Glimpse στη γραμμή %d."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
 #~ "Καίριο σφάλμα ανάλυσης στο αρχείο πινέλων '%s': Άγνωστο σχήμα πινέλου "
-#~ "GIMP στη γραμμή %d."
+#~ "Glimpse στη γραμμή %d."
 
 #~ msgid "Line %d: %s"
 #~ msgstr "Γραμμή %d: %s"
@@ -29163,7 +29163,7 @@ msgstr "θολή"
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
 #~ "Μοιραίο σφάλμα ανάλυσης στο αρχείο διαβαθμίσεων '%s': Δεν είναι αρχείο "
-#~ "διαβαθμίσεων του GIMP."
+#~ "διαβαθμίσεων του Glimpse."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr ""
@@ -29406,7 +29406,7 @@ msgstr "θολή"
 #~ "Αδυναμία ανοίγματος αρχείου εικονικής μνήμης. Τελείωσε η μνήμη και το "
 #~ "αρχείο εικονικής μνήμης δεν είναι διαθέσιμο. Μερικά μέρη της εικόνας σας "
 #~ "μπορεί να είναι κατεστραμμένα. Δοκιμάστε να αποθηκεύσετε την δουλειά σας "
-#~ "χρησιμοποιώντας διαφορετικά ονόματα αρχείου, επανεκκινήστε το GIMP και "
+#~ "χρησιμοποιώντας διαφορετικά ονόματα αρχείου, επανεκκινήστε το Glimpse και "
 #~ "ελέγξτε τη τοποθεσία του καταλόγου εικονικής μνήμης στις προτιμήσεις σας."
 
 # gconf/gconf-internals.c:2416
@@ -29529,7 +29529,7 @@ msgstr "θολή"
 #~ "When enabled Glimpse is in a single-window mode. Far from completely "
 #~ "implemented!"
 #~ msgstr ""
-#~ "Αν ενεργοποιηθεί, τότε το GIMP εκτελείται σε λειτουργία μοναδικού "
+#~ "Αν ενεργοποιηθεί, τότε το Glimpse εκτελείται σε λειτουργία μοναδικού "
 #~ "παραθύρου. Μακριά από πλήρως εφαρμοσμένη!"
 
 #~ msgctxt "tool"
@@ -29616,21 +29616,21 @@ msgstr "θολή"
 #~ msgstr "Το μήνυμα επαναλήφθηκε %d φορές."
 
 #~ msgid "Use a running Glimpse only, never start a new one"
-#~ msgstr "Χρήση ανοιχτού GIMP μόνο, ποτέ εκκίνηση νέου."
+#~ msgstr "Χρήση ανοιχτού Glimpse μόνο, ποτέ εκκίνηση νέου."
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "Έλεγχος εκτέλεσης του GIMP και μετά έξοδος"
+#~ msgstr "Έλεγχος εκτέλεσης του Glimpse και μετά έξοδος"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr ""
-#~ "Εκτύπωση του ID του παραθύρου X της κύριας εργαλειοθήκης του GIMP και "
+#~ "Εκτύπωση του ID του παραθύρου X της κύριας εργαλειοθήκης του Glimpse και "
 #~ "μετά τερματισμός"
 
 #~ msgid "Start Glimpse without showing the startup window"
-#~ msgstr "Εκκίνηση του GIMP χωρίς την εμφάνιση του παραθύρου εκκίνησης"
+#~ msgstr "Εκκίνηση του Glimpse χωρίς την εμφάνιση του παραθύρου εκκίνησης"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "Αδυναμία σύνδεσης στο GIMP."
+#~ msgstr "Αδυναμία σύνδεσης στο Glimpse."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "Βεβαιωθείτε πως η κύρια εργαλειοθήκη είναι ορατή!"
@@ -29660,18 +29660,18 @@ msgstr "θολή"
 #~ "with GIMP; if not, write to the Free Software Foundation, Inc., 59 Temple "
 #~ "Place - Suite 330, Boston, MA 02111-1307, USA."
 #~ msgstr ""
-#~ "Το GIMP είναι ένα δωρεάν λογισμικό• μπορείτε να το αναδιανέμεται και /ή "
+#~ "Το Glimpse είναι ένα δωρεάν λογισμικό• μπορείτε να το αναδιανέμεται και /ή "
 #~ "τροποποιήσετε υπό τους όρους της γενικής δημόσιας άδειας του GNU όπως "
 #~ "δημοσιεύτηκαν από το Ίδρυμα Ελεύθερου Λογισμικού• είτε η έκδοση 2 της "
 #~ "άδειας, ή (κατά την επιλογή σας) οποιαδήποτε μεταγενέστερη έκδοση.\n"
 #~ "\n"
-#~ "Το GIMP διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ καμία "
+#~ "Το Glimpse διανέμεται με την ελπίδα ότι θα είναι χρήσιμο, αλλά ΧΩΡΙΣ καμία "
 #~ "ΕΓΓΥΗΣΗ• χωρίς καν την υπονοούμενη εγγύηση ΕΜΠΟΡΕΥΣΙΜ¨ΟΤΗΤΑΣ ή ΜΟΡΦΩΜΑ "
 #~ "ΓΙΑ ΣΥΓΚΕΚΡΙΜΕΝΟ ΣΚΟΠΟ. Δείτε την γενική δημόσια άδεια GNU για "
 #~ "περισσότερες λεπτομέρειες.\n"
 #~ "\n"
 #~ "Πρέπει να έχετε παραλάβει ένα αντίγραφο της γενικής δημόσιας άδειας GNU "
-#~ "μαζί με το GIMP• αν όχι, γράψτε στο Ίδρυμα Ελεύθερου Λογισμικού, Inc., 59 "
+#~ "μαζί με το Glimpse αν όχι, γράψτε στο Ίδρυμα Ελεύθερου Λογισμικού, Inc., 59 "
 #~ "Temple Place - Suite 330, Boston, MA 02111-1307, USA."
 
 #~ msgid "Do not show a startup window"
@@ -29931,7 +29931,7 @@ msgstr "θολή"
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
 #~ "Κυρίως για οθόνες 8-bit: Ελάχιστος αριθμός χρωμάτων συστήματος στη "
-#~ "διάθεση του GIMP."
+#~ "διάθεση του Glimpse."
 
 #~ msgid ""
 #~ "When enabled, the X server is queried for the mouse's current position on "
@@ -30118,7 +30118,7 @@ msgstr "θολή"
 #~ msgstr ""
 #~ "Κανονικά χρησιμοποιούνται οι υποδείξεις της γραμματοσειράς (αν υπάρχουν). "
 #~ "Μπορείτε όμως να επιλέξετε να χρησιμοποιείτε υποχρεωτικά τις "
-#~ "αυτοματοποιημένες υποδείξεις του Gimp."
+#~ "αυτοματοποιημένες υποδείξεις του Glimpse."
 
 #~ msgid "Font:"
 #~ msgstr "Γραμματοσειρά:"
@@ -30252,7 +30252,7 @@ msgstr "θολή"
 #, fuzzy
 #~ msgid "Enable displaying a handy Glimpse tip on startup."
 #~ msgstr ""
-#~ "Επιλέξτε το για να εμφανίζεται μία χρήσιμη συμβουλή του GIMP κατά την "
+#~ "Επιλέξτε το για να εμφανίζεται μία χρήσιμη συμβουλή του Glimpse κατά την "
 #~ "έναρξη."
 
 #
@@ -30375,7 +30375,7 @@ msgstr "θολή"
 #
 #, fuzzy
 #~ msgid "(invalid UTF-8 string)"
-#~ msgstr "Σφάλμα στο αρχείο πινέλων του GIMP \"%s\"."
+#~ msgstr "Σφάλμα στο αρχείο πινέλων του Glimpse \"%s\"."
 
 #, fuzzy
 #~ msgid "Alignment Tool"
@@ -30558,7 +30558,7 @@ msgstr "θολή"
 #~ msgstr "_Κλείσιμο Καρτέλας"
 
 #~ msgid "Could not find Glimpse help browser."
-#~ msgstr "Αδύνατη η εύρεση του περιηγητή βοήθειας του GIMP."
+#~ msgstr "Αδύνατη η εύρεση του περιηγητή βοήθειας του Glimpse."
 
 #~ msgid "Use _web browser instead"
 #~ msgstr "Χρήση _περιηγητή ιστοσελίδων στη θέση του"
@@ -30570,7 +30570,7 @@ msgstr "θολή"
 #~ msgstr "Οριζόντια"
 
 #~ msgid "The GIMP"
-#~ msgstr "Το GIMP"
+#~ msgstr "Το Glimpse"
 
 #~ msgid ""
 #~ "\n"
@@ -31000,10 +31000,10 @@ msgstr "θολή"
 #~ "The GIMP %d.%d User Installation"
 #~ msgstr ""
 #~ "Καλώς ήρθατε\n"
-#~ "Εγκατάσταση Χρήστη για το GIMP %d.%d"
+#~ "Εγκατάσταση Χρήστη για το Glimpse %d.%d"
 
 #~ msgid "Click \"Continue\" to enter the Glimpse user installation."
-#~ msgstr "Πατήστε \"Συνέχεια\" για να αρχίσει η εγκατάσταση χρήστη GIMP."
+#~ msgstr "Πατήστε \"Συνέχεια\" για να αρχίσει η εγκατάσταση χρήστη Glimpse."
 
 #~ msgid ""
 #~ "This program is free software; you can redistribute it and/or modify it "
@@ -31031,7 +31031,7 @@ msgstr "θολή"
 
 #
 #~ msgid "Personal Glimpse Folder"
-#~ msgstr "Προσωπικός Φάκελος GIMP"
+#~ msgstr "Προσωπικός Φάκελος Glimpse"
 
 #~ msgid "Click \"Continue\" to create your personal Glimpse folder."
 #~ msgstr ""
@@ -31039,7 +31039,7 @@ msgstr "θολή"
 #~ "GIMP."
 
 #~ msgid "Glimpse Performance Tuning"
-#~ msgstr "Ρύθμιση Επιδόσεων GIMP"
+#~ msgstr "Ρύθμιση Επιδόσεων Glimpse"
 
 #, fuzzy
 #~ msgid "Select swap dir"
@@ -31136,7 +31136,7 @@ msgstr "θολή"
 #~ msgstr "Εσωτερικό σφάλμα"
 
 #~ msgid "Glimpse Extension"
-#~ msgstr "Επέκταση Gimp"
+#~ msgstr "Επέκταση Glimpse"
 
 #
 #, fuzzy

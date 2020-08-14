@@ -1,4 +1,4 @@
-# Low German translation for gimp.
+# Low German translation for Glimpse.
 # Copyright (C) 2009 Glimpse's COPYRIGHT HOLDER
 # This file is distributed under the same license as the Glimpse package.
 # Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2009.
@@ -27145,7 +27145,7 @@ msgstr "Unklar"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

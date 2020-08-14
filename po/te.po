@@ -17613,7 +17613,7 @@ msgstr "అన్ని బొమ్మలను మూసివేయి"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "ఇప్పుడు GIMP వదిలేస్తే, ఈ మార్పులన్నీ పోతాయి."
+msgstr "ఇప్పుడు Glimpse వదిలేస్తే, ఈ మార్పులన్నీ పోతాయి."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
