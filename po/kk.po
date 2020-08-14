@@ -1,4 +1,4 @@
-# Kazakh translation for gimp.
+# Kazakh translation for Glimpse.
 # Copyright (C) 2010 Glimpse's COPYRIGHT HOLDER
 # This file is distributed under the same license as the Glimpse package.
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010-2017.
@@ -26427,7 +26427,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

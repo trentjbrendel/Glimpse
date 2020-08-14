@@ -1,4 +1,4 @@
-# Burmese translation of gimp.
+# Burmese translation of Glimpse.
 # Copyright © 2009, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Glimpse package.
 #
@@ -23,7 +23,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "GIMP ကို ပိတ်ပါ"
+msgstr "Glimpse ကို ပိတ်ပါ"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -101,7 +101,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP စာသား တည်းဖြတ်ကိရိယာ"
+msgstr "Glimpse စာသား တည်းဖြတ်ကိရိယာ"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -150,7 +150,7 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"GIMP ဟာ အခမဲ့ ဆော့ဗ်ဝဲ ဖြစ်တယ် - ၄င်းကို GNU ခေါ် အထွေထွေ လူထု သင် ပြန်လည် ဖြန့်ဖြူနိုင်ပြီး/(သို့) "
+"Glimpse ဟာ အခမဲ့ ဆော့ဗ်ဝဲ ဖြစ်တယ် - ၄င်းကို GNU ခေါ် အထွေထွေ လူထု သင် ပြန်လည် ဖြန့်ဖြူနိုင်ပြီး/(သို့) "
 "ပြုပြင်နိုင်တယ်။ or modify it under the terms of the GNU General Public License as "
 "published by the Free Software Foundation; either version 3 of the License, "
 "or (at your option) any later version.\n"
@@ -187,7 +187,7 @@ msgstr "ပိုမို ရှည်လျားစေပါ"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "GIMP ယန္တရား အသစ်တခုကို စတင်ပါ"
+msgstr "Glimpse ယန္တရား အသစ်တခုကို စတင်ပါ"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -213,7 +213,7 @@ msgstr "အစပြုတဲ့ ၀င်းဒိုးတခုကို မ�
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "GIMP နဲ့ ယန္တရားငယ်များ အကြား မှတ်ဉာဏ် မျှဝေချက်ကို မသုံးစွဲပါနဲ့။"
+msgstr "Glimpse နဲ့ ယန္တရားငယ်များ အကြား မှတ်ဉာဏ် မျှဝေချက်ကို မသုံးစွဲပါနဲ့။"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -288,18 +288,18 @@ msgid ""
 "Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP က ရုပ်ပိုင်းဆိုင်ရာ သုံစွဲသူ ကြားခံမြင်ကွင်းကို မစတင်နိုင်ဘူး။\n"
+"Glimpse က ရုပ်ပိုင်းဆိုင်ရာ သုံစွဲသူ ကြားခံမြင်ကွင်းကို မစတင်နိုင်ဘူး။\n"
 "သင့်ရဲ့ တည်ရှိတဲ့ ပြသမှု ၀န်းကျင်အတွက် သင့်လျှော်တဲ့ တပ်ဆင်မှု တခုကို အသေအချာ ပြုလုပ်ပါ။"
 
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "အခြား GIMP ယန္တရားကို လည်ပတ်ထားပြီး။"
+msgstr "အခြား Glimpse ယန္တရားကို လည်ပတ်ထားပြီး။"
 
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP ရလဒ်။ ဒီ၀င်းဒိုးကို ပိတ်ဖို့ အက္ခရာ တခုခုကို ရိုက်ထည့်ပါ။"
+msgstr "Glimpse ရလဒ်။ ဒီ၀င်းဒိုးကို ပိတ်ဖို့ အက္ခရာ တခုခုကို ရိုက်ထည့်ပါ။"
 
 #: ../app/main.c:707
 #, c-format
@@ -309,7 +309,7 @@ msgstr "(ဒီ၀င်းဒိုးကို ပိတ်ဖို့ အက
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "GIMP ရလဒ်။ ဒီ၀င်းဒိုးကို သင် ခေါက်ထားနိုင်တယ်၊ ဒါပေမဲ့ ၄င်းကို မပိတ်ပါနဲ့။"
+msgstr "Glimpse ရလဒ်။ ဒီ၀င်းဒိုးကို သင် ခေါက်ထားနိုင်တယ်၊ ဒါပေမဲ့ ၄င်းကို မပိတ်ပါနဲ့။"
 
 #: ../app/sanity.c:562
 #, c-format
@@ -332,7 +332,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"GIMP သုံးစွဲသူ ပြုပြင်ဖန်တီးမှုကို ထိန်းထားတဲ့ ဖိုင်တွဲအမည်ကို UTF-8 အဖြစ် အသွင်ပြောင်းလို့ မရဘူး။\n"
+"Glimpse သုံးစွဲသူ ပြုပြင်ဖန်တီးမှုကို ထိန်းထားတဲ့ ဖိုင်တွဲအမည်ကို UTF-8 အဖြစ် အသွင်ပြောင်းလို့ မရဘူး။\n"
 "s\n"
 "\n"
 
@@ -3125,12 +3125,12 @@ msgstr "​တနေ့တာ သိကောင်းစရာ"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "GIMP သုံးစွဲခြင်း အထောက်အကူပြု သိကောင်းစရာများ အချို့ကို ဖေါ်ပြပါ"
+msgstr "Glimpse သုံးစွဲခြင်း အထောက်အကူပြု သိကောင်းစရာများ အချို့ကို ဖေါ်ပြပါ"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "GIMP အကြောင်း"
+msgstr "Glimpse အကြောင်း"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -5778,7 +5778,7 @@ msgstr "အကူအညီ"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "GIMP သုံးစွဲသူ လက်စွဲကို ဖွင့်ပါ"
+msgstr "Glimpse သုံးစွဲသူ လက်စွဲကို ဖွင့်ပါ"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -8339,7 +8339,7 @@ msgstr "ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေး�
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "GIMP ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
+msgstr "Glimpse ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8429,7 +8429,7 @@ msgstr "ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေး�
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "GIMP ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
+msgstr "Glimpse ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -10459,7 +10459,7 @@ msgstr ""
 #, fuzzy
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "ဖွင့်လိုက်တဲ့အခါ၊ GIMP က စာရင်းမှတ်များထဲမှာ မှတ်ဉာဏ်ကူများကို ပြသလိမ့်မယ်။"
+msgstr "ဖွင့်လိုက်တဲ့အခါ၊ Glimpse က စာရင်းမှတ်များထဲမှာ မှတ်ဉာဏ်ကူများကို ပြသလိမ့်မယ်။"
 
 #: ../app/actions/windows-actions.c:152
 msgctxt "windows-tabs-position-action"
@@ -10617,7 +10617,7 @@ msgstr ""
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "GIMP အကူအညီ ကွန်ရက်ကြည့်ယန္တရား"
+msgstr "Glimpse အကူအညီ ကွန်ရက်ကြည့်ယန္တရား"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -11043,7 +11043,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"ဒီနေရာမှာ သတ်မှတ်ချက်ထက် မှတ်ဉာဏ် ပိုယူမဲ့ ရုပ်ပုံတခုကို ဖန်တီးမဲ့ ကြိုးစားချက် တခု ပြုလုပ်တဲ့အခါ GIMP က သုံးစွဲသူကို "
+"ဒီနေရာမှာ သတ်မှတ်ချက်ထက် မှတ်ဉာဏ် ပိုယူမဲ့ ရုပ်ပုံတခုကို ဖန်တီးမဲ့ ကြိုးစားချက် တခု ပြုလုပ်တဲ့အခါ Glimpse က သုံးစွဲသူကို "
 "သတိပေးလိမ့်မယ်။"
 
 #: ../app/config/gimprc-blurbs.h:291
@@ -11087,7 +11087,7 @@ msgstr "ရုပ်ပုံ ၀င်းဒိုးရဲ့ အောက် 
 #, fuzzy
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
-msgstr "GIMP က ပရိုဆက်ဆာများ တပြိုင်ထဲ သုံစွဲဖို့ ကြိုးစားသင့်တဲ့ အရေအတွက် သတ်မှတ်ပါ။"
+msgstr "Glimpse က ပရိုဆက်ဆာများ တပြိုင်ထဲ သုံစွဲဖို့ ကြိုးစားသင့်တဲ့ အရေအတွက် သတ်မှတ်ပါ။"
 
 #: ../app/config/gimprc-blurbs.h:339
 msgid ""
@@ -11095,7 +11095,7 @@ msgid ""
 "in the layers and channels dialog are nice to have but they can slow things "
 "down when working with large images."
 msgstr ""
-"GIMP က အလွှာများနဲ့ ချာနယ်များ အစမ်းမြင်ကွင်းများကို ဖန်တီးသင့် မသင့် သတ်မှတ်ပါ။ အလွှာများနဲ့ "
+"Glimpse က အလွှာများနဲ့ ချာနယ်များ အစမ်းမြင်ကွင်းများကို ဖန်တီးသင့် မသင့် သတ်မှတ်ပါ။ အလွှာများနဲ့ "
 "ချာနယ်များ အညွှန်းစာမျက်နှာမှ အစမ်းမြင်ကွင်းများကို ထားရှိဖို့ ကောင်းတယ်၊ ဒါပေမဲ့ သူတို့ဟာ ရုပ်ပုံကြီးများနဲ့ "
 "လုပ်ဆောင်တဲ့အခါ အရာရာကို ကျဆင်းစေနိုင်တယ်။"
 
@@ -11105,7 +11105,7 @@ msgid ""
 "Sets whether Glimpse should create previews of layer groups. Layer group "
 "previews are more expensive than ordinary layer previews."
 msgstr ""
-"GIMP က အလွှာများနဲ့ ချာနယ်များ အစမ်းမြင်ကွင်းများကို ဖန်တီးသင့် မသင့် သတ်မှတ်ပါ။ အလွှာများနဲ့ "
+"Glimpse က အလွှာများနဲ့ ချာနယ်များ အစမ်းမြင်ကွင်းများကို ဖန်တီးသင့် မသင့် သတ်မှတ်ပါ။ အလွှာများနဲ့ "
 "ချာနယ်များ အညွှန်းစာမျက်နှာမှ အစမ်းမြင်ကွင်းများကို ထားရှိဖို့ ကောင်းတယ်၊ ဒါပေမဲ့ သူတို့ဟာ ရုပ်ပုံကြီးများနဲ့ "
 "လုပ်ဆောင်တဲ့အခါ အရာရာကို ကျဆင်းစေနိုင်တယ်။"
 
@@ -11142,7 +11142,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:365
 msgid "Let Glimpse try to restore your last saved session on each startup."
-msgstr "အစပြုမှုတိုင်းမှ သင့်ရဲ့ နောက်ဆုံး သိမ်းဆည်းတဲ့ အခန်းကို GIMP ကို သိမ်းဆည်းစေပါ။"
+msgstr "အစပြုမှုတိုင်းမှ သင့်ရဲ့ နောက်ဆုံး သိမ်းဆည်းတဲ့ အခန်းကို Glimpse ကို သိမ်းဆည်းစေပါ။"
 
 #: ../app/config/gimprc-blurbs.h:368
 msgid ""
@@ -11154,7 +11154,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:373
 msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
-msgstr "လက်ရှိ ကိရိယာ၊ နမူနာပုံစံ၊ အရောင်နဲ့၊ GIMP ကဏ္ဍများ အနှံ့မှ စုတ်တံကို သတိရပါ။"
+msgstr "လက်ရှိ ကိရိယာ၊ နမူနာပုံစံ၊ အရောင်နဲ့၊ Glimpse ကဏ္ဍများ အနှံ့မှ စုတ်တံကို သတိရပါ။"
 
 #: ../app/config/gimprc-blurbs.h:377
 msgid ""
@@ -11173,11 +11173,11 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"GIMP ကို ထွက်ခွါတဲ့အခါ ပင်မ အညွှန်းစာမျက်နှာများရဲ့ တည်နေရာများနဲ့ အရွယ်အစားများကို သိမ်းဆည်းပါ။"
+"Glimpse ကို ထွက်ခွါတဲ့အခါ ပင်မ အညွှန်းစာမျက်နှာများရဲ့ တည်နေရာများနဲ့ အရွယ်အစားများကို သိမ်းဆည်းပါ။"
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "GIMP ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
+msgstr "Glimpse ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
 
 #: ../app/config/gimprc-blurbs.h:395
 msgid ""
@@ -11295,7 +11295,7 @@ msgstr "အချက်တခု အပေါ် ညွှန်တံ ဝဲန
 #: ../app/config/gimprc-blurbs.h:455
 #, fuzzy
 msgid "Use Glimpse in a single-window mode."
-msgstr "ဖွင့်လိုက်တဲ့အခါ၊ GIMP က စာရင်းမှတ်များထဲမှာ မှတ်ဉာဏ်ကူများကို ပြသလိမ့်မယ်။"
+msgstr "ဖွင့်လိုက်တဲ့အခါ၊ Glimpse က စာရင်းမှတ်များထဲမှာ မှတ်ဉာဏ်ကူများကို ပြသလိမ့်မယ်။"
 
 #: ../app/config/gimprc-blurbs.h:458
 msgid "Hide docks and other windows, leaving only image windows."
@@ -11304,7 +11304,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:461
 #, fuzzy
 msgid "Show the image tabs bar in single window mode."
-msgstr "ဖွင့်လိုက်တဲ့အခါ၊ GIMP က စာရင်းမှတ်များထဲမှာ မှတ်ဉာဏ်ကူများကို ပြသလိမ့်မယ်။"
+msgstr "ဖွင့်လိုက်တဲ့အခါ၊ Glimpse က စာရင်းမှတ်များထဲမှာ မှတ်ဉာဏ်ကူများကို ပြသလိမ့်မယ်။"
 
 #: ../app/config/gimprc-blurbs.h:464
 #, fuzzy
@@ -11344,8 +11344,8 @@ msgid ""
 "swap file is created on a folder that is mounted over NFS.  For these "
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"Swap ဖိုင် တည်နေရာကို သတ်မှတ်ပါ။ GIMP က tile ကို အခြေပြုတဲ့ မှတ်ဉာဏ် သတ်မှတ်ရေး စီမံချက် တခုကို "
-"သုံးစွဲထားတယ်။ Swap ဖိုင်ကို ဓါတ်ပြားထဲ အလျင်အမြန်နဲ့ အလွယ်တကူ ဖလှယ်ဖို့နဲ့ ပြန်ယူဖို့ သုံးစွဲတယ်။ GIMP က "
+"Swap ဖိုင် တည်နေရာကို သတ်မှတ်ပါ။ Glimpse က tile ကို အခြေပြုတဲ့ မှတ်ဉာဏ် သတ်မှတ်ရေး စီမံချက် တခုကို "
+"သုံးစွဲထားတယ်။ Swap ဖိုင်ကို ဓါတ်ပြားထဲ အလျင်အမြန်နဲ့ အလွယ်တကူ ဖလှယ်ဖို့နဲ့ ပြန်ယူဖို့ သုံးစွဲတယ်။ Glimpse က "
 "ရုပ်ပုံကြီးများကို သုံးစွဲရင် Swap ဖိုင်ဟာ အလွယ်တကူ ကြီးသွားနိုင်တာကို သတိပြုပါ။ NFS ပေါ်မှာ ခင်းကျင်းတဲ့ "
 "ဖိုင်တွဲတခုပေါ် Swap ဖိုင်ကို ဖန်တီးထားရင် အရာရာဟာ အလွန် နှေးကွေးသွားနိုင်တယ်။ ဒီအကြောင်းများကြောင့်၊ "
 "သင့်ရဲ့ Swap ဖိုင်ကို \"/tmp\" ထဲမှာ ထားရှိတာ နှစ်လိုဖွယ် ဖြစ်နိုင်တယ်။"
@@ -11364,11 +11364,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:501
 msgid "Save changed keyboard shortcuts when Glimpse exits."
-msgstr "GIMP ထွက်ခွါတဲ့အခါ ကီးဘုတ် ဖြတ်လမ်းများ ပြောင်းလဲချက်ကို သိမ်းဆည်းပါ။"
+msgstr "Glimpse ထွက်ခွါတဲ့အခါ ကီးဘုတ် ဖြတ်လမ်းများ ပြောင်းလဲချက်ကို သိမ်းဆည်းပါ။"
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "GIMP တခုစီ အစပြုတဲ့အခါ သိမ်းဆည်းတဲ့ ကီးဘုတ် ဖြတ်လမ်းများကို ပြန်ထားပါ။"
+msgstr "Glimpse တခုစီ အစပြုတဲ့အခါ သိမ်းဆည်းတဲ့ ကီးဘုတ် ဖြတ်လမ်းများကို ပြန်ထားပါ။"
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11377,8 +11377,8 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"ဖိုင်တွဲကို ယာယီ သိုလှောင်မှုအတွက် သတ်မှတ်ပါ။ GIMP ကို လည်ပတ်နေစဉ်အတွင်း ဖိုင်များဟာ ဒီမှာ ပေါ်လာလိမ့်မယ်။ "
-"ဖိုင်အများစုဟာ GIMP ထွက်ခွါတဲ့အခါ ပျောက်သွားမယ်၊ ဒါပေမဲ့ တချို့ ဖိုင်များ ကျန်ခဲနိုင်တယ်၊ ဒါကြောင့် "
+"ဖိုင်တွဲကို ယာယီ သိုလှောင်မှုအတွက် သတ်မှတ်ပါ။ Glimpse ကို လည်ပတ်နေစဉ်အတွင်း ဖိုင်များဟာ ဒီမှာ ပေါ်လာလိမ့်မယ်။ "
+"ဖိုင်အများစုဟာ Glimpse ထွက်ခွါတဲ့အခါ ပျောက်သွားမယ်၊ ဒါပေမဲ့ တချို့ ဖိုင်များ ကျန်ခဲနိုင်တယ်၊ ဒါကြောင့် "
 "ဒီဖိုင်တွဲဟာ အခြား သုံးစွဲသူများနဲ့ ဝေမျှမထားတား အကောင်းဆုံး ဖြစ်တယ်။"
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -11604,7 +11604,7 @@ msgid ""
 "images that wouldn't fit into memory otherwise.  If you have a lot of RAM, "
 "you may want to set this to a higher value."
 msgstr ""
-"ပစ်ဆယ် အချက်အလက်ကြမ်းက ဒီကန့်သတ်ချက်ကို ကျော်လွန်သွားရင်၊ GIMP က tile များကို ဓါတ်ပြားထဲ ဖလှယ်ဖို့ "
+"ပစ်ဆယ် အချက်အလက်ကြမ်းက ဒီကန့်သတ်ချက်ကို ကျော်လွန်သွားရင်၊ Glimpse က tile များကို ဓါတ်ပြားထဲ ဖလှယ်ဖို့ "
 "စတင်လာလိမ့်မယ်။ ဒါဟာ အတော်​လေး ပိုနှေးကွေးတဲ့ အရာတခုဖြစ်တယ် ဒါပေမဲ့ ၄င်းက မှတ်ဉာဏ်ထဲမှာ မဆန့်မဲ့ "
 "ရုပ်ပုံများအပေါ် လုပ်ဆောင်ပေးနိုင်တယ်။ သင့်မှာ RAM အများကြီးရှိရင်၊ ဒါကို ပိုမြင့်တဲ့ တန်ဖိုး တခုကို သင် သတ်မှတ်လို "
 "လိမ့်မယ်။"
@@ -11637,7 +11637,7 @@ msgstr "ဖေါက်ထွင်းမြင်နိုင်မှုကိ
 msgid ""
 "When enabled, Glimpse will not save an image if it has not been changed "
 "since it was opened."
-msgstr "ဖွင့်လိုက်တဲ့အခါ၊ GIMP က ရုပ်ပုံတခုကို ဖွင့်ပြီးကတည်းက ပြောင်းလဲမှု မလုပ်ဘူးဆိုရင် သိမ်းဆည်းမှာ မဟုတ်ဘူး။"
+msgstr "ဖွင့်လိုက်တဲ့အခါ၊ Glimpse က ရုပ်ပုံတခုကို ဖွင့်ပြီးကတည်းက ပြောင်းလဲမှု မလုပ်ဘူးဆိုရင် သိမ်းဆည်းမှာ မဟုတ်ဘူး။"
 
 #: ../app/config/gimprc-blurbs.h:705
 msgid ""
@@ -11917,7 +11917,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "GIMP အကြောင်း"
+msgstr "Glimpse အကြောင်း"
 
 #: ../app/core/core-enums.c:542
 #, fuzzy
@@ -12783,7 +12783,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"အရင်က GIMP %s ကို သင် သုံးစွဲခဲ့ပုံပေါ်တယ်။ GIMP က သင့်ရဲ့ သုံးစွဲသူ ခင်းကျင်းမှုများကို %s ကို "
+"အရင်က Glimpse %s ကို သင် သုံးစွဲခဲ့ပုံပေါ်တယ်။ Glimpse က သင့်ရဲ့ သုံးစွဲသူ ခင်းကျင်းမှုများကို %s ကို "
 "ပြောင်းရွှေ့လိမ့်မယ်။"
 
 #: ../app/core/gimp-user-install.c:220
@@ -12792,7 +12792,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"သင်ဟာ GIMP ကို ပထမဆုံး အကြိမ် အသုံးပြုတဲ့ပုံပေါ်တယ်။ အခု GIMP က '%s' ခေါ်တဲ့ ဖိုင်တွဲတခုကို ဖန်တီးပေးပြီး "
+"သင်ဟာ Glimpse ကို ပထမဆုံး အကြိမ် အသုံးပြုတဲ့ပုံပေါ်တယ်။ အခု Glimpse က '%s' ခေါ်တဲ့ ဖိုင်တွဲတခုကို ဖန်တီးပေးပြီး "
 "ဖိုင်များ တချို့ကို ၄င်းဆီ မိတ္တူကူးသွားမယ်။"
 
 #: ../app/core/gimp-user-install.c:419
@@ -12874,7 +12874,7 @@ msgid ""
 "GIMP brushes must be GRAY or RGBA."
 msgstr ""
 "စုတ်တံ ဖိုင် '%s' ထဲမှာ ဆိုးရွားတဲ့ ဖေါ်ပြမှု မှားယွင်းချက် ရှိတယ် - ထောက်ပံ့မထားတဲ့ စုတ်တံ အ​နက် %d\n"
-"GIMP စုတ်တံများဟာ မီးခိုးရောင် (သို့) နီစိမ်းပြာအာဖာ ဖြစ်ရမယ်။"
+"Glimpse စုတ်တံများဟာ မီးခိုးရောင် (သို့) နီစိမ်းပြာအာဖာ ဖြစ်ရမယ်။"
 
 #: ../app/core/gimpbrush-load.c:519
 #, fuzzy, c-format
@@ -14608,7 +14608,7 @@ msgid ""
 "GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "ဖိုင် '%s' မှာ ဆိုးရွားမှု ဖေါ်ပြတဲ့ မှားယွင်းမှု ရှိတယ်။ ​ပံ့ပိုးမှုမရှိတဲ့ နမူနာပုံစံ အနက် %d.\n"
-"GIMP ပုံစံများဟာ မီးခိုးရောင် (သို့) နီစိမ်းပြာ ဖြစ်ရမယ်။"
+"Glimpse ပုံစံများဟာ မီးခိုးရောင် (သို့) နီစိမ်းပြာ ဖြစ်ရမယ်။"
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -15139,11 +15139,11 @@ msgstr "ရာခိုင်နှုန်း"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "GIMP အကြောင်း"
+msgstr "Glimpse အကြောင်း"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "GIMP ကွန်ရက်စာမျက်နှာကို လည်ပတ်ပါ"
+msgstr "Glimpse ကွန်ရက်စာမျက်နှာကို လည်ပတ်ပါ"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15189,7 +15189,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
-msgstr "GIMP ကို သင့်ဆီ ယူဆောင်လာသူ"
+msgstr "Glimpse ကို သင့်ဆီ ယူဆောင်လာသူ"
 
 #: ../app/dialogs/about-dialog.c:752
 #, fuzzy, c-format
@@ -15473,12 +15473,12 @@ msgstr "'%s' ကို စာရင်းထဲမှ ဖယ်ရှားပ�
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP သတင်းတို"
+msgstr "Glimpse သတင်းတို"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "GIMP သတင်းတို"
+msgstr "Glimpse သတင်းတို"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -15983,7 +15983,7 @@ msgstr "စုတ်တံများကို ပြန်နှိုးပ�
 #: ../app/dialogs/module-dialog.c:153
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr "ပြင်ဆင်ချက်များ သက်ရောက်မှု ရှိဖို့ GIMP ကို သင် ပြန်ဖွင့်ဖို့ လိုလိမ့်မယ်။"
+msgstr "ပြင်ဆင်ချက်များ သက်ရောက်မှု ရှိဖို့ Glimpse ကို သင် ပြန်ဖွင့်ဖို့ လိုလိမ့်မယ်။"
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -16108,7 +16108,7 @@ msgstr "ဦးစားပေးချက်များ အားလုံး�
 #, fuzzy
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
-msgstr "အောက်ပါ ပြင်ဆင်ချက်များ သက်ရောက်မှု ရှိဖို့ GIMP ကို သင် ပြန်ဖွင့်ဖို့ လိုလိမ့်မယ်။"
+msgstr "အောက်ပါ ပြင်ဆင်ချက်များ သက်ရောက်မှု ရှိဖို့ Glimpse ကို သင် ပြန်ဖွင့်ဖို့ လိုလိမ့်မယ်။"
 
 #: ../app/dialogs/preferences-dialog.c:647
 #, fuzzy
@@ -16116,7 +16116,7 @@ msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"GIMP ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ ကီးဘုတ် ဖြတ်လမ်းများကို စံထားချက် တန်ဖိုးများအတိုင်း ပြန်ချိန်ပေး "
+"Glimpse ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ ကီးဘုတ် ဖြတ်လမ်းများကို စံထားချက် တန်ဖိုးများအတိုင်း ပြန်ချိန်ပေး "
 "လိမ့်မယ်။"
 
 #: ../app/dialogs/preferences-dialog.c:658
@@ -16133,7 +16133,7 @@ msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"GIMP ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ ၀င်းဒိုး တပ်ဆင်ချက်များကို စံထားချက် တန်ဖိုးများအတိုင်း "
+"Glimpse ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ ၀င်းဒိုး တပ်ဆင်ချက်များကို စံထားချက် တန်ဖိုးများအတိုင်း "
 "ပြန်ချိန်ပေးလိမ့်မယ်။"
 
 #: ../app/dialogs/preferences-dialog.c:756
@@ -16142,7 +16142,7 @@ msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"GIMP ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ သင့်ရဲ့ ထည့်သွင်းချက် ခင်းကျင်းမှုများကို စံထားချက် တန်ဖိုးများအတိုင်း "
+"Glimpse ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ သင့်ရဲ့ ထည့်သွင်းချက် ခင်းကျင်းမှုများကို စံထားချက် တန်ဖိုးများအတိုင်း "
 "ပြန်ချိန်ပေး လိမ့်မယ်။"
 
 #: ../app/dialogs/preferences-dialog.c:798
@@ -16151,7 +16151,7 @@ msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"GIMP ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ သင့်ရဲ့ ကိရိယာ ရွေးစရာများကို စံထားချက် တန်ဖိုးများအတိုင်း "
+"Glimpse ကို သင် နောက်တခါ ပြန်ဖွင့်တဲ့အခါ သင့်ရဲ့ ကိရိယာ ရွေးစရာများကို စံထားချက် တန်ဖိုးများအတိုင်း "
 "ပြန်ချိန်ပေး လိမ့်မယ်။"
 
 #: ../app/dialogs/preferences-dialog.c:850
@@ -17245,7 +17245,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"GIMP အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ဟာ သင် တင်ဆင်မှုကနေ ပျောက်ဆုံးနေတဲ့ ပုံပေါ်တယ်။ အကူအညီ "
+"Glimpse အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ဟာ သင် တင်ဆင်မှုကနေ ပျောက်ဆုံးနေတဲ့ ပုံပေါ်တယ်။ အကူအညီ "
 "စာမျက်နှာများကို ဖတ်ရှုဖို့ ကွန်ရက်ကြည့် ယန္တရားကို သင် အစားထိုး သုံးစွဲနိုင်တယ်။"
 
 #. Action Search
@@ -17536,7 +17536,7 @@ msgstr "တိုးချဲ့ထားတဲ့ ထည့်သွင်း �
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "GIMP ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
+msgstr "Glimpse ကို ထွက်ခွါတဲ့အခါ ကိရိယာ ရွေးစရာများကို သိမ်းဆည်းပါ။"
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -17859,7 +17859,7 @@ msgstr "ရုပ်ပုံများ အားလုံးကို ပိ�
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "GIMP ကို ယခု သင် ပိတ်ရင်၊ ဒီပြင်ဆင်ချက်တွေ ​ဆုံးရှုံးလိမ့်မယ်။"
+msgstr "Glimpse ကို ယခု သင် ပိတ်ရင်၊ ဒီပြင်ဆင်ချက်တွေ ​ဆုံးရှုံးလိမ့်မယ်။"
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -18035,12 +18035,12 @@ msgstr "တက်ကြွတဲ့ စုတ်တံကို တုပပါ"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "GIMP သိကောင်းစရာများ ဖိုင်ဟာ ဗလာ ဖြစ်နေတယ်။"
+msgstr "Glimpse သိကောင်းစရာများ ဖိုင်ဟာ ဗလာ ဖြစ်နေတယ်။"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "GIMP သိကောင်းစရာများ ဖိုင်ဟာ ပျောက်နေတဲ့ ပုံပေါ်တယ်။"
+msgstr "Glimpse သိကောင်းစရာများ ဖိုင်ဟာ ပျောက်နေတဲ့ ပုံပေါ်တယ်။"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -18050,11 +18050,11 @@ msgstr "'%s' လို့​ ခေါ်တဲ့ ဖိုင်တခု ရ�
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "GIMP သိကောင်းစရာများ ဖိုင်ကို ဖေါ်ပြလို့ မရဘူး။"
+msgstr "Glimpse သိကောင်းစရာများ ဖိုင်ကို ဖေါ်ပြလို့ မရဘူး။"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "တနေ့တာ GIMP သိကောင်းစရာ"
+msgstr "တနေ့တာ Glimpse သိကောင်းစရာ"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -18081,7 +18081,7 @@ msgstr "tips-locale:C"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP သုံးစွဲသူ တပ်ဆင်ခြင်း"
+msgstr "Glimpse သုံးစွဲသူ တပ်ဆင်ခြင်း"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -18090,7 +18090,7 @@ msgstr "သုံးစွဲသူ တပ်ဆင်ခြင်း မအေ�
 #: ../app/dialogs/user-install-dialog.c:96
 #, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
-msgstr "GIMP သုံးစွဲသူ တပ်ဆင်ခြင်း မအောင်မြင်ဘူး၊ အသေးစိတ်များ အတွက် မှတ်တမ်းကို ကြည့်ပါ။"
+msgstr "Glimpse သုံးစွဲသူ တပ်ဆင်ခြင်း မအောင်မြင်ဘူး၊ အသေးစိတ်များ အတွက် မှတ်တမ်းကို ကြည့်ပါ။"
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -19812,7 +19812,7 @@ msgstr "မျဉ်းခုံးများ"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "GIMP မျဉ်းခုံးများ ဖိုင်တခု မဟုတ်ဘူး"
+msgstr "Glimpse မျဉ်းခုံးများ ဖိုင်တခု မဟုတ်ဘူး"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19891,7 +19891,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "GIMP အဆင့်များ ဖိုင်တခု မဟုတ်ဘူး"
+msgstr "Glimpse အဆင့်များ ဖိုင်တခု မဟုတ်ဘူး"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -20082,7 +20082,7 @@ msgstr "စာတမ်းများ"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "GIMP အစပြုခြင်း"
+msgstr "Glimpse အစပြုခြင်း"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -21510,8 +21510,8 @@ msgstr ""
 "ယန္တရားငယ် ပျက်စီမှု - \"%s\"\n"
 "(%s)\n"
 "\n"
-"ပျက်စီးနေတဲ့ ယန္တရားငယ်ဟာ GIMP ရဲ့ အတွင်းပိုင်း အခြေအနေကို ရှုပ်ထွေးစေနိုင်တယ်။ သင့်ရဲ့ ရုပ်ပုံများကို သင် "
-"သိမ်းဆည်း​နိုင်ပြီး အန္တရယ်ကင်း စေဖို့ GIMP ကို ပြန်ဖွင့်နိုင်တယ်။"
+"ပျက်စီးနေတဲ့ ယန္တရားငယ်ဟာ Glimpse ရဲ့ အတွင်းပိုင်း အခြေအနေကို ရှုပ်ထွေးစေနိုင်တယ်။ သင့်ရဲ့ ရုပ်ပုံများကို သင် "
+"သိမ်းဆည်း​နိုင်ပြီး အန္တရယ်ကင်း စေဖို့ Glimpse ကို ပြန်ဖွင့်နိုင်တယ်။"
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -21628,12 +21628,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "'%s' ကျော်သွားခြင်း - မှားယွင်းတဲ့ GIMP နည်းစဉ် မူအဆင့်။"
+msgstr "'%s' ကျော်သွားခြင်း - မှားယွင်းတဲ့ Glimpse နည်းစဉ် မူအဆင့်။"
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "'%s' ကျော်သွားခြင်း - မှားယွင်းတဲ့ GIMP နည်းစဉ် မူအဆင့်။"
+msgstr "'%s' ကျော်သွားခြင်း - မှားယွင်းတဲ့ Glimpse နည်းစဉ် မူအဆင့်။"
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -24674,7 +24674,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP စာသား တည်းဖြတ်ကိရိယာ"
+msgstr "Glimpse စာသား တည်းဖြတ်ကိရိယာ"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -27262,14 +27262,14 @@ msgstr "အကူအညီ ကွန်ရက်ကြည့်ယန္တရ�
 
 #: ../app/widgets/gimphelp.c:372
 msgid "The Glimpse help browser is not available."
-msgstr "GIMP အကူအညီ ကွန်ရက်ကြည့်ယန္တရား မရနိုင်ဘူး။"
+msgstr "Glimpse အကူအညီ ကွန်ရက်ကြည့်ယန္တရား မရနိုင်ဘူး။"
 
 #: ../app/widgets/gimphelp.c:373
 msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"GIMP အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ဟာ သင် တင်ဆင်မှုကနေ ပျောက်ဆုံးနေတဲ့ ပုံပေါ်တယ်။ အကူအညီ "
+"Glimpse အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ဟာ သင် တင်ဆင်မှုကနေ ပျောက်ဆုံးနေတဲ့ ပုံပေါ်တယ်။ အကူအညီ "
 "စာမျက်နှာများကို ဖတ်ရှုဖို့ ကွန်ရက်ကြည့် ယန္တရားကို သင် အစားထိုး သုံးစွဲနိုင်တယ်။"
 
 #: ../app/widgets/gimphelp.c:419
@@ -27278,13 +27278,13 @@ msgstr "အကူအညီ ကွန်ရက်ကြည့် ကိရိယ�
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "GIMP အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ကို စဖွင့်လို့ မရဘူး။"
+msgstr "Glimpse အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ကို စဖွင့်လို့ မရဘူး။"
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"GIMP အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ဟာ သင် တင်ဆင်မှုကနေ ပျောက်ဆုံးနေတဲ့ ပုံပေါ်တယ်။ အကူအညီ "
+"Glimpse အကူအညီ ကွန်ရက်ကြည့် ယန္တရားငယ်ဟာ သင် တင်ဆင်မှုကနေ ပျောက်ဆုံးနေတဲ့ ပုံပေါ်တယ်။ အကူအညီ "
 "စာမျက်နှာများကို ဖတ်ရှုဖို့ ကွန်ရက်ကြည့် ယန္တရားကို သင် အစားထိုး သုံးစွဲနိုင်တယ်။"
 
 #: ../app/widgets/gimphelp.c:448
@@ -27293,12 +27293,12 @@ msgstr "ကွန်ရက်ကြည့် ယန္တရားကို သ�
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "GIMP သုံးစွဲသူ လက်စွဲ ပျောက်နေတယ်"
+msgstr "Glimpse သုံးစွဲသူ လက်စွဲ ပျောက်နေတယ်"
 
 #: ../app/widgets/gimphelp.c:809
 #, fuzzy
 msgid "The Glimpse user manual is not installed in your language."
-msgstr "GIMP သုံးစွဲသူ လက်စွဲကို သင့်ကွန်ပျူတာထဲမှာ မတပ်ဆင်ထားဘူး။"
+msgstr "Glimpse သုံးစွဲသူ လက်စွဲကို သင့်ကွန်ပျူတာထဲမှာ မတပ်ဆင်ထားဘူး။"
 
 #: ../app/widgets/gimphelp.c:820
 #, fuzzy
@@ -28061,7 +28061,7 @@ msgstr "ကြိုတင်သတ်မှတ်ချက်များ -"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "သင့်ရဲ့ GIMP တပ်ဆင်မှုဟာ မပြည့်စုံဘူး -"
+msgstr "သင့်ရဲ့ Glimpse တပ်ဆင်မှုဟာ မပြည့်စုံဘူး -"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -28370,7 +28370,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP သတင်းတို"
+msgstr "Glimpse သတင်းတို"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -28416,7 +28416,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28439,7 +28439,7 @@ msgstr ""
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "မူပိုင်ခွင့် © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis နှင့် GIMP တည်ဆောက်ရေး အဖွဲ့"
+#~ "Spencer Kimball, Peter Mattis နှင့် Glimpse တည်ဆောက်ရေး အဖွဲ့"
 
 #~ msgid ""
 #~ "Unable to open a test swap file.\n"
@@ -28558,9 +28558,9 @@ msgstr ""
 #~ "your work using different filenames, restart Glimpse and check the "
 #~ "location of the swap directory in your Preferences."
 #~ msgstr ""
-#~ "ဖလှယ်ရေး ဖိုင် မဖွင့်နိုင်ဘူး။ GIMP မှာ မှတ်ဉာဏ် ကုန်သွားပြီး ဖလှယ်ရေး ဖိုင်ကို မသုံးနိုင်ဘူး။ သင့်ရုပ်ပုံများရဲ့ "
+#~ "ဖလှယ်ရေး ဖိုင် မဖွင့်နိုင်ဘူး။ Glimpse မှာ မှတ်ဉာဏ် ကုန်သွားပြီး ဖလှယ်ရေး ဖိုင်ကို မသုံးနိုင်ဘူး။ သင့်ရုပ်ပုံများရဲ့ "
 #~ "အချို့အပိုင်းများဟာ ပျက်စီးနိုင်တယ်။ တခြား ဖိုင်အမည်များကို သုံးပြီး သင့်ရဲ့ အလုပ်ကို သိမ်းဆည်းဖို့ "
-#~ "ကြိုးစားပါ၊ GIMP ကို ပြန်ဖွင့်ပြီး ဖလှယ်ရေး ဖိုင်တွဲ တည်နေရာကို သင့်ရဲ့ ဦးစားပေးချက်များ ထဲမှာ "
+#~ "ကြိုးစားပါ၊ Glimpse ကို ပြန်ဖွင့်ပြီး ဖလှယ်ရေး ဖိုင်တွဲ တည်နေရာကို သင့်ရဲ့ ဦးစားပေးချက်များ ထဲမှာ "
 #~ "စစ်ဆေးပါ။"
 
 #~ msgid "Ask for confirmation before closing an image without saving."
@@ -28687,7 +28687,7 @@ msgstr ""
 #~ msgstr "တန်ဖိုး"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
-#~ msgstr "စုတ်တံ ဖိုင် '%s' ထဲမှာ ဆိုးရွားတဲ့ ဖေါ်ပြမှု မှားယွင်းချက် ရှိတယ် - GIMP စုတ်တံ ဖိုင်တခု မဟုတ်ဘူး။"
+#~ msgstr "စုတ်တံ ဖိုင် '%s' ထဲမှာ ဆိုးရွားတဲ့ ဖေါ်ပြမှု မှားယွင်းချက် ရှိတယ် - Glimpse စုတ်တံ ဖိုင်တခု မဟုတ်ဘူး။"
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
@@ -28700,7 +28700,7 @@ msgstr ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
-#~ "စုတ်တံ ဖိုင် '%s' ထဲမှာ ဆိုးရွားတဲ့ ဖေါ်ပြမှု မှားယွင်းချက် ရှိတယ် - %d လိုင်းမှာ အမည်မသိတဲ့ GIMP စုတ်တံ "
+#~ "စုတ်တံ ဖိုင် '%s' ထဲမှာ ဆိုးရွားတဲ့ ဖေါ်ပြမှု မှားယွင်းချက် ရှိတယ် - %d လိုင်းမှာ အမည်မသိတဲ့ Glimpse စုတ်တံ "
 #~ "ပုံသဏ္ဍာန်။"
 
 #~ msgid "Line %d: %s"
@@ -28730,7 +28730,7 @@ msgstr ""
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "ရောင်စဉ်တန်း ဖိုင် '%s' မှာ ဆိုးရွားတဲ့ ဖေါ်ပြမှု မှားယွင်းချက် ရှိတယ်၊ GIMP ရောင်စုံတန်း ဖိုင်တခု "
+#~ "ရောင်စဉ်တန်း ဖိုင် '%s' မှာ ဆိုးရွားတဲ့ ဖေါ်ပြမှု မှားယွင်းချက် ရှိတယ်၊ Glimpse ရောင်စုံတန်း ဖိုင်တခု "
 #~ "မဟုတ်ဘူး။"
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
@@ -29140,7 +29140,7 @@ msgstr ""
 #~ "Generally only a concern for 8-bit displays, this sets the minimum number "
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
-#~ "အများအားဖြင့် ၈-bit ပြသမှုများအတွက် ပတ်သက်မှု တခုသာ ဖြစ်တယ်၊ ဒီအရာက GIMP အတွက် "
+#~ "အများအားဖြင့် ၈-bit ပြသမှုများအတွက် ပတ်သက်မှု တခုသာ ဖြစ်တယ်၊ ဒီအရာက Glimpse အတွက် "
 #~ "ခွဲဝေသတ်မှတ်ထားတဲ့ နည်းစနစ် အရောင်များရဲ့ အနည်းဆုံး အရေအတွက်ကကို ချမှတ်ပေးတယ်။"
 
 #, fuzzy
@@ -29278,19 +29278,19 @@ msgstr ""
 #~ msgstr "အမှားအယွင်း သိမ်းဆည်းမှု ကိရိယာ ရွေးစရာများ ကြိုတင် သတ်မှတ်ချက်များ - %s"
 
 #~ msgid "Use a running Glimpse only, never start a new one"
-#~ msgstr "လည်ပတ်နေတဲ့ GIMP တခုကိုပဲ သုံးပါ၊ အသစ်တခုကို လုံး၀ မစတင်နဲ့"
+#~ msgstr "လည်ပတ်နေတဲ့ Glimpse တခုကိုပဲ သုံးပါ၊ အသစ်တခုကို လုံး၀ မစတင်နဲ့"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "GIMP လည်ပတ်မှုကိုသာ စစ်ဆေးပြီး နောက်၊ ထွက်ခွါပါ"
+#~ msgstr "Glimpse လည်ပတ်မှုကိုသာ စစ်ဆေးပြီး နောက်၊ ထွက်ခွါပါ"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
-#~ msgstr "GIMP ကိရိယာအိတ် ၀င်းဒိုးရဲ့ X ၀င်းဒိုး ID ကို ပုံနှိုပ်ပြီး၊ ထွက်ခွါပါ"
+#~ msgstr "Glimpse ကိရိယာအိတ် ၀င်းဒိုးရဲ့ X ၀င်းဒိုး ID ကို ပုံနှိုပ်ပြီး၊ ထွက်ခွါပါ"
 
 #~ msgid "Start Glimpse without showing the startup window"
-#~ msgstr "အစပြုတဲ့ ၀င်းဒိုးကို မပြပဲ GIMP ကို စတင်ပါ"
+#~ msgstr "အစပြုတဲ့ ၀င်းဒိုးကို မပြပဲ Glimpse ကို စတင်ပါ"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "GIMP နဲ့ ဆက်သွယ်လို့ မရဘူး။"
+#~ msgstr "Glimpse နဲ့ ဆက်သွယ်လို့ မရဘူး။"
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "ကိရိယာအိတ်ကို မြင်နိုင်ဖို့ သေချာစေပါ။"

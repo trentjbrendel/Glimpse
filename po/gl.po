@@ -99,11 +99,11 @@ msgstr ""
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
 msgid "Extra files for Glimpse"
-msgstr "Ficheiros adicinais para GIMP"
+msgstr "Ficheiros adicinais para Glimpse"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Patróns, gradacións e outros ficheiros adicinais para GIMP"
+msgstr "Patróns, gradacións e outros ficheiros adicinais para Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
@@ -157,7 +157,7 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"GIMP é software libre; pode redistribuílo e/ou modificalo baixo os termos da "
+"Glimpse é software libre; pode redistribuílo e/ou modificalo baixo os termos da "
 "Licenza Pública Xeral de GNU conforme o publicado pola Free Software "
 "Foundation, ora a versión 2 da Licenza ora (á súa elección) outra versión "
 "posterior.\n"
@@ -167,7 +167,7 @@ msgstr ""
 "UN DETERMINADO FIN. Consulte a Licenza Pública Xeral de GNU para obter máis "
 "información.\n"
 "\n"
-"Debeu recibir unha copia da Licenza Pública Xeral de GNU xunto con GIMP; en "
+"Debeu recibir unha copia da Licenza Pública Xeral de GNU xunto con Glimpse; en "
 "caso contrario, diríxase á Free Software Foundation, Inc., 59 Temple Place, "
 "Suite 330, Boston, MA  02111-1307  USA."
 
@@ -308,7 +308,7 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Xa está executando o GIMP."
+msgstr "Xa está executando o Glimpse."
 
 #: ../app/main.c:706
 #, fuzzy
@@ -3069,12 +3069,12 @@ msgstr "_Suxestión do día"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Mostrar consellos útiles sobre o uso do GIMP"
+msgstr "Mostrar consellos útiles sobre o uso do Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Sobre GIMP"
+msgstr "Sobre Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -5685,7 +5685,7 @@ msgstr "A_xuda"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Abrir o manual de usuario do GIMP"
+msgstr "Abrir o manual de usuario do Glimpse"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -11318,8 +11318,8 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Define o cartafol para o almacenamento temporal. Os ficheiros aparecerán nel "
-"mentre se estea executando o GIMP. A maioría dos ficheiros desaparecerán ao "
-"saír do GIMP, mais é posible que algúns permanezan polo que o mellor será "
+"mentre se estea executando o Glimpse. A maioría dos ficheiros desaparecerán ao "
+"saír do Glimpse, mais é posible que algúns permanezan polo que o mellor será "
 "que este cartafol non estea compartido con outros usuarios."
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -11868,7 +11868,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Acerca do GIMP"
+msgstr "Acerca do Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12722,7 +12722,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Parece que non é a primeira vez que utiliza GIMP %s. Glimpse vai migrar "
+"Parece que non é a primeira vez que utiliza Glimpse %s. Glimpse vai migrar "
 "agora a súa configuración de usuario a «%s»."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12731,7 +12731,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Parece que é a primeira vez que utiliza o GIMP. Glimpse vai crear agora un "
+"Parece que é a primeira vez que utiliza o Glimpse. Glimpse vai crear agora un "
 "cartafol chamado «%s» e copiará algúns ficheiros nel."
 
 #: ../app/core/gimp-user-install.c:419
@@ -12889,7 +12889,7 @@ msgstr "Portapapeis"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "non é un ficheiro de curvas GIMP"
+msgstr "non é un ficheiro de curvas Glimpse"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13474,7 +13474,7 @@ msgstr "Encher coa cor do _fondo"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "non é un ficheiro de curvas GIMP"
+msgstr "non é un ficheiro de curvas Glimpse"
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14985,7 +14985,7 @@ msgstr "porcentaxe"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Acerca do GIMP"
+msgstr "Acerca do Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15978,7 +15978,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Os atallos de teclado restableceranse aos valores predefinidos a próxima vez "
-"que inicie GIMP."
+"que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15995,7 +15995,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "A configuración de xanelas restablecerase aos valores predefinidos a próxima "
-"vez que inicie GIMP."
+"vez que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -16004,7 +16004,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "A configuración de dispositivos de entrada restablecerase aos valores "
-"predefinidos a próxima vez que inicie GIMP."
+"predefinidos a próxima vez que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -16013,7 +16013,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "As opcións de ferramentas restableceranse aos valores predefinidos a próxima "
-"vez que inicie GIMP."
+"vez que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17946,7 +17946,7 @@ msgstr "Fallou a instalación do usuario!"
 #, fuzzy
 msgid "The Glimpse user installation failed; see the log for details."
 msgstr ""
-"Fallou a instalación de usuario GIMP; vexa o rexistro para obter máis "
+"Fallou a instalación de usuario Glimpse; vexa o rexistro para obter máis "
 "detalles."
 
 #: ../app/dialogs/user-install-dialog.c:99
@@ -19677,7 +19677,7 @@ msgstr "Curvas"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "non é un ficheiro de curvas GIMP"
+msgstr "non é un ficheiro de curvas Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19756,7 +19756,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "Non hai un ficheiro de niveles GIMP"
+msgstr "Non hai un ficheiro de niveles Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19777,7 +19777,7 @@ msgstr "Axustar luminosidade e contraste"
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr ""
 "Calcular un conxunto de búfer de coeficientes para a ferrametna «xaula» de "
-"GIMP"
+"Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19954,7 +19954,7 @@ msgstr "Documentos"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Iniciando GIMP"
+msgstr "Iniciando Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -28267,7 +28267,7 @@ msgstr "dubidoso"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28289,7 +28289,7 @@ msgstr "dubidoso"
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "GIMP é o acrónimo de GNU Image Manipulation Program (Programa de "
+#~ "Glimpse é o acrónimo de GNU Image Manipulation Program (Programa de "
 #~ "manipulación de imaxes de GNU). É un programa que se distribué de forma "
 #~ "libre para as tarefas de retoque, composición imaxes e autoría de imaxes. "
 
@@ -28310,7 +28310,7 @@ msgstr "dubidoso"
 #~ "image manipulation procedures to be easily scripted. Glimpse is available "
 #~ "for Linux, Microsoft Windows and OS X."
 #~ msgstr ""
-#~ "GIMP é expandíbel e extensíbel. Está deseñado para ser aumentado mediante "
+#~ "Glimpse é expandíbel e extensíbel. Está deseñado para ser aumentado mediante "
 #~ "engadidos e extensións para que poida facer case calquera cousa. A "
 #~ "interface de scripting avanzado permítelle de forma doada crear scripts "
 #~ "para calquera cousa desde as tarefas máis doadas ate os procedementos de "
@@ -28318,17 +28318,17 @@ msgstr "dubidoso"
 #~ "Linux, Microsoftw Windows e OS X."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Debuxando con GIMP"
+#~ msgstr "Debuxando con Glimpse"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Edición de fotos en GIMP"
+#~ msgstr "Edición de fotos en Glimpse"
 
 #~ msgid ""
 #~ "Copyright © 1995-%s\n"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Copyright © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis e o equipo de desenvolvemento do GIMP"
+#~ "Spencer Kimball, Peter Mattis e o equipo de desenvolvemento do Glimpse"
 
 #~| msgctxt "drawable-action"
 #~| msgid "_Visible"

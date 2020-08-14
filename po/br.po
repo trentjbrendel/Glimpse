@@ -1,4 +1,4 @@
-# Breton translation for gimp
+# Breton translation for Glimpse
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the Glimpse package.
 # Alan Monfort <alan.monfort@free.fr> 2006-2012
@@ -20,7 +20,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:1
 #: ../app/about.h:22
 msgid "Glimpse"
-msgstr "Kuitaat GLimpse"
+msgstr "Kuitaat Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -8322,7 +8322,7 @@ msgstr "Enrollañ dibarzhioù ar binvioù pa vo kuitaet"
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat GIMP."
+msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat Glimpse."
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8404,7 +8404,7 @@ msgstr "Enrollañ dibarzhioù ar binvioù pa vo kuitaet"
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat GIMP."
+msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat Glimpse."
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -14548,7 +14548,7 @@ msgstr "Muturniet eo ar restr war an arroudenn %d"
 #: ../app/core/gimppattern-load.c:134
 #, c-format
 msgid "Invalid UTF-8 string in pattern file '%s'."
-msgstr "Hedad nodoù UTF-8 didalvoudek e restr gousturioù GIMP '%s'."
+msgstr "Hedad nodoù UTF-8 didalvoudek e restr gousturioù Glimpse '%s'."
 
 #: ../app/core/gimppattern-load.c:177
 #, fuzzy
@@ -17455,7 +17455,7 @@ msgstr "Trobarzhelloù enankañ kempleshaet"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat GIMP."
+msgstr "Enrollañ dibarzhioù ar binvioù a-raok kuitaat Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -19741,7 +19741,7 @@ msgstr "Krommennoù"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "ket ur restr Krommennoù mod GIMP"
+msgstr "ket ur restr Krommennoù mod Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19820,7 +19820,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "ket ur restr Liveoù mod GIMP"
+msgstr "ket ur restr Liveoù mod Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19839,7 +19839,7 @@ msgstr "Kengeidañ al lintr hag an dargemm"
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
-msgstr "Riñvañ ur skurzer gwezhiaderioù evit benveg Kael GIMP"
+msgstr "Riñvañ ur skurzer gwezhiaderioù evit benveg Kael Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19847,7 +19847,7 @@ msgid ""
 "Convert a set of coefficient buffer to a coordinate buffer for the GNU I.M.P "
 "cage tool"
 msgstr ""
-"Amdreiñ ur skurzer gwezhiaderioù d'ur skurzer daveennoù evit benveg Kael GIMP"
+"Amdreiñ ur skurzer gwezhiaderioù d'ur skurzer daveennoù evit benveg Kael Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -21574,12 +21574,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Leuskel a-gostez '%s' : handelv fall ar c'homenad GIMP."
+msgstr "Leuskel a-gostez '%s' : handelv fall ar c'homenad Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "Leuskel a-gostez '%s' : handelv fall ar c'homenad GIMP."
+msgstr "Leuskel a-gostez '%s' : handelv fall ar c'homenad Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -28347,7 +28347,7 @@ msgstr "dispis"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

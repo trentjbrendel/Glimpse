@@ -1,4 +1,4 @@
-# Serbian translation of gimp
+# Serbian translation of Glimpse
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2014.
 # This file is distributed under the same license as the Glimpse package.
 # Данило Шерган <danilo@gnome.org>

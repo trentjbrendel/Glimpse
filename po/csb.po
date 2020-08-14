@@ -1,4 +1,4 @@
-# Kashubian translation for gimp
+# Kashubian translation for Glimpse
 # Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
 # This file is distributed under the same license as the Glimpse package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
@@ -22,7 +22,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Editora òbrôzów GIMP (GNU Image Manipulation Program)"
+msgstr "Editora òbrôzów Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -4144,7 +4144,7 @@ msgstr ""
 #, fuzzy
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Editora òbrôzów GIMP (GNU Image Manipulation Program)"
+msgstr "Editora òbrôzów Glimpse"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -14766,7 +14766,7 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "Editora òbrôzów GIMP (GNU Image Manipulation Program)"
+msgstr "Editora òbrôzów Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -16975,7 +16975,7 @@ msgstr ""
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Editora òbrôzów GIMP (GNU Image Manipulation Program)"
+msgstr "Editora òbrôzów Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -25038,7 +25038,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Editora òbrôzów GIMP (GNU Image Manipulation Program)"
+msgstr "Editora òbrôzów Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -26786,7 +26786,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Editora òbrôzów GIMP (GNU Image Manipulation Program)"
+msgstr "Editora òbrôzów Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -26799,7 +26799,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -26810,7 +26810,7 @@ msgstr ""
 #~ msgstr "Debùgòwanié"
 
 #~ msgid "GNU Image Manipulation Program"
-#~ msgstr "Editora òbrôzów GIMP"
+#~ msgstr "Editora òbrôzów Glimpse"
 
 #~ msgid ""
 #~ "Copyright © 1995-%s\n"

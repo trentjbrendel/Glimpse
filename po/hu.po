@@ -1,4 +1,4 @@
-# Hungarian translation for gimp.
+# Hungarian translation for Glimpse.
 # Copyright (C) 1998, 2000, 2001, 2003, 2004, 2007, 2008, 2009, 2013, 2014, 2016, 2018, 2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the Glimpse package.
 #
@@ -203,7 +203,7 @@ msgstr "Több részlet megjelenítése"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Új GIMP-példány indítása"
+msgstr "Új Glimpse-példány indítása"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -308,12 +308,12 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Már fut egy másik GIMP-példány."
+msgstr "Már fut egy másik Glimpse-példány."
 
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP-kimenet. Az ablak bezárásához nyomjon le egy gombot."
+msgstr "Glimpse-kimenet. Az ablak bezárásához nyomjon le egy gombot."
 
 #: ../app/main.c:707
 #, c-format
@@ -12551,17 +12551,17 @@ msgstr "Vágólap kép"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Nem GIMP-ecsetfájl."
+msgstr "Nem Glimpse-ecsetfájl."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
 msgid "Unknown GIMP brush version."
-msgstr "Ismeretlen GIMP-ecsetverzió."
+msgstr "Ismeretlen Glimpse-ecsetverzió."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
 msgid "Unknown GIMP brush shape."
-msgstr "Ismeretlen GIMP-ecsetalakzat."
+msgstr "Ismeretlen Glimpse-ecsetalakzat."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -18276,7 +18276,7 @@ msgstr "Mybrush"
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
 msgid "GIMP brush (animated)"
-msgstr "GIMP-ecset (animált)"
+msgstr "Glimpse-ecset (animált)"
 
 #: ../app/file-data/file-data.c:365
 #, fuzzy
@@ -18989,7 +18989,7 @@ msgstr "Görbe"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "nem GIMP-görbefájl"
+msgstr "nem Glimpse-görbefájl"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19064,7 +19064,7 @@ msgstr "A végső kimeneti értékek leszorítása."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "nem GIMP-szintfájl"
+msgstr "nem Glimpse-szintfájl"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -20701,7 +20701,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "„%s” kihagyása: helytelen GIMP-protokollverzió."
+msgstr "„%s” kihagyása: helytelen Glimpse-protokollverzió."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -27186,7 +27186,7 @@ msgstr "lágy"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27198,7 +27198,7 @@ msgstr "lágy"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "GIMP összeomlási hibakeresés"
+#~ msgstr "Glimpse összeomlási hibakeresés"
 
 #, fuzzy
 #~ msgid "GIMP Debug"

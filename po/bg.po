@@ -22,7 +22,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Излизане от GIMP"
+msgstr "Излизане от Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -148,15 +148,15 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"GIMP е свободен софтуер. Можете да го разпространявате според условията на "
+"Glimpse е свободен софтуер. Можете да го разпространявате според условията на "
 "версия 2 или по-висока (по Ваш избор) на Общия публичен лиценз на GNU, който "
 "е публикуван от Фондацията за свободен софтуер.\n"
 "\n"
-"GIMP се разпространява с надеждата да е полезен, но БЕЗ НИКАКВА ГАРАНЦИЯ, "
+"Glimpse се разпространява с надеждата да е полезен, но БЕЗ НИКАКВА ГАРАНЦИЯ, "
 "дори и подразбиращата се ПРИГОДНОСТ или ГОДНОСТ ЗА КОНКРЕТНА УПОТРЕБА. За "
 "подробности прегледайте Общия публичен лиценз на GNU.\n"
 "\n"
-"Трябва да сте получили копие на Общия публичен лиценз на GNU заедно с GIMP. "
+"Трябва да сте получили копие на Общия публичен лиценз на GNU заедно с Glimpse. "
 "Ако се сте - пишете на Фондацията за свободен софтуер на адрес:\n"
 "Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA "
 "02111-1307, USA."
@@ -193,7 +193,7 @@ msgstr "По-подробно"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Стартиране ново копие на GIMP"
+msgstr "Стартиране ново копие на Glimpse"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -219,7 +219,7 @@ msgstr "Без показване на начален екран"
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Да не се споделя паметта между GIMP и приставките"
+msgstr "Да не се споделя паметта между Glimpse и приставките"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -292,18 +292,18 @@ msgid ""
 "Glimpse could not initialize the graphical user interface.\n"
 "Make sure a proper setup for your display environment exists."
 msgstr ""
-"GIMP не може да намери графичният външен вид.\n"
+"Glimpse не може да намери графичният външен вид.\n"
 "Увери се че графичната система е настроена правилно."
 
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Друго копие на GIMP вече работи."
+msgstr "Друго копие на Glimpse вече работи."
 
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP изход. Напишете някакъв знак, за да затворите този прозорец."
+msgstr "Glimpse изход. Напишете някакъв знак, за да затворите този прозорец."
 
 #: ../app/main.c:707
 #, c-format
@@ -313,7 +313,7 @@ msgstr "(Напишете някакъв знак, за да затворите 
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "GIMP изход. Можете да минимизирате този прозорец, но не го затваряйте."
+msgstr "Glimpse изход. Можете да минимизирате този прозорец, но не го затваряйте."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -336,7 +336,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Името на папката, съдържаща личните ти настройки за GIMP не може да се "
+"Името на папката, съдържаща личните ти настройки за Glimpse не може да се "
 "конвертира в UTF-8: %s\n"
 "\n"
 "Най-вероятно твоята файлова система запазва файловете различно от UTF-8 и "
@@ -8926,7 +8926,7 @@ msgstr "_Запомняне настройките на инструментит
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Запазване настройките на инструментите при спиране на GIMP."
+msgstr "Запазване настройките на инструментите при спиране на Glimpse."
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -9016,7 +9016,7 @@ msgstr "_Запомняне настройките на инструментит
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Запазване настройките на инструментите при спиране на GIMP."
+msgstr "Запазване настройките на инструментите при спиране на Glimpse."
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -12076,7 +12076,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:461
 #, fuzzy
 msgid "Show the image tabs bar in single window mode."
-msgstr "Когато се включи, GIMP ще показва асоциации в менютата."
+msgstr "Когато се включи, Glimpse ще показва асоциации в менютата."
 
 #: ../app/config/gimprc-blurbs.h:464
 #, fuzzy
@@ -13775,7 +13775,7 @@ msgid ""
 "GIMP brushes must be GRAY or RGBA."
 msgstr ""
 "Грешка при четене на файл с четки „%s“: Неподдържана дълбочина %d\n"
-"Четките на GIMP трябва да са СИВО или ЧЗСП."
+"Четките на Glimpse трябва да са СИВО или ЧЗСП."
 
 #: ../app/core/gimpbrush-load.c:519
 #, fuzzy, c-format
@@ -15528,7 +15528,7 @@ msgid ""
 "GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "Грешка при четене на файл с шарки „%s“: Неподдържан вид %d.\n"
-"GIMP шарките трябва да са в степени на сивото или ЧЗС."
+"Glimpse шарките трябва да са в степени на сивото или ЧЗС."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -18472,7 +18472,7 @@ msgstr "Допълнителни входни устройства"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "Запазване настройките на инструментите при спиране на GIMP."
+msgstr "Запазване настройките на инструментите при спиране на Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -20757,7 +20757,7 @@ msgstr "Криви"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "не е GIMP файл с нива"
+msgstr "не е Glimpse файл с нива"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -20836,7 +20836,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "не е GIMP файл с нива"
+msgstr "не е Glimpse файл с нива"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -22583,12 +22583,12 @@ msgstr "Грешка при записване на „%s“: %s"
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Пропускане на „%s“: несъответствие на версията на протокола на GIMP."
+msgstr "Пропускане на „%s“: несъответствие на версията на протокола на Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "Пропускане на „%s“: несъответствие на версията на протокола на GIMP."
+msgstr "Пропускане на „%s“: несъответствие на версията на протокола на Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -29429,7 +29429,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -29451,7 +29451,7 @@ msgstr ""
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Авторски права © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis и екипът за разработка на GIMP"
+#~ "Spencer Kimball, Peter Mattis и екипът за разработка на Glimpse"
 
 #~ msgid ""
 #~ "Unable to open a test swap file.\n"
@@ -29568,10 +29568,10 @@ msgstr ""
 #~ "your work using different filenames, restart Glimpse and check the "
 #~ "location of the swap directory in your Preferences."
 #~ msgstr ""
-#~ "Файлът за временни данни не може да бъде отворен. GIMP изчерпа наличната "
+#~ "Файлът за временни данни не може да бъде отворен. Glimpse изчерпа наличната "
 #~ "памет и не може да използва този файл. Някой части от изображенията може "
 #~ "да са повредени. Опитайте се да запазите работата си под различно име, "
-#~ "рестартирайте GIMP и проверете местоположението на папката за временни "
+#~ "рестартирайте Glimpse и проверете местоположението на папката за временни "
 #~ "данни в настройките."
 
 #~ msgid "Ask for confirmation before closing an image without saving."
@@ -30177,7 +30177,7 @@ msgstr ""
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
 #~ "По принцип това е създадено само за 8-битови монитори, задава минимален "
-#~ "брой системни цветове за the GIMP."
+#~ "брой системни цветове за the Glimpse."
 
 #, fuzzy
 #~ msgctxt "undo-type"

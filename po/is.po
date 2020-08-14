@@ -27,7 +27,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Hætta í GIMP"
+msgstr "Hætta í Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -96,11 +96,11 @@ msgstr ""
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
 msgid "Extra files for Glimpse"
-msgstr "Aukaskrár fyrir GIMP"
+msgstr "Aukaskrár fyrir Glimpse"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Mynstur, litstiglar og aðrar aukaskrár fyrir GIMP"
+msgstr "Mynstur, litstiglar og aðrar aukaskrár fyrir Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
@@ -199,7 +199,7 @@ msgstr "Vera ítarlegri"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Ræsa nýtt eintak af GIMP"
+msgstr "Ræsa nýtt eintak af Glimpse"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -310,7 +310,7 @@ msgstr "Annað eintak af Glimpse er þegar í keyrslu."
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP úttak. Sláðu á einhvern lykil til að loka þessum glugga."
+msgstr "Glimpse úttak. Sláðu á einhvern lykil til að loka þessum glugga."
 
 #: ../app/main.c:707
 #, c-format
@@ -320,7 +320,7 @@ msgstr "(Ýttu á einhvern lykil til að loka þessum glugga)\n"
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "Gimp úttak. Þú getur lágmarkað þennan glugga en ekki loka honum."
+msgstr "Glimpse úttak. Þú getur lágmarkað þennan glugga en ekki loka honum."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -343,7 +343,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Ekki er hægt að breyta nafni möppunnar sem inniheldur GIMP "
+"Ekki er hægt að breyta nafni möppunnar sem inniheldur Glimpse "
 "notandaupplýsingarnar á formið UTF-8: %s\n"
 "\n"
 "Skráakerfið þitt geymir líklega skrár á öðru formi en UTF-8 og þú lést ekki "
@@ -2978,12 +2978,12 @@ msgstr "_Vísbending dagsins"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Birta hjálplegar vísbendingar um notkun GIMP"
+msgstr "Birta hjálplegar vísbendingar um notkun Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Um GIMP"
+msgstr "Um Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -10572,7 +10572,7 @@ msgstr ""
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
 msgstr ""
-"Stillir hve marga örgjörvaþræði GIMP ætti að reyna að nota í einu fyrir "
+"Stillir hve marga örgjörvaþræði Glimpse ætti að reyna að nota í einu fyrir "
 "aðgerðir sem styðja það."
 
 #: ../app/config/gimprc-blurbs.h:339
@@ -10660,11 +10660,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
-msgstr "Vista staðsetningu og stærð helstu glugga þegar hætt er í GIMP."
+msgstr "Vista staðsetningu og stærð helstu glugga þegar hætt er í Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "Vista _stillingar verkfæra við lokun GIMP."
+msgstr "Vista _stillingar verkfæra við lokun Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:395
 msgid ""
@@ -10872,7 +10872,7 @@ msgid ""
 msgstr ""
 "Stillir möppu fyrir bráðabirgðaskrár. Það munu verða búnar til ýmsar "
 "vinnuskrár á meðan Glimpse er í keyrslu. Flestar þessar skrár hverfa síðan "
-"þegar hætt er í GIMP, en einhverjar munu líklega verða eftir og er því betra "
+"þegar hætt er í Glimpse, en einhverjar munu líklega verða eftir og er því betra "
 "ef þessi mappa sé ekki sameiginleg með öðrum notendum."
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -12265,7 +12265,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Það lítur út fyrir að þú hafir notað GIMP %s áður.  Glimpse mun núna "
+"Það lítur út fyrir að þú hafir notað Glimpse %s áður.  Glimpse mun núna "
 "yfirfæra notandastillingarnar þínar í '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12274,7 +12274,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Það lítur út fyrir að þú sért að nota GIMP í fyrsta skipti.  Glimpse mun "
+"Það lítur út fyrir að þú sért að nota Glimpse í fyrsta skipti.  Glimpse mun "
 "núna búa til möppu með heitinu '%s' og afrita nokkrar skrár í hana."
 
 #: ../app/core/gimp-user-install.c:419
@@ -12422,12 +12422,12 @@ msgstr "Ekki Glimpse pensilskrá."
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
 msgid "Unknown GIMP brush version."
-msgstr "Óþekkt útgáfa GIMP-pensils."
+msgstr "Óþekkt útgáfa Glimpse-pensils."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
 msgid "Unknown GIMP brush shape."
-msgstr "Óþekkt lögun GIMP-pensils."
+msgstr "Óþekkt lögun Glimpse-pensils."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -13930,7 +13930,7 @@ msgid ""
 "GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "Óstudd litadýpt mynstra %d.\n"
-"GIMP-mynstur verða að vera RGB eða grátóna."
+"Glimpse-mynstur verða að vera RGB eða grátóna."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -14412,7 +14412,7 @@ msgstr "prósent"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Um GIMP"
+msgstr "Um Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -14728,7 +14728,7 @@ msgstr "Glimpse skilaboð"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 msgid "Glimpse Debug"
-msgstr "Villukembing GIMP (aflúsun)"
+msgstr "Villukembing Glimpse (aflúsun)"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -14851,7 +14851,7 @@ msgid ""
 "You can use this dialog to save to the Glimpse XCF format. Use File→Export "
 "to export to other file formats."
 msgstr ""
-"Þú getur notað þennan glugga til að vista myndina á XFC-sniðinu sem GIMP "
+"Þú getur notað þennan glugga til að vista myndina á XFC-sniðinu sem Glimpse "
 "notar. Notaðu \"Skrá→Flytja út\" til að vista í önnur skráasnið."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -15384,7 +15384,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Stillingar inntakstækja verða allar endurstilltar á sjálfgefin gildi næst "
-"þegar þú ræsir GIMP."
+"þegar þú ræsir Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15393,7 +15393,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Verkfæravalkostir verða allir endurstilltir á sjálfgefin gildi næst þegar þú "
-"ræsir GIMP."
+"ræsir Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17188,7 +17188,7 @@ msgstr "Ekki var hægt að þátta Glimpse vísbendingaskrána!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "GIMP-vísbending dagsins"
+msgstr "Glimpse-vísbending dagsins"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -17215,7 +17215,7 @@ msgstr "tips-locale:C"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP-uppsetning notanda"
+msgstr "Glimpse-uppsetning notanda"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -18099,7 +18099,7 @@ msgstr "MyPensill"
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
 msgid "GIMP brush (animated)"
-msgstr "GIMP-pensill (hreyfimynd)"
+msgstr "Glimpse-pensill (hreyfimynd)"
 
 #: ../app/file-data/file-data.c:365
 #, fuzzy
@@ -18906,7 +18906,7 @@ msgstr "Breyta ljósmagni og birtumun"
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr ""
-"Reikna biðminnisstuðla fyrir sjónarhornsrammaverkfæri GIMP (coefficient "
+"Reikna biðminnisstuðla fyrir sjónarhornsrammaverkfæri Glimpse (coefficient "
 "buffer for cage tool)"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
@@ -18916,7 +18916,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Umbreyta biðminnisstuðlum í biðminnishnit fyrir sjónarhornsrammaverkfæri "
-"GIMP (coefficient buffer to a coordinate buffer for cage tool)"
+"Glimpse (coefficient buffer to a coordinate buffer for cage tool)"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -20415,7 +20415,7 @@ msgstr ""
 "Hjálparforrit hrundi: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Við hrun gæti hjálparforritið hafa ruglað innri stöðugleika GIMP. Þú gætir "
+"Við hrun gæti hjálparforritið hafa ruglað innri stöðugleika Glimpse. Þú gætir "
 "viljað vista myndirnar þínar og endurræsa Glimpse til öryggis."
 
 #: ../app/plug-in/gimpplugin-message.c:487
@@ -22645,7 +22645,7 @@ msgstr "_Færa"
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
-msgstr "MyPaint málunarpensill: nota MyPaint pensla í GIMP"
+msgstr "MyPaint málunarpensill: nota MyPaint pensla í Glimpse"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -25020,7 +25020,7 @@ msgstr ""
 msgid ""
 "To help us improve Glimpse, you can report the bug with these simple steps:"
 msgstr ""
-"Til að hjálpa okkur við að bæta GIMP, geturðu tilkynnt villur með þessum "
+"Til að hjálpa okkur við að bæta Glimpse, geturðu tilkynnt villur með þessum "
 "einföldu skrefum:"
 
 #: ../app/widgets/gimpcriticaldialog.c:240
@@ -25058,8 +25058,8 @@ msgid ""
 "This error may have left Glimpse in an inconsistent state. It is advised to "
 "save your work and restart Glimpse."
 msgstr ""
-"Þessi villa gæti hafa valdið óstöðugu ástandi í GIMP. Mælt er með því aðp þú "
-"vistir verkin þín og endurræsir GIMP."
+"Þessi villa gæti hafa valdið óstöðugu ástandi í Glimpse. Mælt er með því aðp þú "
+"vistir verkin þín og endurræsir Glimpse."
 
 #: ../app/widgets/gimpcriticaldialog.c:253
 msgid ""
@@ -25155,7 +25155,7 @@ msgstr "Glimpse rakst á nokkrar alvarlegar villur!"
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Endu_rræsa GIMP"
+msgstr "Endu_rræsa Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -26948,7 +26948,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Villukembing GIMP (aflúsun)"
+msgstr "Villukembing Glimpse (aflúsun)"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -26993,7 +26993,7 @@ msgstr "loðið"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27005,7 +27005,7 @@ msgstr "loðið"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "Villukemba á hruni GIMP"
+#~ msgstr "Villukemba á hruni Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Debug"
@@ -27048,10 +27048,10 @@ msgstr "loðið"
 #~ "fáanlegt fyrir Microsoft Windows og OS X."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Mála með GIMP"
+#~ msgstr "Mála með Glimpse"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Myndvinnsla í GIMP"
+#~ msgstr "Myndvinnsla í Glimpse"
 
 #~ msgid ""
 #~ "Glimpse 2.10.10 is quite a big update with many new features and bug "
@@ -27142,7 +27142,7 @@ msgstr "loðið"
 #~ msgstr "Skoðun og meðhöndlun lýsigagna fyrir EXIF, XMP, IPTC og DICOM"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Ný þemu fyrir GIMP: Ljóst, Grátt, Dökkt, og Kerfislitir"
+#~ msgstr "Ný þemu fyrir Glimpse: Ljóst, Grátt, Dökkt, og Kerfislitir"
 
 #~ msgid "And much, much more…"
 #~ msgstr "Og margt, margt fleira…"
@@ -27224,7 +27224,7 @@ msgstr "loðið"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Höfundarréttur © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis og GIMP þróunarhópurinn"
+#~ "Spencer Kimball, Peter Mattis og Glimpse þróunarhópurinn"
 
 #~ msgctxt "dialogs-action"
 #~ msgid "Palette Editor"
@@ -27242,11 +27242,11 @@ msgstr "loðið"
 
 #~| msgid "Mybrush"
 #~ msgid "Glimpse brush"
-#~ msgstr "GIMP-pensill"
+#~ msgstr "Glimpse-pensill"
 
 #~| msgid "Pattern"
 #~ msgid "Glimpse pattern"
-#~ msgstr "GIMP-mynstur"
+#~ msgstr "Glimpse-mynstur"
 
 #~ msgid ""
 #~ "For more information, see https://www.gimp.org/news/2018/04/27/"

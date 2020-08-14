@@ -12528,17 +12528,17 @@ msgstr "Schránka"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Nejedná se o soubor stop GIMP."
+msgstr "Nejedná se o soubor stop Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
 msgid "Unknown GIMP brush version."
-msgstr "Neznámá verze stopy GIMP."
+msgstr "Neznámá verze stopy Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
 msgid "Unknown GIMP brush shape."
-msgstr "Neznámý tvar stopy GIMP."
+msgstr "Neznámý tvar stopy Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, fuzzy, c-format
@@ -13097,7 +13097,7 @@ msgstr "Vyplnit jednobarevně"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Nejedná se o soubor přechodů GIMP."
+msgstr "Nejedná se o soubor přechodů Glimpse."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -18974,7 +18974,7 @@ msgstr "Křivka"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "nejedná se o soubor křivek GIMP"
+msgstr "nejedná se o soubor křivek Glimpse"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19049,7 +19049,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "nejedná se o soubor úrovní GIMP"
+msgstr "nejedná se o soubor úrovní Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19067,7 +19067,7 @@ msgstr "Upravit jas a kontrast"
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
-msgstr "Vypočítat sadu vyrovnávacích pamětí koeficientu pro nástroj Klec GIMP"
+msgstr "Vypočítat sadu vyrovnávacích pamětí koeficientu pro nástroj Klec Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19076,7 +19076,7 @@ msgid ""
 "cage tool"
 msgstr ""
 "Převést sadu vyrovnávacích pamětí koeficientu na vyrovnávací paměť souřadnic "
-"pro nástroj Klec GIMP"
+"pro nástroj Klec Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
 msgid "Fill with plain color"
@@ -20707,7 +20707,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Přeskakuje se „%s“: špatná verze protokolu GIMP."
+msgstr "Přeskakuje se „%s“: špatná verze protokolu Glimpse."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -27188,7 +27188,7 @@ msgstr "rozmazaný"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"

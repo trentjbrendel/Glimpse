@@ -1,4 +1,4 @@
-# Irish language translations for GIMP
+# Irish language translations for Glimpse
 # Copyright (C) 2003,2004  Free Software Foundation, Inc.
 # Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003
 # Alastair McKinstry <mckinstry@computer.org>, 2004.
@@ -20,7 +20,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Ealu as an GIMP?"
+msgstr "Ealu as an Glimpse?"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 #, fuzzy
@@ -99,7 +99,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 #, fuzzy
@@ -163,7 +163,7 @@ msgstr ""
 #: ../app/gimp-version.c:213
 #, fuzzy, c-format
 msgid "%s version %s"
-msgstr "Leagan GIMP"
+msgstr "Leagan Glimpse"
 
 #: ../app/main.c:164
 msgid "Show version information and exit"
@@ -181,7 +181,7 @@ msgstr ""
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/main.c:184
 #, fuzzy
@@ -436,7 +436,7 @@ msgstr ""
 #: ../app/widgets/gimptoolpreseteditor.c:95
 #, fuzzy
 msgid "Tool Preset Editor"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/actions/actions.c:186
 #, fuzzy
@@ -515,7 +515,7 @@ msgstr "/Uirlís _Theacs"
 #: ../app/actions/actions.c:228
 #, fuzzy
 msgid "Text Editor"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/actions/actions.c:231 ../app/dialogs/dialogs.c:312
 #: ../app/gui/gui.c:554
@@ -2929,7 +2929,7 @@ msgstr "/_Oscail Íomha"
 #, fuzzy
 msgctxt "dialogs-action"
 msgid "Brush Editor"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/actions/dialogs-actions.c:144
 msgctxt "dialogs-action"
@@ -3184,7 +3184,7 @@ msgstr ""
 #, fuzzy
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Faoi an GIMP"
+msgstr "Faoi an Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -12143,7 +12143,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Faoi an GIMP"
+msgstr "Faoi an Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -15330,7 +15330,7 @@ msgstr ""
 #: ../app/core/gimptoolpreset-load.c:64
 #, fuzzy
 msgid "Tool preset file is corrupt."
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/core/gimpunit.c:60
 #, fuzzy
@@ -15399,7 +15399,7 @@ msgstr "/Comhad/Deireanach Oscailte"
 #: ../app/dialogs/about-dialog.c:126
 #, fuzzy
 msgid "About Glimpse"
-msgstr "Faoi an GIMP"
+msgstr "Faoi an Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15736,7 +15736,7 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "Ealu as an GIMP?"
+msgstr "Ealu as an Glimpse?"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -17829,7 +17829,7 @@ msgstr ""
 #: ../app/dialogs/preferences-dialog.c:3171
 #, fuzzy
 msgid "Reset _Folders"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/dialogs/preferences-dialog.c:3187
 #, fuzzy
@@ -17933,7 +17933,7 @@ msgstr "Roghnaigh Fillteain na Clófhoireanna"
 #: ../app/dialogs/preferences-dialog.c:3262
 #, fuzzy
 msgid "Tool Preset Folders"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/dialogs/preferences-dialog.c:3265
 #, fuzzy
@@ -18116,7 +18116,7 @@ msgstr ""
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Faoi an GIMP"
+msgstr "Faoi an Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
@@ -20306,7 +20306,7 @@ msgstr "Caipéiseanna"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Socraigh GIMP"
+msgstr "Socraigh Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -24059,7 +24059,7 @@ msgstr "Athchuma"
 #: ../app/tools/gimpnpointdeformationoptions.c:99
 #, fuzzy
 msgid "Use weights"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/tools/gimpnpointdeformationoptions.c:105
 msgid "Control points influence"
@@ -24765,7 +24765,7 @@ msgstr ""
 #: ../app/tools/gimptextoptions.c:209
 #, fuzzy
 msgid "Use editor"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/tools/gimptextoptions.c:210
 msgid "Use an external editor window for text entry"
@@ -24844,7 +24844,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Eagarthóir theacs do GIMP"
+msgstr "Eagarthóir theacs do Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -26642,7 +26642,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Faoi an GIMP"
+msgstr "Faoi an Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -28492,7 +28492,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Ealu as an GIMP?"
+msgstr "Ealu as an Glimpse?"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -28529,11 +28529,11 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
-#~ msgstr "Eagarthóir theacs do GIMP"
+#~ msgstr "Eagarthóir theacs do Glimpse"
 
 #, fuzzy
 #~ msgctxt "dialogs-action"

@@ -1,5 +1,5 @@
-# Gimp-i eesti keele tõlge.
-# Estonian translation of Gimp.
+# Glimpse-i eesti keele tõlge.
+# Estonian translation of Glimpse.
 #
 # Copyright (C) 2001-2005 Free Software Foundation, Inc.
 # Copyright (C) 2007,2008 The GNOME Project
@@ -160,12 +160,12 @@ msgstr ""
 "Tarkvara Fondi poolt avaldatud; kas Litsentsi versioon number 3 või "
 "(vastavalt teie valikule) ükskõik milline hilisem versioon.\n"
 "\n"
-"GIMP-i levitatakse lootuses, et see on kasulik, kuid ILMA IGASUGUSE "
+"Glimpse-i levitatakse lootuses, et see on kasulik, kuid ILMA IGASUGUSE "
 "GARANTIITA; isegi ilma KESKMISE/TAVALISE KVALITEEDI GARANTIITA või "
 "SOBIVUSELE TEATUD KINDLAKS EESMÄRGIKS. Üksikasjade suhtes vaata GNU Üldist "
 "Avalikku Litsentsi.\n"
 "\n"
-"Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos GIMP-iga. Kui "
+"Te peaks olema saanud GNU Üldise Avaliku Litsentsi koopia koos Glimpse-iga. Kui "
 "ei, siis vaadake https://www.gnu.org/licenses/."
 
 #: ../app/gimp-update.c:251
@@ -200,7 +200,7 @@ msgstr "Rohkemate teadete väljastamine"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Uue GIMP-i protsessi käivitamine"
+msgstr "Uue Glimpse-i protsessi käivitamine"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -304,7 +304,7 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Üks GIMP-i protsess juba käib."
+msgstr "Üks Glimpse-i protsess juba käib."
 
 #: ../app/main.c:706
 #, fuzzy
@@ -342,7 +342,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Kataloogi nimi, kus hoitakse GIMP-i kasutaja häälestusfaili ei ole UTF-8 "
+"Kataloogi nimi, kus hoitakse Glimpse-i kasutaja häälestusfaili ei ole UTF-8 "
 "kodeeringusse tõlgitav: %s\n"
 "\n"
 "Kõige tõenäolisemalt kasutab sinu failisüsteem kodeeringut mis erineb UTF-8-"
@@ -3127,12 +3127,12 @@ msgstr "_Tänane vihje"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Näidatakse vihjeid GIMP-i kasutamise kohta"
+msgstr "Näidatakse vihjeid Glimpse-i kasutamise kohta"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Lähem teave GIMP-i kohta"
+msgstr "Lähem teave Glimpse-i kohta"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -8301,7 +8301,7 @@ msgstr "_Tööriista võimalused salvestatakse väljumisel"
 #, fuzzy
 msgctxt "tool-preset-editor-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Salvesta tööriista seaded GIMP-ist väljumisel."
+msgstr "Salvesta tööriista seaded Glimpse-ist väljumisel."
 
 #: ../app/actions/tool-preset-editor-actions.c:55
 #, fuzzy
@@ -8383,7 +8383,7 @@ msgstr "_Tööriista võimalused salvestatakse väljumisel"
 #, fuzzy
 msgctxt "tool-presets-action"
 msgid "Save the active tool options to this tool preset"
-msgstr "Salvesta tööriista seaded GIMP-ist väljumisel."
+msgstr "Salvesta tööriista seaded Glimpse-ist väljumisel."
 
 #: ../app/actions/tool-presets-actions.c:81
 #, fuzzy
@@ -10404,7 +10404,7 @@ msgstr "Ühe-akna režiim"
 #, fuzzy
 msgctxt "windows-action"
 msgid "When enabled, Glimpse is in a single-window mode."
-msgstr "Kui lubatud, töötab GIMP ühe-akna režiimis."
+msgstr "Kui lubatud, töötab Glimpse ühe-akna režiimis."
 
 #: ../app/actions/windows-actions.c:152
 msgctxt "windows-tabs-position-action"
@@ -11081,7 +11081,7 @@ msgstr "Kui lubatud, muudetakse suurendamisel akna suurust automaatselt."
 #: ../app/config/gimprc-blurbs.h:365
 msgid "Let Glimpse try to restore your last saved session on each startup."
 msgstr ""
-"Lase GIMP-il proovida taastada sinu salvestatud sessioni igal käivitamisel."
+"Lase Glimpse-il proovida taastada sinu salvestatud sessioni igal käivitamisel."
 
 #: ../app/config/gimprc-blurbs.h:368
 msgid ""
@@ -11094,7 +11094,7 @@ msgstr ""
 msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
 msgstr ""
-"Pea kasutatud tööriist, muster, värv ja pintsel meeles läbi GIMP-i "
+"Pea kasutatud tööriist, muster, värv ja pintsel meeles läbi Glimpse-i "
 "sessioonide."
 
 #: ../app/config/gimprc-blurbs.h:377
@@ -11113,11 +11113,11 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
-msgstr "Salvesta dokkide asukohad ja suurused GIMP-ist väljumisel."
+msgstr "Salvesta dokkide asukohad ja suurused Glimpse-ist väljumisel."
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
-msgstr "Salvesta tööriista seaded GIMP-ist väljumisel."
+msgstr "Salvesta tööriista seaded Glimpse-ist väljumisel."
 
 #: ../app/config/gimprc-blurbs.h:395
 #, fuzzy
@@ -11248,7 +11248,7 @@ msgstr "Dokkide ja muude akende varjamine, jättes ainult pildiaknad."
 #: ../app/config/gimprc-blurbs.h:461
 #, fuzzy
 msgid "Show the image tabs bar in single window mode."
-msgstr "Kui lubatud, töötab GIMP ühe-akna režiimis."
+msgstr "Kui lubatud, töötab Glimpse ühe-akna režiimis."
 
 #: ../app/config/gimprc-blurbs.h:464
 #, fuzzy
@@ -11290,7 +11290,7 @@ msgid ""
 msgstr ""
 "Saalefaili asukoht. Glimpse kasutab ruutude kaupa mäluhalduse skeemi. "
 "Saalefaili kasutatakse, et kiiresti ja lihtsalt ruudukesed kettale kirjutada "
-"ja uuesti mällu lugeda. Hoiatus! Kui GIMP-i kasutatakse suurte failidega, "
+"ja uuesti mällu lugeda. Hoiatus! Kui Glimpse-i kasutatakse suurte failidega, "
 "võib saalefail kasvada väga suureks. Lisaks võib töö minna kohutavalt "
 "aeglaseks, kui saalefail on kaustas, mis on haagitud üle NFS-i. Sel põhjusel "
 "võib olla kasulik saalefaili suunamine \"/tmp\" kausta."
@@ -11313,7 +11313,7 @@ msgstr "GIMP-i sulgemisel salvestatakse muudetud kiirklahvid."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Taasta salvestatud klaviatuuri kiirklahvid igal GIMP-i käivitumisel."
+msgstr "Taasta salvestatud klaviatuuri kiirklahvid igal Glimpse-i käivitumisel."
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11322,8 +11322,8 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"Määrab ajutiste failide kataloogi. Failid on seal GIMP-i töötamise ajal. "
-"Enamik faile kustuvad, kui töö GIMP-iga lõpetada, kuid mõned võivad siiski "
+"Määrab ajutiste failide kataloogi. Failid on seal Glimpse-i töötamise ajal. "
+"Enamik faile kustuvad, kui töö Glimpse-iga lõpetada, kuid mõned võivad siiski "
 "alles jääda. Sellepärast on parem, kui kasuta ei jagata teiste kasutajatega."
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -12716,7 +12716,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Paistab, et oled varem kasutanud GIMP-i versiooni %s. Sätted migreeritakse "
+"Paistab, et oled varem kasutanud Glimpse-i versiooni %s. Sätted migreeritakse "
 "'%s' alla."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12725,7 +12725,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Paistab, et kasutad GIMP-i esmakordselt. Glimpse loob nüüd kausta '%s' ja "
+"Paistab, et kasutad Glimpse-i esmakordselt. Glimpse loob nüüd kausta '%s' ja "
 "kopeerib sinna mõned failid."
 
 #: ../app/core/gimp-user-install.c:419
@@ -14945,7 +14945,7 @@ msgstr "Lähem teave Glimpse kohta"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Külasta GIMP-i kodulehekülge"
+msgstr "Külasta Glimpse-i kodulehekülge"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15409,7 +15409,7 @@ msgid ""
 "You can use this dialog to save to the Glimpse XCF format. Use File→Export "
 "to export to other file formats."
 msgstr ""
-"Selle dialoogi abil saab salvestada GIMPi XCF vormingusse. Kui sa tahad "
+"Selle dialoogi abil saab salvestada Glimpse-i XCF vormingusse. Kui sa tahad "
 "pildi salvestada teistesse vormingutesse, kasuta selle asemel Fail → "
 "Ekspordi."
 
@@ -15927,7 +15927,7 @@ msgstr "Pane Glimpse uuesti käima, siis jõustuvad järgmised muudatused:"
 msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
-msgstr "Klaviatuuri kiirklahvid lähtestatakse GIMP-i järgmisel käivitamisel."
+msgstr "Klaviatuuri kiirklahvid lähtestatakse Glimpse-i järgmisel käivitamisel."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15942,7 +15942,7 @@ msgstr "Kas sa tahad tõesti eemaldada kõikidest menüüdest kõik kiirklahvid?
 msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
-msgstr "Järgmisel GIMP-i käivitamisel on akende sätete algseis taastatud."
+msgstr "Järgmisel Glimpse-i käivitamisel on akende sätete algseis taastatud."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -17048,7 +17048,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Paistab, et GIMP-i paigalduskomplektist puudub abiinfo sirvimise plugin. "
+"Paistab, et Glimpse-i paigalduskomplektist puudub abiinfo sirvimise plugin. "
 "Selle asemel võid abiinfo lugemiseks kasutada veebisirvijat."
 
 #. Action Search
@@ -17338,7 +17338,7 @@ msgstr "Laiendatud sisendseadmed"
 #: ../app/dialogs/preferences-dialog.c:3110
 #, fuzzy
 msgid "S_hare tool and tool options between input devices"
-msgstr "Salvesta tööriista seaded GIMP-ist väljumisel."
+msgstr "Salvesta tööriista seaded Glimpse-ist väljumisel."
 
 #: ../app/dialogs/preferences-dialog.c:3114
 msgid "Configure E_xtended Input Devices..."
@@ -17657,7 +17657,7 @@ msgstr "Sulge kõik pildid"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "Kui praegu GIMP-ist väljud, lähevad muudatused kaduma."
+msgstr "Kui praegu Glimpse-ist väljud, lähevad muudatused kaduma."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -17834,12 +17834,12 @@ msgstr "_Pintsli dünaamika emuleerimine"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "GIMP-i vihjetefail on tühi!"
+msgstr "Glimpse-i vihjetefail on tühi!"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Tundub et sinu GIMP-i vihjefail on kadunud!"
+msgstr "Tundub et sinu Glimpse-i vihjefail on kadunud!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -19595,7 +19595,7 @@ msgstr "Kurvid"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "ei ole GIMP-i kurvide fail"
+msgstr "ei ole Glimpse-i kurvide fail"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19674,7 +19674,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "ei ole GIMP-i tasemete fail"
+msgstr "ei ole Glimpse-i tasemete fail"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19693,7 +19693,7 @@ msgstr "Muuda heledust ja kontrastsust"
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
-msgstr "Tegurite puhvri väljaarvutamine GIMPi puurimuunduse tööriista jaoks"
+msgstr "Tegurite puhvri väljaarvutamine Glimpse-i puurimuunduse tööriista jaoks"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -19701,7 +19701,7 @@ msgid ""
 "Convert a set of coefficient buffer to a coordinate buffer for the GNU I.M.P "
 "cage tool"
 msgstr ""
-"Tegurite puhvri väljaarvutamine GIMPi puurimuunduse tööriista koordinaatide "
+"Tegurite puhvri väljaarvutamine Glimpse-i puurimuunduse tööriista koordinaatide "
 "puhvri jaoks"
 
 #: ../app/operations/gimpoperationcagetransform.c:129
@@ -21278,8 +21278,8 @@ msgstr ""
 "Plugin jooksis kokku: \"%s\"\n"
 "(%s)\n"
 "\n"
-"On võimalik, et kokkujooksnud plugin mõjutab ka GIMP-i ennast. Igaks juhuks "
-"võiksid oma pildid salvestada ja GIMP-i taaskäivitada."
+"On võimalik, et kokkujooksnud plugin mõjutab ka Glimpse-i ennast. Igaks juhuks "
+"võiksid oma pildid salvestada ja Glimpse-i taaskäivitada."
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -21400,12 +21400,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "'%s' jäetakse vahele: vale GIMP-i protokolli versioon."
+msgstr "'%s' jäetakse vahele: vale Glimpse-i protokolli versioon."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "'%s' jäetakse vahele: vale GIMP-i vormingu versioon."
+msgstr "'%s' jäetakse vahele: vale Glimpse-i vormingu versioon."
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -26980,7 +26980,7 @@ msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"Paistab, et GIMP-i paigalduskomplektist puudub abiinfo sirvimise plugin. "
+"Paistab, et Glimpse-i paigalduskomplektist puudub abiinfo sirvimise plugin. "
 "Selle asemel võid abiinfo lugemiseks kasutada veebisirvijat."
 
 #: ../app/widgets/gimphelp.c:419
@@ -26995,7 +26995,7 @@ msgstr "GIMP-i abiinfo sirvija pluginat pole võimalik käivitada."
 #, fuzzy
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"Paistab, et GIMP-i paigalduskomplektist puudub abiinfo sirvimise plugin. "
+"Paistab, et Glimpse-i paigalduskomplektist puudub abiinfo sirvimise plugin. "
 "Selle asemel võid abiinfo lugemiseks kasutada veebisirvijat."
 
 #: ../app/widgets/gimphelp.c:448
@@ -27757,7 +27757,7 @@ msgstr "%s mall"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Sinu GIMP-i paigaldus on poolik:"
+msgstr "Sinu Glimpse-i paigaldus on poolik:"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -28107,7 +28107,7 @@ msgstr "hägune"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28122,14 +28122,14 @@ msgstr "hägune"
 #~ msgstr "Silumine"
 
 #~ msgid "GNU Image Manipulation Program"
-#~ msgstr "GIMP - GNU pilditöötlusprogramm"
+#~ msgstr "GNU pilditöötlusprogramm"
 
 #~ msgid ""
 #~ "Copyright © 1995-%s\n"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Autoriõigus © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis ja GIMP-i arendusmeeskond"
+#~ "Spencer Kimball, Peter Mattis ja Glimpse-i arendusmeeskond"
 
 #~ msgid "New Channel Options"
 #~ msgstr "Uue kanali sätted"
@@ -28430,20 +28430,20 @@ msgstr "hägune"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
-#~ "Ületamatu parsimisviga pintslifailis '%s': see ei ole GIMP-i pintslifail."
+#~ "Ületamatu parsimisviga pintslifailis '%s': see ei ole Glimpse-i pintslifail."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
 #~ msgstr ""
-#~ "Ületamatu parsimisviga pintslifailis '%s': tundmatu GIMP-i "
+#~ "Ületamatu parsimisviga pintslifailis '%s': tundmatu Glimpse-i "
 #~ "pintsliversioon real %d."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
-#~ "Ületamatu parsimisviga pintslifailis '%s': tundmatu GIMP-i pintslikuju "
+#~ "Ületamatu parsimisviga pintslifailis '%s': tundmatu Glimpse-i pintslikuju "
 #~ "real %d."
 
 #~ msgid "Line %d: %s"
@@ -28471,7 +28471,7 @@ msgstr "hägune"
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "Ületamatu parsimisviga värvisulanduse failis '%s': See pole GIMP-i "
+#~ "Ületamatu parsimisviga värvisulanduse failis '%s': See pole Glimpse-i "
 #~ "värvisulanduse fail."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
@@ -28897,7 +28897,7 @@ msgstr "hägune"
 #~ "your work using different filenames, restart Glimpse and check the "
 #~ "location of the swap directory in your Preferences."
 #~ msgstr ""
-#~ "Saalefaili ei saanud avada. GIMP-il sai mälu otsa ja ei saanud ka "
+#~ "Saalefaili ei saanud avada. Glimpse-il sai mälu otsa ja ei saanud ka "
 #~ "saalefaili kasutama hakata. Mõned osad sinu piltidest võivad olla viga "
 #~ "saanud. Püüa oma töö salvestada teistsuguse failinimega, pane Glimpse "
 #~ "uuesti käima ja kontolli häälestustes saalefaili asukohta."
@@ -29024,7 +29024,7 @@ msgstr "hägune"
 #~ msgstr "Viga tööriista valmisseadistuste salvestamisel: %s"
 
 #~ msgid "Use a running Glimpse only, never start a new one"
-#~ msgstr "Kasuta ainult töötavat GIMP-i, ära kunagi käivita uut"
+#~ msgstr "Kasuta ainult töötavat Glimpse-i, ära kunagi käivita uut"
 
 #~ msgid "Only check if Glimpse is running, then quit"
 #~ msgstr "Kontrolli ainult, kas Glimpse töötab ja siis välju"
@@ -29036,7 +29036,7 @@ msgstr "hägune"
 #~ msgstr "Käivita Glimpse käivitusakent näitamata"
 
 #~ msgid "Could not connect to Glimpse."
-#~ msgstr "Ei saanud GIMP-iga ühendust."
+#~ msgstr "Ei saanud Glimpse-iga ühendust."
 
 #~ msgid "Make sure that the Toolbox is visible!"
 #~ msgstr "Kontrolli üle, kas Tööriistakast on ikka nähtav!"

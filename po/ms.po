@@ -20,7 +20,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Keluar GIMP?"
+msgstr "Keluar Glimpse?"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 #, fuzzy
@@ -99,7 +99,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 #, fuzzy
@@ -163,7 +163,7 @@ msgstr ""
 #: ../app/gimp-version.c:213
 #, fuzzy, c-format
 msgid "%s version %s"
-msgstr "Versi GIMP"
+msgstr "Versi Glimpse"
 
 #: ../app/main.c:164
 #, fuzzy
@@ -182,7 +182,7 @@ msgstr ""
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/main.c:184
 #, fuzzy
@@ -459,7 +459,7 @@ msgstr "Senarai Alat"
 #: ../app/widgets/gimptoolpreseteditor.c:95
 #, fuzzy
 msgid "Tool Preset Editor"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/actions/actions.c:186
 #, fuzzy
@@ -540,7 +540,7 @@ msgstr "Warna Teks"
 #: ../app/actions/actions.c:228
 #, fuzzy
 msgid "Text Editor"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/actions/actions.c:231 ../app/dialogs/dialogs.c:312
 #: ../app/gui/gui.c:554
@@ -3281,7 +3281,7 @@ msgstr ""
 #, fuzzy
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -11498,7 +11498,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:62
 #, fuzzy
 msgid "Sets the type of mouse pointers to use."
-msgstr "Setkan mod kursor yang akan digunakan oleh GIMP"
+msgstr "Setkan mod kursor yang akan digunakan oleh Glimpse"
 
 #: ../app/config/gimprc-blurbs.h:65
 msgid "Sets the handedness for cursor positioning."
@@ -11823,7 +11823,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:373
 msgid ""
 "Remember the current tool, pattern, color, and brush across Glimpse sessions."
-msgstr "Ingat tentang alat, corak, warna dan berus semasa sepanjang sesi GIMP."
+msgstr "Ingat tentang alat, corak, warna dan berus semasa sepanjang sesi Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:377
 msgid ""
@@ -12053,7 +12053,7 @@ msgstr "Simpan kekunci pintas yang diubah apabila Glimpse ditamatkan"
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Simpan semula kekunci pintas yang disimpan pada setiap pemula GIMP."
+msgstr "Simpan semula kekunci pintas yang disimpan pada setiap pemula Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:507
 #, fuzzy
@@ -12063,7 +12063,7 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"Setkan direktori storan sementara. Fail akan muncul di sini semasa GIMP "
+"Setkan direktori storan sementara. Fail akan muncul di sini semasa Glimpse "
 "dijalankan.  Kebanyakan fail akan hilang apabila Glimpse keluar dari sistem, "
 "tetapi sesetengah fail mungkin kekal di situ, maka disyorkan agar direktori "
 "ini tidak dikongsi dengan pengguna lain."
@@ -12623,7 +12623,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/core/core-enums.c:542
 #, fuzzy
@@ -15934,7 +15934,7 @@ msgstr ""
 #: ../app/core/gimptoolpreset-load.c:64
 #, fuzzy
 msgid "Tool preset file is corrupt."
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/core/gimpunit.c:60
 #, fuzzy
@@ -16011,7 +16011,7 @@ msgstr "peratus"
 #: ../app/dialogs/about-dialog.c:126
 #, fuzzy
 msgid "About Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -16354,12 +16354,12 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Mesej GIMP"
+msgstr "Mesej Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "Mesej GIMP"
+msgstr "Mesej Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -18821,7 +18821,7 @@ msgstr "piksel/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
@@ -19032,7 +19032,7 @@ msgstr "<b>Fail tip Glimpse tidak dapat dihuraikan dengan betul!</b>"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Tip Hari Ini GIMP"
+msgstr "Tip Hari Ini Glimpse"
 
 #: ../app/dialogs/tips-dialog.c:145
 #, fuzzy
@@ -21113,7 +21113,7 @@ msgstr "Dokument"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Pemula GIMP"
+msgstr "Pemula Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -22554,8 +22554,8 @@ msgstr ""
 "Plug-In rosak: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Plug-In yang hampir mati mungkin mencelarukan keadaan dalaman GIMP.\n"
-"Anda mungkin mahu menyimpan imej anda dan memulakan semula GIMP\n"
+"Plug-In yang hampir mati mungkin mencelarukan keadaan dalaman Glimpse.\n"
+"Anda mungkin mahu menyimpan imej anda dan memulakan semula Glimpse\n"
 "supaya selamat."
 
 #: ../app/plug-in/gimpplugin-message.c:487
@@ -25044,7 +25044,7 @@ msgstr "Jelmakan prosedur Alat"
 #: ../app/tools/gimpnpointdeformationoptions.c:99
 #, fuzzy
 msgid "Use weights"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/tools/gimpnpointdeformationoptions.c:105
 msgid "Control points influence"
@@ -25795,7 +25795,7 @@ msgstr ""
 #: ../app/tools/gimptextoptions.c:209
 #, fuzzy
 msgid "Use editor"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/tools/gimptextoptions.c:210
 msgid "Use an external editor window for text entry"
@@ -25875,7 +25875,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 #, fuzzy
@@ -27734,7 +27734,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -28536,7 +28536,7 @@ msgstr "_Pelayar Bantuan untuk Digunakan"
 #: ../app/widgets/gimphelp.c:420
 #, fuzzy
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Tidak dapat memulakan Pelayar Bantuan GIMP"
+msgstr "Tidak dapat memulakan Pelayar Bantuan Glimpse"
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -29661,7 +29661,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Mesej GIMP"
+msgstr "Mesej Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 #, fuzzy
@@ -29706,24 +29706,24 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
-#~ msgstr "Editor Teks GIMP"
+#~ msgstr "Editor Teks Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP XCF image"
-#~ msgstr "Mesej GIMP"
+#~ msgstr "Mesej Glimpse"
 
 #, fuzzy
 #~ msgid ""
 #~ "Copyright © 1995-%s\n"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
-#~ "<b>GIMP - GNU Image Manipulation Program</b>\n"
+#~ "<b>Glimpse Image Editor</b>\n"
 #~ "Hak cipta © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis dan Pasukan Pembangunan GIMP."
+#~ "Spencer Kimball, Peter Mattis dan Pasukan Pembangunan Glimpse."
 
 #, fuzzy
 #~ msgid "Configuration"
@@ -29838,7 +29838,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Sets the pixel format to use for mouse pointers."
-#~ msgstr "Setkan mod kursor yang akan digunakan oleh GIMP"
+#~ msgstr "Setkan mod kursor yang akan digunakan oleh Glimpse"
 
 #, fuzzy
 #~ msgid ""
@@ -29976,7 +29976,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
-#~ msgstr "Ralat Mati Huraian: '%s' bukan fail berus GIMP"
+#~ msgstr "Ralat Mati Huraian: '%s' bukan fail berus Glimpse"
 
 #, fuzzy
 #~ msgid ""
@@ -30021,7 +30021,7 @@ msgstr ""
 #, fuzzy
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
-#~ msgstr "Ralat Mati Huraian: '%s' bukan fail Kecerunan GIMP"
+#~ msgstr "Ralat Mati Huraian: '%s' bukan fail Kecerunan Glimpse"
 
 #, fuzzy
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
@@ -30032,7 +30032,7 @@ msgstr ""
 #, fuzzy
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Corrupt segment %d in line %d."
-#~ msgstr "Ralat Mati Huraian: '%s' bukan fail Kecerunan GIMP"
+#~ msgstr "Ralat Mati Huraian: '%s' bukan fail Kecerunan Glimpse"
 
 #, fuzzy
 #~ msgid "Failed to import gradients from '%s': %s"
@@ -30390,7 +30390,7 @@ msgstr ""
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
 #~ "Pada amnya hanya dibenarkan paparan 8-bit, ini mengesetkan bilangan "
-#~ "minimum warna sistem yang diperuntukkan untuk GIMP."
+#~ "minimum warna sistem yang diperuntukkan untuk Glimpse."
 
 #, fuzzy
 #~ msgctxt "undo-type"
@@ -30568,7 +30568,7 @@ msgstr ""
 #~ "bendera '--tiada-antara muka'."
 
 #~ msgid "The GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #~ msgid ""
 #~ "\n"
@@ -31284,7 +31284,7 @@ msgstr ""
 #~ "Program ini dicari pada masa larian dan\n"
 #~ "maklumat tentang fungsi dan masa modnya\n"
 #~ "dicache dalam fail ini.  Fail ini adalah untuk\n"
-#~ "baca sahaja GIMP, dan tidak boleh diedit."
+#~ "baca sahaja Glimpse, dan tidak boleh diedit."
 
 #, fuzzy
 #~ msgid ""
@@ -31294,11 +31294,11 @@ msgstr ""
 #~ "define the keys from within The GIMP.  Deleting this file will restore "
 #~ "the default shortcuts."
 #~ msgstr ""
-#~ "Kekunci pintas boleh ditentukan semula secara dinamik dalam The GIMP.\n"
+#~ "Kekunci pintas boleh ditentukan semula secara dinamik dalam The Glimpse.\n"
 #~ "menurc ialah longgokan konfigurasi anda supaya ia dapat.\n"
 #~ "diingat untuk sesi seterusnya.  Anda boleh mengedit fail\n"
 #~ "ini jika anda mahu, tetapi lebih mudah menentukan\n"
-#~ "kekunci dari dalam GIMP.  Menghapuskan fail ini akan\n"
+#~ "kekunci dari dalam Glimpse.  Menghapuskan fail ini akan\n"
 #~ "menyimpan semula jalan pintas piawai."
 
 #, fuzzy
@@ -31308,7 +31308,7 @@ msgstr ""
 #~ "dialogs at the saved position."
 #~ msgstr ""
 #~ "sessionrc digunakan untuk menyimpan tetingkap dialog yang\n"
-#~ "dibuka semasa anda keluar dari GIMP.  Anda boleh membuat konfigurasi\n"
+#~ "dibuka semasa anda keluar dari Glimpse.  Anda boleh membuat konfigurasi\n"
 #~ "Glimpse untuk membuka semula dialog ini pada kedudukan ia disimpan."
 
 #, fuzzy
@@ -31330,7 +31330,7 @@ msgstr ""
 #~ "Anda boleh menetapkan unit tambahan dan menggunakannya seperti\n"
 #~ "anda menggunakan unit bina dalam inci, milimeter\n"
 #~ "poin dan pika.  Fail ini ditulis ganti setiap kali\n"
-#~ "anda keluar dari GIMP."
+#~ "anda keluar dari Glimpse."
 
 #, fuzzy
 #~ msgid ""
@@ -31352,7 +31352,7 @@ msgstr ""
 #~ "directory."
 #~ msgstr ""
 #~ "Folder ini digunakan untuk menyimpan fon yang anda mahu\n"
-#~ "dapat dilihat sahaja dalam GIMP. Glimpse memeriksa folder ini\n"
+#~ "dapat dilihat sahaja dalam Glimpse. Glimpse memeriksa folder ini\n"
 #~ "selain pemasangan fon Glimpse seluruh sistem\n"
 #~ "semasa mencari fon. Gunakan ini hanya jika anda mahu mempunyai\n"
 #~ "fon Glimpse sahaja, jika tidak letakkan semuanya\n"
@@ -31399,7 +31399,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Folder ini digunakan untuk menyimpan plug-in yang diwujudkan oleh "
 #~ "pengguna,\n"
-#~ "sementara, atau bukan disokong sistem.  GIMP\n"
+#~ "sementara, atau bukan disokong sistem.  Glimpse\n"
 #~ "memeriksa folder ini selain folder plug-in\n"
 #~ "Glimpse seluruh sistem semasa mencari plug-in."
 
@@ -31412,7 +31412,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Folder ini digunakan untuk menyimpan modul yang diwujudkan oleh "
 #~ "pengguna,\n"
-#~ "sementara, atau bukan disokong sistem DLL.  GIMP\n"
+#~ "sementara, atau bukan disokong sistem DLL.  Glimpse\n"
 #~ "memeriksa folder ini selain folder modul\n"
 #~ "Glimpse seluruh sistem semasa mencari modul untuk dimuatkan\n"
 #~ "ketika memberikan awalan"
@@ -31457,7 +31457,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Folder ini digunakan untuk menyimpan buat sementara penimbal buat asal\n"
 #~ "untuk mengurangkan penggunaan memori. Jika Glimpse secara tiba-tiba\n"
-#~ "dihapuskan, fail dalam bentuk: gimp<#>.<#> kekal dalam\n"
+#~ "dihapuskan, fail dalam bentuk: Glimpse<#>.<#> kekal dalam\n"
 #~ "folder ini.  Fail ini tidak digunakan sepanjang sesi\n"
 #~ "Glimpse dan boleh dimusnahkan pada bila-bila masa."
 
@@ -31494,10 +31494,10 @@ msgstr ""
 #~ "The GIMP %d.%d User Installation"
 #~ msgstr ""
 #~ "Selamat Datang ke\n"
-#~ "Pemasangan Pengguna GIMP"
+#~ "Pemasangan Pengguna Glimpse"
 
 #~ msgid "Click \"Continue\" to enter the Glimpse user installation."
-#~ msgstr "Klik \"Teruskan\" untuk memasuki pemasangan pengguna GIMP"
+#~ msgstr "Klik \"Teruskan\" untuk memasuki pemasangan pengguna Glimpse"
 
 #, fuzzy
 #~ msgid ""
@@ -31537,14 +31537,14 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Click \"Continue\" to proceed with the user installation."
-#~ msgstr "Klik \"Teruskan\" untuk memasuki pemasangan pengguna GIMP"
+#~ msgstr "Klik \"Teruskan\" untuk memasuki pemasangan pengguna Glimpse"
 
 #, fuzzy
 #~ msgid "Do a _fresh user installation"
-#~ msgstr "Pemasangan Pengguna GIMP"
+#~ msgstr "Pemasangan Pengguna Glimpse"
 
 #~ msgid "Personal Glimpse Folder"
-#~ msgstr "Folder Peribadi GIMP"
+#~ msgstr "Folder Peribadi Glimpse"
 
 #~ msgid "Click \"Continue\" to create your personal Glimpse folder."
 #~ msgstr "Klik \"Teruskan\" untuk mewujudkan folder peribadi Glimpse anda."
@@ -31574,7 +31574,7 @@ msgstr ""
 #~ "Glimpse anda diwujudkan..."
 
 #~ msgid "Glimpse Performance Tuning"
-#~ msgstr "Menalakan Pelaksanaan GIMP"
+#~ msgstr "Menalakan Pelaksanaan Glimpse"
 
 #~ msgid "Click \"Continue\" to accept the settings above."
 #~ msgstr "Klik \"Teruskan\" untuk menerima seting di atas."
@@ -31583,7 +31583,7 @@ msgstr ""
 #~ "<b>For optimal Glimpse performance, some settings may have to be adjusted."
 #~ "</b>"
 #~ msgstr ""
-#~ "<b>Bagi pelaksanaan optimum GIMP, beberapa seting mungkin perlu "
+#~ "<b>Bagi pelaksanaan optimum Glimpse, beberapa seting mungkin perlu "
 #~ "diselaraskan.</b>"
 
 #, fuzzy
@@ -31970,7 +31970,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Could not find Glimpse help browser."
-#~ msgstr "Tidak dapat menjumpai Pelayar Bantuan GIMP"
+#~ msgstr "Tidak dapat menjumpai Pelayar Bantuan Glimpse"
 
 #, fuzzy
 #~ msgid "Use _web browser instead"
@@ -32278,12 +32278,12 @@ msgstr ""
 #~ "Could not find the Glimpse Help Browser procedure. It probably was not "
 #~ "compiled because you don't have GtkHtml2 installed."
 #~ msgstr ""
-#~ "Tidak dapat menjumpai prosedur Pelayar Bantuan GIMP.\n"
+#~ "Tidak dapat menjumpai prosedur Pelayar Bantuan Glimpse.\n"
 #~ "Mungkin tidak dikompil kerana\n"
 #~ "anda tidak memasang GtkXmHTML."
 
 #~ msgid "Could not start Glimpse Help Browser"
-#~ msgstr "Tidak dapat memulakan Pelayar Bantuan GIMP"
+#~ msgstr "Tidak dapat memulakan Pelayar Bantuan Glimpse"
 
 #~ msgid "Internal"
 #~ msgstr "Dalaman"
@@ -32370,7 +32370,7 @@ msgstr ""
 #~ msgstr ""
 #~ "Beberapa fail tidak disimpan.\n"
 #~ "\n"
-#~ "Ingin terus keluar dari GIMP?"
+#~ "Ingin terus keluar dari Glimpse?"
 
 #, fuzzy
 #~ msgid ""
@@ -32470,7 +32470,7 @@ msgstr ""
 #~ msgstr "Pengurusan Sesi"
 
 #~ msgid "Click \"Continue\" to start The GIMP."
-#~ msgstr "Klik \"Teruskan\" untuk memulakan GIMP."
+#~ msgstr "Klik \"Teruskan\" untuk memulakan Glimpse."
 
 #~ msgid ""
 #~ "<b>To display images in their natural size, Glimpse needs to know your "
@@ -33367,7 +33367,7 @@ msgstr ""
 #~ msgstr "/Lihat/Zum/1:8"
 
 #~ msgid "The GIMP (unstable)"
-#~ msgstr "GIMP (tak stabil)"
+#~ msgstr "Glimpse (tak stabil)"
 
 #, fuzzy
 #~ msgid "Could not write thumbnail for '%s' as '%s': %s"
@@ -33453,7 +33453,7 @@ msgstr ""
 #~ "Pelet rosak: pengepala magik hilang"
 
 #~ msgid "Error in Glimpse pattern file '%s'."
-#~ msgstr "Ralat dalam fail corak GIMP '%s'."
+#~ msgstr "Ralat dalam fail corak Glimpse '%s'."
 
 #~ msgid "Old:"
 #~ msgstr "Lama:"
@@ -33488,7 +33488,7 @@ msgstr ""
 #~ "%s"
 
 #~ msgid "Glimpse Font Selection"
-#~ msgstr "Pemilihan Fon GIMP"
+#~ msgstr "Pemilihan Fon Glimpse"
 
 #~ msgid "_Family:"
 #~ msgstr "_Keluarga:"

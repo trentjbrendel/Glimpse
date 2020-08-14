@@ -109,7 +109,7 @@ msgstr "Archivos adicionales de Glimpse"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Patrones, degradados y otros archivos adicionales para GIMP"
+msgstr "Patrones, degradados y otros archivos adicionales para Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
@@ -10755,7 +10755,7 @@ msgstr ""
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
 "Guardar las posiciones y tamaños de los diálogos principales al salir de "
-"GIMP."
+"Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:389
 msgid "Save the tool options when Glimpse exits."
@@ -12427,7 +12427,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Parece que ha usado GIMP %s antes.  Glimpse migrará sus ajustes de usuario a "
+"Parece que ha usado Glimpse %s antes.  Glimpse migrará sus ajustes de usuario a "
 "«%s»."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12597,7 +12597,7 @@ msgstr "Imagen de portapapeles"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "No es un archivo de pincel GIMP."
+msgstr "No es un archivo de pincel Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13167,7 +13167,7 @@ msgstr "Rellenar con color sólido"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "No es un archivo de degradado GIMP."
+msgstr "No es un archivo de degradado Glimpse."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -15576,7 +15576,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Sus combinaciones de teclas se restablecerán a los valores de fábrica la "
-"próxima vez que inicie GIMP."
+"próxima vez que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15595,7 +15595,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Su configuración de ventanas se restablecerá al valor de fábrica la próxima "
-"vez que inicie GIMP."
+"vez que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15604,7 +15604,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Su configuración de dispositivos de entrada se restablecerá a los valores de "
-"fábrica la siguiente vez que inicie GIMP."
+"fábrica la siguiente vez que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15613,7 +15613,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Sus opciones de herramientas se restablecerán a los valores predeterminados "
-"la próxima vez que inicie GIMP."
+"la próxima vez que inicie Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -16065,7 +16065,7 @@ msgid ""
 "to use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
-"Estas características están inacabadas, con errores y pueden bloquear GIMP. "
+"Estas características están inacabadas, con errores y pueden bloquear Glimpse. "
 "No es recomendable usarlas a menos que realmente sepa lo que está haciendo o "
 "pretenda contribuir con parches."
 
@@ -18338,7 +18338,7 @@ msgstr "Mybrush"
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
 msgid "GIMP brush (animated)"
-msgstr "Pincel GIMP (animado)"
+msgstr "Pincel Glimpse (animado)"
 
 #: ../app/file-data/file-data.c:365
 #, fuzzy
@@ -19131,7 +19131,7 @@ msgstr "Retener los valores de salida finales."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "no es un archivo de niveles GIMP"
+msgstr "no es un archivo de niveles Glimpse"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19151,7 +19151,7 @@ msgstr "Ajustar el brillo y el contraste"
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
 msgstr ""
 "Calcular un conjunto de búfer de coeficientes para la herramienta «jaula» de "
-"GIMP"
+"Glimpse"
 
 #: ../app/operations/gimpoperationcagetransform.c:104
 #, fuzzy
@@ -20670,7 +20670,7 @@ msgstr ""
 "(%s)\n"
 "\n"
 "El complemento que ha fallado puede haber estropeado el estado interno de "
-"GIMP. Sería conveniente que guardase todas sus imágenes y reiniciase GIMP, "
+"Glimpse. Sería conveniente que guardase todas sus imágenes y reiniciase Glimpse, "
 "para no arriesgarse."
 
 #: ../app/plug-in/gimpplugin-message.c:487
@@ -22926,7 +22926,7 @@ msgstr "_Mover"
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
-msgstr "Herramienta pincel MyPaint: usar pinceles MyPaint en GIMP"
+msgstr "Herramienta pincel MyPaint: usar pinceles MyPaint en Glimpse"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -25359,7 +25359,7 @@ msgid ""
 "save your work and restart Glimpse."
 msgstr ""
 "Este error puede haber dejado a Glimpse en un estado inconsistente. Se "
-"recomienda que guarde su trabajo y reinicie GIMP."
+"recomienda que guarde su trabajo y reinicie Glimpse."
 
 #: ../app/widgets/gimpcriticaldialog.c:253
 msgid ""
@@ -25455,7 +25455,7 @@ msgstr "Glimpse ha encontrado varios errores críticos."
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "_Reiniciar GIMP"
+msgstr "_Reiniciar Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -27307,7 +27307,7 @@ msgstr "borroso"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27362,10 +27362,10 @@ msgstr "borroso"
 #~ "OS X."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Dibujar en GIMP"
+#~ msgstr "Dibujar en Glimpse"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Edición de fotos en GIMP"
+#~ msgstr "Edición de fotos en Glimpse"
 
 #~ msgid ""
 #~ "Glimpse 2.10.12 is a significant bug fix release, which is to be expected "
@@ -27719,7 +27719,7 @@ msgstr "borroso"
 #~ "por el usuario"
 
 #~ msgid "New themes for Glimpse: Light, Gray, Dark, and System"
-#~ msgstr "Temas nuevos para GIMP: claro, gris, oscuro y del sistema"
+#~ msgstr "Temas nuevos para Glimpse: claro, gris, oscuro y del sistema"
 
 #~ msgid "And much, much more…"
 #~ msgstr "Y mucho, mucho más…"
@@ -27881,10 +27881,10 @@ msgstr "borroso"
 #~ msgstr "Mostrar el _logotipo de Glimpse (arrastrar y soltar el objetivo)"
 
 #~ msgid "Glimpse brush"
-#~ msgstr "Pincel GIMP"
+#~ msgstr "Pincel Glimpse"
 
 #~ msgid "Glimpse pattern"
-#~ msgstr "Patrón GIMP"
+#~ msgstr "Patrón Glimpse"
 
 #~ msgid "_Offset"
 #~ msgstr "Desplazamient_o"
@@ -27911,7 +27911,7 @@ msgstr "borroso"
 #~ "Error fatal de análisis en el archivo del pincel:\n"
 #~ "profundidad del pincel no soportada %d\n"
 #~ "Los pinceles de Glimpse deben ser GRAY o RGBA.\n"
-#~ "Este podría ser un archivo obsoleto de pincel GIMP, trate de cargarlo "
+#~ "Este podría ser un archivo obsoleto de pincel Glimpse, trate de cargarlo "
 #~ "como imagen y guárdelo de nuevo."
 
 #~ msgctxt "undo-desc"

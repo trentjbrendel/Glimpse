@@ -1,4 +1,4 @@
-# Croatian translations for GIMP.
+# Croatian translations for Glimpse.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Translators: Antun Krasic <butch@gawab.com>,Automatski Prijevod <>,Boris Tudan <boris.tudan@ka.htnet.hr>,Danijel Gorsic <danijel.gorsic@ka.hinet.hr>,Danijel Studen <dstuden@vuka.hr>,Denis Lackovic <delacko@fly.srk.fer.hr>,Diana Ćorluka <dina@iskrameco.hr>,Goran Žugelj <gzugelj@vuka.hr>,Ivan Jankovic <rbrrneck@gmx.net>,Karolina Ilijanic <ilijanic_k@yahoo.com>,Kresimir Kalafatic <>,Željko Brajdić <zorz@iskon.hr>,Ljubomir Božić <ljubo108@vip.hr>,Mato Kutlić <mate@iskraemeco.hr>,Nikola Planinac <>,pr pr <delacko@192.168.0.1>,Robert Sedak <robert.sedak@sk.tel.hr>,Sasa Poznanovic <sasa.poznanovic@vuka.hr>,Tomislav Cavrag <tcavrag@vuka.hr>,Vedran Vyroubal <vedran.vyroubal@inet.hr>,Vjekoslav Matausic <vjekoslav.matausic@zg.htnet.hr>,
@@ -92,11 +92,11 @@ msgstr ""
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
 msgid "Extra files for Glimpse"
-msgstr "Dodatne datoteke za GIMP"
+msgstr "Dodatne datoteke za Glimpse"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
-msgstr "Uzorci, gradijenti i ostale dodatne datoteke za GIMP"
+msgstr "Uzorci, gradijenti i ostale dodatne datoteke za Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
@@ -157,7 +157,7 @@ msgstr ""
 "čak i bez podrazumjevanog jamstva ili POGODNOSTI ZA ODREĐENU NAMJENU.  "
 "Pogledajte GNU Opću javnu licencu za više informacija.\n"
 "\n"
-"Trebali ste dobiti primjerak GNU Opće javne licence uz ovaj GIMP. Ako niste "
+"Trebali ste dobiti primjerak GNU Opće javne licence uz ovaj Glimpse. Ako niste "
 "pogledajte: https://www.gnu.org/licenses/"
 
 #: ../app/gimp-update.c:251
@@ -192,7 +192,7 @@ msgstr "Budi opširniji"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Pokreni novi primjerak GIMPA"
+msgstr "Pokreni novi primjerak Glimpse-a"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -217,7 +217,7 @@ msgstr "Ne prikazuj dijalog pokretanja"
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "Ne koristi dijeljenu memoriju između GIMPA i priključaka"
+msgstr "Ne koristi dijeljenu memoriju između Glimpse-a i priključaka"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -296,7 +296,7 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Drugi primjerak GIMPA je već pokrenut."
+msgstr "Drugi primjerak Glimpse-a je već pokrenut."
 
 #: ../app/main.c:706
 #, fuzzy
@@ -2997,7 +2997,7 @@ msgstr ""
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "O GIMPU"
+msgstr "O Glimpseu"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -10530,7 +10530,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"GIMP će upozoriti korisnika ako pokuša stvoriti sliku koja zauzima više "
+"Glimpse će upozoriti korisnika ako pokuša stvoriti sliku koja zauzima više "
 "memorije od ovdje određene."
 
 #: ../app/config/gimprc-blurbs.h:291
@@ -10851,7 +10851,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Vrati spremljene prečace tipkovnice pri svakom pokretanju GIMP-a."
+msgstr "Vrati spremljene prečace tipkovnice pri svakom pokretanju Glimpse-a."
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11391,7 +11391,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "O GIMPU"
+msgstr "O Glimpseu"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12235,7 +12235,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Izgleda da koristite Glimpse po prvi puta. GIMP će sada stvoriti mapu %s i "
+"Izgleda da koristite Glimpse po prvi puta. Glimpse će sada stvoriti mapu %s i "
 "kopirati neke datoteke u nju."
 
 #: ../app/core/gimp-user-install.c:419
@@ -14344,7 +14344,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "O GIMPU"
+msgstr "O Glimpseu"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -15276,7 +15276,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Vaši prečaci tipkovnice biti će vraćene na uobičajene vrijednosti sljedeći "
-"put kada pokrenete GIMP."
+"put kada pokrenete O Glimpseu."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15293,7 +15293,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Vaša postavke prozora biti će vraćena na uobičajene vrijednosti slijedeći "
-"put kada pokrenete GIMP."
+"put kada pokrenete Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15302,7 +15302,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Vaše postavke ulaznih uređaja biti će vraćene na uobičajene vrijednosti "
-"slijedeći put kada pokrenete GIMP."
+"slijedeći put kada pokrenete Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15311,7 +15311,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Vaše postavke ualata biti će vraćene na uobičajene vrijednosti slijedeći put "
-"kada pokrenete GIMP."
+"kada pokrenete Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -16898,7 +16898,7 @@ msgstr "Zatvori sve slike"
 #: ../app/dialogs/quit-dialog.c:256
 #, fuzzy
 msgid "If you quit Glimpse now, these changes will be lost."
-msgstr "Ako sada zatvorite GIMP, ove promjene će biti izgubljene."
+msgstr "Ako sada zatvorite Glimpse, ove promjene će biti izgubljene."
 
 #: ../app/dialogs/quit-dialog.c:259
 msgid "If you close these images now, changes will be lost."
@@ -17111,7 +17111,7 @@ msgstr "tips-locale:hr"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Osobna Instalacija GIMP-a"
+msgstr "Osobna Instalacija Glimpse-a"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -18957,7 +18957,7 @@ msgstr "Dokumenti"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "Startam GIMP"
+msgstr "Startam Glimpse"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -26801,7 +26801,7 @@ msgstr "nejasno"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -26851,10 +26851,10 @@ msgstr "nejasno"
 #~ "skriptiranja. Glimpse je dostupan za Linux, Microsoft Windows i OS X."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "Slikanje u GIMPU"
+#~ msgstr "Slikanje u Glimpseu"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "Uređivanje fotografija i GIMPU"
+#~ msgstr "Uređivanje fotografija i Glimpseu"
 
 #~ msgid ""
 #~ "Copyright © 1995-%s\n"

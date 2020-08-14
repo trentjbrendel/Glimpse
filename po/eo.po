@@ -1,6 +1,6 @@
-# Esperanto translation for GIMP.
+# Esperanto translation for Glimpse.
 # Copyright (C) 2006 - 2012 Free Software Foundation, Inc.
-# This file is distributed under the same license as GIMP.
+# This file is distributed under the same license as Glimpse.
 # Tradukaĵoj:
 # pattern = modelo			(to) stroke = konturi		mode = reĝimo
 # template = ŝablono			(to) shear = klini		merge = kunfandi
@@ -124,7 +124,7 @@ msgstr ""
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 msgid "Glimpse Image Editor"
-msgstr "Bildredaktilo GIMP"
+msgstr "Bildredaktilo Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -216,7 +216,7 @@ msgstr "Esti pli parolema"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Lanĉi novan GIMP-seancon"
+msgstr "Lanĉi novan Glimpse-seancon"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -320,7 +320,7 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "Alia GIMP-seanco jam rulas."
+msgstr "Alia Glimpse-seanco jam rulas."
 
 #: ../app/main.c:706
 #, fuzzy
@@ -11224,7 +11224,7 @@ msgstr "Dumelire de GIMPo, konservi modifitajn klavkombinojn."
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "Ripari konservitajn klavkombinojn dum ĉiu GIMP-starto."
+msgstr "Ripari konservitajn klavkombinojn dum ĉiu Glimpse-starto."
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11233,7 +11233,7 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"Agordi dosierujon de dumtempa storado. Dum GIMP-seanco, ĉi tie dosieroj "
+"Agordi dosierujon de dumtempa storado. Dum Glimpse-seanco, ĉi tie dosieroj "
 "aperos.  Iuj malaperos dumelire, tamen alioj restos, do estas bone ke ĉi "
 "dosierujo ne estu kunpartigita."
 
@@ -11775,7 +11775,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Pri GIMP"
+msgstr "Pri Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12781,7 +12781,7 @@ msgstr "Tondujo"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Ne estas GIMP-dosiero de niveloj."
+msgstr "Ne estas Glimpse-dosiero de niveloj."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13352,7 +13352,7 @@ msgstr "Plenigi per fona koloro"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Ne estas GIMP-dosiero."
+msgstr "Ne estas Glimpse-dosiero."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14809,7 +14809,7 @@ msgstr "elcento"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Pri GIMP"
+msgstr "Pri Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
@@ -17633,7 +17633,7 @@ msgstr ""
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "La dosiero de la GIMP-sugestoj malplenas!"
+msgstr "La dosiero de la Glimpse-sugestoj malplenas!"
 
 #: ../app/dialogs/tips-dialog.c:103
 msgid "The Glimpse tips file appears to be missing!"
@@ -17647,11 +17647,11 @@ msgstr "Dosiero nomite '%s' devus ekzisti. Bonvole kontrolu la instaladon."
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "Estas neeble trakti GIMP-sugestan dosieron!"
+msgstr "Estas neeble trakti Glimpse-sugestan dosieron!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Laŭtaga GIMP-sugesto"
+msgstr "Laŭtaga Glimpse-sugesto"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -19379,7 +19379,7 @@ msgstr "Kurboj"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "ne estas GIMP-dosiero de niveloj"
+msgstr "ne estas Glimpse-dosiero de niveloj"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19456,7 +19456,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "ne estas GIMP-dosiero de niveloj"
+msgstr "ne estas Glimpse-dosiero de niveloj"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -21135,12 +21135,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Preterlasante '%s': erara GIMP-protokolversio."
+msgstr "Preterlasante '%s': erara Glimpse-protokolversio."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "Preterlasante '%s': erara GIMP-protokolversio."
+msgstr "Preterlasante '%s': erara Glimpse-protokolversio."
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -26652,7 +26652,7 @@ msgstr "Helpilo ne startas"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Estas neeble starti GIMP-helpilon."
+msgstr "Estas neeble starti Glimpse-helpilon."
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -27395,7 +27395,7 @@ msgstr ""
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Via GIMP-instalado estas nekompleta:"
+msgstr "Via Glimpse-instalado estas nekompleta:"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -27750,7 +27750,7 @@ msgstr "svage"
 #~ msgstr "Sencimigo"
 
 #~ msgid "GNU Image Manipulation Program"
-#~ msgstr "Bildmanipulilo (GIMP = GNU Image Manipulation Program)"
+#~ msgstr "Bildmanipulilo (GNU Image Manipulation Program)"
 
 #~ msgid ""
 #~ "Copyright © 1995-%s\n"
@@ -28336,20 +28336,20 @@ msgstr "svage"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
-#~ "Fatala analizeraro en penikodosiero '%s': Ĝi ne estas GIMP-penikodosiero."
+#~ "Fatala analizeraro en penikodosiero '%s': Ĝi ne estas Glimpse-penikodosiero."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
 #~ msgstr ""
-#~ "Fatala analizeraro en penikodosiero '%s': Nekonata GIMP-penikversio en "
+#~ "Fatala analizeraro en penikodosiero '%s': Nekonata Glimpse-penikversio en "
 #~ "linio %d."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
-#~ "Fatala analizeraro en penikodosiero '%s': Nekonata GIMP-penikformo en "
+#~ "Fatala analizeraro en penikodosiero '%s': Nekonata Glimpse-penikformo en "
 #~ "linio %d."
 
 #~ msgid "Line %d: %s"

@@ -1,4 +1,4 @@
-# Turkish translation for GIMP
+# Turkish translation for Glimpse
 #
 # Copyright (C) 2001,2003, 2004 Free Software Foundation, Inc.
 # Copyright (C) 2005-2019 Glimpse's COPYRIGHT HOLDER
@@ -188,7 +188,7 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"GIMP özgür bir yazılımdır, Özgür Yazılım Vakfı'nın yayınladığı GNU Genel "
+"Glimpse özgür bir yazılımdır, Özgür Yazılım Vakfı'nın yayınladığı GNU Genel "
 "Kamu Lisansı'nın 3. veya daha sonraki sürümlerindeki şartlar altında "
 "dağıtılabilir ve/veya değiştirilebilir. \n"
 "\n"
@@ -232,7 +232,7 @@ msgstr "Daha çok bilgi ver"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Yeni bir GIMP örneği başlat"
+msgstr "Yeni bir Glimpse örneği başlat"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -341,7 +341,7 @@ msgstr "Başka bir Glimpse zaten çalışıyor."
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP çıktısı. Bu pencereyi kapatmak için herhangi bir karakter girin."
+msgstr "Glimpse çıktısı. Bu pencereyi kapatmak için herhangi bir karakter girin."
 
 #: ../app/main.c:707
 #, c-format
@@ -351,7 +351,7 @@ msgstr "(Bu pencereyi kapatmak için herhangi bir karakter girin)\n"
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "GIMP çıktısı. Bu pencereyi küçültebilirsiniz, fakat kapatmayın."
+msgstr "Glimpse çıktısı. Bu pencereyi küçültebilirsiniz, fakat kapatmayın."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -10918,8 +10918,8 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"Geçici depolama için klasör ayarlar. GIMP'in çalışması esnasında dosyalar "
-"burada görülecek. Çoğu dosya GIMP'ten çıkıldığında kaybolacak, ama bazı "
+"Geçici depolama için klasör ayarlar. Glimpse'in çalışması esnasında dosyalar "
+"burada görülecek. Çoğu dosya Glimpse'ten çıkıldığında kaybolacak, ama bazı "
 "dosyalar muhtemelen duracak, bu yüzden en iyisi bu klasörü diğer "
 "kullanıcılarla paylaşmamak."
 
@@ -11235,7 +11235,7 @@ msgid ""
 "When enabled, Glimpse will not save an image if it has not been changed "
 "since it was opened."
 msgstr ""
-"Etkin olduğunda, eğer bir görüntü açıldıktan sonra değiştirilmemişse GIMP "
+"Etkin olduğunda, eğer bir görüntü açıldıktan sonra değiştirilmemişse Glimpse "
 "bunu bunu kaydetmeyecek."
 
 #: ../app/config/gimprc-blurbs.h:705
@@ -12337,7 +12337,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"GIMP %s daha önce kullanmış görünüyorsunuz. GIMP şimdi kullanıcı "
+"Glimpse %s daha önce kullanmış görünüyorsunuz. Glimpse şimdi kullanıcı "
 "ayarlarınızı '%s'a aktaracak."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12346,7 +12346,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"GIMP'i ilk kez kullanıyor görünüyorsunuz. GIMP şimdi '%s' adında yeni bir "
+"GIMP'i ilk kez kullanıyor görünüyorsunuz. Glimpse şimdi '%s' adında yeni bir "
 "klasör oluşturacak ve bazı dosyaları içine kopyalayacak."
 
 #: ../app/core/gimp-user-install.c:419
@@ -14807,7 +14807,7 @@ msgstr "'%s', listeden kaldırmak ve diskten silmek istediğinize emin misiniz?"
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP İletisi"
+msgstr "Glimpse İletisi"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 msgid "Glimpse Debug"
@@ -15448,7 +15448,7 @@ msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"Klavye kısayollarınız GIMP'in bir sonraki başlatılmasında öntanımlı "
+"Klavye kısayollarınız Glimpse'in bir sonraki başlatılmasında öntanımlı "
 "değerlere getirilecek."
 
 #: ../app/dialogs/preferences-dialog.c:658
@@ -15465,7 +15465,7 @@ msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Pencere düzeniniz GIMP'in sonraki başlangıcında öntanımlı değerlere "
+"Pencere düzeniniz Glimpse'in sonraki başlangıcında öntanımlı değerlere "
 "getirilecek."
 
 #: ../app/dialogs/preferences-dialog.c:756
@@ -15474,7 +15474,7 @@ msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"Girdi aygıtı ayarlarınız GIMP'in sonraki başlangıcında öntanımlı değerlere "
+"Girdi aygıtı ayarlarınız Glimpse'in sonraki başlangıcında öntanımlı değerlere "
 "getirilecek."
 
 #: ../app/dialogs/preferences-dialog.c:798
@@ -15483,7 +15483,7 @@ msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Alet seçenekleriniz GIMP'in sonraki başlangıcında öntanımlı değerlere "
+"Alet seçenekleriniz Glimpse'in sonraki başlangıcında öntanımlı değerlere "
 "getirilecek."
 
 #: ../app/dialogs/preferences-dialog.c:850
@@ -15669,7 +15669,7 @@ msgid ""
 "bugs."
 msgstr ""
 "Bu ayarlara hiçbir zaman ihtiyaç duymayacağınızı umuyoruz, ancak tüm "
-"yazılımlarda olduğu gibi GIMP՚de de hatalar var ve çökmeler görülebilir. "
+"yazılımlarda olduğu gibi Glimpse՚de de hatalar var ve çökmeler görülebilir. "
 "Olursa, hataları bildirerek bize yardımcı olabilirsiniz."
 
 #: ../app/dialogs/preferences-dialog.c:1279
@@ -15936,7 +15936,7 @@ msgid ""
 "to use them unless you really know what you are doing or you intend to "
 "contribute patches."
 msgstr ""
-"Bu özellikler bitmemiş, hatalı ve GIMP'i çökertebilir. Ne yaptığınızı "
+"Bu özellikler bitmemiş, hatalı ve Glimpse'i çökertebilir. Ne yaptığınızı "
 "gerçekten bilmiyorsanız veya yamalar konusunda katkıda bulunmayı "
 "düşünmüyorsanız, bunları kullanmanız önerilmez."
 
@@ -20517,8 +20517,8 @@ msgstr ""
 "Eklenti çöktü: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Ölen eklenti GIMP'in iç durumunu karıştırmış olabilir. Çalışmalarınızı "
-"kaydedip GIMP'i yeniden başlatmanızı öneriririz."
+"Ölen eklenti Glimpse'in iç durumunu karıştırmış olabilir. Çalışmalarınızı "
+"kaydedip Glimpse'i yeniden başlatmanızı öneriririz."
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -22756,7 +22756,7 @@ msgstr "_Taşı"
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
-msgstr "MyPaint Fırça Aracı: GIMP'de MyPaint fırçalarını kullan"
+msgstr "MyPaint Fırça Aracı: Glimpse'de MyPaint fırçalarını kullan"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -25247,7 +25247,7 @@ msgstr "'%s' açılamadı: %s"
 #: ../app/widgets/gimpcriticaldialog.c:550
 #, fuzzy, c-format
 msgid "Glimpse crashed with a fatal error: %s"
-msgstr "GIMP ölümcül bir hata ile çöktü: %s"
+msgstr "Glimpse ölümcül bir hata ile çöktü: %s"
 
 #. First error. Let's just display it.
 #: ../app/widgets/gimpcriticaldialog.c:557
@@ -25261,7 +25261,7 @@ msgstr "Glimpse bir hata ile karşılaştı: %s"
 #: ../app/widgets/gimpcriticaldialog.c:565
 #, fuzzy, c-format
 msgid "Glimpse encountered several critical errors!"
-msgstr "GIMP çeşitli kritik hatalar ile karşılaştı!"
+msgstr "Glimpse çeşitli kritik hatalar ile karşılaştı!"
 
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
@@ -27103,7 +27103,7 @@ msgstr "bulanık"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27115,7 +27115,7 @@ msgstr "bulanık"
 
 #, fuzzy
 #~ msgid "GIMP Crash Debug"
-#~ msgstr "GIMP Çökme Hata Ayıklaması"
+#~ msgstr "Glimpse Çökme Hata Ayıklaması"
 
 #, fuzzy
 #~ msgid "GIMP Debug"
@@ -28442,7 +28442,7 @@ msgstr "bulanık"
 #~ msgstr ""
 #~ "Takas dosyası açılamadı. Glimpse bellek üzerinden çalışıyor ve takas "
 #~ "dosyasını kullanamaz. Görüntünün bazı bölümleri bozulmuş olabilir. "
-#~ "Çalışmanızı farklı dosya adları kullanarak kaydetmeyi deneyin, GIMP'i "
+#~ "Çalışmanızı farklı dosya adları kullanarak kaydetmeyi deneyin, Glimpse'i "
 #~ "yeniden başlatın ve Tercihleriniz içinden takas dizininin yerini "
 #~ "denetleyin."
 
@@ -28806,7 +28806,7 @@ msgstr "bulanık"
 #~ msgstr "Sadece bir tane çalışan Glimpse kullan, yenisini başlatma"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "Sadece GIMP çalışıyor mu diye bak, sonra çık"
+#~ msgstr "Sadece Glimpse çalışıyor mu diye bak, sonra çık"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr ""
@@ -28980,7 +28980,7 @@ msgstr "bulanık"
 #~ "Generally only a concern for 8-bit displays, this sets the minimum number "
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
-#~ "Genellikle sadece 8-ikil görüntülemeler için bir ilişkisi vardır, bu GIMP "
+#~ "Genellikle sadece 8-ikil görüntülemeler için bir ilişkisi vardır, bu Glimpse "
 #~ "için sistemde tahsis edilmiş renklerin asgari sayısını ayarlar."
 
 #~ msgid ""

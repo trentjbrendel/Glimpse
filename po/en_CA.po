@@ -1,4 +1,4 @@
-# Canadian English translations for gimp
+# Canadian English translations for Glimpse
 # Copyright (C) 2004-2006 Adam Weinberger and the GNOME Foundation
 # This file is distributed under the same licence as the Glimpse package.
 # Adam Weinberger <adamw@gnome.org>, 2004, 2005, 2006.
@@ -29327,7 +29327,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -30071,7 +30071,7 @@ msgstr ""
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
 #~ "Generally only a concern for 8-bit displays, this sets the minimum number "
-#~ "of system colours allocated for GIMP."
+#~ "of system colours allocated for Glimpse."
 
 #, fuzzy
 #~ msgctxt "undo-type"

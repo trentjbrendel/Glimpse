@@ -24,7 +24,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "memakai gimp"
+msgstr "memakai Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -102,7 +102,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -160,7 +160,7 @@ msgstr ""
 "TERTENTU. Lihat GNU General Public License untuk rincian lebih lanjut.\n"
 "\n"
 "Anda seharusnya menerima salinan dari GNU General Public License bersama "
-"dengan GIMP. Jika tidak, lihat: https://www.gnu.org/licenses/"
+"dengan Glimpse. Jika tidak, lihat: https://www.gnu.org/licenses/"
 
 #: ../app/gimp-update.c:251
 #, c-format
@@ -303,7 +303,7 @@ msgstr "Instansi Glimpse lain tengah berjalan."
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "Keluaran GIMP. Ketik sebarang karakter untuk menutup jendela ini."
+msgstr "Keluaran Glimpse. Ketik sebarang karakter untuk menutup jendela ini."
 
 #: ../app/main.c:707
 #, c-format
@@ -314,7 +314,7 @@ msgstr "(Ketikkan karakter apapun untuk menutup jendela ini)\n"
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
 msgstr ""
-"Keluaran GIMP. Anda dapat meminimalkan jendela ini, tapi jangan menutupnya."
+"Keluaran Glimpse. Anda dapat meminimalkan jendela ini, tapi jangan menutupnya."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -3115,12 +3115,12 @@ msgstr "_Tip Hari Ini"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Tampilkan beberapa tip berguna tentang memakai GIMP"
+msgstr "Tampilkan beberapa tip berguna tentang memakai Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 msgctxt "dialogs-action"
@@ -5742,7 +5742,7 @@ msgstr "Ba_ntuan"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Buka manual pengguna GIMP"
+msgstr "Buka manual pengguna Glimpse"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -9070,7 +9070,7 @@ msgstr "Balik Path"
 #, fuzzy
 msgctxt "vectors-action"
 msgid "Fill the path with last values"
-msgstr "Kotak Pemilih Font GIMP"
+msgstr "Kotak Pemilih Font Glimpse"
 
 #: ../app/actions/vectors-actions.c:131
 #, fuzzy
@@ -9094,7 +9094,7 @@ msgstr "Pertahankan path target:"
 #, fuzzy
 msgctxt "vectors-action"
 msgid "Paint along the path with last values"
-msgstr "Kotak Pemilih Font GIMP"
+msgstr "Kotak Pemilih Font Glimpse"
 
 #: ../app/actions/vectors-actions.c:143
 msgctxt "vectors-action"
@@ -10639,7 +10639,7 @@ msgstr "Tangan kanan"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "Peramban bantuan GIMP"
+msgstr "Peramban bantuan Glimpse"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -11112,7 +11112,7 @@ msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
 msgstr ""
 "Menata berapa banyak prosesor yang akan dicoba dipakai secara simultan oleh "
-"GIMP."
+"Glimpse."
 
 #: ../app/config/gimprc-blurbs.h:339
 msgid ""
@@ -11383,7 +11383,7 @@ msgid ""
 "that is shared by other users."
 msgstr ""
 "Menata folder bagi penyimpanan sementara. Berkas akan muncul di sini selama "
-"menjalankan GIMP. Kebanyakan berkas akan lenyap ketika Glimpse keluar, tapi "
+"menjalankan Glimpse. Kebanyakan berkas akan lenyap ketika Glimpse keluar, tapi "
 "beberapa berkas mungkin bertahan, maka paling baik bila folder ini bukan "
 "yang dipakai bersama dengan pengguna lain."
 
@@ -11923,7 +11923,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -15113,11 +15113,11 @@ msgstr "persen"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Tentang GIMP"
+msgstr "Tentang Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Kunjungi situs web GIMP"
+msgstr "Kunjungi situs web Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15447,12 +15447,12 @@ msgstr ""
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "Pesan GIMP"
+msgstr "Pesan Glimpse"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 #, fuzzy
 msgid "Glimpse Debug"
-msgstr "Pesan GIMP"
+msgstr "Pesan Glimpse"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -15562,7 +15562,7 @@ msgid ""
 "save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Anda dapat memakai dialog ini untuk mengekspor ke berbagai format berkas. "
-"Bila Anda ingin menyimpan citra ke format XCF GIMP, gunakan Berkas→Simpan "
+"Bila Anda ingin menyimpan citra ke format XCF Glimpse, gunakan Berkas→Simpan "
 "sebagai gantinya."
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -15580,7 +15580,7 @@ msgid ""
 "You can use this dialog to save to the Glimpse XCF format. Use File→Export "
 "to export to other file formats."
 msgstr ""
-"Anda dapat memakai dialog ini untuk menyimpan ke format XCF GIMP. Gunakan "
+"Anda dapat memakai dialog ini untuk menyimpan ke format XCF Glimpse. Gunakan "
 "Berkas→Ekspor untuk mengekspor ke format berkas lain."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -16113,7 +16113,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Pintasan papan tik Anda akan direset ke nilai baku kali berikutnya Anda "
-"memulai GIMP."
+"memulai Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 #, fuzzy
@@ -16132,7 +16132,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Penyiapan jendela Anda akan direset ke nilai baku kali berikutnya Anda "
-"memulai GIMP."
+"memulai Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -16141,7 +16141,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Pengaturan perangkat masukan Anda akan direset ke nilai baku kali berikutnya "
-"Anda memulai GIMP."
+"Anda memulai Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -16149,7 +16149,7 @@ msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
 msgstr ""
-"Opsi alat Anda akan direset ke nilai baku kali berikutnya Anda memulai GIMP."
+"Opsi alat Anda akan direset ke nilai baku kali berikutnya Anda memulai Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -18172,12 +18172,12 @@ msgstr "Lokal Saat Ini"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "Instalasi User GIMP"
+msgstr "Instalasi User Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:94
 #, fuzzy
 msgid "User installation failed!"
-msgstr "Instalasi User GIMP"
+msgstr "Instalasi User Glimpse"
 
 #: ../app/dialogs/user-install-dialog.c:96
 msgid "The Glimpse user installation failed; see the log for details."
@@ -24788,7 +24788,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "Editor Teks GIMP"
+msgstr "Editor Teks Glimpse"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -26552,7 +26552,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:379
 #, fuzzy
 msgid "The DDE transaction failed."
-msgstr "Instalasi User GIMP"
+msgstr "Instalasi User Glimpse"
 
 #: ../app/widgets/gimpcriticaldialog.c:382
 msgid "The DDE transaction timed out."
@@ -27384,7 +27384,7 @@ msgstr "Peramban bantuan tak mulai"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Tak bisa memulai plug-in peramban bantuan GIMP."
+msgstr "Tak bisa memulai plug-in peramban bantuan Glimpse."
 
 #: ../app/widgets/gimphelp.c:422
 msgid "You may instead use the web browser for reading the help pages."
@@ -28342,7 +28342,7 @@ msgstr "Belum terdefinisi"
 
 #: ../app/xcf/xcf.c:114 ../app/xcf/xcf.c:185
 msgid "Glimpse XCF image"
-msgstr "Citra XCF GIMP"
+msgstr "Citra XCF Glimpse"
 
 #: ../app/xcf/xcf.c:272 ../app/xcf/xcf.c:361
 msgid "Memory Stream"
@@ -28448,7 +28448,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "Pesan GIMP"
+msgstr "Pesan Glimpse"
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
@@ -28491,7 +28491,7 @@ msgstr "kabur"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28513,7 +28513,7 @@ msgstr "kabur"
 #~ "Spencer Kimball, Peter Mattis and the Glimpse Development Team"
 #~ msgstr ""
 #~ "Hak Cipta © 1995-%s\n"
-#~ "Spencer Kimball, Peter Mattis dan Tim Pengembangan GIMP."
+#~ "Spencer Kimball, Peter Mattis dan Tim Pengembangan Glimpse."
 
 #~ msgctxt "channels-action"
 #~ msgid "_Visible"

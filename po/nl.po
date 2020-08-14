@@ -1,5 +1,5 @@
 # translation of gimp.po to Dutch
-# Dutch translation of Gimp
+# Dutch translation of Glimpse
 # Copyright (C) 2000, 2005 Free Software Foundation, Inc.
 # document history	- documentgeschiedenis/Overzicht 'ongedaan maken'
 # font			- lettertype/font
@@ -12611,7 +12611,7 @@ msgid ""
 msgstr ""
 "Fatale leesfout in penseelbestand:\n"
 "niet-ondersteunde penseeldiepte %d\n"
-"GIMP-penselen moeten grijswaarden of RGBA zijn."
+"Glimpse-penselen moeten grijswaarden of RGBA zijn."
 
 #: ../app/core/gimpbrush-load.c:519
 #, c-format
@@ -12672,17 +12672,17 @@ msgstr "Klembordafbeelding"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "Geen GIMP-penseelbestand."
+msgstr "Geen Glimpse-penseelbestand."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
 msgid "Unknown GIMP brush version."
-msgstr "Onbekende GIMP-penseelversie."
+msgstr "Onbekende Glimpse-penseelversie."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
 msgid "Unknown GIMP brush shape."
-msgstr "Onbekende GIMP-penseelvorm."
+msgstr "Onbekende Glimpse-penseelvorm."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
 #, c-format
@@ -13245,7 +13245,7 @@ msgstr "Vullen met egale kleur"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Geen GIMP-kleurverloopbestand."
+msgstr "Geen Glimpse-kleurverloopbestand."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14215,7 +14215,7 @@ msgid ""
 "GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "Niet-ondersteunde patroondiepte %d.\n"
-"GIMP-patronen moeten grijswaarden of RGB zijn."
+"Glimpse-patronen moeten grijswaarden of RGB zijn."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -18503,7 +18503,7 @@ msgstr "MyBrush"
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
 msgid "GIMP brush (animated)"
-msgstr "GIMP-penseel (bewegend)"
+msgstr "Glimpse-penseel (bewegend)"
 
 #: ../app/file-data/file-data.c:365
 #, fuzzy
@@ -19232,7 +19232,7 @@ msgstr "Curve"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "geen GIMP-curvebestand"
+msgstr "geen Glimpse-curvebestand"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -20977,7 +20977,7 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "'%s' wordt overgeslagen: verkeerde GIMP-protocolversie."
+msgstr "'%s' wordt overgeslagen: verkeerde Glimpse-protocolversie."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, c-format
@@ -27542,7 +27542,7 @@ msgstr "vaag"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -29463,7 +29463,7 @@ msgstr "vaag"
 #~ "Generally only a concern for 8-bit displays, this sets the minimum number "
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
-#~ "Het minimum aantal systeemkleuren dat wordt toegewezen aan GIMP (over het "
+#~ "Het minimum aantal systeemkleuren dat wordt toegewezen aan Glimpse (over het "
 #~ "algemeen is dit enkel belangrijk bij 8-bit beeldschermen)."
 
 #, fuzzy

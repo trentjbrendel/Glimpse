@@ -1,4 +1,4 @@
-# Tatarish localization of GIMP
+# Tatarish localization of Glimpse
 # Beznen Soft <tatarish.l10n@gmail.com>, 2005.
 #
 msgid ""
@@ -98,7 +98,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP – Yazma Tözätkeç"
+msgstr "Glimpse – Yazma Tözätkeç"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -178,7 +178,7 @@ msgstr ""
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "GIMP – Yazma Tözätkeç"
+msgstr "Glimpse – Yazma Tözätkeç"
 
 #: ../app/main.c:184
 #, fuzzy
@@ -18190,7 +18190,7 @@ msgstr "<b>GIMP'neñ kiñäşlär biremen uqıp bulmadı!</b>"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "GIMP - Bu Kön Kiñäşe"
+msgstr "Glimpse - Bu Kön Kiñäşe"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -24661,7 +24661,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP – Yazma Tözätkeç"
+msgstr "Glimpse – Yazma Tözätkeç"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -28292,7 +28292,7 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28444,21 +28444,21 @@ msgstr ""
 
 # CHECK
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
-#~ msgstr "'%s' atlı çuq biremen uqığanda xata: GIMP'nıñ çuq bireme tügel."
+#~ msgstr "'%s' atlı çuq biremen uqığanda xata: Glimpse'nıñ çuq bireme tügel."
 
 # CHECK
 #, fuzzy
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
-#~ msgstr "'%s' atlı çuq biremen uqığanda xata: GIMP'nıñ çuq söreme bilgesez."
+#~ msgstr "'%s' atlı çuq biremen uqığanda xata: Glimpse'nıñ çuq söreme bilgesez."
 
 # CHECK
 #, fuzzy
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
-#~ msgstr "'%s' atlı çuq biremen uqığanda xata: GIMP'nıñ çuq şäkele bilgesez."
+#~ msgstr "'%s' atlı çuq biremen uqığanda xata: Glimpse'nıñ çuq şäkele bilgesez."
 
 #, fuzzy
 #~ msgid "Line %d: %s"
@@ -28475,12 +28475,12 @@ msgstr ""
 #, fuzzy
 #~ msgid "Fatal parse error in gradient file '%s': Read error in line %d."
 #~ msgstr ""
-#~ "'%s' atlı tösşuış biremen uqığanda xata: GIMP'nıñ tösşuış bireme tügel."
+#~ "'%s' atlı tösşuış biremen uqığanda xata: Glimpse'nıñ tösşuış bireme tügel."
 
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "'%s' atlı tösşuış biremen uqığanda xata: GIMP'nıñ tösşuış bireme tügel."
+#~ "'%s' atlı tösşuış biremen uqığanda xata: Glimpse'nıñ tösşuış bireme tügel."
 
 # CHECK
 #, fuzzy
@@ -28491,7 +28491,7 @@ msgstr ""
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Corrupt segment %d in line %d."
 #~ msgstr ""
-#~ "'%s' atlı tösşuış biremen uqığanda xata: GIMP'nıñ tösşuış bireme tügel."
+#~ "'%s' atlı tösşuış biremen uqığanda xata: Glimpse'nıñ tösşuış bireme tügel."
 
 #, fuzzy
 #~ msgid "Fade %s"
@@ -28803,7 +28803,7 @@ msgstr ""
 #~ msgstr "Yökläw"
 
 #~ msgid "Personal Glimpse Folder"
-#~ msgstr "Çäxsi GIMP-Törgäk"
+#~ msgstr "Çäxsi Glimpse-Törgäk"
 
 #~ msgid "Do_n't Save"
 #~ msgstr "Sa_qlamasqa"

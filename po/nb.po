@@ -1,4 +1,4 @@
-# Norwegian bokmål translation of the GIMP.
+# Norwegian bokmål translation of the Glimpse.
 # Copyright (C) 1999-2001 Free Software Foundation, Inc.
 # Kjartan Maraas <kmaraas@gnome.org>, 1999-2013.
 # Runar Ingebrigtsen <ringe@skolelinux.no>, 2004.
@@ -22,7 +22,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -159,7 +159,7 @@ msgstr ""
 "eller passer noe bestemt bruksområde.  Se GNU General Public License for mer "
 "informasjon.\n"
 "\n"
-"Du skal ha mottat en kopi av GNU General Public License sammen med GIMP. "
+"Du skal ha mottat en kopi av GNU General Public License sammen med Glimpse. "
 "Hvis dette ikke er tilfelle se https://www.gnu.org/licenses/."
 
 #: ../app/gimp-update.c:251
@@ -194,7 +194,7 @@ msgstr "Skriv ut mer statusinformasjon under kjøring"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Start en ny GIMP-instans"
+msgstr "Start en ny Glimpse-instans"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -298,12 +298,12 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "En annen GIMP-instans kjører allerede."
+msgstr "En annen Glimpse-instans kjører allerede."
 
 #: ../app/main.c:706
 #, fuzzy
 msgid "Glimpse output. Type any character to close this window."
-msgstr "GIMP-meldinger. Trykk en tast for å lukke vinduet."
+msgstr "Glimpse-meldinger. Trykk en tast for å lukke vinduet."
 
 #: ../app/main.c:707
 #, c-format
@@ -313,7 +313,7 @@ msgstr "(Trykk en tast for å lukke vinduet)\n"
 #: ../app/main.c:724
 #, fuzzy
 msgid "Glimpse output. You can minimize this window, but don't close it."
-msgstr "GIMP-meldinger. Du kan minimere vinduet, men ikke lukk det."
+msgstr "Glimpse-meldinger. Du kan minimere vinduet, men ikke lukk det."
 
 #: ../app/sanity.c:562
 #, c-format
@@ -336,7 +336,7 @@ msgid ""
 "you didn't tell GLib about this. Please set the environment variable "
 "G_FILENAME_ENCODING."
 msgstr ""
-"Navnet på mappen som inneholder GIMPs brukeroppsett kan ikke bli konvertert "
+"Navnet på mappen som inneholder Glimpse brukeroppsett kan ikke bli konvertert "
 "til UTF-8: %s\n"
 "\n"
 "Sannsyligvis fordi filsystemet ditt lagrer filer i en annen tegnkoding enn "
@@ -3127,12 +3127,12 @@ msgstr "Dagens _tips"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "Vis nyttige tips for bruk av GIMP"
+msgstr "Vis nyttige tips for bruk av Glimpse"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
 msgid "About Glimpse"
-msgstr "Om GIMP"
+msgstr "Om Glimpse"
 
 #: ../app/actions/dialogs-actions.c:283
 #, fuzzy
@@ -4266,7 +4266,7 @@ msgstr "A_vslutt"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -5767,7 +5767,7 @@ msgstr "_Hjelp"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Åpne brukermanualen til GIMP"
+msgstr "Åpne brukermanualen til Glimpse"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -11349,7 +11349,7 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"Angir hvor midlertidige filer lagres. Filer vil bli lagret her mens GIMP "
+"Angir hvor midlertidige filer lagres. Filer vil bli lagret her mens Glimpse "
 "brukes. Mesteparten av filene forsvinner når Glimpse avsluttes, men noen "
 "filer vil også kunne ligge igjen, så det er best om denne mappen ikke deles "
 "med andre brukere."
@@ -11893,7 +11893,7 @@ msgstr ""
 #, fuzzy
 msgctxt "debug-policy"
 msgid "Never debug Glimpse"
-msgstr "Om GIMP"
+msgstr "Om Glimpse"
 
 #: ../app/core/core-enums.c:542
 msgctxt "dynamics-output-type"
@@ -12745,7 +12745,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Det ser ut til at du har brukt GIMP %s før.  Glimpse vil nå overføre "
+"Det ser ut til at du har brukt Glimpse %s før.  Glimpse vil nå overføre "
 "innstillingene dine til «%s»."
 
 #: ../app/core/gimp-user-install.c:220
@@ -12754,7 +12754,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"Det ser ut til at du bruker Glimpse for første gang på denne maskinen.  GIMP "
+"Det ser ut til at du bruker Glimpse for første gang på denne maskinen.  Glimpse "
 "vil nå opprette en mappe med navn «%s» og kopiere noen filer dit."
 
 #: ../app/core/gimp-user-install.c:419
@@ -12857,7 +12857,7 @@ msgstr "Fatal feil i penselfil «%s»: Filen er korrupt."
 #: ../app/core/gimpbrush-load.c:736
 #, fuzzy, c-format
 msgid "Fatal parse error in brush file: Wide brushes are not supported."
-msgstr "Fatal feil i penselfil «%s»: Ikke en GIMP-penselfil."
+msgstr "Fatal feil i penselfil «%s»: Ikke en Glimpse-penselfil."
 
 #: ../app/core/gimpbrush-load.c:885
 #, fuzzy
@@ -14448,7 +14448,7 @@ msgid ""
 "GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "Fatal feil i mønsterfil «%s»: Ustøttet penseldybde %d.\n"
-"GIMP-mønstre må være GRAY eller RGB."
+"Glimpse-mønstre må være GRAY eller RGB."
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -14966,11 +14966,11 @@ msgstr "prosent"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "Om GIMP"
+msgstr "Om Glimpse"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Besøk nettsiden til GIMP"
+msgstr "Besøk nettsiden til Glimpse"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -15945,7 +15945,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Dine tastatursnarveier til bli nullstilt til standardverdiene neste gang du "
-"starter GIMP."
+"starter Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:658
 msgid "Remove all Keyboard Shortcuts"
@@ -15962,7 +15962,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Ditt vindusoppsett vil bli nullstilt til standardverdiene neste gang du "
-"starter GIMP."
+"starter Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
@@ -15971,7 +15971,7 @@ msgid ""
 "start Glimpse."
 msgstr ""
 "Dine innstillinger om inndataenheter vil bli nullstilt til standardverdiene "
-"neste gang du starter GIMP."
+"neste gang du starter Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
@@ -15980,7 +15980,7 @@ msgid ""
 "Glimpse."
 msgstr ""
 "Dine verktøyinnstillinger vil bli nullstilt til standardverdier neste gang "
-"du starter GIMP."
+"du starter Glimpse."
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -17675,7 +17675,7 @@ msgstr "piksler/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17860,12 +17860,12 @@ msgstr ""
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "Filen med GIMP-tips er tom!"
+msgstr "Filen med Glimpse-tips er tom!"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "Filen med GIMP-tips ser ut til å være borte!"
+msgstr "Filen med Glimpse-tips ser ut til å være borte!"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
@@ -17876,11 +17876,11 @@ msgstr ""
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "Filen med GIMP-tips kunne ikke leses!"
+msgstr "Filen med Glimpse-tips kunne ikke leses!"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "Dagens GIMP-tips"
+msgstr "Dagens Glimpse-tips"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -19627,7 +19627,7 @@ msgstr "Kurver"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "ikke en GIMP-kurvefil"
+msgstr "ikke en Glimpse-kurvefil"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19706,7 +19706,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "ikke en GIMP-nivåfil"
+msgstr "ikke en Glimpse-nivåfil"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -21311,7 +21311,7 @@ msgstr ""
 "Programtillegget krasjet: «%s»\n"
 "(%s)\n"
 "\n"
-"Programtillegget som krasjet kan ha ødelagt GIMPs interne tilstand. Du bør "
+"Programtillegget som krasjet kan ha ødelagt Glimpse interne tilstand. Du bør "
 "lagre dine bilder og starte Glimpse på nytt for å være på den sikre siden."
 
 #: ../app/plug-in/gimpplugin-message.c:487
@@ -21429,12 +21429,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "Hopper over «%s»: feil versjon av GIMP-protokollen."
+msgstr "Hopper over «%s»: feil versjon av Glimpse-protokollen."
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "Hopper over «%s»: feil versjon av GIMP-protokollen."
+msgstr "Hopper over «%s»: feil versjon av Glimpse-protokollen."
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -26264,7 +26264,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "Avslutt GIMP"
+msgstr "Avslutt Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -27035,7 +27035,7 @@ msgstr "Hjelp_leser starter ikke"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "Kunne ikke starte GIMPs hjelplesertillegg."
+msgstr "Kunne ikke starte Glimpse hjelplesertillegg."
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
@@ -27796,7 +27796,7 @@ msgstr "%s valg"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "Din GIMP-installasjon er uferdig:"
+msgstr "Din Glimpse-installasjon er uferdig:"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -28142,7 +28142,7 @@ msgstr "ute av fokus"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -28385,7 +28385,7 @@ msgstr "ute av fokus"
 #~ msgstr "Verdi"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
-#~ msgstr "Fatal feil i penselfil «%s»: Dette er ikke en penselfil for GIMP."
+#~ msgstr "Fatal feil i penselfil «%s»: Dette er ikke en penselfil for Glimpse."
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
@@ -28396,7 +28396,7 @@ msgstr "ute av fokus"
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
-#~ "Fatal feil i penselfil «%s»: Ukjent form på GIMP-pensel på linje %d."
+#~ "Fatal feil i penselfil «%s»: Ukjent form på Glimpse-pensel på linje %d."
 
 #~ msgid "Line %d: %s"
 #~ msgstr "Strek %d: %s"
@@ -28422,7 +28422,7 @@ msgstr "ute av fokus"
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "Fatal feil i graderingsfil «%s»: Dette er ikke en graderingsfil for GIMP."
+#~ "Fatal feil i graderingsfil «%s»: Dette er ikke en graderingsfil for Glimpse."
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
 #~ msgstr "Fatal feil i graderingsfil «%s»: Filen er korrupt på linje %d."

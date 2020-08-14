@@ -1,4 +1,4 @@
-# Basque translation for The GIMP.
+# Basque translation for Glimpse.
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -26,7 +26,7 @@ msgstr ""
 #: ../app/about.h:22
 #, fuzzy
 msgid "Glimpse"
-msgstr "Irten GIMPetik"
+msgstr "Irten Glimpse"
 
 #: ../desktop/org.glimpse_editor.Glimpse.appdata.xml.in.in.h:2
 msgid "Create images and edit photographs"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:1
 msgid "Extra files for Glimpse"
-msgstr "Fitxategi gehigarriak GIMPerako"
+msgstr "Fitxategi gehigarriak Glimpseerako"
 
 #: ../desktop/glimpse-data-extras.metainfo.xml.in.in.h:2
 msgid "Patterns, gradients, and other extra files for Glimpse"
@@ -198,7 +198,7 @@ msgstr "Izan berritsuago"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "Abiarazi GIMPen instantzia berria"
+msgstr "Abiarazi Glimpse instantzia berria"
 
 #: ../app/main.c:184
 msgid "Open images as new"
@@ -5490,7 +5490,7 @@ msgstr "La_guntza"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "Ireki GIMPen eskuliburua"
+msgstr "Ireki Glimpse eskuliburua"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -5761,7 +5761,7 @@ msgid ""
 "to assigning a built-in sRGB color profile. Better leave color management "
 "enabled."
 msgstr ""
-"Irudiaren kolorea kudeatuko den ala ez. Kolore-kudeaketa desgaitzea, GIMPen "
+"Irudiaren kolorea kudeatuko den ala ez. Kolore-kudeaketa desgaitzea, Glimpse-en "
 "integratuta dagoen sRGB kolore-profil bat esleitzearen baliokidea izango da. "
 "Hobe kolore-kudeaketa gaituta uzten baduzu."
 
@@ -10855,7 +10855,7 @@ msgid ""
 "swap file is created on a folder that is mounted over NFS.  For these "
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"swap fitxategiaren kokalekua ezartzen du. Gimp-ek fitxetan oinarritutako "
+"swap fitxategiaren kokalekua ezartzen du. Glimpse-ek fitxetan oinarritutako "
 "memoria-esleipeneko eskema erabiltzen du. Trukatze-fitxategia fitxategiak "
 "diskotik eta diskora azkar eta erraztasunez trukatzeko erabiltzen da. "
 "Kontuan izan trukatze-fitxategia azkar handitu daitekeela Glimpse irudi "
@@ -12340,7 +12340,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"Badirudi lehendik ere GIMP %s erabili duzula. Glimpse aplikazioak zure "
+"Badirudi lehendik ere Glimpse %s erabili duzula. Glimpse aplikazioak zure "
 "ezarpenak hona migratuko ditu: '%s'."
 
 #: ../app/core/gimp-user-install.c:220
@@ -13072,7 +13072,7 @@ msgstr "Bete kolore solidoarekin"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "Ez da GIMPen gradiente-fitxategi bat."
+msgstr "Ez da Glimpse-en gradiente-fitxategi bat."
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14390,7 +14390,7 @@ msgid ""
 "Whether the image is color managed. Disabling color management is equivalent "
 "to choosing a built-in sRGB profile. Better leave color management enabled."
 msgstr ""
-"Irudiaren kolorea kudeatuko den ala ez. Kolore-kudeaketa desgaitzea, GIMPen "
+"Irudiaren kolorea kudeatuko den ala ez. Kolore-kudeaketa desgaitzea, Glimpse-en "
 "integratuta dagoen sRGB kolore-profil bat hautatzearen baliokidea izango da. "
 "Hobe kolore-kudeaketa gaituta uzten baduzu."
 
@@ -14519,7 +14519,7 @@ msgstr "GIMPi buruz"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "Bisitatu GIMPen webgunea"
+msgstr "Bisitatu Glimpse-en webgunea"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14935,7 +14935,7 @@ msgid ""
 "save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
 "Elkarrizketa-koadro hau erabil dezakezu hainbat fitxategi-formatura "
-"esportatzeko. Irudia GIMPen XFC formatuan gordetzea nahi baduzu, horren "
+"esportatzeko. Irudia Glimpse-en XFC formatuan gordetzea nahi baduzu, horren "
 "ordez erabili Fitxategia→Gorde aukera."
 
 #: ../app/dialogs/file-save-dialog.c:622
@@ -14952,7 +14952,7 @@ msgid ""
 "You can use this dialog to save to the Glimpse XCF format. Use File→Export "
 "to export to other file formats."
 msgstr ""
-"Elkarrizketa-koadro hau erabil dezakezu GIMPen XFC formatuan gordetzeko. "
+"Elkarrizketa-koadro hau erabil dezakezu Glimpse-en XFC formatuan gordetzeko. "
 "Irudia beste formatu batean gordetzeko, erabili Fitxategia→Esportatu aukera."
 
 #: ../app/dialogs/file-save-dialog.c:629
@@ -16511,7 +16511,7 @@ msgid ""
 "The Glimpse help browser doesn't seem to be installed. Using the web browser "
 "instead."
 msgstr ""
-"Badirudi GIMPen laguntzaren arakatzailea ez dagoela instalatuta. Horren "
+"Badirudi Glimpse-en laguntzaren arakatzailea ez dagoela instalatuta. Horren "
 "ordez, web-nabigatzailea erabiliko da."
 
 #. Action Search
@@ -18916,7 +18916,7 @@ msgstr "Kurba"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "ez da GIMPen kurben fitxategia"
+msgstr "ez da Glimpse-en kurben fitxategia"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -18991,7 +18991,7 @@ msgstr "Bridatu azken irteerako balioak."
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "ez da GIMPen mailen fitxategia"
+msgstr "ez da Glimpse-en mailen fitxategia"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -20512,7 +20512,7 @@ msgstr ""
 "Plugina kraskatuta: \"%s\"\n"
 "(%s)\n"
 "\n"
-"Baliteke kraskatu den pluginak GIMPen barneko egoera nahaspilatu izana. "
+"Baliteke kraskatu den pluginak Glimpse-en barneko egoera nahaspilatu izana. "
 "Irudiak gordetzea eta Glimpse berrabiaraztea komeni zaizu, segurutik "
 "jokatzeko."
 
@@ -22760,7 +22760,7 @@ msgstr "_Lekuz aldatu"
 #: ../app/tools/gimpmybrushtool.c:74
 #, fuzzy
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
-msgstr "MyPaint brotxen tresna: erabili MyPaint brotxak GIMPen"
+msgstr "MyPaint brotxen tresna: erabili MyPaint brotxak Glimpse-en"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -25275,7 +25275,7 @@ msgstr "GIMPek zenbait errore larri aurkitu ditu!"
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "_Berrabiarazi GIMP"
+msgstr "_Berrabiarazi Glimpse"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -27119,7 +27119,7 @@ msgstr "zalantzazkoa"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27145,7 +27145,7 @@ msgstr "zalantzazkoa"
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "GNUren Irudiak Manipulatzeko Programaren akronimoa da GIMP. Argazkiak "
+#~ "GNUren Irudiak Manipulatzeko Programaren akronimoa da Glimpse. Argazkiak "
 #~ "moldatzeko, irudiak konposatzeko eta irudiak sortzeko programa bat da, "
 #~ "modu librean banatzen dena."
 
@@ -27170,13 +27170,13 @@ msgstr "zalantzazkoa"
 #~ "egiteko diseinatuta dago, Script aurreratuen interfazeak zeregin "
 #~ "sinpleenetik konplexuenera lantzea baimentzen du irudiak ukitzeko "
 #~ "prozesuetan. Linux, Microsoft Windows eta OS X sistemetan erabilgarri "
-#~ "dago GIMP."
+#~ "dago Glimpse."
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "GIMPen margotzea"
+#~ msgstr "Glimpse-en margotzea"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "GIMPen argazkiak editatzea"
+#~ msgstr "Glimpse-en argazkiak editatzea"
 
 #~ msgid ""
 #~ "Glimpse 2.10.10 is quite a big update with many new features and bug "
@@ -27273,7 +27273,7 @@ msgstr "zalantzazkoa"
 #~ "Analisi-errore larria brotxa-fitxategian:\n"
 #~ "%d brotxa-sakonera ez da onartzen\n"
 #~ "GIMPen brotxek grisak edo RGBA izan behar dute.\n"
-#~ "Baliteke GIMPen brotxa-fitxategi zaharkitua izatea, saia zaitez irudi "
+#~ "Baliteke Glimpse-en brotxa-fitxategi zaharkitua izatea, saia zaitez irudi "
 #~ "gisa kargatzen eta berriro gordetzen."
 
 #~ msgctxt "undo-type"

@@ -15370,7 +15370,7 @@ msgid ""
 "You can use this dialog to export to various file formats. If you want to "
 "save the image to the Glimpse XCF format, use File→Save instead."
 msgstr ""
-"ਤੁਸੀਂ ਇਹ ਡਾਈਲਾਗ ਨੂੰ ਕਈ ਫਾਇਲ ਫਾਰਮੈਟ ਵਿੱਚ ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ। ਜੇ ਤੁਸੀਂ ਚਿੱਤਰ ਨੂੰ GIMP "
+"ਤੁਸੀਂ ਇਹ ਡਾਈਲਾਗ ਨੂੰ ਕਈ ਫਾਇਲ ਫਾਰਮੈਟ ਵਿੱਚ ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਵਰਤ ਸਕਦੇ ਹੋ। ਜੇ ਤੁਸੀਂ ਚਿੱਤਰ ਨੂੰ Glimpse "
 "XCF ਫਾਰਮੈਟ ਵਿੱਚ ਸੰਭਾਲਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਇਸ ਦੀ ਬਜਾਏ ਫਾਇਲ→ਸੰਭਾਲੋ ਨੂੰ ਵਰਤੋਂ।"
 
 #: ../app/dialogs/file-save-dialog.c:622

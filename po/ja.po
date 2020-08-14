@@ -109,7 +109,7 @@ msgstr ""
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:1
 #, fuzzy
 msgid "Glimpse Image Editor"
-msgstr "GIMP テキストエディター"
+msgstr "Glimpse テキストエディター"
 
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:2
 msgid "Image Editor"
@@ -158,16 +158,16 @@ msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Glimpse. If not, see: https://www.gnu.org/licenses/"
 msgstr ""
-"GIMP はフリーソフトウェアです。あなたは、フリーソフトウェア財団 (Free "
+"Glimpse はフリーソフトウェアです。あなたは、フリーソフトウェア財団 (Free "
 "Software Foundation, Inc.) が定める GNU 一般公衆利用許諾契約書 (GNU General "
 "Public License) の第３版または (あなたの判断により) それ以降の版に示される条"
 "件の下で、当ソフトウェアの改変・再頒布を行うことができます。\n"
 "\n"
-"GIMP はその有用性が期待され頒布されるものですが、市場性及び特定の目的への適合"
+"Glimpse はその有用性が期待され頒布されるものですが、市場性及び特定の目的への適合"
 "性についての暗黙の保証をも含め一切保証はありません。詳細については GNU 一般公"
 "衆利用許諾契約書をお読みください。\n"
 "\n"
-"あなたは、GIMP の頒布を受けたときに GNU 一般公衆利用許諾契約書のコピー "
+"あなたは、Glimpse の頒布を受けたときに GNU 一般公衆利用許諾契約書のコピー "
 "(COPYING という名のファイル) を受け取っているはずですが、もしそうでない場合は"
 "次のウェブページをご覧ください。\n"
 "\n"
@@ -205,7 +205,7 @@ msgstr "詳細なメッセージを表示する"
 #: ../app/main.c:179
 #, fuzzy
 msgid "Start a new Glimpse Image Editor instance"
-msgstr "新しい GIMP インスタンスを起動する"
+msgstr "新しい Glimpse インスタンスを起動する"
 
 # 新しい画像の画像ウィンドウにはタイトルとして「名称未設定」が表示されるので、それを補足した
 #: ../app/main.c:184
@@ -231,7 +231,7 @@ msgstr "起動時にスプラッシュを表示しない"
 #: ../app/main.c:209
 #, fuzzy
 msgid "Do not use shared memory between Glimpse Image Editor and plug-ins"
-msgstr "GIMP とプラグインの間でメモリを共有しない"
+msgstr "Glimpse とプラグインの間でメモリを共有しない"
 
 #: ../app/main.c:214
 msgid "Do not use special CPU acceleration functions"
@@ -310,7 +310,7 @@ msgstr ""
 #: ../app/main.c:615
 #, fuzzy
 msgid "Another Glimpse Image Editor instance is already running."
-msgstr "別の GIMP インスタンスが既に実行されています。"
+msgstr "別の Glimpse インスタンスが既に実行されています。"
 
 #: ../app/main.c:706
 #, fuzzy
@@ -3061,7 +3061,7 @@ msgstr "ファイル履歴(_Y)"
 msgctxt "dialogs-action"
 msgid "Open the document history dialog"
 msgstr ""
-"ファイル履歴ダイアログを開きます。これまでに GIMP で開いたファイルの履歴を表"
+"ファイル履歴ダイアログを開きます。これまでに Glimpse で開いたファイルの履歴を表"
 "示します。"
 
 #: ../app/actions/dialogs-actions.c:227
@@ -3105,7 +3105,7 @@ msgstr "設定(_P)"
 #: ../app/actions/dialogs-actions.c:251
 msgctxt "dialogs-action"
 msgid "Open the preferences dialog"
-msgstr "設定ダイアログを開きます。GIMP の実行環境を設定します。"
+msgstr "設定ダイアログを開きます。Glimpse の実行環境を設定します。"
 
 #: ../app/actions/dialogs-actions.c:256
 msgctxt "dialogs-action"
@@ -3139,7 +3139,7 @@ msgstr "モジュール(_M)"
 msgctxt "dialogs-action"
 msgid "Open the module manager dialog"
 msgstr ""
-"モジュールマネージャーダイアログを開いて GIMP に組み込むモジュールを指定しま"
+"モジュールマネージャーダイアログを開いて Glimpse に組み込むモジュールを指定しま"
 "す"
 
 #: ../app/actions/dialogs-actions.c:274
@@ -3150,7 +3150,7 @@ msgstr "今日の技(_T)"
 #: ../app/actions/dialogs-actions.c:275
 msgctxt "dialogs-action"
 msgid "Show some helpful tips on using Glimpse"
-msgstr "GIMP を上手に使うための Tip 集を表示します"
+msgstr "Glimpse を上手に使うための Tip 集を表示します"
 
 #: ../app/actions/dialogs-actions.c:281 ../app/actions/dialogs-actions.c:288
 msgctxt "dialogs-action"
@@ -4278,7 +4278,7 @@ msgstr "終了(_Q)"
 #: ../app/actions/file-actions.c:127
 msgctxt "file-action"
 msgid "Quit Glimpse"
-msgstr "GIMP を終了します"
+msgstr "Glimpse を終了します"
 
 #: ../app/actions/file-actions.c:136 ../app/actions/file-actions.c:311
 msgctxt "file-action"
@@ -5733,7 +5733,7 @@ msgstr "ヘルプ(_H)"
 #: ../app/actions/help-actions.c:43
 msgctxt "help-action"
 msgid "Open the Glimpse user manual"
-msgstr "ヘルプ (GIMP 使用の手引き) を開きます"
+msgstr "ヘルプ (Glimpse 使用の手引き) を開きます"
 
 #: ../app/actions/help-actions.c:49
 msgctxt "help-action"
@@ -10476,7 +10476,7 @@ msgstr "右手"
 #: ../app/config/config-enums.c:186
 msgctxt "help-browser-type"
 msgid "Glimpse help browser"
-msgstr "GIMP ヘルプブラウザー"
+msgstr "Glimpse ヘルプブラウザー"
 
 #: ../app/config/config-enums.c:187
 msgctxt "help-browser-type"
@@ -10700,7 +10700,7 @@ msgstr ""
 
 #: ../app/config/gimprc-blurbs.h:62
 msgid "Sets the type of mouse pointers to use."
-msgstr "GIMP が使うカーソルモードを設定します"
+msgstr "Glimpse が使うカーソルモードを設定します"
 
 #: ../app/config/gimprc-blurbs.h:65
 msgid "Sets the handedness for cursor positioning."
@@ -10921,7 +10921,7 @@ msgid ""
 "Glimpse will warn the user if an attempt is made to create an image that "
 "would take more memory than the size specified here."
 msgstr ""
-"ここで指定した以上のメモリ領域を必要とする画像を作成しようとすると、GIMP が警"
+"ここで指定した以上のメモリ領域を必要とする画像を作成しようとすると、Glimpse が警"
 "告します。"
 
 #: ../app/config/gimprc-blurbs.h:291
@@ -10969,7 +10969,7 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:317
 msgid ""
 "Sets how many threads Glimpse should use for operations that support it."
-msgstr "GIMP での処理で同時に使いたいスレッドの数を指定します。"
+msgstr "Glimpse での処理で同時に使いたいスレッドの数を指定します。"
 
 #: ../app/config/gimprc-blurbs.h:339
 msgid ""
@@ -11030,7 +11030,7 @@ msgid ""
 "open before.  When disabled, windows will appear on the currently used "
 "monitor."
 msgstr ""
-"有効にすると、GIMP は以前開いていたモニターにウィンドウを復元しようとします。"
+"有効にすると、Glimpse は以前開いていたモニターにウィンドウを復元しようとします。"
 "無効にすると、現在使用中のモニターにウィンドウが表示されます。"
 
 #: ../app/config/gimprc-blurbs.h:373
@@ -11053,15 +11053,15 @@ msgid ""
 "Keep a permanent record of all opened and saved files in the Recent "
 "Documents list."
 msgstr ""
-"この設定がオンのときは、GIMP で開いたり保存したりしたファイルの履歴がシステム"
+"この設定がオンのときは、Glimpse で開いたり保存したりしたファイルの履歴がシステム"
 "にも記録され、ファイル履歴ダイアログでの操作がシステムにも反映されます。\n"
-"設定がオフのときは、GIMP の [最近開いたファイル] には記録されますが、システム"
+"設定がオフのときは、Glimpse の [最近開いたファイル] には記録されますが、システム"
 "には記録されません。"
 
 #: ../app/config/gimprc-blurbs.h:386
 msgid "Save the positions and sizes of the main dialogs when Glimpse exits."
 msgstr ""
-"この設定がオンのときは、GIMP 終了時のメインダイアログの位置と大きさを保存しま"
+"この設定がオンのときは、Glimpse 終了時のメインダイアログの位置と大きさを保存しま"
 "す。"
 
 #: ../app/config/gimprc-blurbs.h:389
@@ -11241,10 +11241,10 @@ msgid ""
 "swap file is created on a folder that is mounted over NFS.  For these "
 "reasons, it may be desirable to put your swap file in \"/tmp\"."
 msgstr ""
-"スワップファイルの場所を設定します。GIMP はタイルベースのメモリ確保方式を利用"
+"スワップファイルの場所を設定します。Glimpse はタイルベースのメモリ確保方式を利用"
 "します。スワップファイルはスワップタイルをディスクに書き出したり戻したりする"
 "際に利用されます。\n"
-"GIMP で大きな画像を取り扱うと、スワップファイルはすぐに巨大になってしまいま"
+"Glimpse で大きな画像を取り扱うと、スワップファイルはすぐに巨大になってしまいま"
 "す。また NFS 経由でマウントされたディレクトリ上にスワップファイルを作成した場"
 "合、非常に動作が遅くなってしまいます。そのため、\"/tmp\" にスワップファイルを"
 "作成するのが望ましいです。"
@@ -11265,12 +11265,12 @@ msgstr ""
 #: ../app/config/gimprc-blurbs.h:501
 msgid "Save changed keyboard shortcuts when Glimpse exits."
 msgstr ""
-"この設定がオンのときは、変更または新設したキーボードショートカットを GIMP 終"
+"この設定がオンのときは、変更または新設したキーボードショートカットを Glimpse 終"
 "了時に保存します。"
 
 #: ../app/config/gimprc-blurbs.h:504
 msgid "Restore saved keyboard shortcuts on each Glimpse startup."
-msgstr "GIMP 起動時に保存されているキーボードショートカットを読み込みます。"
+msgstr "Glimpse 起動時に保存されているキーボードショートカットを読み込みます。"
 
 #: ../app/config/gimprc-blurbs.h:507
 msgid ""
@@ -11279,8 +11279,8 @@ msgid ""
 "but some files are likely to remain, so it is best if this folder not be one "
 "that is shared by other users."
 msgstr ""
-"一時フォルダーを指定します。GIMP 実行中にファイルが作成されます。ほとんどの"
-"ファイルは GIMP 終了時に削除されますが、いくつかのファイルは残りますので他の"
+"一時フォルダーを指定します。Glimpse 実行中にファイルが作成されます。ほとんどの"
+"ファイルは Glimpse 終了時に削除されますが、いくつかのファイルは残りますので他の"
 "ユーザーと共有されないフォルダーを指定することをお勧めします。"
 
 #: ../app/config/gimprc-blurbs.h:513
@@ -12702,7 +12702,7 @@ msgid ""
 "It seems you have used Glimpse %s before.  Glimpse will now migrate your "
 "user settings to '%s'."
 msgstr ""
-"現在のユーザーは、GIMP %s を使っていました。そのユーザーセッティングを '%s' "
+"現在のユーザーは、Glimpse %s を使っていました。そのユーザーセッティングを '%s' "
 "に移行します。"
 
 #: ../app/core/gimp-user-install.c:220
@@ -12711,7 +12711,7 @@ msgid ""
 "It appears that you are using Glimpse for the first time.  Glimpse will now "
 "create a folder named '%s' and copy some files to it."
 msgstr ""
-"現在のユーザーは初めて GIMP を使用します。'%s' という名のフォルダーを作成し、"
+"現在のユーザーは初めて Glimpse を使用します。'%s' という名のフォルダーを作成し、"
 "そこに必要なファイルをコピーします。"
 
 #: ../app/core/gimp-user-install.c:419
@@ -12796,7 +12796,7 @@ msgid ""
 msgstr ""
 "ブラシファイル '%s' 中の致命的な解析エラー: 非サポートのブラシ深度 %d で"
 "す。\n"
-"GIMP ブラシは グレースケールか、RGBA でなければなりません。"
+"Glimpse ブラシは グレースケールか、RGBA でなければなりません。"
 
 #: ../app/core/gimpbrush-load.c:519
 #, fuzzy, c-format
@@ -12864,7 +12864,7 @@ msgstr "クリップボード"
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
 msgid "Not a GIMP brush file."
-msgstr "GIMP のトーンカーブ設定ファイルではありません"
+msgstr "Glimpse のトーンカーブ設定ファイルではありません"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
@@ -13450,7 +13450,7 @@ msgstr "単色で塗りつぶす"
 #: ../app/core/gimpgradient-load.c:73
 #, fuzzy, c-format
 msgid "Not a GIMP gradient file."
-msgstr "GIMP のトーンカーブ設定ファイルではありません"
+msgstr "Glimpse のトーンカーブ設定ファイルではありません"
 
 #: ../app/core/gimpgradient-load.c:96
 #, c-format
@@ -14420,7 +14420,7 @@ msgid ""
 "GIMP Patterns must be GRAY or RGB."
 msgstr ""
 "パターン '%s' で致命的な解析エラー: 非サポートの深度 %d です。\n"
-"GIMP パターンは GRAY もしくは RGB でなければなりません。"
+"Glimpse パターンは GRAY もしくは RGB でなければなりません。"
 
 #: ../app/core/gimppattern-load.c:99
 #, c-format
@@ -14440,7 +14440,7 @@ msgstr "%d行目でファイルが切り詰められています。"
 #: ../app/core/gimppattern-load.c:134
 #, c-format
 msgid "Invalid UTF-8 string in pattern file '%s'."
-msgstr "GIMP パターンファイル '%s' 中に適切でない UTF-8 文字列があります。"
+msgstr "Glimpse パターンファイル '%s' 中に適切でない UTF-8 文字列があります。"
 
 #: ../app/core/gimppattern-load.c:177
 #, fuzzy
@@ -14935,11 +14935,11 @@ msgstr "パーセント"
 
 #: ../app/dialogs/about-dialog.c:126
 msgid "About Glimpse"
-msgstr "GIMP について"
+msgstr "Glimpse について"
 
 #: ../app/dialogs/about-dialog.c:135
 msgid "Visit the Glimpse website"
-msgstr "GIMP ウェブサイトへ"
+msgstr "Glimpse ウェブサイトへ"
 
 #. Translators: insert your names here,
 #. separated by newline
@@ -14998,7 +14998,7 @@ msgstr ""
 
 #: ../app/dialogs/about-dialog.c:676
 msgid "Glimpse is brought to you by"
-msgstr "GIMP の提供は"
+msgstr "Glimpse の提供は"
 
 #: ../app/dialogs/about-dialog.c:752
 #, c-format
@@ -15274,11 +15274,11 @@ msgstr "'%s' をディスクと一覧から削除します。よろしいです�
 #: ../app/dialogs/dialogs-constructors.c:216 ../app/gui/gui.c:194
 #: ../app/gui/gui-message.c:271
 msgid "Glimpse Message"
-msgstr "GIMP メッセージ"
+msgstr "Glimpse メッセージ"
 
 #: ../app/dialogs/dialogs-constructors.c:226
 msgid "Glimpse Debug"
-msgstr "GIMP デバッグ"
+msgstr "Glimpse デバッグ"
 
 #: ../app/dialogs/dialogs.c:316
 msgid "Devices"
@@ -15775,7 +15775,7 @@ msgstr "更新(_R)"
 #: ../app/dialogs/module-dialog.c:153
 #, fuzzy
 msgid "You will have to restart Glimpse for the changes to take effect."
-msgstr "変更を有効にするには GIMP を再起動する必要があります。"
+msgstr "変更を有効にするには Glimpse を再起動する必要があります。"
 
 #: ../app/dialogs/module-dialog.c:194
 msgid "Module"
@@ -15900,7 +15900,7 @@ msgstr "すべての設定を初期値に戻してもよろしいですか？"
 #, fuzzy
 msgid ""
 "You will have to restart Glimpse for the following changes to take effect:"
-msgstr "次に示す変更は、GIMP 再起動後に有効になります。"
+msgstr "次に示す変更は、Glimpse 再起動後に有効になります。"
 
 #: ../app/dialogs/preferences-dialog.c:647
 #, fuzzy
@@ -15908,7 +15908,7 @@ msgid ""
 "Your keyboard shortcuts will be reset to default values the next time you "
 "start Glimpse."
 msgstr ""
-"割り当てられていたキーボードショートカットは、次回 GIMP 起動時にデフォルト値"
+"割り当てられていたキーボードショートカットは、次回 Glimpse 起動時にデフォルト値"
 "に戻ります。"
 
 #: ../app/dialogs/preferences-dialog.c:658
@@ -15924,21 +15924,21 @@ msgstr "キーボードショートカットをすべて消去してもよろし
 msgid ""
 "Your window setup will be reset to default values the next time you start "
 "Glimpse."
-msgstr "ウィンドウの設定は、次回 GIMP 起動時にデフォルト値に戻ります。"
+msgstr "ウィンドウの設定は、次回 Glimpse 起動時にデフォルト値に戻ります。"
 
 #: ../app/dialogs/preferences-dialog.c:756
 #, fuzzy
 msgid ""
 "Your input device settings will be reset to default values the next time you "
 "start Glimpse."
-msgstr "入力デバイスの設定は、次回 GIMP 起動時にデフォルト値に戻ります。"
+msgstr "入力デバイスの設定は、次回 Glimpse 起動時にデフォルト値に戻ります。"
 
 #: ../app/dialogs/preferences-dialog.c:798
 #, fuzzy
 msgid ""
 "Your tool options will be reset to default values the next time you start "
 "Glimpse."
-msgstr "ツールオプションの設定は、次回の GIMP 起動時にデフォルト値に戻ります。"
+msgstr "ツールオプションの設定は、次回の Glimpse 起動時にデフォルト値に戻ります。"
 
 #: ../app/dialogs/preferences-dialog.c:850
 #: ../app/dialogs/preferences-dialog.c:2571
@@ -16031,7 +16031,7 @@ msgstr "アクティブなパスにスナップ"
 
 #: ../app/dialogs/preferences-dialog.c:1128
 msgid "Preferences"
-msgstr "GIMP の設定"
+msgstr "Glimpse の設定"
 
 #: ../app/dialogs/preferences-dialog.c:1164
 #: ../app/dialogs/preferences-dialog.c:1165
@@ -16121,7 +16121,7 @@ msgid ""
 "bugs."
 msgstr ""
 "これらの設定が必要ないことを願っていますが、すべてのソフトウェアと同じく、"
-"GIMP にはバグがあり、クラッシュする可能性があります。クラッシュした時に、バグ"
+"Glimpse にはバグがあり、クラッシュする可能性があります。クラッシュした時に、バグ"
 "を報告することによって私たちを助けることができます。"
 
 #: ../app/dialogs/preferences-dialog.c:1279
@@ -17530,7 +17530,7 @@ msgstr "ピクセル/%a"
 #: ../app/dialogs/quit-dialog.c:164
 #, fuzzy
 msgid "Quit Glimpse"
-msgstr "GIMP を終了します"
+msgstr "Glimpse を終了します"
 
 #: ../app/dialogs/quit-dialog.c:164
 msgid "Close All Images"
@@ -17712,28 +17712,28 @@ msgstr "描画の動的特性をエミュレートする(_E)"
 #: ../app/dialogs/tips-dialog.c:99
 #, fuzzy
 msgid "The Glimpse tips file is empty!"
-msgstr "「GIMP 今日の技」のファイルが空です。"
+msgstr "「Glimpse 今日の技」のファイルが空です。"
 
 #: ../app/dialogs/tips-dialog.c:103
 #, fuzzy
 msgid "The Glimpse tips file appears to be missing!"
-msgstr "「GIMP 今日の技」のファイルが見つかりません。"
+msgstr "「Glimpse 今日の技」のファイルが見つかりません。"
 
 #: ../app/dialogs/tips-dialog.c:105
 #, c-format
 msgid "There should be a file called '%s'. Please check your installation."
 msgstr ""
-"'%s' というファイルがなければなりません。GIMP が正しくインストールされている"
+"'%s' というファイルがなければなりません。Glimpse が正しくインストールされている"
 "か確認してください。"
 
 #: ../app/dialogs/tips-dialog.c:111
 #, fuzzy
 msgid "The Glimpse tips file could not be parsed!"
-msgstr "「GIMP 今日の技」のファイルが解析できません"
+msgstr "「Glimpse 今日の技」のファイルが解析できません"
 
 #: ../app/dialogs/tips-dialog.c:139
 msgid "Glimpse Tip of the Day"
-msgstr "GIMP 今日の技"
+msgstr "Glimpse 今日の技"
 
 #: ../app/dialogs/tips-dialog.c:145
 msgid "_Previous Tip"
@@ -17760,7 +17760,7 @@ msgstr "tips-locale:ja"
 #: ../app/dialogs/user-install-dialog.c:85
 #, fuzzy
 msgid "Glimpse User Installation"
-msgstr "GIMP ユーザーインストール"
+msgstr "Glimpse ユーザーインストール"
 
 #: ../app/dialogs/user-install-dialog.c:94
 msgid "User installation failed!"
@@ -19430,7 +19430,7 @@ msgstr "トーンカーブ"
 #: ../app/operations/gimpcurvesconfig.c:544
 #, fuzzy
 msgid "not a GNU I.M.P Curves file"
-msgstr "GIMP のトーンカーブ設定ファイルではありません"
+msgstr "Glimpse のトーンカーブ設定ファイルではありません"
 
 #: ../app/operations/gimpcurvesconfig.c:575
 msgid "Parse error, didn't find 2 integers"
@@ -19505,7 +19505,7 @@ msgstr ""
 #: ../app/operations/gimplevelsconfig.c:836
 #, fuzzy
 msgid "not a GNU I.M.P Levels file"
-msgstr "GIMP の色レベル設定ファイルではありません。"
+msgstr "Glimpse の色レベル設定ファイルではありません。"
 
 #: ../app/operations/gimplevelsconfig.c:911
 msgid "parse error"
@@ -19524,7 +19524,7 @@ msgstr "明るさとコントラストの調整"
 #: ../app/operations/gimpoperationcagecoefcalc.c:69
 #, fuzzy
 msgid "Compute a set of coefficient buffer for the GNU I.M.P cage tool"
-msgstr "GIMP ケージ変形ツール用に係数バッファーを計算します"
+msgstr "Glimpse ケージ変形ツール用に係数バッファーを計算します"
 
 # operation_class->description
 #: ../app/operations/gimpoperationcagetransform.c:104
@@ -19689,7 +19689,7 @@ msgstr "ファイル"
 
 #: ../app/gui/splash.c:138
 msgid "Glimpse Startup"
-msgstr "GIMP 起動中"
+msgstr "Glimpse 起動中"
 
 #: ../app/paint/gimpairbrush.c:80 ../app/tools/gimpairbrushtool.c:67
 msgid "Airbrush"
@@ -21072,8 +21072,8 @@ msgstr ""
 "\"%s\" プラグインがクラッシュしました。\n"
 "(%s)\n"
 "\n"
-"プラグインのクラッシュによって GIMP の内部状態が不安定になった可能性がありま"
-"す。作業中の画像を一旦保存して GIMP を再起動した方が良いでしょう。"
+"プラグインのクラッシュによって Glimpse の内部状態が不安定になった可能性がありま"
+"す。作業中の画像を一旦保存して Glimpse を再起動した方が良いでしょう。"
 
 #: ../app/plug-in/gimpplugin-message.c:487
 #, c-format
@@ -21189,12 +21189,12 @@ msgstr ""
 #: ../app/plug-in/plug-in-rc.c:237
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong GIMP protocol version."
-msgstr "'%s' をスキップ: 不正な GIMP プロトコルバージョンです。"
+msgstr "'%s' をスキップ: 不正な Glimpse プロトコルバージョンです。"
 
 #: ../app/plug-in/plug-in-rc.c:244
 #, fuzzy, c-format
 msgid "Skipping '%s': wrong pluginrc file format version."
-msgstr "'%s' をスキップ: 不正な GIMP プロトコルバージョンです。"
+msgstr "'%s' をスキップ: 不正な Glimpse プロトコルバージョンです。"
 
 #: ../app/plug-in/plug-in-rc.c:547
 #, c-format
@@ -23458,7 +23458,7 @@ msgstr "移動(_M)"
 msgid "MyPaint Brush Tool: Use MyPaint brushes in Glimpse"
 msgstr ""
 "[MyPaint ブラシで描画]\n"
-"GIMP で MyPaint ブラシを使用します"
+"Glimpse で MyPaint ブラシを使用します"
 
 #: ../app/tools/gimpmybrushtool.c:75
 msgid "M_yPaint Brush"
@@ -24267,7 +24267,7 @@ msgstr ""
 #: ../app/tools/gimptexttool-editor.c:1357
 #, fuzzy
 msgid "Glimpse Text Editor"
-msgstr "GIMP テキストエディター"
+msgstr "Glimpse テキストエディター"
 
 #: ../app/tools/gimpthresholdtool.c:95
 msgid "_Threshold..."
@@ -26051,7 +26051,7 @@ msgstr ""
 #: ../app/widgets/gimpcriticaldialog.c:617
 #, fuzzy
 msgid "_Restart Glimpse"
-msgstr "GIMP を終了します"
+msgstr "Glimpse を終了します"
 
 #: ../app/widgets/gimpdashboard.c:463 ../app/widgets/gimpdashboard.c:515
 msgctxt "dashboard-variable"
@@ -26811,7 +26811,7 @@ msgid ""
 "The Glimpse help browser plug-in appears to be missing from your "
 "installation. You may instead use the web browser for reading the help pages."
 msgstr ""
-"GIMP ヘルプブラウザープラグインがインストールされなかったようです。ユーザーマ"
+"Glimpse ヘルプブラウザープラグインがインストールされなかったようです。ユーザーマ"
 "ニュアルを表示するにはウェブブラウザーを使用してください。"
 
 #: ../app/widgets/gimphelp.c:419
@@ -26820,13 +26820,13 @@ msgstr "ヘルプブラウザーが起動しません"
 
 #: ../app/widgets/gimphelp.c:420
 msgid "Could not start the Glimpse help browser plug-in."
-msgstr "GIMP ヘルプブラウザープラグインを起動できません"
+msgstr "Glimpse ヘルプブラウザープラグインを起動できません"
 
 #: ../app/widgets/gimphelp.c:422
 #, fuzzy
 msgid "You may instead use the web browser for reading the help pages."
 msgstr ""
-"GIMP ヘルプブラウザープラグインがインストールされなかったようです。ユーザーマ"
+"Glimpse ヘルプブラウザープラグインがインストールされなかったようです。ユーザーマ"
 "ニュアルを表示するにはウェブブラウザーを使用してください。"
 
 #: ../app/widgets/gimphelp.c:448
@@ -26835,12 +26835,12 @@ msgstr "ウェブブラウザーを使用(_W)"
 
 #: ../app/widgets/gimphelp.c:793
 msgid "Glimpse user manual is missing"
-msgstr "GIMP ユーザーマニュアルが見つかりません"
+msgstr "Glimpse ユーザーマニュアルが見つかりません"
 
 #: ../app/widgets/gimphelp.c:809
 msgid "The Glimpse user manual is not installed in your language."
 msgstr ""
-"現在の言語用の GIMP ユーザーマニュアルが\n"
+"現在の言語用の Glimpse ユーザーマニュアルが\n"
 "インストールされていません。"
 
 #: ../app/widgets/gimphelp.c:820
@@ -26858,7 +26858,7 @@ msgid ""
 "You may either select a manual in another language or read the online "
 "version."
 msgstr ""
-"GIMP ヘルプパッケージを追加インストールするか、設定ダイアログの [ヘルプ] セク"
+"Glimpse ヘルプパッケージを追加インストールするか、設定ダイアログの [ヘルプ] セク"
 "ションで [使用するユーザーマニュアル] を [オンライン版] に変更すれば利用可能"
 "です。"
 
@@ -26867,7 +26867,7 @@ msgid ""
 "You may either install the additional help package or change your "
 "preferences to use the online version."
 msgstr ""
-"GIMP ヘルプパッケージを追加インストールするか、設定ダイアログの [ヘルプ] セク"
+"Glimpse ヘルプパッケージを追加インストールするか、設定ダイアログの [ヘルプ] セク"
 "ションで [使用するユーザーマニュアル] を [オンライン版] に変更すれば利用可能"
 "です。"
 
@@ -27571,7 +27571,7 @@ msgstr "%s のプリセット"
 #: ../app/widgets/gimpuimanager.c:847
 #, fuzzy
 msgid "Your Glimpse installation is incomplete:"
-msgstr "GIMP が正常にインストールされていません。"
+msgstr "Glimpse が正常にインストールされていません。"
 
 #: ../app/widgets/gimpuimanager.c:849
 msgid "Please make sure the menu XML files are correctly installed."
@@ -27877,7 +27877,7 @@ msgstr ""
 #: ../app-tools/gimp-debug-tool.c:87
 #, fuzzy
 msgid "Glimpse Crash Debug"
-msgstr "GIMP デバッグ"
+msgstr "Glimpse デバッグ"
 
 # タグ
 #: ../data/tags/gimp-tags-default.xml.in.h:1
@@ -27923,7 +27923,7 @@ msgstr "fuzzy"
 
 #, fuzzy
 #~ msgid "Quit GIMP"
-#~ msgstr "GIMP"
+#~ msgstr "Glimpse"
 
 #, fuzzy
 #~ msgid "GIMP Text Editor"
@@ -27938,21 +27938,21 @@ msgstr "fuzzy"
 #~ msgstr "デバッグ"
 
 #~ msgid "GNU Image Manipulation Program"
-#~ msgstr "GIMP (GNU Image Manipulation Program)"
+#~ msgstr "Glimpse"
 
 #~ msgid ""
 #~ "Glimpse is an acronym for GNU Image Manipulation Program. It is a freely "
 #~ "distributed program for such tasks as photo retouching, image composition "
 #~ "and image authoring."
 #~ msgstr ""
-#~ "GIMP (GNU Image Manipulation Program) は、フォトレタッチ、画像合成、画像"
+#~ "Glimpse は、フォトレタッチ、画像合成、画像"
 #~ "オーサリングといった作業を行うための、自由に配布できるプログラムです。"
 
 #~ msgid "Painting in Glimpse"
-#~ msgstr "GIMP でお絵描き"
+#~ msgstr "Glimpse でお絵描き"
 
 #~ msgid "Photo editing in Glimpse"
-#~ msgstr "GIMP で写真編集"
+#~ msgstr "Glimpse で写真編集"
 
 #, fuzzy
 #~| msgid "Many usability improvements"
@@ -28020,13 +28020,13 @@ msgstr "fuzzy"
 #~ msgstr ""
 #~ "ブラシファイル '%s' 中の致命的な解析エラー: 非サポートのブラシ深度 %d で"
 #~ "す。\n"
-#~ "GIMP ブラシは グレースケールか、RGBA でなければなりません。"
+#~ "Glimpse ブラシは グレースケールか、RGBA でなければなりません。"
 
 #~ msgid "_Offset"
 #~ msgstr "オフセット(_O)"
 
 #~ msgid "Show Glimpse _logo (drag-and-drop target)"
-#~ msgstr "GIMP のロゴを表示する(_L)"
+#~ msgstr "Glimpse のロゴを表示する(_L)"
 
 #~ msgctxt "undo-desc"
 #~ msgid "Flip"
@@ -28356,7 +28356,7 @@ msgstr "fuzzy"
 #~ msgstr "アイテムを反時計回り (左) に 90 度回転します"
 
 #~ msgid "Sets the pixel format to use for mouse pointers."
-#~ msgstr "GIMP が使うカーソルのピクセル形式を設定します"
+#~ msgstr "Glimpse が使うカーソルのピクセル形式を設定します"
 
 #~ msgid ""
 #~ "When enabled, the X server is queried for the mouse's current position on "
@@ -28484,20 +28484,20 @@ msgstr "fuzzy"
 
 #~ msgid "Fatal parse error in brush file '%s': Not a Glimpse brush file."
 #~ msgstr ""
-#~ "ブラシ '%s' で致命的な解析エラー: GIMP ブラシファイルではありません。"
+#~ "ブラシ '%s' で致命的な解析エラー: Glimpse ブラシファイルではありません。"
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush version in "
 #~ "line %d."
 #~ msgstr ""
-#~ "ブラシ '%s' で致命的な解析エラー: 不明な GIMP ブラシファイルのバージョンで"
+#~ "ブラシ '%s' で致命的な解析エラー: 不明な Glimpse ブラシファイルのバージョンで"
 #~ "す(%d行目)。"
 
 #~ msgid ""
 #~ "Fatal parse error in brush file '%s': Unknown Glimpse brush shape in line "
 #~ "%d."
 #~ msgstr ""
-#~ "ブラシ '%s' で致命的な解析エラー: 不明な GIMP ブラシの形状です。(%d行目)"
+#~ "ブラシ '%s' で致命的な解析エラー: 不明な Glimpse ブラシの形状です。(%d行目)"
 
 #~ msgid "Line %d: %s"
 #~ msgstr "%d行目: %s"
@@ -28522,7 +28522,7 @@ msgstr "fuzzy"
 #~ msgid ""
 #~ "Fatal parse error in gradient file '%s': Not a Glimpse gradient file."
 #~ msgstr ""
-#~ "グラデーション '%s' で致命的な解析エラー: GIMP グラデーションファイルでは"
+#~ "グラデーション '%s' で致命的な解析エラー: Glimpse グラデーションファイルでは"
 #~ "ありません。"
 
 #~ msgid "Fatal parse error in gradient file '%s': File is corrupt in line %d."
@@ -28821,7 +28821,7 @@ msgstr "fuzzy"
 #~ msgstr ""
 #~ "スワップファイルを開けません。メモリが不足してもスワップファイルが使えなく"
 #~ "なります。画像の構成要素が欠ける可能性がありますので、現在のファイル名とは"
-#~ "異なる名前で作業中の画像を保存し GIMP を再起動してください。その後、設定ダ"
+#~ "異なる名前で作業中の画像を保存し Glimpse を再起動してください。その後、設定ダ"
 #~ "イアログの [フォルダー] セクションでスワップ用フォルダーの場所を確認してく"
 #~ "ださい。"
 
@@ -29020,7 +29020,7 @@ msgstr "fuzzy"
 #~ msgstr "実行中のGIMPのみを使用し、新しいインスタンスでは起動しない"
 
 #~ msgid "Only check if Glimpse is running, then quit"
-#~ msgstr "GIMP が実行中かどうか確認して終了する"
+#~ msgstr "Glimpse が実行中かどうか確認して終了する"
 
 #~ msgid "Print X window ID of Glimpse toolbox window, then quit"
 #~ msgstr "ツールボックスの X window ID を表示して終了する"
@@ -29150,7 +29150,7 @@ msgstr "fuzzy"
 #~ "Generally only a concern for 8-bit displays, this sets the minimum number "
 #~ "of system colors allocated for GIMP."
 #~ msgstr ""
-#~ "GIMP で利用できる最小のシステムカラー数を指定します。 (8-bit ディスプレイ"
+#~ "Glimpse で利用できる最小のシステムカラー数を指定します。 (8-bit ディスプレイ"
 #~ "にのみ関係します)"
 
 #~ msgctxt "dialogs-action"
@@ -29531,13 +29531,13 @@ msgstr "fuzzy"
 #~ msgstr "ヘルプブラウザーが見つかりません"
 
 #~ msgid "Could not find Glimpse help browser."
-#~ msgstr "GIMP ヘルプブラウザーが見付かりません"
+#~ msgstr "Glimpse ヘルプブラウザーが見付かりません"
 
 #~ msgid "Use _web browser instead"
 #~ msgstr "ウェブブラウザーで代用する(_W)"
 
 #~ msgid "Show the tip of the day"
-#~ msgstr "GIMP の Tip集「今日の技」を表示します"
+#~ msgstr "Glimpse の Tip集「今日の技」を表示します"
 
 #~ msgid ""
 #~ "When enabled, the online user manual will be used by the help system. "
@@ -29813,13 +29813,13 @@ msgstr "fuzzy"
 #~ msgstr "両端揃え"
 
 #~ msgid "Enable displaying a handy Glimpse tip on startup."
-#~ msgstr "チェックを入れると、GIMP 起動時に「今日の技」を表示します。"
+#~ msgstr "チェックを入れると、Glimpse 起動時に「今日の技」を表示します。"
 
 #~ msgid "Show tips on _startup"
 #~ msgstr "起動時に今日の技を表示(_S)"
 
 #~ msgid "Show tip next time Glimpse starts"
-#~ msgstr "次回の GIMP 起動時にも「今日の技」を表示"
+#~ msgstr "次回の Glimpse 起動時にも「今日の技」を表示"
 
 #~ msgid "Save document _history on exit"
 #~ msgstr "終了時にファイル履歴を保存(_H)"
