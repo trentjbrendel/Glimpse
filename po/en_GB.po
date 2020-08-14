@@ -119,7 +119,7 @@ msgstr "Create a new image"
 #: ../desktop/org.glimpse_editor.Glimpse.desktop.in.in.h:5
 #, fuzzy
 msgid "graphic;design;illustration;painting;photography;gimp"
-msgstr "Glimpse;graphic;design;illustration;painting;"
+msgstr "graphic;design;illustration;painting;photography;gimp"
 
 #: ../app/about.h:25
 #, fuzzy
