@@ -119,7 +119,7 @@ msgstr "Створення нового зображення"
 #, fuzzy
 msgid "graphic;design;illustration;painting;photography;gimp"
 msgstr ""
-"Glimpse;graphic;design;illustration;painting;гімп;ґімп;графіка;дизайн;"
+"graphic;design;illustration;painting;photography;gimpгімп;ґімп;графіка;дизайн;"
 "ілюстрації;малювання;"
 
 #: ../app/about.h:25
