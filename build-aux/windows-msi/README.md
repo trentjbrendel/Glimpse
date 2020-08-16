@@ -5,7 +5,7 @@ The instructions provided assume you have already installed [MSYS2](https://www.
 
 **IMPORTANT**: *Due to bug [#449](https://github.com/glimpse-editor/Glimpse/issues/449), we are unable to release Glimpse Image Editor 0.2.0 on Windows. If you try, the text tool and external font detection will be broken!*
 
-*Our workaround in August 2020 was to create a "Glimpse Image Editor 0.1.2 Gold Edition" release that adds many of the cool new features from 0.2.0, but re-uses the same 0.1.2 executable we released in March 2020. (We cannot rebuild the executable because the bug is in the build system MSYS2, so it would be affected by the same problem)*
+*Our workaround in August 2020 was to create a "Glimpse Image Editor 0.1.2 Release 2" release that adds many of the cool new features from 0.2.0, but re-uses the same 0.1.2 executable we released in March 2020. (We cannot rebuild the executable because the bug is in the build system MSYS2, so it would be affected by the same problem)*
 
 *If you are reading this in some future time, the bug may have been fixed. You may also have better luck with the upstream's custom cross-compilation tool called "crossroad" or manually cross-compiling yourself with MinGW64*
 
@@ -66,7 +66,7 @@ The component versions in `glimpse-0-2-0-x64.wxs` may differ from your own, so y
 
 You will be pleased to know that we do not include the whole of MinGW inside the MSI file! The WiX build tools just pick out the dependencies we have determined that Glimpse Image Editor (64-bit) needs to function through a combination of experimentation and guesswork.
 
-### How to Package Glimpse Image Editor 0.1.2 Gold Edition
+### How to Package Glimpse Image Editor 0.1.2 Release 2
 These instructions will package the code as a 32-bit Windows MSI installer. You should install [the original Glimpse Image Editor 0.1.2 installer](https://github.com/glimpse-editor/Glimpse/releases/download/v0.1.2/glimpse-0.1.2.msi) on Windows to retrieve the built files you need for this.
 
 1. Follow the steps for packaging Glimpse Image Editor 0.2.0 x86 (32-bit)
