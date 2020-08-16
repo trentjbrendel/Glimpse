@@ -39,7 +39,9 @@ The Glimpse project is strictly not-for-profit, and you can scrutinize all of ou
 Our primary objective is to expand the use of free software and help new people join the free software community. Replacing the GNU Image Manipulation Program is not our goal, and we believe that supporting and collaborating with the project we forked from is a more productive route forward.
 
 ### "Are you planning a complete rewrite?"
-Possibly. There has been some early talk about replacing the user interface and plug-in framework, while still using the same underlying components like [GEGL](http://www.gegl.org/). However that is not likely to happen for a number of years (if it ever happens at all), so we primarily focus on improving GNU Image Manipulation Program 2.10.
+Yes. There is a separate working group developing "Glimpse NX", which is a completely new image editing application. We will release more details about that once it graduates from the early design stages of development.
+
+We estimate that it will be a number of years before Glimpse NX is ready, so we will continue forking the GNU Image Manipulation Program for the time being.
 
 ## Ask for help
 There are a number of ways to request support:
@@ -69,7 +71,7 @@ There are a number of ways to request a new feature:
 [Return to top](#top)
 
 ## Build and test the code
-You can find full instructions for this specific release in the `HACKING` file provided with this source code.
+You can find full instructions for this specific release in the `HACKING.md` file provided with this source code.
 
 Instructions for newer releases are available on the Glimpse development wiki: https://github.com/glimpse-editor/Glimpse/wiki.
 
