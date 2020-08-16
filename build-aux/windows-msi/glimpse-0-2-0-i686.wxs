@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Name="Glimpse 0.2.0 BETA" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.2.0">
+	<Product Name="Glimpse 0.2.0" Manufacturer="Glimpse Project" Id="*" UpgradeCode="b3a61b97-744b-4fdd-bebb-aa458e0af443" Language="1033" Codepage="1252" Version="0.2.0">
 		<Package Id="*" Keywords="Installer" Description="Glimpse 0.2.0 Installer" Comments="Glimpse Image Editor is provided under the GNU General Public License version 3." Manufacturer="Glimpse Project" InstallerVersion="500" Languages="1033" Compressed="yes" SummaryCodepage="1252" />
 		<!-- Installation Requirements -->
 		<Condition Message="You must be an administrator to install Glimpse Image Editor.">
@@ -25,7 +25,7 @@
 		<Directory Id="TARGETDIR" Name="SourceDir">
 			<Directory Id="ProgramFilesFolder" Name="PFiles">
 				<Directory Id="Glimpse" Name="Glimpse Image Editor">
-					<Directory Id="INSTALLDIR" Name="Glimpse 0.2.0 BETA">
+					<Directory Id="INSTALLDIR" Name="Glimpse 0.2.0">
 						<Directory Id="dir9773C2E7BD26DF973F07BC192FC918E9" Name="bin">
 							<Component Id="cmp0F24E9666A93267D353AFE59DB29C266" Guid="*">
 								<File Id="filD307DFDBD22E988F91B7CA3546C3BCFC" DiskId="1" Source="InputFiles32\bin\gimp-debug-resume.exe" />
@@ -43,8 +43,8 @@
 							<Component Id="cmp5942190B3659A153307B5C85041AC9C4" Guid="*">
 								<File Id="filBCA7B5276BD10B39E6895C60C58E6C4E" DiskId="1" Source="InputFiles32\bin\glimpse-0.2.exe" KeyPath="yes">
 									<!-- Start Menu and Desktop shortcuts -->
-									<Shortcut Id="startmenuGlimpse02" Directory="ProgramMenuDir" Name="Glimpse 0.2.0 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
-									<Shortcut Id="desktopGlimpse02" Directory="DesktopFolder" Name="Glimpse 0.2.0 BETA" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
+									<Shortcut Id="startmenuGlimpse02" Directory="ProgramMenuDir" Name="Glimpse 0.2.0" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
+									<Shortcut Id="desktopGlimpse02" Directory="DesktopFolder" Name="Glimpse 0.2.0" WorkingDirectory="INSTALLDIR" Icon="Glimpse.exe" IconIndex="0" Advertise="yes" />
 								</File>
 								<!-- Set registry keys for Right-click > Open With... and Windows 7 jump menus -->
 								<RegistryValue Root="HKLM" Key="SOFTWARE\Classes\Applications\Glimpse.exe\DefaultIcon" Value="[INSTALLDIR]\bin\Glimpse.exe,1" Type="string" />
