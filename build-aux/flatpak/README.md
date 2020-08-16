@@ -44,8 +44,8 @@ And replace it by something like the following (adapt to the actual release):
            {
              "type": "git",
              "url": "<https://github.com/glimpse-editor/glimpse>",
-             "tag": "0.1.0",
-             "commit": "175d402049d2737673b700a87f08dd0baddafc08"
+             "tag": "0.1.2",
+             "commit": "30a4913df8e11635bfdb16029da2237e29e4053a"
            }
          ],
        }
