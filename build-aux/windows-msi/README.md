@@ -5,7 +5,7 @@ The instructions provided assume you have already installed [MSYS2](https://www.
 
 **IMPORTANT**: *Due to bug [#449](https://github.com/glimpse-editor/Glimpse/issues/449), we are unable to release Glimpse Image Editor 0.2.0 on Windows. If you try, the text tool and external font detection will be broken!*
 
-*Our workaround in August 2020 was to create a "Glimpse Image Editor 0.1.2 Release 2" release that adds many of the cool new features from 0.2.0, but re-uses the same 0.1.2 executable we released in March 2020. (We cannot rebuild the executable because the bug is in the build system MSYS2, so it would be affected by the same problem)*
+*Our workaround in August 2020 was to create "Glimpse Image Editor 0.1.2 Release 2", which adds many of the cool new packaging & config features from 0.2.0, but re-uses the same 0.1.2 executable we released in March 2020. (We cannot rebuild the executable because the bug is in the build system MSYS2, so it would be affected by the same problem)*
 
 *If you are reading this in some future time, the bug may have been fixed. You may also have better luck with the upstream's custom cross-compilation tool called "crossroad" or manually cross-compiling yourself with MinGW64*
 
@@ -70,7 +70,7 @@ You will be pleased to know that we do not include the whole of MinGW inside the
 These instructions will package the code as a 32-bit Windows MSI installer. You should install [the original Glimpse Image Editor 0.1.2 installer](https://github.com/glimpse-editor/Glimpse/releases/download/v0.1.2/glimpse-0.1.2.msi) on Windows to retrieve the built files you need for this.
 
 1. Follow the steps for packaging Glimpse Image Editor 0.2.0 x86 (32-bit)
-2. Copy `build-aux\windows-msi\AUTHORS-0-1-2-gold.TXT` to `InputFiles32\AUTHORS.TXT`
+2. Copy `build-aux\windows-msi\AUTHORS-0-1-2-release2.TXT` to `InputFiles32\AUTHORS.TXT`
 3. Copy the contents of `share\locale` from Glimpse 0.1.2 install to `InputFiles32\share\locale`
 4. Copy the following contents of `bin` from Glimpse 0.1.2 install to `InputFiles32\bin`:
     - `Glimpse.exe`
@@ -92,8 +92,8 @@ These instructions will package the code as a 32-bit Windows MSI installer. You 
 5. Navigate to the directory this file is in using a command prompt window and run the following commands:
 
 ```bat
-"%WIX%bin"\candle.exe glimpse-0-1-2-gold.wxs -arch x86
-"%WIX%bin"\light.exe glimpse-0-1-2-gold.wixobj -ext WixUIExtension
+"%WIX%bin"\candle.exe glimpse-0-1-2-release2.wxs -arch x86
+"%WIX%bin"\light.exe glimpse-0-1-2-release2.wixobj -ext WixUIExtension
 ```
 
 The component versions must exactly match. If they do not, copy them from your existing Glimpse Image Editor 0.1.2 installation.

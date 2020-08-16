@@ -14,9 +14,9 @@ Once `snapd`, `snapcraft`, and `multipass` are installed, you are ready to b
 
 The build will take ~30 min and once completed, you'll have a message similar to:
 
-         Snapped glimpse-editor_0+git.5f458ddc43_amd64.snap
+         Snapped glimpse-editor_0+git.30a4913df8_amd64.snap
 
-You can install this snap and then run it by either clicking the application icon installed or run it from the command line:
+You can install this snap and then run it by either clicking the application icon installed or run it from the command line: 
 
-         $ sudo snap install glimpse-editor_0+git.5f458ddc43_amd64.snap --dangerous  
+         $ sudo snap install glimpse-editor_0+git.30a4913df8_amd64.snap --dangerous  
          $ snap run glimpse-editor
