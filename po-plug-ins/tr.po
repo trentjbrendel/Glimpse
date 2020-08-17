@@ -2391,7 +2391,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Türü tanınmadığı için görüntü üzerinde işlem yapılamadı"
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP fırçası"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2554,7 +2554,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Varsayılan açıklama %d karakterle sınırlıdır."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP fırça (hareketli)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3051,7 +3051,7 @@ msgid "MNG animation"
 msgstr "MNG animasyonu"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP deseni"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12877,7 +12877,7 @@ msgstr "Tarayıcıdan/kameradan veri aktarılıyor"
 #~ msgid "Unsupported brush format"
 #~ msgstr "Desteklenmeyen fırça biçimi"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "GIMP fırça dosyası '%s'de sorun"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12890,7 +12890,7 @@ msgstr "Tarayıcıdan/kameradan veri aktarılıyor"
 #~ msgid "Error writing output file."
 #~ msgstr "Çıktı dosyası yazılırken hata."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Hasarlı GIMP fırça dosyası."
 
 #~ msgid ""
@@ -13950,10 +13950,10 @@ msgstr "Tarayıcıdan/kameradan veri aktarılıyor"
 #~ msgid "_Limit line width"
 #~ msgstr "Hat genişliği _sınırı"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP fırçaları ya GRİTONLAMALI veya RGBA"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "GIMP fırça boru dosyasında hata."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

@@ -2390,7 +2390,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Немагчыма працаваць зь відарысам невядомага тыпу."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Пэндзаль GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2554,7 +2554,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Прадвызначаны камэнтар абмежаваны %d знакамі."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Анімаваны пэндзаль GIMP"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3050,7 +3050,7 @@ msgid "MNG animation"
 msgstr "Анімацыя MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Узор GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13475,22 +13475,22 @@ msgstr "Прыймо даньняў са сканэра/камэры"
 #~ msgstr ""
 #~ "Недапушчальныя даньні ў загалоўку «%s»: шырыня=%lu, вышыня=%lu, байтаў=%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Памылка ў файле з пэндзлем «%s»"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Недапушчальны радок UTF-8 у файле з пэндзлем «%s»."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Пэндзлі GIMP або ШЭРЫЯ, або RGBA"
 
 #~ msgid "Error writing output file."
 #~ msgstr "Памылка запісу выходнага файла."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Памылка ў файле з пасьлядоўнасьцю пэндзляў GIMP."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Файл з пэндзлем GIMP, падаецца пашкоджаным!"
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

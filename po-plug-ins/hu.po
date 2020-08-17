@@ -2391,7 +2391,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Ismeretlen képtípusok nem kezelhetők."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP-ecset"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2548,7 +2548,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Az alapértelmezett megjegyzés hossza maximum %d karakter."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-ecset (animált)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3033,7 +3033,7 @@ msgid "MNG animation"
 msgstr "MNG-animáció"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-minta"
 
 #: ../plug-ins/common/file-pat.c:287

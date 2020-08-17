@@ -362,7 +362,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Editor del pinzell"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -509,7 +509,7 @@ msgstr "Editor de la paleta"
 msgid "Palettes"
 msgstr "Paletes"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12504,7 +12504,7 @@ msgstr "Sense nom"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Error greu d'anàlisi en el fitxer de pinzell:\n"
 "Profunditat de pinzell no suportada %d\n"
@@ -12576,17 +12576,17 @@ msgstr "Imatge del porta-retalls"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "No és un fitxer de pinzells de Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "No es coneix la versió del pinzell de Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr "No es coneix la forma del pinzell de Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14105,7 +14105,7 @@ msgstr "Versió de format de patró %d desconeguda."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "No es permet una profunditat de patró de %d.\n"
 "Els patrons de Glimpse han de ser en GRIS o en RGB."
@@ -18296,14 +18296,9 @@ msgstr "Seqüència de caràcters no vàlida a l'URI"
 msgid "GNU I.M.P brush"
 msgstr "El Meu Pinzell"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "El Meu Pinzell"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Pinzell de Glimpse (animat)"
 
 #: ../app/file-data/file-data.c:365
@@ -18313,7 +18308,7 @@ msgstr "Patró"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Patró"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

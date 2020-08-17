@@ -346,7 +346,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "ਬੁਰਸ਼ ਐਡੀਟਰ"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -492,7 +492,7 @@ msgstr "ਪੈਲਅਟ ਐਡੀਟਰ"
 msgid "Palettes"
 msgstr "ਪੈਲਅਟ"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12807,7 +12807,7 @@ msgstr "ਬੇ-ਨਾਮ"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "ਬੁਰਸ਼ ਫਾਇਲ '%s' ਵਿੱਚ ਘਾਤਕ ਗਲਤੀ: ਅਣ-ਸਹਿਯੋਗੀ ਬੁਰਸ਼ ਡੂੰਘਾਈ %d।\n"
 "ਜੈਮਪ ਬੁਰਸ਼ GRAY ਜਾਂ RGBA ਹੋਣੇ ਜ਼ਰੂਰੀ ਹਨ।"
@@ -12869,17 +12869,17 @@ msgstr "ਕਲਿੱਪਬੋਰਡ"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "ਇੱਕ ਜੈਮਪ ਕਰਵ ਫਾਇਲ ਨਹੀਂ ਹੈ"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "ਪੈਟਰਨ ਫਾਇਲ '%s' ਵਿੱਚ ਘਾਤਕ ਪਾਰਸ ਗਲਤੀ: ਅਣਜਾਣ ਪੈਟਰਨ ਫਾਰਮੈਟ ਵਰਜਨ %d।"
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14418,7 +14418,7 @@ msgstr "ਪੈਟਰਨ ਫਾਇਲ '%s' ਵਿੱਚ ਘਾਤਕ ਪਾਰਸ
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "ਪੈਟਰਨ ਫਾਇਲ '%s' ਵਿੱਚ ਘਾਤਕ ਪਾਰਸ ਗਲਤੀ: ਨਾ-ਸਹਾਇਕ ਪੈਟਰਨ ਡੂੰਘਾਈ %d।\n"
 "ਜੈਪਮ ਪੈਟਰਨ ਗਰੇ (GRAY) ਜਾਂ RGB ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
@@ -18755,13 +18755,8 @@ msgstr "URI ਵਿੱਚ ਕੋਈ ਠੀਕ ਅੱਖਰ ਕ੍ਰਮ ਨਹੀ
 msgid "GNU I.M.P brush"
 msgstr "ਏਅਰ-ਬੁਰਸ਼"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "ਏਅਰ-ਬੁਰਸ਼"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -18771,7 +18766,7 @@ msgstr "ਪੈਟਰਨ"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "ਪੈਟਰਨ"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

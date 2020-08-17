@@ -333,7 +333,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "બ્રશ સંપાદક"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -485,7 +485,7 @@ msgstr "તકતી સંપાદક"
 msgid "Palettes"
 msgstr "તકતીઓ"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -13636,7 +13636,7 @@ msgstr "નામ વિનાનું"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "બ્રશ ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: બિનઆધારભૂત બ્રશ ઊંડાઈ %d\n"
 "Glimpse બ્રશો GRAY અથવા RGBA હોવા જ જોઈએ."
@@ -13701,17 +13701,17 @@ msgstr "ક્લિપબોર્ડ"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "નિયમિત ફાઈલ નથી"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -15372,7 +15372,7 @@ msgstr "તકતી ફાઈલ '%s' માં ઘાતક પદચ્છે
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "તકતી ફાઈલ '%s' માં ઘાતક પદચ્છેદન ભૂલ: બિનઆધારભૂત ભાત ઊંડાઈ %d.\n"
 "Glimpse ભાતો GRAY અથવા RGB હોવી જ જોઈએ."
@@ -19823,13 +19823,8 @@ msgstr "URI માં અયોગ્ય અક્ષર માળા"
 msgid "GNU I.M.P brush"
 msgstr "નવું બ્રશ"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "નવું બ્રશ"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -19839,7 +19834,7 @@ msgstr "ભાત"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "ભાત"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

@@ -2394,7 +2394,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "មិនអាច​ប្រតិបត្តិ​​លើ​​រូបភាព​ដែល​មិនស្គាល់ប្រភេទ​នោះ​ឡើយ ។"
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "ជក់ GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2553,7 +2553,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "សេចក្តី​អធិប្បាយ​លំនាំដើម​​គឺត្រូវបាន​កំណត់​ជា​​តួអក្សរ %d ។"
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "ជក់របស់​ GIMP (មានចលនា)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3048,7 +3048,7 @@ msgid "MNG animation"
 msgstr "ចលនា MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "លំនាំ​របស់ GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13294,13 +13294,13 @@ msgstr "ផ្ទេរ​ទិន្នន័យ​ពី​ម៉ាស៊ី
 #~ msgid "_IIR"
 #~ msgstr "IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "មាន​កំហុស​នៅ​ក្នុង​ឯកសារ​ជក់ GIMP '%s'"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "ខ្សែអក្សរ UTF-8 មិន​ត្រឹមត្រូវ នៅ​ក្នុង​ឯកសារ​ជក់ '%s' ។"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "ជក់​របស់ GIMP អាចជា​ មាត្រដ្ឋានប្រផេះ ឬ RGBA"
 
 #~ msgid "Save as Brush"
@@ -13333,10 +13333,10 @@ msgstr "ផ្ទេរ​ទិន្នន័យ​ពី​ម៉ាស៊ី
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "ស្រទាប់ %s មិនមាន​ឆានែល​អាល់ហ្វាទេ, វា​បានរំលង"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "មាន​កំហុស​នៅក្នុង​ឯកសារ​បំពង់​ GIMP ។"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "ឯកសារ​ជក់​របស់ GIMP លេចឡើង​មិន​ត្រឹមត្រូវ ។"
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

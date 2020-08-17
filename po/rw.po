@@ -351,7 +351,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr ""
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -526,7 +526,7 @@ msgstr ""
 msgid "Palettes"
 msgstr "Urusobe rw'amabara"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -14411,7 +14411,7 @@ msgstr "Ntazina"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr "Ikosa in Uburoso IDOSIYE Uburoso Ubujyakuzimu Cyangwa"
 
 #: ../app/core/gimpbrush-load.c:519
@@ -14480,17 +14480,17 @@ msgstr "Ububikokoporora"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "a Ibisanzwe IDOSIYE"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 # #-#-#-#-#  starmath.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -16230,7 +16230,7 @@ msgstr "Ikosa in Ishusho IDOSIYE Ishusho Imiterere Verisiyo"
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr "Ikosa in Ishusho IDOSIYE Ishusho Ubujyakuzimu Cyangwa"
 
 #: ../app/core/gimppattern-load.c:99
@@ -21165,12 +21165,8 @@ msgstr "Inyuguti in"
 msgid "GNU I.M.P brush"
 msgstr ""
 
-#: ../app/file-data/file-data.c:124
-msgid "GIMP brush"
-msgstr ""
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 # svx/source\tbxctrls\tbcontrl.src:RID_SVXSTR_FILLPATTERN.text
@@ -21182,7 +21178,7 @@ msgstr "Umutako"
 # svx/source\tbxctrls\tbcontrl.src:RID_SVXSTR_FILLPATTERN.text
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Umutako"
 
 # svx/source\dialog\tabarea.src:RID_SVXPAGE_COLOR.LB_COLORMODEL.1.text

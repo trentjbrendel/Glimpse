@@ -353,7 +353,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "붓 편집기"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -501,7 +501,7 @@ msgstr "팔레트 편집기"
 msgid "Palettes"
 msgstr "팔레트"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12787,7 +12787,7 @@ msgstr "이름없음"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "붓 파일 '%s'에 치명적인 해석 오류: 지원되지 않는 심도 %d\n"
 "김프 붓은 GRAY나 RGBA여야 합니다."
@@ -12850,17 +12850,17 @@ msgstr "클립보드"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "김프 커브 파일이 아닙니다."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "무늬 파일 '%s'에 치명적인 해석 오류: 알 수 없는 무늬 형식 버전 %d."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14390,7 +14390,7 @@ msgstr "무늬 파일 '%s'에 치명적인 해석 오류: 알 수 없는 무늬 
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "무늬 파일 '%s'에 치명적인 해석 오류: 지원하지 않는 심도 %d.\n"
 "김프 무늬는 GRAY나 RGB여야 합니다."
@@ -18741,13 +18741,8 @@ msgstr "URI의 글자 배열이 잘못되었습니다"
 msgid "GNU I.M.P brush"
 msgstr "에어브러시"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "에어브러시"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -18757,7 +18752,7 @@ msgstr "무늬"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "무늬"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

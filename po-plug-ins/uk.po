@@ -2380,7 +2380,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Не вдається виконати дії із зображеннями невідомого типу."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Пензель GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2539,7 +2539,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Коментар типово обмежений довжиною  %d символів."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Пензель GIMP(анімаційний)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3040,7 +3040,7 @@ msgid "MNG animation"
 msgstr "Анімація MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Текстура GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12711,7 +12711,7 @@ msgstr "Отримання даних зі сканера/камери"
 #~ msgid "Invalid header data in '%s': Brush name is too long: %lu"
 #~ msgstr "Неправильні дані заголовока у «%s»: Назва пензля занадто довга: %lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Помилка у файлі пензля GIMP «%s»."
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12720,7 +12720,7 @@ msgstr "Отримання даних зі сканера/камери"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "Назва пензля занадто довга: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Схоже файл пензля пошкоджений."
 
 #~ msgid "Quality:"

@@ -2389,7 +2389,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Ei voi käsitellä tuntemattomia kuvatyyppejä."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP sivellin"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2539,7 +2539,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Kommentti on rajattu %d merkkiin."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP sivellin (animoitu)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3033,7 +3033,7 @@ msgid "MNG animation"
 msgstr "MNG animaatio"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP kuvio"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12661,13 +12661,13 @@ msgstr "Siirretään tietoja kuvanlukijasta tai kamerasta"
 #~ msgid "Unsupported brush format"
 #~ msgstr "Tuntematon siveltimen muoto"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Virhe sivellintiedostossa \"%s\""
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Epäkelpo UTF-8-merkkijono sivellintiedostossa \"%s\"."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Gimpin sivellintiedosto näyttää olevan vaurioitunut."
 
 #~ msgid "Quality:"
@@ -13520,7 +13520,7 @@ msgstr "Siirretään tietoja kuvanlukijasta tai kamerasta"
 #~ msgid "Save as C-Source"
 #~ msgstr "Tallenna C-lähdekoodina"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP siveltimet ovat harmaasävyisiä tai RGBA"
 
 #~ msgid "Save as Brush"
@@ -13535,7 +13535,7 @@ msgstr "Siirretään tietoja kuvanlukijasta tai kamerasta"
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "Tasolla %s ei ole alfa-kanavaa."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Virhe Gimpin sivellinputken tiedostossa."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

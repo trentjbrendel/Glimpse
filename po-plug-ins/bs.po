@@ -2393,7 +2393,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Ne mogu raditi sa nepoznatim tipovima slika."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Gimp četka"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2555,7 +2555,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Podrazumijevani komentar je ograničen na %d slova."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Gimp četka (animirana)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3049,7 +3049,7 @@ msgid "MNG animation"
 msgstr "MNG Opcije"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Gimp Mustra"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13440,7 +13440,7 @@ msgstr "Prebacivanje podataka sa skenera/kamere"
 #~ msgstr ""
 #~ "Nevažeći podatak zaglavlja u '%s': širina=%lu, visina=%lu, bajta=%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Greška u datoteci sa Gimp četkama „%s“"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."

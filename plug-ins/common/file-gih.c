@@ -1,4 +1,4 @@
-/* Plug-in to load and export .gih (GIMP Brush Pipe) files.
+/* Plug-in to load and export .gih (GNU I.M.P brush Pipe) files.
  *
  * Copyright (C) 1999 Tor Lillqvist
  * Copyright (C) 2000 Jens Lautenbacher, Sven Neumann
@@ -105,7 +105,7 @@ const GimpPlugInInfo PLUG_IN_INFO =
 
 static BrushInfo info =
 {
-  "GIMP Brush Pipe",
+  "GNU I.M.P brush Pipe",
   20
 };
 
@@ -147,8 +147,8 @@ query (void)
   };
 
   gimp_install_procedure (SAVE_PROC,
-                          "exports images in GIMP brush pipe format",
-                          "This plug-in exports an image in the GIMP brush pipe "
+                          "exports images in GNU I.M.P brush pipe format",
+                          "This plug-in exports an image in the GNU I.M.P brush pipe "
                           "format. For a colored brush pipe, RGBA layers are "
                           "used, otherwise the layers should be grayscale "
                           "masks. The image can be multi-layered, and "
@@ -157,7 +157,7 @@ query (void)
                           "Tor Lillqvist",
                           "Tor Lillqvist",
                           "1999",
-                          N_("GIMP brush (animated)"),
+                          N_("GNU I.M.P brush (animated)"),
                           "RGB*, GRAY*",
                           GIMP_PLUGIN,
                           G_N_ELEMENTS (gih_save_args), 0,

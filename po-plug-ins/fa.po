@@ -2475,7 +2475,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "عملیات روی نوع تصاویر ناشناخته ممکن نیست."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "قلم‌موی گیمپ"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2627,7 +2627,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "توضیح پیش‌فرض به %Id نویسه محدود است."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "قلم‌موی گیمپ (پویا)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3119,7 +3119,7 @@ msgid "MNG animation"
 msgstr "پویانمایی MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "الگوی گیمپ"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13499,13 +13499,13 @@ msgstr ""
 #~ msgid "_IIR"
 #~ msgstr "IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "خطا در پروندهٔ قلم‌موی گیمپ «%s»"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "رشتهٔ یو‌تی‌اف هشت نامعتبر در پروندهٔ قلم‌موی «%s»."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "قلم‌مو‌های گیمپ یا RGBA هستند یا GRAYSCALE"
 
 #~ msgid "Save as Brush"
@@ -13532,7 +13532,7 @@ msgstr ""
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "لایهٔ %s کانال آلفا ندارد، صرف نظر شد"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "به نظر می‌رسد پروندهٔ قلم‌موی گیمپ خراب است."
 
 #~ msgid "_Glass Tile..."

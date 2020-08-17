@@ -346,7 +346,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "कुंचला संपादक"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -492,7 +492,7 @@ msgstr "रंगफळी संपादन सुविधा पटल"
 msgid "Palettes"
 msgstr "रंगफळ्या"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12353,7 +12353,7 @@ msgstr "अनामित"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "कुंचला धारिकेमध्ये गंभीर विश्लेषण त्रुटी:\n"
 "असमर्थित कुंचल्याची खोली %d\n"
@@ -12413,17 +12413,17 @@ msgstr "कळपाट [क्लिपबोर्ड] प्रतिमा"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "गिम्प कुंचला धारिका नाही."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "अज्ञात गिम्प कुंचला आवृत्ती."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr "अज्ञात गिम्प कुंचला आकार."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -13918,7 +13918,7 @@ msgstr "अज्ञात नमुना स्वरूप आवृत्त
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "असमर्थित नमुना खोली %d.\n"
 "गिम्प नमुने ग्रे किंवा आरजीबी असले पाहिजे."
@@ -18052,14 +18052,9 @@ msgstr "युआरआय अवैध वर्ण क्रम"
 msgid "GNU I.M.P brush"
 msgstr "माझा कुंचला"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "माझा कुंचला"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "गिम्प कुंचला (चलाभासित [अॅनिमेटेड])"
 
 #: ../app/file-data/file-data.c:365
@@ -18069,7 +18064,7 @@ msgstr "नमुना"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "नमुना"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

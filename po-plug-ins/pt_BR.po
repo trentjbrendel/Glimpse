@@ -2388,7 +2388,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Não é possível operar em tipos de imagens indexados ou desconhecidos."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Pincel do GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2547,7 +2547,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "O comentário padrão é limitado em %d caracteres."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Pincel do GIMP (animado)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3044,7 +3044,7 @@ msgid "MNG animation"
 msgstr "Animação MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Textura do GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12770,7 +12770,7 @@ msgstr "Transferindo dados do scanner ou da câmera"
 #~ "Dados inválidos de cabeçalho em \"%s\": O nome do pincel é muito grande: "
 #~ "%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Erro no arquivo de Pincel do GIMP \"%s\""
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12779,7 +12779,7 @@ msgstr "Transferindo dados do scanner ou da câmera"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "O nome do pincel é muito grande: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Arquivo de pincel do GIMP está aparentemente corrompido."
 
 #~ msgid "Quality:"
@@ -14620,10 +14620,10 @@ msgstr "Transferindo dados do scanner ou da câmera"
 #~ msgid "Cleanup"
 #~ msgstr "Limpeza"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Pincéis do GIMP são ou tons de cinza, ou RGBA"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Erro em arquivo de Pincel animado do GIMP."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

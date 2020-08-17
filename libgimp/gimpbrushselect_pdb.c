@@ -43,7 +43,7 @@
  * @spacing: The initial spacing of the brush (if < 0 then use brush default spacing).
  * @paint_mode: The initial paint mode.
  *
- * Invokes the Gimp brush selection.
+ * Invokes the GNU I.M.P brush selection.
  *
  * This procedure opens the brush selection dialog.
  *

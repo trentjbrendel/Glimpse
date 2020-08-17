@@ -40,7 +40,7 @@
  * @popup_title: Title of the pattern selection dialog.
  * @initial_pattern: The name of the pattern to set as the first selected.
  *
- * Invokes the Gimp pattern selection.
+ * Invokes the GNU I.M.P Pattern selection.
  *
  * This procedure opens the pattern selection dialog.
  *

@@ -2366,7 +2366,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "अज्ञात प्रतिमा प्रकार हाताळू शकत नाही"
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "गिम्प कुंचला"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2523,7 +2523,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "मूळचे भाष्य %d वर्णांपर्यंत मर्यादित आहे."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "गिम्प कुंचला (चलाभासित)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3017,7 +3017,7 @@ msgid "MNG animation"
 msgstr "एमएनजी चलाभास"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "गिम्प नमुने"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12791,7 +12791,7 @@ msgstr "स्कॅनर/कॅमेऱ्या पासून माहि
 #~ msgid "Invalid header data in '%s': Brush name is too long: %lu"
 #~ msgstr "'%s' मध्ये अवैध शीर्षक माहिती : कुंचल्याचे नाव खूप मोठे आहे: %lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "गिम्प कुंचला धारिका '%s' मध्ये त्रुटी"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12800,7 +12800,7 @@ msgstr "स्कॅनर/कॅमेऱ्या पासून माहि
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "कुंचल्याचे नाव खूप मोठे आहे: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "गिम्प कुंचला धारिका दूषित [खराब] झाली आहे."
 
 #~ msgid "Invalid header data in '%s': Pattern name is too long: %lu"

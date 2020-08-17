@@ -2556,7 +2556,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Ne mogu raditi s nepoznatim tipovima slika."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr ""
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2717,7 +2717,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Uobičajeni komentar je ograničen na %d slova."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3234,7 +3234,7 @@ msgstr "MNG Opcije"
 
 #: ../plug-ins/common/file-pat.c:83
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Uzorak"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -14025,10 +14025,10 @@ msgstr ""
 #~ msgid "Blur Method"
 #~ msgstr "Vrsta Zamućenja"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Greška u datoteci GIMP kista '%s'"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP četkice su ili GRAYSCALE ili RGBA"
 
 #~ msgid "Save as Brush"
@@ -14080,10 +14080,10 @@ msgstr ""
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "Sloj %s nema alfa kanal, preskočen je"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Greška u datoteci Gimp kista."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Datoteka za Gimp kist je izgleda oštećena."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

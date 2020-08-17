@@ -2476,7 +2476,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Не могу да радим са непознатим типовима слика."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Гимп четкица"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2638,7 +2638,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Подразумевани коментар је ограничен на %d слова."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Гимпова четкица (анимирана)"
 
 #
@@ -3160,7 +3160,7 @@ msgid "MNG animation"
 msgstr "Могућности за MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Гимп мустра"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13300,13 +13300,13 @@ msgstr "Преносим податке са скенера/камере"
 #~ msgid "Unsupported brush format"
 #~ msgstr "Није подржан формат четке"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Грешка у датотеци са Гимповим четкицама „%s“"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Неисправна УТФ-8 ниска у датотеци четке „%s“."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Датотека за Гимпову четкицу је изгледа оштећена."
 
 #~ msgid ""
@@ -14480,10 +14480,10 @@ msgstr "Преносим податке са скенера/камере"
 #~ msgid "_Limit line width"
 #~ msgstr "Ограничи _ширину линије"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Гимп четкице су или у нијансама сиве или РГБА"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Грешка у датотеци за Гимпову четкицу."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

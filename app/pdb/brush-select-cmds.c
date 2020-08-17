@@ -160,7 +160,7 @@ register_brush_select_procs (GimpPDB *pdb)
                                "gimp-brushes-popup");
   gimp_procedure_set_static_strings (procedure,
                                      "gimp-brushes-popup",
-                                     "Invokes the Gimp brush selection.",
+                                     "Invokes the GNU I.M.P brush selection.",
                                      "This procedure opens the brush selection dialog.",
                                      "Andy Thomas",
                                      "Andy Thomas",

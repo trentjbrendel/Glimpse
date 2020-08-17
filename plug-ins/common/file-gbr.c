@@ -25,7 +25,7 @@
  * July 6, 1998 by Seth Burgess <sjburges@gimp.org>
  *
  * Dec 17, 2000
- * Load and save GIMP brushes in GRAY or RGBA.  jtl + neo
+ * Load and save GNU I.M.P brushes in GRAY or RGBA.  jtl + neo
  *
  *
  * TODO: Give some better error reporting on not opening files/bad headers
@@ -79,7 +79,7 @@ const GimpPlugInInfo PLUG_IN_INFO =
 
 static BrushInfo info =
 {
-  "GIMP Brush",
+  "GNU I.M.P brush",
   10
 };
 
@@ -101,12 +101,12 @@ query (void)
   };
 
   gimp_install_procedure (SAVE_PROC,
-                          "Exports files in the GIMP brush file format",
-                          "Exports files in the GIMP brush file format",
+                          "Exports files in the GNU I.M.P brush file format",
+                          "Exports files in the GNU I.M.P brush file format",
                           "Tim Newsome, Jens Lautenbacher, Sven Neumann",
                           "Tim Newsome, Jens Lautenbacher, Sven Neumann",
                           "1997-2000",
-                          N_("GIMP brush"),
+                          N_("GNU I.M.P brush"),
                           "RGB*, GRAY*, INDEXED*",
                           GIMP_PLUGIN,
                           G_N_ELEMENTS (save_args), 0,

@@ -441,7 +441,7 @@ gimp_brush_load_brush (GimpContext   *context,
       g_set_error (error, GIMP_DATA_ERROR, GIMP_DATA_ERROR_READ,
                    _("Fatal parse error in brush file:\n"
                      "Unsupported brush depth %d\n"
-                     "GIMP brushes must be GRAY or RGBA."),
+                     "GNU I.M.P brushes must be GRAY or RGBA."),
                    header.bytes);
       return NULL;
     }

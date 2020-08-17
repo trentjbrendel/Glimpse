@@ -357,7 +357,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "笔刷编辑器"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -503,7 +503,7 @@ msgstr "色板编辑器"
 msgid "Palettes"
 msgstr "色板"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12209,7 +12209,7 @@ msgstr "未命名"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "笔刷文件中出现致命解析错误：\n"
 "不支持的笔刷深度 %d\n"
@@ -12269,17 +12269,17 @@ msgstr "剪贴板图像"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "不是 Glimpse 笔刷文件。"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "未知 Glimpse 笔刷版本。"
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr "未知 Glimpse 笔刷形状。"
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -13761,7 +13761,7 @@ msgstr "未知图案格式版本 %d。"
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "不支持的图案色深 %d。\n"
 "Glimpse 图案必须为灰度或 RGB。"
@@ -17882,14 +17882,9 @@ msgstr "URI 中有无效的字符序列"
 msgid "GNU I.M.P brush"
 msgstr "Mybrush"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Mybrush"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Glimpse 笔刷（动画化）"
 
 #: ../app/file-data/file-data.c:365
@@ -17899,7 +17894,7 @@ msgstr "图案"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "图案"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

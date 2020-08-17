@@ -2396,7 +2396,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Impossible d’opérer sur des types d’images inconnus."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Brosse GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2557,7 +2557,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Le commentaire par défaut est limité à %d caractères."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Brosse GIMP (animée)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3060,7 +3060,7 @@ msgid "MNG animation"
 msgstr "Animation MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Motif GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12803,7 +12803,7 @@ msgstr "Transfert des données depuis le scanneur ou l’appareil photo"
 #~ msgstr ""
 #~ "Données d’en-tête non valides dans « %s » : nom de brosse trop long :%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Erreur dans le fichier de brosse GIMP « %s »"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12813,7 +12813,7 @@ msgstr "Transfert des données depuis le scanneur ou l’appareil photo"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "Le nom de brosse est trop long : %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Le fichier de brosse GIMP semble être endommagé."
 
 #~ msgid "Quality:"

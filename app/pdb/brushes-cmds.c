@@ -281,7 +281,7 @@ register_brushes_procs (GimpPDB *pdb)
   gimp_procedure_set_static_strings (procedure,
                                      "gimp-brushes-get-list",
                                      "Retrieve a complete listing of the available brushes.",
-                                     "This procedure returns a complete listing of available GIMP brushes. Each name returned can be used as input to the 'gimp-context-set-brush' procedure.",
+                                     "This procedure returns a complete listing of available GNU I.M.P brushes. Each name returned can be used as input to the 'gimp-context-set-brush' procedure.",
                                      "Spencer Kimball & Peter Mattis",
                                      "Spencer Kimball & Peter Mattis",
                                      "1995-1996",

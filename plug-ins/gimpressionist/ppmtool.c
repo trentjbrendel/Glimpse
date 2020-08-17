@@ -225,7 +225,7 @@ struct _BrushHeader
   unsigned int   width;       /*  width of brush  */
   unsigned int   height;      /*  height of brush  */
   unsigned int   bytes;       /*  depth of brush in bytes--always 1 */
-  unsigned int   magic_number;/*  GIMP brush magic number  */
+  unsigned int   magic_number;/*  GNU I.M.P brush magic number  */
   unsigned int   spacing;     /*  brush spacing  */
 };
 

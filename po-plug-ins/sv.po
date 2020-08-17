@@ -2381,7 +2381,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Kan inte arbeta med okända bildtyper."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP-pensel"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2539,7 +2539,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Standardkommentaren är begränsad till %d tecken."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-pensel (animerad)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3034,7 +3034,7 @@ msgid "MNG animation"
 msgstr "MNG-animation"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-mönster"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12885,7 +12885,7 @@ msgstr "Överför data från bildläsare/kamera"
 #~ msgid "Invalid header data in '%s': Brush name is too long: %lu"
 #~ msgstr "Ogiltig huvuddata i ”%s”: Penselnamnet är för långt: %lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Fel i GIMP-penselfilen ”%s”"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12894,7 +12894,7 @@ msgstr "Överför data från bildläsare/kamera"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "Penselnamnet är för långt: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "GIMP-penselfilen verkar vara skadad."
 
 #~ msgid "Invalid header data in '%s': Pattern name is too long: %lu"
@@ -14152,10 +14152,10 @@ msgstr "Överför data från bildläsare/kamera"
 #~ msgid "Sobel edge detecting"
 #~ msgstr "Sobel kantidentifiering"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP-penslar är antingen GRÅSKALA eller RGBA"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Fel i GIMP-penselrörfilen."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."
