@@ -43,7 +43,6 @@ that bring us in line with upstream
 * 64-bit Windows installer now prebundles G'MIC by default
 * Adapted some default configuration settings to match PhotoGIMP
 * Fixed missing Open With... option on Windows, and set Glimpse as default program for XCF files
-* Added Glimpse Image Editor 0.1.2 Release 2 WiX Manifest file and instructions
 
 
 Overview of Changes in Glimpse 0.1.2 Release 2
