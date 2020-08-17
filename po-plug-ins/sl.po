@@ -2380,7 +2380,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "S slikami neznane vrste ni mogoče delovati."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Čopič GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2538,7 +2538,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Privzeti komentar je omejen na %d znakov."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Čopič GIMP (animiran)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3032,7 +3032,7 @@ msgid "MNG animation"
 msgstr "Animacija MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Vzorec GIMP"
 
 #: ../plug-ins/common/file-pat.c:287

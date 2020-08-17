@@ -2404,7 +2404,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "अज्ञात छवि प्रकारमा सञ्चालन गर्न सक्दैन "
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "गिम्प ब्रुस"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2562,7 +2562,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "%d वर्णहरूमा पूर्वनिर्धारित टिप्पणी सिमित छ।"
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "गिम्प ब्रुस (एनिमेशन गरिएको)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3057,7 +3057,7 @@ msgid "MNG animation"
 msgstr "NNG एनिमेशन"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "गिम्प बाँन्की"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13323,13 +13323,13 @@ msgstr "स्क्यानर/क्यामेराबाट डेटा�
 #~ msgid "_IIR"
 #~ msgstr "IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "गिम्प ब्रुस फाइल '%s' मा त्रुटि"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "ब्रुस फाइल '%s' मा अवैध युटिएफ-८ स्ट्रिङ छ।"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "गिम्प ब्रुसहरू या GRAYSCALE वा RGBA"
 
 #~ msgid "Save as Brush"
@@ -13362,10 +13362,10 @@ msgstr "स्क्यानर/क्यामेराबाट डेटा�
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "तह %sसँग अल्फा च्यानल छैन, नाघ्यो"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "गिम्प ब्रुस पाइप फाइलमा त्रुटि"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "गिम्प ब्रुस फाइल बिग्रनका लागि देखा पर्यो।"
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

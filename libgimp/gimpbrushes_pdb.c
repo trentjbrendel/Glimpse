@@ -71,7 +71,7 @@ gimp_brushes_refresh (void)
  *
  * Retrieve a complete listing of the available brushes.
  *
- * This procedure returns a complete listing of available GIMP brushes.
+ * This procedure returns a complete listing of available GNU I.M.P brushes.
  * Each name returned can be used as input to the
  * gimp_context_set_brush() procedure.
  *

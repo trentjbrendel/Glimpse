@@ -73,7 +73,7 @@ gimp_brush_generated_load (GimpContext   *context,
   if (! g_str_has_prefix (string, "GIMP-VBR"))
     {
       g_set_error (error, GIMP_DATA_ERROR, GIMP_DATA_ERROR_READ,
-                   _("Not a GIMP brush file."));
+                   _("Not a GNU I.M.P brush file."));
       g_free (string);
       goto failed;
     }
@@ -93,7 +93,7 @@ gimp_brush_generated_load (GimpContext   *context,
       if (! g_str_has_prefix (string, "1.5"))
         {
           g_set_error (error, GIMP_DATA_ERROR, GIMP_DATA_ERROR_READ,
-                       _("Unknown GIMP brush version."));
+                       _("Unknown GNU I.M.P brush version."));
           g_free (string);
           goto failed;
         }
@@ -150,7 +150,7 @@ gimp_brush_generated_load (GimpContext   *context,
       if (! shape_val)
         {
           g_set_error (error, GIMP_DATA_ERROR, GIMP_DATA_ERROR_READ,
-                       _("Unknown GIMP brush shape."));
+                       _("Unknown GNU I.M.P brush shape."));
           g_free (string);
           goto failed;
         }

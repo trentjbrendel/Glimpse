@@ -2580,7 +2580,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Tidak boleh mengendalikan jenis imej tak diketahui"
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr ""
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2744,7 +2744,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Komen piawai dihadkan ke %d aksara."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3271,7 +3271,7 @@ msgstr "Opsyen MNG"
 
 #: ../plug-ins/common/file-pat.c:83
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Corak"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -14142,13 +14142,13 @@ msgstr ""
 #~ msgstr "Jenis Kabur"
 
 #, fuzzy
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr ""
 #~ "Ralat dalam fail berus GIMP\n"
 #~ "'%s'"
 
 #, fuzzy
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Berus GIMP adalah sama ada GRAYSCALE atau RGBA\n"
 
 #~ msgid "Save as Brush"
@@ -14200,10 +14200,10 @@ msgstr ""
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "Lapisan %s tidak mempunyai rangkaian alfa, langkau"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Ralat di fail berus paip GIMP."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Fail berus GIMP kelihatan seperti rosak."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

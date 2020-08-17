@@ -85,7 +85,7 @@ gimp_pattern_load (GimpContext   *context,
     {
       g_set_error (error, GIMP_DATA_ERROR, GIMP_DATA_ERROR_READ,
                    _("Unsupported pattern depth %d.\n"
-                     "GIMP Patterns must be GRAY or RGB."),
+                     "GNU I.M.P Patterns must be GRAY or RGB."),
                    header.bytes);
       goto error;
     }

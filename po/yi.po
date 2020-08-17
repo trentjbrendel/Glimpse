@@ -318,7 +318,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr ""
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -473,7 +473,7 @@ msgstr ""
 msgid "Palettes"
 msgstr ""
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -13061,7 +13061,7 @@ msgstr ""
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 
 #: ../app/core/gimpbrush-load.c:519
@@ -13119,17 +13119,17 @@ msgstr "בילד"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14746,7 +14746,7 @@ msgstr ""
 #, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 
 #: ../app/core/gimppattern-load.c:99
@@ -19135,12 +19135,8 @@ msgstr ""
 msgid "GNU I.M.P brush"
 msgstr ""
 
-#: ../app/file-data/file-data.c:124
-msgid "GIMP brush"
-msgstr ""
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -19150,7 +19146,7 @@ msgstr "קלעפּ"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "קלעפּ"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

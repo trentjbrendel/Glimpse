@@ -345,7 +345,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "筆刷編輯器"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -493,7 +493,7 @@ msgstr "調色盤編輯器"
 msgid "Palettes"
 msgstr "調色盤"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12813,7 +12813,7 @@ msgstr "未命名"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：不支援筆刷色彩深度 %d\n"
 "Glimpse 筆刷必須使用 GRAY 或 RGBA 色系。"
@@ -12875,17 +12875,17 @@ msgstr "剪貼簿"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "不是普通檔案"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -18803,13 +18803,8 @@ msgstr "URI 中出現無效的字符次序"
 msgid "GNU I.M.P brush"
 msgstr "畫筆"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "畫筆"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -18819,7 +18814,7 @@ msgstr "圖樣"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "圖樣"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

@@ -2383,7 +2383,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Ei saa töötada tundmatut tüüpi piltidega."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMPi pintsel"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2533,7 +2533,7 @@ msgid "The default comment is limited to %d characters."
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3018,7 +3018,7 @@ msgid "MNG animation"
 msgstr "MNG animatsioon"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr ""
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12783,13 +12783,13 @@ msgstr ""
 #~ msgid "_IIR"
 #~ msgstr "_IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Viga GIMPi pintslifailis '%s'"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Vigane UTF-8 tekstilõik pintslifailis '%s'."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMPi pintslid on kas HALLTOONIDES või RGBA värvides"
 
 #~ msgid "Save as Brush"

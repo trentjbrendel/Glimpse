@@ -2409,7 +2409,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "No es pot operar en tipus d'imatges desconeguts."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Pinzell del GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2572,7 +2572,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "El comentari per defecte està limitat a %d caràcters."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Pinzell del GIMP (animat)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3070,7 +3070,7 @@ msgid "MNG animation"
 msgstr "Animació MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Patró del GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13573,22 +13573,22 @@ msgstr "S'estan transferint dades de l'escàner/càmera"
 #~ "Les dades de la capçalera no són vàlides a «%s»: amplada=%lu, alçada=%lu, "
 #~ "bytes=%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "El fitxer del pinzell del GIMP «%s» està malament"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "S'ha trobat una cadena UTF-8 invàlida al fitxer del pinzell «%s»."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Els pinzells del GIMP són en escala de grisos o bé en RGBA"
 
 #~ msgid "Error writing output file."
 #~ msgstr "S'ha produït un error en escriure el fitxer d'eixida."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "S'ha produït un error al fitxer conducte del pinzell del GIMP."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Pareix que el fitxer del pinzell del GIMP està malmés."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

@@ -2391,7 +2391,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Kan ikkje arbeida med ukjente biletformat."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP-pensel"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2553,7 +2553,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Standardkommentar er avgrensa til %d teikn."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-mønsterpensel"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3047,7 +3047,7 @@ msgid "MNG animation"
 msgstr "MNG-animasjon"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-mønster"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13491,22 +13491,22 @@ msgstr "Overfører data frå skannar/kamera"
 #~ msgid "Invalid header data in '%s': width=%lu, height=%lu, bytes=%lu"
 #~ msgstr "Ugyldige headerdata i '%s': breidde=%lu, høgde=%lu, bytes=%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Feil i GIMP-penselfila «%s»"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Ugyldig UTF-8-kode i penselfila «%s»"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP-penslane må vere anten RGBA eller GRÅSKALA med kvit bakgrunn"
 
 #~ msgid "Error writing output file."
 #~ msgstr "Feil ved skriving av utdata."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Feil i GIMPs mønsterpenselfil."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Det ser ut til at GIMP si penselfil er øydelagt."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

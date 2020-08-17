@@ -2389,7 +2389,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Невозможно выполнить действия с изображением неизвестного типа"
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Кисть GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2549,7 +2549,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Комментарий по умолчанию ограничен длиной в %d символов."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Кисть GIMP (анимированная)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3048,7 +3048,7 @@ msgid "MNG animation"
 msgstr "Параметры MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Текстура GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12957,7 +12957,7 @@ msgstr "Получение данных со сканера/камеры"
 #~ msgstr ""
 #~ "Неправильные данные заголовка в '%s': cлишком длинное название кисти: %lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Ошибка в файле кисти GIMP \"%s\""
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12966,7 +12966,7 @@ msgstr "Получение данных со сканера/камеры"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "Слишком длинное название кисти: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Похоже, файл кисти GIMP поврежден."
 
 #~ msgid "Invalid header data in '%s': Pattern name is too long: %lu"
@@ -14090,10 +14090,10 @@ msgstr "Получение данных со сканера/камеры"
 #~ msgid "_Limit line width"
 #~ msgstr "_Ограничение ширины линии"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Кисти GIMP либо в оттенках серого или RGBA"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Ошибка в файле кисти GIMP."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

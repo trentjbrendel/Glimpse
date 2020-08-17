@@ -2443,7 +2443,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Non é posible operar con tipos de imaxe descoñecidos."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Pincel do GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2607,7 +2607,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "O comentario predeterminado está limitado a %d caracteres."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Pincel do GIMP (animado)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3107,7 +3107,7 @@ msgid "MNG animation"
 msgstr "Animación de MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Patrón do GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13614,22 +13614,22 @@ msgstr "A transferir datos desde o escáner/cámara"
 #~ msgstr ""
 #~ "Datos de cabeceira non válidos en «%s»: anchura=%lu, altura=%lu, bytes=%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Erro no ficheiro de pincel do GIMP '%s'"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Unha de cadea UTF-8 non é válida no ficheiro de pincel '%s'."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Os pinceis do GIMP son o RGBA ou ESCALA DE GRISES"
 
 #~ msgid "Error writing output file."
 #~ msgstr "Produciuse un erro ao escribir o ficheiro de saída"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Produciuse un erro no ficheiro de conduto de pincels do GIMP"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "O ficheiro de pinceis do GIMP semella danado."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

@@ -267,7 +267,7 @@ files. This files are in the .gpl format.
 
 @gimpdatadir@/patterns - basic set of patterns for use in GIMP.
 
-@manpage_gimpdir@/patterns - user created and installed gimp pattern
+@manpage_gimpdir@/patterns - user created and installed GNU I.M.P Pattern
 files. This files are in the .pat format.
 
 @gimpdatadir@/gradients - standard system wide set of gradient files.

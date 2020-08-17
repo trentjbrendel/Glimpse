@@ -358,7 +358,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "ब्रुस सम्पादक"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -509,7 +509,7 @@ msgstr "रङदानी सम्पादक"
 msgid "Palettes"
 msgstr "रङदानीहरू"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -13705,7 +13705,7 @@ msgstr "बेनामी"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "ब्रुस फाइल '%s' मा घातक पदवर्णन त्रुटि: असमर्थित ब्रुस गहिराइ %d\n"
 "गिम्प ब्रुसहरू GRAY वा RGBA हुनुपर्दछ।"
@@ -13768,17 +13768,17 @@ msgstr "क्लिपबोर्ड"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "गिम्प ब्रुस फाइल '%s' मा त्रुटि"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "ब्रुस फाइल '%s' मा घातक पदवर्णन त्रुटि: %d लाइनमा अज्ञात गिम्प ब्रुस संस्करण ।"
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr "ब्रुस फाइल '%s' मा घातक पदवर्णन त्रुटि: %d लाइनमा अज्ञात गिम्प ब्रुस आकार ।"
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -15433,7 +15433,7 @@ msgstr "बाँन्की फाइल '%s'मा घातक पदवर�
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "बाँन्की फाइल '%s' मा घातक पदवर्णन त्रुटि: असमर्थित बाँन्की गहिराइ %d।\n"
 "गिम्प बाँन्कीहरू GRAY र RGB हुनुपर्दछ।"
@@ -19846,13 +19846,8 @@ msgstr "URI मा अवैध क्यारेक्टर अनुक्�
 msgid "GNU I.M.P brush"
 msgstr "एयरब्रुस"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "एयरब्रुस"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -19862,7 +19857,7 @@ msgstr "बान्की"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "बान्की"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

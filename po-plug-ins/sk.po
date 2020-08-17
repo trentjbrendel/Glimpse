@@ -2758,7 +2758,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Nedá sa pracovať s neznámymi typmi obrázkov."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP štetec"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2929,7 +2929,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Štandardný komentár je obmedzený na %d znakov."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP štetec (animovaný)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3434,7 +3434,7 @@ msgid "MNG animation"
 msgstr "Animácia MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GiMP vzorka"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13373,7 +13373,7 @@ msgstr "Prenos dát zo skenera/fotoaparáta"
 #~ msgid "Unsupported brush format"
 #~ msgstr "Nepodporovaný formát štetca"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Chyba v súbore GIMP štetca „%s“"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."

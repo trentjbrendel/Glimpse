@@ -55,7 +55,7 @@ const GimpPlugInInfo PLUG_IN_INFO =
 
 /*  private variables  */
 
-static gchar description[256] = "GIMP Pattern";
+static gchar description[256] = "GNU I.M.P Pattern";
 
 
 MAIN ()
@@ -74,13 +74,13 @@ query (void)
   };
 
   gimp_install_procedure (SAVE_PROC,
-                          "Exports Gimp pattern file (.PAT)",
-                          "New Gimp patterns can be created by exporting them "
+                          "Exports GNU I.M.P Pattern file (.PAT)",
+                          "New GNU I.M.P Patterns can be created by exporting them "
                           "in the appropriate place with this plug-in.",
                           "Tim Newsome",
                           "Tim Newsome",
                           "1997",
-                          N_("GIMP pattern"),
+                          N_("GNU I.M.P Pattern"),
                           "RGB*, GRAY*, INDEXED*",
                           GIMP_PLUGIN,
                           G_N_ELEMENTS (save_args), 0,

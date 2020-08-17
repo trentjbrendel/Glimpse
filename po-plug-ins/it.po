@@ -2385,7 +2385,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Impossibile operare su immagini di tipo sconosciuto."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Pennello GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2544,7 +2544,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Il commento predefinito è limitato a %d caratteri."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Pennello Gimp (animato)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3029,7 +3029,7 @@ msgid "MNG animation"
 msgstr "Animazione MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Motivo Gimp"
 
 #: ../plug-ins/common/file-pat.c:287

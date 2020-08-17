@@ -370,7 +370,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Peniko-redaktilo"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -516,7 +516,7 @@ msgstr "Paletro-redaktilo"
 msgid "Palettes"
 msgstr "Paletroj"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12715,7 +12715,7 @@ msgstr "Sennome"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Fatala analizeraro en penikodosiero:\n"
 "Nesubtenita penikodifino %d\n"
@@ -12780,17 +12780,17 @@ msgstr "Tondujo"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "Ne estas Glimpse-dosiero de niveloj."
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "Nekonata formatversiono de modelo %d."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14305,7 +14305,7 @@ msgstr "Nekonata formatversiono de modelo %d."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Fatala analizeraro en modeldosiero: Difino %d ne estas subtenita.\n"
 "GIMP-modeloj estas GRIZAJ aŭ RVB."
@@ -18583,13 +18583,8 @@ msgstr "Nevalida tipovico en URI"
 msgid "GNU I.M.P brush"
 msgstr "Ŝprucpistolo"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Ŝprucpistolo"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -18599,7 +18594,7 @@ msgstr "Modelo"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Modelo"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

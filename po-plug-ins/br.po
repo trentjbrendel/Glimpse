@@ -2398,7 +2398,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "N'haller ket gwerediñ war rizhioù skeudennoù dianav."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Broust GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2566,7 +2566,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Bevennet eo an askellenn dre ziouer ouzh %d arouezennoù."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Broust GIMP (fiñv)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3065,7 +3065,7 @@ msgid "MNG animation"
 msgstr "Bliverezh MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Goustur GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13548,22 +13548,22 @@ msgstr "O treuzkas roadennoù diouzh ar c'hwilerver/Benveg luc'hskeudennoù"
 #~ msgstr ""
 #~ "Roadennoù talbenn didalvoudek e '%s': led=%lu, sav=%lu, eizhbitoù=%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Fazi e restr broust GIMP '%s'"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Hedad nodoù UTF-8 didalvoudek er restr broust '%s'."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Pe LIVEOÙ LOUEDOÙ pe RGGA ez eo broustoù GIMP"
 
 #~ msgid "Error writing output file."
 #~ msgstr "Fazi e-pad skrivadur ar restr ec'hankañ."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Fazi e restr ar broustoù fiñv GIMP."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Kontron e hañval bezañ restr broust GIMP."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

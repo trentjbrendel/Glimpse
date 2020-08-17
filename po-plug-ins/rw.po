@@ -2921,7 +2921,7 @@ msgstr "ku Kitazwi Ishusho"
 
 #: ../plug-ins/common/file-gbr.c:109
 #, fuzzy
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Uburoso"
 
 # svx/source\items\svxitems.src:RID_ATTR_BRUSH.text
@@ -3088,7 +3088,7 @@ msgstr "Mburabuzi Icyo wongeraho ni Kuri Inyuguti"
 
 #: ../plug-ins/common/file-gih.c:160
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Uburoso"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3625,7 +3625,7 @@ msgstr "Iyega"
 
 #: ../plug-ins/common/file-pat.c:83
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Ishusho"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -15214,11 +15214,11 @@ msgstr ""
 #~ msgstr "Nka"
 
 #, fuzzy
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "in Uburoso IDOSIYE"
 
 #, fuzzy
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Cyangwa"
 
 #, fuzzy
@@ -15261,11 +15261,11 @@ msgstr ""
 #~ msgstr "Alufa"
 
 #, fuzzy
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "in Uburoso IDOSIYE"
 
 #, fuzzy
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Uburoso IDOSIYE Kuri"
 
 #, fuzzy

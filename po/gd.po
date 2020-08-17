@@ -362,7 +362,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Deasaiche nam bruisean"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -509,7 +509,7 @@ msgstr "Deasaiche a' phaileid"
 msgid "Palettes"
 msgstr "Paileadan"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12941,7 +12941,7 @@ msgstr "Gun ainm"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Mearachd parsaidh mharbhtach ann am faidhle na bruise \"%s\": Doimhne bruise "
 "ris nach eil taic %d\n"
@@ -13020,19 +13020,19 @@ msgstr "An stòr-bhòrd"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "Chan e faidhle lùban Glimpse a tha ann"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 "Mearachd parsaidh mharbhtach ann am faidhle a' phàtrain \"%s\": Chan aithne "
 "dhuinn tionndadh fòrmat a' phàtrain %d."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14594,7 +14594,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Mearachd parsaidh mharbhtach ann am faidhle a' phàtrain \"%s\": Doimhne "
 "pàtrain ris nach eil taic %d\n"
@@ -19034,13 +19034,8 @@ msgstr "Tha sreath charactaran mì-dhligheach san URI"
 msgid "GNU I.M.P brush"
 msgstr "Bruis-pheantaidh"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Bruis-pheantaidh"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -19050,7 +19045,7 @@ msgstr "Pàtran"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Pàtran"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

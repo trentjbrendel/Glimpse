@@ -2406,7 +2406,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Kan ikke operere på ukjente bildetyper."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP-pensel"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2552,7 +2552,7 @@ msgid "The default comment is limited to %d characters."
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3048,7 +3048,7 @@ msgid "MNG animation"
 msgstr "MNG-animasjon"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-mønster"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13491,7 +13491,7 @@ msgstr "Overfører data fra skanner/kamera"
 #~ msgid "_Limit line width"
 #~ msgstr "Begrens _linjebredde"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Feil i GIMP penselfil «%s»."
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."

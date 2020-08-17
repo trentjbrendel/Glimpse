@@ -136,7 +136,7 @@ register_pattern_select_procs (GimpPDB *pdb)
                                "gimp-patterns-popup");
   gimp_procedure_set_static_strings (procedure,
                                      "gimp-patterns-popup",
-                                     "Invokes the Gimp pattern selection.",
+                                     "Invokes the GNU I.M.P Pattern selection.",
                                      "This procedure opens the pattern selection dialog.",
                                      "Andy Thomas",
                                      "Andy Thomas",

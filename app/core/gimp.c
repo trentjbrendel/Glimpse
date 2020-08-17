@@ -802,7 +802,7 @@ gimp_restore (Gimp                *gimp,
   status_callback (_("Looking for data files"), _("Parasites"), 0.0);
   gimp_parasiterc_load (gimp);
 
-  /*  initialize the lists of gimp brushes, dynamics, patterns etc.  */
+  /*  initialize the lists of GNU I.M.P brushes, dynamics, patterns etc.  */
   gimp_data_factories_load (gimp, status_callback);
 
   /*  initialize the template list  */

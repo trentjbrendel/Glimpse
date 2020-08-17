@@ -2407,7 +2407,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "No puede operar sobre tipos de imagen desconocidos."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Pincel GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2565,7 +2565,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "El comentario predeterminado está limitado a %d caracteres."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Pincel GIMP (animado)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3058,7 +3058,7 @@ msgid "MNG animation"
 msgstr "Animación MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Patrón GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12909,7 +12909,7 @@ msgstr "Transfiriendo datos desde el escáner/cámara"
 #~ "Datos de cabecera no válidos en «%s»: el nombre del pincel es demasiado "
 #~ "largo: %lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Error en el archivo de pinceles «%s» de GIMP"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12918,7 +12918,7 @@ msgstr "Transfiriendo datos desde el escáner/cámara"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "El nombre del pincel es demasiado largo: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "El archivo de pinceles de GIMP parece defectuoso."
 
 #~ msgid "Invalid header data in '%s': Pattern name is too long: %lu"
@@ -14976,7 +14976,7 @@ msgstr "Transfiriendo datos desde el escáner/cámara"
 #~ msgid "image via GEGL"
 #~ msgstr "imagen mediante GEGL"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Error en el archivo de tubo de pinceles de GIMP."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."
@@ -14997,7 +14997,7 @@ msgstr "Transfiriendo datos desde el escáner/cámara"
 #~ msgid "Cropping"
 #~ msgstr "Recortando"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Los pinceles de GIMP son en ESCALAS DE GRIS o bien en RGBA"
 
 #~ msgid "RGB565"

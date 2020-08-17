@@ -17,7 +17,7 @@
 # "Perlized" from C source by Manish Singh <yosh@gimp.org>
 
 sub patterns_popup {
-    $blurb = 'Invokes the Gimp pattern selection.';
+    $blurb = 'Invokes the GNU I.M.P Pattern selection.';
     $help  = 'This procedure opens the pattern selection dialog.';
 
     &andy_pdb_misc('1998');

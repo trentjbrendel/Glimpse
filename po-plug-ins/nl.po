@@ -2416,7 +2416,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Kan niet werken met onbekende afbeeldingstypen."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP-penseel"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2586,7 +2586,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "De standaardopmerking is beperkt tot %d tekens."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-penseel (bewegend)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3091,7 +3091,7 @@ msgid "MNG animation"
 msgstr "MNG-animatie"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-patroon"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12843,13 +12843,13 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgid "Unsupported brush format"
 #~ msgstr "Niet-ondersteund penseelformaat"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Fout in GIMP-penseelbestand '%s'"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Ongeldige UTF-8-tekenreeks in penseelbestand '%s'."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "GIMP-penseelbestand lijkt beschadigd te zijn."
 
 #~ msgid "Quality:"
@@ -13751,7 +13751,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgid "Save as C-Source"
 #~ msgstr "Opslaan als C-bron"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP-penselen zijn Grijswaarden of RGBA"
 
 #~ msgid "Save as Brush"
@@ -13766,7 +13766,7 @@ msgstr "Gegevens van scanner / camera worden overgebracht"
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "Laag %s heeft geen alfakanaal, overgeslagen"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Fout in GIMP-penseelpijpbestand."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

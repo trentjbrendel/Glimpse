@@ -217,7 +217,7 @@ register_patterns_procs (GimpPDB *pdb)
   gimp_procedure_set_static_strings (procedure,
                                      "gimp-patterns-get-list",
                                      "Retrieve a complete listing of the available patterns.",
-                                     "This procedure returns a complete listing of available GIMP patterns. Each name returned can be used as input to the 'gimp-context-set-pattern'.",
+                                     "This procedure returns a complete listing of available GNU I.M.P Patterns. Each name returned can be used as input to the 'gimp-context-set-pattern'.",
                                      "Spencer Kimball & Peter Mattis",
                                      "Spencer Kimball & Peter Mattis",
                                      "1995-1996",

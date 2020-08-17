@@ -2487,7 +2487,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Ayikwazi ukusebenza kwiintlobo zemifanekiso engaziwayo."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Ibhrashi ye-GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2652,7 +2652,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Amanqaku olungiso abekelwe umda kwiimpawu ezi- %d."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Ibhrashi ye-GIMP (iyalinganiswa)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3153,7 +3153,7 @@ msgid "MNG animation"
 msgstr "Ulinganiso lwe-MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Ipateni ye-GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13987,10 +13987,10 @@ msgstr ""
 #~ msgid "_IIR"
 #~ msgstr "i-_IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Impazamo kwi-GIMP eyifayili yebhrashi '%s'"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Iibhrashi ze-GIMP mhlawumbi ziyi-GRAYSCALE okanye ziyi-RGBA"
 
 #~ msgid "Save as Brush"
@@ -14046,10 +14046,10 @@ msgstr ""
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "uMaleko %s awunaso isiqhagamshelanisi se-alpha, utsityiwe"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Impazamo kwifayili yebhrashi ye-GIMP."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Ifayili yebhrashi ye-GIMP ibonakala ngathi yonakalisiwe."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."
