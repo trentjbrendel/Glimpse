@@ -91,13 +91,13 @@ Global data follows no strict rules.
         comments may also be present in the "gimp-metadata" parasite.
 
 "gimp-brush-name" (IMAGE, PERSISTENT)
-        A string in UTF-8 encoding specifying the name of a GIMP brush.
+        A string in UTF-8 encoding specifying the name of a GNU I.M.P brush.
         Currently, the gbr plug-in uses this parasite when loading and
         saving .gbr files. A trailing \0 might be included and is not
         part of the name.
 
 "gimp-brush-pipe-name" (IMAGE, PERSISTENT)
-        A string in UTF-8 encoding specifying the name of a GIMP brush
+        A string in UTF-8 encoding specifying the name of a GNU I.M.P brush
         pipe. Currently, the gih plug-in uses this parasite when loading and
         saving .gih files. A trailing \0 might be included and is not
         part of the name.
@@ -148,7 +148,7 @@ Global data follows no strict rules.
         information intact.
 
 "gimp-pattern-name" (IMAGE, PERSISTENT)
-        A string in UTF-8 encoding specifying the name of a GIMP pattern.
+        A string in UTF-8 encoding specifying the name of a GNU I.M.P Pattern.
         Currently, the pat plug-in uses this parasite when loading and
         saving .pat files. A trailing \0 might be included and is not
         part of the name.

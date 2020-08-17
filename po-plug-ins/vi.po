@@ -2394,7 +2394,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Không thể hoạt động với kiểu ảnh lạ."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Bút vẽ GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2556,7 +2556,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Chú thích mặc định có giới hạn là %d ký tự."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Bút vẽ GIMP (hoạt cảnh)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3051,7 +3051,7 @@ msgid "MNG animation"
 msgstr "Hoạt cảnh MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Mẫu GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13474,22 +13474,22 @@ msgstr "Đang truyền dữ liệu từ máy quét/chụp ảnh..."
 #~ msgstr ""
 #~ "Dữ liệu đầu vào không hợp lệ trong '%s': rộng=%lu, cao=%lu, bytes=%lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Gặp lỗi trong tập tin bút vẽ GIMP « %s »"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Chuỗi UTF-8 không hợp lệ trong tập tin bút vẽ « %s »."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Mọi bút vẽ có kiểu hoặc GRAYSCALE (mức xám) hoặc RGBA"
 
 #~ msgid "Error writing output file."
 #~ msgstr "Gặp lỗi khi ghi vào tập tin xuất."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Gặp lỗi trong tập tin bút vẽ động GIMP."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Tập tin bút vẽ GIMP hình như bị hỏng."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

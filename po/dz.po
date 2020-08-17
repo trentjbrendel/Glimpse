@@ -353,7 +353,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "པྱིར་ཞུན་དག་པ།"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -503,7 +503,7 @@ msgstr "པེ་ལེཊི་ ཞུན་དག་པ།"
 msgid "Palettes"
 msgstr "པེ་ལེཊི་ཚུ།"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -13759,7 +13759,7 @@ msgstr "མིང་མ་བཏགས་མི།"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "དྭངས་བཟོའི་ཡིག་སྣོད་ %s':ནང་ལུ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཚབས་ཆེན། %d\n"
 "དེ་ རྒྱབ་སྐྱོར་མེད་མི་ དྭངས་བཟོའི་གཏིང་ཚད་ཨིན། ཇི་ཨའི་ཨེམ་པི དྭངས་བཟོ་དེ་ སྐྱ་ཐལ་ ཡང་ན་ ཨཱར་ཇི་བི་ཨེ་ "
@@ -13829,17 +13829,17 @@ msgstr "འཛིན་པང་།"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "དུས་རྒྱུན་གྱི་ཡིག་སནོད་ མིན་མི།"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr ""
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -15512,7 +15512,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "ལི་ཊི་གི ཡིག་སྣོད་ '%s':ནང་ལུ མིང་དཔྱད་ཀྱི་འཛོལ་བ་ཚབས་ཆེན། རྒྱབ་སྐྱོར་མེད་པའི དཔེ་གཞི་གི་ གཏིང་ཚད ་"
 "%d.\n"
@@ -19944,13 +19944,8 @@ msgstr "ཡུ་ཨཱར་ཨའི་ ནང་ལུ་ ནུས་མེ�
 msgid "GNU I.M.P brush"
 msgstr "པྱིར་གསརཔ།"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "པྱིར་གསརཔ།"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 #: ../app/file-data/file-data.c:365
@@ -19960,7 +19955,7 @@ msgstr "དཔེ་གཞི།"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "དཔེ་གཞི།"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

@@ -2397,7 +2397,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Negalima dirbti su nežinomų tipų paveikslėliais."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP teptukas"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2558,7 +2558,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Numatytasis komentaras yra ribojamas iki %d simbolių."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP teptukas (animuotas)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3056,7 +3056,7 @@ msgid "MNG animation"
 msgstr "MNG animacija"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP raštas"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13443,13 +13443,13 @@ msgstr "Perduodami duomenys iš skenerio/fotoaparato"
 #~ msgid "_Limit line width"
 #~ msgstr "_Riboti linijos plotį"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Klaida GIMP teptuko faile „%s“"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Netinkamas UTF-8 užrašas teptuko failee „%s“."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP teptukai yra GRAYSCALE arba RGBA"
 
 #~ msgid "Save as Brush"
@@ -13482,10 +13482,10 @@ msgstr "Perduodami duomenys iš skenerio/fotoaparato"
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "Sluoksnyje %s nėra alfa kanalo, praleidžiama"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Klaida GIMP teptukų konvejerio faile."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Panašu, kad GIMP teptuko failas yra sugadintas."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

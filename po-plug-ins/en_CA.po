@@ -2398,8 +2398,8 @@ msgid "Cannot operate on unknown image types."
 msgstr "Cannot operate on unknown image types."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
-msgstr "GIMP brush"
+msgid "GNU I.M.P brush"
+msgstr "GNU I.M.P brush"
 
 #: ../plug-ins/common/file-gbr.c:316
 #, fuzzy
@@ -2557,8 +2557,8 @@ msgid "The default comment is limited to %d characters."
 msgstr "The default comment is limited to %d characters."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
-msgstr "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
+msgstr "GNU I.M.P brush (animated)"
 
 #: ../plug-ins/common/file-gih.c:549
 #, fuzzy
@@ -3053,8 +3053,8 @@ msgid "MNG animation"
 msgstr "MNG animation"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
-msgstr "GIMP pattern"
+msgid "GNU I.M.P Pattern"
+msgstr "GNU I.M.P Pattern"
 
 #: ../plug-ins/common/file-pat.c:287
 #, fuzzy
@@ -13331,14 +13331,14 @@ msgstr "Transferring data from scanner/camera"
 #~ msgid "_IIR"
 #~ msgstr "_IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
-#~ msgstr "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
+#~ msgstr "Error in GNU I.M.P brush file '%s'"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Invalid UTF-8 string in brush file '%s'."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
-#~ msgstr "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
+#~ msgstr "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 
 #~ msgid "Save as Brush"
 #~ msgstr "Save as Brush"
@@ -13370,11 +13370,11 @@ msgstr "Transferring data from scanner/camera"
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "Layer %s doesn't have an alpha channel, skipped"
 
-#~ msgid "Error in GIMP brush pipe file."
-#~ msgstr "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
+#~ msgstr "Error in GNU I.M.P brush pipe file."
 
-#~ msgid "GIMP brush file appears to be corrupted."
-#~ msgstr "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
+#~ msgstr "GNU I.M.P brush file appears to be corrupted."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."
 #~ msgstr "Couldn't load one brush in the pipe, giving up."

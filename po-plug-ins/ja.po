@@ -2422,7 +2422,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "不明な画像タイプは扱えません。"
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP ブラシ"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2590,7 +2590,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "デフォルトのコメントは %d 文字までです。"
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP ブラシ (動画)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3083,7 +3083,7 @@ msgid "MNG animation"
 msgstr "MNG 動画"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP パターン"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13589,22 +13589,22 @@ msgstr "スキャナー/カメラからデータを転送しています"
 #~ msgstr ""
 #~ "'%s' のヘッダーデータ (幅: %lu、高さ: %lu、バイト: %lu) は無効な値です"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "GIMP ブラシファイル '%s' でエラー発生"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "ブラシファイル '%s' に不正な UTF-8 文字列"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP ブラシファイルはグレースケールか RGBA のいずれかです"
 
 #~ msgid "Error writing output file."
 #~ msgstr "出力ファイル書き込みエラー。"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "GIMP ブラシパイプファイル中にエラー"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "GIMP ブラシファイルが破損しているようです。"
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

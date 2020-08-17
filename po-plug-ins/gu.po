@@ -2446,7 +2446,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "અજ્ઞાત ચિત્ર પ્રકારો પર કામ કરી શકતા નથી."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP બ્રશ"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2607,7 +2607,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "મૂળભૂત ટિપ્પણી એ %d અક્ષરો સુધી મર્યાદિત છે."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP બ્રશ (એનીમેટ થયેલ)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3104,7 +3104,7 @@ msgid "MNG animation"
 msgstr "MNG એનીમેશન"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP ભાત"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13508,10 +13508,10 @@ msgstr ""
 #~ msgid "_IIR"
 #~ msgstr "_IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "GIMP બ્રશ ફાઈલ '%s' માં ભૂલ"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP બ્રશો એ ક્યાં તો GRAYSCALE અથવા RGBA છે"
 
 #~ msgid "Save as Brush"
@@ -13552,10 +13552,10 @@ msgstr ""
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "સ્તર %s ને આલ્ફા ચેનલ નથી, રદ થયેલ"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "GIMP બ્રશ પાઈપ ફાઈલમાં ભૂલ."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "GIMP બ્રશ ફાઈલ બગડેલી હોય એમ દેખાય છે."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

@@ -36,7 +36,7 @@ struct _GimpBrushHeader
   guint32   width;        /*  width of brush  */
   guint32   height;       /*  height of brush  */
   guint32   bytes;        /*  depth of brush in bytes  */
-  guint32   magic_number; /*  GIMP brush magic number  */
+  guint32   magic_number; /*  GNU I.M.P brush magic number  */
   guint32   spacing;      /*  brush spacing  */
 };
 

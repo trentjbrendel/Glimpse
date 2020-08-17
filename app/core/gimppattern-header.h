@@ -36,7 +36,7 @@ struct _GimpPatternHeader
   guint32   width;        /*  width of pattern  */
   guint32   height;       /*  height of pattern  */
   guint32   bytes;        /*  depth of pattern in bytes  */
-  guint32   magic_number; /*  GIMP pattern magic number  */
+  guint32   magic_number; /*  GNU I.M.P Pattern magic number  */
 };
 
 /*  In a pattern file, next comes the pattern name, null-terminated.

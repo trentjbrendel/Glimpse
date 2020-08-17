@@ -2422,7 +2422,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Kan ikke arbejde med ukendte billedtyper."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP-pensel"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2581,7 +2581,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Standardkommentaren er begrænset til %d tegn."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-pensel (animeret)"
 
 # med småt da der står Eksportér billede som foran
@@ -3082,7 +3082,7 @@ msgid "MNG animation"
 msgstr "MNG-animation"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-mønster"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13007,7 +13007,7 @@ msgstr "Overfører data fra skanner/kamera"
 #~ msgid "Invalid header data in '%s': Brush name is too long: %lu"
 #~ msgstr "Ugyldige headerdata i \"%s\": Penselnavnet er for langt: %lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Fejl i GIMP-penselfilen \"%s\""
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -13016,7 +13016,7 @@ msgstr "Overfører data fra skanner/kamera"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "Penselnavnet er for langt: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "GIMP-penselfil synes at være beskadiget."
 
 #~ msgid "Invalid header data in '%s': Pattern name is too long: %lu"
@@ -13859,13 +13859,13 @@ msgstr "Overfører data fra skanner/kamera"
 #~ msgid "_Limit line width"
 #~ msgstr "_Begræns linjebredde"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP-pensler er enten gråtone eller RGBA"
 
 #~ msgid "Error writing output file."
 #~ msgstr "Fejl under skrivning af fil."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Fejl i dataledningsfil til GIMP-pensel."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

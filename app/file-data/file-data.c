@@ -121,7 +121,7 @@ file_data_init (Gimp *gimp)
   procedure->marshal_func = file_gbr_save_invoker;
 
   proc = GIMP_PLUG_IN_PROCEDURE (procedure);
-  proc->menu_label = g_strdup (N_("GIMP brush"));
+  proc->menu_label = g_strdup (N_("GNU I.M.P brush"));
   gimp_plug_in_procedure_set_icon (proc, GIMP_ICON_TYPE_ICON_NAME,
                                    (const guint8 *) "gimp-brush",
                                    strlen ("gimp-brush") + 1);
@@ -138,8 +138,8 @@ file_data_init (Gimp *gimp)
                                "file-gbr-save-internal");
   gimp_procedure_set_static_strings (procedure,
                                      "file-gbr-save-internal",
-                                     "Exports Gimp brush file (.GBR)",
-                                     "Exports Gimp brush file (.GBR)",
+                                     "Exports GNU I.M.P brush file (.GBR)",
+                                     "Exports GNU I.M.P brush file (.GBR)",
                                      "Tim Newsome, Michael Natterer",
                                      "Tim Newsome, Michael Natterer",
                                      "1995-2019",
@@ -192,7 +192,7 @@ file_data_init (Gimp *gimp)
                                                        "The name of the "
                                                        "brush",
                                                        FALSE, FALSE, TRUE,
-                                                       "GIMP Brush",
+                                                       "GNU I.M.P brush",
                                                        GIMP_PARAM_READWRITE));
 
   gimp_plug_in_manager_add_procedure (gimp->plug_in_manager, proc);
@@ -207,7 +207,7 @@ file_data_init (Gimp *gimp)
   procedure->marshal_func = file_gih_load_invoker;
 
   proc = GIMP_PLUG_IN_PROCEDURE (procedure);
-  proc->menu_label = g_strdup (N_("GIMP brush (animated)"));
+  proc->menu_label = g_strdup (N_("GNU I.M.P brush (animated)"));
   gimp_plug_in_procedure_set_icon (proc, GIMP_ICON_TYPE_ICON_NAME,
                                    (const guint8 *) "gimp-brush",
                                    strlen ("gimp-brush") + 1);
@@ -219,8 +219,8 @@ file_data_init (Gimp *gimp)
   gimp_object_set_static_name (GIMP_OBJECT (procedure), "file-gih-load");
   gimp_procedure_set_static_strings (procedure,
                                      "file-gih-load",
-                                     "Loads GIMP animated brushes",
-                                     "This procedure loads a GIMP brush "
+                                     "Loads GNU I.M.P animated brushes",
+                                     "This procedure loads a GNU I.M.P brush "
                                      "pipe as an image.",
                                      "Tor Lillqvist, Michael Natterer",
                                      "Tor Lillqvist, Michael Natterer",
@@ -269,7 +269,7 @@ file_data_init (Gimp *gimp)
   procedure->marshal_func = file_gih_save_invoker;
 
   proc = GIMP_PLUG_IN_PROCEDURE (procedure);
-  proc->menu_label = g_strdup (N_("GIMP brush (animated)"));
+  proc->menu_label = g_strdup (N_("GNU I.M.P brush (animated)"));
   gimp_plug_in_procedure_set_icon (proc, GIMP_ICON_TYPE_ICON_NAME,
                                    (const guint8 *) "gimp-brush",
                                    strlen ("gimp-brush") + 1);
@@ -286,8 +286,8 @@ file_data_init (Gimp *gimp)
                                "file-gih-save-internal");
   gimp_procedure_set_static_strings (procedure,
                                      "file-gih-save-internal",
-                                     "Exports Gimp animated brush file (.gih)",
-                                     "Exports Gimp animated brush file (.gih)",
+                                     "Exports GNU I.M.P animated brush file (.gih)",
+                                     "Exports GNU I.M.P animated brush file (.gih)",
                                      "Tor Lillqvist, Michael Natterer",
                                      "Tor Lillqvist, Michael Natterer",
                                      "1999-2019",
@@ -340,7 +340,7 @@ file_data_init (Gimp *gimp)
                                                        "The name of the "
                                                        "brush",
                                                        FALSE, FALSE, TRUE,
-                                                       "GIMP Brush",
+                                                       "GNU I.M.P brush",
                                                        GIMP_PARAM_READWRITE));
   gimp_procedure_add_argument (procedure,
                                gimp_param_spec_string ("params",
@@ -423,7 +423,7 @@ file_data_init (Gimp *gimp)
   procedure->marshal_func = file_pat_save_invoker;
 
   proc = GIMP_PLUG_IN_PROCEDURE (procedure);
-  proc->menu_label = g_strdup (N_("GIMP pattern"));
+  proc->menu_label = g_strdup (N_("GNU I.M.P Pattern"));
   gimp_plug_in_procedure_set_icon (proc, GIMP_ICON_TYPE_ICON_NAME,
                                    (const guint8 *) "gimp-pattern",
                                    strlen ("gimp-pattern") + 1);
@@ -440,8 +440,8 @@ file_data_init (Gimp *gimp)
                                "file-pat-save-internal");
   gimp_procedure_set_static_strings (procedure,
                                      "file-pat-save-internal",
-                                     "Exports Gimp pattern file (.PAT)",
-                                     "Exports Gimp pattern file (.PAT)",
+                                     "Exports GNU I.M.P Pattern file (.PAT)",
+                                     "Exports GNU I.M.P Pattern file (.PAT)",
                                      "Tim Newsome, Michael Natterer",
                                      "Tim Newsome, Michael Natterer",
                                      "1995-2019",
@@ -489,7 +489,7 @@ file_data_init (Gimp *gimp)
                                                        "The name of the "
                                                        "pattern",
                                                        FALSE, FALSE, TRUE,
-                                                       "GIMP Pattern",
+                                                       "GNU I.M.P Pattern",
                                                        GIMP_PARAM_READWRITE));
 
   gimp_plug_in_manager_add_procedure (gimp->plug_in_manager, proc);

@@ -74,12 +74,12 @@ gimp_data_factories_init (Gimp *gimp)
   gimp_object_set_static_name (GIMP_OBJECT (gimp->brush_factory),
                                "brush factory");
   gimp_data_loader_factory_add_loader (gimp->brush_factory,
-                                       "GIMP Brush",
+                                       "GNU I.M.P brush",
                                        gimp_brush_load,
                                        GIMP_BRUSH_FILE_EXTENSION,
                                        TRUE);
   gimp_data_loader_factory_add_loader (gimp->brush_factory,
-                                       "GIMP Brush Pixmap",
+                                       "GNU I.M.P brush Pixmap",
                                        gimp_brush_load,
                                        GIMP_BRUSH_PIXMAP_FILE_EXTENSION,
                                        FALSE);
@@ -99,7 +99,7 @@ gimp_data_factories_init (Gimp *gimp)
                                        GIMP_BRUSH_GENERATED_FILE_EXTENSION,
                                        TRUE);
   gimp_data_loader_factory_add_loader (gimp->brush_factory,
-                                       "GIMP Brush Pipe",
+                                       "GNU I.M.P brush Pipe",
                                        gimp_brush_pipe_load,
                                        GIMP_BRUSH_PIPE_FILE_EXTENSION,
                                        TRUE);
@@ -144,7 +144,7 @@ gimp_data_factories_init (Gimp *gimp)
   gimp_object_set_static_name (GIMP_OBJECT (gimp->pattern_factory),
                                "pattern factory");
   gimp_data_loader_factory_add_loader (gimp->pattern_factory,
-                                       "GIMP Pattern",
+                                       "GNU I.M.P Pattern",
                                        gimp_pattern_load,
                                        GIMP_PATTERN_FILE_EXTENSION,
                                        TRUE);
@@ -345,7 +345,7 @@ gimp_data_factories_load (Gimp               *gimp,
 {
   g_return_if_fail (GIMP_IS_GIMP (gimp));
 
-  /*  initialize the list of gimp brushes    */
+  /*  initialize the list of GNU I.M.P brushes    */
   status_callback (NULL, _("Brushes"), 0.1);
   gimp_data_factory_data_init (gimp->brush_factory, gimp->user_context,
                                gimp->no_data);
@@ -360,7 +360,7 @@ gimp_data_factories_load (Gimp               *gimp,
   gimp_data_factory_data_init (gimp->mybrush_factory, gimp->user_context,
                                gimp->no_data);
 
-  /*  initialize the list of gimp patterns   */
+  /*  initialize the list of GNU I.M.P Patterns   */
   status_callback (NULL, _("Patterns"), 0.3);
   gimp_data_factory_data_init (gimp->pattern_factory, gimp->user_context,
                                gimp->no_data);

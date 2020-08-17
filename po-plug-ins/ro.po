@@ -2431,7 +2431,7 @@ msgstr "Nu se poate opera pe tipuri de imagine necunoscute"
 
 # tip de fișier
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "penel GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2594,7 +2594,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Comentariul implicit este limitat la %d caractere."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "penel GIMP (animat)"
 
 # hm ? animat e în fr și it
@@ -3097,7 +3097,7 @@ msgid "MNG animation"
 msgstr "animație MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "model GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12927,13 +12927,13 @@ msgstr "Transfer de date de la scaner / cameră"
 #~ msgstr "Format de penel nesuportat"
 
 # hm ? sau fără de ?
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Eroare în fișierul de penel „%s” al GIMP"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Șir UTF-8 nevalid în fișierul penel „%s”."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Fișierul de penel al GIMP pare să fie corupt."
 
 #~ msgid "Quality:"

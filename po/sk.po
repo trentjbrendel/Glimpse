@@ -388,7 +388,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Editor štetcov"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -534,7 +534,7 @@ msgstr "Editor palety"
 msgid "Palettes"
 msgstr "Palety"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -13714,7 +13714,7 @@ msgstr "Bez názvu"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Závažná chyba v súbore štetca:\n"
 "Nepodporovaná hĺbka štetca %d\n"
@@ -13778,17 +13778,17 @@ msgstr "Schránka"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "Nie je súborom štetca "
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "Neznáma verzia štetca aplikácie Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr "Neznámy tvar štetca aplikácie Glimpse."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -15450,7 +15450,7 @@ msgstr "Neznáma verzia formátu vzoru %d."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Nepodporovaná hĺbka vzoru %d.\n"
 "Vzorky programu Glimpse musia byť sivé alebo RGB."
@@ -20031,13 +20031,8 @@ msgstr "Neplatná sekvencia znakov v URI"
 msgid "GNU I.M.P brush"
 msgstr "Rozprašovač"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "Rozprašovač"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr ""
 
 # štýl výplne
@@ -20049,7 +20044,7 @@ msgstr "Vzor"
 # štýl výplne
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Vzor"
 
 # Kanál histogramu

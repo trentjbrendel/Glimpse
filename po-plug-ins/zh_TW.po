@@ -2445,7 +2445,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "無法處理不明的圖片。"
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP 筆刷"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2605,7 +2605,7 @@ msgstr "預設的備註文字長度上限為 %d 字符。"
 
 #: ../plug-ins/common/file-gih.c:160
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "顯示筆刷輪廓(_B)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3111,7 +3111,7 @@ msgid "MNG animation"
 msgstr "MNG 動畫"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP 圖樣"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12891,13 +12891,13 @@ msgstr "從掃描器/相機傳輸資料"
 #~ msgid "Unsupported brush format"
 #~ msgstr "不支援的筆刷格式"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "GIMP 筆刷檔案‘%s’中含有錯誤"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "筆刷檔案‘%s’中含有無效的 UTF-8 文字。"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "GIMP 筆刷檔似乎壞了。"
 
 #~ msgid "Save background color"
@@ -14216,11 +14216,11 @@ msgstr "從掃描器/相機傳輸資料"
 #~ msgid "_Limit line width"
 #~ msgstr "限制線條寬度(_L)"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP 筆刷檔必須為灰階或 RGBA 圖片"
 
 #, fuzzy
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "分析筆刷檔 ‘%s’ 時出現嚴重錯誤：它不是 GIMP 筆刷檔案"
 
 #~ msgid "Ascii"

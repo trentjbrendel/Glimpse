@@ -2390,7 +2390,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "لا يمكن التطبيق على أنواع صور غير معروفة."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "فرشاة جمب"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2547,7 +2547,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "التعليق الافتراضي محدود بـ %d حرفًا."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "فرشاة جمب (متحركة)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3037,7 +3037,7 @@ msgid "MNG animation"
 msgstr "MNG متحركة"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "نموذج جمب"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12710,7 +12710,7 @@ msgstr "نقل البيانات من الماسحة الضوئية/الكامي�
 #~ msgid "Unsupported brush format"
 #~ msgstr "صيغة الفرشاة غير مدعومة"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "خطأ في ملف فرشاة '%s' في جمب"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -12723,7 +12723,7 @@ msgstr "نقل البيانات من الماسحة الضوئية/الكامي�
 #~ msgid "Error writing output file."
 #~ msgstr "فشل في كتابة ملف الخرج."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "ملف فرشاة جمب يبدو فاسدًا."
 
 #, fuzzy
@@ -13708,10 +13708,10 @@ msgstr "نقل البيانات من الماسحة الضوئية/الكامي�
 #~ msgid "_Limit line width"
 #~ msgstr "عرض خط الح_دود"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "فراشي جمب إما رمادية التدرج أو RGBA"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "خطأ في جمب في ملف أنبوب الفرشاة."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

@@ -2407,7 +2407,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Не работи върху изображения от непознат тип."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP четка"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2571,7 +2571,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "По подразбиране коментара е ограничен до %d символа."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP четка (анимирана)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3067,7 +3067,7 @@ msgid "MNG animation"
 msgstr "MNG анимация"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP шарка"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13377,13 +13377,13 @@ msgstr "Прехвърляне на данни от скенер/фотоапа�
 #~ msgid "_IIR"
 #~ msgstr "_IIR"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Грешка във GIMP файл с четки „%s“"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Невалиден UTF-8 низ във файла с четки „%s“."
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "GIMP четките са в степени на сивото или ЧЗСП"
 
 #~ msgid "Save as Brush"
@@ -13416,10 +13416,10 @@ msgstr "Прехвърляне на данни от скенер/фотоапа�
 #~ msgid "Layer %s doesn't have an alpha channel, skipped"
 #~ msgstr "Слоят %s няма канал за прозрачност, пропуснат"
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Грешка във файла с последователността на GIMP четка."
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Файлът с GIMP четка изглежда повреден."
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

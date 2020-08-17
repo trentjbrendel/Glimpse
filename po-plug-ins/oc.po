@@ -2404,7 +2404,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Impossible d'operar sus de tipes d'imatges desconeguts."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Bròssa GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2565,7 +2565,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Lo comentari per defaut es limitat a %d caractèrs."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Bròssa GIMP (animada)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3067,7 +3067,7 @@ msgid "MNG animation"
 msgstr "Animacion MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Motiu GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -12795,13 +12795,13 @@ msgstr "Transferiment de las donadas dempuèi lo scanner/aparelh fòto"
 #~ msgid "Unsupported brush format"
 #~ msgstr "Format de bròssa pas pres en carga"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Error dins lo fichièr de bròssa GIMP « %s »"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
 #~ msgstr "Cadena de caractèrs UTF-8 invalida dins lo fichièr de bròssa « %s »"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Sembla que lo fichièr de bròssa GIMP es damatjat."
 
 #~ msgid ""
@@ -13885,7 +13885,7 @@ msgstr "Transferiment de las donadas dempuèi lo scanner/aparelh fòto"
 #~ msgid "_Limit line width"
 #~ msgstr "_Limitar la largor de linha"
 
-#~ msgid "GIMP brushes are either GRAYSCALE or RGBA"
+#~ msgid "GNU I.M.P brushes are either GRAYSCALE or RGBA"
 #~ msgstr "Las bròssas GIMP son siá TONS DE GRIS siá RVBA"
 
 #~ msgid ""
@@ -13898,7 +13898,7 @@ msgstr "Transferiment de las donadas dempuèi lo scanner/aparelh fòto"
 #~ msgid "Error writing output file."
 #~ msgstr "Error al moment de l'escritura del fichièr de sortida."
 
-#~ msgid "Error in GIMP brush pipe file."
+#~ msgid "Error in GNU I.M.P brush pipe file."
 #~ msgstr "Error dins lo fichièr de bròssa animada GIMP"
 
 #~ msgid "Couldn't load one brush in the pipe, giving up."

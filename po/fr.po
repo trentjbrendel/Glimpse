@@ -368,7 +368,7 @@ msgstr ""
 msgid "Brush Editor"
 msgstr "Éditeur de brosses"
 
-#. initialize the list of gimp brushes
+#. initialize the list of GNU I.M.P brushes
 #: ../app/actions/actions.c:114 ../app/core/gimp-data-factories.c:349
 #: ../app/dialogs/dialogs.c:337 ../app/dialogs/preferences-dialog.c:3226
 msgid "Brushes"
@@ -514,7 +514,7 @@ msgstr "Éditeur de palette"
 msgid "Palettes"
 msgstr "Palettes"
 
-#. initialize the list of gimp patterns
+#. initialize the list of GNU I.M.P Patterns
 #: ../app/actions/actions.c:207 ../app/core/gimp-data-factories.c:364
 #: ../app/dialogs/dialogs.c:346 ../app/dialogs/preferences-dialog.c:3238
 msgid "Patterns"
@@ -12546,7 +12546,7 @@ msgstr "Sans nom"
 msgid ""
 "Fatal parse error in brush file:\n"
 "Unsupported brush depth %d\n"
-"GIMP brushes must be GRAY or RGBA."
+"GNU I.M.P brushes must be GRAY or RGBA."
 msgstr ""
 "Erreur fatale à l’analyse du fichier de brosse :\n"
 " profondeur %d non prise en charge\n"
@@ -12619,17 +12619,17 @@ msgstr "Image du presse-papiers"
 
 #: ../app/core/gimpbrushgenerated-load.c:76
 #, fuzzy, c-format
-msgid "Not a GIMP brush file."
+msgid "Not a GNU I.M.P brush file."
 msgstr "Ce n’est pas un fichier de brosse Glimpse"
 
 #: ../app/core/gimpbrushgenerated-load.c:96
 #, fuzzy, c-format
-msgid "Unknown GIMP brush version."
+msgid "Unknown GNU I.M.P brush version."
 msgstr "Version de brosse Glimpse inconnue."
 
 #: ../app/core/gimpbrushgenerated-load.c:153
 #, fuzzy, c-format
-msgid "Unknown GIMP brush shape."
+msgid "Unknown GNU I.M.P brush shape."
 msgstr "Forme de brosse Glimpse inconnue."
 
 #: ../app/core/gimpbrushgenerated-load.c:173
@@ -14162,7 +14162,7 @@ msgstr "Version de format de motif inconnue %d."
 #, fuzzy, c-format
 msgid ""
 "Unsupported pattern depth %d.\n"
-"GIMP Patterns must be GRAY or RGB."
+"GNU I.M.P Patterns must be GRAY or RGB."
 msgstr ""
 "Profondeur de motif %d non prise en charge.\n"
 "Les motifs Glimpse doivent être TONS DE GRIS ou RVB."
@@ -18369,14 +18369,9 @@ msgstr "Séquence de caractères non valide dans l’URI"
 msgid "GNU I.M.P brush"
 msgstr "MyBrush"
 
-#: ../app/file-data/file-data.c:124
-#, fuzzy
-msgid "GIMP brush"
-msgstr "MyBrush"
-
 #: ../app/file-data/file-data.c:210 ../app/file-data/file-data.c:272
 #, fuzzy
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Ce n’est pas un fichier de brosse Glimpse"
 
 #: ../app/file-data/file-data.c:365
@@ -18386,7 +18381,7 @@ msgstr "Motif"
 
 #: ../app/file-data/file-data.c:426
 #, fuzzy
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Motif"
 
 #: ../app/gegl/gimp-babl.c:317 ../app/gegl/gimp-babl.c:318

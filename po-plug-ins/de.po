@@ -2410,7 +2410,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Es kann nicht mit unbekanntem Bildtyp gearbeitet werden."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "GIMP-Pinsel"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2573,7 +2573,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Der Standardkommentar ist auf %d Zeichen beschränkt."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "GIMP-Pinsel (animiert)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3074,7 +3074,7 @@ msgid "MNG animation"
 msgstr "MNG-Animation"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "GIMP-Muster"
 
 #: ../plug-ins/common/file-pat.c:287
@@ -13034,7 +13034,7 @@ msgstr "Daten werden vom Scanner/von Kamera übertragen"
 #~ msgid "Invalid header data in '%s': Brush name is too long: %lu"
 #~ msgstr "Ungültige Kopfdaten in »%s«: Pinselname ist zu lang: %lu"
 
-#~ msgid "Error in GIMP brush file '%s'"
+#~ msgid "Error in GNU I.M.P brush file '%s'"
 #~ msgstr "Fehler in der GIMP-Pinseldatei »%s«"
 
 #~ msgid "Invalid UTF-8 string in brush file '%s'."
@@ -13043,7 +13043,7 @@ msgstr "Daten werden vom Scanner/von Kamera übertragen"
 #~ msgid "Brush name is too long: %lu"
 #~ msgstr "Pinselname ist zu lang: %lu"
 
-#~ msgid "GIMP brush file appears to be corrupted."
+#~ msgid "GNU I.M.P brush file appears to be corrupted."
 #~ msgstr "Die GIMP-Pinseldatei scheint beschädigt zu sein."
 
 #~ msgid "Invalid header data in '%s': Pattern name is too long: %lu"

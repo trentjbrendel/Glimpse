@@ -2380,7 +2380,7 @@ msgid "Cannot operate on unknown image types."
 msgstr "Nie można pracować na nieznanych typach obrazów."
 
 #: ../plug-ins/common/file-gbr.c:109
-msgid "GIMP brush"
+msgid "GNU I.M.P brush"
 msgstr "Pędzel programu GIMP"
 
 #: ../plug-ins/common/file-gbr.c:316
@@ -2540,7 +2540,7 @@ msgid "The default comment is limited to %d characters."
 msgstr "Długość domyślnego komentarza jest ograniczona do %d znaków."
 
 #: ../plug-ins/common/file-gih.c:160
-msgid "GIMP brush (animated)"
+msgid "GNU I.M.P brush (animated)"
 msgstr "Pędzel programu GIMP (animowany)"
 
 #: ../plug-ins/common/file-gih.c:549
@@ -3024,7 +3024,7 @@ msgid "MNG animation"
 msgstr "Animacja MNG"
 
 #: ../plug-ins/common/file-pat.c:83
-msgid "GIMP pattern"
+msgid "GNU I.M.P Pattern"
 msgstr "Deseń programu GIMP"
 
 #: ../plug-ins/common/file-pat.c:287
