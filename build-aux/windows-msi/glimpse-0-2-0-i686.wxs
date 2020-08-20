@@ -893,10 +893,10 @@
 								<File Id="fil9474DDC119134A009E03884E9DD0EE19" DiskId="1" Source="InputFiles32\bin\libquadmath-0.dll" />
 							</Component>
 							<Component Id="cmp25801C746366080480F1C4826FA96033" Guid="*">
-								<File Id="fil939965BBBB4094CD5FFB63A85FE3C50F" DiskId="1" Source="InputFiles32\bin\libraw-19.dll" />
+								<File Id="fil939965BBBB4094CD5FFB63A85FE3C50F" DiskId="1" Source="InputFiles32\bin\libraw-20.dll" />
 							</Component>
 							<Component Id="cmp38A415493AC71A66CE34A034E14FA147" Guid="*">
-								<File Id="fil3B7CF79769E02697C4D38F712E62867E" DiskId="1" Source="InputFiles32\bin\libraw_r-19.dll" />
+								<File Id="fil3B7CF79769E02697C4D38F712E62867E" DiskId="1" Source="InputFiles32\bin\libraw_r-20.dll" />
 							</Component>
 							<Component Id="cmp14523673D59711629CE18F38BDE140EB" Guid="*">
 								<File Id="filE62BCAFD040FF712008C5BFA8CA28253" DiskId="1" Source="InputFiles32\bin\librbio.dll" />
