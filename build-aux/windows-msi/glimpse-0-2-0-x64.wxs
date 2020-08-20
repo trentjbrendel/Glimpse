@@ -550,10 +550,10 @@
 									<File Id="fil9474DDC119134A009E03884E9DD0EE19" DiskId="1" Source="InputFiles64\32\bin\libquadmath-0.dll" />
 								</Component>
 								<Component Id="cmp25801C746366080480F1C4826FA96033" Guid="*" Win64="yes">
-									<File Id="fil939965BBBB4094CD5FFB63A85FE3C50F" DiskId="1" Source="InputFiles64\32\bin\libraw-19.dll" />
+									<File Id="fil939965BBBB4094CD5FFB63A85FE3C50F" DiskId="1" Source="InputFiles64\32\bin\libraw-20.dll" />
 								</Component>
 								<Component Id="cmp38A415493AC71A66CE34A034E14FA147" Guid="*" Win64="yes">
-									<File Id="fil3B7CF79769E02697C4D38F712E62867E" DiskId="1" Source="InputFiles64\32\bin\libraw_r-19.dll" />
+									<File Id="fil3B7CF79769E02697C4D38F712E62867E" DiskId="1" Source="InputFiles64\32\bin\libraw_r-20.dll" />
 								</Component>
 								<Component Id="cmp14523673D59711629CE18F38BDE140EB" Guid="*" Win64="yes">
 									<File Id="filE62BCAFD040FF712008C5BFA8CA28253" DiskId="1" Source="InputFiles64\32\bin\librbio.dll" />
@@ -1958,10 +1958,10 @@
 								<File Id="filA5983D81FA83CA40ECCB7FC99756FAFC" DiskId="1" Source="InputFiles64\bin\libquadmath-0.dll" />
 							</Component>
 							<Component Id="cmp69120F0579661B710EC6C38452DCE989" Guid="*" Win64="yes">
-								<File Id="fil4B05F87C268B148E0FD7533987465129" DiskId="1" Source="InputFiles64\bin\libraw-19.dll" />
+								<File Id="fil4B05F87C268B148E0FD7533987465129" DiskId="1" Source="InputFiles64\bin\libraw-20.dll" />
 							</Component>
 							<Component Id="cmpFF504B37429D21903A769CC8A67546F6" Guid="*" Win64="yes">
-								<File Id="fil7055A570A8AD25A51F3771AC7949FCD2" DiskId="1" Source="InputFiles64\bin\libraw_r-19.dll" />
+								<File Id="fil7055A570A8AD25A51F3771AC7949FCD2" DiskId="1" Source="InputFiles64\bin\libraw_r-20.dll" />
 							</Component>
 							<Component Id="cmpE4D783DCA7C33D2C728734964E4197AF" Guid="*" Win64="yes">
 								<File Id="filF6D67C7996EA999CBA84A15C310D10AB" DiskId="1" Source="InputFiles64\bin\librbio.dll" />
