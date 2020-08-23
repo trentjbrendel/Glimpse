@@ -465,9 +465,6 @@
 							<Component Id="cmp040A9840D2FA771A6AAE9E1A72121D74" Guid="*">
 								<File Id="fil692970D5E6D3166B99352D8424109A0E" DiskId="1" Source="InputFiles32\bin\libcolamd.dll" />
 							</Component>
-							<Component Id="cmpFBD918258E7A537784860EAC6275C128" Guid="*">
-								<File Id="filEE465CEEA49D273C9B6D73B48B777A78" DiskId="1" Source="InputFiles32\bin\libcroco-0.6-3.dll" />
-							</Component>
 							<Component Id="cmp5F6A2A981446621CC4CDB6A3B6EAE0A0" Guid="*">
 								<File Id="fil3ABBF1189A53F3C25C7195024AFB8255" DiskId="1" Source="InputFiles32\bin\libcrypto-1_1.dll" />
 							</Component>
@@ -18459,7 +18456,6 @@
 			<ComponentRef Id="cmp8FA64174A0D6D53AA7A0AA1B61574B7E" />
 			<ComponentRef Id="cmp460770549CCD9E3655DD8C5426947E9D" />
 			<ComponentRef Id="cmp040A9840D2FA771A6AAE9E1A72121D74" />
-			<ComponentRef Id="cmpFBD918258E7A537784860EAC6275C128" />
 			<ComponentRef Id="cmp5F6A2A981446621CC4CDB6A3B6EAE0A0" />
 			<ComponentRef Id="cmpEE8BE2DD8B1EFDB02DFA591AF7368AB6" />
 			<ComponentRef Id="cmpA5D1FF50F4FFD1BFFA0BAA49F9EC9358" />
