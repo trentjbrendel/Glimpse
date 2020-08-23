@@ -20,7 +20,7 @@ For a detailed view of our changes, check the `NEWS` file.
 
 You can read more information about this and our ongoing release schedule at https://glimpse-editor.github.io/about/#how-does-your-release-numbering-work
 
-We also have a working group designing a completely new image editing program called "Glimpse NX", but it will be a number of years before that effort comes to fruition.
+We are also working on a similar project in parallel called "Glimpse NX". That will be provide a more lightweight and accessible user interface for the same components that the GNU Image Manipulation Program uses. Keep an eye on our social media accounts and blog for more details.
 
 ## How can I keep up to date with Glimpse's progress?
 Our official project website is now live at https://glimpse-editor.github.io.
