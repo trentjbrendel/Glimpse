@@ -39,9 +39,9 @@ The Glimpse project is strictly not-for-profit, and you can scrutinize all of ou
 Our primary objective is to expand the use of free software and help new people join the free software community. Replacing the GNU Image Manipulation Program is not our goal, and we believe that supporting and collaborating with the project we forked from is a more productive route forward.
 
 ### "Are you planning a complete rewrite?"
-Yes. There is a separate working group developing "Glimpse NX", which is a completely new image editing application. We will release more details about that once it graduates from the early design stages of development.
+Yes. There is a separate working group developing "Glimpse NX", which will provide a more lightweight and accessible user interface for the same components that the GNU Image Manipulation Program uses. We will release more details about that once it graduates from the early design stages of development.
 
-We estimate that it will be a number of years before Glimpse NX is ready, so we will continue forking the GNU Image Manipulation Program for the time being.
+We estimate that it could be a number of years before Glimpse NX is ready, so we will continue forking the GNU Image Manipulation Program for the time being.
 
 ## Ask for help
 There are a number of ways to request support:
