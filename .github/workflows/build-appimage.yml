@@ -33,6 +33,7 @@ jobs:
         run: |
           echo ::set-env name=SRC_PREFIX::${{ github.workspace }}
           echo ::set-env name=INSTALL_PREFIX::/usr
+          echo ::set-env name=GLIMPSE_VERSION::"${GITHUB_RUN_NUMBER}".git-"${GITHUB_SHA:0:7}" 
 
       - name: Clone BABL 0.1.78 from GNOME gitlab server
         run: git clone --depth=1 --branch BABL_0_1_78 https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl
@@ -95,7 +96,7 @@ jobs:
         uses: AppImageCrafters/build-appimage-action@master
         env:
           UPDATE_INFO: gh-releases-zsync|glimpse-editor|Glimpse|latest|*x86_64.AppImage.zsync
-          GLIMPSE_VERSION: latest
+          GLIMPSE_VERSION: ${{ env.GLIMPSE_VERSION }}
         with:
           recipe: 'AppImageBuilder.yml'
 

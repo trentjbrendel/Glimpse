@@ -123,3 +123,4 @@ AppDir:
 AppImage:
   arch: x86_64
   update-information: !ENV ${UPDATE_INFO}
+  file_name: !ENV Glimpse_Image_Editor-${GLIMPSE_VERSION}-x86_64.AppImage
