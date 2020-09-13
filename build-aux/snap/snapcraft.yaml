@@ -1,7 +1,7 @@
 name: glimpse-editor
 summary: Open Source Image Editor
 adopt-info: glimpse
-version: git
+version: 0.2.0
 description: |
   Glimpse is a freely distributed program for such tasks as photo
   retouching, image composition and image authoring.
