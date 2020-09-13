@@ -1,13 +1,12 @@
-name: Glimpse AppImage
+name: Glimpse In-Development AppImage
 
+# On each push to dev branch, the continuous AppImage is updated
 on:
   push:
-    branches: [ feature/appimage_package ]
-  pull_request:
-    branches: [ feature/appimage_package ]
+    branches: [ dev-g210 ]
 
 jobs:
-  build-linux-appimage:
+  build-linux-appimage-dev:
     runs-on: ubuntu-20.04
 
     steps:
@@ -100,13 +99,14 @@ jobs:
         with:
           recipe: 'AppImageBuilder.yml'
 
-      - name: Release AppImage
+      - name: Release In-Development AppImage
         uses: marvinpinto/action-automatic-releases@latest
         with:
-          title: AppImage
+          title: In-Development AppImage
           automatic_release_tag: continuous
           prerelease: true
           draft: false
           files: |
             Glimpse*.AppImage*
           repo_token: ${{ secrets.GITHUB_TOKEN }}
+    
