@@ -5,6 +5,9 @@
 
 This is our 0.2.x beta branch. This is the branch our pre-releases are tested.
 
+Overview of Changes in Glimpse 0.2.0 Release 2
+====================================
+* Uplifted GNOME Platform version in Flatpak from 3.36 to 3.38
 
 Overview of Changes in Glimpse 0.2.0
 ====================================
