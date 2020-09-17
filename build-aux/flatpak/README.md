@@ -7,12 +7,12 @@ The Glimpse source code comes with a Flatpak manifest (at `build-aux/flatpak/or
 Before building Glimpse, you need to install the required `Platform` and `Sdk` runtimes. You can find the required versions in the manifest. As of today, it says:
 
      "runtime": "org.gnome.Platform",
-     "runtime-version": "3.36",
+     "runtime-version": "3.38",
      "sdk": "org.gnome.Sdk",
 
 This means you need to install the runtimes with:
 
-      $ flatpak install flathub org.gnome.Platform//3.36 org.gnome.Sdk//3.36
+      $ flatpak install flathub org.gnome.Platform//3.38 org.gnome.Sdk//3.38
 
 From a Git clone of Glimpse, you can trivially build a Git snapshot with:
 
@@ -44,8 +44,8 @@ And replace it by something like the following (adapt to the actual release):
            {
              "type": "git",
              "url": "<https://github.com/glimpse-editor/glimpse>",
-             "tag": "0.1.2",
-             "commit": "30a4913df8e11635bfdb16029da2237e29e4053a"
+             "tag": "0.2.0",
+             "commit": "c508cdfe6c908070f55927bf16cd461c6451d4cb"
            }
          ],
        }

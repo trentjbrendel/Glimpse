@@ -22,8 +22,8 @@ jobs:
     - name: Add the Flathub repository
       run: sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-    - name: Install GNOME 3.36 SDK
-      run: sudo flatpak install -y flathub org.gnome.Platform//3.36 org.gnome.Sdk//3.36
+    - name: Install GNOME 3.38 SDK
+      run: sudo flatpak install -y flathub org.gnome.Platform//3.38 org.gnome.Sdk//3.38
 
     - name: Initialize git submodules
       run: |
