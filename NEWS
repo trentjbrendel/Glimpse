@@ -9,6 +9,7 @@ We use odd number release versions for builds on this branch as that assists us 
 
 Overview of Changes in Glimpse 0.2.1
 ====================================
+* Uplifted GNOME Platform version in Flatpak from 3.36 to 3.38
 * TO BE DETERMINED - Still in development
 
 Overview of Changes in Glimpse 0.2.0
