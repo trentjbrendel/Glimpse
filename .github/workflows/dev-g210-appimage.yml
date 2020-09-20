@@ -99,10 +99,10 @@ jobs:
         with:
           recipe: 'AppImageBuilder.yml'
 
-      - name: Release In-Development AppImage
+      - name: Release latest AppImage
         uses: marvinpinto/action-automatic-releases@latest
         with:
-          title: In-Development AppImage
+          title: Latest AppImage
           automatic_release_tag: continuous
           prerelease: true
           draft: false
