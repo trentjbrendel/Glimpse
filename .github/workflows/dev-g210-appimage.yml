@@ -30,9 +30,9 @@ jobs:
 
       - name: Set global environment variables
         run: |
-          echo ::set-env name=SRC_PREFIX::${{ github.workspace }}
-          echo ::set-env name=INSTALL_PREFIX::/usr
-          echo ::set-env name=GLIMPSE_VERSION::"${GITHUB_RUN_NUMBER}".git-"${GITHUB_SHA:0:7}" 
+          echo "SRC_PREFIX=${{ github.workspace }}" >> $GITHUB_ENV
+          echo "INSTALL_PREFIX=/usr" >> $GITHUB_ENV
+          echo "GLIMPSE_VERSION=${GITHUB_RUN_NUMBER}.git-${GITHUB_SHA:0:7}" >> $GITHUB_ENV
 
       - name: Clone BABL 0.1.78 from GNOME gitlab server
         run: git clone --depth=1 --branch BABL_0_1_78 https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl

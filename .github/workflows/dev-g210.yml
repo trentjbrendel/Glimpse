@@ -32,17 +32,18 @@ jobs:
       
     - name: Set global environment variables
       run: |
-        echo ::set-env name=SRC_PREFIX::${{ github.workspace }}
-        echo ::set-env name=INSTALL_PREFIX::${{ github.workspace }}/glimpse-prefix
-        echo ::set-env name=ARCH::"$(dpkg-architecture -qDEB_HOST_MULTIARCH 2> /dev/null)"
+        echo "SRC_PREFIX=${{ github.workspace }}" >> $GITHUB_ENV
+        echo "INSTALL_PREFIX=${{ github.workspace }}/glimpse-prefix" >> $GITHUB_ENV
+        echo "ARCH=$(dpkg-architecture -qDEB_HOST_MULTIARCH 2> /dev/null)" >> $GITHUB_ENV
         
     - name: Set build environment variables
       run: |
-        echo ::set-env name=PKG_CONFIG_PATH::$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/$ARCH/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH
-        echo ::set-env name=LD_LIBRARY_PATH::$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/$ARCH:$LD_LIBRARY_PATH
-        echo ::set-env name=ACLOCAL_FLAGS::"-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS"
-        echo ::set-env name=XDG_DATA_DIRS::$INSTALL_PREFIX/share:/usr/local/share:/usr/share
-        echo ::set-env name=PATH::$HOME/.local/bin:$INSTALL_PREFIX/bin:$PATH
+        echo "PKG_CONFIG_PATH=$INSTALL_PREFIX/lib/pkgconfig:$INSTALL_PREFIX/lib/$ARCH/pkgconfig:$INSTALL_PREFIX/share/pkgconfig:$PKG_CONFIG_PATH" >> $GITHUB_ENV
+        echo "LD_LIBRARY_PATH=$INSTALL_PREFIX/lib:$INSTALL_PREFIX/lib/$ARCH:$LD_LIBRARY_PATH" >> $GITHUB_ENV
+        echo "ACLOCAL_FLAGS=-I $INSTALL_PREFIX/share/aclocal $ACLOCAL_FLAGS" >> $GITHUB_ENV
+        echo "XDG_DATA_DIRS=$INSTALL_PREFIX/share:/usr/local/share:/usr/share" >> $GITHUB_ENV
+        echo "$HOME/.local/bin" >> $GITHUB_PATH
+        echo "$INSTALL_PREFIX/bin" >> $GITHUB_PATH
     
     - name: Clone BABL 0.1.78 from GNOME gitlab server
       run: git clone --depth=1 --branch BABL_0_1_78 https://gitlab.gnome.org/GNOME/babl.git $SRC_PREFIX/babl
@@ -150,7 +151,7 @@ jobs:
       with:
         path: Glimpse
         
-    - uses: msys2/setup-msys2@v1
+    - uses: msys2/setup-msys2@v2
       with:
         msystem: MINGW64
         update: true
@@ -184,7 +185,7 @@ jobs:
       with:
         path: Glimpse
         
-    - uses: msys2/setup-msys2@v1
+    - uses: msys2/setup-msys2@v2
       with:
         msystem: MINGW32
         update: true
